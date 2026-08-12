@@ -1,0 +1,48 @@
+iso3,unidad,feriados_2016,feriados_2026,exigibles_2016,exigibles_2026,estado_2016
+ARG,Buenos Aires,15.0,16.0,15.0,16.0,verificado
+AUS,Sídney,11.0,11.0,11.0,11.0,supuesto_sin_cambio
+AUT,Viena,14.0,13.0,14.0,13.0,verificado
+BEL,Bruselas,10.0,10.0,10.0,10.0,verificado
+BGR,Sofía,14.0,14.0,14.0,14.0,verificado
+BOL,Santa Cruz,12.0,12.0,12.0,12.0,verificado
+BRA,São Paulo,11.0,12.0,11.0,12.0,verificado
+CAN,Toronto,9.0,9.0,9.0,9.0,supuesto_sin_cambio
+CHE,Zúrich,9.0,9.0,9.0,9.0,supuesto_sin_cambio
+CHL,Santiago,15.0,16.0,15.0,16.0,verificado
+COL,Bogotá,18.0,18.0,18.0,18.0,supuesto_sin_cambio
+CRI,San José,11.0,11.0,9.0,9.0,verificado
+CZE,Praga,13.0,13.0,13.0,13.0,verificado_parcial
+DEU,Berlín,9.0,10.0,9.0,10.0,verificado
+DNK,Copenhague,11.0,10.0,0,0,verificado
+DOM,Santo Domingo,12.0,12.0,12.0,12.0,verificado_parcial
+ECU,Guayaquil,10.0,12.0,10.0,12.0,verificado
+ESP,Madrid,0,14.0,0,14.0,no_capturado
+FIN,Helsinki,13.0,13.0,13.0,13.0,verificado
+FRA,París,11.0,11.0,1.0,1.0,verificado_parcial
+GBR,Londres,8.0,8.0,8.0,8.0,verificado
+GRC,Atenas,4.0,9.0,4.0,9.0,verificado_parcial
+GTM,Ciudad de Guatemala,12.0,12.0,12.0,12.0,supuesto_sin_cambio
+HND,Tegucigalpa,11.0,11.0,11.0,11.0,supuesto_sin_cambio
+HUN,Budapest,10.0,11.0,10.0,11.0,verificado_parcial
+IDN,Yakarta,0,17.0,0,17.0,no_capturado
+IRL,Dublín,9.0,10.0,9.0,10.0,verificado
+ISR,Jerusalén,9.0,9.0,9.0,9.0,verificado_parcial
+ITA,Roma,12.0,12.0,12.0,12.0,verificado_parcial
+JPN,Tokio,16.0,16.0,0,0,verificado
+KOR,Seúl,1.0,18.0,1.0,18.0,verificado
+MEX,Ciudad de México,8.0,8.0,8.0,8.0,verificado_parcial
+NIC,Managua,11.0,12.0,11.0,12.0,verificado
+NLD,Ámsterdam,9.0,9.0,0,0,verificado
+NOR,Oslo,12.0,12.0,12.0,12.0,supuesto_sin_cambio
+NZL,Auckland,11.0,12.0,11.0,12.0,verificado_parcial
+PER,Lima,12.0,16.0,12.0,16.0,verificado
+POL,Varsovia,13.0,14.0,13.0,14.0,verificado
+PRT,Lisboa,9.0,13.0,9.0,13.0,verificado
+PRY,Asunción,12.0,13.0,12.0,13.0,verificado
+ROU,Bucarest,12.0,17.0,12.0,17.0,verificado_parcial
+SLV,San Salvador,11.0,11.0,11.0,11.0,verificado_parcial
+SVK,Bratislava,15.0,11.0,15.0,11.0,verificado
+SWE,Estocolmo,11.0,11.0,11.0,11.0,verificado
+THA,Bangkok,13.0,13.0,13.0,13.0,supuesto_sin_cambio
+TUR,Estambul,6.5,7.5,6.5,7.5,verificado
+USA,Nueva York,10.0,11.0,0,0,verificado

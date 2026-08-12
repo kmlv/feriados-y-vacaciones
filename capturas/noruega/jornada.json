@@ -1,0 +1,54 @@
+{
+  "_": "JORNADA SEMANAL LEGAL ORDINARIA. Trabajador de referencia: sector privado formal, jornada completa, Oslo. Lote 5. La ley fija horas, no dias.",
+  "unidad": "NOR",
+  "jurisdiccion_de_referencia": "Oslo",
+  "capturado_por": "jornada · lote 5",
+  "fecha_captura_utc": "2026-08-11T05:38:11Z",
+  "fuentes": {
+    "J1": {
+      "cita": "Lov om arbeidsmiljo, arbeidstid og stillingsvern mv. (arbeidsmiljoloven), LOV-2005-06-17-62, par. 10-4 - alminnelig arbeidstid",
+      "url": "https://lovdata.no/dokument/NL/lov/2005-06-17-62/KAPITTEL_11",
+      "nivel_de_fuente": 2,
+      "publicacion": "2005-06-17",
+      "literal_relevante": "Den alminnelige arbeidstid ma ikke overstige ni timer i lopet av 24 timer og 40 timer i lopet av sju dager.",
+      "nota": "Lovdata es el publicador electronico oficial del derecho noruego. Leido el capitulo 10 completo."
+    },
+    "J2": {
+      "cita": "Arbeidsmiljoloven, par. 10-8 - daglig og ukentlig arbeidsfri",
+      "url": "https://lovdata.no/lov/2005-06-17-62/%C2%A710-8",
+      "nivel_de_fuente": 2,
+      "nota": "Leidos los cinco apartados. El (4) es el que trae el domingo y ademas la regla de rotacion de domingos."
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 40,
+    "horas_semanales_max_nota": "40 es la regla general. La misma norma baja a 38 para turno continuo de 24 horas y trabajo por turnos comparable, y a 36 para turno continuo total y trabajo bajo tierra. La semana real de 37,5 horas del trabajador noruego es de CONVENIO (tariffavtale), no de ley.",
+    "horas_diarias_max": 9,
+    "horas_diarias_max_nota": "9 horas en cada 24, no 8. Noruega es de los pocos que fija el techo diario por encima de la octava parte de la semana.",
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "§ 10-4. (1) Den alminnelige arbeidstid ma ikke overstige ni timer i lopet av 24 timer og 40 timer i lopet av sju dager.",
+    "traduccion": "Art. 10-4. (1) La jornada ordinaria no podra exceder de nueve horas a lo largo de 24 horas ni de 40 horas a lo largo de siete dias.",
+    "fuente": "J1",
+    "nota": "AQUI EL NULL NO ADMITE DISCUSION Y LA ARITMETICA LO CONFIRMA. La ley noruega fija dos topes -9 al dia y 40 a la semana- y no dice nada sobre el reparto. Ademas la division ni siquiera da un entero: 40 entre 9 son 4,4 dias. No hay numero de dias que derivar ni numero de dias que la ley declare. Los cinco dias de lunes a viernes con 7,5 horas que vive el trabajador noruego medio salen del convenio colectivo, y en este archivo eso no cuenta. || Notese la construccion 'i lopet av sju dager' -a lo largo de siete dias-, no 'por semana calendario': es una ventana movil, no un cuadro de lunes a domingo."
+  },
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "uno de cada siete, sin nombrar en firme; el domingo esta declarado como preferencia",
+    "literal": "§ 10-8. (2) Arbeidstaker skal ha en sammenhengende arbeidsfri periode pa 35 timer i lopet av sju dager. || (4) Arbeidsfri som nevnt i andre ledd skal sa vidt mulig omfatte sondag. Arbeidstaker som har utfort son- og helgedagsarbeid, skal ha arbeidsfri folgende son- og helgedagsdogn.",
+    "traduccion": "Art. 10-8. (2) El trabajador tendra un periodo continuo libre de trabajo de 35 horas a lo largo de siete dias. || (4) El descanso mencionado en el apartado segundo comprendera en la medida de lo posible el domingo. El trabajador que haya realizado trabajo en domingo o dia festivo tendra libre el siguiente periodo de domingo o festivo.",
+    "fuente": "J2",
+    "nota": "La ley mide el descanso semanal en HORAS -35 continuas- y no en dias, que es coherente con no fijar los dias de trabajo. El domingo va con 'sa vidt mulig' -en la medida de lo posible-, o sea preferencia y no mandato. El propio apartado (4) permite pactar por escrito una rotacion que deje libre en promedio uno de cada dos domingos y festivos sobre 26 semanas, con al menos un domingo o festivo libre cada cuarta semana. El par. 10-10 anade la regla de cierre: libre desde las 18:00 de la vispera de domingo o festivo hasta las 22:00 de la vispera del siguiente dia laborable."
+  },
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": "se pierde",
+    "alcance": null,
+    "literal": null,
+    "fuente": "J2",
+    "nota": "No hay norma general que traslade ni compense un festivo caido en domingo. Los festivos noruegos los declaran la lov om helligdager og helligdagsfred de 1995 y la lov om 1 og 17 mai som hogtidsdagar de 1947, que los equiparan al domingo a efectos de prohibicion de trabajo; equiparar no es trasladar. Un helligdag en domingo se funde con el domingo y no genera nada. || El unico mecanismo compensatorio del capitulo 10 va en direccion contraria: el par. 10-8 (4) da descanso a quien TRABAJO el domingo o el festivo, no a quien lo perdio por coincidencia de calendario."
+  },
+  "reformas_en_la_ventana": [],
+  "reformas_en_la_ventana_nota": "Lista vacia a proposito y no por falta de busqueda. El par. 10-4 no se ha modificado entre 2016 y 2026: sigue diciendo nueve horas en 24 y cuarenta en siete dias. El paquete de reformas que si toco la arbeidstidsloven -ampliacion de horas extra y del calculo promediado, LOV-2015-04-24-20- entro en vigor el 01-07-2015, justo ANTES de la ventana. Las modificaciones posteriores relevantes de la ley (2022 sobre plantilla base y contratacion, 2023 sobre condicion de trabajador y grupos de empresa, 2024 en transposicion de la directiva europea de condiciones laborales transparentes) no tocan la jornada ordinaria del par. 10-4 ni el descanso del par. 10-8.",
+  "pendiente": "No se hizo un recorrido articulo por articulo del historial de modificaciones del par. 10-4 en Lovdata; la afirmacion de que no cambio en la ventana descansa en el texto vigente leido y en la ausencia de referencias a modificaciones en ese apartado. Tampoco se leyeron en literal la lov om helligdager og helligdagsfred de 1995 ni la lov om 1 og 17 mai de 1947, citadas para descartar el traslado."
+}

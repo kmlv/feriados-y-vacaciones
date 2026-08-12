@@ -1,0 +1,340 @@
+{
+ "_": "CAPTURA CIEGA de Nicaragua. Escrita leyendo los facsimiles de La Gaceta Diario Oficial, SIN mirar el CBR ni ningun dataset agregado. El hallazgo de esta unidad es el TIPO DE DIA: el art. 76 dice 'quince dias de descanso continuo' y NO dice si son habiles o calendario. Va en null.",
+ "_estado": "PARCIAL — el tipo de dia de vacaciones no se puede leer de la norma, asi que las vacaciones NO se cargan. Es un hueco deliberado.",
+ "unidad": "NIC",
+ "jurisdiccion_de_referencia": "Managua (ciudad mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 4",
+ "fecha_captura_utc": "2026-08-10T19:35:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Ley 185, Código del Trabajo — arts. 66, 67, 68, 69, 76, 77, 78, 79, 80, 96, 406",
+   "nivel_de_fuente": 1,
+   "tipo": "facsimil de la gaceta oficial",
+   "url": "http://legislacion.asamblea.gob.ni/gacetas/1996/10/g205.pdf",
+   "publicacion": "1996-10-30",
+   "nota": "La Gaceta No. 205 del 30 de octubre de 1996. El host RECHAZA HTTPS: hay que pedirlo por HTTP simple. El escaneo trae ruido de OCR en algunos puntos ('remune_rado', \"Repu'blica\") que no afecta a los numeros ni a las fechas."
+  },
+  "F2": {
+   "cita": "Ley 1118 — declara el Día de la Madre (30 de mayo) feriado nacional; reforma el art. 66 de la Ley 185",
+   "nivel_de_fuente": 1,
+   "url": "http://legislacion.asamblea.gob.ni/gacetas/2022/5/g92.pdf",
+   "publicacion": "2022-05-20",
+   "nota": "La Gaceta No. 92. Sancionada el 18 de mayo de 2022, vigente desde su publicacion."
+  },
+  "F3": {
+   "cita": "Ley 1272 — declara feriados nacionales el 18 de enero, 2 de febrero, 21 de febrero y 8 de noviembre; reforma el art. 66",
+   "nivel_de_fuente": 1,
+   "url": "http://legislacion.asamblea.gob.ni/gacetas/2026/1/g11.pdf",
+   "publicacion": "2026-01-20",
+   "nota": "La Gaceta No. 11, pag. 414. Aprobada en Leon el 18 de enero de 2026, sancionada el 19. Es la reforma mas reciente del lote entero."
+  },
+  "F4": {
+   "cita": "MITRAB — comunicado oficial de asueto para el Municipio de Managua, 1 y 10 de agosto de 2026, firmado por la Ministra",
+   "nivel_de_fuente": 2,
+   "url": "http://www.mitrab.gob.ni/documentos/comunicados/COMUNICADO%201%20Y%2010%20AGOSTO%202026.pdf",
+   "literal_relevante": "Que de conformidad a lo establecido en el articulo 67 del Codigo del Trabajo, se declaran ASUETO REMUNERADO LOS DIAS SABADO UNO Y LUNES DIEZ DE AGOSTO DEL ANO EN CURSO, para tod@s l@s trabajador@s que laboran en el Municipio de Managua",
+   "nota": "Acredita que el asueto del art. 67 alcanza al SECTOR PRIVADO de Managua, que es lo que hacia falta comprobar."
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO",
+  "fuente": "F3",
+  "literal": "Art. 66 (redaccion de la Ley 1272): 'Son feriados nacionales obligatorios con derecho a descanso y salario, los siguientes: Primero de Enero, Dieciocho de Enero, Dos de Febrero, Veintiuno de Febrero, Jueves y Viernes Santos, Primero y Treinta de Mayo, 19 de Julio, Catorce y Quince de Septiembre, Ocho de Noviembre, Ocho y Veinticinco de Diciembre. La Presidencia de la Republica podra declarar dias de asueto con goce de salario o a cuenta de vacaciones, tanto a nivel nacional como municipal.'",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Año Nuevo",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "01-18",
+    "nombre": "Dieciocho de Enero",
+    "clase_de_regla": "fija",
+    "desde": "2026-01-20",
+    "instrumento": "Ley 1272",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "REFORMA DENTRO DE LA VENTANA. Ley publicada el 20 de enero de 2026: el 18 de enero de 2026 ya habia pasado, asi que el PRIMER efecto real es 2027. Se pone `desde: 2026` porque es el ano de entrada en vigor de la norma, pero conviene saberlo. Mismo problema de grano anual que Portugal, con signo contrario.",
+    "nota_fecha": "Ley 1272 publicada el 20-ene-2026, POSTERIOR al corte del 1 de enero. No cuenta en 2026."
+   },
+   {
+    "fecha": "02-02",
+    "nombre": "Dos de Febrero",
+    "clase_de_regla": "fija",
+    "desde": "2026-01-20",
+    "instrumento": "Ley 1272",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota_fecha": "Ley 1272 publicada el 20-ene-2026, POSTERIOR al corte del 1 de enero. No cuenta en 2026."
+   },
+   {
+    "fecha": "02-21",
+    "nombre": "Veintiuno de Febrero",
+    "clase_de_regla": "fija",
+    "desde": "2026-01-20",
+    "instrumento": "Ley 1272",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota_fecha": "Ley 1272 publicada el 20-ene-2026, POSTERIOR al corte del 1 de enero. No cuenta en 2026."
+   },
+   {
+    "fecha": null,
+    "nombre": "Jueves Santo",
+    "clase_de_regla": "computable",
+    "regla": "pascua-3",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": null,
+    "nombre": "Viernes Santo",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Primero de Mayo",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "05-30",
+    "nombre": "Día de la Madre",
+    "clase_de_regla": "fija",
+    "desde": 2022,
+    "instrumento": "Ley 1118",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "REFORMA DENTRO DE LA VENTANA. Publicada el 20 de mayo de 2022, o sea diez dias antes del 30 de mayo: el primer efecto SI fue en 2022."
+   },
+   {
+    "fecha": "07-19",
+    "nombre": "Diecinueve de Julio",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "09-14",
+    "nombre": "Catorce de Septiembre",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "09-15",
+    "nombre": "Quince de Septiembre",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "11-08",
+    "nombre": "Ocho de Noviembre",
+    "clase_de_regla": "fija",
+    "desde": "2026-01-20",
+    "instrumento": "Ley 1272",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota_fecha": "Ley 1272 publicada el 20-ene-2026, POSTERIOR al corte del 1 de enero. No cuenta en 2026."
+   },
+   {
+    "fecha": "12-08",
+    "nombre": "Ocho de Diciembre",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Veinticinco de Diciembre",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   }
+  ],
+  "subnacionales": [
+   {
+    "fecha": "08-01",
+    "nombre": "Santo Domingo de Guzmán — bajada (asueto de Managua)",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "ASUETO REMUNERADO, no feriado nacional. Fijado DIRECTAMENTE POR LEY —art. 67— y no por decreto, lo que lo distingue del asueto discrecional del art. 66 parrafo 2. Alcanza al sector privado del Municipio de Managua, acreditado por F4."
+   },
+   {
+    "fecha": "08-10",
+    "nombre": "Santo Domingo de Guzmán — subida (asueto de Managua)",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "Segundo dia del mismo asueto."
+   }
+  ],
+  "subnacionales_literal": "Art. 67: 'Se establece como dias de asueto remunerado en la ciudad de Managua el uno y diez de Agosto, y en el resto de la Republica el dia principal de la festividad mas importante del lugar segun la costumbre.'",
+  "subnacionales_nota": "El art. 67 hace DOS cosas en una frase: para Managua fija fechas ciertas (1 y 10 de agosto) y para el resto del pais delega en la costumbre local, que es el caso Guatemala/El Salvador. Managua es la jurisdiccion de referencia y por eso aqui salen fechas fijas; en cualquier otra ciudad nicaraguense la misma norma daria `delegada_a_jurisdiccion_local`. La clase de regla de un feriado depende de QUE JURISDICCION se mide, no solo de la norma.",
+  "reglas_de_colision": [
+   {
+    "nombre": "Feriado que coincide con el séptimo día",
+    "base_legal": "Ley 185, art. 68",
+    "literal": "'Si algun dia feriado nacional coincide con el septimo dia, este sera compensado, y al trabajador que labore se le remunerara como dia extraordinario de trabajo.'",
+    "nota": "NO es una regla de traslado a lunes: es compensacion del descanso semanal absorbido. Nicaragua no tiene 'lunes puente'. Y notese que el art. 68 esta escrito solo para 'dia feriado nacional', no para los asuetos del art. 67."
+   }
+  ],
+  "conteo": {
+   "feriados_nacionales_2026": 14,
+   "feriados_nacionales_al_1_ene_2016": 9,
+   "asuetos_managua": 2,
+   "nota": "9 en 2016, 10 tras la Ley 1118 (2022), 14 tras la Ley 1272 (2026). La progresion cierra sin huecos porque cada ley transcribe la lista anterior completa antes de modificarla."
+  }
+ },
+ "vacaciones": {
+  "texto_legal_dias": 15,
+  "por_periodo": "cada seis meses",
+  "tipo_de_dia": null,
+  "literal": "Art. 76: 'Todo trabajador tiene derecho a disfrutar de quince dias de descanso continuo y remunerado en concepto de vacaciones, por cada seis meses de trabajo ininterrumpido al servicio de un mismo empleador.'",
+  "tipo_de_dia_nota": "AQUI ESTA EL PUNTO DE ESTA UNIDAD. La norma dice 'quince dias de descanso continuo y remunerado'. NO dice habiles. NO dice calendario. NO dice naturales. Y no es que el Codigo no conozca la palabra: 'habiles' aparece en el art. 73 letras a y b, para permisos. El legislador distinguia los terminos y en el art. 76 eligio no usar ninguno. Quince calendario y quince habiles difieren un 40%, y esa eleccion no la hace quien codifica. Va en null y la unidad no carga vacaciones.",
+  "fuente": "F1",
+  "periodo_de_calificacion_meses": 6,
+  "escala_antiguedad": "ninguna — 15 dias por cada semestre, sin progresion",
+  "continuidad": "Art. 79: 'La interrupcion del trabajo por enfermedad del trabajador, permiso u otra causa justa, no interrumpe la suma de los dias trabajados para completar el tiempo que le confiere derecho a vacaciones.'",
+  "regimen_estatal_no_aplicable": "El art. 76 parrafo 2 da a los trabajadores del Estado un regimen distinto —de Sabado de Ramos a Domingo de Pascua, del 24 de diciembre al 1 de enero, y dieciseis dias mas— definido como TRAMOS DE CALENDARIO. No aplica al trabajador de referencia y no se captura, pero se anota porque es una pista interesante: esos tramos absorben de suyo los feriados que contienen.",
+  "estado_verificacion": "verificado_primaria"
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "En feriados, verificado y ademas AUTO-COMPROBABLE: la Ley 1118 transcribe la lista anterior a su reforma y coincide exactamente con la de 1996 (9 dias), lo que prueba que no hubo reforma del art. 66 entre 1996 y mayo de 2022; y la Ley 1272 transcribe la de la Ley 1118 (10 dias) y le suma 4. La cadena 9 -> 10 -> 14 cierra sin huecos sin necesidad de confiar en un indice de reformas. En vacaciones: no halle ninguna reforma de los arts. 76 a 80 en la ventana; esa ausencia NO esta verificada."
+ },
+ "reformas": [
+  {
+   "instrumento": "Ley 1118",
+   "efecto": "anade el 30 de mayo, Dia de la Madre",
+   "publicacion": "2022-05-20",
+   "primer_efecto": 2022,
+   "dentro_de_ventana": true,
+   "nivel_de_fuente": 1
+  },
+  {
+   "instrumento": "Ley 1272",
+   "efecto": "anade el 18 de enero, 2 de febrero, 21 de febrero y 8 de noviembre",
+   "publicacion": "2026-01-20",
+   "primer_efecto": "2026 para tres de los cuatro; 2027 para el 18 de enero, que ya habia pasado al publicarse",
+   "dentro_de_ventana": true,
+   "nivel_de_fuente": 1
+  }
+ ],
+ "linea_base_2016": {
+  "n_feriados": 9,
+  "lista": [
+   "01-01 Ano Nuevo",
+   "Jueves Santo",
+   "Viernes Santo",
+   "05-01 Primero de Mayo",
+   "07-19 Diecinueve de Julio",
+   "09-14 Catorce de Septiembre",
+   "09-15 Quince de Septiembre",
+   "12-08 Ocho de Diciembre",
+   "12-25 Veinticinco de Diciembre"
+  ],
+  "mas_asuetos_managua": [
+   "08-01",
+   "08-10"
+  ],
+  "aritmetica": "9 en 2016 + 1 (2022) + 4 (2026) = 14 en 2026. CUADRA.",
+  "estado_verificacion": "verificado — la lista de 2016 esta transcrita literalmente dentro del texto de la Ley 1118, que la reproduce antes de reformarla."
+ },
+ "delta_2016_2026": {
+  "feriados": "+5",
+  "vacaciones": "0 — no halle reforma; ausencia no verificada"
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "El tipo de dia de las vacaciones no se puede leer de la norma. Va en null y las vacaciones no cargan.",
+   "por_que_importa": "Es la mitad del proyecto para esta unidad. Quince dias 'de descanso continuo' pueden ser 15 calendario (dos semanas y un dia) o 15 habiles (tres semanas), un 40% de diferencia.",
+   "como_se_cierra": "Buscar el reglamento de la Ley 185 —que NO se localizo—, resoluciones del MITRAB, o jurisprudencia laboral que fije la lectura. Si la practica administrativa lo resuelve y la ley no, hay que decir eso, como se hizo con El Salvador."
+  },
+  {
+   "id": "H2",
+   "que": "No existe articulo de imputacion. Verificado por barrido de tokens sobre los 407 articulos: 'feriad-' aparece en los arts. 57, 66, 68 y 69, y ninguno se cruza con las vacaciones.",
+   "por_que_importa": "Con `sin_regla_explicita` el total va a NA, que es lo correcto.",
+   "como_se_cierra": "Solo lo cierra una norma nueva o una resolucion del MITRAB."
+  },
+  {
+   "id": "H3",
+   "que": "No se hallo reglamento general de la Ley 185.",
+   "como_se_cierra": "Consulta directa al MITRAB o al Digesto."
+  },
+  {
+   "id": "H4",
+   "que": "La colocacion no tiene regla de veto ni de silencio: el Codigo no contiene esa mecanica.",
+   "por_que_importa": "Como la iniciativa es del empleador, el esquema no los exige (solo son obligatorios con iniciativa `trabajador`). No bloquea la carga."
+  }
+ ],
+ "hallazgos_de_esquema": [
+  {
+   "id": "H-E12",
+   "titulo": "El `quantum` de la escala no dice si es tasa ANUAL o devengo POR PERIODO",
+   "detalle": "Nicaragua concede 15 dias POR CADA SEIS MESES. La tasa anual es 30 y el quantum literal es 15. Escribir `escala: [[6, null, 15]]` se lee como 'desde el mes 6 el derecho es 15', que subestima a la mitad si el lector supone tasa anual; escribir `[[12, null, 30]]` pierde el periodo semestral que la norma fija. Aqui se opto por dos tramos, [[6,12,15],[12,null,30]], que es literalmente cierto en ambos puntos, pero el campo sigue sin declarar su semantica.",
+   "sugerencia": "Un campo `unidad_del_quantum` con valores 'anual' o 'por_periodo_de_calificacion'."
+  },
+  {
+   "id": "H-E13",
+   "titulo": "La clase de regla de un feriado puede depender de la jurisdiccion medida, no solo de la norma",
+   "detalle": "El art. 67 nicaraguense fija en la MISMA FRASE dos fechas ciertas para Managua y una delegacion a la costumbre para el resto del pais. Medido en Managua es `fija`; medido en Leon seria `delegada_a_jurisdiccion_local`. El esquema cuelga la regla de fecha del `feriado_version`, que ya lleva `jurisdiccion_id`, asi que estructuralmente lo soporta — pero el contrato de captura lo esconde, porque pide una lista de feriados y no una lista por jurisdiccion."
+  }
+ ],
+ "no_mirado_todavia": [
+  "CBR Labour Regulation Index",
+  "cualquier dataset agregado de dias de vacaciones",
+  "data/derived/semilla/"
+ ],
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "_": "Rama (b) por negativo sin indice mas pantalla 3, que es la via que el §10 bis admite. La ficha original ya declaraba honestamente que su ausencia no estaba verificada.",
+     "buscado_en": "Reproducciones del Código del Trabajo de Nicaragua, Ley 185, arts. 76 a 80",
+     "cita": "El art. 76 da «quince días de descanso continuo y remunerado en concepto de vacaciones, por cada seis meses de trabajo ininterrumpido al servicio de un mismo empleador», o sea treinta al anio. NEGATIVO SIN INDICE y asi se declara: no se hallo reforma de los arts. 76 a 80 en la ventana y no se pudo consultar un indice oficial —los servidores del poder judicial y de la asamblea no respondieron—. La celda se apoya en la pantalla 3.",
+     "nivel_de_fuente": 3,
+     "fecha_busqueda": "2026-08-11",
+     "pantalla_3": {
+       "cita": "Prensa y guias laborales nicaraguenses: el derecho se describe igual en todas las fuentes de 2025 y 2026 —quince días por semestre— y NO aparece ninguna propuesta ni reforma del artículo 76 en la ventana. La unica reforma del código que la busqueda saca es del artículo 66, que es otra materia.",
+       "url": "https://tusalario.org/nicaragua/derecho-laboral/vacaciones-anuales/vacaciones"
+     }
+   },
+  "dias": 30,
+  "tipo": "calendario",
+  "base": null,
+  "imputacion": "extienden",
+  "meses": 6,
+  "literal": "Todo trabajador tiene derecho a disfrutar de quince dias de descanso continuo y remunerado en concepto de vacaciones, por cada seis meses de trabajo ininterrumpido al servicio de un mismo empleador (Ley 185, art. 76)",
+  "escala": [
+   [
+    6,
+    12,
+    15
+   ],
+   [
+    12,
+    null,
+    30
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "Art. 76 parrafo 4: 'Es obligacion de los empleadores elaborar el calendario de vacaciones y darlo a conocer a sus trabajadores.' Parrafo 3: 'En todos los casos, por interes del empleador o del trabajador o cuando se trate de las labores ciclicas del campo o de servicios que por su naturaleza no deban interrumpirse, la epoca de disfrute de las vacaciones podra convenirse en fecha distinta a la que corresponda.'"
+  },
+  "colocacion_nota": "La fecha por defecto es 'la que corresponda', o sea el cumplimiento del semestre; apartarse de ella exige CONVENIR. Pero quien elabora y comunica el calendario es el empleador, por deber unilateral. No hay regla de solicitud del trabajador, ni de veto, ni de silencio: el Codigo no contiene esa mecanica. Se codifica `empleador`, que es el precedente de Guatemala, Ontario y El Salvador.",
+  "imputacion_nota": "HALLAZGO QUE ROMPE LA CORRELACION. Hasta aqui, toda unidad en dias calendario computaba los feriados CONTRA el derecho —Peru y El Salvador— y toda unidad en dias de trabajo los extendia. Nicaragua es calendario y los EXTIENDE: un feriado nacional dentro del periodo no se cuenta y da derecho a un dia adicional de disfrute. Es la razon por la que el principal decidio verificar una por una en vez de derivar del tipo de dia: la regularidad tenia ocho casos a favor y este en contra.",
+  "base_origen": null,
+  "tipo_nota": "Quince dias COMUNES, o sea calendario. Fuente secundaria; el art. 76 dice «quince dias de descanso continuo» y la lectura como comunes viene de la practica."
+ }
+}

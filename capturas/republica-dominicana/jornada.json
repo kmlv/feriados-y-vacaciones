@@ -1,0 +1,49 @@
+{
+ "_": "JORNADA SEMANAL LEGAL ORDINARIA de Republica Dominicana. Trabajador de referencia: sector privado formal, jornada completa, Santo Domingo.",
+ "unidad": "DOM",
+ "jurisdiccion_de_referencia": "Santo Domingo (Distrito Nacional)",
+ "capturado_por": "jornada · lote 1",
+ "fecha_captura_utc": "2026-08-11T05:55:37Z",
+ "fuentes": {
+  "J1": {
+   "cita": "Código de Trabajo de la República Dominicana (Ley 16-92), arts. 146, 147, 148, 163, 164 y 165",
+   "url": "https://mt.gob.do/wp-content/uploads/2024/07/codigo_de_trabajo.pdf",
+   "nivel_de_fuente": 2,
+   "nota": "Edicion oficial del Ministerio de Trabajo, publicada en su propio dominio. No es la Gaceta Oficial, por eso nivel 2."
+  },
+  "J2": {
+   "cita": "Ley No. 139-97, mediante la cual los días feriados del calendario que coincidan con los días martes y miercoles, jueves o viernes seran trasladados de fecha",
+   "url": null,
+   "nivel_de_fuente": 4,
+   "publicacion": "1997-06-25",
+   "nota": "NIVEL 4 Y NO SE CITA LITERAL. No consegui el dispositivo: la Gaceta Oficial 9957 no fue alcanzable y las reproducciones que aparecen son de repositorios comerciales. Lo que se afirma de esta ley abajo esta descrito, no entrecomillado, y no sostiene el valor de traslado_por_defecto, que descansa en el art. 165 del Codigo (J1). PENDIENTE localizar el texto."
+  }
+ },
+ "jornada": {
+  "horas_semanales_max": 44,
+  "horas_diarias_max": 8,
+  "dias_ordinarios": 5.5,
+  "dias_ordinarios_origen": "norma",
+  "literal": "Art. 147 CT: 'La duracion normal de la jornada de trabajo es la determinada en el contrato. No podra exceder de ocho horas por dia ni de cuarenta y cuatro horas por semana. La jornada semanal de trabajo terminara a las doce horas meridiano del dia sabado. No obstante, el Secretario de Estado de Trabajo podra disponer mediante resolucion que, en atencion a los requerimientos de ciertos tipos de empresas o negocios y a las necesidades sociales y economicas de las distintas regiones del pais, y previa consulta con los representantes de los trabajadores, la jornada semanal de determinados establecimientos termine a una hora diferente a la arriba senalada.'",
+  "traduccion": null,
+  "fuente": "J1",
+  "nota": "Este es de los casos limpios: la ley no deja que la semana se adivine, la cierra ella misma. Dice cuanto (44), dice el tope diario (8) y dice CUANDO TERMINA la semana, al mediodia del sabado. De ahi salen cinco dias completos mas la manana del sabado, y 44 sobre 8 da exactamente ese 5,5. La primera frase del articulo conviene leerla con cuidado: la duracion normal 'es la determinada en el contrato', o sea que 44 y 8 son techos y el contrato puede quedar por debajo. La jornada se reduce a 6 diarias y 36 semanales en tareas declaradas peligrosas o insalubres (art. 148), sin rebaja de salario."
+ },
+ "descanso_semanal": {
+  "dias": 1.5,
+  "cuales": "por defecto desde el sabado a mediodia; puede convenirse que empiece cualquier otro dia",
+  "literal": "Art. 163 CT: 'Todo trabajador tiene derecho a un descanso semanal ininterrumpido de treinta y seis horas. Este descanso sera el convenido entre las partes y puede iniciarse cualquier dia de la semana. A falta de convencion expresa, se inicia a partir del sabado a mediodia.'",
+  "fuente": "J1",
+  "nota": "La ley cuenta el descanso en horas, no en dias: 36 horas ininterrumpidas, que son dia y medio. Y no nombra el dia — nombra un DEFECTO, el sabado a mediodia, que las partes pueden desplazar. Encaja con el art. 147: si la semana termina el sabado al mediodia y el descanso son 36 horas desde ahi, el trabajador vuelve el lunes por la manana. Si trabaja en su descanso, el art. 164 le da a elegir entre el salario ordinario aumentado en cien por ciento o un descanso compensatorio igual en la semana siguiente."
+ },
+ "traslado_por_defecto": {
+  "existe": true,
+  "regla": "se pierde",
+  "alcance": "todos los feriados que coincidan con el descanso semanal",
+  "literal": "Art. 165 CT: 'Los dias declarados no laborables por la Constitucion o las leyes, son de descanso remunerado para el trabajador, salvo que coincidan con el dia de descanso semanal.'",
+  "fuente": "J1",
+  "nota": "ESTE ES EL DATO, y es raro encontrarlo tan explicito. La mayoria de los paises no dice nada sobre el feriado que cae en el descanso semanal y hay que deducir que se pierde; Republica Dominicana lo dice con todas las letras y lo dice como excepcion expresa: 'salvo que coincidan con el dia de descanso semanal'. No hay traslado ni compensacion; el feriado se absorbe. — Ojo con no confundirlo con la Ley 139-97, que si mueve feriados pero para otra cosa: adelanta al lunes anterior los que caen martes o miercoles y pospone al lunes siguiente los que caen jueves o viernes, con una lista de inamovibles. Esa ley opera sobre dias laborables para armar fines de semana largos; no rescata el feriado que cayo en sabado o domingo. El resultado neto es que el trabajador dominicano nunca recupera un feriado que cae en su descanso."
+ },
+ "reformas_en_la_ventana": [],
+ "pendiente": "Tres. (1) No localice el texto de la Ley 139-97 en fuente oficial, asi que su descripcion no lleva literal y va en nivel 4. (2) El Codigo se leyo en la edicion del Ministerio de Trabajo, no en la Gaceta Oficial. (3) Entre 2016 y 2026 no encontre reforma de la jornada: la reduccion a 40 horas se propuso en el debate de reforma del Codigo (2023) pero no consta aprobada; queda como negativa verificada solo por busqueda, no por rastreo de la Gaceta."
+}

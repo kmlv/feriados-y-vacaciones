@@ -1,0 +1,259 @@
+{
+  "_": "CAPTURA CIEGA de Rumania (Bucarest). Escrita leyendo el articulado del Codul muncii (Legea 53/2003) y las cuatro leyes que ampliaron el art. 139 dentro de la ventana, SIN mirar el indice del CBR ni ningun dataset agregado de vacaciones.",
+  "_estado": "COMPLETA. Imputacion VERIFICADA con literal explicito (art. 145 alin. 3). Un hueco de esquema serio y declarado: la PASCUA de esta unidad es la ORTODOXA y `ancla: pascua` no distingue el computo.",
+  "unidad": "ROU",
+  "jurisdiccion_de_referencia": "Bucarest — ciudad mas poblada",
+  "captura_ciega": true,
+  "capturado_por": "captura · lote 5",
+  "fecha_captura_utc": "2026-08-10T14:55:00Z",
+  "fuentes": {
+    "F1": {
+      "cita": "Legea nr. 53/2003 — Codul muncii, republicata — art. 139 (sarbatorile legale), art. 145 (durata concediului de odihna), arts. 146, 147, 148 (programarea)",
+      "nivel_de_fuente": 3,
+      "tipo": "compilaciones juridicas con texto consolidado y con anotacion de la ley modificatoria por inciso",
+      "url": "https://www.codulmuncii.eu/titlu-3/capitol-2/sectiune-3/articol-139.html",
+      "literal_relevante": "Art. 145 alin. (1) «Durata minima a concediului de odihna anual este de 20 de zile lucratoare.» alin. (2) «Durata efectiva a concediului de odihna anual se stabileste in contractul individual de munca, cu respectarea legii si a contractelor colective aplicabile, si se acorda proportional cu activitatea prestata intr-un an calendaristic.» alin. (3) «Sarbatorile legale in care nu se lucreaza, precum si zilele libere platite stabilite prin contractul colectiv de munca aplicabil nu sunt incluse in durata concediului de odihna anual.» Art. 139 alin. (2) «Acordarea zilelor libere se face de catre angajator.» Art. 148 alin. (1) «Efectuarea concediului de odihna se realizeaza in baza unei programari colective sau individuale stabilite de angajator cu consultarea sindicatului sau, dupa caz, a reprezentantilor salariatilor, pentru programarile colective, ori cu consultarea salariatului, pentru programarile individuale. Programarea se face pana la sfarsitul anului calendaristic pentru anul urmator.» Art. 148 alin. (5) «...angajatorul este obligat sa stabileasca programarea astfel incat fiecare salariat sa efectueze intr-un an calendaristic cel putin 10 zile lucratoare de concediu neintrerupt. Angajatorul nu este tinut sa justifice refuzul de a acorda salariatului o perioada de concediu neintrerupt care sa depaseasca 10 zile lucratoare.»",
+      "nota": "El portal oficial legislatie.just.ro corto la conexion en los tres intentos y lege5.ro solo muestra gratis la version ORIGINAL de 2003, no la consolidada. El art. 145 se leyo de lege5 (sus alineate 1 a 3 no han cambiado) y el art. 139 consolidado de codulmuncii.eu. PENDIENTE archivar el texto republicado desde el Portal Legislativ."
+    },
+    "F2": {
+      "cita": "Legea nr. 176/2016 pentru modificarea alin. (1) al art. 139 din Legea nr. 53/2003 — anade el 24 de enero, Ziua Unirii Principatelor Romane",
+      "nivel_de_fuente": 4,
+      "url": "https://legeaz.net/monitorul-oficial-808-2016/legea-176-2016-modificare-codul-muncii-zile-sarbatoare-legala",
+      "publicacion": "2016-10-13",
+      "nota": "Monitorul Oficial nr. 808 del 13-oct-2016. Primer 24 de enero feriado: 2017. Nivel 4: no localice el dispositivo en el Portal Legislativ."
+    },
+    "F3": {
+      "cita": "Legea nr. 220 din 17 noiembrie 2016 pentru completarea alin. (1) al art. 139 din Legea nr. 53/2003 — anade el 1 de junio",
+      "nivel_de_fuente": 3,
+      "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/106148/PDF.pdf",
+      "publicacion": "2016-11-17",
+      "nota": "Primer 1 de junio feriado: 2017."
+    },
+    "F4": {
+      "cita": "Legea nr. 64/2018 pentru completarea alin. (1) al art. 139 din Legea nr. 53/2003 — anade Vinerea Mare",
+      "nivel_de_fuente": 4,
+      "url": "https://legeaz.net/monitorul-oficial-226-2018/lege-64-2018-completare-art-139-codul-muncii-vinerea-mare",
+      "publicacion": "2018-03-13",
+      "nota": "Monitorul Oficial nr. 226 del 13-mar-2018, en vigor el 16-mar-2018. El Viernes Santo ortodoxo de 2018 fue el 6 de abril, o sea POSTERIOR: primer disfrute en 2018."
+    },
+    "F5": {
+      "cita": "Legea nr. 52/2023 pentru completarea alin. (1) al art. 139 din Legea nr. 53/2003 — anade el 6 y el 7 de enero",
+      "nivel_de_fuente": 4,
+      "url": "https://legislatie.just.ro/Public/DetaliiDocument/265498",
+      "publicacion": "2023-03-06",
+      "nota": "Monitorul Oficial, Partea I, nr. 186 del 6-mar-2023. El 6 y el 7 de enero de 2023 YA HABIAN PASADO al entrar en vigor: primer disfrute en 2024. La URL es del Portal Legislativ pero el servidor corto la conexion; el contenido viene de secundarias, por eso nivel 4."
+    }
+  },
+  "feriados": {
+    "estado": "COMPLETO para 2026: diecisiete dias.",
+    "fuente": "F1",
+    "lista": [
+      {
+        "fecha": "01-01",
+        "nombre": "1 ianuarie",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": "01-02",
+        "nombre": "2 ianuarie",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": "01-06",
+        "nombre": "Botezul Domnului - Boboteaza",
+        "clase_de_regla": "fija",
+        "desde": 2024,
+        "instrumento": "Legea 52/2023"
+      },
+      {
+        "fecha": "01-07",
+        "nombre": "Soborul Sfantului Proroc Ioan Botezatorul",
+        "clase_de_regla": "fija",
+        "desde": 2024,
+        "instrumento": "Legea 52/2023"
+      },
+      {
+        "fecha": "01-24",
+        "nombre": "Ziua Unirii Principatelor Romane",
+        "clase_de_regla": "fija",
+        "desde": 2017,
+        "instrumento": "Legea 176/2016"
+      },
+      {
+        "fecha": null,
+        "nombre": "Vinerea Mare",
+        "clase_de_regla": "computable",
+        "regla": "pascua_ortodoxa-2",
+        "desde": 2018,
+        "instrumento": "Legea 64/2018",
+        "sistema_pascual": "juliano_ortodoxo",
+        "nota": "Reetiquetado a `pascua_ortodoxa` en v2.16. Estaba como `pascua` occidental, que produce una fecha equivocada en silencio: la Iglesia Ortodoxa Rumana usa el computo juliano y las dos pascuas difieren hasta cinco semanas."
+      },
+      {
+        "fecha": null,
+        "nombre": "Prima zi de Pasti",
+        "clase_de_regla": "computable",
+        "regla": "pascua_ortodoxa+0",
+        "sistema_pascual": "juliano_ortodoxo",
+        "nota": "Reetiquetado a `pascua_ortodoxa` en v2.16. Estaba como `pascua` occidental, que produce una fecha equivocada en silencio: la Iglesia Ortodoxa Rumana usa el computo juliano y las dos pascuas difieren hasta cinco semanas."
+      },
+      {
+        "fecha": null,
+        "nombre": "A doua zi de Pasti",
+        "clase_de_regla": "computable",
+        "regla": "pascua_ortodoxa+1",
+        "sistema_pascual": "juliano_ortodoxo",
+        "nota": "Reetiquetado a `pascua_ortodoxa` en v2.16. Estaba como `pascua` occidental, que produce una fecha equivocada en silencio: la Iglesia Ortodoxa Rumana usa el computo juliano y las dos pascuas difieren hasta cinco semanas."
+      },
+      {
+        "fecha": "05-01",
+        "nombre": "1 mai",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": "06-01",
+        "nombre": "1 iunie - Ziua Copilului",
+        "clase_de_regla": "fija",
+        "desde": 2017,
+        "instrumento": "Legea 220/2016"
+      },
+      {
+        "fecha": null,
+        "nombre": "Prima zi de Rusalii",
+        "clase_de_regla": "computable",
+        "regla": "pascua_ortodoxa+49",
+        "sistema_pascual": "juliano_ortodoxo",
+        "nota": "Reetiquetado a `pascua_ortodoxa` en v2.16. Estaba como `pascua` occidental, que produce una fecha equivocada en silencio: la Iglesia Ortodoxa Rumana usa el computo juliano y las dos pascuas difieren hasta cinco semanas."
+      },
+      {
+        "fecha": null,
+        "nombre": "A doua zi de Rusalii",
+        "clase_de_regla": "computable",
+        "regla": "pascua_ortodoxa+50",
+        "sistema_pascual": "juliano_ortodoxo",
+        "nota": "Reetiquetado a `pascua_ortodoxa` en v2.16. Estaba como `pascua` occidental, que produce una fecha equivocada en silencio: la Iglesia Ortodoxa Rumana usa el computo juliano y las dos pascuas difieren hasta cinco semanas."
+      },
+      {
+        "fecha": "08-15",
+        "nombre": "Adormirea Maicii Domnului",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": "11-30",
+        "nombre": "Sfantul Apostol Andrei, cel Intai chemat, Ocrotitorul Romaniei",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": "12-01",
+        "nombre": "1 decembrie - Ziua Nationala",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": "12-25",
+        "nombre": "Prima zi de Craciun",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": "12-26",
+        "nombre": "A doua zi de Craciun",
+        "clase_de_regla": "fija"
+      }
+    ],
+    "total_2026": 17,
+    "total_2016": 12,
+    "lista_2016_derivada": "1 y 2 ene, Pasti 1 y 2, 1 mai, Rusalii 1 y 2, 15 aug, 30 nov, 1 dec, 25 y 26 dec. Las cinco fechas restantes entran por las cuatro leyes de la ventana y se derivan del campo `desde`, no se escriben aparte.",
+    "no_incluido_y_por_que": "Art. 139 alin. (1) ultimo guion concede ademas «doua zile pentru fiecare dintre cele 3 sarbatori religioase anuale, declarate astfel de cultele religioase legale, altele decat cele crestine, pentru persoanele apartinand acestora» — seis dias para quienes pertenecen a cultos no cristianos. NO se incluyen: son un derecho PERSONAL condicionado a la pertenencia religiosa del trabajador, no un feriado de la jurisdiccion, y el trabajador de referencia no lo tiene. El esquema tiene `elegibilidad` y el cargador la fija en `sin_condicion`, con lo que incluirlos habria dicho que aplican a todos.",
+    "regla_de_traslado": "NINGUNA. Rumania no traslada los feriados que caen en fin de semana. Verificado por ausencia en el art. 139.",
+    "subnacionales": []
+  },
+  "vacaciones": {
+    "texto_legal_dias": 20,
+    "tipo_de_dia": "habil — LEIDO: art. 145 alin. (1) dice «20 de zile lucratoare»",
+    "literal": "Durata minima a concediului de odihna anual este de 20 de zile lucratoare.",
+    "fuente": "F1",
+    "base_semanal": "5. Art. 112: jornada normal de 8 horas diarias y 40 semanales. Art. 137: el descanso semanal se concede en dos dias consecutivos, por regla sabado y domingo. La base sale de la norma, no de un supuesto.",
+    "periodo_de_calificacion": "Ninguno como tal. Art. 145 alin. (2): el concediu «se acorda proportional cu activitatea prestata intr-un an calendaristic», o sea devengo prorrateado desde el primer dia.",
+    "escala_antiguedad": "ninguna — 20 dias habiles sin progresion. El art. 147 concede 3 dias habiles ADICIONALES por condiciones penosas, ceguera, discapacidad o minoria de edad; son suplementos por condicion del puesto o de la persona, no antiguedad, y no aplican al trabajador de referencia.",
+    "colocacion_literal": "Art. 148 alin. (1): programacion colectiva o individual establecida POR EL EMPLEADOR con consulta al sindicato o a los representantes (colectiva) o al trabajador (individual), hecha antes de fin de ano para el ano siguiente. alin. (2)-(3): las ventanas programadas no pueden exceder 3 meses. alin. (5): al menos 10 dias habiles continuos al ano, y el empleador NO ESTA OBLIGADO A JUSTIFICAR la negativa a conceder un periodo continuo mayor de 10 dias habiles.",
+    "estado_verificacion": "verificado_secundaria"
+  },
+  "imputacion": {
+    "valor": "extienden",
+    "articulo": "art. 145 alin. (3) Codul muncii",
+    "literal": "Sarbatorile legale in care nu se lucreaza, precum si zilele libere platite stabilite prin contractul colectiv de munca aplicabil nu sunt incluse in durata concediului de odihna anual.",
+    "traduccion": "Los feriados legales en los que no se trabaja, asi como los dias libres pagados establecidos por el convenio colectivo aplicable, NO estan incluidos en la duracion del concediu de odihna anual.",
+    "verificado": "SI, con articulo y literal. No es derivado del tipo de dia.",
+    "nota": "Rumania es la unica unidad de este lote cuyo articulo de imputacion cubre ademas los dias libres de CONVENIO, no solo los feriados legales. El campo `imputacion` solo habla de feriados; la extension convencional no tiene donde ir."
+  },
+  "corte_2016": {
+    "estado": "verificado_parcial",
+    "nota": "FERIADOS: verificado. Las cuatro leyes que ampliaron el art. 139 dentro de la ventana estan localizadas y datadas —Legea 176/2016 (24 ene, desde 2017), Legea 220/2016 (1 iun, desde 2017), Legea 64/2018 (Vinerea Mare, desde 2018) y Legea 52/2023 (6 y 7 ene, desde 2024)— y el delta +5 se DERIVA de ellas. Rumania es la unidad de este lote con mas reforma en la ventana y con diferencia: casi un 42% mas de feriados en diez anos. VACACIONES: no halle reforma del art. 145 dentro de la ventana; los 20 dias habiles vienen de antes de 2016. Esa mitad NO esta verificada por ausencia, esta supuesta, y por eso el estado global no es `verificado`."
+  },
+  "delta_2016_2026": {
+    "feriados": "+5 (24 ene y 1 iun desde 2017; Vinerea Mare desde 2018; 6 y 7 ene desde 2024)",
+    "vacaciones": "0 hallado — supuesto, no verificado"
+  },
+  "huecos": [
+    {
+      "id": "H1",
+      "que": "LA PASCUA DE RUMANIA ES LA ORTODOXA Y EL ESQUEMA NO LO PUEDE DECIR. `regla_fecha_version.ancla` admite solo 'pascua', 'equinoccio_marzo' y 'ano_nuevo_lunar'. No distingue el computo gregoriano del juliano.",
+      "por_que_importa": "Las dos pascuas coinciden solo en algunos anos. Cinco de los diecisiete feriados rumanos —Vinerea Mare, los dos dias de Pasti y los dos de Rusalii, casi el 30% del calendario— se derivarian a fechas equivocadas en la mayoria de los anos si el generador de ocurrencias usa el computo gregoriano. No es un matiz: es el 30% de la unidad mal fechado.",
+      "decision_tomada": "Se cargan como `pascua+N` porque el hecho de que sean relativas a Pascua ES correcto y omitirlas perderia cinco de diecisiete feriados, que es la medida principal. Cada una lleva `sistema_pascual: juliano_ortodoxo` en la captura, campo que el cargador ignora.",
+      "como_se_cierra": "Decision del principal: anadir un valor de ancla (p. ej. `pascua_juliana`) o un campo de computo junto al ancla. Afecta tambien a Grecia, Bulgaria y a cualquier otra unidad ortodoxa del grupo congelado.",
+      "capa_adicional": "El art. 139 tiene ademas un alineat que concede Vinerea Mare, Pasti y Rusalii «in functie de data la care sunt celebrate de acel cult» a los trabajadores de otros cultos cristianos legales. O sea que la fecha del mismo feriado varia SEGUN EL TRABAJADOR. Eso no es representable ni con un ancla nueva."
+    },
+    {
+      "id": "H2",
+      "que": "Ninguna fuente de nivel 1 o 2: legislatie.just.ro corto la conexion en todos los intentos y lege5.ro solo da libre la version original de 2003.",
+      "como_se_cierra": "Descargar el texto republicado y los cinco dispositivos desde el Portal Legislativ y archivarlos."
+    },
+    {
+      "id": "H3",
+      "que": "El art. 145 alin. (3) tambien excluye del computo los dias libres pagados de CONVENIO COLECTIVO, y el campo `imputacion` solo habla de feriados legales."
+    },
+    {
+      "id": "H4",
+      "que": "Los seis dias del art. 139 para trabajadores de cultos no cristianos no se cargaron por ser un derecho condicionado a la persona, y el cargador fija `elegibilidad = sin_condicion` sin leerlo de la captura."
+    }
+  ],
+  "no_mirado_todavia": [
+    "CBR Labour Regulation Index",
+    "cualquier dataset agregado de dias de vacaciones",
+    "data/derived/semilla/"
+  ],
+  "vacaciones_normalizado": {
+    "sin_cambio": {
+      "_": "Empezo como indicio y acabo con instrumento. La lectura del artículo mostro que su apartado (4) nombra figuras posteriores a 2016; buscar cual las introdujo dio la ley.",
+      "buscado_en": "Repositorios juridicos rumanos que reproducen el texto del art. 145 antes y despues de la Ley 283/2022, mas alertas legales sobre esa reforma",
+      "cita": "El apartado (1) —«Durata minima a concediului de odihna anual este de 20 de zile lucratoare»— NO se toca. El que si cambia dentro de la ventana es el (4): la Ley 283/2022, que transpone la directiva europea de conciliacion, anadio a la lista de periodos que cuentan como trabajo el permiso de paternidad y el de cuidador —este ultimo creado por el nuevo art. 152^1—. El texto anterior del (4) y el actual estan enfrentados en la fuente y difieren solo en esa lista. Veinte días en los dos cortes.",
+      "nivel_de_fuente": 3,
+      "fecha_busqueda": "2026-08-11",
+      "pantalla_3": {
+        "cita": "Prensa rumana: el minimo sigue en veinte días laborables. Lo que se tramita en 2026 es una propuesta para dar TRES DIAS MAS a los progenitores que crian solos, y modifica el art. 147, no el 145; de aprobarse entraria en vigor el 1 de enero de 2027. Propuesta, no ley.",
+        "url": "https://ziare.com/concediu-odihna/trei-zile-suplimentar-anumiti-angajati-2020242"
+      }
+    },
+    "dias": 20,
+    "tipo": "habil",
+    "base": 5,
+    "imputacion": "extienden",
+    "meses": 12,
+    "literal": "Durata minima a concediului de odihna anual este de 20 de zile lucratoare (art. 145 alin. 1); sarbatorile legale in care nu se lucreaza... nu sunt incluse in durata concediului de odihna anual (art. 145 alin. 3)",
+    "escala": [
+      [
+        12,
+        null,
+        20
+      ]
+    ],
+    "nota_periodo_de_calificacion": "`meses: 12` corresponde a que los 20 dias se acreditan por un ano calendario completo. Rumania NO tiene periodo de calificacion: el art. 145 alin. (2) manda concederlo «proportional cu activitatea prestata intr-un an calendaristic», o sea prorrateado desde el primer dia. El tramo cero que el cargador antepone dice algo que la norma no dice.",
+    "colocacion": {
+      "iniciativa": "empleador",
+      "veto": null,
+      "silencio": null,
+      "instrumento": "ley",
+      "literal": "Efectuarea concediului de odihna se realizeaza in baza unei programari colective sau individuale stabilite de angajator cu consultarea sindicatului sau, dupa caz, a reprezentantilor salariatilor, pentru programarile colective, ori cu consultarea salariatului, pentru programarile individuale (art. 148 alin. 1); angajatorul nu este tinut sa justifice refuzul de a acorda salariatului o perioada de concediu neintrerupt care sa depaseasca 10 zile lucratoare (art. 148 alin. 5)",
+      "nota": "CONSULTA NO ES NEGOCIACION y por eso no es `negociada`. El art. 148 alin. (5) lo deja explicito por el reverso: el empleador no tiene que justificar la negativa mas alla de los 10 dias habiles continuos. Dentro de la ventana programada por el empleador el trabajador puede pedir fecha con 60 dias de antelacion, que es una segunda capa subordinada y no se codifica."
+    }
+  }
+}

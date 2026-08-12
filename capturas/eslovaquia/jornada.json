@@ -1,0 +1,69 @@
+{
+  "_": "Jornada semanal legal ordinaria. Eslovaquia es la unica del lote donde la ley nombra DOS dias de descanso y ademas dice cuales: sabado y domingo, o domingo y lunes. Con eso la semana de cinco queda fijada por norma, y el codigo lo dice ademas de forma directa en el §86(3).",
+  "unidad": "SVK",
+  "jurisdiccion_de_referencia": "Bratislava",
+  "sector_de_referencia": "privado formal, jornada completa, persona adulta, turno unico con distribucion regular",
+  "fecha_captura_utc": "2026-08-11T05:46:47Z",
+  "capturado_por": "jornada · lote 9",
+  "fuentes": {
+    "J1": {
+      "cita": "Zakon c. 311/2001 Z. z., Zakonnik prace, §85 ods. 4, 5 a 9",
+      "url": "https://www.slov-lex.sk/static/SK/ZZ/2001/311/20260607.html",
+      "nivel_de_fuente": 2,
+      "publicacion": "Slov-Lex, portal juridico oficial de la Republica Eslovaca; version consolidada vigente a 07.06.2026",
+      "nota": "El portal principal es una SPA que no responde a descarga plana; el literal se leyo en la version estatica del mismo portal. La consolidacion es oficial pero informativa: la publicacion autentica es la Zbierka zakonov."
+    },
+    "J2": {
+      "cita": "Zakonnik prace, §86 ods. 2 a 3 (rovnomerne rozvrhnutie pracovneho casu)",
+      "url": "https://www.slov-lex.sk/static/SK/ZZ/2001/311/20260607.html",
+      "nivel_de_fuente": 2
+    },
+    "J3": {
+      "cita": "Zakonnik prace, §93 ods. 1 (nepretrzity odpocinok v tyzdni)",
+      "url": "https://www.slov-lex.sk/static/SK/ZZ/2001/311/20260607.html",
+      "nivel_de_fuente": 2
+    },
+    "J4": {
+      "cita": "Zakonnik prace, §94 ods. 1 (dni pracovneho pokoja) y §122 ods. 3 (nahrada mzdy za sviatok)",
+      "url": "https://www.slov-lex.sk/static/SK/ZZ/2001/311/20260607.html",
+      "nivel_de_fuente": 2
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 40,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": 5,
+    "dias_ordinarios_origen": "norma",
+    "literal": "§85 (4) Pracovny cas v priebehu 24 hodin nesmie presiahnut osem hodin, ak tento zakon neustanovuje inak. (5) Pracovny cas zamestnanca je najviac 40 hodin tyzdenne. || §86 (3) Pri rovnomernom rozvrhnuti pracovneho casu rozvrhuje zamestnavatel tyzdenny pracovny cas v zasade na pat pracovnych dni v tyzdni.",
+    "literal_grafia_original": "§ 85 (4) Pracovný čas v priebehu 24 hodín nesmie presiahnuť osem hodín, ak tento zákon neustanovuje inak. (5) Pracovný čas zamestnanca je najviac 40 hodín týždenne. || § 86 (3) Pri rovnomernom rozvrhnutí pracovného času rozvrhuje zamestnávateľ týždenný pracovný čas v zásade na päť pracovných dní v týždni.",
+    "traduccion": "§85 (4) El tiempo de trabajo en el transcurso de 24 horas no puede exceder de ocho horas, salvo que esta ley disponga otra cosa. (5) El tiempo de trabajo de la persona empleada es de 40 horas semanales como maximo. || §86 (3) En la distribucion regular del tiempo de trabajo, el empleador distribuye el tiempo semanal, en principio, en cinco dias de trabajo por semana.",
+    "fuente": "J1",
+    "nota": "Los cinco dias vienen dichos por la norma en dos sitios independientes que se refuerzan: el §86(3) los declara y el §93(1) los impone por el reverso, al exigir dos dias consecutivos de descanso. El §86(2) permite llegar a nueve horas en un dia dentro de la distribucion regular, siempre que el promedio de cuatro semanas respete el tiempo semanal establecido, de modo que las ocho del §85(4) son el defecto diario y no un techo rigido. Regimenes reducidos por turnos: 38,75 en dos turnos y 37,5 en tres turnos o en operacion continua; el trabajador de referencia esta en el 40. El §85(9) fija el techo europeo de 48 horas de promedio incluidas las extras.",
+    "horas_diarias_max_distribucion_regular": 9,
+    "horas_semanales_regimenes_especiales": {
+      "tres_turnos_o_continuo": 37.5,
+      "dos_turnos": 38.75
+    },
+    "techo_con_horas_extra_promedio": 48
+  },
+  "descanso_semanal": {
+    "dias": 2,
+    "cuales": "sabado y domingo, o bien domingo y lunes: dos dias consecutivos, con los pares nombrados en la ley",
+    "literal": "§93 (1) Zamestnavatel je povinny rozvrhnut pracovny cas tak, aby zamestnanec mal raz za tyzden dva po sebe nasledujuce dni nepretrziteho odpocinku, ktore musia pripadat na sobotu a nedelu alebo na nedelu a pondelok.",
+    "literal_grafia_original": "§ 93 (1) Zamestnávateľ je povinný rozvrhnúť pracovný čas tak, aby zamestnanec mal raz za týždeň dva po sebe nasledujúce dni nepretržitého odpočinku, ktoré musia pripadať na sobotu a nedeľu alebo na nedeľu a pondelok.",
+    "traduccion": "§93 (1) El empleador esta obligado a distribuir el tiempo de trabajo de modo que la persona empleada tenga una vez por semana dos dias consecutivos de descanso ininterrumpido, que deben caer en sabado y domingo o en domingo y lunes.",
+    "fuente": "J3",
+    "nota": "Es el mandato mas fuerte del lote: no dice 'un dia por cada siete' ni 'treinta y cinco horas', dice dos dias enteros consecutivos y nombra los dos pares posibles. El domingo esta en ambos, o sea que el domingo es descanso en todos los casos. Los apartados 2 a 5 permiten degradarlo cuando la naturaleza del trabajo lo impide: primero a otros dos dias de la semana, luego a 24 horas con descanso compensatorio dentro de ocho meses, luego a 35 horas alrededor del domingo."
+  },
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": null,
+    "alcance": null,
+    "literal": "§122 (3) Zamestnancovi, ktory nepracoval preto, ze sviatok pripadol na jeho obvykly pracovny den, patri nahrada mzdy v sume jeho priemerneho zarobku, ak mu mzda usla pre sviatok. U zamestnanca, ktory je odmenovany mesacnou mzdou, sa sviatok, ktory pripadne na jeho obvykly pracovny den, povazuje za odpracovany den, za ktory mu patri mzda.",
+    "traduccion": "§122 (3) A la persona empleada que no trabajo porque el feriado cayo en su dia habitual de trabajo le corresponde una compensacion salarial equivalente a su salario medio, si dejo de percibir salario por causa del feriado. Para quien esta remunerada por salario mensual, el feriado que cae en su dia habitual de trabajo se considera dia trabajado, por el que le corresponde el salario.",
+    "fuente": "J4",
+    "nota": "Hallazgo negativo, con el mismo mecanismo que en Chequia: toda la proteccion esta condicionada a que el feriado caiga en el DIA HABITUAL DE TRABAJO. Como el §93(1) pone sabado y domingo fuera de los dias habituales, un feriado en fin de semana no genera ni compensacion salarial ni dia sustituto: se pierde. El §94(1) confirma la arquitectura al meter en un mismo saco -dias de reposo laboral- los dias de descanso semanal y los feriados, sin ninguna regla que los desempate cuando coinciden. Ni el Zakonnik prace ni la ley 241/1993 Z. z. de fiestas estatales contienen regla de traslado."
+  },
+  "reformas_en_la_ventana": [],
+  "pendiente": "Tres. Primera: no encontre reforma de §85, §86 ni §93 entre 2016 y 2026, pero la afirmacion se apoya en busqueda y en la lectura del texto vigente, no en el comparador de versiones de Slov-Lex. Segunda: el texto vigente contiene §122a y §122b, recargos por trabajo en sabado y en domingo, que no estaban en la version original de 2001; no verifique con que instrumento ni desde cuando -la referencia corriente es la ley 63/2018 Z. z., que no coteje-. Tercera: la version consolidada que lei lleva fecha 07.06.2026, o sea que hubo un cambio reciente en el Zakonnik prace cuyo alcance no identifique; no afecta a los paragrafos capturados, que lei en esa misma version."
+}

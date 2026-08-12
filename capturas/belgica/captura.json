@@ -1,0 +1,194 @@
+{
+ "_": "CAPTURA CIEGA de Belgica. Es la unidad que trae la cascada de cuatro niveles que el esquema ya preveia y que el contrato de captura no sabe escribir.",
+ "unidad": "BEL",
+ "jurisdiccion_de_referencia": "Bruselas (mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 8",
+ "fecha_captura_utc": "2026-08-10T19:55:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Arrete royal du 18 avril 1974 determinant les modalites generales d'execution de la loi du 4 janvier 1974 relative aux jours feries, art. 1 y art. 12",
+   "nivel_de_fuente": 1,
+   "url": "https://www.ejustice.just.fgov.be/eli/arrete/1974/04/18/1974041801/justel",
+   "nota": "Justel, base consolidada del Moniteur belge. Art. 1 y art. 12 leidos en literal frances.",
+   "literal_relevante": "Art. 1: 'Les dix jours feries pendant lesquels les travailleurs ne peuvent etre occupes en vertu de la loi du 4 janvier 1974 sont : le 1er janvier; le lundi de Paques; le 1er mai; l'Ascension; le lundi de la Pentecote; le 21 juillet; l'Assomption; la Toussaint; le 11 novembre; la Noel.' Art. 12: 'Le travailleur conserve le droit a la remuneration afferente aux jours feries survenant : 1° pendant la duree des vacances octroyees en application des dispositions legales ou conventionnelles relatives aux vacances annuelles des travailleurs salaries...'"
+  },
+  "F2": {
+   "cita": "Arrete royal du 30 mars 1967 determinant les modalites generales d'execution des lois relatives aux vacances annuelles des travailleurs salaries, arts. 3, 35, 60, 63, 64, 65 y 68",
+   "nivel_de_fuente": 2,
+   "url": "https://www.onva.fgov.be/sites/default/files/2022-02/1967_03_30_FR_2_0.pdf",
+   "version_archivada": "coordinacion del ONVA/RJV, mise a jour du 2022-05-09",
+   "nota": "PDF oficial del Office national des vacances annuelles, extraido y leido en literal. ATENCION: la coordinacion es de MAYO DE 2022 y por tanto ANTERIOR al AR del 8 de febrero de 2023 (F4), que modifico precisamente los arts. 35, 60, 64, 66 y 68. Los literales de abajo son los de esa version y estan datados por eso."
+  },
+  "F3": {
+   "cita": "SPF Emploi, Travail et Concertation sociale - Jours feries",
+   "nivel_de_fuente": 2,
+   "url": "https://emploi.belgique.be/fr/themes/jours-feries-et-conges/jours-feries"
+  },
+  "F4": {
+   "cita": "Arrete royal du 8 fevrier 2023 modifiant les articles 3, 35, 46, 60, 64, 66 et 68 et inserant un article 67bis dans l'AR du 30 mars 1967",
+   "nivel_de_fuente": 3,
+   "url": "https://etaamb.openjustice.be/fr/arrete-royal-du-08-fevrier-2023_n2023201201.html",
+   "publicacion": "2023-03-16",
+   "nota": "REFORMA DENTRO DE LA VENTANA. Vigencia declarada 1-ene-2023, primera aplicacion al ano de vacaciones 2024. Adapta el regimen belga a la jurisprudencia europea sobre aplazamiento del permiso: introduce el arrastre a 24 meses en casos de suspension. NO cambia el quantum. Leido en etaamb, que es compilacion; PENDIENTE archivar el Moniteur."
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO. Los diez feriados legales, leidos del art. 1 del AR de 1974 en literal.",
+  "fuente": "F1",
+  "literal": "Les dix jours feries pendant lesquels les travailleurs ne peuvent etre occupes en vertu de la loi du 4 janvier 1974 sont : le 1er janvier; le lundi de Paques; le 1er mai; l'Ascension; le lundi de la Pentecote; le 21 juillet; l'Assomption; la Toussaint; le 11 novembre; la Noel.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Nouvel An",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "Lundi de Paques",
+    "clase_de_regla": "computable",
+    "regla": "pascua+1"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Fete du Travail",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "Ascension",
+    "clase_de_regla": "computable",
+    "regla": "pascua+39"
+   },
+   {
+    "fecha": null,
+    "nombre": "Lundi de Pentecote",
+    "clase_de_regla": "computable",
+    "regla": "pascua+50"
+   },
+   {
+    "fecha": "07-21",
+    "nombre": "Fete nationale",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "08-15",
+    "nombre": "Assomption",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "11-01",
+    "nombre": "Toussaint",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "11-11",
+    "nombre": "Armistice",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Noel",
+    "clase_de_regla": "fija"
+   }
+  ],
+  "subnacionales": [],
+  "nota_subnacionales": "El Iris Day del 8 de mayo es fiesta de la Region de Bruselas-Capital para su sector publico, no feriado legal para el sector privado, asi que no entra. Se deja la lista vacia y se declara verificado hasta ahi.",
+  "nota_traslado": "Loi du 4 janvier 1974: cuando un feriado coincide con domingo o con un dia habitual de inactividad de la empresa, se sustituye por otro dia habitual de actividad, que adquiere la condicion de feriado. O sea Belgica GARANTIZA diez dias efectivos, no diez fechas. Es una regla de traslado con piso de conteo, y el esquema la puede guardar en `regla_de_traslado_aplicable` pero el contrato de captura no expone el campo."
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "_": "Rama (b): la base consolidada oficial belga no devolvio el articulado al lector pese a varios intentos por identificador europeo y por numero de expediente.",
+     "buscado_en": "Guias juridicas belgas sobre las vacaciones legales y el real decreto de 1967, mas los intentos de consulta a la base consolidada oficial",
+     "cita": "El derecho legal es de veinte días con semana de cinco y veinticuatro con semana de seis, cuatro semanas en ambos casos, y no cambia entre cortes. El instrumento de la ventana que la ficha localizo —el real decreto de 8 de febrero de 1967 modificado por el de 8 de febrero de 2023, publicado en el Moniteur el 16 de marzo de 2023 y con primera aplicacion al anio de vacaciones 2024— toca el aplazamiento y el arrastre, no el numero de días.",
+     "nivel_de_fuente": 3,
+     "fecha_busqueda": "2026-08-12",
+     "pantalla_3": {
+       "cita": "Prensa y guias belgas: veinte días con semana de cinco, veinticuatro con seis, sin cambio del numero. Los cambios de 2024 son enfermedad durante las vacaciones e interrupcion del trabajo, y la prensa los atribuye AL MISMO real decreto de 8 de febrero de 2023 que la busqueda documental habia localizado. Dos vias independientes llegan al mismo instrumento, que es lo que la regla de tres busca.",
+       "url": "https://www.cohezio.be/nl/news/recht-op-vakantie-volle-vier-weken/"
+     }
+   },
+  "dias": 20,
+  "tipo": "habil",
+  "base": 5,
+  "imputacion": "extienden",
+  "meses": 12,
+  "literal": "AR 30.03.1967 art. 35 §1: tabla de duracion, con la columna encabezada 'Nombre de jours de vacances legales (exprime en jours dans le standard d'un regime de travail de 5 jours par semaine a temps plein)', que da 20 dias con 231 o mas jornadas de trabajo efectivo normal. §2: 'Les vacances legales ne peuvent exceder quatre semaines.' Art. 60, para empleados: 'La duree des vacances est determinee a raison de deux jours par mois de prestations effectives... Les vacances legales ne peuvent exceder quatre semaines.'",
+  "escala": [
+   [
+    12,
+    null,
+    20
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "negociada",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "acuerdo_individual",
+   "literal": "AR 30.03.1967 art. 63, ultimo nivel: 'En l'absence de decision prise a ces divers niveaux, les dispositions resulteront d'un accord individuel entre l'employeur et le travailleur.'",
+   "resolucion_desacuerdo": "sin_regla",
+   "nota_resolucion": "La cascada del art. 63 termina en el acuerdo individual y NO dice que pasa si tampoco lo hay. `sin_regla` describe el literal que tenemos; no afirma que el derecho belga calle."
+  },
+  "imputacion_nota": "ARTICULO EXPLICITO Y DEDICADO, el mas limpio del lote. AR 30.03.1967 art. 68: 'Ne peuvent etre imputes sur les jours de vacances annuelles : 1° les journees a prendre en consideration en vertu de la legislation relative a l'octroi de salaire aux travailleurs pendant un certain nombre de jours feries par an'. No es una derivacion del tipo de dia ni una inferencia desde el pago: la norma dice que el feriado NO SE IMPUTA. Y el art. 12 del AR de 1974 lo confirma por el otro lado, conservando la remuneracion del feriado que cae dentro de las vacaciones.",
+  "nota_unidad": "El art. 68 4° es donde vive la conversion entre bases, y conviene registrarlo porque es exactamente el error de factor que este proyecto persigue. El dia habitual de inactividad de una semana de cinco tampoco se imputa, SALVO uno por cada tramo completo de seis dias de vacaciones. Ese mecanismo es el que hace que 24 dias contados sobre semana de seis y 20 contados sobre semana de cinco sean el MISMO derecho. Un dataset que lea 'jours' sin leer el estandar de la columna registraria una caida del 17% que nunca ocurrio.",
+  "nota_meses": "`meses` = 12 es una aproximacion declarada. Belgica no mide antiguedad en meses de servicio: el derecho del ano N se calcula sobre las jornadas trabajadas en el ano CIVIL anterior, el 'exercice de vacances'. Un trabajador con doce meses de servicio a caballo de dos anos civiles no tiene los 20 dias. El esquema mide la escala contra meses de servicio y esa rejilla no existe en Belgica.",
+  "vacances_supplementaires": {
+   "que": "AR 30.03.1967 art. 3bis y 62quinquies: quien inicia o reanuda actividad tiene 'vacaciones suplementarias' -el permiso europeo- tras una 'periode d'amorcage' de tres meses, hasta completar cuatro semanas, y esos dias se descuentan de los del art. 3.",
+   "por_que_va_aparte": "Es un derecho de ENTRADA con su propia unidad de tiempo y su propio periodo de calificacion, superpuesto al principal y descontable de el. No es un tramo de la escala de antiguedad ni una porcion de colocacion."
+  },
+  "colocacion_cascada_no_representable": {
+   "literal": "AR 30.03.1967 art. 63: 'Les commissions paritaires peuvent prendre des decisions quant a la date des vacances et a leur fractionnement eventuel... Si la commission paritaire n'a pas communique sa decision pour la date precitee, le conseil d'entreprise peut prendre des decisions sur le meme objet. A defaut de conseil d'entreprise ou de decision prise par lui, les dispositions peuvent resulter d'accords d'entreprise entre, d'une part, l'employeur et, d'autre part, la delegation syndicale ou, a defaut de cette derniere, les travailleurs. En l'absence de decision prise a ces divers niveaux, les dispositions resulteront d'un accord individuel entre l'employeur et le travailleur.'",
+   "niveles": [
+    {
+     "orden": 1,
+     "instrumento": "organo_paritario",
+     "iniciativa": "negociada",
+     "raiz": true
+    },
+    {
+     "orden": 2,
+     "instrumento": "consejo_de_empresa",
+     "iniciativa": "negociada",
+     "condicion": "si_el_anterior_no_fija"
+    },
+    {
+     "orden": 3,
+     "instrumento": "convenio_colectivo",
+     "iniciativa": "negociada",
+     "condicion": "si_el_anterior_no_fija",
+     "detalle": "acuerdo de empresa entre el empleador y la delegacion sindical o, a falta de esta, los trabajadores"
+    },
+    {
+     "orden": 4,
+     "instrumento": "acuerdo_individual",
+     "iniciativa": "negociada",
+     "condicion": "si_el_anterior_no_fija"
+    }
+   ],
+   "por_que_no_se_puede_escribir": "El ESQUEMA si la modela: `modo_aplicacion='fallback'`, `grupo_fallback`, `es_raiz_fallback` y `condicion_fallback` existen y el comentario del DDL cita textualmente el caso belga como motivo. Lo que no la modela es el CONTRATO DE CAPTURA -docs/09-spec-captura.md solo define `iniciativa`, `veto`, `silencio`, `instrumento`, `literal`- y el cargador, que escribe `modo_aplicacion='particion'` fijo. Resultado: los cuatro niveles se aplanan en uno. Se cargo el CUARTO -el acuerdo individual- porque es el que gobierna cuando ninguno de los anteriores fijo nada, que es el caso residual y por tanto el mas conservador; pero eso publica como 'acuerdo individual' un derecho que en la practica belga fija casi siempre la comision paritaria o el consejo de empresa.",
+   "notas_adicionales_que_tampoco_caben": "art. 64 impone un bloque continuo de una semana y bloques continuos de dos o tres semanas entre el 1 de mayo y el 31 de octubre; art. 65 da al trabajador el derecho a pedir que la tercera y la cuarta semana se sumen a las anteriores, con oposicion del empleador si desorganiza el trabajo; art. 70 manda el desacuerdo a los tribunales de trabajo."
+  }
+ },
+ "delta_2016_2026": {
+  "feriados": "0. Los diez del art. 1 del AR de 1974 no se tocaron.",
+  "vacaciones": "0 en quantum. El AR del 8-feb-2023 cambio el aplazamiento y el arrastre, no el numero de dias."
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "Hay una reforma datada en la ventana: el AR del 8 de febrero de 2023, publicado en el Moniteur el 16 de marzo de 2023, con vigencia 1-ene-2023 y primera aplicacion al ano de vacaciones 2024. No mueve el quantum, y por eso el corte 2016 y el 2026 coinciden en valor pero no por falta de busqueda."
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "El PDF del ONVA que se leyo es la coordinacion de mayo de 2022, anterior al AR del 8-feb-2023 que modifico los arts. 35, 60, 64, 66 y 68. Los literales del art. 68 -el articulo de imputacion- son por tanto de la version PREVIA.",
+   "por_que_importa": "El art. 68 es la fuente del valor `extienden`. Segun el resumen del AR de 2023, su cambio en el art. 68 fue anadir que los dias de interrupcion tampoco se imputan aunque surjan durante las vacaciones; el punto 1°, el de los feriados, no aparece tocado. Pero eso viene de una compilacion, no del texto coordinado.",
+   "como_se_cierra": "Descargar la coordinacion del AR de 30.03.1967 posterior a marzo de 2023 y releer el art. 68."
+  },
+  {
+   "id": "H2",
+   "que": "La cascada de colocacion se cargo aplanada en su nivel cuarto.",
+   "como_se_cierra": "Extender docs/09-spec-captura.md y el cargador con los campos de cascada que el esquema ya tiene."
+  }
+ ]
+}

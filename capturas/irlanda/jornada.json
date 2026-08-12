@@ -1,0 +1,57 @@
+{
+  "unidad": "IRL",
+  "jurisdiccion_de_referencia": "Dublín; el régimen de jornada es nacional",
+  "fecha_captura_utc": "2026-08-11T06:11:34Z",
+  "trabajador_de_referencia": "sector privado formal, jornada completa (whole-time employee)",
+
+  "fuentes": {
+    "J1": {
+      "cita": "Organisation of Working Time Act 1997 (No. 20 of 1997), secciones 13, 15 y 21 y Second Schedule",
+      "url": "https://www.irishstatutebook.ie/eli/1997/act/20/enacted/en/print.html",
+      "nivel_de_fuente": 1,
+      "publicacion": "1997-05-07",
+      "nota": "Electronic Irish Statute Book, versión promulgada."
+    },
+    "J2": {
+      "cita": "Organisation of Working Time Act 1997, versión revisada (Revised Acts, Law Reform Commission)",
+      "url": "https://revisedacts.lawreform.ie/eli/1997/act/20/revised/en/html",
+      "nivel_de_fuente": 2,
+      "publicacion": "texto revisado consultado el 2026-08-11",
+      "nota": "Se contrastó contra J1 para descartar reformas: las secciones 15(1) y 21(1) conservan íntegra su redacción original. Sirve como control de vigencia, no como fuente del texto."
+    }
+  },
+
+  "jornada": {
+    "horas_semanales_max": 48,
+    "horas_diarias_max": null,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "15. —(1) An employer shall not permit an employee to work, in each period of 7 days, more than an average of 48 hours, that is to say an average of 48 hours calculated over a period (hereafter in this section referred to as a \"reference period\") that does not exceed— (a) 4 months, or (b) 6 months— […]",
+    "traduccion": "15. —(1) Un empleador no permitirá que un empleado trabaje, en cada período de 7 días, más de un promedio de 48 horas, es decir, un promedio de 48 horas calculado sobre un período (en adelante en esta sección denominado «período de referencia») que no exceda de— (a) 4 meses, o (b) 6 meses— […]",
+    "fuente": "J1",
+    "nota": "LAS CUARENTA Y OCHO SON UN PROMEDIO, NO UNA SEMANA. La ley irlandesa no fija una jornada ordinaria semanal: fija un techo de cuarenta y ocho horas PROMEDIADAS sobre un período de referencia de cuatro meses (seis en los casos que la propia sección enumera, y más si lo pacta un convenio colectivo bajo la subsección 5). Una semana de sesenta horas no infringe la sección 15 si el promedio del cuatrimestre se mantiene. No existe en el derecho irlandés una «semana normal» legal: la jornada completa habitual —treinta y siete a treinta y nueve horas— sale del contrato o del convenio, no del estatuto. Tampoco hay máximo diario: la ley sólo garantiza once horas consecutivas de descanso entre jornadas (sección 11). Sin techo semanal firme, sin techo diario y sin reparto legal, los días ordinarios no se siguen de ninguna norma."
+  },
+
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "domingo",
+    "literal": "13.—(2) Subject to subsection (3), an employee shall, in each period of 7 days, be granted a rest period of at least 24 consecutive hours; subject to subsections (4) and (6), the time at which that rest period commences shall be such that that period is immediately preceded by a daily rest period. (3) An employer may, in lieu of granting to an employee in any period of 7 days the first-mentioned rest period in subsection (2), grant to him or her, in the next following period of 7 days, 2 rest periods each of which shall be a period of at least 24 consecutive hours […] (5) Save as may be otherwise provided in the employee's contract of employment— (a) the rest period granted to an employee under subsection (2), or (b) one of the rest periods granted to an employee under subsection (3), shall be a Sunday or, if the rest period is of more than 24 hours duration, shall include a Sunday.",
+    "traduccion": "13.—(2) Con sujeción a la subsección (3), a todo empleado se le concederá, en cada período de 7 días, un período de descanso de al menos 24 horas consecutivas; […] (3) El empleador podrá, en lugar de conceder ese descanso en un período de 7 días, conceder en el período de 7 días siguiente 2 períodos de descanso de al menos 24 horas consecutivas cada uno […] (5) Salvo que el contrato de trabajo disponga otra cosa— (a) el período de descanso concedido conforme a la subsección (2), o (b) uno de los concedidos conforme a la subsección (3), será un domingo o, si el descanso excede de 24 horas, incluirá un domingo.",
+    "fuente": "J1",
+    "nota": "Un día por semana como regla, con la variante de dos días en catorce que permite la subsección (3), y con las once horas de descanso diario encadenadas por delante (subsección 2), que en la práctica dan treinta y cinco horas. El domingo SÍ está nombrado, pero con una cláusula de escape amplia: «save as may be otherwise provided in the employee's contract of employment». Basta el contrato para desplazarlo, lo que lo sitúa por debajo del domingo salvadoreño o brasileño en firmeza."
+  },
+
+  "traslado_por_defecto": {
+    "existe": true,
+    "regla": "se compensa: el empleador elige entre día libre pagado en la fecha, día libre pagado dentro del mes, un día adicional de vacaciones anuales o un día adicional de salario; si el feriado cae en un día en que el trabajador ya tendría día libre pagado, la primera opción desaparece y debe elegir entre las otras tres",
+    "alcance": "todos los feriados",
+    "literal": "21. —(1) Subject to the provisions of this section, an employee shall, in respect of a public holiday, be entitled to whichever one of the following his or her employer determines, namely— (a) a paid day off on that day, (b) a paid day off within a month of that day, (c) an additional day of annual leave, (d) an additional day's pay: Provided that if the day on which the public holiday falls is a day on which the employee would, apart from this subsection, be entitled to a paid day off this subsection shall have effect as if paragraph (a) were omitted therefrom.",
+    "traduccion": "21. —(1) Con sujeción a lo dispuesto en esta sección, el empleado tendrá derecho, respecto de un día festivo, a aquella de las siguientes que su empleador determine: (a) un día libre pagado ese día, (b) un día libre pagado dentro del mes siguiente, (c) un día adicional de vacaciones anuales, (d) un día adicional de salario. Con la salvedad de que, si el día en que cae el festivo es un día en que el empleado tendría de todos modos derecho a un día libre pagado, esta subsección se aplicará como si se omitiera el apartado (a).",
+    "fuente": "J1",
+    "nota": "IRLANDA RESUELVE EL PROBLEMA DE RAÍZ, Y DE UN MODO QUE NINGUNA OTRA DEL LOTE COMPARTE. El derecho no se ata al día del calendario: es un derecho a UNA de cuatro prestaciones que elige el empleador. Por eso el feriado nunca se «pierde» por caer mal — el propio proviso desactiva la opción (a) cuando el día ya era libre pagado, y obliga a satisfacerlo por otra de las tres vías. Consecuencia para la métrica: un feriado en fin de semana sigue produciendo valor en Irlanda, aunque puede materializarse como dinero (opción d) y no como día de descanso, lo que conviene tener presente si la métrica cuenta DÍAS y no valor. Dos límites de la subsección (1): sólo aplica a quien no es whole-time employee si trabajó al menos cuarenta horas en las cinco semanas previas (subsección 4), y si el empleador no responde a una solicitud del trabajador se presume que eligió el día libre en la fecha (subsección 3)."
+  },
+
+  "reformas_en_la_ventana": [],
+
+  "pendiente": "Se comprobó contra la versión revisada (J2) que las secciones 15(1) y 21(1) no fueron modificadas, y no se detectó reforma de la jornada entre 2016 y 2026. No se hizo una revisión exhaustiva de las anotaciones de la versión revisada para las secciones 13 y 11, ni de las normas que ampliaron la lista de feriados en la ventana (el primer lunes de febrero se añadió en 2022 por la vía del apartado 1(g) de la Second Schedule), por ser materia del archivo de feriados y no de jornada. Tampoco se capturó el S.I. N° 475/1997, que fija cómo se calcula el pago del feriado para quien no trabaja ese día: es relevante si la métrica quiere cuantificar la opción (d)."
+}

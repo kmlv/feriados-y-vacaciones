@@ -1,0 +1,67 @@
+{
+ "_": "JORNADA SEMANAL LEGAL ORDINARIA de Colombia. Trabajador de referencia: sector privado formal, jornada completa, Bogota. ATENCION: el valor depende de la fecha de corte, porque la ultima etapa de la reduccion cae DENTRO de la ventana de captura.",
+ "unidad": "COL",
+ "jurisdiccion_de_referencia": "Bogota D.C.",
+ "capturado_por": "jornada · lote 1",
+ "fecha_captura_utc": "2026-08-11T05:55:37Z",
+ "fuentes": {
+  "J1": {
+   "cita": "Ley 2101 de 2021 (15 de julio), arts. 2 y 3. El art. 2 sustituye el art. 161 del Código Sustantivo del Trabajo",
+   "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=166506",
+   "nivel_de_fuente": 2,
+   "publicacion": "2021-07-15",
+   "nota": "Gestor Normativo EVA del Departamento Administrativo de la Funcion Publica. El propio PDF advierte que los datos son informativos y que no responde por la vigencia; por eso nivel 2 y no 1. PENDIENTE cotejar contra el Diario Oficial."
+  },
+  "J2": {
+   "cita": "Código Sustantivo del Trabajo, art. 172 (modificado por el art. 25 de la Ley 50 de 1990)",
+   "url": "https://www.cancilleria.gov.co/sites/default/files/Normograma/docs/pdf/codigo_sustantivo_trabajo_pr006.pdf",
+   "nivel_de_fuente": 2,
+   "nota": "Normograma del Ministerio de Relaciones Exteriores. El documento trae el texto vigente y, debajo, el texto anterior a la Ley 50 de 1990, lo que permite verificar cual es cual."
+  },
+  "J3": {
+   "cita": "Ley 51 de 1983 (6 de diciembre), art. 1 - 'Por la cual se traslada el descanso remunerado de algunos días festivos' (Ley Emiliani)",
+   "url": "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=4954",
+   "nivel_de_fuente": 2,
+   "publicacion": "1983-12-06",
+   "nota": "Gestor Normativo EVA. Mismo descargo de vigencia que J1."
+  }
+ },
+ "jornada": {
+  "horas_semanales_max": 42,
+  "horas_diarias_max": null,
+  "dias_ordinarios": null,
+  "dias_ordinarios_origen": "no_declarado",
+  "literal": "Art. 161 CST, en la redaccion del art. 2 de la Ley 2101 de 2021: 'Duracion. La duracion maxima de la jornada ordinaria de trabajo es de cuarenta y dos (42) horas a la semana, que podran ser distribuidas, de comun acuerdo, entre empleador y trabajador, en 5 o 6 dias a la semana, garantizando siempre el dia de descanso, salvo las siguientes excepciones...'",
+  "traduccion": null,
+  "fuente": "J1",
+  "nota": "LAS 42 HORAS RIGEN DESDE EL 15 DE JULIO DE 2026, no antes. Al corte del proyecto (1 de enero de 2026) el tope era de 44 horas semanales. La escalera completa esta en reformas_en_la_ventana; quien cargue este archivo debe elegir el valor segun el corte que use. — DIAS ORDINARIOS: es null y no cinco de relleno. Y no es silencio de la ley: es bifurcacion expresa. El art. 161 nombra los dos numeros posibles, 5 o 6, y entrega la eleccion al acuerdo entre empleador y trabajador. De la norma no se sigue un valor unico. — HORAS DIARIAS: tambien null, y por una razon que se pasa por alto. La Ley 2101 reescribio entero el art. 161 y al hacerlo hizo desaparecer de el la vieja formula de 'ocho (8) horas al dia'. El unico tope diario que el articulo conserva esta en su literal d), y solo para la modalidad de jornada flexible: 'teniendo como minimo cuatro (4) horas continuas y maximo hasta nueve (9) horas diarias'. Poner 8 aqui seria citar una norma derogada."
+ },
+ "descanso_semanal": {
+  "dias": 1,
+  "cuales": "domingo",
+  "literal": "Art. 172 CST: 'NORMA GENERAL. Salvo la excepcion consagrada en el literal c) del articulo 20 de esta ley el empleador esta obligado a dar descanso dominical remunerado a todos sus trabajadores. Este descanso tiene duracion minima de veinticuatro (24) horas.' — Art. 161 CST: '...garantizando siempre el dia de descanso...'",
+  "fuente": "J2",
+  "nota": "Un dia, y la ley lo nombra: el domingo. La excepcion del literal c) del art. 20 (hoy art. 161 c) es el regimen de turnos sucesivos de 6 horas diarias y 36 semanales, donde el descanso remunerado existe igual pero no tiene que caer en domingo. El literal d) del art. 161 admite tambien repartir las 42 horas en hasta seis dias 'con un dia de descanso obligatorio, que podra coincidir con el dia domingo': la redaccion es potestativa, con lo que en esa modalidad el dia deja de estar nombrado."
+ },
+ "traslado_por_defecto": {
+  "existe": true,
+  "regla": "se traslada al lunes siguiente",
+  "alcance": "solo los que indica la norma: los quince festivos que enumera el numeral 2 del art. 1 de la Ley 51 de 1983",
+  "literal": "Art. 1, numeral 2, Ley 51 de 1983: 'Pero el descanso remunerado del seis de enero, diecinueve de marzo, veintinueve de junio, quince de agosto, doce de octubre, primero de noviembre, once de noviembre, Ascension del Senor, Corpus Christi y Sagrado Corazon de Jesus cuando no caigan en dia lunes se trasladaran al lunes siguiente a dicho dia. Cuando las mencionadas festividades caigan en domingo el descanso remunerado igualmente se trasladara al lunes.'",
+  "fuente": "J3",
+  "nota": "La segunda frase es la que responde a la pregunta de este proyecto: la ley resuelve EXPRESAMENTE el caso del festivo que cae en el descanso semanal, y lo resuelve trasladandolo. Pero solo para los festivos que ella lista. Los que quedan fuera del traslado —1 de enero, 1 de mayo, 20 de julio, 7 de agosto, 8 y 25 de diciembre, Jueves y Viernes Santos— se conmemoran en su fecha, y si caen en domingo se pierden. En Colombia, entonces, la respuesta correcta no es 'traslada' ni 'no traslada' sino que depende del feriado."
+ },
+ "reformas_en_la_ventana": [
+  {
+   "instrumento": "Ley 2101 de 2021, arts. 2 y 3",
+   "anio": 2021,
+   "que_cambio": "Redujo la jornada ordinaria maxima de 48 a 42 horas semanales por etapas, sin bajar el salario. Escalera segun el art. 3, contada desde la vigencia del 15 de julio de 2021: 47 horas desde el 15-jul-2023, 46 desde el 15-jul-2024, y desde el cuarto ano dos horas por ano hasta 42, o sea 44 desde el 15-jul-2025 y 42 desde el 15-jul-2026. El empleador podia acogerse de una vez a las 42 desde el principio. Literal del art. 3: 'A partir del cuarto ano de la entrada en vigencia de la ley, se reduciran dos (2) horas cada ano hasta llegar a las cuarenta y dos (42) horas semanales'."
+  },
+  {
+   "instrumento": "Ley 2101 de 2021, art. 2 (efecto colateral)",
+   "anio": 2021,
+   "que_cambio": "Al reescribir el art. 161 CST elimino de el la jornada maxima diaria de 8 horas y sustituyo el reparto rigido por un reparto convenido en 5 o 6 dias. Es la razon por la que dias_ordinarios y horas_diarias_max quedan en null."
+  }
+ ],
+ "pendiente": "Dos. (1) Todo se leyo en portales gubernamentales que declaran no responder por la vigencia; queda pendiente el cotejo contra el Diario Oficial (Ley 2101 y Ley 51). (2) No verifique el Decreto 1561 de 2022, que el propio texto de la Ley 2101 remite y que reglamenta la implementacion gradual: podria precisar como se cuenta cada etapa para empleadores que se acogieron anticipadamente."
+}

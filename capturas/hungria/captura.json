@@ -1,0 +1,234 @@
+{
+ "_": "CAPTURA CIEGA de Hungria. Leida del texto consolidado vigente del Nemzeti Jogszabalytar (njt.jog.gov.hu), portal legislativo estatal. Sin mirar ningun dataset agregado de vacaciones.",
+ "unidad": "HUN",
+ "jurisdiccion_de_referencia": "Budapest (ciudad mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 1",
+ "fecha_captura_utc": "2026-08-10T23:35:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "2012. evi I. torveny a munka torvenykonyverol (Mt.) — Código del Trabajo, texto consolidado vigente, idoallapot 2025.02.28.",
+   "nivel_de_fuente": 2,
+   "tipo": "Nemzeti Jogszabalytar, portal legislativo estatal",
+   "url": "https://njt.jog.gov.hu/jogszabaly/2012-1-00-00",
+   "nota": "AVISO DE VERSION: la copia del Mt. que sirve mkogy.jogtar.hu esta en «kozlonyallapot» de 2012, o sea el texto ORIGINAL de promulgacion, y difiere del vigente justo en los articulos que importan aqui: 102. §, 118. §, 122. § y 124. §. Todos los literales de esta captura vienen del consolidado de njt."
+  },
+  "F2": {
+   "cita": "2017. evi XIII. torveny — egyes torvenyeknek a nagypentek munkaszuneti nappa torteno nyilvanitasaval osszefuggo modositasarol (declaracion del Viernes Santo como día festivo)",
+   "nivel_de_fuente": 2,
+   "url": "https://njt.jog.gov.hu/jogszabaly/2017-13-00-00",
+   "publicacion": "2017-03-16",
+   "literal_relevante": "4. § A munka torvenykonyverol szolo 2012. evi I. torveny 102. § (1) bekezdese helyebe a kovetkezo rendelkezes lep: '(1) Munkaszuneti nap: januar 1., marcius 15., nagypentek, husvethetfo, majus 1., punkosdhetfo, augusztus 20., oktober 23., november 1. es december 25-26.' — 7. § Ez a torveny a kihirdeteset koveto nyolcadik napon lep hatalyba.",
+   "nota": "Aprobada por la Asamblea Nacional el 7-mar-2017; fecha de promulgacion (kihirdetes) 16-mar-2017 segun metadatos de njt (nivel 2); en vigor 24-mar-2017. El numero de Magyar Kozlony NO se verifico: el indicio apunta a MK 2017/37 pero es de nivel 4 y el enlace de magyarkozlony.hu para «37. szam» devuelve el ejemplar de 2023. Se deja sin numero de gaceta en vez de escribir uno sin comprobar."
+  }
+ },
+ "correccion_a_la_hipotesis_de_partida": "El Viernes Santo NO lo anadio ninguna «2016. evi CIII. torveny»: esa ley no existe con ese contenido y se busco en njt.hu, njt.jog.gov.hu, mkogy.jogtar.hu y magyarkozlony.hu. Lo anadio la 2017. evi XIII. torveny, promulgada el 16 de marzo de 2017 y en vigor el 24 de marzo de 2017, ocho dias despues. El primer nagypentek feriado fue el 14 de abril de 2017. Sigue siendo una reforma DENTRO de la ventana, pero un anio mas tarde de lo supuesto.",
+ "feriados": {
+  "estado": "COMPLETO. Once dias, todos con clase resoluble.",
+  "fuente": "F1",
+  "literal": "102. § (1) Munkaszuneti nap: januar 1., marcius 15., nagypentek, husvethetfo, majus 1., punkosdhetfo, augusztus 20., oktober 23., november 1. es december 25-26.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Januar 1. — Año Nuevo",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "03-15",
+    "nombre": "Marcius 15. — aniversario de la revolucion de 1848",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "Nagypentek — Viernes Santo",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2",
+    "desde": 2017,
+    "instrumento": "2017. evi XIII. torveny",
+    "nota": "REFORMA DENTRO DE LA VENTANA. Al 1-ene-2016 este feriado NO existia. La ley se promulgo el 16-mar-2017, entro en vigor el 24-mar-2017 y el primer Viernes Santo feriado fue el 14-abr-2017."
+   },
+   {
+    "fecha": null,
+    "nombre": "Husvethetfo — Lunes de Pascua",
+    "clase_de_regla": "computable",
+    "regla": "pascua+1"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Majus 1. — Día del Trabajo",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "Punkosdhetfo — Lunes de Pentecostés",
+    "clase_de_regla": "computable",
+    "regla": "pascua+50"
+   },
+   {
+    "fecha": "08-20",
+    "nombre": "Augusztus 20. — San Esteban, fiesta del Estado",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "10-23",
+    "nombre": "Oktober 23. — aniversario de la revolucion de 1956",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "11-01",
+    "nombre": "November 1. — Mindenszentek (Todos los Santos)",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "December 25. — Navidad",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "12-26",
+    "nombre": "December 26. — segundo día de Navidad",
+    "clase_de_regla": "fija"
+   }
+  ],
+  "conteo": {
+   "al_corte_2016": 10,
+   "al_corte_2026": 11,
+   "delta": "+1 (nagypentek, primer efecto en 2017)"
+  },
+  "reordenacion_de_jornada": {
+   "_": "Mecanismo hungaro sin equivalente en el resto del lote. No cambia el conteo pero si el calendario efectivo.",
+   "literal": "102. § (5) Felhatalmazast kap a foglalkoztataspolitikaert felelos miniszter, hogy – legkesobb a targyevet megelozo ev oktober 31-ig – az altalanos munkarendben foglalkoztatott munkavallalok munkaido-beosztasanak a munkaszuneti napok miatti valtoztatasat evenkent rendeletben szabalyozza. Ennek soran vasarnap nem nyilvanithato munkanappa es a valtoztatasnak azonos naptari honapra kell esnie.",
+   "traduccion": "El ministro competente en politica de empleo queda facultado para regular por reglamento, cada anio y a mas tardar el 31 de octubre del anio anterior, la modificacion del horario de los trabajadores en regimen general por causa de los dias festivos. En ese ejercicio no puede declararse dia laborable un domingo, y el cambio debe caer dentro del mismo mes natural.",
+   "por_que_importa": "Es la base de los «puentes» hungaros: sabados trabajados a cambio de lunes o viernes libres, fijados por reglamento anual. El total de dias no cambia, pero las FECHAS efectivas si, y las fija un reglamento posterior a la ley. Ninguna clase de regla de fecha ni el campo `regla_de_traslado_aplicable` recogen esto tal como esta escrito."
+  }
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "_": "Rama (b) por prudencia de nivel: la coleccion consultada es la de leyes en vigor pero la edita una casa comercial, asi que se declara nivel 3 en vez de forzarla a 2 para que entre por (a). La evidencia de marcadores es de tipo indice y se describe igual.",
+     "buscado_en": "Coleccion hungara de leyes en vigor, texto del Código de Trabajo de 2012 con sus marcadores de nota por artículo",
+     "cita": "El § 116 dice «Az alapszabadsag merteke husz munkanap» —la vacacion base es de veinte días laborables— y el § 117 anade los días suplementarios por edad, de uno a diez. NINGUNO DE LOS DOS LLEVA MARCADOR DE NOTA, y los marcadores existen: el § 115, inmediatamente anterior, si lleva el suyo. Es el mismo hallazgo que la ficha original describia — los articulos del quantum sin marca frente a los del paquete de transposicion de 2023, que si la llevan.",
+     "nivel_de_fuente": 3,
+     "fecha_busqueda": "2026-08-12",
+     "pantalla_3": {
+       "cita": "Prensa y guias hungaras de 2024 y 2026: la vacacion base sigue en veinte días laborables y lo que cambio en 2024 son las REGLAS DE CONCESION del descanso, no su cantidad. No aparece ninguna propuesta de elevar el minimo en la ventana.",
+       "url": "https://index.hu/belfold/2024/06/30/szabadsag-munkajog-munkavallalo-vakacio-kedvezmenyek/"
+     }
+   },
+  "dias": 20,
+  "tipo": "habil",
+  "base": 5,
+  "imputacion": "extienden",
+  "meses": 12,
+  "literal": "116. § Az alapszabadsag merteke husz munkanap.",
+  "escala": [
+   [
+    12,
+    null,
+    20
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "trabajador",
+   "veto": "ninguno",
+   "silencio": "sin_regla",
+   "instrumento": "ley",
+   "alcance": "porcion_definida",
+   "porcion_dias": 7,
+   "literal": "122. § (2) A munkaltato evente het munkanap szabadsagot – a munkaviszony elso harom honapjat kiveve – legfeljebb ket reszletben a munkavallalo kereseinek megfelelo idopontban koteles kiadni. A munkavallalonak erre vonatkozo igenyet legalabb tizenot nappal a szabadsag kezdete elott be kell jelentenie. — El empleador esta OBLIGADO a conceder cada anio siete dias de trabajo de vacaciones, en un maximo de dos tramos, en el momento que pida el trabajador, salvo en los tres primeros meses de la relacion. El trabajador debe anunciarlo con quince dias de antelacion."
+  },
+  "colocacion_residual": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "alcance": "residual",
+   "literal": "122. § (1) A szabadsagot – a munkavallalo elozetes meghallgatasa utan – a munkaltato adja ki. — Las vacaciones las concede el empleador, previa audiencia del trabajador. (4) La fecha debe comunicarse al trabajador al menos quince dias antes del inicio."
+  },
+  "colocacion_nota": "PARTICION LIMPIA, y es el caso mas nitido de todo el lote. Siete de los veinte dias los coloca el TRABAJADOR y el empleador esta OBLIGADO a concederlos —«koteles kiadni», sin causal de oposicion, o sea veto ninguno—, en un maximo de dos tramos y con quince dias de preaviso. Los trece restantes los coloca el EMPLEADOR previa audiencia. Es la estructura que Indonesia estreno con el cuti bersama, pero al reves: alli la porcion se la lleva el Estado y aqui el trabajador. La cota accesible al trabajador cae sola de veinte a siete sin necesidad de campo nuevo.",
+  "imputacion_nota": "VERIFICADA CON ARTICULO EXPRESO, y es el polo turco. El 124. § (2) dice: «Egyenlotlen munkaido-beosztas eseten a szabadsag kiadasa soran a het minden napja munkanapnak szamit, KIVEVE a munkaido-beosztas szerinti heti pihenonapot ES A MUNKASZUNETI NAPOT» — en horario desigual, al conceder las vacaciones todos los dias de la semana cuentan como dia de trabajo SALVO el dia de descanso semanal segun el horario Y EL DIA FESTIVO. O sea que el festivo no consume derecho: extiende. Y el 124. § (1) lleva a lo mismo por otra via para el horario regular: «A szabadsagot a munkaido-beosztas szerinti munkanapokra kell kiadni», las vacaciones se conceden sobre los dias de trabajo del horario, y un munkaszuneti nap no puede serlo salvo en los supuestos tasados del 102. § (2). PRECISION HONESTA: la exclusion EXPRESA esta en el apartado del horario DESIGUAL; para el horario regular el resultado se sigue del apartado (1) mas el 102. § (2), que es un paso mas. Ojo con no confundirlo con el 122. § (3), que va en sentido contrario y complementario: para completar los catorce dias corridos de desconexion anual el festivo SI se toma en cuenta —pero ahi cuenta como dia de descanso agregado, no como dia de vacaciones consumido.",
+  "escala_no_representable": {
+   "_": "ESTE ES EL HALLAZGO PRINCIPAL DE HUNGRIA. El derecho hungaro escala, pero NO por antiguedad: por la EDAD DEL TRABAJADOR.",
+   "literal": "117. § (1) A munkavallalonak a) huszonotodik eletevetol egy, b) huszonnyolcadik eletevetol ketto, c) harmincegyedik eletevetol harom, d) harmincharmadik eletevetol negy, e) harmincotodik eletevetol ot, f) harminchetedik eletevetol hat, g) harminckilencedik eletevetol het, h) negyvenegyedik eletevetol nyolc, i) negyvenharmadik eletevetol kilenc, j) negyvenotodik eletevetol tiz munkanap potszabadsag jar. (2) A hosszabb tartamu potszabadsag a munkavallalonak abban az evben jar eloszor, amelyben az (1) bekezdesben meghatarozott eletkort betolti.",
+   "tabla_edad_dias_adicionales": [
+    [
+     25,
+     1
+    ],
+    [
+     28,
+     2
+    ],
+    [
+     31,
+     3
+    ],
+    [
+     33,
+     4
+    ],
+    [
+     35,
+     5
+    ],
+    [
+     37,
+     6
+    ],
+    [
+     39,
+     7
+    ],
+    [
+     41,
+     8
+    ],
+    [
+     43,
+     9
+    ],
+    [
+     45,
+     10
+    ]
+   ],
+   "total_con_alapszabadsag": "De 20 munkanap antes de los 25 a 30 munkanap desde los 45.",
+   "por_que_no_cabe": "La tabla `escala_antiguedad` esta indexada por `desde_meses` y `hasta_meses` DE SERVICIO, y `base_antiguedad` solo admite servicio continuo con el empleador actual, servicio reconocido de empleadores previos, o experiencia laboral total. La EDAD no es ninguna de las tres: no es una medida de servicio, es un atributo de la persona. La prueba literal es doble — la palabra «eletevetol» («desde su anio de vida N-esimo») repetida en las diez letras, y el 117. § (2) «abban az evben jar eloszor, amelyben az eletkort betolti» («corresponde por primera vez en el anio en que cumple la edad»). En ninguna parte del 117. § aparece antiguedad.",
+   "consecuencia_practica": "La grilla de 1, 5 y 10 anios de antiguedad que el protocolo deriva es INDETERMINADA para Hungria sin fijar tambien la edad del trabajador. Dos trabajadores hungaros con la misma antiguedad pueden tener 20 y 30 dias.",
+   "otros_potszabadsag_que_tampoco_dependen_del_servicio": "118. § hijos menores de 16: 2 dias con un hijo, 4 con dos, 7 con mas de dos, mas 2 por cada hijo con discapacidad. 119. § trabajador joven: 5 dias, hasta el anio en que cumple 18; trabajo subterraneo o expuesto a radiacion ionizante al menos tres horas diarias: 5 dias. 120. § capacidad laboral alterada, prestacion por discapacidad o renta de ciegos: 5 dias. Ninguno depende de la antiguedad; todos dependen de atributos del trabajador."
+  },
+  "pendiente": "Dos huecos. (1) El valor de 20 supone un TRABAJADOR MENOR DE 25 ANIOS, porque es el unico tramo de edad sin suplemento; el protocolo define el trabajador de referencia por antiguedad de doce meses y NO le asigna edad, con lo que para Hungria el trabajador de referencia esta subdeterminado. Se escribe el piso, no un promedio, y se declara. (2) `base: 5` se apoya en el concepto de «altalanos munkarend» del Mt., que es de lunes a viernes, pero NO transcribi el articulo que lo dice (97. §): es una lectura con soporte no citado. Lo que si esta verificado es la unidad: 116. § y 117. § dicen «munkanap» y el 124. § los define como los dias de trabajo del horario, excluidos descanso semanal y festivo."
+ },
+ "corte_2016": {
+  "estado": "verificado_parcial",
+  "nota": "Hubo reforma en la ventana por los DOS lados y ambas estan localizadas. Feriados: la 2017. evi XIII. torveny anadio el nagypentek, promulgada el 16-mar-2017 y en vigor el 24-mar-2017; diez feriados al corte de 2016 y once al de 2026. Vacaciones: el texto vigente de njt lleva marcadores de modificacion en 115. §, 118. §, 118/A. §, 120. §, 121. §, 122. §, 123. §, 124. § y 125. §, correspondientes al paquete de transposicion de las Directivas (UE) 2019/1152 y 2019/1158 con efectos el 1-ene-2023: el permiso de paternidad sube a diez munkanap, se inserta un permiso parental de cuarenta y cuatro munkanap, y se ajustan la concesion y el rescate. Y AQUI ESTA LO QUE IMPORTA PARA EL PANEL: los articulos 116. § y 117. § —los veinte dias de alapszabadsag y la escala por edad— NO llevan marcador de modificacion, o sea que su redaccion es la original de 2012 y el derecho del trabajador de referencia NO cambio entre 2016 y 2026. Es «parcial» y no «verificado» por dos razones: el numero de Magyar Kozlony de la ley del nagypentek no se comprobo, y la correspondencia entre cada marcador de nota del njt y su ley modificatoria concreta no se pudo leer, porque ese bloque se carga aparte y no venia en el HTML."
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "La escala hungara va por EDAD y el esquema solo sabe indexar por antiguedad de servicio.",
+   "por_que_importa": "Es el hueco mas caro del lote: la grilla de 1, 5 y 10 anios que el protocolo deriva no esta definida para Hungria.",
+   "como_se_cierra": "Decision del principal. O se anade una dimension de atributo del trabajador a la escala, o se declara una edad al trabajador de referencia, o Hungria se marca como no comparable en la grilla."
+  },
+  {
+   "id": "H2",
+   "que": "El numero de Magyar Kozlony de la 2017. evi XIII. torveny no se verifico.",
+   "como_se_cierra": "Localizar el facsimil; la fecha de promulgacion (2017-03-16) si esta en nivel 2."
+  },
+  {
+   "id": "H3",
+   "que": "La atribucion de cada modificacion del capitulo de vacaciones a su ley concreta no se verifico en primaria.",
+   "como_se_cierra": "Leer el bloque de notas del njt, que se sirve por separado."
+  },
+  {
+   "id": "H4",
+   "que": "No se transcribio el 97. § (altalanos munkarend), que es el soporte de la base semanal de cinco.",
+   "como_se_cierra": "Transcribirlo."
+  },
+  {
+   "id": "H5",
+   "que": "El reglamento anual de reordenacion de jornada del 102. § (5) no se capturo para ningun anio.",
+   "por_que_importa": "Mueve las fechas efectivas de descanso sin cambiar el conteo.",
+   "como_se_cierra": "Localizar los reglamentos de los anios de corte y decidir si el esquema debe registrarlos."
+  }
+ ]
+}

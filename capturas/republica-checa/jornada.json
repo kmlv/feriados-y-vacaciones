@@ -1,0 +1,91 @@
+{
+  "_": "Jornada semanal legal ordinaria. Chequia es de los pocos casos donde el codigo declara los dias de la semana en la propia norma, aunque con el adverbio 'zpravidla' (por regla general) que lo convierte en defecto y no en imperativo.",
+  "unidad": "CZE",
+  "jurisdiccion_de_referencia": "Praga",
+  "sector_de_referencia": "privado formal, jornada completa, persona adulta, regimen de turno unico",
+  "fecha_captura_utc": "2026-08-11T05:46:47Z",
+  "capturado_por": "jornada · lote 9",
+  "fuentes": {
+    "J1": {
+      "cita": "Zakon c. 262/2006 Sb., zakonik prace, §79 Stanovena tydenni pracovni doba",
+      "url": "https://e-sbirka.gov.cz/sb/2006/262/2026-01-01?zalozka=text",
+      "nivel_de_fuente": 2,
+      "publicacion": "e-Sbirka, portal oficial del Estado checo; version consolidada a 01.01.2026, rotulada por el propio portal como 'informativni zneni'",
+      "nota": "Literal leido en e-Sbirka renderizando la pagina en navegador -es una SPA y no responde a descarga plana- y verificado caracter por caracter contra zakonyprolidi.cz. Los dos textos coinciden."
+    },
+    "J2": {
+      "cita": "Zakonik prace, §81 odst. 2 (rozvrzeni pracovni doby)",
+      "url": "https://e-sbirka.gov.cz/sb/2006/262/2026-01-01?zalozka=text",
+      "nivel_de_fuente": 2
+    },
+    "J3": {
+      "cita": "Zakonik prace, §83 odst. 1 (delka smeny)",
+      "url": "https://e-sbirka.gov.cz/sb/2006/262/2026-01-01?zalozka=text",
+      "nivel_de_fuente": 2
+    },
+    "J4": {
+      "cita": "Zakonik prace, §92 Nepretrzity odpocinek v tydnu",
+      "url": "https://e-sbirka.gov.cz/sb/2006/262/2026-01-01?zalozka=text",
+      "nivel_de_fuente": 2
+    },
+    "J5": {
+      "cita": "Zakonik prace, §91 odst. 1 (dny pracovniho klidu) y §115 odst. 3 (nahrada mzdy za svatek)",
+      "url": "https://e-sbirka.gov.cz/sb/2006/262/2026-01-01?zalozka=text",
+      "nivel_de_fuente": 2,
+      "nota": "Sirven para el hallazgo negativo sobre traslado."
+    },
+    "J6": {
+      "cita": "Zakon c. 281/2023 Sb., transpozicni novela zakoniku prace; el cambio del §92 en vigor desde 01.01.2024",
+      "url": "https://mpsv.gov.cz/novela-zakoniku-prace",
+      "nivel_de_fuente": 2,
+      "publicacion": "Ministerstvo prace a socialnich veci (MPSV), portal gubernamental",
+      "nota": "No lei el dispositivo publicado en la Sbirka; tome la descripcion del cambio del portal del ministerio."
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 40,
+    "horas_diarias_max": 12,
+    "dias_ordinarios": 5,
+    "dias_ordinarios_origen": "norma",
+    "literal": "§79 (1) Delka stanovene tydenni pracovni doby cini 40 hodin tydne. || §81 (2) Pracovni doba se rozvrhuje zpravidla do petidenniho pracovniho tydne. || §83 (1) Delka smeny nesmi presahnout 12 hodin.",
+    "literal_grafia_original": "§ 79 (1) Délka stanovené týdenní pracovní doby činí 40 hodin týdně. || § 81 (2) Pracovní doba se rozvrhuje zpravidla do pětidenního pracovního týdne. || § 83 (1) Délka směny nesmí přesáhnout 12 hodin.",
+    "traduccion": "§79 (1) La duracion de la jornada semanal establecida es de 40 horas semanales. || §81 (2) La jornada de trabajo se distribuye, por regla general, en una semana laboral de cinco dias. || §83 (1) La duracion del turno no puede exceder de 12 horas.",
+    "fuente": "J1",
+    "nota": "Los cinco dias los dice la norma, no la aritmetica: el §81(2) los nombra. Pero los nombra con 'zpravidla' -por regla general-, de modo que es un defecto legal desplazable por la organizacion del trabajo, no un imperativo. Ojo con las 12 horas diarias: NO son jornada ordinaria diaria sino el techo de un turno; con 40 horas semanales sobre cinco dias el turno tipico es de 8. El §79(2) rebaja la semana a 37,5 en regimen continuo o de tres turnos y a 38,75 en dos turnos: el trabajador de referencia esta en el 40.",
+    "horas_semanales_regimenes_especiales": {
+      "tres_turnos_o_continuo": 37.5,
+      "dos_turnos": 38.75
+    }
+  },
+  "descanso_semanal": {
+    "dias": 1,
+    "horas_minimas": 35,
+    "cuales": "un dia por semana, y el domingo si la operacion del empleador lo permite, en cuyo caso debe ser el mismo dia para toda la plantilla",
+    "literal": "§92 (1) Zamestnavatel je povinen v ramci tydne zamestnanci starsimu 18 let poskytnout nepretrzity odpocinek v trvani alespon 24 hodin spolu s nepretrzitym dennim odpocinkem podle §90 odst. 1, na ktery musi bezprostredne navazovat; celkova doba trvani techto odpocinku je nepretrzitym odpocinkem v tydnu. || (3) Jestlize to umoznuje provoz zamestnavatele, poskytne zamestnavatel nepretrzity odpocinek v tydnu podle odstavcu 1 a 2 vsem zamestnancum na stejny den a tak, aby do neho spadala nedele.",
+    "traduccion": "§92 (1) El empleador esta obligado a conceder, dentro de la semana, a la persona empleada mayor de 18 anios un descanso ininterrumpido de al menos 24 horas junto con el descanso diario ininterrumpido del §90(1), al que debe seguir inmediatamente; la duracion total de esos descansos es el descanso semanal ininterrumpido. (3) Si la operacion del empleador lo permite, este concedera el descanso semanal a todas las personas empleadas el mismo dia y de modo que en el caiga el domingo.",
+    "fuente": "J4",
+    "nota": "24 horas mas las 11 del descanso diario dan las 35 horas que suele citarse. El domingo esta nombrado pero condicionado a que la operacion lo permita; el sabado no aparece. Es decir: la semana de cinco dias sale del §81(2), no del §92."
+  },
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": null,
+    "alcance": null,
+    "literal": "§115 (3) Zamestnanci, ktery nepracoval proto, ze svatek pripadl na jeho obvykly pracovni den, prislusi nahrada mzdy ve vysi prumerneho vydelku nebo jeho casti za mzdu nebo cast mzdy, ktera mu usla v dusledku svatku.",
+    "traduccion": "§115 (3) A la persona empleada que no trabajo porque el feriado cayo en su dia habitual de trabajo le corresponde una compensacion salarial por el importe de su salario medio, o de la parte de salario que dejo de percibir a causa del feriado.",
+    "fuente": "J5",
+    "nota": "Hallazgo negativo, y la prueba esta en la condicion del §115(3): la proteccion se activa solo si el feriado cae en el DIA HABITUAL DE TRABAJO. Cayendo en sabado o en domingo no genera ni compensacion salarial ni dia sustituto: el §91(1) simplemente clasifica los feriados junto a los dias de descanso semanal como 'dias de reposo laboral' y ahi termina. Ni el zakonik prace ni la ley 245/2000 Sb. de feriados contienen una regla de traslado. Chequia no tiene nada equivalente al articulo 130 §2 polaco."
+  },
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "Zakon c. 281/2023 Sb. (novela de transposicion del zakonik prace); el cambio del §92 en vigor 01.01.2024",
+      "anio": 2024,
+      "que_cambio": "precisa el descanso semanal: el empleador debe efectivamente CONCEDER 24 horas mas el descanso diario inmediatamente encadenado, y no solo dejar una ventana de 35 horas en el cuadrante. Cierra la lectura que permitia programar el hueco sin darlo."
+    },
+    {
+      "instrumento": "Zakon c. 285/2020 Sb.; en vigor 01.01.2021",
+      "anio": 2021,
+      "que_cambio": "las vacaciones pasan a computarse en HORAS y no en dias, calculadas sobre la jornada semanal establecida. No cambia la jornada, pero ata la unidad de vacaciones a la jornada de este archivo, que es justo la conversion que este proyecto necesita."
+    }
+  ],
+  "pendiente": "El literal se leyo en la version consolidada informativa de e-Sbirka. Falta cotejar §79, §81 y §92 contra el dispositivo publicado de la Sbirka (nivel 1), y confirmar el numero de la parte de la Sbirka en que se publico la ley 281/2023 Sb."
+}

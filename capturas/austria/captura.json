@@ -1,0 +1,194 @@
+{
+ "_": "CAPTURA CIEGA de Austria. RIS, el sistema oficial, estuvo caido -503- durante toda la captura; los literales vienen de portales de gobierno y de compilaciones, y eso baja el nivel de fuente.",
+ "unidad": "AUT",
+ "jurisdiccion_de_referencia": "Viena (mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 8",
+ "fecha_captura_utc": "2026-08-10T19:50:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Urlaubsgesetz (UrlG), BGBl. Nr. 390/1976, §2 Urlaubsausmass, §3 Vordienstzeiten, §4 Verbrauch des Urlaubes",
+   "nivel_de_fuente": 4,
+   "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10008376",
+   "nota": "RIS devolvio 503 en todos los intentos, directos y por extractor. El contenido de §2 se corroboro contra F2 -portal oficial oesterreich.gv.at, nivel 2- y contra jusline, nivel 3. Se deja nivel 4 porque el literal aleman completo NO se leyo. PENDIENTE archivar la Gesamte Rechtsvorschrift de RIS."
+  },
+  "F2": {
+   "cita": "oesterreich.gv.at - Urlaubsanspruch (portal oficial de la Administracion austriaca)",
+   "nivel_de_fuente": 2,
+   "url": "https://www.oesterreich.gv.at/de/lexicon/U/Seite.991623",
+   "literal_relevante": "'bezahlten Urlaub im Ausmass von 25 Arbeitstagen bei einer Fuenf-Tage-Woche (bzw. 30 Werktagen bei einer Sechs-Tage-Woche)'; tras mas de 25 anos de servicio, '30 Arbeitstagen bei einer Fuenf-Tage-Woche (bzw. 36 Werktagen bei einer Sechs-Tage-Woche)'.",
+   "nota": "Esta fuente es la que hace comparable el numero: da la EQUIVALENCIA explicita entre la unidad legal en Werktage y su traduccion a dias habiles sobre semana de cinco."
+  },
+  "F3": {
+   "cita": "Arbeitsruhegesetz (ARG), BGBl. Nr. 144/1983, §7 Feiertagsruhe y §7a Einseitiger Urlaubsantritt",
+   "nivel_de_fuente": 4,
+   "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10008541",
+   "nota": "Mismo 503. La lista de feriados se corroboro contra jusline y contra el ÖGB Verlag, ambos nivel 3, y contra prensa juridica. PENDIENTE elevar a nivel 1 o 2."
+  },
+  "F4": {
+   "cita": "BGBl. I Nr. 22/2019 - suprime el Karfreitag confesional del §7 Abs 3 ARG e introduce el §7a, persoenlicher Feiertag",
+   "nivel_de_fuente": 4,
+   "publicacion": "2019",
+   "nota": "No localice el dispositivo del BGBl. La reforma esta confirmada por varias secundarias concordantes y por la sentencia del TJUE que la motivo (asunto Cresco Investigation), pero varias de nivel 4 no hacen una de nivel 1. PENDIENTE localizar el BGBl. y datar la entrada en vigor exacta."
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO para los feriados legales del §7 Abs 2 ARG, mas el Karfreitag confesional que existia al corte 2016 y ya no existe al corte 2026.",
+  "fuente": "F3",
+  "literal": "ARG §7 Abs 2: enumeracion de los gesetzliche Feiertage.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Neujahr",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "01-06",
+    "nombre": "Heilige Drei Koenige",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "Ostermontag",
+    "clase_de_regla": "computable",
+    "regla": "pascua+1"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Staatsfeiertag",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "Christi Himmelfahrt",
+    "clase_de_regla": "computable",
+    "regla": "pascua+39"
+   },
+   {
+    "fecha": null,
+    "nombre": "Pfingstmontag",
+    "clase_de_regla": "computable",
+    "regla": "pascua+50"
+   },
+   {
+    "fecha": null,
+    "nombre": "Fronleichnam",
+    "clase_de_regla": "computable",
+    "regla": "pascua+60"
+   },
+   {
+    "fecha": "08-15",
+    "nombre": "Mariae Himmelfahrt",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "10-26",
+    "nombre": "Nationalfeiertag",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "11-01",
+    "nombre": "Allerheiligen",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "12-08",
+    "nombre": "Mariae Empfaengnis",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Weihnachten",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "12-26",
+    "nombre": "Stefanitag",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "Karfreitag (feriado confesional, derogado)",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2",
+    "hasta": 2019,
+    "instrumento": "BGBl. I Nr. 22/2019",
+    "nota": "REFORMA DENTRO DE LA VENTANA, y en direccion negativa. Al 1-ene-2016 el §7 Abs 3 ARG hacia del Viernes Santo un feriado legal SOLO para miembros de las iglesias evangelicas AB y HB, la Iglesia Veterocatolica y la Iglesia Evangelica Metodista. En 2019 se elimino por completo tras la sentencia del TJUE por discriminacion religiosa. ELEGIBILIDAD CONDICIONAL POR CONFESION: el esquema tiene la columna `elegibilidad` y el cargador la fija en 'sin_condicion', asi que esta fila entra al corte 2016 como si hubiera alcanzado a todos los trabajadores, y no fue asi."
+   }
+  ],
+  "subnacionales": [],
+  "nota_subnacionales": "Viena no tiene feriado propio con efectos laborales. Los Landespatrone -en Viena, San Leopoldo el 15 de noviembre- son dias de fiesta regional sin descanso obligatorio para el sector privado, a diferencia de Alemania, donde el nucleo comun se amplia por Land. Se deja la lista vacia y se declara verificado hasta donde llego."
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "buscado_en": "RIS, sistema oficial austriaco de informacion juridica, ficha del § 2 de la Urlaubsgesetz en su versión consolidada al día, con su fecha de entrada en vigor",
+     "cita": "El § 2 dice «Das Urlaubsausmass betragt bei einer Dienstzeit von weniger als 25 Jahren 30 Werktage und erhoht sich nach Vollendung des 25. Jahres auf 36 Werktage» —treinta días habiles, treinta y seis a partir de los veinticinco anios de servicio— y la ficha le pone «Inkrafttretensdatum: 01.01.2013». EL ARTICULO RIGE EN ESTA REDACCION DESDE ENERO DE 2013, tres anios antes del corte antiguo. La ley consta como publicada en 1976 y modificada por última vez por BGBl. I Nr. 3/2013.",
+     "nivel_de_fuente": 1,
+     "indice_registra_modificaciones": true,
+     "indice_como_se_comprobo": "El registro fecha la entrada en vigor ARTICULO POR ARTICULO y nombra el boletin de la última modificación de la ley. Registra la presencia con esa precision, asi que una fecha de 2013 cierra la ventana por si sola.",
+     "fecha_busqueda": "2026-08-12"
+   },
+  "dias": 30,
+  "tipo": "werktage",
+  "base": 6,
+  "imputacion": "extienden",
+  "meses": 6,
+  "literal": "UrlG §2 Abs 1: el Urlaubsausmass es de 30 Werktage con una Dienstzeit menor a 25 anos, y sube a 36 Werktage cumplido el ano 25. §2 Abs 2: son Werktage los dias de lunes a sabado que NO sean feriados legales.",
+  "escala": [
+   [
+    6,
+    300,
+    30
+   ],
+   [
+    300,
+    null,
+    36
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "negociada",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "UrlG §4 Abs 1: el momento del inicio del permiso se ACUERDA entre empleador y trabajador atendiendo a las necesidades de la empresa y a las posibilidades de descanso del trabajador. No hay solicitud del trabajador con veto, como en Alemania: hay acuerdo, como en Turquia.",
+   "resolucion_desacuerdo": "sin_regla",
+   "nota_resolucion": "El §4 Abs 1 manda acordar atendiendo a necesidades de la empresa y del trabajador, y el literal capturado no fija desempate."
+  },
+  "imputacion_nota": "MISMO MECANISMO QUE ALEMANIA, y por eso vale registrarlo: la regla de imputacion no vive en un articulo aparte sino en la DEFINICION DE LA UNIDAD. Si el feriado no es Werktag, no consume derecho. Tercer pais del proyecto -Alemania, Turquia, Austria- donde el campo `imputacion` se lee de la definicion y no de una regla sustantiva; el campo sigue haciendo falta porque Peru y El Salvador demuestran que la regularidad no es ley.",
+  "nota_base_antiguedad": "El umbral de 25 anos NO corre solo sobre el empleador actual. El §3 UrlG manda computar Vordienstzeiten: hasta 5 anos con empleadores anteriores y hasta 7 anos de formacion. El esquema tiene 'servicio_reconocido_empleadores_previos' y 'regla_de_reconocimiento' para esto, pero el cargador escribe 'servicio_continuo_empleador_actual' fijo para todas las unidades. Austria queda mal etiquetada justo en el tramo donde la escala cambia.",
+  "colocacion_porcion_no_representable": {
+   "nombre": "persoenlicher Feiertag (ARG §7a, desde 2019)",
+   "porcion_dias": 1,
+   "iniciativa": "trabajador",
+   "veto": "ninguno",
+   "silencio": "aprobado",
+   "instrumento": "ley",
+   "literal": "El trabajador puede fijar UNILATERALMENTE, una vez por ano de vacaciones, un dia de su Urlaub como 'persoenlicher Feiertag', declarandolo por escrito con tres meses de antelacion. El empleador no puede negarse.",
+   "por_que_no_va_en_colocacion": "ES EL POLO OPUESTO DE INDONESIA Y NO SE PUEDE ESCRIBIR. Indonesia parte el derecho en una porcion que coloca el ESTADO y un resto negociado; Austria lo parte en una porcion que coloca el TRABAJADOR sin veto y un resto negociado. La aritmetica de porciones del esquema lo soporta, pero el CHECK de `regla_colocacion` limita `porcion_tipo_de_dia` a 'calendario' u 'habil', mientras `vacaciones_version.tipo_de_dia` admite ademas 'werktage' y 'semanas'. Como el cargador copia el tipo de la version a la porcion, una porcion en Werktage viola el CHECK y la carga aborta. Es una incoherencia entre dos catalogos del propio esquema, no un problema austriaco: afecta a Alemania, Turquia, Austria, Ontario, Australia, Reino Unido, Italia, Suiza y cualquier otra unidad en werktage o semanas en cuanto necesite una regla de colocacion por porciones.",
+   "comprobado": "Se ejecuto el DDL en memoria y se intento la insercion exacta: 'CHECK constraint failed: porcion_tipo_de_dia IS NULL OR porcion_tipo_de_dia IN (calendario, habil)'. No es una lectura del DDL, es el motor rechazandolo.",
+   "consecuencia_de_dejarlo_fuera": "La cota de dias que el trabajador austriaco puede colocar por si mismo se publica como 0 cuando en realidad es 1. Es poco, pero es el mismo tipo de error que en Indonesia valia 8 de 12."
+  }
+ },
+ "delta_2016_2026": {
+  "feriados": "-1 confesional. Al 1-ene-2016 habia 13 feriados universales mas el Karfreitag para miembros de tres iglesias; al 1-ene-2026 hay 13 universales y ninguno confesional.",
+  "vacaciones": "0 en quantum. Lo que aparecio en la ventana es un mecanismo nuevo de COLOCACION -el persoenlicher Feiertag- que no cambia el numero de dias y si cambia quien los coloca. Sin el campo de colocacion, la reforma austriaca de 2019 seria invisible."
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "BGBl. I Nr. 22/2019 esta datada dentro de la ventana y su efecto es doble: suprime el feriado confesional y crea el §7a. El corte 2016 se deriva de ella."
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "RIS, el sistema oficial de informacion juridica austriaco, no respondio en ningun momento de la captura. Ni UrlG ni ARG se leyeron de fuente oficial.",
+   "por_que_importa": "Las dos normas centrales de la unidad quedan en nivel 4, y con nivel minimo 4 el cargador marca las mediciones como 'supuesto' en vez de 'verificado_primaria'.",
+   "como_se_cierra": "Reintentar RIS y archivar las Gesamte Rechtsvorschrift de UrlG y ARG."
+  },
+  {
+   "id": "H2",
+   "que": "No se verifico la fecha exacta de entrada en vigor del BGBl. I Nr. 22/2019, solo el ano.",
+   "como_se_cierra": "Localizar el BGBl.; con la fecha se puede decidir si el corte del Karfreitag es 2019 o 2020."
+  }
+ ]
+}

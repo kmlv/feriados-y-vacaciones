@@ -1,0 +1,56 @@
+{
+  "_": "Jornada semanal legal ordinaria. EL CASO QUE DA NOMBRE AL PROBLEMA: la ArbZG no escribe ninguna cifra semanal; las 48 salen de ocho horas por Werktag sobre los seis dias que el § 9 deja disponibles. Seis es BASE DE COMPUTO, no horario ordenado; el trabajador aleman tipico trabaja cinco por convenio.",
+  "unidad": "DEU",
+  "jurisdiccion_de_referencia": "Berlin",
+  "sector_de_referencia": "privado formal, jornada completa, persona adulta, trabajo diurno",
+  "capturado_por": "jornada · lote 4",
+  "fecha_captura_utc": "2026-08-11T05:45:52Z",
+  "fuentes": {
+    "J1": {
+      "cita": "Arbeitszeitgesetz (ArbZG) vom 6. Juni 1994, § 3 (Arbeitszeit der Arbeitnehmer)",
+      "url": "https://www.gesetze-im-internet.de/arbzg/__3.html",
+      "nivel_de_fuente": 1,
+      "publicacion": "BGBl. I 1994 S. 1170, 1171",
+      "nota": "gesetze-im-internet.de es el servicio oficial del Bundesministerium der Justiz y del Bundesamt fuer Justiz."
+    },
+    "J2": {
+      "cita": "Arbeitszeitgesetz (ArbZG), § 9 (Sonn- und Feiertagsruhe) y § 11 (Ausgleich fuer Sonn- und Feiertagsbeschaeftigung)",
+      "url": "https://www.gesetze-im-internet.de/arbzg/BJNR117100994.html",
+      "nivel_de_fuente": 1,
+      "publicacion": "BGBl. I 1994 S. 1170",
+      "nota": null
+    },
+    "J3": {
+      "cita": "Entgeltfortzahlungsgesetz (EntgFG), § 2 Abs. 1 (Entgeltzahlung an Feiertagen)",
+      "url": "https://www.gesetze-im-internet.de/entgfg/__2.html",
+      "nivel_de_fuente": 1,
+      "publicacion": "BGBl. I 1994 S. 1014, 1065",
+      "nota": "Es la norma que decide que pasa economicamente cuando el feriado cae en un dia no laborable, y por eso es la que prueba la ausencia de traslado."
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 48,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": 6,
+    "dias_ordinarios_origen": "norma",
+    "literal": "§ 3 ArbZG: «Die werktaegliche Arbeitszeit der Arbeitnehmer darf acht Stunden nicht ueberschreiten. Sie kann auf bis zu zehn Stunden nur verlaengert werden, wenn innerhalb von sechs Kalendermonaten oder innerhalb von 24 Wochen im Durchschnitt acht Stunden werktaeglich nicht ueberschritten werden.» — § 9 Abs. 1 ArbZG: «Arbeitnehmer duerfen an Sonn- und gesetzlichen Feiertagen von 0 bis 24 Uhr nicht beschaeftigt werden.»",
+    "traduccion": "§ 3: «La jornada de trabajo POR DIA LABORABLE (werktaeglich) de los trabajadores no puede exceder de ocho horas. Solo puede prolongarse hasta diez horas si dentro de seis meses naturales o de 24 semanas no se superan, en promedio, ocho horas por dia laborable.» — § 9.1: «Los trabajadores no pueden ser ocupados los domingos y los feriados legales de 0 a 24 horas.»",
+    "fuente": "J1,J2",
+    "nota": "ESTE ES EL CASO QUE DA NOMBRE AL PROBLEMA Y HAY QUE LEERLO DESPACIO. La ArbZG NO ESCRIBE NUNCA UNA CIFRA SEMANAL. Su unica cota es de ocho horas por Werktag. El 48 no esta en la ley: sale de multiplicar. Y sale de multiplicar por seis porque el propio § 9 Abs. 1 retira del calendario laborable el domingo y los feriados, dejando de lunes a sabado como los dias sobre los que la cota diaria opera. Por eso marco `norma` y no `no_declarado`: el seis no es una costumbre importada de fuera, es el conjunto de dias que la propia ley deja disponibles. Ahora la distincion que importa, y que este proyecto existe para no borrar: SEIS ES LA BASE DE COMPUTO, NO UN HORARIO ORDENADO. La ArbZG no obliga a nadie a trabajar seis dias; fija un techo por dia laborable. La semana efectiva del trabajador aleman se pacta en convenio colectivo y por regla general se reparte en cinco dias con una duracion por debajo de las 40 horas. Un dato de descanso construido sobre el 48 y sobre seis dias describiria a un trabajador que casi no existe; uno construido sobre cinco dias describiria una ley que no esta escrita. Las dos cosas hay que dejarlas visibles, y por eso el 48 va con esta nota pegada."
+  },
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "domingo",
+    "literal": "§ 9 Abs. 1 ArbZG: «Arbeitnehmer duerfen an Sonn- und gesetzlichen Feiertagen von 0 bis 24 Uhr nicht beschaeftigt werden.» — § 11 Abs. 1 ArbZG: «Mindestens 15 Sonntage im Jahr muessen beschaeftigungsfrei bleiben.» (traduccion: «Los trabajadores no pueden ser ocupados los domingos y feriados legales de 0 a 24 horas»; «Al menos 15 domingos al ano deben quedar libres de ocupacion.»)",
+    "fuente": "J2"
+  },
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": null,
+    "alcance": null,
+    "literal": "§ 11 Abs. 3 Satz 2 ArbZG: «Werden Arbeitnehmer an einem AUF EINEN WERKTAG FALLENDEN Feiertag beschaeftigt, muessen sie einen Ersatzruhetag haben, der innerhalb eines den Beschaeftigungstag einschliessenden Zeitraums von acht Wochen zu gewaehren ist.» — § 2 Abs. 1 EntgFG: «Fuer Arbeitszeit, die INFOLGE eines gesetzlichen Feiertages ausfaellt, hat der Arbeitgeber dem Arbeitnehmer das Arbeitsentgelt zu zahlen, das er ohne den Arbeitsausfall erhalten haette.» (traduccion: «Si los trabajadores son ocupados en un feriado QUE CAE EN DIA LABORABLE, deben tener un dia de descanso sustitutivo, a conceder dentro de un plazo de ocho semanas que incluya el dia de ocupacion»; «Por el tiempo de trabajo que se pierde A CAUSA de un feriado legal, el empleador debe pagar al trabajador la retribucion que habria percibido sin esa perdida.»)",
+    "fuente": "J2,J3"
+  },
+  "reformas_en_la_ventana": [],
+  "pendiente": "Dos cosas. (1) Los feriados son derecho de los Laender y no lei el Feiertagsgesetz de Berlin para este campo: la ausencia de regla de traslado esta verificada en el derecho FEDERAL —que es donde estaria si existiera con alcance general— pero no en la ley berlinesa. (2) Hay un proyecto federal de reforma de la ArbZG que sustituiria el techo diario por un techo SEMANAL expreso de 48 horas; a la fecha de captura no consta promulgado y no lo verifique con fuente de nivel 1, asi que no va en `reformas_en_la_ventana`. Es sintomatico del hallazgo: la reforma consiste, precisamente, en escribir el numero que hoy solo existe como multiplicacion. Tampoco codifico la duracion media pactada en convenio, que no verifique con fuente."
+}

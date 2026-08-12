@@ -1,0 +1,56 @@
+{
+  "_": "JORNADA SEMANAL LEGAL ORDINARIA del Reino Unido. Trabajador de referencia: sector privado formal, jornada completa, Londres (Inglaterra y Gales). Es la unidad del lote donde la ley dice MENOS sobre la forma de la semana.",
+  "unidad": "GBR",
+  "jurisdiccion_de_referencia": "Londres (Inglaterra y Gales)",
+  "capturado_por": "jornada · lote 1",
+  "fecha_captura_utc": "2026-08-11T05:55:37Z",
+
+  "fuentes": {
+    "J1": {
+      "cita": "The Working Time Regulations 1998 (SI 1998/1833), regs. 4, 10 y 11",
+      "url": "https://www.legislation.gov.uk/uksi/1998/1833/contents",
+      "nivel_de_fuente": 1,
+      "publicacion": "1998-07-30",
+      "nota": "legislation.gov.uk es la publicacion oficial del King's Printer of Acts of Parliament: es el equivalente britanico de la gaceta, de ahi el nivel 1. Se leyo el texto revisado, que incorpora enmiendas y las senala con notas editoriales; las de regs. 4, 10 y 11 son de 2002-2003 y solo sustituyen 'employee' por 'a worker' y anaden el deber de registro de los que firmaron la exclusion voluntaria."
+    },
+    "J2": {
+      "cita": "Banking and Financial Dealings Act 1971, s. 1 y Schedule 1",
+      "url": "https://www.legislation.gov.uk/ukpga/1971/80/section/1",
+      "nivel_de_fuente": 1,
+      "nota": "Mismo repositorio oficial. Schedule 1 en https://www.legislation.gov.uk/ukpga/1971/80/schedule/1"
+    }
+  },
+
+  "jornada": {
+    "horas_semanales_max": 48,
+    "horas_diarias_max": null,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "Reg. 4(1) WTR 1998: 'Unless his employer has first obtained the worker's agreement in writing to perform such work, a worker's working time, including overtime, in any reference period which is applicable in his case shall not exceed an average of 48 hours for each seven days.' — Reg. 4(3)(b): 'in any other case, any period of 17 weeks in the course of his employment.' — Reg. 10(1): 'A worker is entitled to a rest period of not less than eleven consecutive hours in each 24-hour period during which he works for his employer.'",
+    "traduccion": "Reg. 4(1): 'Salvo que su empleador haya obtenido antes el acuerdo por escrito del trabajador para realizar ese trabajo, el tiempo de trabajo del trabajador, incluidas las horas extraordinarias, en cualquier periodo de referencia que le sea aplicable no excedera de un promedio de 48 horas por cada siete dias.' — Reg. 10(1): 'El trabajador tiene derecho a un periodo de descanso no inferior a once horas consecutivas en cada periodo de 24 horas durante el cual trabaje para su empleador.'",
+    "fuente": "J1",
+    "nota": "LAS 48 HORAS BRITANICAS NO SON COMPARABLES SIN AVISO, por tres motivos que estan todos en el texto. Primero, son un PROMEDIO sobre 17 semanas, no un tope de la semana concreta. Segundo, incluyen las horas extraordinarias, cosa que la mayoria de los topes continentales no hace. Y tercero, el trabajador puede renunciar a ellas por escrito: la exclusion voluntaria individual esta en la propia cabeza del reg. 4(1), asi que el tope no es de orden publico. — HORAS DIARIAS: la ley no fija ninguna para el adulto. Lo unico que existe es el limite indirecto del reg. 10(1): once horas consecutivas de descanso en cada 24, lo que deja como maximo trece horas de trabajo en un dia. — DIAS ORDINARIOS: no declarado. Ni las WTR ni ninguna norma general britanica dicen cuantos dias se trabaja; eso lo fija el contrato."
+  },
+
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "uno de cada siete, sin nombrar",
+    "literal": "Reg. 11(1) WTR 1998: 'Subject to paragraph (2), a worker is entitled to an uninterrupted rest period of not less than 24 hours in each seven-day period during which he works for his employer.' — Reg. 11(2): 'If his employer so determines, a worker shall be entitled to either— (a) two uninterrupted rest periods each of not less than 24 hours in each 14-day period during which he works for his employer; or (b) one uninterrupted rest period of not less than 48 hours in each such 14-day period, in place of the entitlement provided for in paragraph (1).'",
+    "fuente": "J1",
+    "nota": "Un dia por cada siete, sin nombrar cual. Y ademas el empleador puede sustituirlo unilateralmente ('if his employer so determines') por dos descansos de 24 horas o uno de 48 en cada quincena, lo que permite legalmente doce dias seguidos de trabajo. No hay ninguna proteccion del domingo en la ley general britanica: la que existe es sectorial y opta por otra tecnica, el derecho del trabajador del comercio a negarse a trabajar en domingo, que no se recogio aqui por estar fuera del regimen general."
+  },
+
+  "traslado_por_defecto": {
+    "existe": true,
+    "regla": "se traslada al lunes siguiente (o al dia que designe una proclamacion real)",
+    "alcance": "solo los que indica la norma",
+    "literal": "Schedule 1, para. 1 (England and Wales): '26th December, if it be not a Sunday. 27th December in a year in which 25th or 26th December is a Sunday.' — Schedule 1, para. 2 (Scotland): 'New Year's Day, if it be not a Sunday or, if it be a Sunday, 3rd January.' — s. 1(2): 'If it appears to Her Majesty that, in the special circumstances of any year, it is inexpedient that a day specified in Schedule 1 to this Act should be a bank holiday, Her Majesty may by proclamation declare that that day shall not in that year be a bank holiday and appoint another day in place of it; and the day appointed by the proclamation shall, in that year, be a bank holiday under this Act instead of the day specified in Schedule 1.'",
+    "traduccion": "s. 1(2): 'Si le parece a Su Majestad que, en las circunstancias especiales de un ano, no es conveniente que un dia especificado en el Schedule 1 de esta Ley sea festivo bancario, Su Majestad podra por proclamacion declarar que ese dia no sera festivo bancario en ese ano y designar otro dia en su lugar...'",
+    "fuente": "J2",
+    "nota": "El Reino Unido si traslada, pero por dos vias raras y ninguna es una regla general de 'si cae en fin de semana pasa al lunes'. La primera esta escrita en la propia fecha: el Schedule 1 no dice '26 de diciembre', dice '26 de diciembre, si no es domingo', y anade el 27 de diciembre para el ano en que el 25 o el 26 caigan en domingo. La segunda es discrecional: la s. 1(2) faculta a la Corona a suprimir por proclamacion un dia del Schedule y designar otro. Es por proclamacion anual que se sustituyen en la practica los festivos de Navidad y Ano Nuevo caidos en fin de semana. — DOS CAVEATS que cambian la lectura del dato. Uno: los festivos de Inglaterra y Gales del Schedule 1 son solo cinco; Ano Nuevo, Viernes Santo y Navidad no estan en la lista porque son festivos consuetudinarios o designados aparte. Dos, y mas de fondo: un bank holiday NO es en si un derecho legal a dia libre pagado para el trabajador. Las WTR conceden 5,6 semanas de vacaciones anuales y el contrato puede imputarles los bank holidays. Es decir que 'trasladar' aqui significa mover un dia de cierre bancario, no necesariamente devolverle descanso al trabajador."
+  },
+
+  "reformas_en_la_ventana": [],
+
+  "pendiente": "El texto revisado consultado no muestra en regs. 4, 10 ni 11 ninguna enmienda posterior a 2003, y por eso reformas_en_la_ventana va vacio. Pero no rastree las Working Time (Amendment) Regulations 2023 (SI 2023/1426), dictadas en la revision del derecho retenido de la UE: por lo visto tocan calculo de vacaciones y registro horario, no el tope de 48 ni el descanso semanal, pero no lo verifique articulo por articulo. Tampoco verifique cuales proclamaciones reales se dictaron para los festivos de 2026."
+}

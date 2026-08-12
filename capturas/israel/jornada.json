@@ -1,0 +1,78 @@
+{
+  "_": "Jornada semanal legal ordinaria. Israel tiene dos capas que no coinciden: la ley de 1951 fija un techo de 45 horas que nunca se derogo, y un tzav harchava -orden de extension de un convenio colectivo general- fija desde 2018 la semana estandar en 42. El descanso semanal es el Shabbat y esta regulado por identidad religiosa, no por dia de calendario.",
+  "unidad": "ISR",
+  "jurisdiccion_de_referencia": "Jerusalen",
+  "sector_de_referencia": "privado formal, jornada completa, persona adulta",
+  "fecha_captura_utc": "2026-08-11T05:46:47Z",
+  "capturado_por": "jornada · lote 9",
+  "fuentes": {
+    "J1": {
+      "cita": "חוק שעות עבודה ומנוחה, תשי\"א-1951, סעיפים 2 ו-3 (Ley de Horas de Trabajo y Descanso, 1951, secciones 2 y 3)",
+      "url": "https://www.nevo.co.il/law_html/law00/5174.htm",
+      "nivel_de_fuente": 3,
+      "publicacion": "Nevo, base de datos juridica israeli de referencia; texto consolidado rotulado 'נוסח עדכני נכון ליום: 18-09-2023'",
+      "nota": "El portal estatal gov.il devolvio 403 de Cloudflare en todos los intentos, tanto por descarga como por navegador. El literal hebreo se leyo integro en Nevo el 2026-08-11. No es la publicacion oficial: por eso nivel 3."
+    },
+    "J2": {
+      "cita": "חוק שעות עבודה ומנוחה, תשי\"א-1951, סעיף 7 (מנוחה שבועית)",
+      "url": "https://www.nevo.co.il/law_html/law00/5174.htm",
+      "nivel_de_fuente": 3
+    },
+    "J3": {
+      "cita": "פקודת סדרי השלטון והמשפט, תש\"ח-1948, סעיף 18א (Ordenanza de Organizacion del Gobierno y del Derecho, 1948, seccion 18a)",
+      "url": "https://www.nevo.co.il/law_html/law01/319_001.htm",
+      "nivel_de_fuente": 3,
+      "publicacion": "Nevo; texto consolidado rotulado 'נוסח עדכני נכון ליום: 07-11-2023'"
+    },
+    "J4": {
+      "cita": "צו הרחבה בדבר קיצור שבוע העבודה במשק ל-42 שעות שבועיות, publicado el 19.03.2018 en ילקוט הפרסומים, en vigor el 01.04.2018, dictado bajo la חוק הסכמים קיבוציים, התשי\"ז-1957 sobre el convenio colectivo general firmado el 29.03.2017 entre la Histadrut y la Presidencia de las Organizaciones Empresariales",
+      "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/extention-order-short-week-2018/he/extention-order-short-week-2018.pdf",
+      "nivel_de_fuente": 3,
+      "nota": "El PDF esta identificado en el portal oficial gov.il pero NO pude leerlo: Cloudflare devolvio 403 por curl y el navegador lo trato como descarga. El contenido -42 horas desde el 01.04.2018, por acortamiento de uno de los dias de la semana- esta confirmado por secundarias concordantes, no por el literal. PENDIENTE leer el dispositivo en ילקוט הפרסומים."
+    },
+    "J5": {
+      "cita": "חוק יום העצמאות, תש\"ט-1949, סעיף 1(ב)",
+      "url": "https://www.nevo.co.il/law_html/law01/170_001.htm",
+      "nivel_de_fuente": 3,
+      "publicacion": "Nevo; texto consolidado rotulado a 14-06-2026"
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 45,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "סעיף 2. (א) יום עבודה לא יעלה על שמונה שעות עבודה. (ב) בעבודת לילה וביום שלפני המנוחה השבועית וביום שלפני חג שהעובד אינו עובד בו, בין על פי חוק ובין על פי הסכם או נוהג, לא יעלה יום עבודה על שבע שעות עבודה. || סעיף 3. שבוע עבודה לא יעלה על ארבעים וחמש שעות עבודה.",
+    "traduccion": "Seccion 2. (a) La jornada diaria no excedera de ocho horas de trabajo. (b) En trabajo nocturno, en el dia anterior al descanso semanal y en el dia anterior a una festividad en que la persona no trabaja, sea por ley, por convenio o por costumbre, la jornada diaria no excedera de siete horas de trabajo. || Seccion 3. La semana de trabajo no excedera de cuarenta y cinco horas de trabajo.",
+    "fuente": "J1",
+    "nota": "El techo legal sigue siendo 45: la ley de 1951 no se reformo en este punto. Lo que bajo a 42 en 2018 fue la semana ESTANDAR, y lo hizo una orden de extension, no la Knesset. Para efectos practicos manda el 42 -es de aplicacion general en el mercado privado y por encima de el se paga hora extra-, pero son dos instrumentos de rango distinto y conviene no fundirlos. La ley no fija dias por semana; la propia orden de extension deja al empleador elegir en QUE dia recorta la hora, lo que confirma que la distribucion no esta normada. 45/8 = 5,625: ni siquiera la aritmetica da un entero.",
+    "horas_semanales_estandar_orden_de_extension": 42,
+    "fuente_estandar": "J4",
+    "nota_estandar": "En vigor desde el 01.04.2018; antes eran 43."
+  },
+  "descanso_semanal": {
+    "dias": 1.5,
+    "cuales": "36 horas continuas que, para la persona trabajadora judia, deben incluir el Shabbat; para quien no es judia, el sabado, el domingo o el viernes, segun lo que ella acepte como su dia de descanso semanal",
+    "literal": "סעיף 7. (א) לפחות שלושים ושש שעות רצופות לשבוע הן המנוחה השבועית של העובד. (ב) המנוחה השבועית תכלול – (1) לגבי יהודי – את יום השבת; (2) לגבי מי שאינו יהודי – את יום השבת או את היום הראשון או את היום הששי בשבוע, הכל לפי המקובל עליו כיום המנוחה השבועית שלו.",
+    "traduccion": "Seccion 7. (a) Al menos treinta y seis horas consecutivas por semana constituyen el descanso semanal de la persona trabajadora. (b) El descanso semanal incluira: (1) para quien es judio, el dia de Shabbat; (2) para quien no es judio, el sabado, el domingo o el viernes de la semana, todo segun lo que le sea propio como su dia de descanso semanal.",
+    "fuente": "J2",
+    "nota": "Es el unico caso del lote en que el dia de descanso se determina por identidad religiosa de la persona y no por calendario. El Shabbat corre de la puesta de sol del viernes a la salida de las estrellas del sabado, de modo que las 36 horas arrancan de hecho el viernes por la tarde: en Israel el dia corto de la semana es el viernes, no el sabado. La seccion 8 permite al ministro reducir el descanso hasta 25 horas continuas para trabajos determinados."
+  },
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": null,
+    "alcance": "no hay regla general. La unica regla de corrimiento con rango de ley es la de Yom Ha'atzmaut, en su propia ley.",
+    "literal": "פקודת סדרי השלטון והמשפט, סעיף 18א(ב): הוראות חוק שעות עבודה ומנוחה, תשי\"א-1951, החלות על המנוחה השבועית יחולו – (1) לגבי יהודי – על מועדי ישראל; (2) לגבי מי שאינו יהודי – על מועדי ישראל או על חגי עדתו, הכל לפי המקובל עליו.",
+    "traduccion": "Seccion 18a(b): Las disposiciones de la Ley de Horas de Trabajo y Descanso de 1951 que se aplican al descanso semanal se aplicaran: (1) para quien es judio, a las festividades de Israel; (2) para quien no es judio, a las festividades de Israel o a las de su comunidad, segun lo que le sea propio.",
+    "fuente": "J3",
+    "nota": "La ordenanza equipara la festividad al descanso semanal, y ahi se acaba: una festividad que cae en Shabbat se absorbe en el descanso semanal sin sustitucion ni compensacion. La excepcion es Yom Ha'atzmaut, cuya propia ley lo mueve: si el 5 de Iyar cae en sabado se celebra el 3 de Iyar, si cae en viernes el 4 de Iyar, y si cae en lunes el 6 de Iyar (J5). Nota estructural: el calendario hebreo impide por construccion que varias festividades caigan en ciertos dias -Rosh Hashana nunca en domingo, miercoles ni viernes-, de modo que parte del problema no se plantea; pero otras, como el primer dia de Pesaj o Shavuot, si pueden caer en Shabbat, y cuando caen se pierden."
+  },
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "צו הרחבה בדבר קיצור שבוע העבודה במשק, publicado el 19.03.2018, en vigor el 01.04.2018",
+      "anio": 2018,
+      "que_cambio": "de 43 a 42 horas la semana estandar, sin reduccion salarial, mediante el acortamiento de uno de los dias de la semana a eleccion del empleador. El techo legal de 45 de la seccion 3 de la ley NO se modifico."
+    }
+  ],
+  "pendiente": "Leer el literal de la orden de extension en ילקוט הפרסומים (hoy solo tengo secundarias). Confirmar que la seccion 3 de la ley de 1951 no fue modificada despues del 18-09-2023, que es la fecha de consolidacion del texto que lei. Y elevar de nivel 3 a nivel 1 o 2 los tres literales, que hoy vienen de Nevo porque gov.il bloquea el acceso."
+}

@@ -1,0 +1,75 @@
+{
+  "_": "Jornada semanal legal ordinaria de ONTARIO. Canada no tiene jornada federal para el trabajador de referencia: el Canada Labour Code solo alcanza a los sectores de competencia federal (bancos, telecomunicaciones, transporte interprovincial). Para el privado formal de Toronto rige la Employment Standards Act, 2000 provincial.",
+  "unidad": "CAN",
+  "jurisdiccion_de_referencia": "Toronto (Ontario)",
+  "sector_de_referencia": "privado formal de competencia PROVINCIAL, jornada completa, persona adulta",
+  "fecha_captura_utc": "2026-08-11T05:46:47Z",
+  "capturado_por": "jornada · lote 9",
+  "fuentes": {
+    "J1": {
+      "cita": "Employment Standards Act, 2000, S.O. 2000, c. 41, s. 17 (Limit on hours of work)",
+      "url": "https://www.ontario.ca/laws/statute/00e41",
+      "nivel_de_fuente": 1,
+      "publicacion": "e-Laws (Ontario). Las consolidaciones oficiales de e-Laws son copia oficial de la ley bajo la Legislation Act, 2006.",
+      "nota": "La pagina exige JavaScript; el literal se leyo renderizando la pagina en navegador el 2026-08-11, no por descarga plana."
+    },
+    "J2": {
+      "cita": "Employment Standards Act, 2000, s. 18(4) (Weekly or biweekly free time requirements)",
+      "url": "https://www.ontario.ca/laws/statute/00e41",
+      "nivel_de_fuente": 1
+    },
+    "J3": {
+      "cita": "Employment Standards Act, 2000, s. 22(1) (Overtime threshold)",
+      "url": "https://www.ontario.ca/laws/statute/00e41",
+      "nivel_de_fuente": 1
+    },
+    "J4": {
+      "cita": "Employment Standards Act, 2000, s. 29 (Public holiday not ordinarily a working day)",
+      "url": "https://www.ontario.ca/laws/statute/00e41",
+      "nivel_de_fuente": 1
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 48,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "17 (1) Subject to subsections (2) and (3), no employer shall require or permit an employee to work more than, (a) eight hours in a day or, if the employer establishes a regular work day of more than eight hours for the employee, the number of hours in his or her regular work day; and (b) 48 hours in a work week.",
+    "traduccion": "17 (1) Con sujecion a los apartados (2) y (3), ningun empleador exigira ni permitira que una persona empleada trabaje mas de: (a) ocho horas en un dia o, si el empleador establece para ella una jornada regular de mas de ocho horas, el numero de horas de esa jornada regular; y (b) 48 horas en una semana laboral.",
+    "fuente": "J1",
+    "nota": "Ontario NO tiene jornada ordinaria legal. Las 48 son un techo de horas trabajadas, no una semana normal, y ni siquiera es un techo firme: el s. 17(3) permite superarlo por acuerdo escrito con la persona empleada. Las 8 diarias tampoco son fijas: la propia letra (a) las cede al 'regular work day' que el empleador establezca. El unico numero con contenido economico es el umbral de horas extra del s. 22(1), 44 horas semanales, que no es jornada ordinaria sino el punto donde empieza el recargo. Nada en la ESA fija dias por semana.",
+    "umbral_horas_extra_semanal": 44,
+    "literal_umbral_horas_extra": "22 (1) Subject to subsection (1.1), an employer shall pay an employee overtime pay of at least one and one-half times his or her regular rate for each hour of work in excess of 44 hours in each work week or, if another threshold is prescribed, that prescribed threshold.",
+    "fuente_umbral_horas_extra": "J3"
+  },
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "uno de cada siete, sin nombrar; alternativamente 48 horas continuas cada dos semanas",
+    "literal": "18 (4) An employer shall give an employee a period free from the performance of work equal to, (a) at least 24 consecutive hours in every work week; or (b) at least 48 consecutive hours in every period of two consecutive work weeks.",
+    "traduccion": "18 (4) El empleador dara a la persona empleada un periodo libre de trabajo igual a: (a) al menos 24 horas consecutivas en cada semana laboral; o (b) al menos 48 horas consecutivas en cada periodo de dos semanas laborales consecutivas.",
+    "fuente": "J2",
+    "nota": "Ni domingo ni sabado aparecen en la ESA. El fin de semana de dos dias en Ontario es practica y convenio, no derecho estatutario."
+  },
+  "traslado_por_defecto": {
+    "existe": true,
+    "regla": "Sustitucion obligatoria de dia. Si el feriado cae en un dia que ordinariamente no seria laborable para esa persona -o en el que esta de vacaciones-, el empleador DEBE sustituirlo por otro dia que si lo seria, libre y pagado como feriado. El sustituto debe caer dentro de los tres meses siguientes, o dentro de doce si hay acuerdo. Empleador y persona empleada pueden acordar que, en vez de sustituir, se pague el public holiday pay.",
+    "alcance": "general: todos los public holidays de la Parte X de la ESA. Se activa por 'dia que ordinariamente no seria laborable para esa persona', no por sabado o domingo, de modo que sigue al horario individual y no al calendario.",
+    "literal": "29 (1) If a public holiday falls on a day that would not ordinarily be a working day for an employee or a day on which the employee is on vacation, the employer shall substitute another day that would ordinarily be a working day for the employee to take off work and for which he or she shall be paid public holiday pay as if the substitute day were a public holiday. [...] (3) An employer and an employee may agree that, instead of complying with subsection (1), the employer shall pay the employee public holiday pay for the public holiday, and if they do subsection (1) does not apply to the employee.",
+    "traduccion": "29 (1) Si un feriado cae en un dia que ordinariamente no seria laborable para la persona empleada, o en un dia en que esta de vacaciones, el empleador sustituira otro dia que ordinariamente si seria laborable para que ella lo tome libre y le sera pagado el public holiday pay como si el dia sustituto fuera feriado. (3) Empleador y persona empleada pueden acordar que, en lugar de cumplir el apartado (1), el empleador le pague el public holiday pay del feriado, y en tal caso el apartado (1) no se le aplica.",
+    "fuente": "J4",
+    "nota": "Esta es la regla que hace de Ontario un caso distinto de la Europa continental: el feriado en sabado NO se pierde, se sustituye o se paga. Pero el defecto es la sustitucion en especie y la conversion en dinero requiere acuerdo, no es unilateral del empleador."
+  },
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "Fair Workplaces, Better Jobs Act, 2017 (Bill 148), S.O. 2017, c. 22, Sched. 1",
+      "anio": 2018,
+      "que_cambio": "no toco los limites de horas ni el umbral de 44. Si anadio el s. 29(1.1): el empleador debe entregar por escrito, antes del feriado, cual feriado se sustituye y en que fecha."
+    },
+    {
+      "instrumento": "Restoring Ontario's Competitiveness Act, 2019 (Bill 66), S.O. 2019, c. 4, Sched. 9, s. 3; sancion real 03.04.2019",
+      "anio": 2019,
+      "que_cambio": "derogo el s. 17(4) y suprimio el requisito de aprobacion del Director of Employment Standards para los acuerdos que superan las 48 horas semanales. El techo semanal pasa a ceder ante el solo acuerdo escrito."
+    }
+  ],
+  "pendiente": "No verifique si algun reglamento sectorial de Ontario -O. Reg. 285/01, exemptions and special rules- desplaza el s. 17 para el trabajador de referencia. Tampoco compare con el Canada Labour Code, que es deliberadamente fuera de alcance."
+}

@@ -1,0 +1,50 @@
+iso3,unidad,dias_texto_legal,tipo_de_dia,base_segun,dias_trabajo_semana5,supuesto
+ARG,Buenos Aires,14.0,calendario,no declarada por la norma,10.0,semana de 5 dias
+AUS,Sídney,4.0,semanas,norma,20.0,semana de 5 dias
+AUT,Viena,30.0,werktage,norma,25.0,semana de 5 dias
+BEL,Bruselas,20.0,habil,norma,20.0,semana de 5 dias
+BGR,Sofía,20.0,habil,norma,20.0,semana de 5 dias
+BGR,Sofía,20.0,habil,norma,20.0,semana de 5 dias
+BRA,São Paulo,30.0,calendario,no declarada por la norma,21.4,semana de 5 dias
+CAN,Toronto,2.0,semanas,norma,10.0,semana de 5 dias
+CAN,Toronto,2.0,semanas,norma,10.0,semana de 5 dias
+CHE,Zúrich,4.0,semanas,norma,20.0,semana de 5 dias
+CHL,Santiago,15.0,habil,norma,15.0,semana de 5 dias
+COL,Bogotá,15.0,habil,norma,15.0,semana de 5 dias
+CRI,San José,2.0,semanas,norma,10.0,semana de 5 dias
+CZE,Praga,4.0,semanas,norma,20.0,semana de 5 dias
+DEU,Berlín,24.0,werktage,norma,20.0,semana de 5 dias
+DNK,Copenhague,25.0,habil,norma,25.0,semana de 5 dias
+DOM,Santo Domingo,14.0,habil,norma,14.0,semana de 5 dias
+ECU,Guayaquil,15.0,calendario,no declarada por la norma,10.7,semana de 5 dias
+ESP,Madrid,30.0,calendario,no declarada por la norma,21.4,semana de 5 dias
+FIN,Helsinki,30.0,werktage,norma,25.0,semana de 5 dias
+FRA,París,30.0,werktage,norma,25.0,semana de 5 dias
+GBR,Londres,5.6,semanas,norma,28.0,semana de 5 dias
+GRC,Atenas,20.0,habil,norma,20.0,semana de 5 dias
+GTM,Ciudad de Guatemala,15.0,habil,norma,15.0,semana de 5 dias
+HND,Tegucigalpa,10.0,habil,norma,10.0,semana de 5 dias
+HUN,Budapest,20.0,habil,norma,20.0,semana de 5 dias
+IDN,Yakarta,12.0,habil,norma,12.0,semana de 5 dias
+IRL,Dublín,4.0,semanas,norma,20.0,semana de 5 dias
+ISR,Jerusalén,16.0,calendario,no declarada por la norma,11.4,semana de 5 dias
+ISR,Jerusalén,14.0,calendario,no declarada por la norma,10.0,semana de 5 dias
+ITA,Roma,4.0,semanas,norma,20.0,semana de 5 dias
+JPN,Tokio,10.0,habil,horario_del_trabajador,10.0,semana de 5 dias
+KOR,Seúl,15.0,habil,norma,15.0,semana de 5 dias
+MEX,Ciudad de México,12.0,habil,norma,12.0,semana de 5 dias
+MEX,Ciudad de México,6.0,habil,norma,6.0,semana de 5 dias
+NIC,Managua,30.0,calendario,no declarada por la norma,21.4,semana de 5 dias
+NLD,Ámsterdam,4.0,semanas,horario_del_trabajador,20.0,semana de 5 dias
+NOR,Oslo,25.0,werktage,norma,20.8,semana de 5 dias
+NZL,Auckland,4.0,semanas,horario_del_trabajador,20.0,semana de 5 dias
+PER,Lima,30.0,calendario,no declarada por la norma,21.4,semana de 5 dias
+POL,Varsovia,20.0,habil,norma,20.0,semana de 5 dias
+PRT,Lisboa,22.0,habil,norma,22.0,semana de 5 dias
+PRY,Asunción,12.0,habil,horario_del_trabajador,12.0,semana de 5 dias
+ROU,Bucarest,20.0,habil,norma,20.0,semana de 5 dias
+SLV,San Salvador,15.0,calendario,no declarada por la norma,10.7,semana de 5 dias
+SVK,Bratislava,4.0,semanas,norma,20.0,semana de 5 dias
+SWE,Estocolmo,25.0,habil,norma,25.0,semana de 5 dias
+THA,Bangkok,6.0,habil,norma,6.0,semana de 5 dias
+TUR,Estambul,14.0,werktage,norma,11.7,semana de 5 dias

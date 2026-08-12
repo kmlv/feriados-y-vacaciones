@@ -1,0 +1,91 @@
+{
+ "_": "Jornada semanal legal ordinaria. Austria distingue la Normalarbeitszeit (jornada ordinaria, §3 AZG) del Hoechstgrenze absoluto (§9 AZG). Se captura la ORDINARIA; el maximo absoluto va aparte porque es lo que la reforma de 2018 movio.",
+ "unidad": "AUT",
+ "jurisdiccion_de_referencia": "Viena",
+ "sector_de_referencia": "privado formal, jornada completa, persona adulta, trabajo diurno",
+ "fecha_captura_utc": "2026-08-11T05:46:47Z",
+ "capturado_por": "jornada · lote 9",
+ "fuentes": {
+  "J1": {
+   "cita": "Arbeitszeitgesetz (AZG), BGBl. Nr. 461/1969, §3 Normalarbeitszeit, en la versión vigente desde 01.07.1994 (BGBl. Nr. 446/1994)",
+   "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12095918/NOR12095918.html",
+   "nivel_de_fuente": 2,
+   "publicacion": "BGBl. Nr. 461/1969; ultima modificacion de este paragrafo BGBl. Nr. 446/1994",
+   "nota": "RIS es el sistema de informacion juridica del gobierno federal austriaco. La version consolidada -Bundesrecht konsolidiert- es oficial pero informativa; la publicacion autentica es el BGBl. citado. Literal aleman completo leido el 2026-08-11 via el endpoint /Dokumente/; el endpoint /eli/ dio timeout, igual que en la captura de feriados."
+  },
+  "J2": {
+   "cita": "Arbeitsruhegesetz (ARG), BGBl. Nr. 144/1983, §3 Wochenendruhe, vigente desde 01.01.2008 (BGBl. I Nr. 61/2007)",
+   "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40090346/NOR40090346.html",
+   "nivel_de_fuente": 2,
+   "publicacion": "BGBl. Nr. 144/1983 idF BGBl. I Nr. 61/2007",
+   "nota": "Mismo caveat de consolidacion que J1."
+  },
+  "J3": {
+   "cita": "Arbeitsruhegesetz (ARG), §7 Feiertagsruhe, vigente desde 22.03.2019 (BGBl. I Nr. 22/2019)",
+   "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40213419/NOR40213419.html",
+   "nivel_de_fuente": 2,
+   "publicacion": "BGBl. Nr. 144/1983 idF BGBl. I Nr. 22/2019",
+   "nota": "Contiene el Abs 7, que es la regla de colocacion por defecto de Austria."
+  },
+  "J4": {
+   "cita": "Arbeitszeitgesetz (AZG), §9 Hoechstgrenzen der Arbeitszeit, vigente desde 01.09.2018 (BGBl. I Nr. 53/2018)",
+   "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40206201/NOR40206201.html",
+   "nivel_de_fuente": 2,
+   "publicacion": "BGBl. Nr. 461/1969 idF BGBl. I Nr. 53/2018",
+   "nota": "Es la norma que la reforma de 2018 cambio. NO es la jornada ordinaria."
+  },
+  "J5": {
+   "cita": "Arbeitsruhegesetz (ARG), §4 Wochenruhe, vigente desde 01.07.1984",
+   "url": "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR12099991/NOR12099991.html",
+   "nivel_de_fuente": 2,
+   "nota": "Regimen alternativo para quien trabaja durante la Wochenendruhe: 36 horas que deben incluir un dia entero de la semana, sin nombrar cual."
+  }
+ },
+ "jornada": {
+  "horas_semanales_max": 40,
+  "horas_diarias_max": 8,
+  "dias_ordinarios": null,
+  "dias_ordinarios_origen": "no_declarado",
+  "literal": "Die taegliche Normalarbeitszeit darf acht Stunden, die woechentliche Normalarbeitszeit vierzig Stunden nicht ueberschreiten, soweit im folgenden nicht anderes bestimmt wird.",
+  "literal_grafia_original": "Die tägliche Normalarbeitszeit darf acht Stunden, die wöchentliche Normalarbeitszeit vierzig Stunden nicht überschreiten, soweit im folgenden nicht anderes bestimmt wird.",
+  "traduccion": "La jornada normal diaria no puede exceder de ocho horas y la jornada normal semanal no puede exceder de cuarenta horas, salvo que en lo que sigue se disponga otra cosa.",
+  "fuente": "J1",
+  "nota": "La norma fija DOS techos y no nombra ningun numero de dias. Dividir 40 entre 8 da cinco, pero eso es un PISO, no un valor fijado: repartir cuarenta horas en seis dias de seis horas cuarenta es licito bajo el mismo §3, y el §3 ARG solo obliga a que la Wochenendruhe empiece a mas tardar el sabado a las 13:00, o sea que el techo real es de cinco dias y medio. La prueba directa de que la ley NO fija la base es el propio Urlaubsgesetz, que mide las vacaciones en dos unidades a la vez -25 Arbeitstage bei Fuenf-Tage-Woche, 30 Werktage bei Sechs-Tage-Woche- porque ambas semanas existen legalmente. Por eso va null y no cinco.",
+  "horas_diarias_max_absoluto": 12,
+  "horas_semanales_max_absoluto": 60,
+  "literal_maximo_absoluto": "Die Tagesarbeitszeit darf zwoelf Stunden und die Wochenarbeitszeit 60 Stunden nicht ueberschreiten, sofern die Abs. 2 bis 4 nicht anderes bestimmen.",
+  "traduccion_maximo_absoluto": "La jornada diaria no puede exceder de doce horas y la jornada semanal de 60 horas, salvo lo que dispongan los apartados 2 a 4.",
+  "fuente_maximo_absoluto": "J4",
+  "nota_maximo_absoluto": "El maximo absoluto no es jornada ordinaria: lo que exceda de la Normalarbeitszeit es horas extra, con recargo. Y el §9 Abs 4 mantiene el promedio de 48 horas semanales en 17 semanas que impone la directiva europea."
+ },
+ "descanso_semanal": {
+  "dias": 1.5,
+  "cuales": "domingo entero mas la tarde del sabado: 36 horas continuas en las que debe caer el domingo, con inicio a mas tardar el sabado a las 13:00",
+  "literal": "Der Arbeitnehmer hat in jeder Kalenderwoche Anspruch auf eine ununterbrochene Ruhezeit von 36 Stunden, in die der Sonntag zu fallen hat (Wochenendruhe). [...] Die Wochenendruhe hat fuer alle Arbeitnehmer spaetestens Samstag um 13 Uhr [...] zu beginnen.",
+  "traduccion": "La persona trabajadora tiene derecho, en cada semana natural, a un descanso ininterrumpido de 36 horas en el que debe caer el domingo (descanso de fin de semana). El descanso de fin de semana debe comenzar, para todas las personas trabajadoras, a mas tardar el sabado a las 13:00.",
+  "fuente": "J2",
+  "nota": "Quien por su distribucion horaria trabaja durante la Wochenendruhe tiene en su lugar la Wochenruhe del §4: tambien 36 horas, pero que solo deben incluir un dia entero de la semana, sin nombrarlo (J5). El domingo esta nombrado; el sabado esta protegido solo desde el mediodia."
+ },
+ "traslado_por_defecto": {
+  "existe": false,
+  "regla": null,
+  "alcance": null,
+  "literal": "Faellt ein Feiertag auf einen Sonntag, so sind die §§ 3 bis 5 anzuwenden.",
+  "traduccion": "Si un feriado cae en domingo, se aplican los §§ 3 a 5 (los del descanso de fin de semana).",
+  "fuente": "J3",
+  "nota": "Es una regla explicita de NO traslado: el feriado en domingo se disuelve dentro del descanso semanal y no genera ni dia sustituto ni compensacion ni recargo. El §7 Abs 4 lo remacha desde el otro lado: los feriados solo se imputan al descanso semanal en la medida en que caigan dentro de el. Para el feriado en sabado la ley federal no dice nada; el sabado por la manana no esta cubierto por la Wochenendruhe, de modo que su tratamiento depende del convenio colectivo."
+ },
+ "reformas_en_la_ventana": [
+  {
+   "instrumento": "BGBl. I Nr. 53/2018 (Arbeitszeitgesetz, novela), en vigor 01.09.2018",
+   "anio": 2018,
+   "que_cambio": "subio los maximos absolutos del §9 AZG de 10 horas diarias y 50 semanales a 12 diarias y 60 semanales. La Normalarbeitszeit del §3 -8 y 40- NO se toco."
+  },
+  {
+   "instrumento": "BGBl. I Nr. 22/2019 (Arbeitsruhegesetz, novela), en vigor 22.03.2019",
+   "anio": 2019,
+   "que_cambio": "derogo el §7 Abs 3 ARG (Karfreitag confesional) e introdujo el §7a (persoenlicher Feiertag). Es materia de feriados, no de jornada; se anota porque cambia el mismo articulo del que sale la regla de colocacion."
+  }
+ ],
+ "pendiente": "Los convenios colectivos austriacos rebajan muy a menudo la semana normal por debajo de 40 -38,5 es habitual en comercio y en metal-. Aqui esta capturado el techo legal, no el convenio aplicable al trabajador de referencia en Viena. Falta decidir con el principal si la metrica quiere el techo legal o el convenio modal."
+}

@@ -1,0 +1,166 @@
+{
+  "_": "CAPTURA CIEGA de El Salvador. El CBR no la cubre. Ceguera estructural.",
+  "unidad": "SLV",
+  "jurisdiccion_de_referencia": "San Salvador (mas poblada)",
+  "jurisdiccion_nota": "IMPORTANTE: la regla de jurisdiccion de referencia del protocolo cambia el valor aqui. San Salvador recibe dos asuetos que el resto del pais no tiene.",
+  "fecha_captura_utc": "2026-08-09T22:52:00Z",
+  "fuentes": {
+    "F1": {
+      "cita": "Código de Trabajo de El Salvador, artículo 190",
+      "nivel_de_fuente": 3,
+      "url": "https://www.csj.gob.sv/wp-content/uploads/2021/06/11-Codigo-de-Trabajo-de-El-Salvador-Dias-de-asueto.pdf",
+      "nota": "Corte Suprema de Justicia. PENDIENTE archivar el PDF y verificar el literal."
+    },
+    "F2": {
+      "cita": "Código de Trabajo de El Salvador, articulos 177, 180 y 182",
+      "nivel_de_fuente": 3,
+      "url": "https://www.csj.gob.sv/wp-content/uploads/2021/06/10-Codigo-de-Trabajo-de-El-Salvador-Vacacion-anual-remunerada.pdf",
+      "nota": "Corte Suprema de Justicia. PENDIENTE archivar el PDF y verificar el literal."
+    },
+    "F3": {
+      "cita": "Código de Trabajo, texto consolidado del Indice Legislativo de la Asamblea Legislativa (cosecha mayo de 2025), con su INDICE DE REFORMAS de 26 decretos, 1974-2023",
+      "nivel_de_fuente": 3,
+      "url": "https://lalibertadoeste.gob.sv/wp-content/uploads/2025/05/Codigo-de-Trabajo.pdf",
+      "nota": "El documento ES el consolidado oficial de la Asamblea —su pie dice «INDICE LEGISLATIVO · ASAMBLEA LEGISLATIVA - REPUBLICA DE EL SALVADOR»— pero se obtuvo de un espejo municipal porque asamblea.gob.sv no responde desde este entorno (fallo de certificado). Por eso va nivel 3 y no 2: el TEXTO es oficial, el HOSPEDAJE no. Elevarlo a 2 solo requiere descargarlo de la Asamblea."
+    }
+  },
+  "feriados": {
+    "literal": "Se establecen como dias de asueto remunerado: a) Primero de enero; b) Jueves, viernes y sabado de la Semana Santa; c) Primero de mayo; ch) Seis de agosto; d) Quince de septiembre; e) Dos de noviembre; y f) Veinticinco de diciembre. Ademas, se establecen el tres y cinco de agosto en la ciudad de San Salvador; y en el resto de la Republica el dia principal de la festividad mas importante del lugar, segun la costumbre.",
+    "fuente": "F1",
+    "nacionales": [
+      {
+        "fecha": "01-01",
+        "nombre": "Año Nuevo",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": null,
+        "nombre": "Jueves Santo",
+        "clase_de_regla": "computable",
+        "regla": "pascua-3"
+      },
+      {
+        "fecha": null,
+        "nombre": "Viernes Santo",
+        "clase_de_regla": "computable",
+        "regla": "pascua-2"
+      },
+      {
+        "fecha": null,
+        "nombre": "Sábado Santo",
+        "clase_de_regla": "computable",
+        "regla": "pascua-1"
+      },
+      {
+        "fecha": "05-01",
+        "nombre": "Día del Trabajo",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": "08-06",
+        "nombre": "Fiestas Agostinas / Divino Salvador del Mundo",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": "09-15",
+        "nombre": "Independencia",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": "11-02",
+        "nombre": "Día de los Difuntos",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": "12-25",
+        "nombre": "Navidad",
+        "clase_de_regla": "fija"
+      }
+    ],
+    "subnacionales": [
+      {
+        "fecha": "08-03",
+        "nombre": "Fiestas Agostinas",
+        "jurisdiccion": "ciudad de San Salvador",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": "08-05",
+        "nombre": "Fiestas Agostinas",
+        "jurisdiccion": "ciudad de San Salvador",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": null,
+        "nombre": "Festividad mas importante del lugar, segun la costumbre",
+        "jurisdiccion": "resto de la Republica",
+        "clase_de_regla": "SIN CLASE APLICABLE",
+        "nota": "La norma remite explicitamente a LA COSTUMBRE. No hay instrumento que fije la fecha. Ver hueco H-ESQUEMA."
+      }
+    ],
+    "total_dias_2026_jurisdiccion_de_referencia": 11,
+    "total_dias_2026_resto_del_pais": 10,
+    "nota_total": "Nueve nacionales mas los dos de San Salvador dan 11 en la jurisdiccion de referencia. En el resto son 9 mas la festividad local, o sea 10. La regla de jurisdiccion del protocolo NO es cosmetica aqui: mueve el valor en un 10%."
+  },
+  "vacaciones": {
+    "texto_legal_dias": 15,
+    "literal_art_177": "Despues de un anio de trabajo continuo... los trabajadores tendran derecho a un periodo de vacaciones cuya duracion sera de quince dias, los cuales seran remunerados con una prestacion equivalente al salario ordinario correspondiente a dicho lapso mas un 30% del mismo.",
+    "tipo_de_dia": "calendario",
+    "tipo_de_dia_nota": "HALLAZGO. El articulo NO dice si son habiles o calendario: dice «quince dias» a secas. La lectura como dias calendario viene de fuentes secundarias y de la practica, no del literal. Se carga como calendario con estado verificado_secundaria y la discrepancia queda escrita: es un caso de tipo de dia establecido por interpretacion, no por norma. Turquia tiene el mismo problema con 'gun' y no se ha resuelto.",
+    "estado_verificacion": "verificado_secundaria",
+    "requisito_labor_efectiva": {
+      "dias_minimos": 200,
+      "fuente": "art. 180"
+    },
+    "recargo_salarial": "30% sobre el salario ordinario de esos dias",
+    "recargo_nota": "Recargo de PAGO, no dias adicionales. Es intensidad, no cantidad."
+  },
+  "delta_2016_2026": {
+    "feriados": "0 — art. 190 sin reforma desde 1995",
+    "vacaciones": "0 — art. 177 sin reforma desde el texto original",
+    "estado": "verificado_parcial contra el indice de reformas del consolidado"
+  },
+  "corte_2016": {
+    "estado": "verificado_parcial",
+    "nota": "CERRADO el 2026-08-11, contra el indice de reformas del propio consolidado. VACACIONES: el art. 177 —quince dias con recargo del 30%— no lleva NINGUN marcador de reforma en el consolidado, asi que su texto es el original de 1972. Al corte de 2016 rigen los mismos quince dias. FERIADOS: el art. 190 lleva un unico marcador, el (9), que es el D. L. 408 del 20 de julio de 1995 (D. O. 135, T. 328, 21-jul-1995). Entre 2016 y 2026 el articulo NO se toco: el indice llega hasta el decreto 658 de 2023 y ninguno de los posteriores a 1995 lo alcanza. El conteo de 2016 es por tanto el mismo 11 de 2026.",
+    "por_que_parcial": "El propio art. 190 cierra diciendo que «toda modificacion, supresion o reforma que por Decreto Legislativo se hiciere de los dias de asueto quedara incorporada de pleno derecho». Es decir: un decreto suelto puede anadir un asueto SIN editar el articulo, y entonces el indice de reformas del consolidado no lo mostraria. Se busco y no aparecio ninguno en la ventana, pero esa busqueda no es exhaustiva sobre el Diario Oficial completo. Por eso `verificado_parcial` y no `verificado`: el texto del articulo esta verificado; la ausencia de decretos sueltos, no.",
+    "fuente": "F3"
+  },
+  "vacaciones_normalizado": {
+    "dias": 15,
+    "tipo": "calendario",
+    "base": null,
+    "imputacion": "se_computan_contra",
+    "meses": 12,
+    "literal": "un periodo de vacaciones cuya duracion sera de quince dias",
+    "escala": [
+      [
+        12,
+        null,
+        15
+      ]
+    ],
+    "colocacion": {
+      "iniciativa": "empleador",
+      "veto": null,
+      "silencio": null,
+      "instrumento": "ley",
+      "literal": "El patrono debe senalar la epoca en que el trabajador ha de gozar las vacaciones y notificarle la fecha de iniciacion de ellas, con treinta dias de anticipacion por lo menos (art. 182) | Art. 178: las vacaciones no podran iniciarse en dia de asueto ni de descanso semanal."
+    },
+    "imputacion_nota": "ART. 178, EXPLICITO Y CONTRARIO AL RESTO: «Los dias de asueto y los dias de descanso semanal que quedaren comprendidos dentro del periodo de vacaciones, NO PROLONGARAN la duracion de estas; pero las vacaciones no podran iniciarse en tales dias.» Se computan contra, con una restriccion de colocacion adicional: el periodo no puede EMPEZAR en feriado o descanso.",
+    "sin_cambio": {
+      "_": "Primera unidad con evidencia POSITIVA de no-cambio, en vez de «no se hallo modificatoria». La busqueda se hizo el 2026-08-11 contra el indice de reformas del propio consolidado, que es lo que la hace comprobable: no es que no encontraramos nada, es que el documento enumera sus 26 reformas y ninguna toca este articulo.",
+      "buscado_en": "Codigo de Trabajo, texto consolidado del Indice Legislativo de la Asamblea Legislativa, con su INDICE DE REFORMAS de 26 decretos entre 1974 y 2023",
+      "cita": "El art. 177 —«un período de vacaciones cuya duración será de quince días»— no lleva NINGÚN marcador de reforma en el consolidado, de modo que su texto es el original de 1972. Los marcadores existen y se usan: el art. 190 lleva el (9), que es el D. L. 408 de 1995.",
+      "nivel_de_fuente": 3,
+      "fecha_busqueda": "2026-08-11",
+      "pantalla_3": {
+        "_": "Pantalla 3 EJECUTADA POR la campaña del corte 2016, no por quien capturó ni por quien cargó esta unidad. Se firma asi a proposito: la pantalla 2 es de la sesión de carga, contra el índice de reformas del consolidado, y la 3 es de la campaña del corte 2016. El registro dice quien miro cada cosa.",
+        "cita": "Prensa y fuentes jurídicas salvadoreñas: el art. 177 sigue dando quince días con recargo del 30% tras un año de trabajo continuo y doscientos días acreditados. Las reformas del Código aprobadas en la ventana que aparecen son de aguinaldo y de procedimiento laboral; ninguna toca el artículo de vacaciones, y no aparece propuesta de elevar los quince días.",
+        "url": "https://www.csj.gob.sv/codigo-de-trabajo-de-el-salvador-salarios-jornadas-de-trabajo-descansos-semanales-vacaciones-asuetos-y-aguinaldos-3/",
+        "ejecutada_por": "campaña del corte 2016",
+        "transcrita_por": "sesión de carga; no releyó la fuente"
+      }
+    }
+  }
+}

@@ -1,0 +1,266 @@
+{
+ "_": "Captura de Eslovaquia. CAPTURA CIEGA: textos consolidados y PDFs de la Zbierka zakonov leidos en Slov-Lex, el portal oficial del Ministerio de Justicia.",
+ "captura_ciega": true,
+ "unidad": "SVK",
+ "jurisdiccion_de_referencia": "Bratislava (ciudad mas poblada)",
+ "capturado_por": "captura · lote 2",
+ "fecha_captura_utc": "2026-08-10T18:40:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Zakon NR SR c. 241/1993 Z. z. o statnych sviatkoch, dnoch pracovneho pokoja a pamatnych dnoch — texto consolidado vigente desde el 1 de noviembre de 2025",
+   "nivel_de_fuente": 1,
+   "url": "https://www.slov-lex.sk/static/SK/ZZ/1993/241/20251101.html",
+   "publicacion": "1993-10-27",
+   "nota": "Slov-Lex es el sistema oficial de la Zbierka zakonov, gestionado por el Ministerio de Justicia. Se leyeron los articulos 1, 2, 3, 4a y 4b integros."
+  },
+  "F2": {
+   "cita": "Zakon c. 311/2001 Z. z. Zakonnik prace — texto consolidado vigente al 1 de enero de 2026; articulos 101, 102, 103, 104, 110, 111 y 112",
+   "nivel_de_fuente": 1,
+   "url": "https://www.slov-lex.sk/static/SK/ZZ/2001/311/20260101.html",
+   "nota": "Consolidado oficial. El articulo 112, apartado 3, es la regla de imputacion."
+  },
+  "F3": {
+   "cita": "Zakon c. 261/2025 Z. z., de 24 de septiembre de 2025, por el que se modifican varias leyes en relacion con la consolidacion de las finanzas publicas",
+   "nivel_de_fuente": 1,
+   "url": "https://www.slov-lex.sk/static/pdf/2025/261/ZZ_2025_261.pdf",
+   "publicacion": "2025-10-09",
+   "nota": "PDF de la Zbierka zakonov. Su articulo III introduce el paragrafo 4b en la ley 241/1993 y anade el 17 de noviembre a la lista de fiestas nacionales que NO son dias de descanso."
+  },
+  "F4": {
+   "cita": "Zakon c. 530/2023 Z. z. — consolidacion de las finanzas publicas; su artículo III modifica el paragrafo 2 apartado 3 de la ley 241/1993",
+   "nivel_de_fuente": 1,
+   "url": "https://www.slov-lex.sk/static/pdf/2023/530/ZZ_2023_530.pdf",
+   "publicacion": "2023-12",
+   "nota": "Es la norma que quita al 1 de septiembre la condicion de dia de descanso, con efecto 1-ene-2024."
+  },
+  "F5": {
+   "cita": "Zakon c. 380/2019 Z. z., que modifica el Zakonnik prace (paragrafo 103)",
+   "nivel_de_fuente": 1,
+   "url": "https://www.slov-lex.sk/static/pdf/2019/380/ZZ_2019_380.pdf",
+   "publicacion": "2019-11-19",
+   "nota": "Con efecto 1-ene-2020 extiende las cinco semanas al trabajador que cuida permanentemente de un hijo. La barrera de los 33 anos de edad ya estaba."
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO — pero el ano 2026 es ANOMALO por una disposicion transitoria",
+  "fuente": "F1",
+  "arquitectura": "Dos categorias que no coinciden. Las FIESTAS NACIONALES del paragrafo 1 son seis; los DIAS DE DESCANSO del paragrafo 2 son las fiestas nacionales -salvo las que el apartado 3 excluye- mas una lista de fiestas religiosas y civiles. Lo que cuenta para el trabajador es el dia de descanso, no la fiesta nacional: al 1-ene-2026 tres de las seis fiestas nacionales (1 de septiembre, 28 de octubre y 17 de noviembre) NO son dias de descanso.",
+  "literal_exclusion": "Statny sviatok podla § 1 pism. d), e) a f) nie je dnom pracovneho pokoja podla odseku 1 ani sviatkom podla osobitneho predpisu.",
+  "literal_transitorio_2026": "§ 4b Prechodne ustanovenie k upravam ucinnym od 1. novembra 2025: V roku 2026 nie su sviatky uvedene v § 2 ods. 2 pism. e) a j) dnami pracovneho pokoja. — En el ano 2026 las fiestas del § 2 ap. 2 letras e) y j) NO son dias de descanso.",
+  "hallazgo_suspension": "HALLAZGO. El paragrafo 4b suspende el 15 de septiembre y el 8 de mayo SOLO EN 2026: en 2027 vuelven. Eso no es abolicion, es suspension de un ano. El esquema si lo distingue -eventos_reforma tiene los tipos 'suspension' y 'restitucion' y el campo permanente_o_temporal-, pero el cargador solo dispone del campo 'hasta' del feriado, que significa extincion. Se usa hasta=2025 porque produce el conteo correcto en los dos cortes, y queda dicho aqui que la semantica real es otra: un panel construido sobre esta base leera cuatro feriados perdidos en Eslovaquia cuando los permanentes son dos.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Den vzniku Slovenskej republiky",
+    "clase_de_regla": "fija",
+    "categoria_sk": "statny sviatok"
+   },
+   {
+    "fecha": "01-06",
+    "nombre": "Zjavenie Pana (Traja krali)",
+    "clase_de_regla": "fija",
+    "categoria_sk": "den pracovneho pokoja"
+   },
+   {
+    "fecha": null,
+    "nombre": "Velky piatok",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2",
+    "categoria_sk": "den pracovneho pokoja"
+   },
+   {
+    "fecha": null,
+    "nombre": "Velkonocny pondelok",
+    "clase_de_regla": "computable",
+    "regla": "pascua+1",
+    "categoria_sk": "den pracovneho pokoja"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Sviatok prace",
+    "clase_de_regla": "fija",
+    "categoria_sk": "den pracovneho pokoja"
+   },
+   {
+    "fecha": "05-08",
+    "nombre": "Den vitazstva nad fasizmom",
+    "clase_de_regla": "fija",
+    "hasta": 2025,
+    "instrumento": "Zakon 261/2025 Z. z., § 4b",
+    "nota": "SUSPENDIDO SOLO EN 2026, no abolido: el paragrafo 4b lo excluye de los dias de descanso unicamente para el ano 2026 y en 2027 vuelve. Se codifica hasta=2025 -ultimo ano de descanso- porque es lo unico que el cargador entiende; la semantica real es suspension temporal, que el esquema si sabe expresar en eventos_reforma con tipo 'suspension' y permanente_o_temporal 'temporal'."
+   },
+   {
+    "fecha": "07-05",
+    "nombre": "Sviatok svateho Cyrila a svateho Metoda",
+    "clase_de_regla": "fija",
+    "categoria_sk": "statny sviatok"
+   },
+   {
+    "fecha": "08-29",
+    "nombre": "Vyrocie Slovenskeho narodneho povstania",
+    "clase_de_regla": "fija",
+    "categoria_sk": "statny sviatok"
+   },
+   {
+    "fecha": "09-01",
+    "nombre": "Den Ustavy Slovenskej republiky",
+    "clase_de_regla": "fija",
+    "hasta": 2023,
+    "instrumento": "Zakon 530/2023 Z. z., art. III",
+    "nota": "DEJA DE SER DIA DE DESCANSO el 1-ene-2024 por el zakon 530/2023: el ultimo ano en que se descanso fue 2023. Sigue siendo fiesta nacional, pero se trabaja. Vigente como descanso en el corte de 2016."
+   },
+   {
+    "fecha": "09-15",
+    "nombre": "Sedembolestna Panna Maria",
+    "clase_de_regla": "fija",
+    "hasta": 2025,
+    "instrumento": "Zakon 261/2025 Z. z., § 4b",
+    "nota": "SUSPENDIDO SOLO EN 2026, igual que el 8 de mayo. Ver la nota de aquel."
+   },
+   {
+    "fecha": "11-01",
+    "nombre": "Sviatok Vsetkych svatych",
+    "clase_de_regla": "fija",
+    "categoria_sk": "den pracovneho pokoja"
+   },
+   {
+    "fecha": "11-17",
+    "nombre": "Den boja za slobodu a demokraciu",
+    "clase_de_regla": "fija",
+    "hasta": 2024,
+    "instrumento": "Zakon 261/2025 Z. z., art. III punto 2",
+    "nota": "DEJA DE SER DIA DE DESCANSO el 1-nov-2025 por el zakon 261/2025, o sea el 17 de noviembre de 2025 ya se trabajo: el ultimo ano de descanso fue 2024. Sigue siendo fiesta nacional. Vigente como descanso en el corte de 2016."
+   },
+   {
+    "fecha": "12-24",
+    "nombre": "Stedry den",
+    "clase_de_regla": "fija",
+    "categoria_sk": "den pracovneho pokoja"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Prvy sviatok vianocny",
+    "clase_de_regla": "fija",
+    "categoria_sk": "den pracovneho pokoja"
+   },
+   {
+    "fecha": "12-26",
+    "nombre": "Druhy sviatok vianocny",
+    "clase_de_regla": "fija",
+    "categoria_sk": "den pracovneho pokoja"
+   }
+  ],
+  "subnacionales": [],
+  "nota_subnacionales": "La ley 241/1993 es nacional y no delega en municipios. Bratislava no anade dias de descanso.",
+  "fiesta_nacional_sin_descanso": [
+   {
+    "fecha": "10-28",
+    "nombre": "Den vzniku samostatneho cesko-slovenskeho statu",
+    "nota": "Fiesta nacional anadida dentro de la ventana que NUNCA fue dia de descanso: el apartado 3 del paragrafo 2 la excluye desde su creacion. No se carga porque no da descanso, pero se registra: un panel que contara fiestas nacionales en vez de dias de descanso la sumaria."
+   }
+  ],
+  "total_2026": 11,
+  "total_2027_previsto": 13,
+  "total_2016": 15,
+  "nota_totales": "2016: quince dias de descanso. 2026: once. Cuatro menos, y por tres instrumentos distintos: 530/2023 quita el 1 de septiembre, 261/2025 quita el 17 de noviembre y suspende para 2026 el 8 de mayo y el 15 de septiembre. En 2027, si nada cambia, vuelven a trece. El corte de 2026 cae en el unico ano con la suspension: quien mida solo 2026 leera una caida permanente de cuatro donde la permanente es de dos."
+ },
+ "vacaciones": {
+  "texto_legal": "cuatro semanas",
+  "tipo_de_dia": "semanas",
+  "literal": "Zakladna vymera dovolenky je najmenej styri tyzdne.",
+  "fuente": "F2",
+  "escala_por_edad": {
+   "literal": "Dovolenka zamestnanca, ktory do konca prislusneho kalendarneho roka dovrsi najmenej 33 rokov veku, a zamestnanca, ktory sa trvale stara o dieta, je najmenej pat tyzdnov.",
+   "traduccion": "El trabajador que cumpla al menos 33 anos de edad antes de que acabe el ano natural, y el que cuide permanentemente de un hijo, tienen al menos cinco semanas.",
+   "hallazgo": "HALLAZGO DE ESQUEMA. Esta escala NO es de antiguedad: es de EDAD y de situacion familiar. La tabla escala_antiguedad esta indexada por meses de servicio y no puede expresar 'cinco semanas si el trabajador tiene 33 anos'. Un trabajador recien contratado de 40 anos tiene cinco semanas y uno de 25 con diez anos de casa tiene cuatro: la variable explicativa no es la que el esquema modela. Por eso la escala normalizada lleva solo el tramo de cuatro semanas, que es el minimo incondicional."
+  },
+  "periodo_de_calificacion": "No hay carencia en meses. El articulo 101 da derecho a la vacacion del ano natural a quien haya trabajado al menos 60 dias en ese ano; el 102 da una doceava parte por cada mes completo; y quien no llegue a los 60 dias tiene una doceava parte por cada 21 dias trabajados. Se codifico meses=0 porque no existe umbral de antiguedad antes del cual el derecho sea cero; el umbral real esta en dias trabajados dentro del ano natural, magnitud que el esquema no modela.",
+  "semana_de_vacaciones": "El articulo 110 define la semana de vacaciones como siete dias consecutivos; el 104 convierte a dias laborables cuando la jornada esta repartida de forma desigual. La base 5 sale de que el articulo 112 apartado 3 solo excluye los festivos que caen en dia habitualmente laborable, lo que presupone que lo que se consume son dias de trabajo.",
+  "estado_verificacion": "verificado_primaria"
+ },
+ "imputacion": {
+  "resultado": "extienden",
+  "literal": "Ak pripadne pocas dovolenky zamestnanca sviatok na den, ktory je inak jeho obvyklym pracovnym dnom, nezapocitava sa mu do dovolenky.",
+  "traduccion": "Si durante las vacaciones del trabajador cae un dia festivo en un dia que de otro modo seria su dia habitual de trabajo, no se le computa como vacaciones.",
+  "articulo": "Zakonnik prace, art. 112 apartado 3",
+  "nota": "VERIFICADO. Y trae una precision que ni Turquia ni Dinamarca tienen: solo extiende si el festivo cae en un dia que HABITUALMENTE seria laborable para ese trabajador. El apartado 4 anade que si el empleador senala el descanso compensatorio por horas extra o por trabajo en festivo dentro de las vacaciones, debe darselo otro dia."
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "Tres instrumentos de la Zbierka zakonov localizados y datados: 530/2023 (1 de septiembre deja de ser dia de descanso desde 2024), 261/2025 (17 de noviembre deja de serlo desde el 1-nov-2025, y suspension del 8 de mayo y del 15 de septiembre solo para 2026) y 380/2019 (ampliacion de las cinco semanas al cuidado de hijo, desde 2020). El quantum base de cuatro semanas no se movio."
+ },
+ "delta_2016_2026": {
+  "feriados": "-4 dias de descanso (15 a 11), de los cuales -2 son permanentes y -2 son una suspension que solo rige en 2026",
+  "vacaciones": "0 en el minimo base; +cobertura en el tramo de cinco semanas, que desde 2020 alcanza tambien a quien cuida permanentemente de un hijo"
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "buscado_en": "Slov-Lex, portal oficial eslovaco de legislacion: § 103 del Código de Trabajo en su versión vigente al 1 de enero de 2016 y en la vigente hoy, enfrentadas",
+     "cita": "El apartado 1 es IDENTICO en las dos: «Zakladna vymera dovolenky je najmenej styri tyzdne» — cuatro semanas. Lo que cambio dentro de la ventana es el apartado 2: al corte de 2016 daba cinco semanas solo a quien cumpliera al menos 33 anios, y hoy dice «a zamestnanca, ktory sa trvale stara o dieta» ademas. Es ampliacion de cobertura, no del minimo. CORRECCION A LA FICHA: databa esa ampliacion en 2020; se aprobo en 2020 pero es efectiva el 1 de enero de 2022, y la versión de 2016 confirma que entonces no estaba.",
+     "nivel_de_fuente": 1,
+     "indice_registra_modificaciones": true,
+     "indice_como_se_comprobo": "El portal sirve el texto a fecha dada bajo su propia URL de vigencia. Se comprobo que discrimina: las dos versiones del mismo artículo difieren y se ve exactamente en que frase.",
+     "fecha_busqueda": "2026-08-12"
+   },
+  "dias": 4,
+  "tipo": "semanas",
+  "base": 5,
+  "imputacion": "extienden",
+  "meses": 0,
+  "literal": "Zakladna vymera dovolenky je najmenej styri tyzdne",
+  "escala": [
+   [
+    0,
+    null,
+    4
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "Cerpanie dovolenky urcuje zamestnavatel po prerokovani so zamestnancom podla planu dovoleniek urceneho s predchadzajucim suhlasom zastupcov zamestnancov tak, aby si zamestnanec mohol dovolenku vycerpat spravidla vcelku a do konca kalendarneho roka — el empleador determina el disfrute, previa consulta con el trabajador y segun el plan de vacaciones aprobado con los representantes de los trabajadores."
+  },
+  "nota_colocacion": "El empleador decide, pero el mismo articulo 111 le OBLIGA a senalar al menos cuatro semanas dentro del ano natural, limita el cierre colectivo a dos semanas -tres con seis meses de aviso- y exige que, si se fracciona, una parte sea de al menos dos semanas, con catorce dias de preaviso.",
+  "nota_escala": "Solo el minimo incondicional de cuatro semanas. El tramo de cinco depende de la EDAD del trabajador (33 anos) o del cuidado de un hijo, no de la antiguedad, y la tabla de escala no puede indexarlo."
+ },
+ "eventos_reforma": [
+  {
+   "_": "El corte de 2026 cae en el UNICO ano con la suspension. Sin esto, el panel dice que Eslovaquia perdio cuatro feriados y los permanentes son dos.",
+   "tipo": "abolicion",
+   "que": "Den Ustavy Slovenskej republiky (1 de septiembre)",
+   "vigencia_desde": "2024-01-01",
+   "permanente_o_temporal": "permanente",
+   "cita": "Zakon c. 530/2023 Z. z."
+  },
+  {
+   "tipo": "abolicion",
+   "que": "Den boja za slobodu a demokraciu (17 de noviembre)",
+   "vigencia_desde": "2026-01-01",
+   "permanente_o_temporal": "permanente",
+   "cita": "Zakon c. 261/2025 Z. z."
+  },
+  {
+   "tipo": "suspension",
+   "que": "Den vitazstva nad fasizmom (8 de mayo)",
+   "vigencia_desde": "2026-01-01",
+   "permanente_o_temporal": "temporal",
+   "cita": "§ 4b zakona c. 241/1993 Z. z. v zneni zakona c. 261/2025 Z. z."
+  },
+  {
+   "tipo": "suspension",
+   "que": "Sedembolestna Panna Maria (15 de septiembre)",
+   "vigencia_desde": "2026-01-01",
+   "permanente_o_temporal": "temporal",
+   "cita": "§ 4b zakona c. 241/1993 Z. z. v zneni zakona c. 261/2025 Z. z."
+  },
+  {
+   "tipo": "restitucion",
+   "que": "Den vitazstva nad fasizmom y Sedembolestna Panna Maria",
+   "vigencia_desde": "2027-01-01",
+   "permanente_o_temporal": "permanente",
+   "cita": "§ 4b a contrario: la exclusion rige «v roku 2026», luego decae el 1-ene-2027."
+  }
+ ]
+}

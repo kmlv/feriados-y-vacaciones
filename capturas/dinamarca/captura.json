@@ -1,0 +1,256 @@
+{
+ "_": "Captura de Dinamarca. CAPTURA CIEGA: leida de retsinformation.dk, el sistema oficial de informacion juridica del Estado danes.",
+ "captura_ciega": true,
+ "unidad": "DNK",
+ "jurisdiccion_de_referencia": "Copenhague (ciudad mas poblada)",
+ "capturado_por": "captura · lote 2",
+ "fecha_captura_utc": "2026-08-10T18:40:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Ferieloven — Bekendtgorelse af lov om ferie, LBK nr. 230 af 12/02/2021 (refunde la lov nr. 60 af 30. januar 2018); articulos 4, 5, 6, 8, 9 y 15",
+   "nivel_de_fuente": 1,
+   "url": "https://www.retsinformation.dk/eli/lta/2021/230/pdf",
+   "publicacion": "2021-02-12",
+   "nota": "Lovtidende A. Texto integro leido del PDF oficial."
+  },
+  "F2": {
+   "cita": "Lov nr. 214 af 6. marts 2023 om konsekvenser ved afskaffelsen af store bededag som helligdag",
+   "nivel_de_fuente": 1,
+   "url": "https://www.retsinformation.dk/eli/lta/2023/214/pdf",
+   "publicacion": "2023-03-07",
+   "nota": "Lovtidende A. Doble valor: (a) suprime el Store Bededag como dia festivo desde el 1-ene-2024, y (b) su articulo 7 introduce en la ley de comercio minorista la UNICA ENUMERACION LEGAL de los dias festivos daneses, que es de donde sale la lista de esta captura."
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO en cuanto a la enumeracion legal; PARCIAL en cuanto al caracter retribuido, que no es legal",
+  "fuente": "F2",
+  "base_juridica": "DINAMARCA NO TIENE LEY LABORAL DE DIAS FESTIVOS. Los helligdage vienen del calendario eclesiastico y del derecho consuetudinario; ninguna ley obliga al empleador privado a dar el dia libre ni a pagarlo. Lo que si hay son dos anclajes legales: (a) el articulo 6, apartado 3 de la Ferieloven, que prohibe colocar vacaciones en los sogneheligdage -o sea les reconoce efecto juridico-, y (b) la enumeracion introducida en 2023 en la ley de comercio minorista. El caracter RETRIBUIDO depende del convenio colectivo o de ser asalariado mensual: el propio articulo 16 de la Ferieloven distingue al 'trabajador que tiene derecho a salario integro en los sogneheligdage' de los demas.",
+  "literal": "helligdage (nytarsdag, skaertorsdag, langfredag, forste og anden paskedag, Kr. himmelfartsdag, forste og anden pinsedag og forste og anden juledag), grundlovsdag og juleaftensdag",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Nytarsdag (Año Nuevo)",
+    "clase_de_regla": "fija",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": null,
+    "nombre": "Skaertorsdag (Jueves Santo)",
+    "clase_de_regla": "computable",
+    "regla": "pascua-3",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": null,
+    "nombre": "Langfredag (Viernes Santo)",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": null,
+    "nombre": "Forste paskedag (Domingo de Pascua)",
+    "clase_de_regla": "computable",
+    "regla": "pascua+0",
+    "nota": "Cae SIEMPRE en domingo: es festivo pero no anade dia de descanso al trabajador de semana de cinco dias.",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": null,
+    "nombre": "Anden paskedag (Lunes de Pascua)",
+    "clase_de_regla": "computable",
+    "regla": "pascua+1",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": null,
+    "nombre": "Store bededag (Gran Día de Oración)",
+    "clase_de_regla": "computable",
+    "regla": "pascua+26",
+    "hasta": 2023,
+    "instrumento": "Lov nr. 214 af 6. marts 2023",
+    "nota": "ABOLIDO DENTRO DE LA VENTANA, y es el unico caso de este lote de un feriado SUPRIMIDO por ley. La lov nr. 214 de 2023 entro en vigor el 1-ene-2024, asi que el ultimo Store bededag fue el de 2023. La ley compensa el trabajo anadido con un recargo salarial del 0,45% del salario anual para los asalariados mensuales: el legislador puso precio explicito a un dia festivo.",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": null,
+    "nombre": "Kristi himmelfartsdag (Ascensión)",
+    "clase_de_regla": "computable",
+    "regla": "pascua+39",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": null,
+    "nombre": "Forste pinsedag (Domingo de Pentecostés)",
+    "clase_de_regla": "computable",
+    "regla": "pascua+49",
+    "nota": "Cae siempre en domingo.",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": null,
+    "nombre": "Anden pinsedag (Lunes de Pentecostés)",
+    "clase_de_regla": "computable",
+    "regla": "pascua+50",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Forste juledag (Navidad)",
+    "clase_de_regla": "fija",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": "12-26",
+    "nombre": "Anden juledag (San Esteban)",
+    "clase_de_regla": "fija",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   }
+  ],
+  "nombrados_pero_no_helligdage": [
+   {
+    "fecha": "06-05",
+    "nombre": "Grundlovsdag (Día de la Constitución)",
+    "nota": "La ley de comercio minorista lo nombra APARTE de los helligdage. No es dia festivo laboral: el descanso, cuando existe, es medio dia o dia completo por convenio colectivo. NO se carga."
+   },
+   {
+    "fecha": "12-24",
+    "nombre": "Juleaftensdag (Nochebuena)",
+    "nota": "Igual: nombrada aparte, no es helligdag. Libre por convenio en la mayoria del mercado, no por ley. NO se carga."
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "1. maj",
+    "nota": "NI SIQUIERA aparece en la enumeracion legal. Medio dia o dia libre segun convenio. NO se carga."
+   }
+  ],
+  "total_legal_2026": 10,
+  "total_legal_2016": 11,
+  "nota_totales": "De los diez, dos caen siempre en domingo (Pascua y Pentecostes), asi que el trabajador de semana de cinco dias gana ocho dias en 2026 y nueve en 2016.",
+  "nota_categoria": "DECISION DE CODIFICACION QUE CONVIENE REVISAR. Los once dias se cargan con categoria 'observancia_optativa' y regimen 'sin_mandato_nacional' porque eso es lo que dice el SUELO LEGAL danes: ninguna ley obliga al empleador privado a dar libre el dia ni a pagarlo. Lo que hay es (a) la enumeracion legal introducida en 2023 en la ley de comercio minorista, que obliga a cerrar al comercio, (b) el art. 6.3 de la Ferieloven, que prohibe colocar vacaciones en ellos, y (c) convenios colectivos que cubren la mayor parte del mercado y si los hacen libres y pagados. En la practica un trabajador danes descansa esos dias; en la ley, no es un derecho suyo. Es exactamente el contraste con Alemania, donde las Feiertagsgesetze de los Laender imponen el descanso y el paragrafo 2 de la Entgeltfortzahlungsgesetz impone el pago. Si el principal prefiere medir el descanso efectivo en vez del suelo legal, esto se cambia a 'descanso_pagado_obligatorio' en una linea."
+ },
+ "vacaciones": {
+  "texto_legal_dias": 25,
+  "tipo_de_dia": "habil",
+  "literal_derecho": "En lonmodtager optjener i feriearet ret til 5 ugers betalt ferie.",
+  "literal_devengo": "Retten til betalt ferie optjenes med 2,08 dage for hver maneds ansaettelse i feriearet ... Ved ansaettelse i kortere tid end 1 maned sker optjeningen forholdsmaessigt med 0,07 dages betalt ferie for hver dags ansaettelse.",
+  "literal_base": "Ferie holdes med 5 dage om ugen og pa samme made, som arbejdet tidsmaessigt er tilrettelagt. Arbejdsfrie dage og vagtdage i turnus indgar i ferien med et forholdsmaessigt antal.",
+  "nota_tipo": "LA BASE SEMANAL ESTA EN LA LEY, con todas las letras: 'las vacaciones se toman a razon de cinco dias por semana'. No hay que elegirla. Cinco semanas a cinco dias son veinticinco dias, y son dias habiles porque el apartado 3 del mismo articulo excluye de las vacaciones el descanso semanal y los festivos. Dinamarca es el contraejemplo util de Alemania: mismo continente, misma familia juridica, y la ley danesa SI define la base mientras la alemana obliga a razonar sobre Werktage.",
+  "ano_de_vacaciones": "El ano de devengo va del 1 de septiembre al 31 de agosto y el periodo de disfrute lo cubre mas cuatro meses, hasta el 31 de diciembre siguiente (arts. 4 y 6). Desde 2020 el sistema es de vacaciones SIMULTANEAS: se devenga y se disfruta en el mismo ano.",
+  "sin_periodo_de_calificacion": "No hay carencia: el articulo 15 da derecho a TOMAR cinco semanas en cada periodo aunque no se hayan devengado -sin pago en lo no devengado-. Es un derecho al tiempo separado del derecho al dinero.",
+  "estado_verificacion": "verificado_primaria"
+ },
+ "imputacion": {
+  "resultado": "extienden",
+  "literal": "Ferie kan ikke holdes pa det ugentlige fridogn, sogneheligdage, overenskomstmaessigt eller saedvanemaessigt fastsatte fridage eller erstatningsdage herfor.",
+  "traduccion": "Las vacaciones no pueden tomarse en el dia de descanso semanal, en los dias festivos entre semana, en los dias libres fijados por convenio o costumbre, ni en sus dias sustitutos.",
+  "articulo": "Ferieloven, art. 6, apartado 3",
+  "nota": "VERIFICADO, no derivado. Y es mas fuerte que la regla turca: Turquia dice que los festivos NO SE CUENTAN dentro del permiso; Dinamarca dice que las vacaciones NO PUEDEN COLOCARSE en ellos. Ademas alcanza a los dias libres de CONVENIO O COSTUMBRE, no solo a los legales, lo que en un pais donde el 1 de mayo y la Nochebuena son libres por convenio importa."
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "Dos reformas localizadas y datadas. (1) La Ferieloven entera se sustituyo: lov nr. 60 af 30. januar 2018, con efecto pleno el 1-sep-2020, cambio el sistema de vacaciones diferidas a simultaneas; el quantum siguio en cinco semanas. (2) La lov nr. 214 af 6. marts 2023 suprimio el Store Bededag como dia festivo desde el 1-ene-2024, con compensacion salarial del 0,45%."
+ },
+ "delta_2016_2026": {
+  "feriados": "-1 (Store bededag, abolido con efecto 2024)",
+  "vacaciones": "0 en quantum; reforma estructural de sistema en 2020 sin cambio de dias"
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "buscado_en": "Retsinformation, portal oficial danes: las DOS leyes de vacaciones enfrentadas — la refundida de 9 de octubre de 2015, vigente al corte de 2016, y la ley 60 de 30 de enero de 2018, con efecto pleno el 1 de septiembre de 2020",
+     "cita": "La ley vigente en 2016 decia en su § 8: «En lonmodtager har ret til 25 dages ferie om aret». La vigente hoy dice en su § 4: «En lonmodtager optjener i feriearet ret til 5 ugers betalt ferie», con devengo de 2,08 días por mes en el § 5. VEINTICINCO DIAS Y CINCO SEMANAS SON LO MISMO: el quantum no se movio. Lo que si ocurrio dentro de la ventana es que la ley se sustituyo ENTERA —el cambio de vacaciones diferidas a simultaneas— y eso va al ledger.",
+     "nivel_de_fuente": 1,
+     "indice_registra_modificaciones": true,
+     "indice_como_se_comprobo": "No es un indice sino comparacion de dos textos oficiales fechados, que el §10 bis admite igual en la rama (a). Cada uno lleva su fecha y su numero de ley en el portal.",
+     "fecha_busqueda": "2026-08-11"
+   },
+  "dias": 25,
+  "tipo": "habil",
+  "base": 5,
+  "imputacion": "extienden",
+  "meses": 1,
+  "literal": "En lonmodtager optjener i feriearet ret til 5 ugers betalt ferie; ferie holdes med 5 dage om ugen",
+  "escala": [
+   [
+    1,
+    2,
+    2.08
+   ],
+   [
+    2,
+    3,
+    4.16
+   ],
+   [
+    3,
+    4,
+    6.24
+   ],
+   [
+    4,
+    5,
+    8.32
+   ],
+   [
+    5,
+    6,
+    10.4
+   ],
+   [
+    6,
+    7,
+    12.48
+   ],
+   [
+    7,
+    8,
+    14.56
+   ],
+   [
+    8,
+    9,
+    16.64
+   ],
+   [
+    9,
+    10,
+    18.72
+   ],
+   [
+    10,
+    11,
+    20.8
+   ],
+   [
+    11,
+    12,
+    22.88
+   ],
+   [
+    12,
+    null,
+    25
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "Arbejdsgiveren fastsaetter efter forhandling med lonmodtageren, hvornar ferien skal holdes i ferieafholdelsesperioden. Arbejdsgiveren skal under hensyntagen til virksomhedens drift sa vidt muligt imodekomme lonmodtagerens onske om, hvornar ferien skal holdes — el empleador fija, previa negociacion con el trabajador, cuando se toman las vacaciones, y debe atender en lo posible sus deseos habida cuenta de la marcha de la empresa."
+  },
+  "nota_escala": "La escala NO es de antiguedad sino de DEVENGO: 2,08 dias por cada mes de empleo (art. 5). Se codifico mes a mes porque es lo que dice la ley y porque un tramo unico [12, inf, 25] afirmaria que un trabajador de tres meses tiene veinticinco dias, y un [0,12) en cero afirmaria que no tiene ninguno; las dos cosas son falsas. El tramo abierto usa 25 y no 24,96 porque el art. 4 fija cinco semanas; la diferencia de 0,04 es del redondeo de la propia ley. En el primer mes se devenga 0,07 dias por dia de empleo, granularidad que el cargador no puede expresar.",
+  "nota_colocacion": "El empleador decide, pero acotado: el trabajador tiene derecho a tres semanas seguidas de vacaciones principales entre el 1 de mayo y el 30 de septiembre (art. 8), y el empleador debe avisar con tres meses de antelacion (art. 9). Es 'empleador' con limites legales duros, no discrecion libre."
+ }
+}

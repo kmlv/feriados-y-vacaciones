@@ -1,0 +1,201 @@
+{
+  "_": "Captura de Estados Unidos, jurisdiccion de referencia Nueva York. CAPTURA CIEGA. LEASE PRIMERO 'ausencia_de_mandato': esta unidad NO tiene cero dias, tiene cero NORMA, y son cosas distintas.",
+  "captura_ciega": true,
+  "unidad": "USA",
+  "jurisdiccion_de_referencia": "Nueva York (ciudad mas poblada)",
+  "capturado_por": "captura · lote 2",
+  "fecha_captura_utc": "2026-08-10T18:40:00Z",
+  "ausencia_de_mandato": {
+    "que_pasa": "En Estados Unidos no existe derecho federal a vacaciones pagadas ni a feriados pagados en el sector privado, y el estado de Nueva York tampoco lo crea. No es que el derecho valga cero dias: es que NO HAY NORMA que fije un quantum. La diferencia importa para cualquier promedio o regresion: un cero medido y una ausencia de mandato no son el mismo dato, y meterlos en la misma columna trata a Estados Unidos como si su legislador hubiera decidido 'ninguno' cuando lo que hizo fue no legislar.",
+    "evidencia_positiva": "La Fair Labor Standards Act ni siquiera menciona la obligacion. Lo que si hace, en 29 U.S.C. 207(e)(2), es EXCLUIR del salario regular los 'pagos hechos por periodos ocasionales en que no se trabaja por vacaciones, feriado, enfermedad...': o sea la ley federal presupone que esos pagos pueden existir y regula su tratamiento, sin imponerlos nunca.",
+    "lo_que_si_hay": "Permisos de otra naturaleza, que NO son vacaciones y no se cuentan aqui: la baja por enfermedad retribuida del estado de Nueva York (NY Labor Law 196-b), la ley de tiempo seguro y de enfermedad de la ciudad de Nueva York, y el seguro de permiso familiar retribuido. Ninguno es tiempo libre de libre disposicion.",
+    "representacion": "Se codifica dias=null y una lista de feriados vacia, con esta seccion como explicacion. HALLAZGO: ni el esquema ni el cargador distinguen 'ausencia de mandato verificada' de 'no capturado'. Los dos se ven igual en la salida."
+  },
+  "fuentes": {
+    "F1": {
+      "cita": "5 U.S.C. 6103 — Holidays (días festivos legales federales)",
+      "nivel_de_fuente": 2,
+      "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title5/html/USCODE-2023-title5-partIII-subpartE-chap61-subchapI-sec6103.htm",
+      "nota": "Government Publishing Office, edicion oficial del United States Code. Texto integro leido. OJO: esta en el titulo 5, que es 'Government Organization and Employees'. Regula a los empleados FEDERALES, no al sector privado."
+    },
+    "F2": {
+      "cita": "29 U.S.C. 207(e)(2) — Fair Labor Standards Act, exclusion del salario regular de los pagos por periodos no trabajados",
+      "nivel_de_fuente": 3,
+      "url": "https://www.law.cornell.edu/uscode/text/29/207",
+      "nota": "Legal Information Institute de Cornell. Se usa como evidencia POSITIVA de que la ley federal contempla el pago de vacaciones y feriados sin obligarlo."
+    },
+    "F3": {
+      "cita": "Public Law 117-17 (17 de junio de 2021) — Juneteenth National Independence Day Act",
+      "nivel_de_fuente": 4,
+      "nota": "No se localizo el dispositivo. Lo verificado es que el 19 de junio FIGURA en el texto vigente de 5 U.S.C. 6103 leido en F1, que es nivel 2; la ley que lo anadio y su fecha vienen de secundarias. PENDIENTE localizar la ley publica."
+    },
+    "F4": {
+      "cita": "Derecho del estado y de la ciudad de Nueva York en materia de vacaciones y feriados",
+      "nivel_de_fuente": 6,
+      "nota": "HUECO DECLARADO. No se pudo leer ninguna fuente oficial neoyorquina: nysenate.gov responde con el desafio de Cloudflare, dol.gov devuelve 403 desde su CDN, el sistema legislativo public.leginfo.state.ny.us agota el tiempo de espera y justia devuelve 403. La afirmacion 'Nueva York no impone vacaciones ni feriados pagados al sector privado' NO esta verificada contra fuente primaria en esta captura. SE CIERRA leyendo la NY Labor Law y la General Construction Law 24 desde una fuente oficial."
+    }
+  },
+  "feriados": {
+    "estado": "COMPLETO en el dato, CERO en el derecho del privado. Las once fechas del 5 U.S.C. 6103 se cargan con categoria 'cierre_sector_publico' y regimen 'sin_mandato_nacional', que es lo que son: dias festivos de los empleados FEDERALES. El trabajador privado de Nueva York no tiene ninguno garantizado.",
+    "fuente": "F1",
+    "literal_marco": "5 U.S.C. 6103(a): 'The following are legal public holidays'. El titulo 5 del Codigo rige la organizacion del Gobierno y a sus empleados.",
+    "lista": [
+      {
+        "fecha": "01-01",
+        "nombre": "New Year's Day",
+        "clase_de_regla": "fija",
+        "categoria": "cierre_sector_publico",
+        "regimen": "sin_mandato_nacional"
+      },
+      {
+        "fecha": null,
+        "nombre": "Birthday of Martin Luther King, Jr.",
+        "clase_de_regla": "ordinal",
+        "ordinal": 3,
+        "dia_semana": 1,
+        "mes": 1,
+        "categoria": "cierre_sector_publico",
+        "regimen": "sin_mandato_nacional"
+      },
+      {
+        "fecha": null,
+        "nombre": "Washington's Birthday",
+        "clase_de_regla": "ordinal",
+        "ordinal": 3,
+        "dia_semana": 1,
+        "mes": 2,
+        "categoria": "cierre_sector_publico",
+        "regimen": "sin_mandato_nacional"
+      },
+      {
+        "fecha": null,
+        "nombre": "Memorial Day",
+        "clase_de_regla": "ordinal",
+        "ordinal": -1,
+        "dia_semana": 1,
+        "mes": 5,
+        "nota": "'The last Monday in May'. El ordinal NEGATIVO -contar desde el final del mes- no esta previsto: el catalogo describe el ordinal como 'n-esimo dia de la semana del mes'. Otro hueco de clase.",
+        "categoria": "cierre_sector_publico",
+        "regimen": "sin_mandato_nacional"
+      },
+      {
+        "fecha": "06-19",
+        "nombre": "Juneteenth National Independence Day",
+        "clase_de_regla": "fija",
+        "desde": "2021-06-17",
+        "instrumento": "Public Law 117-17",
+        "nota": "ANADIDO DENTRO DE LA VENTANA: es el unico cambio de calendario federal entre 2016 y 2026. Para el trabajador privado de Nueva York el delta sigue siendo cero, porque no le aplicaba ninguno.",
+        "categoria": "cierre_sector_publico",
+        "regimen": "sin_mandato_nacional"
+      },
+      {
+        "fecha": "07-04",
+        "nombre": "Independence Day",
+        "clase_de_regla": "fija",
+        "categoria": "cierre_sector_publico",
+        "regimen": "sin_mandato_nacional"
+      },
+      {
+        "fecha": null,
+        "nombre": "Labor Day",
+        "clase_de_regla": "ordinal",
+        "ordinal": 1,
+        "dia_semana": 1,
+        "mes": 9,
+        "categoria": "cierre_sector_publico",
+        "regimen": "sin_mandato_nacional"
+      },
+      {
+        "fecha": null,
+        "nombre": "Columbus Day",
+        "clase_de_regla": "ordinal",
+        "ordinal": 2,
+        "dia_semana": 1,
+        "mes": 10,
+        "categoria": "cierre_sector_publico",
+        "regimen": "sin_mandato_nacional"
+      },
+      {
+        "fecha": "11-11",
+        "nombre": "Veterans Day",
+        "clase_de_regla": "fija",
+        "categoria": "cierre_sector_publico",
+        "regimen": "sin_mandato_nacional"
+      },
+      {
+        "fecha": null,
+        "nombre": "Thanksgiving Day",
+        "clase_de_regla": "ordinal",
+        "ordinal": 4,
+        "dia_semana": 4,
+        "mes": 11,
+        "categoria": "cierre_sector_publico",
+        "regimen": "sin_mandato_nacional"
+      },
+      {
+        "fecha": "12-25",
+        "nombre": "Christmas Day",
+        "clase_de_regla": "fija",
+        "categoria": "cierre_sector_publico",
+        "regimen": "sin_mandato_nacional"
+      },
+      {
+        "fecha": "01-20",
+        "nombre": "Inauguration Day",
+        "clase_de_regla": "fija",
+        "recurrencia": "recurrente",
+        "periodo_anios": 4,
+        "nota": "'January 20 of each fourth year after 1965'. Ejercita el mismo mecanismo que el feriado sexenal mexicano, con periodo cuatro. Ademas es GEOGRAFICAMENTE ACOTADO: solo cuenta para empleados de la zona de Washington D.C., asi que ni siquiera alcanza a los empleados federales de Nueva York.",
+        "categoria": "cierre_sector_publico",
+        "regimen": "sin_mandato_nacional",
+        "ancla_anio": 1965,
+        "literal_ancla": "5 U.S.C. §6103(c): «January 20 of each fourth year after 1965». El anio base es parte de la regla, no un detalle: sin el, un periodo de cuatro no dice en QUE anios cae.",
+        "cobertura": "area_metropolitana_declarada",
+        "cobertura_alcance": "Washington D.C., Montgomery y Prince George's (MD), Arlington y Fairfax (VA)",
+        "nota_cobertura": "La misma disposicion lo acota geograficamente a empleados federales de la zona de Washington. NO alcanza a Nueva York, que es nuestra unidad de referencia — razon INDEPENDIENTE de la periodicidad: aunque 2026 fuera anio de investidura, seguiria sin contar aqui."
+      }
+    ],
+    "subnacionales": [],
+    "nota_lista_vacia": "Version anterior de esta captura dejaba la lista VACIA para no inflar de cero a once el derecho del privado. Se cambio al ver que el cargador ya distingue categoria y regimen: con la lista vacia la salida decia 'la captura no trae lista de feriados con fechas', que se lee como captura fallida y no como ausencia verificada de mandato. Se prefirio el dato etiquetado al hueco ambiguo, y el hallazgo de fondo sigue en pie: ni el esquema ni el cargador tienen manera de decir 'ausencia de mandato VERIFICADA' frente a 'no capturado'.",
+    "total_exigible_sector_privado_nueva_york_2026": 0,
+    "total_exigible_sector_privado_nueva_york_2016": 0,
+    "nota_categoria": "LEASE ANTES DE CONTAR. Estas doce filas NO son feriados del trabajador privado neoyorquino. Se cargan porque el cargador ya lee `categoria` y `regimen` de la captura, asi que la base puede guardar el dato SIN afirmar que obliga a nadie: quien filtre por categoria='descanso_pagado_obligatorio' obtendra CERO para Estados Unidos, que es la respuesta correcta. Quien cuente filas obtendra doce, que es la respuesta equivocada. LIMITACION DECLARADA: el cargador fija a mano sector='privado' y cobertura='todo_el_pais' para todas las filas, asi que estas quedan con un sector que las contradice. El campo correcto seria sector='publico' y cobertura limitada a los empleados federales; hoy no se puede decir desde la captura.",
+    "alcance_federal": "Empleados del Gobierno federal. No obligan al sector privado ni en Nueva York ni en ningun sitio.",
+    "regla_de_traslado_federal": "5 U.S.C. 6103(b): si el feriado cae en sabado, el viernes anterior es el dia festivo legal para quien trabaja de lunes a viernes. Es un traslado CONDICIONAL, como el espanol, y tampoco cabe en 'relativa_a_fecha'."
+  },
+  "vacaciones": {
+    "texto_legal_dias": null,
+    "tipo_de_dia": null,
+    "literal": null,
+    "por_que_null": "No hay norma que fijar. Ni la Fair Labor Standards Act ni ninguna otra ley federal exige vacaciones pagadas al empleador privado, y el estado de Nueva York no lo suple. Poner 0 seria afirmar que un legislador midio el derecho y lo dejo en nada.",
+    "estado_verificacion": "verificado_ausencia_federal; NO verificado en lo estatal (ver F4)"
+  },
+  "imputacion": {
+    "resultado": "sin_regla_explicita",
+    "nota": "No puede haber regla de imputacion de feriados a vacaciones donde no hay ni feriados exigibles ni vacaciones exigibles. Es 'sin_regla_explicita' por vacio total del supuesto, no por laguna dentro de un regimen existente. El campo no distingue los dos casos."
+  },
+  "corte_2016": {
+    "estado": "verificado",
+    "nota": "En lo federal: la unica modificacion de 5 U.S.C. 6103 en la ventana fue anadir el 19 de junio en 2021. En cuanto al mandato al sector privado, no lo habia en 2016 y no lo hay en 2026: ninguna ley federal de vacaciones o feriados pagados se aprobo. En lo estatal neoyorquino el corte NO esta verificado contra fuente primaria (ver F4); lo que si es publico es que Nueva York adopto baja por enfermedad retribuida en 2020, que es otra figura."
+  },
+  "delta_2016_2026": {
+    "feriados": "0 para el trabajador privado de Nueva York. +1 para el empleado federal (Juneteenth, 2021).",
+    "vacaciones": "0 — no habia mandato en 2016 y no lo hay en 2026"
+  },
+  "vacaciones_normalizado": {
+    "dias": null,
+    "tipo": null,
+    "base": null,
+    "imputacion": "sin_regla_explicita",
+    "meses": null,
+    "literal": null,
+    "escala": null,
+    "colocacion": null,
+    "pendiente": "NO CARGA, Y NO DEBE. No es que falte el dato: es que no existe la norma. Estados Unidos no tiene derecho federal a vacaciones pagadas en el sector privado y Nueva York no lo crea. Cargar 0 dias diria que la ley midio el derecho y lo puso en cero. Hace falta un campo que separe 'ausencia de mandato verificada' de 'no capturado'; hoy los dos se ven igual.",
+    "no_aplicable": {
+      "motivo": "No existe mandato federal ni estatal de vacaciones anuales pagadas aplicable a la jurisdiccion de referencia, ni en 2016 ni en 2026. No es que no se hallara modificatoria: es que no hay derecho que medir, asi que no hay cantidad que pueda cambiar.",
+      "buscado_en": "Fair Labor Standards Act y su reglamento; codigo laboral del estado de la jurisdiccion de referencia. La FLSA no exige vacaciones pagadas y ningun estado impone un minimo anual general al sector privado.",
+      "decidido_por": "Kristian, 2026-08-12"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "_": "Jornada semanal legal ordinaria. DOS NORMAS PARA UNA CIFRA: el art. 19 de la ley de 1971 dice 40, y la ley de 2001 lo baja a 38 desde 2003. Dias ordinarios NULOS: la ley no los fija, y desde 2022 admite expresamente cuatro. Unica unidad del lote con regla general de traslado.",
+  "unidad": "BEL",
+  "jurisdiccion_de_referencia": "Bruselas",
+  "sector_de_referencia": "privado formal, jornada completa, persona adulta, trabajo diurno",
+  "capturado_por": "jornada · lote 4",
+  "fecha_captura_utc": "2026-08-11T05:45:52Z",
+  "fuentes": {
+    "J1": {
+      "cita": "Loi du 16 mars 1971 sur le travail, art. 11 (repos du dimanche), art. 19 (duree du travail), art. 20 §1 y art. 20bis/1 (semaine de quatre jours)",
+      "url": "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=1971031602&table_name=loi",
+      "nivel_de_fuente": 1,
+      "publicacion": "Moniteur belge 30-03-1971; texto consolidado Justel, actualizado a 09-01-2026",
+      "nota": "Justel es la base de legislacion consolidada del Moniteur belge (Service public federal Justice)."
+    },
+    "J2": {
+      "cita": "Loi du 10 aout 2001 relative a la conciliation entre l'emploi et la qualite de vie, chap. II, art. 2 §2",
+      "url": "https://www.ejustice.just.fgov.be/eli/loi/2001/08/10/2001012825/justel",
+      "nivel_de_fuente": 1,
+      "publicacion": "Moniteur belge 15-09-2001, p. 30949; el art. 2 rige desde 01-01-2003",
+      "nota": "Es la norma que baja de 40 a 38 la cifra semanal del art. 19 de la ley de 1971. Sin ella se codificaria 40, que es lo que el art. 19 sigue diciendo en su letra."
+    },
+    "J3": {
+      "cita": "Loi du 4 janvier 1974 relative aux jours feries, arts. 6 a 9 (Remplacement des jours coincidant avec un dimanche ou avec un jour habituel d'inactivite)",
+      "url": "https://www.ejustice.just.fgov.be/eli/loi/1974/01/04/1974010407/justel",
+      "nivel_de_fuente": 1,
+      "publicacion": "Moniteur belge 31-01-1974, p. 1378; texto consolidado Justel actualizado a 31-12-2020",
+      "nota": null
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 38,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "Art. 19, L. 16-03-1971: «La duree du travail des travailleurs ne peut exceder huit heures par jour ni 40 heures par semaine.» — Art. 2, §2, L. 10-08-2001: «La limite de 40 heures par semaine prevue a l'article 19 de la loi du 16 mars 1971 sur le travail est reduite a 38 heures pour les travailleurs a temps plein qui entrent dans le champ d'application du chapitre III, section II, de la loi du 16 mars 1971 sur le travail et qui, au 1er janvier 2003, ne beneficient pas d'une limitation de la duree hebdomadaire de travail conforme au § 1er.» — Art. 20, §1, L. 16-03-1971: «La limite quotidienne de la duree du travail peut etre portee a neuf heures lorsque le regime de travail comporte par semaine un demi-jour, un jour ou plus d'un jour de repos, autre que le dimanche.»",
+    "traduccion": "Art. 19: «La duracion del trabajo de los trabajadores no puede exceder de ocho horas por dia ni de 40 horas por semana.» — Art. 2, §2 de la ley de 2001: «El limite de 40 horas por semana previsto en el art. 19 de la ley de 16 de marzo de 1971 sobre el trabajo se reduce a 38 horas para los trabajadores a tiempo completo comprendidos en el ambito del cap. III, seccion II, de dicha ley que, al 1 de enero de 2003, no gocen de una limitacion de la duracion semanal conforme al §1.» — Art. 20, §1: «El limite diario de la duracion del trabajo puede elevarse a nueve horas cuando el regimen de trabajo comporte por semana medio dia, un dia o mas de un dia de descanso distinto del domingo.»",
+    "fuente": "J1,J2",
+    "nota": "DOS CIFRAS, Y HAY QUE DECIR CUAL. El art. 19 de la ley de 1971 sigue diciendo 40 en su letra: esa es la cota absoluta. La jornada ordinaria del trabajador a tiempo completo es de 38 desde el 1 de enero de 2003 por la ley de 2001. Codificar 40 leyendo solo la ley de jornada seria un error de dos horas semanales. LOS DIAS VAN NULOS Y NO ES OMISION: ninguna de las dos normas fija cuantos dias se trabaja. El art. 20 §1 presupone regimenes con medio dia, un dia o mas de un dia de descanso ademas del domingo — es decir, la ley contempla a la vez la semana de cinco y la de seis — y desde 2022 el art. 20bis/1 admite comprimir la semana completa en cuatro dias a peticion escrita del trabajador. La distribucion la fija el reglamento de trabajo o el convenio colectivo, no la ley."
+  },
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "domingo",
+    "literal": "Art. 11, L. 16-03-1971: «Il est interdit d'occuper des travailleurs le dimanche.» (traduccion: «Esta prohibido ocupar trabajadores el domingo.»)",
+    "fuente": "J1"
+  },
+  "traslado_por_defecto": {
+    "existe": true,
+    "regla": "traslado_a_dia_habitual_de_actividad",
+    "alcance": "General para los diez feriados legales y para todo trabajador cubierto por la ley de 1974 (sector privado). Cubre tanto el domingo como cualquier otro dia habitual de inactividad, es decir tambien el sabado en la semana de cinco dias. El dia de reemplazo lo fija el organo paritario, el consejo de empresa o, en su defecto, un acuerdo; y si nadie lo fija, opera el defecto legal del art. 9.",
+    "literal": "Art. 6, L. 04-01-1974: «Lorsqu'un jour ferie coincide avec un dimanche ou un jour habituel d'inactivite, il est remplace par un jour habituel d'activite.» — Art. 9: «Lorsque le jour de remplacement n'a pas ete fixe conformement aux dispositions de la presente section, le jour ferie est remplace par le premier jour habituel d'activite qui, dans l'entreprise, suit ce jour ferie.» (traduccion: «Cuando un feriado coincide con un domingo o con un dia habitual de inactividad, es reemplazado por un dia habitual de actividad»; «Cuando el dia de reemplazo no se ha fijado conforme a esta seccion, el feriado se reemplaza por el primer dia habitual de actividad que en la empresa siga a ese feriado.»)",
+    "fuente": "J3"
+  },
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "Loi du 3 octobre 2022 portant des dispositions diverses relatives au travail, art. 5 (inserta el art. 20bis/1 en la ley de 16-03-1971); en vigor 20-11-2022",
+      "anio": 2022,
+      "que_cambio": "No cambia las 38 horas semanales. Permite que el limite diario suba a 9h30 —o a la semanal dividida entre cuatro— cuando el trabajador presta su jornada completa en cuatro dias por semana, y solo a peticion escrita previa del trabajador, renovable por periodos de seis meses. Es la primera vez que la ley belga nombra un numero de dias, y lo hace para permitir cuatro, no para imponer cinco ni seis."
+    }
+  ],
+  "pendiente": "El dia de reemplazo concreto de cada feriado lo fijan cada ano las comisiones paritarias por sector (art. 7), rendidas obligatorias por arrete royal; no capture esas decisiones. Tampoco verifique los convenios sectoriales que fijan semanas por debajo de 38 horas, que en Belgica son frecuentes: la cifra de 38 es el maximo legal para el trabajador a tiempo completo, no la jornada pactada."
+}

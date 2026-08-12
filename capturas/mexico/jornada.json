@@ -1,0 +1,73 @@
+{
+  "unidad": "MEX",
+  "jurisdiccion_de_referencia": "Ciudad de México; el régimen de jornada es federal (LFT), no local",
+  "fecha_captura_utc": "2026-08-11T06:11:34Z",
+  "trabajador_de_referencia": "sector privado formal, jornada completa, jornada diurna, mayor de edad",
+
+  "fuentes": {
+    "J1": {
+      "cita": "DECRETO por el que se reforman las fracciones IV y XI del Apartado A del Artículo 123 de la Constitución Política de los Estados Unidos Mexicanos, en materia de reducción de la jornada laboral",
+      "url": "https://www.dof.gob.mx/nota_detalle.php?codigo=5781417&fecha=03%2F03%2F2026",
+      "nivel_de_fuente": 1,
+      "publicacion": "2026-03-03",
+      "nota": "Diario Oficial de la Federación, edición vespertina. Entró en vigor el día de su publicación (transitorio Primero)."
+    },
+    "J2": {
+      "cita": "DECRETO por el que se reforman, adicionan y derogan diversas disposiciones de la Ley Federal del Trabajo, en materia de reducción de la jornada laboral. Reforma los artículos 59, 61, 66, 68, 69 y 71 segundo párrafo; adiciona segundo párrafo al 58",
+      "url": "https://www.dof.gob.mx/nota_detalle.php?codigo=5786537&fecha=01%2F05%2F2026",
+      "nivel_de_fuente": 1,
+      "publicacion": "2026-05-01",
+      "nota": "Diario Oficial de la Federación. Vigor desde el 1 de mayo de 2026 (transitorio Primero). Es la legislación secundaria que ordenaba el transitorio Segundo de J1."
+    },
+    "J3": {
+      "cita": "Ley Federal del Trabajo, artículos 71 primer párrafo y 74 (texto no tocado por el decreto de 2026)",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf",
+      "nivel_de_fuente": 2,
+      "publicacion": "2026",
+      "nota": "El decreto J2 marca el primer párrafo del artículo 71 con puntos suspensivos, es decir, lo deja intacto; su texto se verificó por fuentes secundarias concordantes porque el sitio de la Cámara de Diputados no respondió durante la captura. PENDIENTE: confirmar contra el PDF consolidado."
+    }
+  },
+
+  "jornada": {
+    "horas_semanales_max": 48,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": 6,
+    "dias_ordinarios_origen": "norma",
+    "literal": "Artículo 59.- La duración máxima de la jornada ordinaria de trabajo será de cuarenta horas semanales. […] Transitorio Segundo. La duración de la jornada laboral a que se refiere el artículo 59 de la Ley Federal del Trabajo se alcanzará de manera gradual, a partir del 1 de enero del año que corresponda, conforme a lo siguiente: 2026 · 48 | 2027 · 46 | 2028 · 44 | 2029 · 42 | 2030 · 40. […] Artículo 61.- La duración de la jornada diaria será de ocho horas la diurna, siete la nocturna y siete horas y media la mixta. […] Artículo 58.- […] Esta podrá ser distribuida de común acuerdo por las personas empleadoras y trabajadoras.",
+    "traduccion": null,
+    "fuente": "J2",
+    "nota": "ATENCIÓN AL DESFASE ENTRE ARTÍCULO Y TRANSITORIO. El artículo 59 dice cuarenta, pero la cifra en vigor durante 2026 es CUARENTA Y OCHO: el transitorio Segundo escalona la reducción hasta 2030. Leer sólo el artículo daría 40 y sería falso para el año en curso. Se captura 48 porque es lo aplicable a la fecha de captura. La reforma constitucional J1 trae el mismo cuadro en su transitorio Tercero. DERIVACIÓN DE LOS SEIS DÍAS: 48 ÷ 8 = 6, y el artículo 69 lo confirma por vía independiente al hablar de «cada seis días de trabajo». Pero la derivación CADUCA el 31 de diciembre de 2026: desde 2027 el cociente es 46 ÷ 8 = 5,75, que no es entero, y a partir de ahí los días ordinarios pasan a ser no declarados por la norma. Además el nuevo segundo párrafo del artículo 58, vigente desde el 1 de mayo de 2026, entrega expresamente la distribución al acuerdo de las partes, de modo que 6 es el máximo que la norma permite en 2026, no un reparto que imponga."
+  },
+
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "uno de cada siete, sin nombrar; la ley sólo «procura» el domingo",
+    "literal": "Artículo 69.- Por cada seis días de trabajo se deberá otorgar, por lo menos, un día de descanso con goce de salario íntegro. […] Artículo 71.- En los reglamentos de esta Ley se procurará que el día de descanso semanal sea el domingo. Las personas que laboren en domingo tendrán derecho a una prima adicional de un veinticinco por ciento, por lo menos, sobre el salario de los días ordinarios de trabajo.",
+    "fuente": "J2",
+    "nota": "El artículo 69 no nombra día. El artículo 71 no obliga: «se procurará». La prima dominical del 25% es la señal de que trabajar en domingo es lícito y sólo se encarece. La fracción IV del artículo 123-A conserva la misma fórmula tras la reforma: «Por cada seis días de trabajo las personas trabajadoras deberán disfrutar por lo menos de un día de descanso con goce de salario íntegro» (J1). El primer párrafo del artículo 71 se apoya en J3."
+  },
+
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": "se pierde",
+    "alcance": null,
+    "literal": null,
+    "fuente": "J3",
+    "nota": "El artículo 74 de la LFT enumera los días de descanso obligatorio y no contiene regla alguna para el caso de que uno caiga en el día de descanso semanal: ni traslado, ni día compensatorio, ni pago adicional. Tres de esos días están ANCLADOS a lunes por la reforma de 2006 (primer lunes de febrero, tercer lunes de marzo, tercer lunes de noviembre), lo que reduce la frecuencia del choque, pero anclar una fecha no es trasladar un feriado que cayó mal: son mecanismos distintos y no debe contarse el primero como si fuera el segundo. El artículo 75 sólo regula el pago triple de quien trabaja el feriado. Se registra como ausencia de regla."
+  },
+
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "Decreto de reforma constitucional, fracciones IV y XI del Apartado A del artículo 123 CPEUM (DOF 03-03-2026)",
+      "anio": 2026,
+      "que_cambio": "La fracción IV pasa de fijar la jornada máxima en ocho horas a decir «La jornada laboral será de cuarenta horas semanales en los términos que establezca la Ley», conservando el descanso de un día por cada seis trabajados. La fracción XI acota el trabajo extraordinario a doce horas semanales repartibles en hasta cuatro diarias durante un máximo de cuatro días. El transitorio Tercero escalona la jornada: 48 en 2026, 46 en 2027, 44 en 2028, 42 en 2029, 40 en 2030."
+    },
+    {
+      "instrumento": "Decreto de reformas a la Ley Federal del Trabajo en materia de reducción de la jornada laboral (DOF 01-05-2026)",
+      "anio": 2026,
+      "que_cambio": "Artículo 59: la jornada ordinaria máxima pasa de cuarenta y ocho a cuarenta horas semanales, con el mismo escalonamiento 2026-2030. Artículo 58: se adiciona un párrafo que permite distribuir la jornada de común acuerdo. Artículo 61: la jornada diaria se mantiene en 8 / 7 / 7,5 horas. Artículo 66: el trabajo extraordinario se topa en doce horas semanales, escalonado 9-9-10-11-12 entre 2026 y 2030. Artículo 68: la suma de jornada ordinaria y extraordinaria no puede superar doce horas diarias. Artículo 69: se reformula sin cambiar el fondo. Artículo 132 fracción XXXIV: obligación nueva de registrar electrónicamente la jornada, vigente desde el 1 de enero de 2027. Se deroga el segundo párrafo del artículo 67."
+    }
+  ],
+
+  "pendiente": "El primer párrafo del artículo 71 y el texto del artículo 74 se apoyan en J3, que no pudo descargarse durante la captura (el servidor de la Cámara de Diputados rechazó la conexión); ambos se verificaron por fuentes secundarias concordantes y por el hecho de que el decreto J2 los deja expresamente intactos. Debe cerrarse contra el PDF consolidado de la LFT. No se verificó si alguna reforma posterior al 1 de mayo de 2026 tocó estos artículos."
+}

@@ -1,0 +1,42 @@
+{
+ "_": "Jornada semanal legal ordinaria. AQUI EL SEIS SI ESTA ESCRITO (art. 338, «por cada seis (6) de trabajo»), pero 44 entre 6 no da entero: el Codigo no prescribe el reparto. Regla de coincidencia con domingo que es de PAGO y no de dia.",
+ "unidad": "HND",
+ "jurisdiccion_de_referencia": "Tegucigalpa",
+ "sector_de_referencia": "privado formal, jornada completa, persona adulta, trabajo diurno",
+ "capturado_por": "jornada · lote 4",
+ "fecha_captura_utc": "2026-08-11T05:45:52Z",
+ "fuentes": {
+  "J1": {
+   "cita": "Código del Trabajo (Decreto No. 189-1959), art. 322 (jornada ordinaria), art. 338 (descanso semanal), art. 339 (días feriados o de fiesta nacional), art. 340",
+   "url": "https://www.tsc.gob.hn/web/leyes/codigo_de_trabajo.pdf",
+   "nivel_de_fuente": 2,
+   "publicacion": "Decreto No. 189 de 19-05-1959, La Gaceta de 15-07-1959; compilacion con notas de reformas del Centro Electronico de Documentacion e Informacion Judicial (CEDIJ) del Poder Judicial, alojada en el portal del Tribunal Superior de Cuentas",
+   "nota": "Es una compilacion de institucion del Estado con anotacion de decretos reformatorios y su cita de Gaceta al pie, no un facsimil de La Gaceta: por eso nivel 2 y no 1. El art. 339 lleva anotada su reforma por Decreto 275 de 09-04-1960 (La Gaceta No. 17,061 de 25-04-1960)."
+  }
+ },
+ "jornada": {
+  "horas_semanales_max": 44,
+  "horas_diarias_max": 8,
+  "dias_ordinarios": 6,
+  "dias_ordinarios_origen": "norma",
+  "literal": "Art. 322 CT: «La jornada ordinaria de trabajo diurno no podra exceder de ocho (8) horas diarias y cuarenta y cuatro (44) a la semana, equivalentes a cuarenta y ocho (48) de salario. La jornada ordinaria de trabajo nocturno no podra exceder de seis (6) horas diarias y treinta y seis (36) a la semana.» — Art. 338 CT: «El trabajador gozara de un (1) dia de descanso, preferentemente el domingo, por cada seis (6) de trabajo.»",
+  "traduccion": "Fuente en espanol; no requiere traduccion.",
+  "fuente": "J1",
+  "nota": "AQUI EL SEIS SI ESTA ESCRITO. El art. 338 dice literalmente «por cada seis (6) de trabajo», de modo que el numero de dias es de la norma y no una inferencia. Pero el 44 y el seis no encajan limpiamente: 44 partido por 6 da 7,33 horas, y la practica hondurena reparte cinco jornadas de ocho horas mas medio sabado de cuatro. El Codigo no prescribe ese reparto — fija el tope diario, el tope semanal y el ciclo de seis dias de trabajo por uno de descanso, y deja la distribucion abierta. La frase «equivalentes a cuarenta y ocho (48) de salario» no alarga la jornada: es una regla de pago que retribuye 48 horas por 44 trabajadas, y confundirla con la jornada seria contar cuatro horas que nadie trabaja."
+ },
+ "descanso_semanal": {
+  "dias": 1,
+  "cuales": "domingo, nombrado como preferencia y no como obligacion",
+  "literal": "Art. 338 CT: «El trabajador gozara de un (1) dia de descanso, preferentemente el domingo, por cada seis (6) de trabajo. No obstante, puede estipularse en favor de los trabajadores un periodo integro de veinticuatro (24) horas consecutivas de descanso, en dia distinto, a cambio del descanso dominical, en los casos siguientes: [cinco supuestos] ... En todo caso debera quedar asegurado para el trabajador el descanso semanal.»",
+  "fuente": "J1"
+ },
+ "traslado_por_defecto": {
+  "existe": true,
+  "regla": "pago_debido_sin_dia_sustituto",
+  "alcance": "Los once dias que enumera el art. 339 (ocho fechas fijas mas jueves, viernes y sabado de Semana Santa), para todo trabajador del sector privado cubierto por el Codigo.",
+  "literal": "Art. 339 CT: «Los patronos pagaran los siguientes dias feriados o de fiesta nacional: 1o de enero, 14 de abril, 1o. de mayo, 15 de septiembre, 3 de octubre, 12 de octubre, 21 de octubre y 25 de diciembre, AUNQUE CAIGAN EN DOMINGO; el jueves, viernes y sabado de la Semana Santa. Cuando coincidan dos (2) feriados en un mismo dia, se entendera cumplida la obligacion pagando el patrono a sus trabajadores un (1) dia feriado o de fiesta nacional...» y, en su ultimo parrafo: «Es entendido que cuando el salario se estipule por quincena o por mes, incluye en forma implicita el pago de los dias feriados o de fiesta nacional que no se trabajen.»",
+  "fuente": "J1"
+ },
+ "reformas_en_la_ventana": [],
+ "pendiente": "Tres avisos. (1) LA REGLA HONDURENA ES DE PAGO, NO DE DIA: el art. 339 resuelve expresamente la coincidencia con domingo —«aunque caigan en domingo»— pero lo resuelve pagando, no trasladando ni compensando con otro dia libre; y para el trabajador de referencia, asalariado por mes, el ultimo parrafo del propio articulo declara ese pago ya incluido en el salario, con lo que el efecto practico del feriado dominical es NULO. La marque como regla existente porque la ley si dice que pasa, que es lo que el campo pregunta; quien la lea como un traslado se equivocara. (2) Los feriados del 3, 12 y 21 de octubre estan reubicados en bloque por los Decretos 75-2014 y 78-2015 («Semana Morazanica»), ya capturados en el modulo de feriados de esta unidad: es una reubicacion legislada de tres fechas concretas, no una regla general de traslado, y por eso no entra en este campo. (3) No lei el art. 128 numeral 1 de la Constitucion, que reproduce las ocho y las cuarenta y cuatro horas con rango constitucional; la cifra queda anclada en el Codigo. Tampoco codifico la legislacion de empleo por hora, que cambio dentro de la ventana pero regula la contratacion parcial y no la jornada ordinaria del trabajador a tiempo completo."
+}

@@ -1,0 +1,213 @@
+{
+ "_": "CAPTURA CIEGA de Bulgaria. Trae el hallazgo del ancla: cuatro de sus catorce feriados dependen de la PASCUA ORTODOXA, y el esquema solo tiene un ancla 'pascua' sin decir cual.",
+ "unidad": "BGR",
+ "eventos_reforma": [
+   {
+     "tipo": "extension_de_cobertura",
+     "que": "Vacaciones: la antiguedad exigida para usar por primera vez el derecho baja de 8 a 4 meses. El quantum no se toca; lo que cambia es quien alcanza a tenerlo y cuando.",
+     "vigencia_desde": "2020-12-18",
+     "permanente_o_temporal": "permanente",
+     "cita": "Закон за изменение и допълнение на Кодекса на труда, § 17, обнародван в Държавен вестник бр. 107 от 18 декември 2020 г. Leido en la seccion oficial del boletin. Su § 39 difiere al 1-ene-2021 unicamente los §§ 11, 14 y 15."
+   }
+ ],
+ "jurisdiccion_de_referencia": "Sofia (mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 8",
+ "fecha_captura_utc": "2026-08-10T20:10:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Кодекс на труда (Código del Trabajo), чл. 154 - Официални празници",
+   "nivel_de_fuente": 4,
+   "url": "https://lex.bg/laws/ldoc/1594373121",
+   "nota": "lex.bg respondio 403 al extractor y bloqueo la descarga directa. El literal del чл. 154 se leyo en una compilacion de nivel 4 que declara 'изм. ДВ бр. 107 от 2020'. PENDIENTE archivar el texto de lex.bg o del Държавен вестник y subir el nivel."
+  },
+  "F2": {
+   "cita": "Министерство на труда и социалната политика - Отпуски (portal oficial del Ministerio de Trabajo)",
+   "nivel_de_fuente": 2,
+   "url": "https://www.mlsp.government.bg/otpuski",
+   "literal_relevante": "чл. 155 ал. 4: 'не по-малко от 20 работни дни'. Periodo de calificacion del trabajador que se emplea por primera vez: 'най-малко 4 месеца трудов стаж'. чл. 173: 'платеният годишен отпуск се ползва от работника или служителя с писмено разрешение от работодателя'. чл. 176 ал. 3: si el empleador no autoriza el permiso solicitado, el trabajador adquiere el derecho a determinar el momento por si mismo."
+  },
+  "F3": {
+   "cita": "Modificación del чл. 154 ал. 2 КТ - sustituye la practica de reordenar días por decreto anual del Consejo de Ministros por una regla automatica de sustitucion de fin de semana",
+   "nivel_de_fuente": 3,
+   "url": "http://trudipravo.bg/mesechni-spisania/mesechno-spisanie-trud-i-pravo/menumattp/2819-promeni-v-kodeksa-na-truda-predvizhdat-pochivnite-dni-okolo-praznitzite-da-ne-se-razmestvat-i-otrabotvat",
+   "nota": "REFORMA DENTRO DE LA VENTANA, con vigencia declarada desde el 1 de enero de 2017. La fuente no da el numero de Държавен вестник. PENDIENTE localizarlo."
+  }
+ },
+ "feriados": {
+  "estado": "PARCIAL - las diez fechas civiles estan; los cuatro dias de Pascua se OMITEN a proposito por falta de ancla. Ver H1.",
+  "fuente": "F1",
+  "literal": "чл. 154 ал. 1: 1 януари - Нова година; 3 март - Ден на Освобождението на България от османско иго, национален празник; 1 май - Ден на труда и на международната работническа солидарност; 6 май - Гергьовден, Ден на храбростта и Българската армия; 24 май - Ден на светите братя Кирил и Методий, на българската азбука, просвета и култура и на славянската книжовност; 6 септември - Ден на Съединението; 22 септември - Ден на Независимостта на България; 1 ноември - Ден на народните будители, неучебен ден за всички учебни заведения; 24 декември - Бъдни вечер, 25 и 26 декември - Рождество Христово; Велики петък, Велика събота и Великден - неделя и понеделник, които в съответната година са определени за празнуването му. ал. 2: когато официалните празници, с изключение на Великденските, съвпадат със събота и/или неделя, първият или първите два работни дни след тях са неприсъствени.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Нова година",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "03-03",
+    "nombre": "Ден на Освобождението на България",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Ден на труда",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "05-06",
+    "nombre": "Гергьовден, Ден на храбростта и Българската армия",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "05-24",
+    "nombre": "Ден на светите братя Кирил и Методий",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "09-06",
+    "nombre": "Ден на Съединението",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "09-22",
+    "nombre": "Ден на Независимостта на България",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "12-24",
+    "nombre": "Бъдни вечер",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Рождество Христово",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "12-26",
+    "nombre": "Рождество Христово - втори ден",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "Велики петък",
+    "clase_de_regla": "computable",
+    "nota": "Resuelto con el ancla `pascua_ortodoxa`, anadida en v2.16. El capturador dejo el offset escrito en `regla_propuesta` diciendo que era un valor de enum de distancia: tenia razon y ya existe.",
+    "regla": "pascua_ortodoxa-2"
+   },
+   {
+    "fecha": null,
+    "nombre": "Велика събота",
+    "clase_de_regla": "computable",
+    "nota": "Resuelto con el ancla `pascua_ortodoxa`, anadida en v2.16. El capturador dejo el offset escrito en `regla_propuesta` diciendo que era un valor de enum de distancia: tenia razon y ya existe.",
+    "regla": "pascua_ortodoxa-1"
+   },
+   {
+    "fecha": null,
+    "nombre": "Великден - неделя",
+    "clase_de_regla": "computable",
+    "nota": "Resuelto con el ancla `pascua_ortodoxa`, anadida en v2.16. El capturador dejo el offset escrito en `regla_propuesta` diciendo que era un valor de enum de distancia: tenia razon y ya existe.",
+    "regla": "pascua_ortodoxa+0"
+   },
+   {
+    "fecha": null,
+    "nombre": "Великден - понеделник",
+    "clase_de_regla": "computable",
+    "nota": "Resuelto con el ancla `pascua_ortodoxa`, anadida en v2.16. El capturador dejo el offset escrito en `regla_propuesta` diciendo que era un valor de enum de distancia: tenia razon y ya existe.",
+    "regla": "pascua_ortodoxa+1"
+   }
+  ],
+  "subnacionales": [],
+  "nota_subnacionales": "Sofia no tiene feriado municipal con efectos laborales. Los feriados bulgaros son nacionales.",
+  "no_aplicables_al_privado": [
+   {
+    "fecha": "11-01",
+    "nombre": "Ден на народните будители",
+    "por_que": "El propio чл. 154 ал. 1 lo califica de 'неучебен ден за всички учебни заведения': dia no lectivo para los centros de ensenanza. No es descanso obligatorio para el sector privado. El esquema tiene `cobertura` y `sector` para esto; el cargador escribe 'todo_el_pais' y 'privado' fijos, asi que incluirlo habria sumado un dia libre que el trabajador de referencia no tiene."
+   }
+  ],
+  "nota_traslado": "чл. 154 ал. 2 es una regla de sustitucion con excepcion nominal -los dias de Pascua quedan fuera-. El esquema tiene `regla_de_traslado_aplicable` y el contrato de captura no lo expone."
+ },
+ "vacaciones_normalizado": {
+   "version_anterior": {
+     "_": "El quantum NO cambia —20 dias habiles en los dos cortes— pero el PERIODO DE CALIFICACION si, y hoy se hereda hacia atras. Registramos 4 meses, que es el valor de 2026.",
+     "desde": "2016-01-01",
+     "hasta": "2020-12-18",
+     "dias": 20,
+     "tipo": "habil",
+     "base": 5,
+     "meses": 8,
+     "imputacion": "sin_regla_explicita",
+     "instrumento": "Кодекс на труда, чл. 155, ал. 2 y 3, en su redaccion anterior a la reforma publicada en ДВ бр. 107 de 18-dic-2020",
+     "literal": "§ 17 de la ley modificatoria: «В чл. 155, ал. 2 и 3 думите “8 месеца” се заменят с “4 месеца”.» O sea que hasta esa reforma el trabajador que empezaba a trabajar por primera vez necesitaba OCHO meses de servicio para poder usar su derecho, no cuatro.",
+     "nivel_de_fuente": 1,
+     "escala": [
+       [
+         8,
+         null,
+         20
+       ]
+     ],
+     "nota_escala": "La escala vigente arranca en el mes 4; la de 2016 arranca en el 8. Es el mismo derecho de 20 dias, alcanzable cuatro meses mas tarde.",
+     "nota_fecha": "FECHA CON RESERVA DECLARADA. El § 39 de la ley modificatoria difiere al 1-ene-2021 SOLO los §§ 11, 14 y 15; el § 17, que es este, no esta entre ellos, de modo que rige desde diciembre de 2020 y no desde enero de 2021 como dicen varias fuentes secundarias. El dia exacto depende de la regla general de entrada en vigor y no se verifico contra ella; se usa la fecha de publicacion. La eleccion no afecta al corte de 2016 y el evento del ledger usa la MISMA fecha, de modo que el enlace entre versiones se sostiene sea cual sea."
+   },
+  "dias": 20,
+  "tipo": "habil",
+  "base": 5,
+  "imputacion": "sin_regla_explicita",
+  "meses": 4,
+  "literal": "чл. 155 ал. 4 КТ: 'Размерът на основния платен годишен отпуск е не по-малко от 20 работни дни.' чл. 155 ал. 2: al emplearse por primera vez, el trabajador puede usar su permiso anual retribuido cuando adquiera al menos cuatro meses de antiguedad laboral.",
+  "escala": [
+   [
+    4,
+    null,
+    20
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "trabajador",
+   "veto": "discrecional",
+   "silencio": "no_aprobado",
+   "instrumento": "ley",
+   "literal": "чл. 173 КТ: 'платеният годишен отпуск се ползва от работника или служителя с писмено разрешение от работодателя' - el permiso se disfruta con autorizacion ESCRITA del empleador, sobre un calendario que el empleador aprueba antes del 31 de diciembre del ano anterior."
+  },
+  "imputacion_nota": "NO HAY ARTICULO, y esta vez la tentacion de derivarlo es muy fuerte. El чл. 155 ал. 4 cuenta el permiso en 'работни дни', dias de trabajo, y el чл. 154 declara los feriados oficiales 'неприсъствени', dias de no asistencia. De ahi sale 'extienden' casi solo. Pero eso es exactamente una derivacion desde el tipo de dia, y el Кодекс на труда NO define 'работен ден' como Alemania define Werktage en el BUrlG §3(2). Sin la definicion legal de la unidad, la cadena es doctrina y no norma. Queda en 'sin_regla_explicita' y el total se manda a NA, que es el precio correcto.",
+  "colocacion_fallback_no_representable": {
+   "instrumento": "ley",
+   "iniciativa": "trabajador",
+   "veto": "ninguno",
+   "silencio": "aprobado",
+   "condicion": "si_el_anterior_no_fija",
+   "literal": "чл. 176 ал. 3 КТ: cuando el empleador no autoriza el uso del permiso solicitado dentro del plazo, el trabajador adquiere el derecho a determinar por si mismo el momento, avisando por escrito al empleador.",
+   "por_que_no_va_en_colocacion_residual": "Es CASCADA, no particion: gobierna el mismo derecho cuando el nivel anterior no lo fijo. Cargarlo como residual junto a una raiz de alcance total dispara V24. Segundo caso del lote con esta forma -el otro es el art. 157 LCT argentino-, lo que sugiere que la cascada solicitud-silencio-autotutela no es una rareza belga sino un patron."
+  }
+ },
+ "delta_2016_2026": {
+  "feriados": "El catalogo del чл. 154 ал. 1 no cambio en la ventana hasta donde llegue. Lo que si cambio, y cambia el CONTEO efectivo, es el ал. 2: desde el 1-ene-2017 los feriados que caen en sabado o domingo -salvo los de Pascua- generan automaticamente uno o dos dias habiles no laborables. Antes de eso el Consejo de Ministros reordenaba dias por decreto cada ano, con recuperacion posterior. O sea: al corte 2016 el numero de dias libres garantizados era menor y variable, y al corte 2026 es mayor y automatico, SIN que haya cambiado ni una fecha de la lista.",
+  "vacaciones": "0 en quantum. No halle reforma del чл. 155."
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "La modificacion del чл. 154 ал. 2, con vigencia 1-ene-2017, esta dentro de la ventana y cae justo despues del corte 2016. El corte se deriva de ella. La fuente que la data es de nivel 3 y falta el numero de Държавен вестник: ver H2."
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "Los cuatro dias de Pascua no se cargan: el catalogo de anclas del esquema no distingue la Pascua ortodoxa de la gregoriana.",
+   "por_que_importa": "No es un hueco de captura sino de vocabulario. Bulgaria pierde 4 de 14 feriados en la base, y el problema reaparecera en cualquier unidad ortodoxa -Grecia, Rumania, Chipre, Serbia, Georgia- y tambien en Etiopia. Si en cambio se codificara como 'pascua' a secas, la base no perderia nada visible y en cambio produciria fechas falsas hasta cinco semanas corridas, que es peor.",
+   "como_se_cierra": "Anadir 'pascua_ortodoxa' al CHECK de `regla_fecha_version.ancla` y al mapeo `clase_y_campos` del cargador. Las cuatro filas ya estan escritas con su offset en `regla_propuesta`."
+  },
+  {
+   "id": "H2",
+   "que": "Ni el чл. 154 ni el чл. 155 ni el чл. 173 se leyeron de fuente oficial: lex.bg bloqueo el acceso. El literal del чл. 154 viene de una compilacion de nivel 4 y el de los otros dos del portal del Ministerio de Trabajo, nivel 2.",
+   "como_se_cierra": "Archivar el Кодекс на труда consolidado y el numero de Държавен вестник de la reforma de 2016."
+  },
+  {
+   "id": "H3",
+   "que": "La compilacion declara 'изм. ДВ бр. 107 от 2020' sobre el чл. 154. No verifique que cambio esa modificacion de 2020, que tambien cae dentro de la ventana.",
+   "por_que_importa": "Podria haber anadido o quitado una fecha de la lista, y en ese caso el delta de feriados de Bulgaria no seria solo la regla de sustitucion.",
+   "como_se_cierra": "Leer el ДВ бр. 107 de 2020."
+  }
+ ]
+}

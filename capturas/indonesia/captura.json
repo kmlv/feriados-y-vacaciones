@@ -1,0 +1,202 @@
+{
+ "_": "Captura de Indonesia. CAPTURA NO CIEGA (incidente del extractor).",
+ "captura_ciega": false,
+ "unidad": "IDN",
+ "jurisdiccion_de_referencia": "Yakarta (mas poblada)",
+ "fecha_captura_utc": "2026-08-09T23:30:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "SKB 3 Menteri — Surat Keputusan Bersama de tres ministros, Hari Libur Nasional dan Cuti Bersama 2026",
+   "nivel_de_fuente": 1,
+   "fecha_emision": "2025-09-19",
+   "url": "https://setneg.go.id/baca/index/inilah_skb_3_menteri_libur_nasional_dan_cuti_bersama_2026",
+   "nota": "Secretaria de Estado. El calendario de feriados NO esta en una ley: se emite POR DECRETO CONJUNTO CADA ANO. Es la clase dependiente_de_proclamacion, y aqui es la regla y no la excepcion."
+  },
+  "F2": {
+   "cita": "UU 13/2003 tentang Ketenagakerjaan, pasal 79",
+   "nivel_de_fuente": 2,
+   "url": "https://kemenperin.go.id/kompetensi/UU_13_2003.pdf",
+   "nota": "Texto de la ley en portal ministerial. PENDIENTE archivar y verificar el literal, y confirmar si UU 6/2023 (Cipta Kerja) modifico el articulo."
+  }
+ },
+ "feriados_2026": {
+  "libur_nasional": 17,
+  "cuti_bersama": 8,
+  "nota_critica": "NO SON 25. Sumarlos seria el error grave de esta unidad.",
+  "clase_de_regla": "dependiente_de_proclamacion, ANUAL",
+  "nota_clase": "El decreto se emite cada ano y fija las fechas. Un panel que compare 2016 con 2026 compara dos DECRETOS, no dos leyes. La variacion interanual puede no ser cambio institucional.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Tahun Baru Masehi",
+    "clase_de_regla": "fija",
+    "sistema": "gregoriano"
+   },
+   {
+    "fecha": "01-16",
+    "nombre": "Isra Mikraj",
+    "clase_de_regla": "fija",
+    "sistema": "hijri",
+    "nota": "Fecha gregoriana fijada POR DECRETO para 2026; el hecho subyacente es hijri."
+   },
+   {
+    "fecha": "02-17",
+    "nombre": "Tahun Baru Imlek",
+    "clase_de_regla": "fija",
+    "sistema": "chino"
+   },
+   {
+    "fecha": "03-19",
+    "nombre": "Nyepi (Tahun Baru Saka)",
+    "clase_de_regla": "fija",
+    "sistema": "saka_balines"
+   },
+   {
+    "fecha": "03-21",
+    "nombre": "Idulfitri (día 1)",
+    "clase_de_regla": "fija",
+    "sistema": "hijri"
+   },
+   {
+    "fecha": "03-22",
+    "nombre": "Idulfitri (día 2)",
+    "clase_de_regla": "fija",
+    "sistema": "hijri"
+   },
+   {
+    "fecha": "04-03",
+    "nombre": "Wafat Yesus Kristus",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2"
+   },
+   {
+    "fecha": "04-05",
+    "nombre": "Paskah",
+    "clase_de_regla": "computable",
+    "regla": "pascua+0"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Hari Buruh",
+    "clase_de_regla": "fija",
+    "sistema": "gregoriano"
+   },
+   {
+    "fecha": "05-14",
+    "nombre": "Kenaikan Yesus Kristus",
+    "clase_de_regla": "computable",
+    "regla": "pascua+39"
+   },
+   {
+    "fecha": "05-27",
+    "nombre": "Iduladha",
+    "clase_de_regla": "fija",
+    "sistema": "hijri"
+   },
+   {
+    "fecha": "05-31",
+    "nombre": "Waisak",
+    "clase_de_regla": "fija",
+    "sistema": "budista"
+   },
+   {
+    "fecha": "06-01",
+    "nombre": "Hari Lahir Pancasila",
+    "clase_de_regla": "fija",
+    "sistema": "gregoriano"
+   },
+   {
+    "fecha": "06-16",
+    "nombre": "Tahun Baru Islam",
+    "clase_de_regla": "fija",
+    "sistema": "hijri"
+   },
+   {
+    "fecha": "08-17",
+    "nombre": "Proklamasi Kemerdekaan",
+    "clase_de_regla": "fija",
+    "sistema": "gregoriano"
+   },
+   {
+    "fecha": "08-25",
+    "nombre": "Maulid Nabi Muhammad",
+    "clase_de_regla": "fija",
+    "sistema": "hijri"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Kelahiran Yesus Kristus",
+    "clase_de_regla": "fija",
+    "sistema": "gregoriano"
+   }
+  ],
+  "hallazgo_calendarios": "CINCO SISTEMAS CALENDARICOS en una sola unidad: gregoriano, hijri, chino lunisolar, saka balines y budista. El campo sistema_calendarico tiene que admitirlos, y el decreto anual FIJA la fecha gregoriana de cada uno. Es decir: la clase es fija PARA EL ANIO, pero el hecho subyacente no lo es, y comparar 2016 con 2026 compara dos decretos."
+ },
+ "cuti_bersama": {
+  "que_es": "Descanso colectivo decretado, tipicamente puentes alrededor de festividades",
+  "literal": "Cuti bersama merupakan bagian dari cuti tahunan",
+  "traduccion": "El descanso colectivo ES PARTE del derecho a vacaciones anuales",
+  "efecto": "DESCUENTA del saldo de vacaciones anuales del trabajador",
+  "condicion": "Pekerja yang bekerja pada hari cuti bersama, hak cuti tahunannya tidak berkurang — si el trabajador trabaja ese dia, su saldo no se reduce",
+  "nota_critica": "HALLAZGO DE ESQUEMA. eventos_compensatorios modela puentes y dias declarados laborables, pero esto es distinto y peor: es tiempo libre que SE PAGA CON EL SALDO DE VACACIONES. No es un feriado que se suma; es una vacacion que se impone. Con 12 dias de cuti tahunan y 8 de cuti bersama, dos tercios del derecho anual pueden venir asignados por decreto.",
+  "efecto_sobre_la_banda": "Es el caso extremo del control del momento: el trabajador no elige CUANDO, y ademas pierde saldo. La cota accesible al trabajador cae a 4 dias de 12."
+ },
+ "vacaciones": {
+  "texto_legal_dias": 12,
+  "tipo_de_dia": "hari kerja (dias de trabajo)",
+  "fuente": "F2",
+  "estado_verificacion": "supuesto",
+  "pendiente": "Literal del articulo y ley vigente.",
+  "residual_resuelto": "Art. 79(4): «pelaksanaan cuti tahunan diatur dalam perjanjian kerja, peraturan perusahaan, atau perjanjian kerja bersama» — la ejecucion del permiso anual se regula en el contrato de trabajo, el reglamento de empresa o el convenio colectivo. La ley NO decide: delega. Asi que el residual es negociado, y el instrumento varia."
+ },
+ "corte_2016": {
+  "estado": "no_capturado",
+  "nota": "EL CASO MAS CLARO. El calendario se fija POR DECRETO CADA ANIO, asi que el de 2016 es otro documento que no se ha leido. Copiar el de 2026 no seria una aproximacion: seria una invencion."
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "pantalla_3": {
+       "cita": "Prensa y guias juridicas indonesias: el derecho sigue en doce días habiles tras doce meses continuos, sin ninguna propuesta de cambio del numero en la ventana. Las fuentes coinciden ademas en describir vigente el descanso largo de un mes en los anios séptimo y octavo tras seis de servicio, que es la figura que la reforma de 2020 toco sin eliminar.",
+       "url": "https://linksinternational.com/annual-leave-in-indonesia/"
+     },
+     "_": "El caso que mejor muestra por que el ledger importa: la base juridica del derecho se reescribio dos veces y el numero no se movio ninguna.",
+     "buscado_en": "Reproduccion del texto consolidado del capitulo laboral de la UU 6/2023, con su encabezado de modificación del art. 79",
+     "cita": "El texto vigente dice «cuti tahunan, paling sedikit 12 (dua belas) hari kerja setelah Pekerja/Buruh yang bersangkutan bekerja selama 12 (dua belas) bulan secara terus menerus» — identico en el numero al de la UU 13/2003. El encabezado declara «Ketentuan Pasal 79 diubah sehingga berbunyi sebagai berikut»: el artículo fue SUSTITUIDO, primero por el art. 23 de la UU 11/2020 y despues por la UU 6/2023, en vigor el 31 de marzo de 2023. Dos sustituciones, cero movimiento del quantum.",
+     "nivel_de_fuente": 3,
+     "fecha_busqueda": "2026-08-11"
+   },
+  "dias": 12,
+  "tipo": "habil",
+  "base": 5,
+  "imputacion": "extienden",
+  "meses": 12,
+  "literal": "cuti tahunan sekurang-kurangnya 12 hari kerja setelah bekerja selama 12 bulan secara terus menerus",
+  "escala": [
+   [
+    12,
+    null,
+    12
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "asignacion_estatal",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "alcance": "porcion_definida",
+   "porcion_dias": 8,
+   "literal": "Cuti bersama merupakan bagian dari cuti tahunan — el descanso colectivo decretado es parte del derecho anual y descuenta del saldo"
+  },
+  "colocacion_residual": {
+   "iniciativa": "negociada",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "acuerdo_individual",
+   "alcance": "residual",
+   "literal": "pelaksanaan cuti tahunan diatur dalam perjanjian kerja, peraturan perusahaan, atau perjanjian kerja bersama (pasal 79 ayat 4)",
+   "resolucion_desacuerdo": "remitido_a_convenio",
+   "nota_resolucion": "Pasal 79 ayat 4: la ejecucion del descanso anual se regula en el contrato de trabajo, el reglamento interno o el convenio colectivo. No es silencio: es delegacion, y por eso no va a `sin_regla`."
+  },
+  "imputacion_nota": "Los feriados nacionales NO reducen el saldo de vacaciones. El cuti bersama SI, y por eso va modelado aparte como porcion de colocacion estatal: son dos mecanismos distintos que se habrian confundido en un solo campo."
+ }
+}

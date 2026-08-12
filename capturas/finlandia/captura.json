@@ -1,0 +1,210 @@
+{
+ "_": "CAPTURA CIEGA de Finlandia. Leida del texto consolidado oficial de Finlex. El sitio web de Finlex no renderiza sin JavaScript; la ruta que si sirve texto oficial es la API Akoma Ntoso de Finlex Open Data, del Ministerio de Justicia. Sin mirar ningun dataset agregado de vacaciones.",
+ "unidad": "FIN",
+ "jurisdiccion_de_referencia": "Helsinki (ciudad mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 1",
+ "fecha_captura_utc": "2026-08-11T00:05:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Vuosilomalaki 162/2005 — Ley de vacaciones anuales, texto consolidado vigente",
+   "nivel_de_fuente": 2,
+   "tipo": "Finlex, servicio oficial del Ministerio de Justicia; API de datos abiertos Akoma Ntoso",
+   "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute-consolidated/2005/162/fin@20250742",
+   "url_web": "https://www.finlex.fi/fi/lainsaadanto/2005/162",
+   "nota": "Expresion vigente fin@20250742, en vigor desde el 1-ene-2026. Verificado ademas por mi contra una impresion de la pagina de Finlex del 5-jun-2026, que reproduce el mismo articulado. AVISO PARA QUIEN REPITA ESTO: la llamada a la API sin sufijo de expresion devuelve una version ANTIGUA (fin@20190346), no la vigente."
+  },
+  "F2": {
+   "cita": "Kirkkolaki 652/2023, 1 luku 6 § — Ley de la Iglesia, fiestas eclesiasticas",
+   "nivel_de_fuente": 2,
+   "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute-consolidated/2023/652",
+   "literal": "6 § Kirkolliset juhlapaivat. Kirkollisia juhlapaivia ovat joulupaiva, toinen joulupaiva, uudenvuodenpaiva, loppiainen, pitkaperjantai, paasiaispaiva, toinen paasiaispaiva, helatorstai, helluntai, juhannuspaiva ja pyhainpaiva."
+  },
+  "F3": {
+   "cita": "Kirkkojarjestys 657/2023, 4 § — Ordenanza eclesiastica, determinacion de la fecha de las fiestas",
+   "nivel_de_fuente": 2,
+   "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute-consolidated/2023/657",
+   "literal": "4 § Kirkollisten juhlapaivien maaraytyminen. Kirkkolain 1 luvun 6 §:ssa tarkoitettujen kirkollisten juhlapaivien aika maaraytyy niin kuin lantisessa kristikunnassa vanhastaan on ollut tapana. Kuitenkin juhannuspaivaa vietetaan kesakuun 19 paivaa seuraavana lauantaina ja pyhainpaivaa lokakuun 30 paivaa seuraavana lauantaina.",
+   "traduccion": "La fecha de las fiestas eclesiasticas del capitulo 1, 6 § de la Ley de la Iglesia se determina segun ha sido tradicionalmente costumbre en la cristiandad occidental. Sin embargo, el dia de San Juan se celebra el sabado siguiente al 19 de junio y el dia de Todos los Santos el sabado siguiente al 30 de octubre."
+  },
+  "F4": {
+   "cita": "Laki itsenaisyyspaivan viettamisesta yleisena juhla- ja vapaapaivana 388/1937",
+   "nivel_de_fuente": 2,
+   "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute-consolidated/1937/388",
+   "literal_relevante": "1 § Suomen itsenaiseksi tasavallaksi julistautumisen muistoksi on joulukuun kuudetta paivaa, jota tassa laissa sanotaan itsenaisyyspaivaksi, vuosittain vietettava yleisena juhla- ja vapaapaivana. 2 § Itsenaisyyspaivan sattuessa arkipaivaksi on tyot virastoissa, tuomioistuimissa ja kouluissa seka valtion, kuntien ja yksityisten laitoksissa, yrityksissa ja tyomailla sina paivana keskeytettava kuten sunnuntaina. 3 § Toiden keskeyttamisesta huolimatta on tyontekijalle maksettava itsenaisyyspaivalta, jos se muuten olisi ollut tyopaiva, taytta tyopaivaa vastaava palkka."
+  },
+  "F5": {
+   "cita": "Laki vapunpaivan jarjestamisesta tyontekijain vapaapaivaksi eraissa tapauksissa 272/1944",
+   "nivel_de_fuente": 2,
+   "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute-consolidated/1944/272",
+   "literal_relevante": "1 § Tyontekijalle, jonka tyo on senlaatuista, etta han sunnuntaisin on vapaana tyosta, on annettava arkipaivaksikin sattuva vapunpaiva vapaapaivaksi. 2 § Milloin tyontekijalle sunnuntaina suoritetusta tyosta lain mukaan on maksettava korotettu palkka, on samojen perusteiden mukainen palkka maksettava hanelle myos arkipaivaksi sattuvana vapunpaivana tehdysta tyosta."
+  },
+  "F6": {
+   "cita": "Kirkkolaki 1054/1993, 4 luku 3 § — norma antecesora, para la comparacion de la ventana",
+   "nivel_de_fuente": 2,
+   "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute-consolidated/1993/1054",
+   "nota": "Su lista de fiestas eclesiasticas es LITERALMENTE IDENTICA a la de la ley de 2023. Es la comprobacion que permite decir que el corte 2016 esta verificado y no supuesto."
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO en la lista y en las clases. Trece dias.",
+  "fuente": "F2",
+  "literal": "Kirkollisia juhlapaivia ovat joulupaiva, toinen joulupaiva, uudenvuodenpaiva, loppiainen, pitkaperjantai, paasiaispaiva, toinen paasiaispaiva, helatorstai, helluntai, juhannuspaiva ja pyhainpaiva. (Kirkkolaki 652/2023, 1 luku 6 §)",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Uudenvuodenpaiva — Año Nuevo",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "01-06",
+    "nombre": "Loppiainen — Epifanía",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "Pitkaperjantai — Viernes Santo",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2"
+   },
+   {
+    "fecha": null,
+    "nombre": "Paasiaispaiva — Domingo de Pascua",
+    "clase_de_regla": "computable",
+    "regla": "pascua+0"
+   },
+   {
+    "fecha": null,
+    "nombre": "Toinen paasiaispaiva — Lunes de Pascua",
+    "clase_de_regla": "computable",
+    "regla": "pascua+1"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Vapunpaiva — Primero de Mayo",
+    "clase_de_regla": "fija",
+    "instrumento": "Laki 272/1944",
+    "nota": "No es fiesta eclesiastica: su feriado nace de una ley laboral propia de 1944, que ademas obliga a pagar recargo si se trabaja."
+   },
+   {
+    "fecha": null,
+    "nombre": "Helatorstai — Ascensión",
+    "clase_de_regla": "computable",
+    "regla": "pascua+39"
+   },
+   {
+    "fecha": null,
+    "nombre": "Helluntai — Pentecostés",
+    "clase_de_regla": "computable",
+    "regla": "pascua+49"
+   },
+   {
+    "fecha": null,
+    "nombre": "Juhannuspaiva — Día de San Juan",
+    "clase_de_regla": "relativa_a_fecha",
+    "mes": 6,
+    "dia": 19,
+    "dia_semana": 6,
+    "offset_dias": 1,
+    "literal": "juhannuspaivaa vietetaan kesakuun 19 paivaa seuraavana lauantaina",
+    "nota": "«El sabado siguiente al 19 de junio», o sea siempre entre el 20 y el 26. Misma clase que el Victoria Day de Ontario pero en direccion contraria: alli el lunes ANTERIOR al 25 de mayo, aqui el sabado POSTERIOR al 19 de junio."
+   },
+   {
+    "fecha": null,
+    "nombre": "Pyhainpaiva — Todos los Santos",
+    "clase_de_regla": "relativa_a_fecha",
+    "mes": 10,
+    "dia": 30,
+    "dia_semana": 6,
+    "offset_dias": 1,
+    "literal": "pyhainpaivaa lokakuun 30 paivaa seuraavana lauantaina",
+    "nota": "«El sabado siguiente al 30 de octubre», o sea entre el 31 de octubre y el 6 de noviembre. Cruza el cambio de mes, que es justo lo que impide clasificarlo como `ordinal`."
+   },
+   {
+    "fecha": "12-06",
+    "nombre": "Itsenaisyyspaiva — Día de la Independencia",
+    "clase_de_regla": "fija",
+    "instrumento": "Laki 388/1937"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Joulupaiva — Navidad",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "12-26",
+    "nombre": "Toinen joulupaiva — San Esteban",
+    "clase_de_regla": "fija"
+   }
+  ],
+  "fechas_por_remision_a_la_costumbre": {
+   "_": "HALLAZGO QUE MERECE DECIRSE, porque afecta a cinco de las trece fechas y no se ve a simple vista.",
+   "que": "La ley finlandesa NOMBRA las fiestas pero NO ESCRIBE su fecha. El Kirkkojarjestys 657/2023 4 § remite en bloque: «la fecha se determina segun ha sido tradicionalmente costumbre en la cristiandad occidental». Solo cuatro fechas estan escritas en algun texto legal: el 1 de mayo (Laki 272/1944), el 6 de diciembre (Laki 388/1937) y las dos reglas de sabado del propio Kirkkojarjestys. El 1 de enero, el 6 de enero, el 25 de diciembre y el 26 de diciembre NO APARECEN COMO FECHA en ninguna norma; se conocen porque la costumbre las fija.",
+   "por_que_importa": "Se han codificado como `fija` con mes y dia, y eso es una LECTURA de la costumbre, no una transcripcion. Es la misma remision que en Guatemala y El Salvador produjo la clase `delegada_a_jurisdiccion_local`, con dos diferencias: aqui la costumbre no es local sino de toda la cristiandad occidental, y el resultado es universalmente determinado. Por eso se codifica el valor y se declara el mecanismo, en vez de dejar cinco huecos por una remision que nadie discute.",
+   "nota_sobre_pascua": "El computo de la Pascua tambien viene de esa misma remision a la costumbre, no de una formula legal. Es la Pascua occidental, no la ortodoxa."
+  },
+  "cobertura_del_sector_privado": {
+   "_": "HUECO DECLARADO. No encontre una ley general que declare estos trece dias festivos laborales PAGADOS para el sector privado.",
+   "que_si_hay": "Solo dos leyes imponen por si mismas paro y pago: la 388/1937 para el 6 de diciembre y la 272/1944 para el 1 de mayo. Las once fiestas eclesiasticas son fiestas de la Iglesia por la Kirkkolaki, no dias de descanso laboral por una ley del trabajo.",
+   "como_operan_en_realidad": "Por dos vias: los convenios colectivos, y —esto si es legal y es lo que este proyecto mide— la exclusion de las fiestas eclesiasticas del concepto de `arkipaiva` en la Vuosilomalaki, que impide que consuman vacaciones.",
+   "consecuencia": "El cargador escribe categoria «descanso_pagado_obligatorio» y regimen «descanso_obligatorio» de oficio para las trece. Para el 1 de mayo y el 6 de diciembre eso es exacto; para las otras once es mas fuerte de lo que dice la ley."
+  }
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "buscado_en": "Finlex, base oficial de legislacion finlandesa, texto consolidado de la ley anual de vacaciones 162/2005 con sus marcas de modificación por artículo y su lista de leyes modificatorias",
+     "cita": "El 5 §, que fija el devengo —dos días y medio habiles por mes completo, dos si la relacion lleva menos de un anio—, NO LLEVA MARCA DE MODIFICACION. Y las marcas existen y se usan: el 2 § lleva (5.7.2019/875), el 7 a § lleva (15.3.2019/346) y el 10 § lleva (12.4.2013/276). La ley registra once leyes modificatorias, ocho de ellas dentro de la ventana —182/2016, 346/2019, 875/2019, 34/2022, 140/2022, 504/2022, 946/2024 y 742/2025— y ninguna marca el artículo del quantum. Matiz frente a la ficha original, que databa el 5 § en la ley 1448/2007: Finlex no le pone marca ninguna, o sea texto original de 2005. La conclusion no cambia y la diferencia se deja dicha.",
+     "nivel_de_fuente": 1,
+     "indice_registra_modificaciones": true,
+     "indice_como_se_comprobo": "Se recorrieron las marcas de los catorce primeros articulos: tres llevan ley modificatoria con fecha y numero y el resto no. El indice registra la presencia artículo por artículo, asi que la ausencia en el 5 § significa algo.",
+     "fecha_busqueda": "2026-08-11"
+   },
+  "dias": 30,
+  "tipo": "werktage",
+  "base": 6,
+  "imputacion": "extienden",
+  "meses": 12,
+  "literal": "Tyontekijalla on oikeus saada lomaa kaksi ja puoli arkipaivaa kultakin taydelta lomanmaaraytymiskuukaudelta. Jos tyosuhde on lomanmaaraytymisvuoden loppuun mennessa jatkunut yhdenjaksoisesti alle vuoden, tyontekijalla on kuitenkin oikeus saada lomaa kaksi arkipaivaa kultakin taydelta lomanmaaraytymiskuukaudelta. (5 §)",
+  "escala": [
+   [
+    12,
+    null,
+    30
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "Vuosiloma annetaan tyontekijalle tyonantajan maaraamana ajankohtana, jolleivat tyonantaja ja tyontekija sovi loman pitamisesta 21 §:ssa tarkoitetulla tavalla. Vuosilomasta 24 arkipaivaa on sijoitettava lomakaudelle (kesaloma). (20 §) — Ennen loman ajankohdan maaraamista tyonantajan on varattava tyontekijalle tilaisuus esittaa mielipiteensa loman ajankohdasta. (22 §) — Tyonantajan maaratessa loman ajankohdan hanen on ilmoitettava siita tyontekijalle viimeistaan kuukautta ennen loman alkamista. (23 §)"
+  },
+  "colocacion_nota": "El empleador determina la epoca (20 §), con tres limites legales que no son un veto del trabajador pero si acotan la potestad: veinticuatro de los treinta arkipaivat deben caer en el periodo de verano, del 2 de mayo al 30 de septiembre; antes de fijar la fecha el empleador DEBE dar al trabajador ocasion de expresar su opinion y atender en lo posible sus propuestas con trato equitativo (22 §); y debe preavisar un mes, o dos semanas si el mes no es posible (23 §). El 21 § abre la via del acuerdo para la parte que excede de doce arkipaivat, y el 20 § lo dice en su propia frase —«jolleivat tyonantaja ja tyontekija sovi»—, con lo que la cascada queda legible dentro del literal cargado.",
+  "imputacion_nota": "VERIFICADA CON ARTICULO, y por el mismo mecanismo aleman: la regla vive EN LA DEFINICION DE LA UNIDAD. El 4 § 1 momentti kohta 3 dice que arkipaiva son «los dias de la semana distintos del domingo, de las fiestas eclesiasticas, del Dia de la Independencia, de la Nochebuena, de la vispera de San Juan, del Sabado Santo y del Primero de Mayo». El 5 § devenga las vacaciones EN arkipaivat. Si un dia no es arkipaiva no puede consumirse como dia de vacaciones, luego el feriado extiende. No existe un articulo aparte que diga «si un festivo cae dentro de las vacaciones se prorroga», y no hace falta.",
+  "tipo_de_dia_nota": "Werktage con base 6, y esta vez el soporte es LEGAL y no doctrinal: el 4 § define arkipaiva excluyendo el domingo y los festivos, e incluyendo por tanto el sabado. Es exactamente la semantica del Werktag aleman y del is gunu turco. UN MATIZ QUE CONVIENE NO PERDER: el conjunto excluido finlandes es MAS AMPLIO que el aleman. Ademas del domingo y de los festivos, la ley saca del computo la Nochebuena (24 de diciembre), la vispera de San Juan y el Sabado Santo, que NO son juhlapaivat y aun asi no consumen vacaciones. O sea que dos unidades con la misma etiqueta `werktage` pueden tener conjuntos de exclusion distintos, y el esquema guarda la etiqueta pero no el conjunto.",
+  "pendiente": "Un solo hueco, y es de forma, no de lectura. `meses: 12` es la antiguedad del trabajador de referencia y el umbral del que depende la tasa de devengo, pero NO es un periodo de carencia: el 5 § devenga desde el primer mes completo, a dos arkipaivaa por mes si la relacion ha durado menos de un anio al cierre del anio de devengo y a dos y medio si ha durado mas. El tramo [0,12) en cero que el cargador antepone es FALSO para Finlandia: un trabajador de seis meses tiene doce arkipaivaa, no cero. Los tres puntos de la grilla (1, 5 y 10 anios) si son correctos: treinta en los tres, sin progresion por antiguedad."
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "Es de los pocos casos del lote en que la AUSENCIA de cambio esta verificada y no supuesta, y conviene decir como. Vacaciones: la Vuosilomalaki tuvo ocho leyes modificatorias en la ventana —182/2016, 346/2019, 875/2019, 34/2022, 140/2022, 504/2022, 946/2024 y 742/2025— y NINGUNA toca la duracion: el 5 § conserva la version de la ley 1448/2007 y no se modifica desde 2008. La mas sustantiva, la 346/2019, anadio un 7 a § de dias libres COMPLEMENTARIOS cuando la ausencia por enfermedad, accidente o rehabilitacion impide devengar veinticuatro dias, que es transposicion de la jurisprudencia europea sobre la Directiva 2003/88 y un mecanismo distinto, no un aumento del derecho. Feriados: la Kirkkolaki 1054/1993 fue sustituida por la 652/2023, pero la lista de fiestas del 6 § es LITERALMENTE IDENTICA a la del antiguo 4 luku 3 §, comprobado texto contra texto; lo unico que cambio de sitio es la regla de calculo de fechas, que paso de la Kirkkolaki al Kirkkojarjestys. Las leyes 388/1937 y 272/1944 siguen vigentes sin modificacion. Trece feriados en ambos cortes, treinta arkipaivaa en ambos cortes."
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "Cuatro de las trece fechas (1 y 6 de enero, 25 y 26 de diciembre) no estan escritas como fecha en ninguna norma: se remiten a la costumbre de la cristiandad occidental.",
+   "por_que_importa": "Se han codificado como `fija` y eso es una lectura de la costumbre.",
+   "como_se_cierra": "Decision del principal sobre si una remision a costumbre universal se codifica con valor o con clase propia. Guatemala y El Salvador sentaron el precedente contrario para la costumbre LOCAL."
+  },
+  {
+   "id": "H2",
+   "que": "No hay una ley general que haga de las once fiestas eclesiasticas dias de descanso pagado en el sector privado.",
+   "por_que_importa": "El cargador las carga todas como descanso pagado obligatorio, que es mas de lo que dice la ley.",
+   "como_se_cierra": "Capturar el convenio colectivo general aplicable, o aceptar que el mecanismo real es la exclusion del arkipaiva y anotarlo en `regimen`."
+  },
+  {
+   "id": "H3",
+   "que": "El conjunto de dias excluidos del arkipaiva finlandes es mas amplio que el del Werktag aleman, y la etiqueta no lo distingue.",
+   "como_se_cierra": "O un campo con el conjunto de exclusion, o la aceptacion explicita de que `werktage` es una familia y no una unidad exacta."
+  }
+ ]
+}

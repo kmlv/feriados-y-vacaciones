@@ -1,0 +1,42 @@
+{
+  "_": "Jornada semanal legal ordinaria. DOS MAXIMOS SEGUN RAMA (45 y 50); se codifica 45 por el trabajador de referencia. Sin maximo diario. Dias ordinarios NULOS con apoyo textual: el art. 21 LTr dice «cuando el trabajo semanal se reparte en mas de cinco dias».",
+  "unidad": "CHE",
+  "jurisdiccion_de_referencia": "Zurich",
+  "sector_de_referencia": "privado formal, jornada completa, persona adulta, trabajo diurno",
+  "capturado_por": "jornada · lote 4",
+  "fecha_captura_utc": "2026-08-11T05:45:52Z",
+  "fuentes": {
+    "J1": {
+      "cita": "Loi federale du 13 mars 1964 sur le travail dans l'industrie, l'artisanat et le commerce (LTr), RS 822.11: art. 9 (duree maximum de la semaine de travail), art. 15a (repos quotidien), art. 18 (interdiction de travailler le dimanche), art. 20 (dimanche libre et repos compensatoire), art. 20a (jours feries et fetes religieuses), art. 21 (demi-journee de conge hebdomadaire)",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1966/57_57_57/fr",
+      "nivel_de_fuente": 1,
+      "publicacion": "RO 1966 57; version consultada: Etat le 1er septembre 2023",
+      "nota": "Fedlex es la plataforma oficial de publicaciones del derecho federal suizo (Chancellerie federale)."
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 45,
+    "horas_diarias_max": null,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "Art. 9, al. 1, LTr: «La duree maximale de la semaine de travail est de: a. 45 heures pour les travailleurs occupes dans les entreprises industrielles ainsi que pour le personnel de bureau, le personnel technique et les autres employes, y compris le personnel de vente des grandes entreprises de commerce de detail; b. 50 heures pour tous les autres travailleurs.» — Art. 15a, al. 1: «Le travailleur doit beneficier d'une duree de repos quotidien d'au moins onze heures consecutives.» — Art. 21, al. 1: «Lorsque le travail hebdomadaire est reparti sur plus de cinq jours, l'employeur est tenu de donner au travailleur une demi-journee de conge par semaine, sauf dans les semaines comprenant un jour chome.»",
+    "traduccion": "Art. 9.1: «La duracion maxima de la semana de trabajo es de: a) 45 horas para los trabajadores ocupados en empresas industriales asi como para el personal de oficina, el personal tecnico y los demas empleados, incluido el personal de venta de las grandes empresas de comercio minorista; b) 50 horas para todos los demas trabajadores.» — Art. 15a.1: «El trabajador debe gozar de un descanso diario de al menos once horas consecutivas.» — Art. 21.1: «Cuando el trabajo semanal se reparte en mas de cinco dias, el empleador esta obligado a dar al trabajador medio dia de descanso por semana, salvo en las semanas que comprendan un dia no laborado.»",
+    "fuente": "J1",
+    "nota": "SUIZA TIENE DOS MAXIMOS SEMANALES Y NO UNO. 45 horas para industria, oficina, personal tecnico y demas empleados —incluido el personal de venta de las grandes superficies—; 50 horas para todos los demas, que en la practica son construccion, hosteleria, comercio pequeno y buena parte de los oficios. Codifico 45 porque es la rama que cubre al trabajador de referencia tipico del sector privado formal, pero la unidad NO tiene un solo numero y quien use este dato debe saberlo. NO HAY MAXIMO DIARIO en la LTr: la jornada diaria queda acotada indirectamente por las once horas de descanso del art. 15a y por la ventana de trabajo diurno y vespertino del art. 10. Y LOS DIAS VAN NULOS CON APOYO TEXTUAL, no por falta de busqueda: el art. 21 al. 1 dice «cuando el trabajo semanal se reparte en MAS DE CINCO DIAS», o sea que la propia ley contempla las dos configuraciones y no elige."
+  },
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "domingo, pero garantizado como domingo completo solo una vez cada dos semanas",
+    "literal": "Art. 18, al. 1, LTr: «Du samedi a 23 heures au dimanche a 23 heures, il est interdit d'occuper des travailleurs.» — Art. 20, al. 1: «Une fois toutes les deux semaines au moins, le jour de repos hebdomadaire doit coincider avec un dimanche complet, et suivre ou preceder immediatement le temps de repos quotidien.» (traduccion: «Del sabado a las 23 horas al domingo a las 23 horas esta prohibido ocupar trabajadores»; «Al menos una vez cada dos semanas, el dia de descanso semanal debe coincidir con un domingo completo y seguir o preceder inmediatamente al descanso diario.»)",
+    "fuente": "J1"
+  },
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": null,
+    "alcance": null,
+    "literal": "Art. 20a, al. 1, LTr: «Le jour de la fete nationale est assimile au dimanche. Les cantons peuvent assimiler au dimanche huit autres jours feries par an au plus et les fixer differemment selon les regions.» — Art. 21, al. 1, in fine: «...sauf dans les semaines comprenant un jour chome.» (traduccion: «El dia de la fiesta nacional se asimila al domingo. Los cantones pueden asimilar al domingo hasta ocho feriados mas al ano y fijarlos de modo distinto segun las regiones»; «...salvo en las semanas que comprendan un dia no laborado.»)",
+    "fuente": "J1"
+  },
+  "reformas_en_la_ventana": [],
+  "pendiente": "El art. 20a al. 1 remite a los cantones la designacion de hasta ocho feriados asimilados al domingo; no lei la norma cantonal de Zurich (Gesetz ueber die oeffentlichen Ruhetage und die Ladenoeffnung), asi que la ausencia de regla de traslado esta verificada a nivel FEDERAL y no a nivel cantonal. Tampoco verifique convenios colectivos de fuerza obligatoria, que en varios sectores suizos fijan semanas por debajo de las 45 horas."
+}

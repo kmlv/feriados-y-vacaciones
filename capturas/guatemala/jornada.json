@@ -1,0 +1,72 @@
+{
+ "_": "Jornada semanal legal ordinaria. Guatemala tiene DOS problemas a la vez: la Constitucion y el Codigo de Trabajo dan cifras distintas para la semana, y el Codigo declara expresamente que la semana se computa 'de cinco a seis dias segun costumbre'. Lo segundo es exactamente el caso que este proyecto existe para no rellenar.",
+ "unidad": "GTM",
+ "jurisdiccion_de_referencia": "Ciudad de Guatemala",
+ "sector_de_referencia": "privado formal (trabajadores particulares), jornada completa, persona adulta, trabajo diurno",
+ "fecha_captura_utc": "2026-08-11T05:46:47Z",
+ "capturado_por": "jornada · lote 9",
+ "fuentes": {
+  "J1": {
+   "cita": "Constitución Política de la República de Guatemala (1985), artículo 102, literal g)",
+   "url": "https://www.idpp.gob.gt/images/Biblioteca-virtual/Leyes_y_Reglamentos/Constitucin_Poltica_de_la_Repblica_de_Guatemala.pdf",
+   "nivel_de_fuente": 2,
+   "publicacion": "Edicion con notas de jurisprudencia de la Corte de Constitucionalidad y de la Corte IDH, alojada por el Instituto de la Defensa Publica Penal (institucion del Estado)",
+   "nota": "El sitio de la Corte de Constitucionalidad devolvio 523 en todos los intentos. Literal leido integro en este PDF el 2026-08-11."
+  },
+  "J2": {
+   "cita": "Código de Trabajo, Decreto numero 1441 del Congreso de la República, artículo 116",
+   "url": "https://mcd.gob.gt/wp-content/uploads/2013/07/codigo-de-trabajo.pdf",
+   "nivel_de_fuente": 2,
+   "publicacion": "Compilacion de la Oficina Nacional de Servicio Civil (ONSEC), alojada en el portal del Ministerio de Cultura y Deportes",
+   "nota": "mintrabajo.gob.gt devolvio 403. Literal leido integro en este PDF."
+  },
+  "J3": {
+   "cita": "Constitución Política de la República de Guatemala, artículo 102, literal h)",
+   "url": "https://www.idpp.gob.gt/images/Biblioteca-virtual/Leyes_y_Reglamentos/Constitucin_Poltica_de_la_Repblica_de_Guatemala.pdf",
+   "nivel_de_fuente": 2
+  },
+  "J4": {
+   "cita": "Código de Trabajo, artículo 126 (reformado por el artículo 4 del Decreto 64-92 del Congreso, publicado el 02.12.1992)",
+   "url": "https://mcd.gob.gt/wp-content/uploads/2013/07/codigo-de-trabajo.pdf",
+   "nivel_de_fuente": 2
+  },
+  "J5": {
+   "cita": "Código de Trabajo, artículo 127 (reformado por el artículo 5 del Decreto 64-92)",
+   "url": "https://mcd.gob.gt/wp-content/uploads/2013/07/codigo-de-trabajo.pdf",
+   "nivel_de_fuente": 2
+  }
+ },
+ "jornada": {
+  "horas_semanales_max": 44,
+  "horas_diarias_max": 8,
+  "dias_ordinarios": null,
+  "dias_ordinarios_origen": "no_declarado",
+  "literal": "Constitucion 102 g): La jornada ordinaria de trabajo efectivo diurno no puede exceder de ocho horas diarias de trabajo, ni de cuarenta y cuatro horas a la semana, equivalente a cuarenta y ocho horas para los efectos exclusivos del pago del salario. || Codigo de Trabajo 116: La jornada ordinaria de trabajo efectivo diurno no puede ser mayor de ocho horas diarias, ni exceder de un total de cuarenta y ocho horas a la semana. [...] La labor diurna normal semanal sera de cuarenta y cinco horas de trabajo efectivo, equivalente a cuarenta y ocho horas para los efectos exclusivos del pago de salario.",
+  "traduccion": null,
+  "fuente": "J1",
+  "nota": "Se informa 44 porque es la cifra constitucional y la Constitucion de 1985 es posterior y superior al Decreto 1441 de 1961. Pero el Codigo, en su texto vigente, sigue diciendo 48 en el primer parrafo y 45 en el sexto, las tres cifras conviven en el ordenamiento y la de 48 es la que aparece primero al leer el Codigo. La estructura comun a las tres es la misma: horas efectivas por debajo de las horas pagadas, con el excedente hasta 48 pagado pero no trabajado. Los dias por semana no se derivan: 44/8 = 5,5 y ni siquiera esa fraccion esta declarada.",
+  "horas_semanales_codigo_de_trabajo_techo": 48,
+  "horas_semanales_codigo_de_trabajo_labor_normal": 45,
+  "horas_semanales_pagadas": 48,
+  "excepcion": "el propio articulo 116 exceptua a trabajadores agricolas y ganaderos y a empresas con menos de diez trabajadores, cuya labor diurna normal semanal es de 48 horas efectivas; la excepcion no alcanza a empresas agricolas con quinientos o mas trabajadores."
+ },
+ "descanso_semanal": {
+  "dias": 1,
+  "cuales": "uno por cada semana ordinaria de trabajo o por cada seis dias consecutivos de labores, SIN NOMBRAR el dia",
+  "literal": "Constitucion 102 h): Derecho del trabajador a un dia de descanso remunerado por cada semana ordinaria de trabajo o por cada seis dias consecutivos de labores. Los dias de asueto reconocidos por la ley tambien seran remunerados. || Codigo de Trabajo 126: Todo trabajador tiene derecho a disfrutar de un dia de descanso remunerado despues de cada semana de trabajo. La semana se computara de cinco a seis dias segun costumbre en la empresa o centro de trabajo.",
+  "traduccion": null,
+  "fuente": "J3",
+  "nota": "AQUI ESTA EL DATO CENTRAL DE ESTA UNIDAD, y por eso el literal del articulo 126 va tambien en el descanso semanal y no solo en la jornada: la ley guatemalteca declara EXPRESAMENTE que la base semanal es de cinco a seis dias y remite la eleccion a la costumbre del centro de trabajo. No es que la ley calle: es que la ley dice que no lo fija. Rellenar dias_ordinarios con cinco o con seis contradiria un literal explicito."
+ },
+ "traslado_por_defecto": {
+  "existe": false,
+  "regla": null,
+  "alcance": null,
+  "literal": "Codigo de Trabajo 127, segundo parrafo: El patrono esta obligado a pagar el dia de descanso semanal, aun cuando en una misma semana coincidan uno o mas dias de asueto, y asimismo cuando coincidan un dia de asueto pagado y un dia de descanso semanal.",
+  "traduccion": null,
+  "fuente": "J5",
+  "nota": "Hallazgo negativo con literal a favor, que es lo mejor que se puede tener: la ley SI contempla el caso de coincidencia entre asueto y descanso semanal, y lo unico que ordena es que el descanso semanal se siga pagando. No manda sustituir el dia ni trasladarlo. Es decir, el legislador miro el problema y decidio resolverlo solo en dinero. El articulo 128 confirma la logica desde el otro lado: solo cuando efectivamente se TRABAJA en asueto o en descanso semanal nace el derecho a que ese tiempo se compute como extraordinario."
+ },
+ "reformas_en_la_ventana": [],
+ "pendiente": "Tres cosas. Primera: no encontre pronunciamiento oficial del Ministerio de Trabajo ni de la Corte de Constitucionalidad que resuelva de frente el 44 constitucional contra el 45/48 del articulo 116; la supremacia constitucional lo decide en derecho, pero falta la fuente que lo declare. Segunda: no encontre reformas a los articulos 116, 126, 127 ni al 102 constitucional entre 2016 y 2026, y la ausencia esta afirmada por busqueda, no por revision del Diario de Centro America. Tercera: no verifique si el asueto local de la Ciudad de Guatemala -el 15 de agosto, festividad de la localidad segun el articulo 127- tiene regla propia de colocacion."
+}

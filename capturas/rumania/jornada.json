@@ -1,0 +1,77 @@
+{
+  "_": "JORNADA SEMANAL LEGAL ORDINARIA de Rumania. Trabajador de referencia: sector privado formal, jornada completa, Bucarest. Es la unica unidad del lote donde la ley escribe con todas las letras cuantos dias tiene la semana.",
+  "unidad": "ROU",
+  "jurisdiccion_de_referencia": "Bucuresti",
+  "capturado_por": "jornada · lote 1",
+  "fecha_captura_utc": "2026-08-11T05:55:37Z",
+
+  "fuentes": {
+    "J1": {
+      "cita": "Codul muncii (Legea nr. 53/2003), republicat en Monitorul Oficial nr. 345 de 18 de mayo de 2011; arts. 112, 113, 114, 137, 139, 141 y 142",
+      "url": "https://www.inspectiamuncii.ro/documents/558066/58123041/CODUL+MUNCII+din+24+ianuarie+2003.pdf",
+      "nivel_de_fuente": 2,
+      "publicacion": "2011-05-18",
+      "nota": "Texto consolidado publicado por la Inspectia Muncii, el organismo estatal de inspeccion de trabajo. IMPORTANTE: el propio documento declara 'Forma actualizata valabila la data de 21 martie 2023'. Es decir que la consolidacion NO cubre eventuales cambios posteriores a marzo de 2023. El portal oficial legislatie.just.ro no fue alcanzable desde este entorno por tres vias distintas (curl, fetch y navegador), y por eso no hay nivel 1. El texto si trae, en cambio, las notas de modificacion con ley, fecha y numero de Monitorul Oficial, que es lo que permite fechar las reformas de abajo."
+    }
+  },
+
+  "jornada": {
+    "horas_semanales_max": 40,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": 5,
+    "dias_ordinarios_origen": "norma",
+    "literal": "ART. 112 (1): 'Pentru salariatii angajati cu norma intreaga durata normala a timpului de munca este de 8 ore pe zi si de 40 de ore pe saptamana.' — ART. 113: '(1) Repartizarea timpului de munca in cadrul saptamanii este, de regula, uniforma, de 8 ore pe zi timp de 5 zile, cu doua zile de repaus. (2) In functie de specificul unitatii sau al muncii prestate, se poate opta si pentru o repartizare inegala a timpului de munca, cu respectarea duratei normale a timpului de munca de 40 de ore pe saptamana.' — ART. 114 (1): 'Durata maxima legala a timpului de munca nu poate depasi 48 de ore pe saptamana, inclusiv orele suplimentare.'",
+    "traduccion": "Art. 112(1): 'Para los asalariados contratados a jornada completa la duracion normal del tiempo de trabajo es de 8 horas al dia y de 40 horas a la semana.' — Art. 113: '(1) El reparto del tiempo de trabajo dentro de la semana es, por regla general, uniforme, de 8 horas al dia durante 5 dias, con dos dias de descanso. (2) En funcion de las particularidades de la unidad o del trabajo prestado, puede optarse tambien por un reparto desigual del tiempo de trabajo, respetando la duracion normal de 40 horas semanales.' — Art. 114(1): 'La duracion maxima legal del tiempo de trabajo no puede exceder de 48 horas a la semana, incluidas las horas extraordinarias.'",
+    "fuente": "J1",
+    "nota": "Aqui no hace falta derivar nada. El art. 113(1) dice literalmente 'de 8 ore pe zi timp de 5 zile, cu doua zile de repaus': ocho horas al dia durante cinco dias con dos de descanso. Es la formulacion mas explicita del lote y sirve de contraste con las unidades donde el numero hay que deducirlo o directamente no existe. El 'de regula' del mismo apartado y el apartado (2) admiten reparto desigual, pero sin tocar las 40 semanales. — DOS TOPES DISTINTOS: 40 es la jornada NORMAL del art. 112; 48 es el tope MAXIMO legal del art. 114 e incluye ya las horas extraordinarias, promediable sobre 4 meses de referencia (ampliables a 6 por convenio y hasta 12 en las condiciones del apartado 4). Este archivo registra la ordinaria."
+  },
+
+  "descanso_semanal": {
+    "dias": 2,
+    "cuales": "sabado y domingo, por regla general",
+    "literal": "ART. 137 (1): 'Repausul saptamanal este de 48 de ore consecutive, de regula sambata si duminica.' (2): 'In cazul in care repausul in zilele de sambata si duminica ar prejudicia interesul public sau desfasurarea normala a activitatii, repausul saptamanal poate fi acordat si in alte zile stabilite prin contractul colectiv de munca aplicabil sau prin regulamentul intern.' (3): 'In situatia prevazuta la alin. (2) salariatii vor beneficia de un spor la salariu stabilit prin contractul colectiv de munca sau, dupa caz, prin contractul individual de munca.'",
+    "traduccion": "Art. 137: '(1) El descanso semanal es de 48 horas consecutivas, por regla general sabado y domingo. (2) Cuando el descanso en sabado y domingo perjudicara el interes publico o el desarrollo normal de la actividad, el descanso semanal puede concederse tambien en otros dias establecidos por el convenio colectivo aplicable o por el reglamento interno. (3) En el supuesto del apartado (2) los asalariados se beneficiaran de un complemento salarial establecido por convenio colectivo o, en su caso, por el contrato individual.'",
+    "fuente": "J1",
+    "nota": "Dos dias consecutivos, y la ley nombra cuales: sabado y domingo. Desplazarlos a otros dias es posible pero cuesta dinero, porque el apartado (3) obliga a un complemento salarial. En situaciones excepcionales el apartado (4) permite acumular los dias de descanso tras un maximo de 14 dias corridos de actividad, con autorizacion de la inspeccion territorial de trabajo y acuerdo sindical, y quien pasa por eso cobra el doble de la compensacion del art. 123(2)."
+  },
+
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": null,
+    "alcance": null,
+    "literal": "ART. 139 (2): 'Acordarea zilelor libere se face de catre angajator.' (4): 'Pana la data de 15 ianuarie a fiecarui an, se stabilesc prin hotarare a Guvernului, pentru personalul din sistemul bugetar, zilele lucratoare pentru care se acorda zile libere, zile care preceda si/sau care succeda zilelor de sarbatoare legala in care nu se lucreaza, prevazute la alin. (1), precum si zilele in care se recupereaza orele de munca neefectuate.'",
+    "traduccion": "Art. 139(4): 'Hasta el 15 de enero de cada ano se estableceran por decision del Gobierno, para el personal del sistema presupuestario, los dias laborables por los que se conceden dias libres, dias que preceden y/o suceden a los dias de fiesta legal en que no se trabaja previstos en el apartado (1), asi como los dias en que se recuperan las horas de trabajo no efectuadas.'",
+    "fuente": "J1",
+    "nota": "No hay regla que traslade ni compense el feriado que cae en el descanso semanal, y conviene no confundirlo con lo que si existe, que es otra cosa. El art. 139(4) obliga al Gobierno a fijar cada 15 de enero los dias puente, pero SOLO 'pentru personalul din sistemul bugetar', para el personal del sector presupuestario; al trabajador privado esas decisiones no le alcanzan, y ademas son puentes, no rescates de feriados caidos en sabado o domingo. Y el art. 142 compensa unicamente a quien TRABAJA en dia de fiesta legal, con tiempo libre en los 30 dias siguientes o, si no se le da, con un recargo no inferior al 100% del salario base. Para el trabajador de referencia rumano, con descanso en sabado y domingo, el feriado que cae en fin de semana SE PIERDE. Con dieciseis o diecisiete feriados al ano en la lista del art. 139, la perdida no es despreciable."
+  },
+
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "Legea nr. 176 de 7 de octubre de 2016 (M. Of. nr. 808 de 13 de octubre de 2016) y Legea nr. 220 de 17 de noviembre de 2016 (M. Of. nr. 931 de 18 de noviembre de 2016)",
+      "anio": 2016,
+      "que_cambio": "Modificaron y ampliaron la lista de dias de fiesta legal del art. 139(1); la Ley 220/2016 anadio el 1 de junio. No tocaron la jornada."
+    },
+    {
+      "instrumento": "Legea nr. 64 de 12 de marzo de 2018 (M. Of. nr. 226 de 13 de marzo de 2018) y Legea nr. 88 de 4 de abril de 2018 (M. Of. nr. 315 de 10 de abril de 2018)",
+      "anio": 2018,
+      "que_cambio": "La primera anadio el Viernes Santo a la lista del art. 139(1); la segunda completo el articulo con reglas sobre cultos religiosos no cristianos."
+    },
+    {
+      "instrumento": "Legea nr. 153 de 24 de julio de 2019 (M. Of. nr. 623 de 26 de julio de 2019)",
+      "anio": 2019,
+      "que_cambio": "Introdujo el art. 139(4), que es la unica regla del Codigo proxima a un traslado: obliga al Gobierno a fijar antes del 15 de enero los dias puente del sector presupuestario y los dias de recuperacion. No alcanza al sector privado."
+    },
+    {
+      "instrumento": "Legea nr. 37 de 2 de abril de 2020 (M. Of. nr. 280 de 3 de abril de 2020)",
+      "anio": 2020,
+      "que_cambio": "Anadio los apartados (2^1) y (3^1) al art. 139, que ajustan las fiestas moviles cristianas a la fecha en que las celebra el culto del trabajador y regulan la recuperacion cuando alguien disfruta de las dos fechas."
+    },
+    {
+      "instrumento": "Legea nr. 52 de 3 de marzo de 2023 (M. Of. nr. 186 de 6 de marzo de 2023)",
+      "anio": 2023,
+      "que_cambio": "Anadio el 6 y el 7 de enero a la lista de fiestas legales del art. 139(1)."
+    }
+  ],
+
+  "pendiente": "Dos, y la primera es seria. (1) La consolidacion consultada se declara valida a 21 de marzo de 2023: cualquier modificacion de los arts. 112, 113, 114, 137 o 139 posterior a esa fecha NO estaria reflejada, y no pude comprobarlo porque legislatie.just.ro no respondio por ninguna via. Vale la pena reintentarlo desde otra red antes de dar el dato por firme. (2) El art. 137(1) fue modificado el 11 de mayo de 2015 por la Legea nr. 97/2015 —justo antes de la ventana— y esa nota esta en el propio texto, pero no verifique cual era la redaccion anterior."
+}

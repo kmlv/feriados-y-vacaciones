@@ -1,0 +1,210 @@
+{
+ "_": "Captura de Espana. CAPTURA CIEGA: Estatuto de los Trabajadores del BOE y calendario de Madrid 2026 de los boletines oficiales estatal y autonomico.",
+ "captura_ciega": true,
+ "unidad": "ESP",
+ "jurisdiccion_de_referencia": "Madrid (ciudad mas poblada)",
+ "capturado_por": "captura · lote 2",
+ "fecha_captura_utc": "2026-08-10T18:40:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Real Decreto Legislativo 2/2015, texto refundido de la Ley del Estatuto de los Trabajadores; articulos 37.2 y 38",
+   "nivel_de_fuente": 1,
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+   "publicacion": "2015-10-24",
+   "nota": "Texto consolidado del Boletin Oficial del Estado. Literal leido integro."
+  },
+  "F2": {
+   "cita": "Decreto 75/2025, de 24 de septiembre, del Consejo de Gobierno, por el que se establecen las fiestas laborales para el año 2026 en la Comunidad de Madrid",
+   "nivel_de_fuente": 1,
+   "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/09/25/BOCM-20250925-16.PDF",
+   "publicacion": "2025-09-25",
+   "nota": "BOCM num. 229. Anexo con las doce fiestas leido integro."
+  },
+  "F3": {
+   "cita": "Resolucion de 17 de octubre de 2025, de la Direccion General de Trabajo, por la que se publica la relacion de fiestas laborales para el año 2026",
+   "nivel_de_fuente": 1,
+   "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-21667",
+   "publicacion": "2025-10-28",
+   "nota": "BOE. Da el marco: articulos 45 y 46 del Real Decreto 2001/1983 y el limite de catorce del articulo 37.2 del Estatuto. El anexo es una tabla de diecinueve columnas que no se pudo extraer con fiabilidad; la lista de Madrid se tomo de F2, que es la fuente propia de esa comunidad."
+  },
+  "F4": {
+   "cita": "Resolucion de 2 de diciembre de 2025, de la Direccion General de Trabajo de la Comunidad de Madrid, por la que se declaran las fiestas laborales de ambito local para el año 2026",
+   "nivel_de_fuente": 1,
+   "url": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/12/BOCM-20251212-34.PDF",
+   "publicacion": "2025-12-12",
+   "nota": "BOCM num. 296. Entrada literal: 'Madrid: 15 de mayo y 9 de noviembre'."
+  },
+  "F5": {
+   "cita": "Real Decreto 2001/1983, articulos 45 y 46 (fiestas laborales de ambito nacional y fiestas locales)",
+   "nivel_de_fuente": 4,
+   "nota": "NO SE LEYO DIRECTAMENTE. Su contenido se conoce solo por como lo recita la resolucion F3. Se deja en nivel 4 en vez de en 1 porque el literal no se verifico contra el BOE. PENDIENTE."
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO para Madrid 2026",
+  "fuente": "F2",
+  "arquitectura": "Tres niveles, y el limite es del Estatuto, no la lista. El articulo 37.2 dice que las fiestas laborales 'no podran exceder de catorce al ano, de las cuales dos seran locales', y blinda como nacionales irreemplazables la Natividad, el Ano Nuevo, el 1 de mayo y el 12 de octubre. Las comunidades autonomas eligen dentro del limite y pueden sustituir nacionales por fiestas propias; los ayuntamientos ponen dos. O sea: la ley fija un TECHO y una lista minima, y el resto lo fija cada ano un decreto autonomico distinto para cada una de las diecisiete comunidades.",
+  "literal": "Las fiestas laborales, que tendran caracter retribuido y no recuperable, no podran exceder de catorce al ano, de las cuales dos seran locales. En cualquier caso se respetaran como fiestas de ambito nacional las de la Natividad del Senor, Ano Nuevo, 1 de mayo, como Fiesta del Trabajo, y 12 de octubre, como Fiesta Nacional de Espana.",
+  "nota_traslado": "El mismo articulo 37.2 ordena trasladar al lunes inmediatamente posterior el descanso de las fiestas que coincidan con domingo. En 2026 eso afecta a dos: el 1 de noviembre y el 6 de diciembre caen en domingo y el decreto de Madrid las declara el 2 de noviembre y el 7 de diciembre. HALLAZGO DE ESQUEMA: 'relativa_a_fecha' no puede expresarlo porque el traslado es CONDICIONAL -solo si cae en domingo- y esa clase desplaza siempre. Colombia mueve incondicionalmente y encaja; Espana mueve solo en el caso de coincidencia y no encaja. Las dos fechas se codifican en su ancla, que es el dia que la norma declara fiesta, y el traslado de 2026 queda declarado aqui.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Año Nuevo",
+    "clase_de_regla": "fija",
+    "ambito": "nacional no sustituible"
+   },
+   {
+    "fecha": "01-06",
+    "nombre": "Epifanía del Señor",
+    "clase_de_regla": "fija",
+    "ambito": "nacional sustituible, mantenida por Madrid"
+   },
+   {
+    "fecha": null,
+    "nombre": "Jueves Santo",
+    "clase_de_regla": "computable",
+    "regla": "pascua-3",
+    "ambito": "nacional sustituible, mantenida por Madrid",
+    "nota": "En 2026 es el 2 de abril."
+   },
+   {
+    "fecha": null,
+    "nombre": "Viernes Santo",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2",
+    "ambito": "nacional",
+    "nota": "En 2026 es el 3 de abril."
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Fiesta del Trabajo",
+    "clase_de_regla": "fija",
+    "ambito": "nacional no sustituible"
+   },
+   {
+    "fecha": "05-02",
+    "nombre": "Fiesta de la Comunidad de Madrid",
+    "clase_de_regla": "fija",
+    "ambito": "autonomico",
+    "instrumento": "Ley 8/1984 de la Comunidad de Madrid",
+    "nota": "FIESTA AUTONOMICA de la jurisdiccion de referencia."
+   },
+   {
+    "fecha": "08-15",
+    "nombre": "Asunción de la Virgen",
+    "clase_de_regla": "fija",
+    "ambito": "nacional sustituible, mantenida por Madrid"
+   },
+   {
+    "fecha": "10-12",
+    "nombre": "Fiesta Nacional de España",
+    "clase_de_regla": "fija",
+    "ambito": "nacional no sustituible"
+   },
+   {
+    "fecha": "11-01",
+    "nombre": "Todos los Santos",
+    "clase_de_regla": "fija",
+    "ambito": "nacional sustituible, mantenida por Madrid",
+    "nota": "En 2026 cae en domingo y el descanso se traslada al lunes 2 de noviembre. Se codifica el ancla."
+   },
+   {
+    "fecha": "12-06",
+    "nombre": "Día de la Constitución Española",
+    "clase_de_regla": "fija",
+    "ambito": "nacional sustituible, mantenida por Madrid",
+    "nota": "En 2026 cae en domingo y el descanso se traslada al lunes 7 de diciembre. Se codifica el ancla."
+   },
+   {
+    "fecha": "12-08",
+    "nombre": "Inmaculada Concepción",
+    "clase_de_regla": "fija",
+    "ambito": "nacional sustituible, mantenida por Madrid"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Natividad del Señor",
+    "clase_de_regla": "fija",
+    "ambito": "nacional no sustituible"
+   }
+  ],
+  "subnacionales": [
+   {
+    "fecha": "05-15",
+    "nombre": "San Isidro Labrador",
+    "clase_de_regla": "fija",
+    "ambito": "local, municipio de Madrid",
+    "instrumento": "Resolucion de 2-XII-2025, BOCM 296",
+    "nota": "Fiesta LOCAL del municipio de Madrid, que es la jurisdiccion de referencia. Se fija cada ano por resolucion; no es una fecha permanente de ley."
+   },
+   {
+    "fecha": "11-09",
+    "nombre": "Nuestra Señora de la Almudena",
+    "clase_de_regla": "fija",
+    "ambito": "local, municipio de Madrid",
+    "instrumento": "Resolucion de 2-XII-2025, BOCM 296",
+    "nota": "Segunda fiesta LOCAL del municipio de Madrid."
+   }
+  ],
+  "total_madrid_2026": 14,
+  "nota_totales": "Doce autonomicas o nacionales mas dos locales: exactamente el techo legal de catorce. En 2026 dos de las doce caen en domingo y su descanso se traslada a lunes, asi que el trabajador de Madrid disfruta catorce dias distintos de descanso."
+ },
+ "vacaciones": {
+  "texto_legal_dias": 30,
+  "tipo_de_dia": "calendario",
+  "literal": "El periodo de vacaciones anuales retribuidas, no sustituible por compensacion economica, sera el pactado en convenio colectivo o contrato individual. En ningun caso la duracion sera inferior a treinta dias naturales.",
+  "fuente": "F1",
+  "nota_tipo": "'Dias naturales' esta en el literal: son dias calendario y no hay nada que inferir. Lo que Espana NO tiene es la otra mitad.",
+  "nota_quantum": "El Estatuto fija un SUELO, no el derecho: la duracion 'sera la pactada en convenio colectivo o contrato individual' y solo se prohibe bajar de treinta dias naturales. El valor capturado es el minimo legal; el derecho efectivo del trabajador medio de Madrid depende de su convenio, que tipicamente lo expresa en dias laborables y suele mejorar el suelo.",
+  "estado_verificacion": "verificado_primaria"
+ },
+ "imputacion": {
+  "resultado": "sin_regla_explicita",
+  "que_se_busco": "Un articulo del Estatuto que diga si una fiesta laboral caida dentro del periodo de vacaciones lo extiende o se computa contra el. Se leyeron los articulos 37 y 38 completos.",
+  "resultado_detallado": "NO EXISTE. El articulo 38.3 si resuelve la coincidencia de las vacaciones con la incapacidad temporal, el embarazo, el parto, la lactancia y las suspensiones del articulo 48 -con derecho a disfrutarlas en otra fecha- pero no dice una palabra de las fiestas laborales. Que el legislador SI haya previsto una lista de coincidencias y haya dejado fuera los festivos es un silencio elocuente, pero sigue siendo silencio: no se codifica como regla.",
+  "consecuencia": "Espana repite el patron de Colombia por el camino contrario: tipo de dia explicito, imputacion ausente. El total va a NA."
+ },
+ "corte_2016": {
+  "estado": "no_capturado",
+  "nota": "DELIBERADO, y por el mismo motivo por el que el cargador no rellena el corte de Indonesia. El calendario laboral de Madrid NO esta en una ley: lo fija cada ano un decreto del Consejo de Gobierno mas una resolucion de fiestas locales. Comparar 2016 con 2026 en Espana es comparar dos decretos anuales, y copiar el de 2026 en 2016 no seria una aproximacion sino inventar el corte: en 2016 la composicion era distinta -el 19 de marzo, la sustitucion de fiestas y el juego de traslados cambian ano a ano- aunque el techo de catorce sea el mismo. NO se descargaron el Decreto de fiestas de 2016 ni la resolucion de fiestas locales de 2016. En vacaciones no se hallo reforma del articulo 38 dentro de la ventana, pero solo se leyo el texto consolidado a 2026, no el historial de modificaciones. SE CIERRA descargando del BOCM el decreto de fiestas de 2016 y la resolucion de locales de 2016, y del BOE el historial del articulo 38."
+ },
+ "delta_2016_2026": {
+  "feriados": "no calculable con lo capturado: el corte de 2016 no se capturo. Lo que si es estable es el TECHO de catorce del articulo 37.2, que no se reformo.",
+  "vacaciones": "0 — no se hallo reforma del minimo de treinta dias naturales"
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "_": "Cerrada por la via que la propia ficha pedia —el historial del art. 38— pero por mejor fuente. Y con una reserva declarada, no un cierre absoluto.",
+     "buscado_en": "Servicio de datos abiertos del BOE, analisis de referencias posteriores del texto refundido del Estatuto de los Trabajadores. NO el consolidado en PDF: se comprobo que ese documento no anota ninguna modificación en ningun sitio, de modo que su silencio sobre el art. 38 no seria evidencia.",
+     "cita": "El analisis lista 53 normas posteriores que modifican el texto refundido desde 2015; 31 de ellas enumeran los articulos afectados uno a uno, y el art. 38 no aparece en ninguna. RESERVA: una de las 53 —la reforma laboral de diciembre de 2021— declara modificar «determinados preceptos» sin enumerarlos; es reforma de tipos de contrato, pero no enumera.",
+     "nivel_de_fuente": 1,
+     "indice_registra_modificaciones": true,
+     "indice_como_se_comprobo": "El analisis del BOE enumera 53 normas posteriores y 31 de ellas listan los articulos que tocan: el indice registra presencias, de modo que la ausencia del art. 38 significa algo. Comprobado ademas que el consolidado en PDF NO las registra, y por eso no se uso.",
+     "fecha_busqueda": "2026-08-11"
+   },
+  "dias": 30,
+  "tipo": "calendario",
+  "base": null,
+  "imputacion": "sin_regla_explicita",
+  "meses": 12,
+  "literal": "En ningun caso la duracion sera inferior a treinta dias naturales",
+  "escala": [
+   [
+    12,
+    null,
+    30
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "negociada",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "El periodo o periodos de su disfrute se fijara de comun acuerdo entre el empresario y el trabajador, de conformidad con lo establecido en su caso en los convenios colectivos sobre planificacion anual de las vacaciones. En caso de desacuerdo entre las partes, la jurisdiccion social fijara la fecha que para el disfrute corresponda y su decision sera irrecurrible.",
+   "resolucion_desacuerdo": "tercero_dirime",
+   "nota_resolucion": "Art. 38.2 ET: en caso de desacuerdo, la jurisdiccion social fija la fecha por procedimiento sumario y preferente. El desempate sale de las partes."
+  },
+  "nota_colocacion": "'Negociada', como Turquia, pero con un desempate que Turquia no tiene: si no hay acuerdo decide un JUEZ, no el empleador. El campo veto no tiene valor para 'lo resuelve un tercero imparcial'; se deja en null y se declara. Ademas el articulo 38.3 obliga a fijar un calendario de vacaciones en cada empresa y a comunicar las fechas con dos meses de antelacion.",
+  "nota_meses": "El Estatuto no fija periodo de carencia: la vacacion se devenga en proporcion al tiempo trabajado dentro del ano natural. El 12 es la referencia anual, no un umbral leido de la norma."
+ }
+}

@@ -1,0 +1,350 @@
+{
+ "_": "CAPTURA CIEGA de Polonia. Escrita leyendo los PDF firmados del Dziennik Ustaw, extraidos integros, SIN mirar el CBR ni ningun dataset agregado. Polonia aporta una reforma limpia dentro de la ventana —la Nochebuena, feriado desde 2025— y una base de antiguedad que el esquema no sabe representar: los anos de ESTUDIOS cuentan como servicio.",
+ "_estado": "COMPLETA. Todos los literales verificados contra la gaceta oficial. Un hueco de forma en la base de antiguedad.",
+ "unidad": "POL",
+ "jurisdiccion_de_referencia": "Varsovia (ciudad mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 4",
+ "fecha_captura_utc": "2026-08-10T20:05:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Ustawa z dnia 18 stycznia 1951 r. o dniach wolnych od pracy — texto consolidado, Dz.U. 2025 poz. 296",
+   "nivel_de_fuente": 1,
+   "tipo": "gaceta oficial, PDF firmado",
+   "url": "https://dziennikustaw.gov.pl/D2025000029601.pdf",
+   "url_espejo": "https://api.sejm.gov.pl/eli/acts/DU/2025/296/text.pdf",
+   "publicacion": "2025-03-11",
+   "nota": "Anexo al Obwieszczenie Marszalka Sejmu de 6 de marzo de 2025. Descargado y extraido integro."
+  },
+  "F2": {
+   "cita": "Ustawa z dnia 6 grudnia 2024 r. o zmianie ustawy o dniach wolnych od pracy oraz niektorych innych ustaw — Dz.U. 2024 poz. 1965",
+   "nivel_de_fuente": 1,
+   "url": "https://dziennikustaw.gov.pl/D2024000196501.pdf",
+   "publicacion": "2024-12-30",
+   "literal_relevante": "Art. 1: 'W ustawie z dnia 18 stycznia 1951 r. o dniach wolnych od pracy (Dz. U. z 2020 r. poz. 1920) w art. 1 w pkt 1 po lit. k dodaje sie lit. ka w brzmieniu: ka) 24 grudnia - Wigilia Bozego Narodzenia,'. Art. 5: 'Ustawa wchodzi w zycie z dniem 1 lutego 2025 r.'",
+   "nota": "LA REFORMA DE LA VENTANA. Ley de 6 de diciembre de 2024, publicada el 30 de diciembre de 2024, en vigor el 1 de FEBRERO de 2025. El 24 de diciembre de 2024 todavia fue laborable: el primer ano en que la Nochebuena fue efectivamente dia libre es 2025."
+  },
+  "F3": {
+   "cita": "Ustawa z dnia 26 czerwca 1974 r. — Kodeks pracy, texto consolidado Dz.U. 2025 poz. 277; arts. 129, 130, 151(9), 153, 154, 154(1), 154(2), 155, 161-168",
+   "nivel_de_fuente": 1,
+   "url": "https://dziennikustaw.gov.pl/D2025000027701.pdf",
+   "url_espejo": "https://api.sejm.gov.pl/eli/acts/DU/2025/277/text.pdf",
+   "publicacion": "2025-03-06",
+   "nota": "PDF descargado y extraido a texto; los literales de esta captura se leyeron de ahi, no de resumenes."
+  },
+  "F4": {
+   "cita": "Kodeks pracy, texto consolidado Dz.U. 2016 poz. 1666 — linea base del corte de 2016",
+   "nivel_de_fuente": 1,
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2016/1666/text.pdf",
+   "publicacion": "2016-10-12",
+   "nota": "Usado para comparar palabra por palabra los arts. 152 a 155 y 161 a 163 contra el vigente."
+  },
+  "F5": {
+   "cita": "API ELI del Sejm — historial completo de actos modificatorios de la ley de 1951",
+   "nivel_de_fuente": 2,
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/1951/28",
+   "nota": "Historial integro: DU/2024/1965, DU/2020/695, DU/2010/1459, DU/1990/160, DU/1990/159, DU/1989/154, DU/1960/297. Solo dos caen en la ventana. Se uso la API porque la ficha de ISAP esta tras CAPTCHA, que no se intento resolver."
+  },
+  "F6": {
+   "cita": "Ustawa z dnia 16 kwietnia 2020 r. o szczegolnych instrumentach wsparcia — Dz.U. 2020 poz. 695; anade el art. 1a a la ley de feriados",
+   "nivel_de_fuente": 2,
+   "url": "https://api.sejm.gov.pl/eli/acts/DU/2020/695",
+   "publicacion": "2020-04-18"
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO",
+  "fuente": "F1",
+  "literal": "Art. 1: 'Dniami wolnymi od pracy sa: 1) dni nizej wymienione: a) 1 stycznia - Nowy Rok, b) 6 stycznia - Swieto Trzech Kroli, c) pierwszy dzien Wielkiej Nocy, d) drugi dzien Wielkiej Nocy, e) 1 maja - Swieto Panstwowe, f) 3 maja - Swieto Narodowe Trzeciego Maja, g) pierwszy dzien Zielonych Swiatek, h) dzien Bozego Ciala, i) 15 sierpnia - Wniebowziecie Najswietszej Maryi Panny, j) 1 listopada - Wszystkich Swietych, k) 11 listopada - Narodowe Swieto Niepodleglosci, ka) 24 grudnia - Wigilia Bozego Narodzenia, l) 25 grudnia - pierwszy dzien Bozego Narodzenia, m) 26 grudnia - drugi dzien Bozego Narodzenia; 2) niedziele.'",
+  "nota_de_estructura": "El punto 2 mete TODOS LOS DOMINGOS en el mismo concepto legal de 'dzien wolny od pracy'. Importa para la imputacion: el mecanismo que excluye los feriados de las vacaciones es el mismo que excluye los domingos, no una regla aparte para feriados.",
+  "nota_de_computus": "El art. 1 NO enuncia ningun offset: nombra las fiestas liturgicas por su nombre y nada mas. Los offsets de esta captura vienen del calendario liturgico catolico, no del texto legal, y estan comprobados contra fechas reales (2026: Pascua 5-abr, Lunes 6-abr, Zielone Swiatki 24-may, Boze Cialo 4-jun). Son el unico dato de esta captura que no procede de un texto legal.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Nowy Rok",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "01-06",
+    "nombre": "Swieto Trzech Kroli (Epifanía)",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": null,
+    "nombre": "Pierwszy dzien Wielkiej Nocy (Domingo de Pascua)",
+    "clase_de_regla": "computable",
+    "regla": "pascua+0",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "Cae siempre en domingo, que el art. 1 pkt 2 ya declara libre."
+   },
+   {
+    "fecha": null,
+    "nombre": "Drugi dzien Wielkiej Nocy (Lunes de Pascua)",
+    "clase_de_regla": "computable",
+    "regla": "pascua+1",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Swieto Panstwowe (1 de mayo)",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "05-03",
+    "nombre": "Swieto Narodowe Trzeciego Maja",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": null,
+    "nombre": "Pierwszy dzien Zielonych Swiatek (Pentecostés)",
+    "clase_de_regla": "computable",
+    "regla": "pascua+49",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "SOLO el primer dia, a diferencia de Alemania y Noruega, que tienen tambien el lunes. Cae siempre en domingo."
+   },
+   {
+    "fecha": null,
+    "nombre": "Dzien Bozego Ciala (Corpus Christi)",
+    "clase_de_regla": "computable",
+    "regla": "pascua+60",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "Se celebra en jueves y NO se traslada a domingo."
+   },
+   {
+    "fecha": "08-15",
+    "nombre": "Wniebowziecie Najswietszej Maryi Panny (Asunción)",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "11-01",
+    "nombre": "Wszystkich Swietych (Todos los Santos)",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "11-11",
+    "nombre": "Narodowe Swieto Niepodleglosci",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "12-24",
+    "nombre": "Wigilia Bozego Narodzenia (Nochebuena)",
+    "clase_de_regla": "fija",
+    "desde": 2025,
+    "instrumento": "Dz.U. 2024 poz. 1965",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "REFORMA DENTRO DE LA VENTANA, y limpia: ley en vigor el 1 de febrero de 2025, primer 24 de diciembre libre el de 2025. `desde: 2025` no plantea el problema de grano anual que si plantea Portugal, porque la entrada en vigor (1 de febrero) es anterior a la fecha del feriado (24 de diciembre) dentro del mismo ano."
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Pierwszy dzien Bozego Narodzenia (Navidad)",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "12-26",
+    "nombre": "Drugi dzien Bozego Narodzenia (San Esteban)",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   }
+  ],
+  "mecanismo_de_ampliacion": {
+   "base_legal": "Ustawa de 1951, art. 1a (anadido por Dz.U. 2020 poz. 695, vigor 18 de abril de 2020)",
+   "literal": "'1. W przypadku ogloszenia stanu zagrozenia epidemicznego lub stanu epidemii, dniem wolnym od pracy jest takze dzien okreslony przez Prezesa Rady Ministrow, w drodze rozporzadzenia.'",
+   "nota": "REFORMA DE LA VENTANA QUE NO CREO NINGUN FERIADO: creo un MECANISMO. El Primer Ministro puede declarar dias libres por reglamento durante estado de epidemia o de amenaza epidemica. Sigue vigente. El esquema no tiene donde poner una facultad latente que no ha producido dias."
+  },
+  "subnacionales": {
+   "existen": false,
+   "verificacion": "El art. 1 es una lista cerrada de ambito nacional y no hay clausula habilitante para que gminas, powiats o voivodatos creen dias libres propios. El unico mecanismo de ampliacion es el art. 1a, reservado al Primer Ministro. El 1 de agosto, aniversario del Levantamiento de Varsovia y Dia Nacional de Memoria desde 2009, NO es dia libre: es conmemorativo y no figura en el art. 1. Varsovia se rige por los mismos catorce feriados nacionales."
+  },
+  "falso_positivo_a_descartar": "En 2026 se creo una nueva 'swieto panstwowe' el 12 de abril (Dzien Inwalidy Wojennego). NO ES DIA LIBRE: la ley de 1951 no fue modificada y el 12 de abril no figura en su art. 1. 'Swieto panstwowe' y 'dzien wolny od pracy' son categorias distintas. Si una fuente de contraste da 15 feriados para Polonia en 2026, ese es el error.",
+  "conteo": {
+   "feriados_2026": 14,
+   "feriados_al_1_ene_2016": 13,
+   "nota": "13 en 2016; la Nochebuena los lleva a 14 desde 2025. Tres de los catorce (Domingo de Pascua, Pentecostes y algunos anos otros) caen en domingo."
+  }
+ },
+ "vacaciones": {
+  "texto_legal_dias": 20,
+  "tipo_de_dia": "dni que son dias de trabajo del trabajador",
+  "literal": "Art. 154 § 1: 'Wymiar urlopu wynosi: 1) 20 dni - jezeli pracownik jest zatrudniony krocej niz 10 lat; 2) 26 dni - jezeli pracownik jest zatrudniony co najmniej 10 lat.'",
+  "definicion_de_la_unidad": "Art. 154(2) § 1: 'Urlopu udziela sie w dni, ktore sa dla pracownika dniami pracy, zgodnie z obowiazujacym go rozkladem czasu pracy, w wymiarze godzinowym, odpowiadajacym dobowemu wymiarowi czasu pracy pracownika w danym dniu.' § 2: 'Przy udzielaniu urlopu zgodnie z § 1, jeden dzien urlopu odpowiada 8 godzinom pracy.'",
+  "definicion_traduccion": "Las vacaciones se conceden en dias que son PARA EL TRABAJADOR dias de trabajo, conforme al horario que le rige, en computo horario correspondiente a su jornada diaria en ese dia. Un dia de vacaciones equivale a 8 horas de trabajo.",
+  "unidad_nota": "El art. 154 dice 'dni' a secas, pero la unidad NO queda indeterminada: el art. 154(2) la define y ademas anade una segunda capa, porque la bolsa se administra realmente EN HORAS (20 x 8 = 160 h; 26 x 8 = 208 h) y el 'dia' es el multiplo de ocho horas. Para el trabajador de referencia el resultado coincide con 20 dias laborables.",
+  "fuente": "F3",
+  "base_semanal": 5,
+  "base_nota": "CINCO, y LEIDA de la norma, no elegida: art. 129 § 1 del propio Kodeks pracy, 'Czas pracy nie moze przekraczac 8 godzin na dobe i przecietnie 40 godzin w przecietnie pieciodniowym tygodniu pracy w przyjetym okresie rozliczeniowym nieprzekraczajacym 4 miesiecy' — ocho horas diarias y una media de cuarenta semanales en una semana de trabajo de CINCO dias en promedio. El literal se verifico en el PDF de la gaceta. Polonia y Portugal son las dos unidades del lote cuya base semanal esta en el texto.",
+  "periodo_de_calificacion_meses": 12,
+  "periodo_literal": "Art. 153 § 1: 'Pracownik podejmujacy prace po raz pierwszy, w roku kalendarzowym, w ktorym podjal prace, uzyskuje prawo do urlopu z uplywem kazdego miesiaca pracy, w wymiarze 1/12 wymiaru urlopu przysluguajacego mu po przepracowaniu roku.' § 2: 'Prawo do kolejnych urlopow pracownik nabywa w kazdym nastepnym roku kalendarzowym.'",
+  "periodo_nota": "El devengo 1/12 mensual aplica SOLO en el primer empleo de la vida laboral ('po raz pierwszy'), no en el primer ano de cada empresa. A partir del segundo ano natural el derecho nace integro el 1 de enero. Se pone 12 meses por convencion con el resto del piloto, pero la mecanica real es distinta: no es una carencia por servicio, es un devengo prorrateado que solo existe una vez en la vida.",
+  "escala_antiguedad": {
+   "presente": true,
+   "tramos": [
+    [
+     12,
+     120,
+     20
+    ],
+    [
+     120,
+     null,
+     26
+    ]
+   ],
+   "literal": "20 dias si menos de 10 anos de empleo; 26 si al menos 10"
+  },
+  "base_de_antiguedad": {
+   "literal_155": "Art. 155 § 1: 'Do okresu pracy, od ktorego zalezy wymiar urlopu, wlicza sie z tytulu ukonczenia: 1) zasadniczej lub innej rownorzednej szkoly zawodowej - […] nie wiecej jednak niz 3 lata, 2) sredniej szkoly zawodowej - […] nie wiecej niz 5 lat, 3) sredniej szkoly zawodowej dla absolwentow zasadniczych (rownorzednych) szkol zawodowych - 5 lat, 4) sredniej szkoly ogolnoksztalcacej - 4 lata, 5) szkoly policealnej - 6 lat, 6) szkoly wyzszej - 8 lat. Okresy nauki, o ktorych mowa w pkt 1-6, nie podlegaja sumowaniu.'",
+   "literal_154_1": "Art. 154(1) § 1: 'Do okresu zatrudnienia, od ktorego zalezy prawo do urlopu i wymiar urlopu, wlicza sie okresy poprzedniego zatrudnienia, bez wzgledu na przerwy w zatrudnieniu oraz sposob ustania stosunku pracy.'",
+   "nota": "DOS COSAS QUE EL ESQUEMA NO SABE DECIR. La primera, que la antiguedad es de CARRERA y no de empresa (art. 154(1)): el cargador fija `base_antiguedad` en 'servicio_continuo_empleador_actual', que aqui es directamente falso; el valor correcto seria 'servicio_reconocido_empleadores_previos'. La segunda es peor: el art. 155 computa los ANOS DE ESTUDIOS como si fueran servicio, ocho por educacion superior, sin acumular titulos y sin solaparse con el empleo. Ninguno de los tres valores del dominio cubre eso. Consecuencia practica y grande: un titulado universitario polaco entra al mercado con ocho anos ya computados y llega a los 26 dias tras solo DOS anos de trabajo efectivo. Para el trabajador cualificado de Varsovia el tramo modal es 26, no 20. Ver `hallazgos_de_esquema` H-E18."
+  },
+  "fraccionamiento": "Art. 162: 'Na wniosek pracownika urlop moze byc podzielony na czesci. W takim jednak przypadku co najmniej jedna czesc wypoczynku powinna trwac nie mniej niz 14 kolejnych dni kalendarzowych.' — a peticion del trabajador, con un bloque de al menos catorce dias CALENDARIO consecutivos. Es la unica magnitud del regimen expresada en dias naturales, en contraste deliberado con los 'dni' del art. 154.",
+  "estado_verificacion": "verificado_primaria"
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "Verificado en los dos modulos y con metodo reproducible. Feriados: el historial completo de actos modificatorios de la ley de 1951 en la API ELI del Sejm da siete actos en toda su historia, de los cuales solo dos caen en la ventana — el art. 1a por COVID (2020, no crea feriados) y la Nochebuena (2024, vigor 2025). Vacaciones: se comparo el texto consolidado de 2016 (Dz.U. 2016 poz. 1666) contra el vigente (Dz.U. 2025 poz. 277) sobre los arts. 152 a 155; IDENTICOS, cero diferencias. En colocacion, una sola diferencia: el art. 163 § 3 amplio en 2019 el derecho a exigir vacaciones tras la maternidad a otros miembros de la familia cercana."
+ },
+ "reformas": [
+  {
+   "instrumento": "Dz.U. 2020 poz. 695",
+   "efecto": "anade el art. 1a a la ley de feriados: facultad del Primer Ministro de declarar dias libres por reglamento en estado de epidemia",
+   "entrada_en_vigor": "2020-04-18",
+   "dentro_de_ventana": true,
+   "afecta_al_conteo": false,
+   "nota": "Crea un mecanismo, no un dia."
+  },
+  {
+   "instrumento": "Dz.U. 2024 poz. 1965",
+   "efecto": "anade el 24 de diciembre, Wigilia, como dia libre de trabajo",
+   "publicacion": "2024-12-30",
+   "entrada_en_vigor": "2025-02-01",
+   "primer_efecto": 2025,
+   "dentro_de_ventana": true,
+   "nivel_de_fuente": 1,
+   "nota_de_alcance": "La MISMA ley reformo tambien la ley de comercio en domingo: abrio tres domingos comerciales antes de Navidad en lugar de dos, y traslado al Sabado Santo el regimen de cierre a las 14:00 que antes tenia el 24 de diciembre. ESO NO ES MATERIA DE FERIADOS y se separa a proposito: es regulacion de apertura comercial. Tambien retoco el art. 151(9b) del Kodeks pracy y el art. 218a del Kodeks karny para borrar las referencias al 24 de diciembre."
+  },
+  {
+   "instrumento": "Dz.U. 2019 poz. 1043",
+   "efecto": "amplia el art. 163 § 3 del Kodeks pracy: el derecho a exigir vacaciones inmediatamente despues de la licencia de maternidad alcanza tambien a otros miembros de la familia cercana",
+   "entrada_en_vigor": "2019-09-07",
+   "dentro_de_ventana": true,
+   "afecta_al_valor": false
+  }
+ ],
+ "linea_base_2016": {
+  "n_feriados": 13,
+  "aritmetica": "13 en 2016 + 1 (Wigilia, 2025) = 14 en 2026. CUADRA.",
+  "estado_verificacion": "verificado — el historial de la API ELI acredita que entre 1990 y 2024 la ley de feriados solo se modifico en 2010 y en 2020, y ninguna de las dos toco la lista."
+ },
+ "delta_2016_2026": {
+  "feriados": "+1 (Wigilia, 24 de diciembre, primer efecto 2025)",
+  "vacaciones": "0 — verificado por comparacion del texto consolidado de 2016 contra el vigente"
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "La base de antiguedad polaca —carrera completa mas anos de estudios— no cabe en el dominio de `base_antiguedad`, y el cargador ademas la fija por defecto en 'servicio_continuo_empleador_actual'.",
+   "por_que_importa": "Cambia el tramo modal: con ocho anos por titulo universitario, el trabajador cualificado llega a 26 dias en dos anos de trabajo. Codificado como servicio continuo con el empleador actual, el panel dira 20.",
+   "como_se_cierra": "Ver H-E18."
+  },
+  {
+   "id": "H2",
+   "que": "Los offsets de las cuatro fiestas moviles no salen del texto legal: la ley las nombra y no da formula.",
+   "por_que_importa": "Poco en la practica —el computo catolico es determinista y esta comprobado— pero es la unica cifra de esta captura que no es una lectura.",
+   "como_se_cierra": "Se declara y ya. El esquema no tiene donde decir que un campo es derivado y no leido."
+  },
+  {
+   "id": "H3",
+   "que": "La ficha de ISAP de la ley de 1951 esta tras CAPTCHA, que no se intento resolver.",
+   "por_que_importa": "Nada: se sustituyo por la API ELI del mismo Sejm, que da los mismos metadatos y ademas los PDF firmados."
+  }
+ ],
+ "hallazgos_de_esquema": [
+  {
+   "id": "H-E18",
+   "titulo": "La antiguedad que da derecho puede no ser tiempo trabajado",
+   "detalle": "`vacaciones_version.base_antiguedad` tiene tres valores —servicio continuo con el empleador actual, servicio reconocido de empleadores previos, experiencia laboral total— y los tres son formas de contar TRABAJO. El art. 155 polaco computa ANOS DE ESTUDIOS como periodo de trabajo a efectos de la escala: ocho anos por educacion superior, sin sumar titulos entre si y sin solaparse con el empleo. No es experiencia laboral: es formacion contada como si lo fuera. Ademas el cargador fija el campo a 'servicio_continuo_empleador_actual' para todas las unidades, cuando Polonia exige al menos 'servicio_reconocido_empleadores_previos' por el art. 154(1).",
+   "sugerencia": "Un cuarto valor del tipo 'servicio_mas_formacion_computada', y que el cargador LEA el campo en vez de fijarlo. El esquema ya tiene `regla_de_reconocimiento` para el detalle, y su CHECK obliga a rellenarlo cuando la base no es servicio continuo — o sea que el modelo ya preveia esto y el cargador lo cortocircuita."
+  },
+  {
+   "id": "H-E19",
+   "titulo": "Una facultad latente de crear feriados no tiene donde vivir",
+   "detalle": "El art. 1a polaco autoriza al Primer Ministro a declarar dias libres por reglamento durante un estado de epidemia. Es una reforma real de la ventana que no ha producido ningun dia. El esquema modela feriados y ocurrencias; no modela potestades. Paraguay tiene el mismo problema en version activa —hasta tres feriados discrecionales al ano, y si se usan—. Entre los dos delimitan el hueco: no hay forma de registrar que el conteo de un pais es una cota y no un valor."
+  }
+ ],
+ "no_mirado_todavia": [
+  "CBR Labour Regulation Index",
+  "cualquier dataset agregado de dias de vacaciones",
+  "data/derived/semilla/"
+ ],
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "_": "Se replico el metodo que la propia ficha describe —comparar textos consolidados fechados— y el resultado es mas fino que el suyo. Ver la correccion en la cita.",
+     "buscado_en": "API oficial de legislacion del Sejm: textos consolidados del Código de Trabajo publicados en Dz.U. 2016 poz. 1666 y Dz.U. 2023 poz. 1465, descargados y comparados artículo por artículo",
+     "cita": "EL ARTICULO DEL QUANTUM ES IDENTICO en los dos textos: «Art. 154. § 1. Wymiar urlopu wynosi: 1) 20 dni — jezeli pracownik jest zatrudniony krocej niz 10 lat; 2) 26 dni — jezeli pracownik jest zatrudniony co najmniej 10 lat». Veinte días en los dos cortes. CORRECCION A LA FICHA ORIGINAL: decia «arts. 152 a 155 identicos, cero diferencias», y el rango SI tiene una — el art. 155-2 cambio la enumeracion del servicio militar, por la ley de defensa de 2022. No toca el quantum, pero «cero diferencias» era demasiado. El texto consolidado de 2025 existe solo en PDF, asi que la comparacion cubre de 2016 a 2023.",
+     "nivel_de_fuente": 1,
+     "indice_registra_modificaciones": true,
+     "indice_como_se_comprobo": "No es un indice sino una comparacion de dos consolidados oficiales fechados, que el §10 bis admite igual en la rama (a). Y se comprobo que discrimina: el mismo metodo encontro una diferencia real en un artículo vecino.",
+     "fecha_busqueda": "2026-08-11"
+   },
+  "dias": 20,
+  "tipo": "habil",
+  "base": 5,
+  "imputacion": "extienden",
+  "meses": 12,
+  "literal": "Wymiar urlopu wynosi: 20 dni - jezeli pracownik jest zatrudniony krocej niz 10 lat; 26 dni - jezeli pracownik jest zatrudniony co najmniej 10 lat (kp art. 154 § 1). Urlopu udziela sie w dni, ktore sa dla pracownika dniami pracy (kp art. 154-2 § 1)",
+  "escala": [
+   [
+    12,
+    120,
+    20
+   ],
+   [
+    120,
+    null,
+    26
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "trabajador",
+   "veto": "ninguno",
+   "silencio": "aprobado",
+   "instrumento": "ley",
+   "alcance": "porcion_definida",
+   "porcion_dias": 4,
+   "literal": "Art. 167(2): 'Pracodawca jest obowiazany udzielic na zadanie pracownika i w terminie przez niego wskazanym nie wiecej niz 4 dni urlopu w kazdym roku kalendarzowym. Pracownik zglasza zadanie udzielenia urlopu najpozniej w dniu rozpoczecia urlopu.' — el empleador ESTA OBLIGADO a conceder, a requerimiento del trabajador y en la fecha que este indique, hasta cuatro dias por ano natural; el requerimiento se presenta a mas tardar el dia en que empiezan."
+  },
+  "colocacion_residual": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "alcance": "residual",
+   "literal": "Art. 163 § 1: 'Urlopy powinny byc udzielane zgodnie z planem urlopow. Plan urlopow ustala pracodawca, biorac pod uwage wnioski pracownikow i koniecznosc zapewnienia normalnego toku pracy.' Art. 163 § 1(1): si el sindicato de empresa da su conformidad —o si no hay sindicato, que es lo habitual en la empresa privada— el empleador NO establece plan y fija la fecha 'po porozumieniu z pracownikiem', previo acuerdo con el trabajador. Art. 161: obligacion de conceder en el ano en que se adquiere el derecho; art. 168: tope del 30 de septiembre del ano siguiente."
+  },
+  "colocacion_nota": "PARTICION de 4 + 16. Los cuatro dias del 'urlop na zadanie' son exigibles unilateralmente por el trabajador —el verbo es 'jest obowiazany udzielic', esta obligado a conceder— y salen de la bolsa, no se suman. El resto lo fija el empleador mediante el plan de vacaciones, con las peticiones del trabajador como insumo a ponderar en pie de igualdad con la marcha del centro. Matiz que importa para el trabajador privado de Varsovia: como la densidad sindical es baja, el § 1(1) hace que la via individual sea el regimen de hecho, y ahi el estandar sube de 'tener en cuenta' a 'previo acuerdo con el trabajador'. Hay una tercera isla que no se codifica: el art. 163 § 3 obliga a conceder las vacaciones inmediatamente despues de la licencia de maternidad, a simple solicitud.",
+  "imputacion_nota": "EXTIENDEN, y aqui la procedencia importa mas que el valor: SALE DE UNA CADENA DE DOS DEFINICIONES, no de un articulo. Se reviso el capitulo entero de urlopy wypoczynkowe (arts. 152 a 173) y no hay ni un precepto que mencione feriados en relacion con las vacaciones. La cadena es: art. 154(2) § 1, las vacaciones se conceden en dias que son de trabajo para el trabajador; mas art. 151(9) § 1, 'Dniami wolnymi od pracy sa niedziele i swieta okreslone w przepisach o dniach wolnych od pracy', los domingos y los feriados son dias no laborables. Un feriado no es dia de trabajo, luego es INELEGIBLE para imputarse; no hay nada que descontar. Es un grado mas debil que Portugal, Alemania o Noruega, donde UN SOLO articulo nombra los feriados dentro de la definicion de la unidad: aqui ningun articulo nombra los dos conceptos juntos y hace falta cruzar dos. Se codifica `extienden` siguiendo el precedente aleman del piloto, pero SE DECLARA que es el eslabon mas largo del lote y que el principal puede querer bajarlo a `sin_regla_explicita`. Confirmacion colateral desde el modulo de jornada, art. 130 § 2: 'Kazde swieto wystepujace w okresie rozliczeniowym i przypadajace w innym dniu niz niedziela obniza wymiar czasu pracy o 8 godzin' — cada feriado que no caiga en domingo reduce la jornada de referencia en ocho horas, que son justo las ocho horas a las que el art. 154(2) § 2 equipara un dia de vacaciones.",
+  "pendiente": "Nada del valor. Lo pendiente es la BASE DE ANTIGUEDAD: la escala se mide sobre carrera completa mas anos de estudios computados, y ni el dominio del esquema ni el cargador lo admiten. Ver H-E18."
+ }
+}

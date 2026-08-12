@@ -1,0 +1,58 @@
+# México — apéndice de país
+
+Jurisdicción de referencia: **Ciudad de México**  ·  código ISO3: `MEX`
+
+> **Procedencia de este documento.** Generado automáticamente. No editar a mano.
+>
+> | | |
+> |---|---|
+> | Protocolo | `v2.27` |
+> | Hash del protocolo | `bb9db022dec2e48c…` |
+> | Hash de la base | `44ddb8105c321371…` |
+> | Hash del generador | `71eb599cb03da0a1…` |
+> | Versión publicada | `v1.0` |
+
+
+## 1. Qué se midió aquí
+
+La unidad de referencia no es el país: es **Ciudad de México**, la jurisdicción concreta donde vive el trabajador de referencia. En un país sin ley nacional única de feriados, «el número del país» no existe, y promediar jurisdicciones fabricaría una cifra que ninguna norma concede.
+
+| variable | valor |
+|---|---|
+| feriados, corte 2016 | 8,0 |
+| feriados, corte 2026 | 8,0 |
+| vacaciones, texto legal | 6,0 habil |
+| base semanal | 5 días, declarada por la norma |
+| imputación de feriados | extienden |
+
+
+## 2. Fuentes disponibles para esta unidad
+
+El **nivel** dice qué clase de documento es, no cuánto se le cree: el nivel 1 es la gaceta oficial y el 4 es una sola fuente secundaria. El nivel se declara fila por fila y no se promedia.
+
+| nivel | autoridad | fecha de la norma | localización |
+|---|---|---|---|
+| 1 · gaceta oficial | DECRETO por el que se reforman las fracciones IV y XI del Apartado A del Artículo 123 de la Constitución Política de los | 2026-03-03 | <https://www.dof.gob.mx/nota_detalle.php?codigo=5781417&fecha=03%2F03%2F2026> |
+| 1 · gaceta oficial | DECRETO por el que se reforman los articulos 76 y 78 de la Ley Federal del Trabajo, en materia de vacaciones | — | <https://dof.gob.mx/nota_detalle.php?codigo=5675889&fecha=27/12/2022> |
+| 1 · gaceta oficial | DECRETO que reforma la fraccion VII del artículo 74 de la Ley Federal del Trabajo | — | <https://dof.gob.mx/nota_detalle.php?codigo=5739950&fecha=30/09/2024> |
+| 2 · portal gubernamental | Ley Federal del Trabajo, articulos 74, 76 y 78 | — | <https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf> |
+
+## 3. Qué metodología se siguió, dadas esas fuentes
+
+- **§2** — Definición de feriado público y su régimen: qué cuenta como descanso pagado obligatorio y qué no.
+- **§6** — Nivel de fuente y evidencia: todo hecho lleva al menos una.
+- **§3** — Titularidad de vacaciones anuales: cantidad, unidad de conteo leída de la norma y base semanal.
+- **§4** — Imputación de feriados al período vacacional: si lo extienden o se computan contra él.
+- **§5** — Reglas de colocación en capas, y §34.2 para la resolución del desacuerdo cuando la colocación es negociada.
+- **§2.4** — Clase de regla de fecha, y §35 para las reglas condicionales y la cuota designada.
+
+
+## 4. Lo más importante que se decidió sobre esta unidad
+
+1. **Colocación**: la pide el trabajador. El empleador puede oponerse con carácter ninguno. Un derecho de N días que fija el empleador no es el mismo bien que N días de elección libre, y el número solo no lo distingue.
+2. La titularidad **progresa con la antigüedad**: 16 tramos registrados. La cifra de portada es la del trabajador de referencia, con doce meses exactos de servicio continuo.
+
+
+## 5. Cómo re-derivar estos valores
+
+Tome las fuentes de la sección 2, aplique las reglas de la sección 3 y tenga en cuenta las decisiones de la sección 4. El apéndice de verificación de esta misma unidad trae, para cada número, la cita textual de la que sale y la aritmética completa.

@@ -1,0 +1,56 @@
+{
+  "_": "JORNADA SEMANAL LEGAL ORDINARIA. Trabajador de referencia: sector privado formal, jornada completa, Bangkok. Lote 5.",
+  "unidad": "THA",
+  "jurisdiccion_de_referencia": "Bangkok",
+  "capturado_por": "jornada · lote 5",
+  "fecha_captura_utc": "2026-08-11T05:38:11Z",
+  "fuentes": {
+    "J1": {
+      "cita": "Labour Protection Act, B.E. 2541 (1998), secciones 23, 28 y 29 - traduccion oficial de la Office of the Council of State",
+      "url": "https://www.vertic.org/media/National%20Legislation/Thailand/TH_Labor_Protection_Act.pdf",
+      "nivel_de_fuente": 2,
+      "publicacion": "1998",
+      "version_archivada": "PDF con pie de pagina: '(c) 2008, Pakorn Nilprapunt, Office of the Council of State (www.krisdika.go.th, www.lawreform.go.th)'",
+      "nota": "Traduccion OFICIAL del organo redactor de la legislacion tailandesa, leida en texto completo tras extraer el PDF. El propio documento advierte que solo la version tailandesa tiene valor en cualquier jurisdiccion. Se accede por un espejo de terceros (vertic.org) porque el sitio de krisdika no respondio; el documento es el oficial."
+    },
+    "J2": {
+      "cita": "พระราชบัญญัติคุ้มครองแรงงาน พ.ศ. ๒๕๔๑, มาตรา ๒๓, ๒๘ y ๒๙ - texto tailandes",
+      "url": "https://www.drthawip.com/laborlaw/006",
+      "nivel_de_fuente": 4,
+      "nota": "NIVEL 4, una sola secundaria, pero es la que aporta el literal en el idioma que la propia ley declara autoritativo. Su redaccion concuerda punto por punto con la traduccion oficial de J1, incluida la clausula de sustitucion del feriado."
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 48,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": 6,
+    "dias_ordinarios_origen": "derivado_de_topes",
+    "literal": "Section 23. The employer shall notify the ordinary working period to the employee. The daily commencing and ending time of work of the employee shall no longer than the working period of each category of work as prescribed by the Ministerial Regulations, but such working period shall no longer than eight hours a day and the total working period shall not more than forty-eight hours a week. In the case of work which may be harmful to health and safety of the employee as prescribed by the Ministerial Regulations, the ordinary working period shall no longer than seven hours a day and the total working period shall not more than forty-two hours a week.",
+    "literal_idioma_original": "มาตรา ๒๓ ให้นายจ้างประกาศเวลาทำงานปกติให้ลูกจ้างทราบ โดยกำหนดเวลาเริ่มต้นและเวลาสิ้นสุดของการทำงานแต่ละวันของลูกจ้างได้ไม่เกินเวลาทำงานของแต่ละประเภทงานตามที่กำหนดในกฎกระทรวง แต่วันหนึ่งต้องไม่เกินแปดชั่วโมง และเมื่อรวมเวลาทำงานทั้งสิ้นแล้ว สัปดาห์หนึ่งต้องไม่เกินสี่สิบแปดชั่วโมง",
+    "traduccion": "Seccion 23. El empleador notificara al trabajador la jornada ordinaria. La hora de inicio y de fin del trabajo diario del trabajador no excedera de la jornada de cada categoria de trabajo que fije el reglamento ministerial, pero un dia no podra exceder de ocho horas y, sumado el total, una semana no podra exceder de cuarenta y ocho horas. Tratandose de trabajo que pueda ser danino para la salud y la seguridad del trabajador conforme al reglamento ministerial, la jornada ordinaria no excedera de siete horas diarias ni de cuarenta y dos horas semanales.",
+    "fuente": "J1",
+    "nota": "SEIS DIAS DERIVADOS, Y CON CONFIRMACION TEXTUAL. 48 entre 8 da 6, y la seccion 28 lo respalda desde el otro lado al decir que el intervalo entre descansos semanales no puede pasar de seis dias: seis dias trabajados y uno libre. Es el caso arquetipico que el encargo describe. || El tailandes es la version autoritativa por declaracion del propio documento oficial; por eso el literal va en los dos idiomas y no solo en la traduccion. || Nota de alcance: 48 horas es el techo de la jornada ORDINARIA. Las horas por encima son extra (seccion 24, con consentimiento del trabajador caso por caso) y su tope lo fija reglamento ministerial, no la ley (seccion 26)."
+  },
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "uno de cada siete, sin nombrar; la ley deja expresamente elegir el dia",
+    "literal": "Section 28. The employer shall provide the weekly holiday to the employee for not less than one day per week. The interval period between each weekly holiday shall no longer than six days. The employer and employee may conclude in advance to provide any day as the weekly holiday.",
+    "literal_idioma_original": "มาตรา ๒๘ ให้นายจ้างจัดให้ลูกจ้างมีวันหยุดประจำสัปดาห์ สัปดาห์หนึ่งไม่น้อยกว่าหนึ่งวัน โดยวันหยุดประจำสัปดาห์ต้องมีระยะห่างกันไม่เกินหกวัน",
+    "traduccion": "Seccion 28. El empleador concedera al trabajador un dia de descanso semanal, no menos de un dia por semana. El intervalo entre cada descanso semanal no podra exceder de seis dias. El empleador y el trabajador podran acordar de antemano cualquier dia como descanso semanal.",
+    "fuente": "J1",
+    "nota": "El dia NO esta nombrado, y la ley es explicita al respecto: las partes pueden pactar cualquier dia. En Tailandia no hay descanso dominical legal, ni siquiera como preferencia; el domingo no aparece. Para hoteles, transporte, trabajo en bosque y lugares apartados, la seccion 28 parrafo segundo permite acumular los descansos semanales y tomarlos dentro de cuatro semanas consecutivas."
+  },
+  "traslado_por_defecto": {
+    "existe": true,
+    "regla": "se compensa con otro dia: el trabajador descansa el siguiente dia laborable",
+    "alcance": "los feriados tradicionales de la seccion 29, minimo trece al ano incluido el Dia Nacional del Trabajo",
+    "literal": "Section 29. [...] In the case where any traditional holiday is the same day of the weekly holiday, the employee shall have a day off in replace of such traditional holiday on the next working day.",
+    "literal_idioma_original": "ในกรณีที่วันหยุดตามประเพณีวันใดตรงกับวันหยุดประจำสัปดาห์ของลูกจ้าง ให้ลูกจ้างได้หยุดชดเชยวันหยุดตามประเพณีนั้นในวันทำงานถัดไป",
+    "traduccion": "Seccion 29. [...] En el caso de que algun feriado tradicional coincida con el descanso semanal del trabajador, el trabajador tendra un dia de descanso en sustitucion de ese feriado tradicional el siguiente dia de trabajo.",
+    "fuente": "J1",
+    "nota": "ES LA REGLA MAS LIMPIA DEL LOTE Y CONVIENE VER POR QUE. Se dispara por coincidir con el DESCANSO SEMANAL DEL TRABAJADOR -no con el domingo, que en Tailandia no significa nada juridicamente-, y por eso funciona cualquiera que sea el dia libre pactado. Es automatica, es del empleador y no requiere decreto. Contrasta con Japon, donde la regla equivalente se dispara por caer en domingo y por tanto no protege a quien libra otro dia. || El parrafo siguiente cubre el otro supuesto: si por la naturaleza del trabajo el trabajador no puede parar en el feriado, el empleador pacta con el un dia sustitutivo o le paga la remuneracion de dia festivo."
+  },
+  "reformas_en_la_ventana": [],
+  "reformas_en_la_ventana_nota": "Lista vacia por verificacion, no por omision. Las secciones 23, 28 y 29 no se han modificado desde 1998. Las tres reformas de la Labour Protection Act que caen en la ventana -numeros 5 y 6, B.E. 2560 (2017), y numero 7, B.E. 2562 (2019)- tocan jubilacion, indemnizacion por despido, licencia de maternidad (a 98 dias), licencia por asuntos personales y traslado de centro de trabajo, pero no la jornada, ni el descanso semanal, ni el regimen de feriados tradicionales.",
+  "pendiente": "El literal tailandes descansa en una sola secundaria (nivel 4): legal.labour.go.th, sitio de la Division Juridica del Departamento de Proteccion del Trabajo, rechazo la conexion, y krisdika.go.th no se alcanzo. La traduccion oficial si se leyo entera, pero por un espejo de terceros. PENDIENTE confirmar que las reformas 5, 6 y 7 no tocaron estas tres secciones leyendo sus textos, en vez de listados de contenido."
+}

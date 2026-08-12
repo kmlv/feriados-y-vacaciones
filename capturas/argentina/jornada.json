@@ -1,0 +1,68 @@
+{
+  "_": "JORNADA SEMANAL LEGAL ORDINARIA de Argentina. Trabajador de referencia: sector privado formal, jornada completa, Ciudad Autonoma de Buenos Aires. Se leyeron los dispositivos, no compilaciones.",
+  "unidad": "ARG",
+  "jurisdiccion_de_referencia": "Buenos Aires - Ciudad Autonoma",
+  "capturado_por": "jornada · lote 1",
+  "fecha_captura_utc": "2026-08-11T05:55:37Z",
+
+  "fuentes": {
+    "J1": {
+      "cita": "Ley 11.544 - Jornada de Trabajo (12 de septiembre de 1929), art. 1",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/63368/texact.htm",
+      "nivel_de_fuente": 2,
+      "publicacion": "1929-09-17",
+      "nota": "Texto actualizado de InfoLEG (portal del Ministerio de Justicia). NO se leyo el aviso del Boletin Oficial: por eso nivel 2 y no 1. El texto actualizado registra que el art. 3 fue sustituido por el art. 100 de la Ley 27.802 (B.O. 06/03/2026) y que el art. 6 fue derogado por su art. 208; el art. 1 no fue tocado."
+    },
+    "J2": {
+      "cita": "Ley 20.744 (t.o. 1976) - Regimen de Contrato de Trabajo, arts. 166, 196, 197, 204, 205, 207",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25552/texact.htm",
+      "nivel_de_fuente": 2,
+      "nota": "Texto actualizado de InfoLEG. Los literales de abajo se transcribieron del propio texto, no de parafrasis."
+    },
+    "J3": {
+      "cita": "Ley 27.399 - Ley de establecimiento de feriados y fines de semanas largos, arts. 1 y 6",
+      "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/280000-284999/281835/norma.htm",
+      "nivel_de_fuente": 2,
+      "publicacion": "2017-10-18",
+      "nota": "InfoLEG. El aviso del Boletin Oficial no se leyo."
+    }
+  },
+
+  "jornada": {
+    "horas_semanales_max": 48,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": 5.5,
+    "dias_ordinarios_origen": "norma",
+    "literal": "Art. 1 Ley 11.544: 'La duracion del trabajo no podra exceder de ocho horas diarias o cuarenta y ocho horas semanales para toda persona ocupada por cuenta ajena en explotaciones publicas o privadas, aunque no persigan fines de lucro.' — Art. 196 LCT: 'La extension de la jornada de trabajo es uniforme para toda la Nacion y regira por la ley 11.544...'",
+    "traduccion": null,
+    "fuente": "J1",
+    "nota": "5,5 NO es un valor de relleno: sale de cruzar dos preceptos. El tope es 8 diarias y 48 semanales (J1 art. 1), y el art. 204 LCT prohibe ocupar al trabajador desde el sabado a las 13:00. La semana ordinaria legal va entonces de lunes a sabado al mediodia. El art. 205 LCT confirma que esa prohibicion 'no importara disminucion del total semanal de horas de trabajo', es decir que las 48 horas se redistribuyen dentro de esa ventana en vez de recortarse. OJO: la ley fija un MAXIMO, no obliga a agotarlo; muchisimos convenios colectivos pactan cinco dias. El art. 197 LCT deja expresamente la distribucion horaria como 'facultad privativa del empleador', y entre el fin de una jornada y el comienzo de la otra deben mediar 12 horas."
+  },
+
+  "descanso_semanal": {
+    "dias": 1.5,
+    "cuales": "domingo completo y sabado desde las 13:00",
+    "literal": "Art. 204 LCT: 'Queda prohibida la ocupacion del trabajador desde las trece (13) horas del dia sabado hasta las veinticuatro (24) horas del dia siguiente, salvo en los casos de excepcion previstos en el articulo precedente y los que las leyes o reglamentaciones prevean, en cuyo caso el trabajador gozara de un descanso compensatorio de la misma duracion...'",
+    "fuente": "J2",
+    "nota": "Es el llamado 'sabado ingles'. Cuando se trabaja en ese tramo por excepcion, el art. 204 manda descanso compensatorio de la misma duracion, y el art. 207 lo refuerza: si no se otorga, el trabajador puede tomarlo desde el primer dia habil de la semana subsiguiente avisando con 24 horas y el empleador paga el salario con 100% de recargo."
+  },
+
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": null,
+    "alcance": null,
+    "literal": "Art. 6 Ley 27.399: 'Los feriados nacionales trasladables establecidos por el articulo 1 de la presente cuyas fechas coincidan con los dias martes y miercoles seran trasladados al dia lunes anterior. Los que coincidan con los dias jueves y viernes seran trasladados al dia lunes siguiente.' — Art. 166 LCT: 'En los dias feriados nacionales rigen las normas legales sobre el descanso dominical. En dichos dias los trabajadores que no gozaren de la remuneracion respectiva percibiran el salario correspondiente a los mismos, aun cuando coincidan en domingo.'",
+    "fuente": "J3",
+    "nota": "NO hay traslado cuando el feriado cae en el descanso semanal, y conviene no confundirlo con lo que si existe. Argentina tiene una regla de traslado, pero es de fin de semana largo y solo alcanza a cuatro feriados 'trasladables' (17 jun, 17 ago, 12 oct, 20 nov) y solo cuando caen de martes a viernes. Un feriado que cae en sabado o en domingo se queda donde esta, sea trasladable o inamovible. Lo unico que la ley preve para ese caso es de dinero, no de tiempo: el art. 166 LCT asegura el pago 'aun cuando coincidan en domingo', lo que protege al jornalizado pero no le devuelve el dia a nadie. En terminos de descanso, el feriado SE PIERDE."
+  },
+
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "Ley 27.802 - Ley de Modernizacion Laboral (B.O. 06/03/2026)",
+      "anio": 2026,
+      "que_cambio": "NO toco el tope de 8 diarias / 48 semanales. Sustituyo el art. 3 de la Ley 11.544 (regimen de excepciones) y derogo su art. 6, y sustituyo el art. 197 bis LCT habilitando pactar por escrito regimenes de compensacion de horas extras, banco de horas y francos compensatorios."
+    }
+  ],
+
+  "pendiente": "Tres cosas. (1) Nivel de fuente: todo se leyo en InfoLEG, no en el Boletin Oficial; queda pendiente archivar los avisos y verificar los literales contra ellos. (2) El DNU 70/2023, cuyo Titulo IV (Trabajo) fue suspendido por medida cautelar en enero de 2024, no se localizo y no pude confirmar su estado; no afecta el tope de jornada pero si el entorno normativo. (3) La Ley 27.802 es POSTERIOR al corte del proyecto (1-ene-2026): al corte regia el art. 197 bis anterior y el art. 3 anterior de la Ley 11.544. El tope de jornada es el mismo antes y despues."
+}

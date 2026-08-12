@@ -1,0 +1,86 @@
+{
+  "unidad": "GRC",
+  "jurisdiccion_de_referencia": "Atenas; el régimen de jornada es nacional",
+  "fecha_captura_utc": "2026-08-11T06:11:34Z",
+  "trabajador_de_referencia": "sector privado formal, jornada completa (πλήρης απασχόληση)",
+
+  "fuentes": {
+    "J1": {
+      "cita": "Π.Δ. 62/2025, «Κώδικας Εργατικού Δικαίου» (Código de Derecho del Trabajo), artículos 173, 187, 188, 189, 194, 203, 204 y 205; su artículo 587 deroga el Π.Δ. 80/2022",
+      "url": "https://www.elinyae.gr/sites/default/files/2025-07/121%CE%B1_2025.pdf",
+      "nivel_de_fuente": 1,
+      "publicacion": "ΦΕΚ Α' 121, 11 de julio de 2025",
+      "nota": "PDF del Boletín Oficial griego con el bloque de firma digital del Εθνικό Τυπογραφείο. ADVERTENCIA DE PROCEDENCIA: se descargó del espejo de ELINYAE y no del dominio et.gr, cuyo endpoint de descarga redirige a una IP desnuda que el recuperador rechaza. El artefacto es la gaceta firmada; el host no es el oficial. Ver campo pendiente."
+    },
+    "J2": {
+      "cita": "Ν. 4808/2021 «Για την Προστασία της Εργασίας», artículo 55 (Καθιέρωση χρονικών ορίων εργασίας), artículo 58, artículo 59 y artículo 60",
+      "url": "https://www.elinyae.gr/sites/default/files/2021-06/101a_2021.pdf",
+      "nivel_de_fuente": 1,
+      "publicacion": "ΦΕΚ Α' 101, 19 de junio de 2021",
+      "nota": "Es la norma que fija las cuarenta horas; el artículo 189 del Código J1 la recoge literalmente, según la tabla de concordancias del propio Código. Misma advertencia de procedencia que J1."
+    },
+    "J3": {
+      "cita": "Ν. 5053/2023, artículos 25 y 26 (sexta jornada semanal) y artículo 39 (entrada en vigor)",
+      "url": "https://www.elinyae.gr/sites/default/files/2023-09/158a_2023.pdf",
+      "nivel_de_fuente": 1,
+      "publicacion": "ΦΕΚ Α' 158, 26 de septiembre de 2023",
+      "nota": "Misma advertencia de procedencia."
+    },
+    "J4": {
+      "cita": "Ν. 5239/2025 «Δίκαιη Εργασία για Όλους», artículo 7, que modifica el artículo 194 del Código (horas extraordinarias hasta cuatro diarias)",
+      "url": "https://www.elinyae.gr/sites/default/files/2025-10/178a_2025_0.pdf",
+      "nivel_de_fuente": 1,
+      "publicacion": "ΦΕΚ Α' 178, 17 de octubre de 2025",
+      "nota": "Misma advertencia de procedencia."
+    }
+  },
+
+  "jornada": {
+    "horas_semanales_max": 40,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "Άρθρο 189. 1. Σε όλους ανεξαιρέτως τους κλάδους εργασίας και σε όλους τους τομείς οικονομικής δραστηριότητας, η πλήρης απασχόληση καθορίζεται σε σαράντα (40) ώρες εβδομαδιαίως, οι οποίες δύνανται να κατανέμονται σε πενθήμερη ή εξαήμερη εβδομαδιαία εργασία, σύμφωνα με τις ισχύουσες διατάξεις, τις συλλογικές συμβάσεις εργασίας ή τις διαιτητικές αποφάσεις. Όταν εφαρμόζεται σύστημα πενθήμερης εβδομαδιαίας εργασίας, το πλήρες συμβατικό ωράριο εργασίας ανέρχεται ημερησίως σε οκτώ (8) ώρες, ενώ όταν εφαρμόζεται σύστημα εξαήμερης εβδομαδιαίας εργασίας, το πλήρες ωράριο εργασίας ανέρχεται σε έξι (6) ώρες και σαράντα (40) λεπτά ημερησίως. […] 2. Στο πλαίσιο διευθέτησης του χρόνου εργασίας του άρθρου 202, ως πλήρης απασχόληση νοείται και η εργασία τεσσάρων (4) ημερών εβδομαδιαίως. […] Άρθρο 188. 3. Η εφαρμογή συστήματος εβδομαδιαίας εργασίας πέντε (5) εργάσιμων ημερών, με τους περιορισμούς του παρόντος άρθρου, απόκειται στην κρίση του εργοδότη. […] Άρθρο 187. Οι ώρες εργασίας δεν επιτρέπεται να υπερβαίνουν τις οκτώ (8) ώρες κάθε ημέρα και τις σαράντα οκτώ (48) κάθε εβδομάδα.",
+    "traduccion": "Artículo 189. 1. En todas las ramas de trabajo sin excepción y en todos los sectores de actividad económica, el empleo a tiempo completo se fija en cuarenta (40) horas semanales, que PUEDEN distribuirse en semana laboral de cinco o de seis días, conforme a las disposiciones vigentes, los convenios colectivos o los laudos arbitrales. Cuando se aplica el sistema de cinco días, la jornada contractual completa es de ocho (8) horas diarias; cuando se aplica el de seis días, es de seis (6) horas y cuarenta (40) minutos diarios. […] 2. En el marco de la ordenación del tiempo de trabajo del artículo 202, se considera también tiempo completo el trabajo de cuatro (4) días semanales. […] Artículo 188. 3. La aplicación del sistema de semana laboral de cinco (5) días laborables, con las limitaciones del presente artículo, QUEDA A CRITERIO DEL EMPLEADOR. […] Artículo 187. Las horas de trabajo no pueden exceder de ocho (8) cada día y de cuarenta y ocho (48) cada semana.",
+    "fuente": "J1",
+    "nota": "GRECIA PARECE UN PAÍS DE CINCO DÍAS Y NO LO ES EN LA LEY. El artículo 189 nombra los dos sistemas —cinco y seis días— y usa el verbo permisivo δύνανται, «pueden»; el artículo 188 §3 remata diciendo que aplicar el sistema de cinco días «queda a criterio del empleador»; y el §2 del 189 admite además la semana de cuatro días como tiempo completo bajo ordenación. Tres textos independientes que dicen lo mismo: la ley fija las HORAS y deja los DÍAS a convenio, laudo o decisión patronal. Registrar 5 sería tomar la práctica dominante por norma. DOS TECHOS QUE CONVIVEN: las cuarenta horas del artículo 189 son el máximo del tiempo ORDINARIO —de la hora 41 en adelante la ley reclasifica el tiempo como υπερεργασία y luego como υπερωρία, con recargos—, mientras las cuarenta y ocho del artículo 187, heredadas del decreto de 1932, son el tope absoluto que incluye la sobrejornada. Se registran 40 y 8 porque describen el tiempo ordinario, que es lo que este campo mide. Nótese que en el sistema de seis días el tiempo ordinario sigue siendo 40 (6h40 × 6), de modo que la cifra no depende del número de días."
+  },
+
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "domingo",
+    "literal": "Άρθρο 173. Στους εργαζομένους εξασφαλίζεται ανά εβδομάδα, ελάχιστη περίοδος συνεχούς ανάπαυσης είκοσι τεσσάρων (24) ωρών, η οποία συμπεριλαμβάνει κατ' αρχήν την Κυριακή, ανάλογα με τις ισχύουσες για κάθε κατηγορία εργαζομένων διατάξεις της εργατικής νομοθεσίας και πρακτικές, στις οποίες προστίθενται οι έντεκα (11) συνεχείς ώρες της ημερήσιας ανάπαυσης του άρθρου 171. […] Άρθρο 205 §3. Στους εργαζομένους […] παρέχεται κάθε εβδομάδα συνεχής ελεύθερος χρόνος είκοσι τεσσάρων (24) ωρών που εκκινεί από την 00:00 ώρα της Κυριακής μέχρι την 24:00 ώρα της ιδίας ημέρας (εβδομαδιαία ανάπαυση).",
+    "traduccion": "Artículo 173. A los trabajadores se les asegura por semana un período mínimo de descanso continuo de veinticuatro (24) horas, que comprende en principio el domingo, según las disposiciones y prácticas vigentes para cada categoría de trabajadores, al que se añaden las once (11) horas continuas de descanso diario del artículo 171. […] Artículo 205 §3. A los trabajadores se les concede cada semana un tiempo libre continuo de veinticuatro (24) horas que va desde las 00:00 del domingo hasta las 24:00 del mismo día (descanso semanal).",
+    "fuente": "J1",
+    "nota": "Un día, y el domingo está nombrado dos veces: matizado en el artículo 173 («comprende en principio el domingo») y categórico en el 205 §3, que lo define por reloj de domingo a domingo. Sumado al descanso diario de once horas del artículo 171, el estándar son treinta y cinco horas continuas, con una derogación a veinticuatro horas por razones objetivas, técnicas u organizativas. Los artículos 206 y 210 enumeran sectores exceptuados de la obligación de descansar en domingo, y el artículo 212 les da descanso compensatorio; conviene saber que la Ley 5316/2026 amplió esa lista de excepciones."
+  },
+
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": "se pierde",
+    "alcance": null,
+    "literal": null,
+    "fuente": "J1",
+    "nota": "NEGATIVO ESTABLECIDO POR BÚSQUEDA EXHAUSTIVA, NO POR AUSENCIA DE COMENTARIO. Se recorrió el texto completo del Código —588 artículos— buscando σύμπτωση, συμπίπτ-, συμπέσ- y μετατεθ-, y sólo aparece UNA regla que acople la coincidencia de una fiesta con el día de descanso a un aplazamiento: el artículo 213 §2, exclusivo de las empresas TEATRALES, cuyo día de descanso es el lunes, y aun ahí el traslado es potestativo (δύναται) y requiere resolución del Ministro de Trabajo o del Perifereiarca. Que el legislador escribiera la regla una vez, para un sector, y no escribiera una general, es el mejor argumento a contrario disponible. Los artículos 203 (lista de αργίες obligatorias) y 204 (marco horario de la αργία) no dicen nada de coincidencias, y el 219, que regula el recargo del 75%, sólo prevé el caso del asalariado por jornal que no trabajó. El artículo 212, «αναπληρωματική ανάπαυση», tampoco sirve: da descanso sustitutivo a quien TRABAJÓ en domingo bajo excepción, no a quien vio su feriado caer en el descanso. Conclusión: el feriado que cae en domingo se absorbe."
+  },
+
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "Ν. 4808/2021, artículo 55 (ΦΕΚ Α' 101/19.06.2021)",
+      "anio": 2021,
+      "que_cambio": "Ancla legalmente las cuarenta horas semanales como tiempo completo para TODOS los sectores —antes provenía sustancialmente del convenio general nacional de 1984— y admite expresamente la distribución en cinco o en seis días. Introduce además la semana de cuatro días como tiempo completo bajo ordenación del tiempo de trabajo. Su artículo 59 abre una vía nueva: donde no hay sindicato o no hay acuerdo con él, la ordenación puede pactarse por acuerdo INDIVIDUAL escrito a petición del trabajador."
+    },
+    {
+      "instrumento": "Ν. 5053/2023, artículos 25 y 26 (ΦΕΚ Α' 158/26.09.2023)",
+      "anio": 2023,
+      "que_cambio": "Permite una SEXTA jornada semanal en empresas de funcionamiento continuo con turnos rotativos bajo régimen de cinco días (hoy artículo 192 del Código), y en empresas que no son de funcionamiento continuo pero afrontan una carga de trabajo imprevisible y muy elevada (artículo 191). Máximo ocho horas ese día, prohibidas la sobrejornada y las horas extraordinarias en él, y recargo del cuarenta por ciento. Excluye a hostelería y restauración. Vigente desde el 26 de septiembre de 2023. NO eleva las cuarenta horas ordinarias: es un sexto día excepcional."
+    },
+    {
+      "instrumento": "Ν. 5239/2025, artículo 7 (ΦΕΚ Α' 178/17.10.2025)",
+      "anio": 2025,
+      "que_cambio": "Eleva de tres a cuatro las horas extraordinarias diarias admisibles, hasta ciento cincuenta anuales, con recargo del cuarenta por ciento, y reconoce al trabajador el derecho a negarse sin que ello sea causa de despido ni de trato desfavorable. Es la reforma que la prensa llamó «jornada de trece horas», aunque el número trece no figura en el texto: resulta de sumar las nueve horas diarias alcanzables bajo el sistema de cinco días más las cuatro extraordinarias. No modifica el máximo semanal ordinario."
+    }
+  ],
+
+  "pendiente": "El máximo semanal ordinario NO cambió entre 2016 y 2026: fueron cuarenta horas al principio y al final de la ventana. Quedan dos cosas por cerrar. Primera, la procedencia: los cuatro ΦΕΚ se obtuvieron del espejo de ELINYAE porque et.gr redirige su descarga a una IP desnuda; los PDF llevan la firma digital del Εθνικό Τυπογραφείο, de ahí el nivel 1, pero si el proyecto exige que la URL sea del dominio oficial, hay que repetir la descarga a mano. Segunda, el estatus formal de las normas fuente: el artículo 587 del Π.Δ. 62/2025 deroga expresamente sólo el Π.Δ. 80/2022 y no las disposiciones codificadas (ΒΔ 748/1966, ΠΔ 88/1999, ν. 4808/2021), de modo que no se verificó si están derogadas o meramente desplazadas. No afecta a ninguna de las respuestas, porque la tabla de concordancias muestra traslado literal."
+}

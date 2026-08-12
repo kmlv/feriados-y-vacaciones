@@ -1,0 +1,583 @@
+regla_id,iso3,unidad,feriado_id,feriado,categoria,regimen,duracion_dias,recurrencia,periodo_anios,clase_de_fecha,calendario,mes,dia,ordinal,dia_semana,ancla,offset_dias,instrumento_remitido,dia_lunar_desde_fin,conjunto_de_referencia,condicion_referencia,condicion_dia_semana,vigencia_desde,vigencia_hasta,cobertura,elegibilidad,sector
+275,ARG,Buenos Aires,274,Lunes de Carnaval,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-48,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+277,ARG,Buenos Aires,276,Martes de Carnaval,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-47,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+281,ARG,Buenos Aires,280,Viernes Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+273,ARG,Buenos Aires,272,Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+279,ARG,Buenos Aires,278,Día Nacional de la Memoria por la Verdad y la Justicia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,3,24,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+283,ARG,Buenos Aires,282,Día del Veterano y de los Caídos en la Guerra de Malvinas,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,4,2,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+285,ARG,Buenos Aires,284,Día del Trabajador,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+287,ARG,Buenos Aires,286,Día de la Revolución de Mayo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+297,ARG,Buenos Aires,296,Paso a la Inmortalidad del General Martín Miguel de Güemes,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,17,,,,,,,,,,2018-01-01,,todo_el_pais,sin_condicion,privado
+289,ARG,Buenos Aires,288,Paso a la Inmortalidad del General Manuel Belgrano,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,20,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+291,ARG,Buenos Aires,290,Día de la Independencia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,7,9,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+299,ARG,Buenos Aires,298,Paso a la Inmortalidad del General José de San Martín,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,17,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+301,ARG,Buenos Aires,300,Día del Respeto a la Diversidad Cultural,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,12,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+303,ARG,Buenos Aires,302,Día de la Soberanía Nacional,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,20,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+293,ARG,Buenos Aires,292,Inmaculada Concepción de María,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,8,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+295,ARG,Buenos Aires,294,Navidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+325,AUS,Sídney,324,Easter Monday,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+321,AUS,Sídney,320,Easter Saturday,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+323,AUS,Sídney,322,Easter Sunday,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,0,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+319,AUS,Sídney,318,Good Friday,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+315,AUS,Sídney,314,New Year's Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+317,AUS,Sídney,316,Australia Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+327,AUS,Sídney,326,Anzac Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,4,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+329,AUS,Sídney,328,King's Birthday,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,6,,2,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+331,AUS,Sídney,330,Labour Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,10,,1,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+333,AUS,Sídney,332,Christmas Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+335,AUS,Sídney,334,Boxing Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+352,AUT,Viena,351,Christi Himmelfahrt,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,39,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+356,AUT,Viena,355,Fronleichnam,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,60,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+370,AUT,Viena,369,"Karfreitag (feriado confesional, derogado)",descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,2019-12-31,todo_el_pais,sin_condicion,privado
+348,AUT,Viena,347,Ostermontag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+354,AUT,Viena,353,Pfingstmontag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,50,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+344,AUT,Viena,343,Neujahr,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+346,AUT,Viena,345,Heilige Drei Koenige,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+350,AUT,Viena,349,Staatsfeiertag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+358,AUT,Viena,357,Mariae Himmelfahrt,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+360,AUT,Viena,359,Nationalfeiertag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+362,AUT,Viena,361,Allerheiligen,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+364,AUT,Viena,363,Mariae Empfaengnis,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,8,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+366,AUT,Viena,365,Weihnachten,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+368,AUT,Viena,367,Stefanitag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+387,BEL,Bruselas,386,Ascension,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,39,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+383,BEL,Bruselas,382,Lundi de Paques,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+389,BEL,Bruselas,388,Lundi de Pentecote,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,50,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+381,BEL,Bruselas,380,Nouvel An,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+385,BEL,Bruselas,384,Fete du Travail,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+391,BEL,Bruselas,390,Fete nationale,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,7,21,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+393,BEL,Bruselas,392,Assomption,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+395,BEL,Bruselas,394,Toussaint,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+397,BEL,Bruselas,396,Armistice,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,11,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+399,BEL,Bruselas,398,Noel,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+496,BGR,Sofía,495,Велика събота,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua_ortodoxa,-1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+498,BGR,Sofía,497,Великден - неделя,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua_ortodoxa,0,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+500,BGR,Sofía,499,Великден - понеделник,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua_ortodoxa,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+494,BGR,Sofía,493,Велики петък,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua_ortodoxa,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+474,BGR,Sofía,473,Нова година,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+476,BGR,Sofía,475,Ден на Освобождението на България,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,3,3,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+478,BGR,Sofía,477,Ден на труда,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+480,BGR,Sofía,479,"Гергьовден, Ден на храбростта и Българската армия",descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+482,BGR,Sofía,481,Ден на светите братя Кирил и Методий,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,24,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+484,BGR,Sofía,483,Ден на Съединението,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+486,BGR,Sofía,485,Ден на Независимостта на България,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,22,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+488,BGR,Sofía,487,Бъдни вечер,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,24,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+490,BGR,Sofía,489,Рождество Христово,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+492,BGR,Sofía,491,Рождество Христово - втори ден,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+424,BOL,Santa Cruz,423,Corpus Christi,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,60,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+416,BOL,Santa Cruz,415,Lunes de Carnaval,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-48,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+418,BOL,Santa Cruz,417,Martes de Carnaval,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-47,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+420,BOL,Santa Cruz,419,Viernes Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+412,BOL,Santa Cruz,411,Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+414,BOL,Santa Cruz,413,Día de la Creación del Estado Plurinacional de Bolivia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,22,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+422,BOL,Santa Cruz,421,Día del Trabajo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+426,BOL,Santa Cruz,425,Año Nuevo Aymara Amazónico,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,21,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+428,BOL,Santa Cruz,427,Día de la Independencia de Bolivia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+434,BOL,Santa Cruz,433,Efeméride departamental de Santa Cruz,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,24,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+430,BOL,Santa Cruz,429,Día de Todos los Difuntos,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,2,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+432,BOL,Santa Cruz,431,Navidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+461,BRA,São Paulo,460,Sexta-Feira da Paixao,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+443,BRA,São Paulo,442,Confraternizacao Universal,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+465,BRA,São Paulo,464,Aniversario da cidade de Sao Paulo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+445,BRA,São Paulo,444,Tiradentes,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,4,21,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+447,BRA,São Paulo,446,Dia do Trabalho,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+463,BRA,São Paulo,462,Revolucao Constitucionalista de 1932 - data magna do Estado de Sao Paulo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,7,9,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+449,BRA,São Paulo,448,Independencia do Brasil,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,7,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+451,BRA,São Paulo,450,Nossa Senhora Aparecida,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,12,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+453,BRA,São Paulo,452,Finados,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,2,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+455,BRA,São Paulo,454,Proclamacao da Republica,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+457,BRA,São Paulo,456,Dia Nacional de Zumbi e da Consciencia Negra,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,20,,,,,,,,,,2024-01-01,,todo_el_pais,sin_condicion,privado
+459,BRA,São Paulo,458,Natal,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+245,CAN,Toronto,244,Good Friday,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+241,CAN,Toronto,240,New Year's Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+243,CAN,Toronto,242,Family Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,2,,3,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+247,CAN,Toronto,246,Victoria Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa_a_fecha,gregoriano,5,25,,1,,-1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+249,CAN,Toronto,248,Canada Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,7,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+251,CAN,Toronto,250,Labour Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,9,,1,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+253,CAN,Toronto,252,Thanksgiving,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,10,,2,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+255,CAN,Toronto,254,Christmas Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+257,CAN,Toronto,256,Boxing Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1611,CHE,Zúrich,1610,Auffahrtstag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,39,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1605,CHE,Zúrich,1604,Karfreitag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1607,CHE,Zúrich,1606,Ostermontag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1613,CHE,Zúrich,1612,Pfingstmontag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,50,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1603,CHE,Zúrich,1602,Neujahrstag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1609,CHE,Zúrich,1608,Tag der Arbeit (1. Mai),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1601,CHE,Zúrich,1600,Bundesfeiertag (1. August),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1615,CHE,Zúrich,1614,Weihnachtstag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1617,CHE,Zúrich,1616,Stephanstag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+545,CHL,Santiago,544,Día Nacional de los Pueblos Indígenas,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,solsticio_junio,0,,,,,,2021-01-01,,todo_el_pais,sin_condicion,privado
+519,CHL,Santiago,518,Sábado Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+517,CHL,Santiago,516,Viernes Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+515,CHL,Santiago,514,Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+547,CHL,Santiago,546,Feriado del 2 de enero cuando recae en lunes,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,2,,,,,,,,propia,1,2017-01-01,,todo_el_pais,sin_condicion,privado
+521,CHL,Santiago,520,Día Nacional del Trabajo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+523,CHL,Santiago,522,Día de las Glorias Navales,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,21,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+525,CHL,Santiago,524,San Pedro y San Pablo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,29,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+527,CHL,Santiago,526,Virgen del Carmen,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,7,16,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+529,CHL,Santiago,528,Asunción de la Virgen,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+550,CHL,Santiago,548,Feriado del 17 de septiembre cuando recae en viernes,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,17,,,,,,,,propia,1,2017-01-01,,todo_el_pais,sin_condicion,privado
+549,CHL,Santiago,548,Feriado del 17 de septiembre cuando recae en viernes,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,17,,,,,,,,propia,5,2017-01-01,,todo_el_pais,sin_condicion,privado
+531,CHL,Santiago,530,Independencia Nacional,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,18,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+533,CHL,Santiago,532,Día de las Glorias del Ejército,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,19,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+552,CHL,Santiago,551,Feriado del 20 de septiembre cuando recae en viernes,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,20,,,,,,,,propia,5,2007-09-14,,todo_el_pais,sin_condicion,privado
+535,CHL,Santiago,534,Encuentro de Dos Mundos,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,12,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+537,CHL,Santiago,536,Día de las Iglesias Evangélicas y Protestantes,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,31,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+539,CHL,Santiago,538,Día de Todos los Santos,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+541,CHL,Santiago,540,Inmaculada Concepción,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,8,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+543,CHL,Santiago,542,Natividad del Señor,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+574,COL,Bogotá,573,Ascensión del Señor,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,43,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+576,COL,Bogotá,575,Corpus Christi,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,64,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+568,COL,Bogotá,567,Jueves Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-3,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+578,COL,Bogotá,577,Sagrado Corazón de Jesús,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,71,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+570,COL,Bogotá,569,Viernes Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+562,COL,Bogotá,561,Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+564,COL,Bogotá,563,Reyes Magos (Epifanía),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa_a_fecha,gregoriano,1,6,,1,,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+566,COL,Bogotá,565,Día de San José,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa_a_fecha,gregoriano,3,19,,1,,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+572,COL,Bogotá,571,Día del Trabajo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+580,COL,Bogotá,579,San Pedro y San Pablo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa_a_fecha,gregoriano,6,29,,1,,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+598,COL,Bogotá,597,Día de Nuestra Señora del Rosario de Chiquinquirá,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa_a_fecha,gregoriano,7,9,,1,,1,,,,,,2026-06-02,,todo_el_pais,sin_condicion,privado
+582,COL,Bogotá,581,Día de la Independencia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,7,20,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+584,COL,Bogotá,583,Batalla de Boyacá,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,7,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+586,COL,Bogotá,585,Asunción de la Virgen,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa_a_fecha,gregoriano,8,15,,1,,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+588,COL,Bogotá,587,Día de la Raza,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa_a_fecha,gregoriano,10,12,,1,,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+590,COL,Bogotá,589,Todos los Santos,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa_a_fecha,gregoriano,11,1,,1,,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+592,COL,Bogotá,591,Independencia de Cartagena,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa_a_fecha,gregoriano,11,11,,1,,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+594,COL,Bogotá,593,Inmaculada Concepción,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,8,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+596,COL,Bogotá,595,Navidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+667,CRI,San José,666,Jueves Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-3,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+669,CRI,San José,668,Viernes Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+663,CRI,San José,662,Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+665,CRI,San José,664,Batalla de Rivas (Juan Santamaría),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,4,11,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+671,CRI,San José,670,Día Internacional del Trabajo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+673,CRI,San José,672,Anexión del Partido de Nicoya,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,7,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+675,CRI,San José,674,Virgen de los Ángeles,descanso_obligatorio_no_pagado,sin_mandato_de_pago,1.0,recurrente,1,fija,gregoriano,8,2,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+677,CRI,San José,676,Día de la Madre,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+679,CRI,San José,678,Día de la Independencia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+681,CRI,San José,680,Día de las Culturas,descanso_obligatorio_no_pagado,sin_mandato_de_pago,1.0,recurrente,1,fija,gregoriano,10,12,,,,,,,,,,2016-01-01,2019-12-31,todo_el_pais,sin_condicion,privado
+683,CRI,San José,682,Día de la Abolición del Ejército,descanso_obligatorio_no_pagado,sin_mandato_de_pago,1.0,recurrente,1,fija,gregoriano,12,1,,,,,,,,,,2020-07-02,,todo_el_pais,sin_condicion,privado
+685,CRI,San José,684,Navidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1468,CZE,Praga,1467,Velikonocni pondeli,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1466,CZE,Praga,1465,Velky patek,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1464,CZE,Praga,1463,Novy rok / Den obnovy samostatneho ceskeho statu,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1470,CZE,Praga,1469,Svatek prace,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1472,CZE,Praga,1471,Den vitezstvi,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,8,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1474,CZE,Praga,1473,Den slovanskych verozvestu Cyrila a Metodeje,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,7,5,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1476,CZE,Praga,1475,Den upaleni mistra Jana Husa,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,7,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1478,CZE,Praga,1477,Den ceske statnosti,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,28,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1480,CZE,Praga,1479,Den vzniku samostatneho ceskoslovenskeho statu,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,28,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1482,CZE,Praga,1481,Den boje za svobodu a demokracii a Mezinarodni den studentstva,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,17,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1484,CZE,Praga,1483,Stedry den,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,24,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1486,CZE,Praga,1485,1. svatek vanocni,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1488,CZE,Praga,1487,2. svatek vanocni,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+156,DEU,Berlín,155,Christi Himmelfahrt,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,39,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+150,DEU,Berlín,149,Karfreitag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+152,DEU,Berlín,151,Ostermontag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+158,DEU,Berlín,157,Pfingstmontag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,50,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+148,DEU,Berlín,147,Neujahr,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+166,DEU,Berlín,165,Internationaler Frauentag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,3,8,,,,,,,,,,2019-01-01,,todo_el_pais,sin_condicion,privado
+154,DEU,Berlín,153,Tag der Arbeit,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+160,DEU,Berlín,159,Tag der Deutschen Einheit,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,3,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+162,DEU,Berlín,161,1. Weihnachtstag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+164,DEU,Berlín,163,2. Weihnachtstag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+701,DNK,Copenhague,700,Anden paskedag (Lunes de Pascua),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+709,DNK,Copenhague,708,Anden pinsedag (Lunes de Pentecostés),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,50,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+699,DNK,Copenhague,698,Forste paskedag (Domingo de Pascua),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,0,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+707,DNK,Copenhague,706,Forste pinsedag (Domingo de Pentecostés),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,49,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+705,DNK,Copenhague,704,Kristi himmelfartsdag (Ascensión),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,39,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+697,DNK,Copenhague,696,Langfredag (Viernes Santo),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+695,DNK,Copenhague,694,Skaertorsdag (Jueves Santo),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-3,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+703,DNK,Copenhague,702,Store bededag (Gran Día de Oración),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,26,,,,,,2016-01-01,2023-12-31,todo_el_pais,sin_condicion,privado
+693,DNK,Copenhague,692,Nytarsdag (Año Nuevo),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+711,DNK,Copenhague,710,Forste juledag (Navidad),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+713,DNK,Copenhague,712,Anden juledag (San Esteban),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1511,DOM,Santo Domingo,1510,Corpus Christi,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,60,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1507,DOM,Santo Domingo,1506,Viernes Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1497,DOM,Santo Domingo,1496,Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1499,DOM,Santo Domingo,1498,Día de los Santos Reyes,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1501,DOM,Santo Domingo,1500,Nuestra Señora de la Altagracia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,21,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1503,DOM,Santo Domingo,1502,Día de Duarte,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1505,DOM,Santo Domingo,1504,Día de la Independencia Nacional,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,2,27,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1509,DOM,Santo Domingo,1508,Día del Trabajo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1513,DOM,Santo Domingo,1512,Día de la Restauración,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,16,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1515,DOM,Santo Domingo,1514,Nuestra Señora de las Mercedes,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,24,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1517,DOM,Santo Domingo,1516,Día de la Constitución,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1519,DOM,Santo Domingo,1518,Navidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+735,ECU,Guayaquil,734,Lunes de Carnaval,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-48,,,,,,2016-12-20,,todo_el_pais,sin_condicion,privado
+737,ECU,Guayaquil,736,Martes de Carnaval,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-47,,,,,,2016-12-20,,todo_el_pais,sin_condicion,privado
+739,ECU,Guayaquil,738,Viernes Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+733,ECU,Guayaquil,732,Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+741,ECU,Guayaquil,740,Día del Trabajo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+743,ECU,Guayaquil,742,Batalla del Pichincha,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,24,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+755,ECU,Guayaquil,754,Fundación de Santiago de Guayaquil,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,7,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+745,ECU,Guayaquil,744,Primer Grito de Independencia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,10,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+747,ECU,Guayaquil,746,Independencia de Guayaquil,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,9,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+749,ECU,Guayaquil,748,Día de los Difuntos,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,2,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+751,ECU,Guayaquil,750,Independencia de Cuenca,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,3,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+753,ECU,Guayaquil,752,Navidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+808,ESP,Madrid,807,Jueves Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-3,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+810,ESP,Madrid,809,Viernes Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+804,ESP,Madrid,803,Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+806,ESP,Madrid,805,Epifanía del Señor,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+812,ESP,Madrid,811,Fiesta del Trabajo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+814,ESP,Madrid,813,Fiesta de la Comunidad de Madrid,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,2,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+828,ESP,Madrid,827,San Isidro Labrador,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+816,ESP,Madrid,815,Asunción de la Virgen,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+818,ESP,Madrid,817,Fiesta Nacional de España,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,12,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+820,ESP,Madrid,819,Todos los Santos,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+830,ESP,Madrid,829,Nuestra Señora de la Almudena,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,9,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+822,ESP,Madrid,821,Día de la Constitución Española,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+824,ESP,Madrid,823,Inmaculada Concepción,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,8,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+826,ESP,Madrid,825,Natividad del Señor,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+882,FIN,Helsinki,881,Helatorstai — Ascensión,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,39,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+884,FIN,Helsinki,883,Helluntai — Pentecostés,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,49,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+876,FIN,Helsinki,875,Paasiaispaiva — Domingo de Pascua,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,0,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+874,FIN,Helsinki,873,Pitkaperjantai — Viernes Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+878,FIN,Helsinki,877,Toinen paasiaispaiva — Lunes de Pascua,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+870,FIN,Helsinki,869,Uudenvuodenpaiva — Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+872,FIN,Helsinki,871,Loppiainen — Epifanía,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+880,FIN,Helsinki,879,Vapunpaiva — Primero de Mayo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+886,FIN,Helsinki,885,Juhannuspaiva — Día de San Juan,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa_a_fecha,gregoriano,6,19,,6,,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+888,FIN,Helsinki,887,Pyhainpaiva — Todos los Santos,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa_a_fecha,gregoriano,10,30,,6,,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+890,FIN,Helsinki,889,Itsenaisyyspaiva — Día de la Independencia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+892,FIN,Helsinki,891,Joulupaiva — Navidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+894,FIN,Helsinki,893,Toinen joulupaiva — San Esteban,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+915,FRA,París,914,Ascension,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,39,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+909,FRA,París,908,Lundi de Paques,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+917,FRA,París,916,Lundi de Pentecote,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,50,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+907,FRA,París,906,1er janvier,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+911,FRA,París,910,1er mai — Fete du Travail,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+913,FRA,París,912,8 mai — Victoire 1945,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,5,8,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+919,FRA,París,918,14 juillet — Fete nationale,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,7,14,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+921,FRA,París,920,Assomption,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,8,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+923,FRA,París,922,Toussaint,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,11,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+925,FRA,París,924,11 novembre — Armistice 1918,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,11,11,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+927,FRA,París,926,Jour de Noel,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1444,GBR,Londres,1443,Easter Monday,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1442,GBR,Londres,1441,Good Friday,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1440,GBR,Londres,1439,New Year's Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1446,GBR,Londres,1445,Early May bank holiday,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,5,,1,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1448,GBR,Londres,1447,Spring bank holiday,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,5,,-1,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1450,GBR,Londres,1449,Summer bank holiday,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,8,,-1,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1452,GBR,Londres,1451,Christmas Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1454,GBR,Londres,1453,Boxing Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+943,GRC,Atenas,942,Δευτερα του Πασχα — Lunes de Pascua ORTODOXO,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua_ortodoxa,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+937,GRC,Atenas,936,1η Ιανουαριου — Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+939,GRC,Atenas,938,Θεοφανια — Epifanía,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,6,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+941,GRC,Atenas,940,25η Μαρτιου — Anunciacion e Independencia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,3,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+945,GRC,Atenas,944,1η Μαιου — Primero de Mayo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2021-01-01,,todo_el_pais,sin_condicion,privado
+947,GRC,Atenas,946,Κοιμηση της Θεοτοκου — Dormicion de la Virgen,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+949,GRC,Atenas,948,28η Οκτωβριου — Día del OXI,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,28,,,,,,,,,,2021-01-01,,todo_el_pais,sin_condicion,privado
+951,GRC,Atenas,950,Γεννηση του Χριστου — Navidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+953,GRC,Atenas,952,26η Δεκεμβριου — segundo día de Navidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2021-01-01,,todo_el_pais,sin_condicion,privado
+68,GTM,Ciudad de Guatemala,67,Festividad de la localidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,delegada_a_jurisdiccion_local,gregoriano,,,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+46,GTM,Ciudad de Guatemala,45,Jueves Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-3,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+50,GTM,Ciudad de Guatemala,49,Sábado Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+48,GTM,Ciudad de Guatemala,47,Viernes Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+44,GTM,Ciudad de Guatemala,43,Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+52,GTM,Ciudad de Guatemala,51,Día del Trabajo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+54,GTM,Ciudad de Guatemala,53,Día del Ejército,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,30,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+56,GTM,Ciudad de Guatemala,55,Independencia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+58,GTM,Ciudad de Guatemala,57,Revolución de 1944,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,20,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+60,GTM,Ciudad de Guatemala,59,Todos los Santos,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+62,GTM,Ciudad de Guatemala,61,Nochebuena,descanso_pagado_obligatorio,descanso_obligatorio,0.5,recurrente,1,fija,gregoriano,12,24,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+64,GTM,Ciudad de Guatemala,63,Navidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+66,GTM,Ciudad de Guatemala,65,Fin de año,descanso_pagado_obligatorio,descanso_obligatorio,0.5,recurrente,1,fija,gregoriano,12,31,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+969,HND,Tegucigalpa,968,Jueves Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-3,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+973,HND,Tegucigalpa,972,Sábado Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+971,HND,Tegucigalpa,970,Viernes Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+965,HND,Tegucigalpa,964,Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+967,HND,Tegucigalpa,966,Día de las Américas,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,4,14,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+975,HND,Tegucigalpa,974,Día del Trabajo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+977,HND,Tegucigalpa,976,Día de la Independencia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+979,HND,Tegucigalpa,978,"Semana Morazánica (feriados del 3, 12 y 21 de octubre, trasladados y unificados)",descanso_pagado_obligatorio,descanso_obligatorio,3.0,recurrente,1,ordinal,gregoriano,10,,1,3,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+981,HND,Tegucigalpa,980,Navidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+998,HUN,Budapest,997,Husvethetfo — Lunes de Pascua,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+996,HUN,Budapest,995,Nagypentek — Viernes Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2017-01-01,,todo_el_pais,sin_condicion,privado
+1002,HUN,Budapest,1001,Punkosdhetfo — Lunes de Pentecostés,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,50,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+992,HUN,Budapest,991,Januar 1. — Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+994,HUN,Budapest,993,Marcius 15. — aniversario de la revolucion de 1848,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,3,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1000,HUN,Budapest,999,Majus 1. — Día del Trabajo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1004,HUN,Budapest,1003,"Augusztus 20. — San Esteban, fiesta del Estado",descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,20,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1006,HUN,Budapest,1005,Oktober 23. — aniversario de la revolucion de 1956,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,23,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1008,HUN,Budapest,1007,November 1. — Mindenszentek (Todos los Santos),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1010,HUN,Budapest,1009,December 25. — Navidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1012,HUN,Budapest,1011,December 26. — segundo día de Navidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+192,IDN,Yakarta,191,Kenaikan Yesus Kristus,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,39,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+188,IDN,Yakarta,187,Paskah,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,0,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+186,IDN,Yakarta,185,Wafat Yesus Kristus,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+174,IDN,Yakarta,173,Tahun Baru Masehi,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+176,IDN,Yakarta,175,Isra Mikraj,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,16,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+178,IDN,Yakarta,177,Tahun Baru Imlek,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,2,17,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+180,IDN,Yakarta,179,Nyepi (Tahun Baru Saka),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,3,19,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+182,IDN,Yakarta,181,Idulfitri (día 1),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,3,21,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+184,IDN,Yakarta,183,Idulfitri (día 2),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,3,22,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+190,IDN,Yakarta,189,Hari Buruh,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+194,IDN,Yakarta,193,Iduladha,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,27,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+196,IDN,Yakarta,195,Waisak,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,31,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+198,IDN,Yakarta,197,Hari Lahir Pancasila,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+200,IDN,Yakarta,199,Tahun Baru Islam,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,16,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+202,IDN,Yakarta,201,Proklamasi Kemerdekaan,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,17,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+204,IDN,Yakarta,203,Maulid Nabi Muhammad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+206,IDN,Yakarta,205,Kelahiran Yesus Kristus,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1031,IRL,Dublín,1030,Easter Monday,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1024,IRL,Dublín,1023,1st day of January,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1026,IRL,Dublín,1025,St Brigid's Day / Imbolc,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,2,,1,1,,,,,,,,2023-01-01,,todo_el_pais,sin_condicion,privado
+1027,IRL,Dublín,1025,St Brigid's Day / Imbolc,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,2,1,,,,,,,,02-01,5,2023-01-01,,todo_el_pais,sin_condicion,privado
+1029,IRL,Dublín,1028,St Patrick's Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,3,17,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1033,IRL,Dublín,1032,First Monday in May,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,5,,1,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1035,IRL,Dublín,1034,First Monday in June,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,6,,1,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1037,IRL,Dublín,1036,First Monday in August,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,8,,1,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1039,IRL,Dublín,1038,Last Monday in October,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,10,,-1,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1041,IRL,Dublín,1040,Christmas Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1043,IRL,Dublín,1042,St Stephen's Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1064,ISR,Jerusalén,1063,"Pesaj, primer día",descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1066,ISR,Jerusalén,1065,"Pesaj, séptimo día",descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1054,ISR,Jerusalén,1053,"Rosh Hashana, día 1",descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1056,ISR,Jerusalén,1055,"Rosh Hashana, día 2",descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1068,ISR,Jerusalén,1067,Shavuot,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1062,ISR,Jerusalén,1061,Sheminí Atzeret / Simjat Tora (octavo día de Sukot),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1060,ISR,Jerusalén,1059,"Sukot, primer día",descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1070,ISR,Jerusalén,1069,Yom HaAtzmaut — Día de la Independencia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1073,ISR,Jerusalén,1069,Yom HaAtzmaut — Día de la Independencia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,regla_por_defecto,1,2016-01-01,,todo_el_pais,sin_condicion,privado
+1072,ISR,Jerusalén,1069,Yom HaAtzmaut — Día de la Independencia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,regla_por_defecto,5,2016-01-01,,todo_el_pais,sin_condicion,privado
+1071,ISR,Jerusalén,1069,Yom HaAtzmaut — Día de la Independencia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,regla_por_defecto,6,2016-01-01,,todo_el_pais,sin_condicion,privado
+1058,ISR,Jerusalén,1057,Yom Kipur,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1112,ITA,Roma,1111,Lunedi dell'Angelo (lunedi dopo Pasqua),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1108,ITA,Roma,1107,Capodanno — Maria Santissima Madre di Dio,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1110,ITA,Roma,1109,Epifania del Signore,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1114,ITA,Roma,1113,Anniversario della liberazione,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,4,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1116,ITA,Roma,1115,Festa del lavoro,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1118,ITA,Roma,1117,Festa nazionale della Repubblica,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,2,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1130,ITA,Roma,1129,SS. Pietro e Paolo — solo per il comune di Roma,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,29,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1120,ITA,Roma,1119,Assunzione della B. V. Maria — Ferragosto,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1122,ITA,Roma,1121,Ognissanti,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1124,ITA,Roma,1123,Immacolata Concezione,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,8,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1126,ITA,Roma,1125,Natale del Signore,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1128,ITA,Roma,1127,Santo Stefano,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1146,JPN,Tokio,1145,建国記念の日 (Día de la Fundación Nacional),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,remision_normativa,gregoriano,,,,,,,建国記念の日となる日を定める政令 (Decreto del Gabinete que fija el dia; el dia asi fijado es el 11 de febrero),,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1152,JPN,Tokio,1151,春分の日 (Equinoccio de Primavera),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,equinoccio_marzo,0,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1168,JPN,Tokio,1167,秋分の日 (Equinoccio de Otoño),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,equinoccio_septiembre,0,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1144,JPN,Tokio,1143,成人の日 (Día de la Mayoría de Edad),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,ordinal,gregoriano,1,,2,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1142,JPN,Tokio,1141,元日 (Año Nuevo),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1150,JPN,Tokio,1149,天皇誕生日 (Cumpleaños del Emperador) — versión desde 2020,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,2,23,,,,,,,,,,2020-01-01,,todo_el_pais,sin_condicion,privado
+1154,JPN,Tokio,1153,昭和の日 (Día de Showa),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,4,29,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1156,JPN,Tokio,1155,憲法記念日 (Día de la Constitución),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,5,3,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1158,JPN,Tokio,1157,みどりの日 (Día del Verdor),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,5,4,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1160,JPN,Tokio,1159,こどもの日 (Día del Niño),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,5,5,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1162,JPN,Tokio,1161,海の日 (Día del Mar),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,ordinal,gregoriano,7,,3,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1164,JPN,Tokio,1163,山の日 (Día de la Montaña),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,8,11,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1166,JPN,Tokio,1165,敬老の日 (Día del Respeto a los Mayores),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,ordinal,gregoriano,9,,3,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1170,JPN,Tokio,1169,スポーツの日 (Día del Deporte),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,ordinal,gregoriano,10,,2,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1172,JPN,Tokio,1171,文化の日 (Día de la Cultura),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,11,3,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1174,JPN,Tokio,1173,勤労感謝の日 (Día de Acción de Gracias por el Trabajo),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,11,23,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1148,JPN,Tokio,1147,天皇誕生日 (Cumpleaños del Emperador) — versión hasta 2018,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,12,23,,,,,,,,,,2016-01-01,2019-12-31,todo_el_pais,sin_condicion,privado
+641,KOR,Seúl,640,Día de elección por vencimiento de mandato,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,remision_normativa,gregoriano,,,,,,,"공직선거법 제34조 (Ley de Elecciones de Cargos Publicos, art. 34)",,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+633,KOR,Seúl,632,부처님 오신 날 (Nacimiento de Buda),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+629,KOR,Seúl,628,설날 (Año Nuevo lunar),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+631,KOR,Seúl,630,설날 다음 날 (día siguiente al Año Nuevo lunar),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+627,KOR,Seúl,626,설날 전날 (víspera del Año Nuevo lunar),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,1,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+643,KOR,Seúl,642,임시공휴일 (día festivo temporal designado por el Gobierno),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,dependiente_de_proclamacion,gregoriano,,,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+637,KOR,Seúl,636,추석 (Chuseok),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+639,KOR,Seúl,638,추석 다음 날 (día siguiente a Chuseok),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+635,KOR,Seúl,634,추석 전날 (víspera de Chuseok),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,lunar,gregoriano,,,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+609,KOR,Seúl,608,1 de enero (신정),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+611,KOR,Seúl,610,삼일절 (Movimiento del 1 de marzo),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,3,1,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+613,KOR,Seúl,612,노동절 (Día del Trabajo),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+615,KOR,Seúl,614,어린이날 (Día del Niño),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,5,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+617,KOR,Seúl,616,현충일 (Día de los Caídos),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,6,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+619,KOR,Seúl,618,광복절 (Liberación Nacional),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,15,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+621,KOR,Seúl,620,개천절 (Fundación Nacional),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,3,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+623,KOR,Seúl,622,한글날 (Día del Hangeul),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,9,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+625,KOR,Seúl,624,기독탄신일 (Navidad),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+124,MEX,Ciudad de México,123,Jornada electoral,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,remision_normativa,gregoriano,,,,,,,Leyes federales y locales electorales (jornada electoral ordinaria),,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+106,MEX,Ciudad de México,105,Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+108,MEX,Ciudad de México,107,Conmemoración del 5 de febrero,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,2,,1,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+110,MEX,Ciudad de México,109,Conmemoración del 21 de marzo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,3,,3,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+112,MEX,Ciudad de México,111,Día del Trabajo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+114,MEX,Ciudad de México,113,Independencia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,16,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+120,MEX,Ciudad de México,119,Transmisión del Poder Ejecutivo Federal,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,6,fija,gregoriano,10,1,,,,,,,,,,2024-01-01,,todo_el_pais,sin_condicion,privado
+116,MEX,Ciudad de México,115,Conmemoración del 20 de noviembre,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,11,,3,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+118,MEX,Ciudad de México,117,Transmisión del Poder Ejecutivo Federal,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,6,fija,gregoriano,12,1,,,,,,,,,,1970-01-01,2024-12-31,todo_el_pais,sin_condicion,privado
+122,MEX,Ciudad de México,121,Navidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1199,NIC,Managua,1198,Jueves Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-3,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1201,NIC,Managua,1200,Viernes Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1191,NIC,Managua,1190,Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1193,NIC,Managua,1192,Dieciocho de Enero,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,18,,,,,,,,,,2026-01-20,,todo_el_pais,sin_condicion,privado
+1195,NIC,Managua,1194,Dos de Febrero,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,2,2,,,,,,,,,,2026-01-20,,todo_el_pais,sin_condicion,privado
+1197,NIC,Managua,1196,Veintiuno de Febrero,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,2,21,,,,,,,,,,2026-01-20,,todo_el_pais,sin_condicion,privado
+1203,NIC,Managua,1202,Primero de Mayo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1205,NIC,Managua,1204,Día de la Madre,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,30,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+1207,NIC,Managua,1206,Diecinueve de Julio,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,7,19,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1219,NIC,Managua,1218,Santo Domingo de Guzmán — bajada (asueto de Managua),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1221,NIC,Managua,1220,Santo Domingo de Guzmán — subida (asueto de Managua),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,10,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1209,NIC,Managua,1208,Catorce de Septiembre,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,14,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1211,NIC,Managua,1210,Quince de Septiembre,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1213,NIC,Managua,1212,Ocho de Noviembre,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,8,,,,,,,,,,2026-01-20,,todo_el_pais,sin_condicion,privado
+1215,NIC,Managua,1214,Ocho de Diciembre,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,8,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1217,NIC,Managua,1216,Veinticinco de Diciembre,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1303,NLD,Ámsterdam,1302,Goede Vrijdag,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1311,NLD,Ámsterdam,1310,Hemelvaartsdag (Ascensión),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,39,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1307,NLD,Ámsterdam,1306,Koningsdag,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,remision_normativa,gregoriano,,,,,,,"Besluit van 30 januari 2013, nr. 13.000173 (Stcrt. 2013, 4075)",,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1305,NLD,Ámsterdam,1304,Tweede Paasdag,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1313,NLD,Ámsterdam,1312,Tweede Pinksterdag,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,50,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1301,NLD,Ámsterdam,1300,Nieuwjaarsdag,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1309,NLD,Ámsterdam,1308,Bevrijdingsdag (5 de mayo),observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,5,5,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1315,NLD,Ámsterdam,1314,Eerste Kerstdag,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1317,NLD,Ámsterdam,1316,Tweede Kerstdag,observancia_optativa,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1242,NOR,Oslo,1241,Annen paskedag (Lunes de Pascua),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1252,NOR,Oslo,1251,Annen pinsedag (Lunes de Pentecostés),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,50,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1240,NOR,Oslo,1239,Forste paskedag (Domingo de Pascua),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,0,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1250,NOR,Oslo,1249,Forste pinsedag (Domingo de Pentecostés),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,49,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1248,NOR,Oslo,1247,Kristi himmelfartsdag (Ascensión),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,39,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1238,NOR,Oslo,1237,Langfredag (Viernes Santo),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1236,NOR,Oslo,1235,Skjaertorsdag (Jueves Santo),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-3,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1234,NOR,Oslo,1233,Nyttarsdag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1244,NOR,Oslo,1243,Offentlig hogtidsdag (1 de mayo),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1246,NOR,Oslo,1245,Grunnlovsdagen (17 de mayo),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,17,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1254,NOR,Oslo,1253,Forste juledag (Navidad),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1256,NOR,Oslo,1255,Annen juledag (San Esteban),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1287,NZL,Auckland,1286,Auckland Anniversary Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,delegada_a_jurisdiccion_local,gregoriano,,,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1273,NZL,Auckland,1272,Easter Monday,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1271,NZL,Auckland,1270,Good Friday,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1279,NZL,Auckland,1278,Matariki,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,remision_normativa,gregoriano,,,,,,,"Schedule 1, Te Kahui o Matariki Public Holiday Act 2022 — tabla de fechas gregorianas de 2022 a 2052, sin formula en el texto",,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+1265,NZL,Auckland,1264,New Year's Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1267,NZL,Auckland,1266,2 January,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,2,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1269,NZL,Auckland,1268,Waitangi Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,2,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1275,NZL,Auckland,1274,ANZAC Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,4,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1277,NZL,Auckland,1276,Birthday of the reigning Sovereign (King's Birthday),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,6,,1,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1281,NZL,Auckland,1280,Labour Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,ordinal,gregoriano,10,,4,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1283,NZL,Auckland,1282,Christmas Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1285,NZL,Auckland,1284,Boxing Day,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+8,PER,Lima,7,Jueves Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-3,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+10,PER,Lima,9,Viernes Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+6,PER,Lima,5,Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+12,PER,Lima,11,Día del Trabajo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+14,PER,Lima,13,Batalla de Arica y Día de la Bandera,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,7,,,,,,,,,,2024-01-01,,todo_el_pais,sin_condicion,privado
+16,PER,Lima,15,San Pedro y San Pablo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,29,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+18,PER,Lima,17,Día de la Fuerza Aérea del Perú,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,7,23,,,,,,,,,,2023-01-01,,todo_el_pais,sin_condicion,privado
+20,PER,Lima,19,Fiestas Patrias,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,7,28,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+22,PER,Lima,21,Fiestas Patrias,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,7,29,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+24,PER,Lima,23,Batalla de Junín,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,6,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+26,PER,Lima,25,Santa Rosa de Lima,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,30,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+28,PER,Lima,27,Combate de Angamos,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,8,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+30,PER,Lima,29,Todos los Santos,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+32,PER,Lima,31,Inmaculada Concepción,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,8,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+34,PER,Lima,33,Batalla de Ayacucho,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,9,,,,,,,,,,2022-01-01,,todo_el_pais,sin_condicion,privado
+36,PER,Lima,35,Navidad del Señor,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1374,POL,Varsovia,1373,Drugi dzien Wielkiej Nocy (Lunes de Pascua),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1382,POL,Varsovia,1381,Dzien Bozego Ciala (Corpus Christi),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,60,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1372,POL,Varsovia,1371,Pierwszy dzien Wielkiej Nocy (Domingo de Pascua),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,0,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1380,POL,Varsovia,1379,Pierwszy dzien Zielonych Swiatek (Pentecostés),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,49,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1368,POL,Varsovia,1367,Nowy Rok,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1370,POL,Varsovia,1369,Swieto Trzech Kroli (Epifanía),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1376,POL,Varsovia,1375,Swieto Panstwowe (1 de mayo),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1378,POL,Varsovia,1377,Swieto Narodowe Trzeciego Maja,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,3,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1384,POL,Varsovia,1383,Wniebowziecie Najswietszej Maryi Panny (Asunción),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1386,POL,Varsovia,1385,Wszystkich Swietych (Todos los Santos),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1388,POL,Varsovia,1387,Narodowe Swieto Niepodleglosci,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,11,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1390,POL,Varsovia,1389,Wigilia Bozego Narodzenia (Nochebuena),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,24,,,,,,,,,,2025-01-01,,todo_el_pais,sin_condicion,privado
+1392,POL,Varsovia,1391,Pierwszy dzien Bozego Narodzenia (Navidad),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1394,POL,Varsovia,1393,Drugi dzien Bozego Narodzenia (San Esteban),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1415,PRT,Lisboa,1414,Corpo de Deus,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,60,,,,,,2016-04-02,,todo_el_pais,sin_condicion,privado
+1409,PRT,Lisboa,1408,Domingo de Pascoa,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,0,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1407,PRT,Lisboa,1406,Sexta-Feira Santa,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1405,PRT,Lisboa,1404,Ano Novo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1411,PRT,Lisboa,1410,Dia da Liberdade,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,4,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1413,PRT,Lisboa,1412,Dia do Trabalhador,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1417,PRT,Lisboa,1416,"Dia de Portugal, de Camoes e das Comunidades Portuguesas",descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,10,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1419,PRT,Lisboa,1418,Assuncao de Nossa Senhora,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1421,PRT,Lisboa,1420,Implantacao da Republica,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,5,,,,,,,,,,2016-04-02,,todo_el_pais,sin_condicion,privado
+1423,PRT,Lisboa,1422,Todos-os-Santos,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,1,,,,,,,,,,2016-04-02,,todo_el_pais,sin_condicion,privado
+1425,PRT,Lisboa,1424,Restauracao da Independencia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,1,,,,,,,,,,2016-04-02,,todo_el_pais,sin_condicion,privado
+1427,PRT,Lisboa,1426,Imaculada Conceicao,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,8,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1429,PRT,Lisboa,1428,Natal,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1334,PRY,Asunción,1333,Jueves Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-3,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1336,PRY,Asunción,1335,Viernes Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1330,PRY,Asunción,1329,Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1332,PRY,Asunción,1331,Día de los Héroes de la Patria,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,3,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1338,PRY,Asunción,1337,Día de los Trabajadores,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1340,PRY,Asunción,1339,Día de la Independencia Nacional (primer día),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,14,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1342,PRY,Asunción,1341,Día de la Independencia Nacional (segundo día),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1344,PRY,Asunción,1343,Día de la Paz del Chaco,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,12,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1346,PRY,Asunción,1345,Día de la Jura de la Constitución Nacional,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,20,,,,,,,,,,2025-09-03,,todo_el_pais,sin_condicion,privado
+1348,PRY,Asunción,1347,Día de la Fundación de Asunción,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1350,PRY,Asunción,1349,Día de la Batalla de Boquerón,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,29,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1352,PRY,Asunción,1351,Día de la Virgen de Caacupé,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,8,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1354,PRY,Asunción,1353,Día de la Navidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1544,ROU,Bucarest,1543,A doua zi de Pasti,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua_ortodoxa,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1552,ROU,Bucarest,1551,A doua zi de Rusalii,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua_ortodoxa,50,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1542,ROU,Bucarest,1541,Prima zi de Pasti,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua_ortodoxa,0,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1550,ROU,Bucarest,1549,Prima zi de Rusalii,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua_ortodoxa,49,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1540,ROU,Bucarest,1539,Vinerea Mare,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua_ortodoxa,-2,,,,,,2018-01-01,,todo_el_pais,sin_condicion,privado
+1530,ROU,Bucarest,1529,1 ianuarie,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1532,ROU,Bucarest,1531,2 ianuarie,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,2,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1534,ROU,Bucarest,1533,Botezul Domnului - Boboteaza,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,6,,,,,,,,,,2024-01-01,,todo_el_pais,sin_condicion,privado
+1536,ROU,Bucarest,1535,Soborul Sfantului Proroc Ioan Botezatorul,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,7,,,,,,,,,,2024-01-01,,todo_el_pais,sin_condicion,privado
+1538,ROU,Bucarest,1537,Ziua Unirii Principatelor Romane,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,24,,,,,,,,,,2017-01-01,,todo_el_pais,sin_condicion,privado
+1546,ROU,Bucarest,1545,1 mai,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1548,ROU,Bucarest,1547,1 iunie - Ziua Copilului,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,1,,,,,,,,,,2017-01-01,,todo_el_pais,sin_condicion,privado
+1554,ROU,Bucarest,1553,Adormirea Maicii Domnului,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1556,ROU,Bucarest,1555,"Sfantul Apostol Andrei, cel Intai chemat, Ocrotitorul Romaniei",descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,30,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1558,ROU,Bucarest,1557,1 decembrie - Ziua Nationala,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1560,ROU,Bucarest,1559,Prima zi de Craciun,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1562,ROU,Bucarest,1561,A doua zi de Craciun,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+79,SLV,San Salvador,78,Jueves Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-3,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+83,SLV,San Salvador,82,Sábado Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+81,SLV,San Salvador,80,Viernes Santo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+77,SLV,San Salvador,76,Año Nuevo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+85,SLV,San Salvador,84,Día del Trabajo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+95,SLV,San Salvador,94,Fiestas Agostinas,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,3,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+97,SLV,San Salvador,96,Fiestas Agostinas,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,5,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+87,SLV,San Salvador,86,Fiestas Agostinas / Divino Salvador del Mundo,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+89,SLV,San Salvador,88,Independencia,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,15,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+91,SLV,San Salvador,90,Día de los Difuntos,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,2,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+93,SLV,San Salvador,92,Navidad,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+772,SVK,Bratislava,771,Velkonocny pondelok,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+770,SVK,Bratislava,769,Velky piatok,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+766,SVK,Bratislava,765,Den vzniku Slovenskej republiky,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+768,SVK,Bratislava,767,Zjavenie Pana (Traja krali),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+774,SVK,Bratislava,773,Sviatok prace,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+776,SVK,Bratislava,775,Den vitazstva nad fasizmom,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,8,,,,,,,,,,2016-01-01,2025-12-31,todo_el_pais,sin_condicion,privado
+778,SVK,Bratislava,777,Sviatok svateho Cyrila a svateho Metoda,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,7,5,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+780,SVK,Bratislava,779,Vyrocie Slovenskeho narodneho povstania,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,29,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+782,SVK,Bratislava,781,Den Ustavy Slovenskej republiky,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,1,,,,,,,,,,2016-01-01,2023-12-31,todo_el_pais,sin_condicion,privado
+784,SVK,Bratislava,783,Sedembolestna Panna Maria,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,9,15,,,,,,,,,,2016-01-01,2025-12-31,todo_el_pais,sin_condicion,privado
+786,SVK,Bratislava,785,Sviatok Vsetkych svatych,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+788,SVK,Bratislava,787,Den boja za slobodu a demokraciu,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,11,17,,,,,,,,,,2016-01-01,2024-12-31,todo_el_pais,sin_condicion,privado
+790,SVK,Bratislava,789,Stedry den,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,24,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+792,SVK,Bratislava,791,Prvy sviatok vianocny,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+794,SVK,Bratislava,793,Druhy sviatok vianocny,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1576,SWE,Estocolmo,1575,Annandag pask,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1580,SWE,Estocolmo,1579,Kristi himmelsfardsdag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,39,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1574,SWE,Estocolmo,1573,Langfredagen,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa,gregoriano,,,,,pascua,-2,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1570,SWE,Estocolmo,1569,Nyarsdagen,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1572,SWE,Estocolmo,1571,Trettondedag jul,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1578,SWE,Estocolmo,1577,Forsta maj,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1582,SWE,Estocolmo,1581,Nationaldagen,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,6,6,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1584,SWE,Estocolmo,1583,Midsommardagen,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa_a_fecha,gregoriano,6,19,,6,,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1586,SWE,Estocolmo,1585,Alla helgons dag,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,relativa_a_fecha,gregoriano,10,30,,6,,1,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1588,SWE,Estocolmo,1587,Juldagen,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1590,SWE,Estocolmo,1589,Annandag jul,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,12,26,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1628,THA,Bangkok,1627,Doce (12) días tradicionales restantes de la cuota de trece — fechas designadas por el empleador,descanso_pagado_obligatorio,descanso_obligatorio,12.0,recurrente,1,cuota_designada_por_empleador,gregoriano,,,,,,,,,"Dias tradicionales, religiosos y locales de observancia reconocida; el empleador designa doce de ese conjunto tras consultar la practica del establecimiento (Labour Protection Act B.E. 2541, s. 29)",,,2016-01-01,,todo_el_pais,sin_condicion,privado
+1626,THA,Bangkok,1625,National Labour Day (Wan Raeng Ngan Haeng Chat),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,remision_normativa,gregoriano,,,,,,,Determinacion del Ministro de Trabajo bajo la s.29 parrafo 1 de la Labour Protection Act B.E. 2541; en la practica el 1 de mayo,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+217,TUR,Estambul,216,Yilbasi (Año Nuevo),descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+219,TUR,Estambul,218,Ulusal Egemenlik ve Cocuk Bayrami,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,4,23,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+221,TUR,Estambul,220,Emek ve Dayanisma Gunu,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+223,TUR,Estambul,222,"Ataturk'u Anma, Genclik ve Spor Bayrami",descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,5,19,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+225,TUR,Estambul,224,Demokrasi ve Milli Birlik Gunu,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,7,15,,,,,,,,,,2017-01-01,,todo_el_pais,sin_condicion,privado
+227,TUR,Estambul,226,Zafer Bayrami,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,8,30,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+229,TUR,Estambul,228,Cumhuriyet Bayrami arifesi,descanso_pagado_obligatorio,descanso_obligatorio,0.5,recurrente,1,fija,gregoriano,10,28,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+231,TUR,Estambul,230,Cumhuriyet Bayrami,descanso_pagado_obligatorio,descanso_obligatorio,1.0,recurrente,1,fija,gregoriano,10,29,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+842,USA,Nueva York,841,"Birthday of Martin Luther King, Jr.",cierre_sector_publico,sin_mandato_nacional,1.0,recurrente,1,ordinal,gregoriano,1,,3,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+840,USA,Nueva York,839,New Year's Day,cierre_sector_publico,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,1,1,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+862,USA,Nueva York,861,Inauguration Day,cierre_sector_publico,sin_mandato_nacional,1.0,recurrente,4,fija,gregoriano,1,20,,,,,,,,,,2016-01-01,,area_metropolitana_declarada,sin_condicion,privado
+844,USA,Nueva York,843,Washington's Birthday,cierre_sector_publico,sin_mandato_nacional,1.0,recurrente,1,ordinal,gregoriano,2,,3,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+846,USA,Nueva York,845,Memorial Day,cierre_sector_publico,sin_mandato_nacional,1.0,recurrente,1,ordinal,gregoriano,5,,-1,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+848,USA,Nueva York,847,Juneteenth National Independence Day,cierre_sector_publico,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,6,19,,,,,,,,,,2021-06-17,,todo_el_pais,sin_condicion,privado
+850,USA,Nueva York,849,Independence Day,cierre_sector_publico,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,7,4,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+852,USA,Nueva York,851,Labor Day,cierre_sector_publico,sin_mandato_nacional,1.0,recurrente,1,ordinal,gregoriano,9,,1,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+854,USA,Nueva York,853,Columbus Day,cierre_sector_publico,sin_mandato_nacional,1.0,recurrente,1,ordinal,gregoriano,10,,2,1,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+858,USA,Nueva York,857,Thanksgiving Day,cierre_sector_publico,sin_mandato_nacional,1.0,recurrente,1,ordinal,gregoriano,11,,4,4,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+856,USA,Nueva York,855,Veterans Day,cierre_sector_publico,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,11,11,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado
+860,USA,Nueva York,859,Christmas Day,cierre_sector_publico,sin_mandato_nacional,1.0,recurrente,1,fija,gregoriano,12,25,,,,,,,,,,2016-01-01,,todo_el_pais,sin_condicion,privado

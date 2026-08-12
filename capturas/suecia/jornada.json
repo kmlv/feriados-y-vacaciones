@@ -1,0 +1,49 @@
+{
+  "_": "Jornada semanal legal ordinaria. La ley cuenta semanas, no dias. Y es SEMIDISPOSITIVA: el 3 § permite que un convenio central excluya la ley entera o se aparte del 5 § y del 14 §, o sea de las 40 horas y del descanso semanal.",
+  "unidad": "SWE",
+  "jurisdiccion_de_referencia": "Estocolmo",
+  "sector_de_referencia": "privado formal, jornada completa, persona adulta, trabajo diurno",
+  "capturado_por": "jornada · lote 4",
+  "fecha_captura_utc": "2026-08-11T05:45:52Z",
+  "fuentes": {
+    "J1": {
+      "cita": "Arbetstidslag (1982:673): 3 § (avvikelser genom kollektivavtal), 5 § (ordinarie arbetstid), 13 § y 13 a § (dygnsvila y nattarbete), 14 § (veckovila)",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/arbetstidslag-1982673_sfs-1982-673/",
+      "nivel_de_fuente": 1,
+      "publicacion": "Svensk forfattningssamling 1982:673; texto consolidado del Riksdag, ultima modificacion incorporada Lag (2022:450)",
+      "nota": null
+    },
+    "J2": {
+      "cita": "Lag (1989:253) om allmanna helgdagar, 1 § y 2 §",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1989253-om-allmanna-helgdagar_sfs-1989-253/",
+      "nivel_de_fuente": 1,
+      "publicacion": "Svensk forfattningssamling 1989:253, t.o.m. SFS 2004:1320",
+      "nota": "Es la unica ley sueca de feriados: define cuales son y en que fecha caen, y nada mas. Se cita para acreditar que no hay regla de traslado ni de pago."
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 40,
+    "horas_diarias_max": null,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "5 § Arbetstidslag (1982:673): «Den ordinarie arbetstiden far uppga till hogst 40 timmar i veckan. Nar det behovs med hansyn till arbetets natur eller arbetsforhallandena i ovrigt, far arbetstiden uppga till 40 timmar i veckan i genomsnitt for en tid av hogst fyra veckor. Veckan raknas fran och med mandag, om inte annan berakning tillampas pa arbetsstallet.»",
+    "traduccion": "5 §: «La jornada ordinaria puede alcanzar como maximo 40 horas por semana. Cuando sea necesario por la naturaleza del trabajo o por las circunstancias laborales, la jornada puede alcanzar 40 horas semanales EN PROMEDIO durante un periodo de hasta cuatro semanas. La semana se cuenta a partir del lunes, salvo que en el centro de trabajo se aplique otro computo.»",
+    "fuente": "J1",
+    "nota": "LA LEY SUECA CUENTA SEMANAS Y NO CUENTA DIAS, y ademas dice expresamente donde empieza la semana —el lunes— sin decir cuantos de sus dias se trabajan. No hay maximo diario: la jornada diaria queda acotada por las once horas de descanso del 13 §. Y hay una segunda cosa que en Suecia no es un detalle: el 3 § permite que un convenio colectivo firmado o aprobado por una organizacion sindical CENTRAL excluya la ley entera o se aparte, entre otros, del 5 § y del 14 § — es decir, de las 40 horas y del descanso semanal. En Suecia la jornada legal es un supletorio que el convenio puede desplazar, y en el sector privado organizado el convenio casi siempre existe. Codificar 40 sin decir esto haria pasar por piso rigido lo que es un defecto dispositivo."
+  },
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "uno de cada siete, sin nombrar dia; la ley solo dice que se coloque en el fin de semana «en la medida de lo posible»",
+    "literal": "14 § Arbetstidslag (1982:673): «Arbetstagarna skall ha minst trettiosex timmars sammanhangande ledighet under varje period om sju dagar (veckovila). Till veckovilan raknas inte beredskapstid da arbetstagaren far uppehalla sig utanfor arbetsstallet men skall sta till arbetsgivarens forfogande for att utfora arbete nar behov uppkommer. Veckovilan skall sa langt mojligt forlaggas till veckoslut.» (traduccion: «Los trabajadores deben tener al menos treinta y seis horas de descanso ininterrumpido en cada periodo de siete dias (descanso semanal). No se computa como descanso semanal el tiempo de disponibilidad... El descanso semanal debe colocarse, en la medida de lo posible, en el fin de semana.»)",
+    "fuente": "J1"
+  },
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": null,
+    "alcance": null,
+    "literal": "La Lag (1989:253) om allmanna helgdagar se agota en definir cuales son los dias festivos y en que fecha caen; no ordena traslado, sustitucion ni pago. 1 §: «Med allman helgdag avses i lag eller annan forfattning sondagar, daribland paskdagen och pingstdagen, nyarsdagen, trettondedag jul, forsta maj, juldagen och annandag jul, AVEN NAR DE INTE INFALLER PA EN SONDAG, langfredagen, annandag pask, Kristi himmelsfardsdag, nationaldagen, midsommardagen och alla helgons dag.» (traduccion: «Por dia festivo general se entiende, en la ley o en otra disposicion, los domingos —incluidos el domingo de Pascua y el de Pentecostes—, el ano nuevo, la Epifania, el primero de mayo, el dia de Navidad y el segundo dia de Navidad, INCLUSO CUANDO NO CAEN EN DOMINGO, el viernes santo, el lunes de Pascua, la Ascension, el dia nacional, el dia de San Juan y el dia de Todos los Santos.») La clausula «incluso cuando no caen en domingo» es definitoria —los incorpora al conjunto de dias festivos— y no una regla de sustitucion. La Arbetstidslag no menciona los feriados.",
+    "fuente": "J1,J2"
+  },
+  "reformas_en_la_ventana": [],
+  "pendiente": "El 5 § y el 14 § no llevan anotacion de modificacion posterior a 2005 en el consolidado del Riksdag —la mas reciente de la ley, Lag (2022:450), toca el 16 § sobre pausas—, de modo que no hay reforma de jornada en la ventana. Lo que NO capture, y en Suecia pesa mas que la ley, son los convenios colectivos: el 3 § los habilita a desplazar el 5 § y el 14 §, y son ellos los que fijan la jornada efectiva, el reparto semanal y el trato de los feriados que caen en dia libre (los llamados 'klamdagar' y el descuento de festivos). Sin eso, la jornada legal sueca describe un techo, no la semana de nadie."
+}

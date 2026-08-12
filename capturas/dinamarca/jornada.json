@@ -1,0 +1,78 @@
+{
+  "_": "JORNADA SEMANAL LEGAL ORDINARIA. Trabajador de referencia: sector privado formal, jornada completa, Copenhague. Lote 5. CASO DE HUECO: la jornada danesa la fija el convenio, no la ley.",
+  "unidad": "DNK",
+  "jurisdiccion_de_referencia": "Copenhague",
+  "capturado_por": "jornada · lote 5",
+  "fecha_captura_utc": "2026-08-11T05:38:11Z",
+  "fuentes": {
+    "J1": {
+      "cita": "Bekendtgorelse af lov om gennemforelse af dele af arbejdstidsdirektivet (arbejdstidsloven), LBK nr 982 af 12-08-2024, par. 4",
+      "url": "https://www.retsinformation.dk/eli/lta/2024/982",
+      "nivel_de_fuente": 3,
+      "publicacion": "2024-08-12",
+      "nota": "NIVEL 3 y no 1: retsinformation.dk devolvio 403 Forbidden tanto en la pagina como en su API de PDF. El literal y el numero de la ley refundida (LBK nr 982 af 12/08/2024) se obtuvieron de reproducciones concordantes -danskelove.dk, lovguiden.dk, amo-uddannelse.dk y la propia referencia de at.dk (Arbejdstilsynet)-. PENDIENTE leer retsinformation directamente."
+    },
+    "J2": {
+      "cita": "Arbejdsmiljoloven, par. 50 (hvileperiode) y par. 51 (ugentligt fridogn)",
+      "url": "https://danskelove.dk/arbejdsmilj%C3%B8loven/51",
+      "nivel_de_fuente": 3,
+      "nota": "danskelove.dk reproduce el texto de retsinformation. El literal del par. 51 stk. 1 se corroboro con una segunda reproduccion independiente que trae la segunda frase completa; la existencia de esa segunda frase esta ademas probada dentro del propio par. 51 stk. 2, que la exceptua nominalmente para agricultura y jardineria."
+    },
+    "J3": {
+      "cita": "Lov om konsekvenser ved afskaffelsen af store bededag som helligdag, lov nr. 214 af 06-03-2023",
+      "url": "https://www.retsinformation.dk/eli/lta/2023/214",
+      "nivel_de_fuente": 3,
+      "publicacion": "2023-03-06",
+      "nota": "Reforma dentro de la ventana. Identificada en retsinformation por su ELI pero no leida en literal por el mismo 403."
+    },
+    "J4": {
+      "cita": "Lov om aendring af lov om gennemforelse af dele af arbejdstidsdirektivet, lov nr. 89 af 30-01-2024 - registro de tiempo de trabajo y regimen de 'selvtilrettelaeggere'",
+      "url": "https://www.retsinformation.dk/eli/lta/2024/89/dan/pdf",
+      "nivel_de_fuente": 3,
+      "vigencia_desde": "2024-07-01",
+      "nota": "Reforma dentro de la ventana, refundida en LBK nr 982/2024. Confirmada por Arbejdstilsynet en su nota 'Regler om arbejdstid og hvileperiode' de julio de 2024."
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 48,
+    "horas_semanales_max_nota": "48 es un PROMEDIO sobre cuatro meses e INCLUYE las horas extra. No es una jornada ordinaria de 48 horas: es el techo absoluto de la Directiva europea, transpuesto sin mas. La jornada ordinaria danesa real -37 horas- no esta en ninguna ley.",
+    "horas_diarias_max": null,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "§ 4. Den gennemsnitlige arbejdstid i lobet af en syvdagesperiode beregnet over en periode pa 4 maneder ma ikke overstige 48 timer inkl. overarbejde. Perioder med arlig betalt ferie og perioder med sygeorlov medtages ikke i eller er neutrale i forhold til beregningen af gennemsnittet.",
+    "traduccion": "Art. 4. El tiempo de trabajo promedio a lo largo de un periodo de siete dias, calculado sobre un periodo de 4 meses, no podra exceder de 48 horas incluidas las horas extraordinarias. Los periodos de vacaciones anuales retribuidas y los periodos de baja por enfermedad no se computan en el promedio o son neutros respecto de el.",
+    "fuente": "J1",
+    "nota": "DINAMARCA ES EL HUECO DEL LOTE Y HAY QUE DECIRLO ASI. La ley danesa NO fija una jornada semanal ordinaria, NO fija una jornada diaria maxima y NO fija cuantos dias se trabaja. Solo transpone el techo europeo de 48 horas promediadas y las horas de descanso. La semana de 37 horas y de cinco dias que todo el mundo cita para Dinamarca es de CONVENIO COLECTIVO -Industriens Overenskomst y sus pares-, no de ley, y por eso no entra en este archivo. Ademas el par. 1 de la propia ley la hace subsidiaria: no se aplica alli donde un convenio ya garantiza los minimos de la directiva, que es la mayor parte del mercado laboral danes. El unico limite diario que existe es indirecto: las 11 horas de descanso del par. 50 de la arbejdsmiljoloven dejan como maximo 13 horas de trabajo en cada 24."
+  },
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "uno de cada siete, sin nombrar, con preferencia declarada por el domingo",
+    "literal": "§ 51. Inden for hver periode pa 7 dogn skal de ansatte have et ugentligt fridogn, der skal ligge i umiddelbar tilslutning til en daglig hvileperiode. Det ugentlige fridogn skal sa vidt muligt falde pa sondagen og sa vidt muligt samtidig for alle, der er ansat i virksomheden.",
+    "traduccion": "Art. 51. Dentro de cada periodo de 7 dias los empleados deben tener un dia libre semanal, que debe situarse inmediatamente a continuacion de un periodo de descanso diario. El dia libre semanal debe caer en la medida de lo posible en domingo, y en la medida de lo posible al mismo tiempo para todos los empleados de la empresa.",
+    "fuente": "J2",
+    "nota": "Un solo dia, no dos. El domingo esta nombrado pero con 'sa vidt muligt' -en la medida de lo posible-, que es preferencia y no mandato; el par. 51 stk. 2 exceptua expresamente agricultura y jardineria de esa preferencia. Encadenado con las 11 horas del par. 50 da 35 horas continuas, el minimo europeo. El segundo dia libre del fin de semana danes es de convenio."
+  },
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": "se pierde",
+    "alcance": null,
+    "literal": null,
+    "fuente": "J1",
+    "nota": "No hay regla de traslado porque no hay, en rigor, un catalogo legal de feriados laborales para el sector privado. Los helligdage daneses vienen del calendario eclesiastico y de la costumbre, y quien obliga a darlos libres y pagados es el CONVENIO, no un estatuto. Sin norma que declare el feriado no puede haber norma general que lo traslade. Un helligdag que cae en domingo se solapa con el domingo y no genera nada. || Prueba indirecta de que el marco es de convenio y no de ley: cuando el Estado quiso suprimir un feriado en 2023, no basto con derogarlo, hizo falta una ley entera que regulara las CONSECUENCIAS contractuales -el recargo del 0,45% del salario- sobre acuerdos que el Estado no dicta."
+  },
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "Lov nr. 214 af 06-03-2023 om konsekvenser ved afskaffelsen af store bededag som helligdag",
+      "anio": 2023,
+      "vigencia_desde": "2024-01-01",
+      "que_cambio": "Suprime store bededag como helligdag desde 2024: pasa a ser un dia laborable ordinario. Compensa con un suplemento salarial permanente del 0,45% -un dia sobre 222 dias laborables al ano- pagado dos veces al ano. Afecta al conteo de feriados de esta unidad, no a las horas."
+    },
+    {
+      "instrumento": "Lov nr. 89 af 30-01-2024, que modifica la arbejdstidsloven",
+      "anio": 2024,
+      "vigencia_desde": "2024-07-01",
+      "que_cambio": "Obliga al empleador a llevar un registro objetivo del tiempo de trabajo de cada empleado, en cumplimiento de la jurisprudencia del TJUE, e introduce el par. 4a: un regimen de exclusion del techo de 48 horas para 'selvtilrettelaeggere' -quienes organizan su propio tiempo- por acuerdo individual, con tope de 60 horas de promedio sobre cuatro meses. Refundido en LBK nr 982 af 12-08-2024. No cambia las 48 horas de la regla general."
+    }
+  ],
+  "pendiente": "Ningun literal danes se leyo en retsinformation.dk: la fuente oficial devolvio 403 en todas las rutas probadas -pagina, ELI y API de PDF-. Los dos literales citados vienen de reproducciones concordantes (nivel 3). PENDIENTE tambien: identificar si algun convenio colectivo se toma como referencia en el resto del proyecto para las unidades donde el estatuto calla; si asi fuera, Dinamarca necesitaria una captura paralela del convenio, que este archivo deliberadamente NO hace."
+}

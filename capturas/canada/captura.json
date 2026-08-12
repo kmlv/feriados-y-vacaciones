@@ -1,0 +1,192 @@
+{
+  "_": "Captura de Canada. CAPTURA NO CIEGA (incidente del extractor).",
+  "captura_ciega": false,
+  "unidad": "CAN",
+  "eventos_reforma": [
+    {
+      "tipo": "cambio_de_escala_de_antiguedad",
+      "que": "Vacaciones: se anade el tramo de tres semanas a partir de cinco anios de servicio. Antes la escala era plana en dos semanas para toda antiguedad.",
+      "vigencia_desde": "2018-01-01",
+      "permanente_o_temporal": "permanente",
+      "cita": "Fair Workplaces, Better Jobs Act, 2017, S.O. 2017, c. 22, Sched. 1, s. 21 — en vigor el 01/01/2018 segun la nota de modificaciones del propio consolidado oficial. Deroga y sustituye los arts. 33, 34 y 35. Su art. 33 (4) trae ademas una regla de transicion: las tres semanas se exigen para los anios de devengo que terminen a partir del 31-dic-2017. La contrarreforma de 2018 no toco vacaciones y el tramo sobrevive."
+    }
+  ],
+  "jurisdiccion_de_referencia": "Toronto, Ontario (ciudad mas poblada)",
+  "fecha_captura_utc": "2026-08-09T23:35:00Z",
+  "fuentes": {
+    "F1": {
+      "cita": "Canada Labour Code (RSC 1985, c. L-2)",
+      "nivel_de_fuente": 1,
+      "url": "https://laws.justice.gc.ca/eng/acts/l-2/page-26.html",
+      "ambito": "federal"
+    },
+    "F2": {
+      "cita": "Employment Standards Act, 2000, S.O. 2000, c. 41 (Ontario) — Parte XI vacaciones, Parte X feriados publicos",
+      "nivel_de_fuente": 2,
+      "ambito": "provincial",
+      "nota": "Texto oficial del gobierno de Ontario.",
+      "url": "https://www.ontario.ca/laws/statute/00e41"
+    }
+  },
+  "hallazgo_de_jurisdiccion": {
+    "_": "Es la razon por la que la revisión cruzada metio a Canada al piloto, y se confirma con una cifra que la vuelve decisiva.",
+    "regimen_federal": {
+      "feriados": 10,
+      "vacaciones_semanas": 2,
+      "cobertura": "~6% de los trabajadores canadienses"
+    },
+    "regimen_ontario": {
+      "feriados": 9,
+      "vacaciones_semanas": 2,
+      "cobertura": "el trabajador de referencia en Toronto"
+    },
+    "nota_critica": "El antecedente externo ancla Canada al codigo FEDERAL. Pero el codigo federal rige solo industrias de jurisdiccion federal, que son alrededor del 6% del empleo. El trabajador de referencia del protocolo —Toronto, la ciudad mas poblada— cae bajo la ley de Ontario, no bajo el codigo federal.",
+    "consecuencia": "Tomar la cifra federal por la de Canada no es una aproximacion: es medir un regimen que no aplica al 94% de los trabajadores. La diferencia en feriados es 10 contra 9, chica en magnitud y grande en significado, porque revela que la unidad de analisis del antecedente no es la nuestra.",
+    "no_es_error_del_antecedente": "El antecedente declara su unidad. El error seria nuestro si copiaramos su valor sin notar que su jurisdiccion no es la del trabajador de referencia."
+  },
+  "vacaciones": {
+    "jurisdiccion_aplicable": "Ontario",
+    "texto_legal": "2 semanas con menos de 5 anos de servicio; 3 semanas con 5 anos o mas",
+    "tipo_de_dia": "SEMANAS, no dias",
+    "nota_tipo": "HALLAZGO DE ESQUEMA MENOR PERO REAL. La norma concede SEMANAS. texto_legal_dias y tipo_de_dia no tienen valor para expresarlo sin convertir, y convertir exige conocer la jornada semanal del trabajador. Guardar 10 dias seria una conversion nuestra presentada como texto legal.",
+    "valor_trabajador_de_referencia": "2 semanas (12 meses de servicio)",
+    "escala_antiguedad": {
+      "presente": true,
+      "tramos": [
+        {
+          "desde_anios": 1,
+          "hasta_anios": 5,
+          "semanas": 2
+        },
+        {
+          "desde_anios": 5,
+          "hasta_anios": null,
+          "semanas": 3
+        }
+      ]
+    },
+    "estado_verificacion": "supuesto"
+  },
+  "feriados": {
+    "ontario": 9,
+    "federal": 10,
+    "estado": "COMPLETO para Ontario 2026: nueve feriados",
+    "nota": "Ademas de Ontario y federal, las otras provincias difieren entre si. El promedio ponderado por poblacion que preve el protocolo es aqui obligatorio, no opcional.",
+    "lista_ontario": [
+      {
+        "fecha": "01-01",
+        "nombre": "New Year's Day",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": null,
+        "nombre": "Family Day",
+        "clase_de_regla": "ordinal",
+        "ordinal": 3,
+        "dia_semana": 1,
+        "mes": 2
+      },
+      {
+        "fecha": null,
+        "nombre": "Good Friday",
+        "clase_de_regla": "computable",
+        "regla": "pascua-2"
+      },
+      {
+        "fecha": null,
+        "nombre": "Victoria Day",
+        "clase_de_regla": "relativa_a_fecha",
+        "nota": "«The Monday preceding May 25». Ancla = fecha 25 de mayo; objetivo = lunes; direccion = anterior. Determinista, genera ocurrencias.",
+        "mes": 5,
+        "dia": 25,
+        "dia_semana": 1,
+        "offset_dias": -1
+      },
+      {
+        "fecha": "07-01",
+        "nombre": "Canada Day",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": null,
+        "nombre": "Labour Day",
+        "clase_de_regla": "ordinal",
+        "ordinal": 1,
+        "dia_semana": 1,
+        "mes": 9
+      },
+      {
+        "fecha": null,
+        "nombre": "Thanksgiving",
+        "clase_de_regla": "ordinal",
+        "ordinal": 2,
+        "dia_semana": 1,
+        "mes": 10
+      },
+      {
+        "fecha": "12-25",
+        "nombre": "Christmas Day",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": "12-26",
+        "nombre": "Boxing Day",
+        "clase_de_regla": "fija"
+      }
+    ],
+    "discrepancia_de_cita": "OJO: dos fuentes secundarias discrepan sobre el NUMERO de articulo que regula quien fija la epoca de vacaciones. Una lo situa en la seccion 35 y otra dice que la 35 es la paga de vacaciones. La SUSTANCIA coincide en ambas -el empleador programa- y esa es la que se codifico. El numero de articulo queda marcado como no verificado hasta leer el texto oficial. No se elige uno a ojo."
+  },
+  "corte_2016": {
+    "estado": "supuesto_sin_cambio",
+    "nota": "No se busco modificatoria de la ESA de Ontario en la ventana."
+  },
+  "vacaciones_normalizado": {
+    "version_anterior": {
+      "_": "El quantum del trabajador de referencia NO cambia —dos semanas a los doce meses en los dos cortes— pero la ESCALA si: en 2016 no existia el tramo de cinco anios, y hoy lo registramos tambien para el corte antiguo.",
+      "desde": "2016-01-01",
+      "hasta": "2018-01-01",
+      "dias": 2,
+      "tipo": "semanas",
+      "base": 5,
+      "meses": 12,
+      "imputacion": "extienden",
+      "instrumento": "Employment Standards Act, 2000, S.O. 2000, c. 41 (Ontario), s. 33 (1), en su redaccion anterior a la reforma de 2017",
+      "literal": "Texto vigente en la version historica oficial del periodo 3 a 31 de diciembre de 2017: «33 (1) An employer shall give an employee a vacation of at least two weeks after each vacation entitlement year that he or she completes. 2002, c. 18, Sched. J, s. 3 (18).» Dos semanas PLANAS, sin tramo por antiguedad: su ultima modificacion es de 2002, anterior a la ventana.",
+      "nivel_de_fuente": 1,
+      "escala": [
+        [
+          12,
+          null,
+          2
+        ]
+      ],
+      "nota_escala": "La escala vigente tiene dos tramos —dos semanas hasta los cinco anios y tres desde ahi—; la de 2016 tiene uno solo. El tramo de tres semanas lo crea la reforma de 2017."
+    },
+    "dias": 2,
+    "tipo": "semanas",
+    "base": 5,
+    "imputacion": "extienden",
+    "literal": "two weeks of vacation time",
+    "meses": 12,
+    "escala": [
+      [
+        12,
+        60,
+        2
+      ],
+      [
+        60,
+        null,
+        3
+      ]
+    ],
+    "colocacion": {
+      "iniciativa": "empleador",
+      "veto": null,
+      "silencio": null,
+      "instrumento": "ley",
+      "literal": "Section 35 gives employers the right and the obligation to determine when an employee may take the vacation earned; the employee has no right to take a vacation on their own initiative. Vacation must be given in periods of at least one week unless the employee requests less in writing and the employer agrees"
+    },
+    "imputacion_nota": "ESA: cuando un feriado publico cae dentro de las vacaciones, el trabajador recibe un DIA SUSTITUTO con paga de feriado dentro de tres meses, o paga de feriado sin dia sustituto si lo acuerda por escrito. El feriado no consume vacaciones; se compensa aparte."
+  }
+}

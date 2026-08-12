@@ -1,0 +1,193 @@
+{
+ "_": "Captura de Costa Rica. CAPTURA CIEGA: el articulo 148 se leyo del texto publicado en La Gaceta por la Ley 9803.",
+ "captura_ciega": true,
+ "unidad": "CRI",
+ "jurisdiccion_de_referencia": "San Jose (ciudad mas poblada)",
+ "capturado_por": "captura · lote 2",
+ "fecha_captura_utc": "2026-08-10T18:40:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Ley 9803 — Celebracion nacional del 1 de diciembre como Día de la Abolición del Ejército y día feriado de pago no obligatorio; su artículo 2 reforma el artículo 148 del Código de Trabajo",
+   "nivel_de_fuente": 1,
+   "url": "https://www.imprentanacional.go.cr/pub/2020/07/02/COMP_02_07_2020.pdf",
+   "publicacion": "2020-07-02",
+   "nota": "La Gaceta N. 159 del jueves 2 de julio de 2020, paginas 1-3. GACETA OFICIAL: el literal integro del articulo 148 vigente se leyo de ahi, no de una compilacion."
+  },
+  "F2": {
+   "cita": "Ministerio de Trabajo y Seguridad Social — folleto oficial 'Vacaciones' (articulos 153 y 155 del Código de Trabajo)",
+   "nivel_de_fuente": 2,
+   "url": "https://escuelajudicialpj.poder-judicial.go.cr/Archivos/bibliotecaVirtual/otrasPublicaciones/brochures/Vacaciones.pdf",
+   "nota": "Publicacion del MTSS. Es la fuente de la CONVERSION: 'dos semanas de vacaciones que equivalen a doce dias mas dos dias de descanso como minimo'. PENDIENTE: el literal del articulo 153 no se pudo leer del texto oficial -el SCIJ/SINALEVI de la Procuraduria es una aplicacion de una sola pagina detras de un cortafuegos de aplicacion, y el PDF del Codigo en mtss.go.cr devuelve 403-. Lo que hay aqui es la parafrasis oficial del ministerio."
+  },
+  "F3": {
+   "cita": "MTSS, comunicado de prensa 42-2020: '12 de octubre dejo de ser día feriado'",
+   "nivel_de_fuente": 2,
+   "url": "https://www.mtss.go.cr/prensa/comunicados/2020/octubre/cp_42_2020.html",
+   "publicacion": "2020-10",
+   "nota": "Confirma el efecto de la Ley 9803 sobre el 12 de octubre. No se descargo su contenido; PENDIENTE archivarlo."
+  },
+  "F4": {
+   "cita": "Ley 9875 — transitorio al artículo 148 del Código de Trabajo, traslado de feriados a los lunes para los anos 2020 a 2024",
+   "nivel_de_fuente": 4,
+   "nota": "SE MANTIENE EN NIVEL 4. Se localizo su existencia y su contenido por fuentes secundarias concordantes -era un TRANSITORIO limitado a 2020-2024, de modo que en 2026 NO hay traslado de feriados a lunes-, pero no se localizo el dispositivo en La Gaceta. Varias secundarias no hacen una primaria. IMPORTA: si el transitorio siguiera vivo, seis de los once feriados tendrian clase 'relativa_a_fecha' en vez de 'fija'."
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO — once fechas del articulo 148 vigente",
+  "fuente": "F1",
+  "literal": "Articulo 148.— Se consideraran dias feriados y, por lo tanto, de pago obligatorio los siguientes: el 1 de enero, el 11 de abril, el jueves y viernes Santos, el 1 de mayo, el 25 de julio, el 15 de agosto, el 15 de setiembre y el 25 de diciembre. Los dias 2 de agosto y el 1 de diciembre tambien se consideraran dias feriados, pero su pago no sera obligatorio. Con el fin de inculcar y preservar los valores patrioticos, las actividades civicas y educativas del 12 de octubre seran conmemoraciones obligatorias en el ambito nacional, en todas las escuelas y los colegios el propio dia de la celebracion y no regira como dia feriado.",
+  "hallazgo_categoria": "Costa Rica parte sus feriados en DOS CATEGORIAS: de pago obligatorio (nueve) y de pago NO obligatorio (dos en 2026: el 2 de agosto y el 1 de diciembre; en 2016 eran el 2 de agosto y el 12 de octubre). El esquema lo soporta con la categoria 'descanso_obligatorio_no_pagado' y el regimen 'sin_mandato_de_pago', y el cargador los lee de la captura, asi que la distincion SI llega a la base. Importa para cualquier comparacion: contar once feriados en Costa Rica y compararlos con once feriados pagados de otro pais sobreestima el derecho costarricense en dos dias.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Año Nuevo",
+    "clase_de_regla": "fija",
+    "pago": "obligatorio"
+   },
+   {
+    "fecha": "04-11",
+    "nombre": "Batalla de Rivas (Juan Santamaría)",
+    "clase_de_regla": "fija",
+    "pago": "obligatorio"
+   },
+   {
+    "fecha": null,
+    "nombre": "Jueves Santo",
+    "clase_de_regla": "computable",
+    "regla": "pascua-3",
+    "pago": "obligatorio"
+   },
+   {
+    "fecha": null,
+    "nombre": "Viernes Santo",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2",
+    "pago": "obligatorio"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Día Internacional del Trabajo",
+    "clase_de_regla": "fija",
+    "pago": "obligatorio"
+   },
+   {
+    "fecha": "07-25",
+    "nombre": "Anexión del Partido de Nicoya",
+    "clase_de_regla": "fija",
+    "pago": "obligatorio"
+   },
+   {
+    "fecha": "08-02",
+    "nombre": "Virgen de los Ángeles",
+    "clase_de_regla": "fija",
+    "pago": "no_obligatorio",
+    "nota": "Feriado de PAGO NO OBLIGATORIO desde antes de la ventana.",
+    "categoria": "descanso_obligatorio_no_pagado",
+    "regimen": "sin_mandato_de_pago"
+   },
+   {
+    "fecha": "08-15",
+    "nombre": "Día de la Madre",
+    "clase_de_regla": "fija",
+    "pago": "obligatorio"
+   },
+   {
+    "fecha": "09-15",
+    "nombre": "Día de la Independencia",
+    "clase_de_regla": "fija",
+    "pago": "obligatorio"
+   },
+   {
+    "fecha": "10-12",
+    "nombre": "Día de las Culturas",
+    "clase_de_regla": "fija",
+    "pago": "no_obligatorio",
+    "hasta": 2019,
+    "instrumento": "Ley 9803 (La Gaceta 159, 2020-07-02)",
+    "nota": "ELIMINADO DENTRO DE LA VENTANA. El articulo 148 reformado dice expresamente que el 12 de octubre 'no regira como dia feriado'. La Ley 9803 se publico el 2 de julio de 2020, asi que el ultimo 12 de octubre feriado fue el de 2019. Vigente en el corte de 2016, extinguido en el de 2026.",
+    "categoria": "descanso_obligatorio_no_pagado",
+    "regimen": "sin_mandato_de_pago"
+   },
+   {
+    "fecha": "12-01",
+    "nombre": "Día de la Abolición del Ejército",
+    "clase_de_regla": "fija",
+    "pago": "no_obligatorio",
+    "desde": "2020-07-02",
+    "instrumento": "Ley 9803 (La Gaceta 159, 2020-07-02)",
+    "nota": "ANADIDO DENTRO DE LA VENTANA por la Ley 9803, publicada en La Gaceta el 2 de julio de 2020, y de pago NO obligatorio.",
+    "categoria": "descanso_obligatorio_no_pagado",
+    "regimen": "sin_mandato_de_pago"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Navidad",
+    "clase_de_regla": "fija",
+    "pago": "obligatorio"
+   }
+  ],
+  "subnacionales": [],
+  "nota_subnacionales": "El articulo 148 no delega en cantones ni provincias. San Jose no anade feriados de descanso obligatorio.",
+  "total_2026": 11,
+  "total_2016": 11,
+  "nota_totales": "El total no se mueve pero la COMPOSICION si: sale el 12 de octubre, entra el 1 de diciembre. Un panel que solo compare conteos veria cero cambio donde hubo una sustitucion."
+ },
+ "vacaciones": {
+  "texto_legal": "dos semanas por cada cincuenta semanas de labor continua",
+  "tipo_de_dia": "semanas",
+  "literal": "Todo trabajador tiene derecho a vacaciones anuales remuneradas, cuyo minimo se fija en dos semanas por cada cincuenta semanas de labor continua, al servicio de un mismo patrono.",
+  "fuente": "F2",
+  "conversion_oficial": "El MTSS dice: 'dos semanas de vacaciones que equivalen a doce dias mas dos dias de descanso como minimo'. O sea la base semanal de la norma es SEIS dias de trabajo y uno de descanso, y las dos semanas son doce dias laborables mas dos de descanso, catorce naturales. Esto es lo que fija la base 6: no se dedujo, se leyo.",
+  "periodo_de_calificacion": "cincuenta semanas de labor continua, que el propio MTSS traduce a 11,5 meses",
+  "nota_periodo": "HUECO DE REPRESENTACION. El umbral real son 50 semanas (~11,5 meses). El esquema SI lo admite -escala_antiguedad tiene desde_dias_residuales para las fronteras submensuales- pero cargar_piloto.py acepta tramos de tres elementos y fija el residual en 0, asi que hay que redondear a meses enteros. Se puso 12, que retrasa el derecho medio mes respecto de la ley.",
+  "incompensables": "Las vacaciones son absolutamente incompensables salvo fin de la relacion, trabajo ocasional o a destajo, y el exceso sobre el minimo de dos semanas en casos justificados.",
+  "fraccionamiento": "Deben gozarse sin interrupcion; se pueden dividir en dos fracciones como maximo, por acuerdo y solo en labores de indole especial.",
+  "estado_verificacion": "verificado_secundaria"
+ },
+ "imputacion": {
+  "resultado": "sin_regla_explicita",
+  "que_se_busco": "Un articulo que diga si un feriado caido dentro de las dos semanas las extiende o se computa contra ellas. Se reviso el articulo 148 completo -que es donde estaria si estuviera- y el folleto oficial del MTSS sobre vacaciones, que trata calculo, fraccionamiento, compensacion y acumulacion y no menciona la coincidencia con feriados.",
+  "resultado_detallado": "No aparece. El derecho esta escrito en SEMANAS, lo que hace la pregunta especialmente viva: si la semana se consume entera, un feriado dentro se pierde. La norma no lo dice."
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "La Ley 9803, publicada en La Gaceta 159 del 2 de julio de 2020, reformo el articulo 148: elimino el 12 de octubre como feriado y anadio el 1 de diciembre como feriado de pago no obligatorio. Localizada y datada en gaceta oficial, o sea el corte de 2016 se DERIVA. En vacaciones no se hallo reforma de los articulos 153 y 155 en la ventana; esa parte es supuesto."
+ },
+ "delta_2016_2026": {
+  "feriados": "0 en total, pero una sustitucion verificada: -12 de octubre, +1 de diciembre",
+  "vacaciones": "0 — sin reforma hallada"
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "_": "La unidad de mas riesgo de la campana, resuelta. Su reforma procesal laboral se publico en enero de 2016 y entro en vigor en julio de 2017 —dentro de la ventana— y reformo numerosos articulos del Código. NO toco este.",
+     "buscado_en": "Sistema Nacional de Legislacion Vigente de Costa Rica, ficha del art. 153 del Código de Trabajo con su historial de versiones",
+     "cita": "«Todo trabajador tiene derecho a vacaciones anuales remuneradas, cuyo minimo se fija en dos semanas por cada cincuenta semanas de labores continuas, al servicio de un mismo patrono.» El artículo cierra con su propia nota: «(Asi reformado por el artículo 1° de la ley N° 4302 de 16 de enero de 1969)», y el sistema lo presenta como «Versión del artículo: 2 de 2». Dos versiones en toda su historia y la última es de 1969: la reforma procesal laboral de la ventana no lo alcanza.",
+     "nivel_de_fuente": 1,
+     "indice_registra_modificaciones": true,
+     "indice_como_se_comprobo": "El sistema numera las versiones de cada artículo y adjunta la nota de reforma con ley y fecha. Registra la presencia: por eso «2 de 2» y la nota de 1969 cierran la ventana.",
+     "fecha_busqueda": "2026-08-11"
+   },
+  "dias": 2,
+  "tipo": "semanas",
+  "base": 6,
+  "imputacion": "sin_regla_explicita",
+  "meses": 12,
+  "literal": "dos semanas por cada cincuenta semanas de labor continua, al servicio de un mismo patrono",
+  "escala": [
+   [
+    12,
+    null,
+    2
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "El patrono senalara la epoca en que el trabajador gozara de sus vacaciones, pero debera hacerlo dentro de las quince semanas posteriores al dia en que se cumplan las cincuenta semanas de servicio continuo, tratando de que no se altere la buena marcha del centro de trabajo ni la efectividad del descanso."
+  },
+  "nota_base": "Base 6 LEIDA, no inferida: el MTSS convierte las dos semanas en doce dias de trabajo mas dos de descanso.",
+  "nota_meses": "El umbral legal son 50 semanas, no 12 meses. Se redondeo por limitacion del cargador; ver vacaciones.nota_periodo."
+ }
+}

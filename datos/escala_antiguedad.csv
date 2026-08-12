@@ -1,0 +1,168 @@
+iso3,unidad,desde_meses,hasta_meses,operador_frontera,dias,tipo_de_dia,literal_normativo
+ARG,Buenos Aires,0,6,tras_completar,0.0,calendario,Art. 150 LCT: 'El trabajador gozara de un periodo minimo y continuado de descanso anual remunerado' de catorce (14) dias corridos cuando la antiguedad en el empleo no exceda de cinco (5) anos; veintiu
+ARG,Buenos Aires,6,60,tras_completar,14.0,calendario,Art. 150 LCT: 'El trabajador gozara de un periodo minimo y continuado de descanso anual remunerado' de catorce (14) dias corridos cuando la antiguedad en el empleo no exceda de cinco (5) anos; veintiu
+ARG,Buenos Aires,60,120,tras_completar,21.0,calendario,Art. 150 LCT: 'El trabajador gozara de un periodo minimo y continuado de descanso anual remunerado' de catorce (14) dias corridos cuando la antiguedad en el empleo no exceda de cinco (5) anos; veintiu
+ARG,Buenos Aires,120,240,tras_completar,28.0,calendario,Art. 150 LCT: 'El trabajador gozara de un periodo minimo y continuado de descanso anual remunerado' de catorce (14) dias corridos cuando la antiguedad en el empleo no exceda de cinco (5) anos; veintiu
+ARG,Buenos Aires,240,,tras_completar,35.0,calendario,Art. 150 LCT: 'El trabajador gozara de un periodo minimo y continuado de descanso anual remunerado' de catorce (14) dias corridos cuando la antiguedad en el empleo no exceda de cinco (5) anos; veintiu
+AUS,Sídney,0,,tras_completar,4.0,semanas,"Fair Work Act 2009 s. 87(1): por cada ano de servicio el trabajador tiene derecho a 4 semanas de licencia anual pagada, o 5 semanas si califica como shiftworker bajo s. 87(3). s. 87(2): el derecho se "
+AUT,Viena,0,6,tras_completar,0.0,werktage,"UrlG §2 Abs 1: el Urlaubsausmass es de 30 Werktage con una Dienstzeit menor a 25 anos, y sube a 36 Werktage cumplido el ano 25. §2 Abs 2: son Werktage los dias de lunes a sabado que NO sean feriados l"
+AUT,Viena,6,300,tras_completar,30.0,werktage,"UrlG §2 Abs 1: el Urlaubsausmass es de 30 Werktage con una Dienstzeit menor a 25 anos, y sube a 36 Werktage cumplido el ano 25. §2 Abs 2: son Werktage los dias de lunes a sabado que NO sean feriados l"
+AUT,Viena,300,,tras_completar,36.0,werktage,"UrlG §2 Abs 1: el Urlaubsausmass es de 30 Werktage con una Dienstzeit menor a 25 anos, y sube a 36 Werktage cumplido el ano 25. §2 Abs 2: son Werktage los dias de lunes a sabado que NO sean feriados l"
+BEL,Bruselas,0,12,tras_completar,0.0,habil,"AR 30.03.1967 art. 35 §1: tabla de duracion, con la columna encabezada 'Nombre de jours de vacances legales (exprime en jours dans le standard d'un regime de travail de 5 jours par semaine a temps ple"
+BEL,Bruselas,12,,tras_completar,20.0,habil,"AR 30.03.1967 art. 35 §1: tabla de duracion, con la columna encabezada 'Nombre de jours de vacances legales (exprime en jours dans le standard d'un regime de travail de 5 jours par semaine a temps ple"
+BGR,Sofía,0,4,tras_completar,0.0,habil,"чл. 155 ал. 4 КТ: 'Размерът на основния платен годишен отпуск е не по-малко от 20 работни дни.' чл. 155 ал. 2: al emplearse por primera vez, el trabajador puede usar su permiso anual retribuido cuando"
+BGR,Sofía,0,8,tras_completar,0.0,habil,"§ 17 de la ley modificatoria: «В чл. 155, ал. 2 и 3 думите “8 месеца” се заменят с “4 месеца”.» O sea que hasta esa reforma el trabajador que empezaba a trabajar por primera vez necesitaba OCHO meses "
+BGR,Sofía,4,,tras_completar,20.0,habil,"чл. 155 ал. 4 КТ: 'Размерът на основния платен годишен отпуск е не по-малко от 20 работни дни.' чл. 155 ал. 2: al emplearse por primera vez, el trabajador puede usar su permiso anual retribuido cuando"
+BGR,Sofía,8,,tras_completar,20.0,habil,"§ 17 de la ley modificatoria: «В чл. 155, ал. 2 и 3 думите “8 месеца” се заменят с “4 месеца”.» O sea que hasta esa reforma el trabajador que empezaba a trabajar por primera vez necesitaba OCHO meses "
+BRA,São Paulo,0,12,tras_completar,0.0,calendario,"CLT art. 130: 'Apos cada periodo de 12 (doze) meses de vigencia do contrato de trabalho, o empregado tera direito a ferias, na seguinte proporcao: I - 30 (trinta) dias corridos, quando nao houver falt"
+BRA,São Paulo,12,,tras_completar,30.0,calendario,"CLT art. 130: 'Apos cada periodo de 12 (doze) meses de vigencia do contrato de trabalho, o empregado tera direito a ferias, na seguinte proporcao: I - 30 (trinta) dias corridos, quando nao houver falt"
+CAN,Toronto,0,12,tras_completar,0.0,semanas,two weeks of vacation time
+CAN,Toronto,0,12,tras_completar,0.0,semanas,Texto vigente en la version historica oficial del periodo 3 a 31 de diciembre de 2017: «33 (1) An employer shall give an employee a vacation of at least two weeks after each vacation entitlement year 
+CAN,Toronto,12,60,tras_completar,2.0,semanas,two weeks of vacation time
+CAN,Toronto,12,,tras_completar,2.0,semanas,Texto vigente en la version historica oficial del periodo 3 a 31 de diciembre de 2017: «33 (1) An employer shall give an employee a vacation of at least two weeks after each vacation entitlement year 
+CAN,Toronto,60,,tras_completar,3.0,semanas,two weeks of vacation time
+CHE,Zúrich,0,12,tras_completar,0.0,semanas,Der Arbeitgeber hat dem Arbeitnehmer jedes Dienstjahr wenigstens vier Wochen... Ferien zu gewaehren (Art. 329a Abs. 1 OR)
+CHE,Zúrich,12,,tras_completar,4.0,semanas,Der Arbeitgeber hat dem Arbeitnehmer jedes Dienstjahr wenigstens vier Wochen... Ferien zu gewaehren (Art. 329a Abs. 1 OR)
+CHL,Santiago,0,12,tras_completar,0.0,habil,"Codigo del Trabajo art. 67: 'Los trabajadores con mas de un ano de servicio tendran derecho a un feriado anual de quince dias habiles, con remuneracion integra que se otorgara de acuerdo con las forma"
+CHL,Santiago,12,,tras_completar,15.0,habil,"Codigo del Trabajo art. 67: 'Los trabajadores con mas de un ano de servicio tendran derecho a un feriado anual de quince dias habiles, con remuneracion integra que se otorgara de acuerdo con las forma"
+COL,Bogotá,0,12,tras_completar,0.0,habil,Los trabajadores que hubieren prestado sus servicios durante un ano tienen derecho a quince (15) dias habiles consecutivos de vacaciones remuneradas
+COL,Bogotá,12,,tras_completar,15.0,habil,Los trabajadores que hubieren prestado sus servicios durante un ano tienen derecho a quince (15) dias habiles consecutivos de vacaciones remuneradas
+CRI,San José,0,12,tras_completar,0.0,semanas,"dos semanas por cada cincuenta semanas de labor continua, al servicio de un mismo patrono"
+CRI,San José,12,,tras_completar,2.0,semanas,"dos semanas por cada cincuenta semanas de labor continua, al servicio de un mismo patrono"
+CZE,Praga,0,12,tras_completar,0.0,semanas,"Vymera dovolene cini nejmene 4 tydny v kalendarnim roce (§ 213 odst. 1); pripadne-li v dobe dovolene svatek na den, ktery je jinak jeho obvyklym pracovnim dnem, nezapocitava se do dovolene (§ 219 odst"
+CZE,Praga,12,,tras_completar,4.0,semanas,"Vymera dovolene cini nejmene 4 tydny v kalendarnim roce (§ 213 odst. 1); pripadne-li v dobe dovolene svatek na den, ktery je jinak jeho obvyklym pracovnim dnem, nezapocitava se do dovolene (§ 219 odst"
+DEU,Berlín,0,12,tras_completar,0.0,werktage,Der Urlaub betraegt jaehrlich mindestens 24 Werktage
+DEU,Berlín,12,,tras_completar,24.0,werktage,Der Urlaub betraegt jaehrlich mindestens 24 Werktage
+DNK,Copenhague,0,1,tras_completar,0.0,habil,En lonmodtager optjener i feriearet ret til 5 ugers betalt ferie; ferie holdes med 5 dage om ugen
+DNK,Copenhague,1,2,tras_completar,2.08,habil,En lonmodtager optjener i feriearet ret til 5 ugers betalt ferie; ferie holdes med 5 dage om ugen
+DNK,Copenhague,2,3,tras_completar,4.16,habil,En lonmodtager optjener i feriearet ret til 5 ugers betalt ferie; ferie holdes med 5 dage om ugen
+DNK,Copenhague,3,4,tras_completar,6.24,habil,En lonmodtager optjener i feriearet ret til 5 ugers betalt ferie; ferie holdes med 5 dage om ugen
+DNK,Copenhague,4,5,tras_completar,8.32,habil,En lonmodtager optjener i feriearet ret til 5 ugers betalt ferie; ferie holdes med 5 dage om ugen
+DNK,Copenhague,5,6,tras_completar,10.4,habil,En lonmodtager optjener i feriearet ret til 5 ugers betalt ferie; ferie holdes med 5 dage om ugen
+DNK,Copenhague,6,7,tras_completar,12.48,habil,En lonmodtager optjener i feriearet ret til 5 ugers betalt ferie; ferie holdes med 5 dage om ugen
+DNK,Copenhague,7,8,tras_completar,14.56,habil,En lonmodtager optjener i feriearet ret til 5 ugers betalt ferie; ferie holdes med 5 dage om ugen
+DNK,Copenhague,8,9,tras_completar,16.64,habil,En lonmodtager optjener i feriearet ret til 5 ugers betalt ferie; ferie holdes med 5 dage om ugen
+DNK,Copenhague,9,10,tras_completar,18.72,habil,En lonmodtager optjener i feriearet ret til 5 ugers betalt ferie; ferie holdes med 5 dage om ugen
+DNK,Copenhague,10,11,tras_completar,20.8,habil,En lonmodtager optjener i feriearet ret til 5 ugers betalt ferie; ferie holdes med 5 dage om ugen
+DNK,Copenhague,11,12,tras_completar,22.88,habil,En lonmodtager optjener i feriearet ret til 5 ugers betalt ferie; ferie holdes med 5 dage om ugen
+DNK,Copenhague,12,,tras_completar,25.0,habil,En lonmodtager optjener i feriearet ret til 5 ugers betalt ferie; ferie holdes med 5 dage om ugen
+DOM,Santo Domingo,0,12,tras_completar,0.0,habil,"un periodo de vacaciones de catorce (14) dias laborables, con disfrute de salario (art. 177)"
+DOM,Santo Domingo,12,,tras_completar,14.0,habil,"un periodo de vacaciones de catorce (14) dias laborables, con disfrute de salario (art. 177)"
+ECU,Guayaquil,0,12,tras_completar,0.0,calendario,"Todo trabajador tendra derecho a gozar anualmente de un periodo ininterrumpido de quince dias de descanso, incluidos los dias no laborables"
+ECU,Guayaquil,12,,tras_completar,15.0,calendario,"Todo trabajador tendra derecho a gozar anualmente de un periodo ininterrumpido de quince dias de descanso, incluidos los dias no laborables"
+ESP,Madrid,0,12,tras_completar,0.0,calendario,En ningun caso la duracion sera inferior a treinta dias naturales
+ESP,Madrid,12,,tras_completar,30.0,calendario,En ningun caso la duracion sera inferior a treinta dias naturales
+FIN,Helsinki,0,12,tras_completar,0.0,werktage,Tyontekijalla on oikeus saada lomaa kaksi ja puoli arkipaivaa kultakin taydelta lomanmaaraytymiskuukaudelta. Jos tyosuhde on lomanmaaraytymisvuoden loppuun mennessa jatkunut yhdenjaksoisesti alle vuod
+FIN,Helsinki,12,,tras_completar,30.0,werktage,Tyontekijalla on oikeus saada lomaa kaksi ja puoli arkipaivaa kultakin taydelta lomanmaaraytymiskuukaudelta. Jos tyosuhde on lomanmaaraytymisvuoden loppuun mennessa jatkunut yhdenjaksoisesti alle vuod
+FRA,París,0,12,tras_completar,0.0,werktage,Le salarie a droit a un conge de deux jours et demi ouvrables par mois de travail effectif chez le meme employeur. La duree totale du conge exigible ne peut exceder trente jours ouvrables.
+FRA,París,12,,tras_completar,30.0,werktage,Le salarie a droit a un conge de deux jours et demi ouvrables par mois de travail effectif chez le meme employeur. La duree totale du conge exigible ne peut exceder trente jours ouvrables.
+GBR,Londres,0,12,tras_completar,0.0,semanas,reg 13(1) four weeks' annual leave in each leave year + reg 13A(2) 1.6 weeks additional leave; reg 13A(3) aggregate capped at 28 days
+GBR,Londres,12,,tras_completar,5.6,semanas,reg 13(1) four weeks' annual leave in each leave year + reg 13A(2) 1.6 weeks additional leave; reg 13A(3) aggregate capped at 28 days
+GRC,Atenas,0,12,tras_completar,20.0,habil,"Το ποσοστο αυτο υπολογιζεται με βαση ετησια αδεια εικοσιτεσσαρων (24) εργασιμων ημερων η αν στην επιχειρηση εφαρμοζεται συστημα πενθημερης εβδομαδιαιας εργασιας, εικοσι (20) εργασιμων ημερων (...) Η α"
+GRC,Atenas,12,24,tras_completar,21.0,habil,"Το ποσοστο αυτο υπολογιζεται με βαση ετησια αδεια εικοσιτεσσαρων (24) εργασιμων ημερων η αν στην επιχειρηση εφαρμοζεται συστημα πενθημερης εβδομαδιαιας εργασιας, εικοσι (20) εργασιμων ημερων (...) Η α"
+GRC,Atenas,24,,tras_completar,22.0,habil,"Το ποσοστο αυτο υπολογιζεται με βαση ετησια αδεια εικοσιτεσσαρων (24) εργασιμων ημερων η αν στην επιχειρηση εφαρμοζεται συστημα πενθημερης εβδομαδιαιας εργασιας, εικοσι (20) εργασιμων ημερων (...) Η α"
+GTM,Ciudad de Guatemala,0,12,tras_completar,0.0,habil,cuya duracion minima es de quince dias habiles
+GTM,Ciudad de Guatemala,12,,tras_completar,15.0,habil,cuya duracion minima es de quince dias habiles
+HND,Tegucigalpa,0,12,tras_completar,0.0,habil,"El periodo de vacaciones remuneradas, a que tiene derecho todo trabajador despues de cada ano de trabajo continuo al servicio del mismo patrono, tendra como duracion minima la que a continuacion se ex"
+HND,Tegucigalpa,12,24,tras_completar,10.0,habil,"El periodo de vacaciones remuneradas, a que tiene derecho todo trabajador despues de cada ano de trabajo continuo al servicio del mismo patrono, tendra como duracion minima la que a continuacion se ex"
+HND,Tegucigalpa,24,36,tras_completar,12.0,habil,"El periodo de vacaciones remuneradas, a que tiene derecho todo trabajador despues de cada ano de trabajo continuo al servicio del mismo patrono, tendra como duracion minima la que a continuacion se ex"
+HND,Tegucigalpa,36,48,tras_completar,15.0,habil,"El periodo de vacaciones remuneradas, a que tiene derecho todo trabajador despues de cada ano de trabajo continuo al servicio del mismo patrono, tendra como duracion minima la que a continuacion se ex"
+HND,Tegucigalpa,48,,tras_completar,20.0,habil,"El periodo de vacaciones remuneradas, a que tiene derecho todo trabajador despues de cada ano de trabajo continuo al servicio del mismo patrono, tendra como duracion minima la que a continuacion se ex"
+HUN,Budapest,0,12,tras_completar,0.0,habil,116. § Az alapszabadsag merteke husz munkanap.
+HUN,Budapest,12,,tras_completar,20.0,habil,116. § Az alapszabadsag merteke husz munkanap.
+IDN,Yakarta,0,12,tras_completar,0.0,habil,cuti tahunan sekurang-kurangnya 12 hari kerja setelah bekerja selama 12 bulan secara terus menerus
+IDN,Yakarta,12,,tras_completar,12.0,habil,cuti tahunan sekurang-kurangnya 12 hari kerja setelah bekerja selama 12 bulan secara terus menerus
+IRL,Dublín,0,12,tras_completar,0.0,semanas,"an employee shall be entitled to paid annual leave (in this Act referred to as ""annual leave"") equal to (a) 4 working weeks in a leave year in which he or she works at least 1,365 hours (unless it is "
+IRL,Dublín,12,,tras_completar,4.0,semanas,"an employee shall be entitled to paid annual leave (in this Act referred to as ""annual leave"") equal to (a) 4 working weeks in a leave year in which he or she works at least 1,365 hours (unless it is "
+ISR,Jerusalén,0,12,tras_completar,0.0,calendario,אורך החופשה לכל שנת עבודה אצל מעסיק אחד או במקום עבודה אחד הוא: בעד כל אחת מ-5 השנים הראשונות – 16 יום
+ISR,Jerusalén,0,12,tras_completar,0.0,calendario,"בעד כל אחת מ־4 השנים הראשונות – 14 יום — por cada uno de los 4 primeros anios, 14 dias. Art. 3(a)(1) en la redaccion dada por חוק חופשה שנתית (תיקון מס' 2), תשכ""ה-1965, ס""ח 461 עמ' 214, 22-jul-1965."
+ISR,Jerusalén,12,60,tras_completar,16.0,calendario,אורך החופשה לכל שנת עבודה אצל מעסיק אחד או במקום עבודה אחד הוא: בעד כל אחת מ-5 השנים הראשונות – 16 יום
+ISR,Jerusalén,12,48,tras_completar,14.0,calendario,"בעד כל אחת מ־4 השנים הראשונות – 14 יום — por cada uno de los 4 primeros anios, 14 dias. Art. 3(a)(1) en la redaccion dada por חוק חופשה שנתית (תיקון מס' 2), תשכ""ה-1965, ס""ח 461 עמ' 214, 22-jul-1965."
+ISR,Jerusalén,48,60,tras_completar,16.0,calendario,"בעד כל אחת מ־4 השנים הראשונות – 14 יום — por cada uno de los 4 primeros anios, 14 dias. Art. 3(a)(1) en la redaccion dada por חוק חופשה שנתית (תיקון מס' 2), תשכ""ה-1965, ס""ח 461 עמ' 214, 22-jul-1965."
+ISR,Jerusalén,60,72,tras_completar,18.0,calendario,אורך החופשה לכל שנת עבודה אצל מעסיק אחד או במקום עבודה אחד הוא: בעד כל אחת מ-5 השנים הראשונות – 16 יום
+ISR,Jerusalén,60,72,tras_completar,18.0,calendario,"בעד כל אחת מ־4 השנים הראשונות – 14 יום — por cada uno de los 4 primeros anios, 14 dias. Art. 3(a)(1) en la redaccion dada por חוק חופשה שנתית (תיקון מס' 2), תשכ""ה-1965, ס""ח 461 עמ' 214, 22-jul-1965."
+ISR,Jerusalén,72,84,tras_completar,21.0,calendario,אורך החופשה לכל שנת עבודה אצל מעסיק אחד או במקום עבודה אחד הוא: בעד כל אחת מ-5 השנים הראשונות – 16 יום
+ISR,Jerusalén,72,84,tras_completar,21.0,calendario,"בעד כל אחת מ־4 השנים הראשונות – 14 יום — por cada uno de los 4 primeros anios, 14 dias. Art. 3(a)(1) en la redaccion dada por חוק חופשה שנתית (תיקון מס' 2), תשכ""ה-1965, ס""ח 461 עמ' 214, 22-jul-1965."
+ISR,Jerusalén,84,96,tras_completar,22.0,calendario,אורך החופשה לכל שנת עבודה אצל מעסיק אחד או במקום עבודה אחד הוא: בעד כל אחת מ-5 השנים הראשונות – 16 יום
+ISR,Jerusalén,84,96,tras_completar,22.0,calendario,"בעד כל אחת מ־4 השנים הראשונות – 14 יום — por cada uno de los 4 primeros anios, 14 dias. Art. 3(a)(1) en la redaccion dada por חוק חופשה שנתית (תיקון מס' 2), תשכ""ה-1965, ס""ח 461 עמ' 214, 22-jul-1965."
+ISR,Jerusalén,96,108,tras_completar,23.0,calendario,אורך החופשה לכל שנת עבודה אצל מעסיק אחד או במקום עבודה אחד הוא: בעד כל אחת מ-5 השנים הראשונות – 16 יום
+ISR,Jerusalén,96,108,tras_completar,23.0,calendario,"בעד כל אחת מ־4 השנים הראשונות – 14 יום — por cada uno de los 4 primeros anios, 14 dias. Art. 3(a)(1) en la redaccion dada por חוק חופשה שנתית (תיקון מס' 2), תשכ""ה-1965, ס""ח 461 עמ' 214, 22-jul-1965."
+ISR,Jerusalén,108,120,tras_completar,24.0,calendario,אורך החופשה לכל שנת עבודה אצל מעסיק אחד או במקום עבודה אחד הוא: בעד כל אחת מ-5 השנים הראשונות – 16 יום
+ISR,Jerusalén,108,120,tras_completar,24.0,calendario,"בעד כל אחת מ־4 השנים הראשונות – 14 יום — por cada uno de los 4 primeros anios, 14 dias. Art. 3(a)(1) en la redaccion dada por חוק חופשה שנתית (תיקון מס' 2), תשכ""ה-1965, ס""ח 461 עמ' 214, 22-jul-1965."
+ISR,Jerusalén,120,132,tras_completar,25.0,calendario,אורך החופשה לכל שנת עבודה אצל מעסיק אחד או במקום עבודה אחד הוא: בעד כל אחת מ-5 השנים הראשונות – 16 יום
+ISR,Jerusalén,120,132,tras_completar,25.0,calendario,"בעד כל אחת מ־4 השנים הראשונות – 14 יום — por cada uno de los 4 primeros anios, 14 dias. Art. 3(a)(1) en la redaccion dada por חוק חופשה שנתית (תיקון מס' 2), תשכ""ה-1965, ס""ח 461 עמ' 214, 22-jul-1965."
+ISR,Jerusalén,132,144,tras_completar,26.0,calendario,אורך החופשה לכל שנת עבודה אצל מעסיק אחד או במקום עבודה אחד הוא: בעד כל אחת מ-5 השנים הראשונות – 16 יום
+ISR,Jerusalén,132,144,tras_completar,26.0,calendario,"בעד כל אחת מ־4 השנים הראשונות – 14 יום — por cada uno de los 4 primeros anios, 14 dias. Art. 3(a)(1) en la redaccion dada por חוק חופשה שנתית (תיקון מס' 2), תשכ""ה-1965, ס""ח 461 עמ' 214, 22-jul-1965."
+ISR,Jerusalén,144,156,tras_completar,27.0,calendario,אורך החופשה לכל שנת עבודה אצל מעסיק אחד או במקום עבודה אחד הוא: בעד כל אחת מ-5 השנים הראשונות – 16 יום
+ISR,Jerusalén,144,156,tras_completar,27.0,calendario,"בעד כל אחת מ־4 השנים הראשונות – 14 יום — por cada uno de los 4 primeros anios, 14 dias. Art. 3(a)(1) en la redaccion dada por חוק חופשה שנתית (תיקון מס' 2), תשכ""ה-1965, ס""ח 461 עמ' 214, 22-jul-1965."
+ISR,Jerusalén,156,,tras_completar,28.0,calendario,אורך החופשה לכל שנת עבודה אצל מעסיק אחד או במקום עבודה אחד הוא: בעד כל אחת מ-5 השנים הראשונות – 16 יום
+ISR,Jerusalén,156,,tras_completar,28.0,calendario,"בעד כל אחת מ־4 השנים הראשונות – 14 יום — por cada uno de los 4 primeros anios, 14 dias. Art. 3(a)(1) en la redaccion dada por חוק חופשה שנתית (תיקון מס' 2), תשכ""ה-1965, ס""ח 461 עמ' 214, 22-jul-1965."
+ITA,Roma,0,12,tras_completar,0.0,semanas,"Fermo restando quanto previsto dall'articolo 2109 del codice civile, il prestatore di lavoro ha diritto ad un periodo annuale di ferie retribuite non inferiore a quattro settimane."
+ITA,Roma,12,,tras_completar,4.0,semanas,"Fermo restando quanto previsto dall'articolo 2109 del codice civile, il prestatore di lavoro ha diritto ad un periodo annuale di ferie retribuite non inferiore a quattro settimane."
+JPN,Tokio,0,6,tras_completar,0.0,habil,使用者は、その雇入れの日から起算して六箇月間継続勤務し全労働日の八割以上出勤した労働者に対して、継続し、又は分割した十労働日の有給休暇を与えなければならない (労基法39条1項)
+JPN,Tokio,6,18,tras_completar,10.0,habil,使用者は、その雇入れの日から起算して六箇月間継続勤務し全労働日の八割以上出勤した労働者に対して、継続し、又は分割した十労働日の有給休暇を与えなければならない (労基法39条1項)
+JPN,Tokio,18,30,tras_completar,11.0,habil,使用者は、その雇入れの日から起算して六箇月間継続勤務し全労働日の八割以上出勤した労働者に対して、継続し、又は分割した十労働日の有給休暇を与えなければならない (労基法39条1項)
+JPN,Tokio,30,42,tras_completar,12.0,habil,使用者は、その雇入れの日から起算して六箇月間継続勤務し全労働日の八割以上出勤した労働者に対して、継続し、又は分割した十労働日の有給休暇を与えなければならない (労基法39条1項)
+JPN,Tokio,42,54,tras_completar,14.0,habil,使用者は、その雇入れの日から起算して六箇月間継続勤務し全労働日の八割以上出勤した労働者に対して、継続し、又は分割した十労働日の有給休暇を与えなければならない (労基法39条1項)
+JPN,Tokio,54,66,tras_completar,16.0,habil,使用者は、その雇入れの日から起算して六箇月間継続勤務し全労働日の八割以上出勤した労働者に対して、継続し、又は分割した十労働日の有給休暇を与えなければならない (労基法39条1項)
+JPN,Tokio,66,78,tras_completar,18.0,habil,使用者は、その雇入れの日から起算して六箇月間継続勤務し全労働日の八割以上出勤した労働者に対して、継続し、又は分割した十労働日の有給休暇を与えなければならない (労基法39条1項)
+JPN,Tokio,78,,tras_completar,20.0,habil,使用者は、その雇入れの日から起算して六箇月間継続勤務し全労働日の八割以上出勤した労働者に対して、継続し、又は分割した十労働日の有給休暇を与えなければならない (労基法39条1項)
+KOR,Seúl,0,12,tras_completar,0.0,habil,사용자는 1년간 80퍼센트 이상 출근한 근로자에게 15일의 유급휴가를 주어야 한다
+KOR,Seúl,12,36,tras_completar,15.0,habil,사용자는 1년간 80퍼센트 이상 출근한 근로자에게 15일의 유급휴가를 주어야 한다
+KOR,Seúl,36,60,tras_completar,16.0,habil,사용자는 1년간 80퍼센트 이상 출근한 근로자에게 15일의 유급휴가를 주어야 한다
+KOR,Seúl,60,84,tras_completar,17.0,habil,사용자는 1년간 80퍼센트 이상 출근한 근로자에게 15일의 유급휴가를 주어야 한다
+KOR,Seúl,84,108,tras_completar,18.0,habil,사용자는 1년간 80퍼센트 이상 출근한 근로자에게 15일의 유급휴가를 주어야 한다
+KOR,Seúl,108,132,tras_completar,19.0,habil,사용자는 1년간 80퍼센트 이상 출근한 근로자에게 15일의 유급휴가를 주어야 한다
+KOR,Seúl,132,156,tras_completar,20.0,habil,사용자는 1년간 80퍼센트 이상 출근한 근로자에게 15일의 유급휴가를 주어야 한다
+KOR,Seúl,156,180,tras_completar,21.0,habil,사용자는 1년간 80퍼센트 이상 출근한 근로자에게 15일의 유급휴가를 주어야 한다
+KOR,Seúl,180,204,tras_completar,22.0,habil,사용자는 1년간 80퍼센트 이상 출근한 근로자에게 15일의 유급휴가를 주어야 한다
+KOR,Seúl,204,228,tras_completar,23.0,habil,사용자는 1년간 80퍼센트 이상 출근한 근로자에게 15일의 유급휴가를 주어야 한다
+KOR,Seúl,228,252,tras_completar,24.0,habil,사용자는 1년간 80퍼센트 이상 출근한 근로자에게 15일의 유급휴가를 주어야 한다
+KOR,Seúl,252,,tras_completar,25.0,habil,사용자는 1년간 80퍼센트 이상 출근한 근로자에게 15일의 유급휴가를 주어야 한다
+MEX,Ciudad de México,0,12,tras_completar,0.0,habil,que en ningun caso podra ser inferior a doce dias laborables
+MEX,Ciudad de México,0,12,tras_completar,0.0,habil,"Art. 76 (texto vigente hasta el 31-dic-2022): «Los trabajadores que tengan mas de un anio de servicios disfrutaran de un periodo anual de vacaciones pagadas, que en ningun caso podra ser inferior a se"
+MEX,Ciudad de México,12,24,tras_completar,12.0,habil,que en ningun caso podra ser inferior a doce dias laborables
+MEX,Ciudad de México,12,24,tras_completar,6.0,habil,"Art. 76 (texto vigente hasta el 31-dic-2022): «Los trabajadores que tengan mas de un anio de servicios disfrutaran de un periodo anual de vacaciones pagadas, que en ningun caso podra ser inferior a se"
+MEX,Ciudad de México,24,36,tras_completar,14.0,habil,que en ningun caso podra ser inferior a doce dias laborables
+MEX,Ciudad de México,24,36,tras_completar,8.0,habil,"Art. 76 (texto vigente hasta el 31-dic-2022): «Los trabajadores que tengan mas de un anio de servicios disfrutaran de un periodo anual de vacaciones pagadas, que en ningun caso podra ser inferior a se"
+MEX,Ciudad de México,36,48,tras_completar,16.0,habil,que en ningun caso podra ser inferior a doce dias laborables
+MEX,Ciudad de México,36,48,tras_completar,10.0,habil,"Art. 76 (texto vigente hasta el 31-dic-2022): «Los trabajadores que tengan mas de un anio de servicios disfrutaran de un periodo anual de vacaciones pagadas, que en ningun caso podra ser inferior a se"
+MEX,Ciudad de México,48,60,tras_completar,18.0,habil,que en ningun caso podra ser inferior a doce dias laborables
+MEX,Ciudad de México,48,60,tras_completar,12.0,habil,"Art. 76 (texto vigente hasta el 31-dic-2022): «Los trabajadores que tengan mas de un anio de servicios disfrutaran de un periodo anual de vacaciones pagadas, que en ningun caso podra ser inferior a se"
+MEX,Ciudad de México,60,72,tras_completar,20.0,habil,que en ningun caso podra ser inferior a doce dias laborables
+MEX,Ciudad de México,60,120,tras_completar,14.0,habil,"Art. 76 (texto vigente hasta el 31-dic-2022): «Los trabajadores que tengan mas de un anio de servicios disfrutaran de un periodo anual de vacaciones pagadas, que en ningun caso podra ser inferior a se"
+MEX,Ciudad de México,72,,tras_completar,22.0,habil,que en ningun caso podra ser inferior a doce dias laborables
+MEX,Ciudad de México,120,180,tras_completar,16.0,habil,"Art. 76 (texto vigente hasta el 31-dic-2022): «Los trabajadores que tengan mas de un anio de servicios disfrutaran de un periodo anual de vacaciones pagadas, que en ningun caso podra ser inferior a se"
+MEX,Ciudad de México,180,240,tras_completar,18.0,habil,"Art. 76 (texto vigente hasta el 31-dic-2022): «Los trabajadores que tengan mas de un anio de servicios disfrutaran de un periodo anual de vacaciones pagadas, que en ningun caso podra ser inferior a se"
+MEX,Ciudad de México,240,,tras_completar,20.0,habil,"Art. 76 (texto vigente hasta el 31-dic-2022): «Los trabajadores que tengan mas de un anio de servicios disfrutaran de un periodo anual de vacaciones pagadas, que en ningun caso podra ser inferior a se"
+NIC,Managua,0,6,tras_completar,0.0,calendario,"Todo trabajador tiene derecho a disfrutar de quince dias de descanso continuo y remunerado en concepto de vacaciones, por cada seis meses de trabajo ininterrumpido al servicio de un mismo empleador (L"
+NIC,Managua,6,12,tras_completar,15.0,calendario,"Todo trabajador tiene derecho a disfrutar de quince dias de descanso continuo y remunerado en concepto de vacaciones, por cada seis meses de trabajo ininterrumpido al servicio de un mismo empleador (L"
+NIC,Managua,12,,tras_completar,30.0,calendario,"Todo trabajador tiene derecho a disfrutar de quince dias de descanso continuo y remunerado en concepto de vacaciones, por cada seis meses de trabajo ininterrumpido al servicio de un mismo empleador (L"
+NLD,Ámsterdam,0,,tras_completar,4.0,semanas,aanspraak op vakantie van ten minste vier maal de overeengekomen arbeidsduur per week (BW 7:634 lid 1)
+NOR,Oslo,0,,tras_completar,25.0,werktage,Arbeidsgiver plikter a sorge for at arbeidstaker gis feriefritid pa 25 virkedager hvert ferieaar. Som virkedager regnes alle dager som ikke er sondager eller lovbestemte helge- eller hoytidsdager (fer
+NZL,Auckland,0,12,tras_completar,0.0,semanas,"After the end of each completed 12 months of continuous employment, an employee is entitled to not less than 4 weeks' paid annual holidays (Holidays Act 2003, s 16(1))"
+NZL,Auckland,12,,tras_completar,4.0,semanas,"After the end of each completed 12 months of continuous employment, an employee is entitled to not less than 4 weeks' paid annual holidays (Holidays Act 2003, s 16(1))"
+PER,Lima,0,12,tras_completar,0.0,calendario,"El descanso vacacional es de treinta (30) dias calendario y comprende los dias de descanso semanal, feriados, dias no laborables"
+PER,Lima,12,,tras_completar,30.0,calendario,"El descanso vacacional es de treinta (30) dias calendario y comprende los dias de descanso semanal, feriados, dias no laborables"
+POL,Varsovia,0,12,tras_completar,0.0,habil,"Wymiar urlopu wynosi: 20 dni - jezeli pracownik jest zatrudniony krocej niz 10 lat; 26 dni - jezeli pracownik jest zatrudniony co najmniej 10 lat (kp art. 154 § 1). Urlopu udziela sie w dni, ktore sa "
+POL,Varsovia,12,120,tras_completar,20.0,habil,"Wymiar urlopu wynosi: 20 dni - jezeli pracownik jest zatrudniony krocej niz 10 lat; 26 dni - jezeli pracownik jest zatrudniony co najmniej 10 lat (kp art. 154 § 1). Urlopu udziela sie w dni, ktore sa "
+POL,Varsovia,120,,tras_completar,26.0,habil,"Wymiar urlopu wynosi: 20 dni - jezeli pracownik jest zatrudniony krocej niz 10 lat; 26 dni - jezeli pracownik jest zatrudniony co najmniej 10 lat (kp art. 154 § 1). Urlopu udziela sie w dni, ktore sa "
+PRT,Lisboa,0,12,tras_completar,0.0,habil,"Artigo 238.º n.º 1: 'O periodo anual de ferias tem a duracao minima de 22 dias uteis.' n.º 2: 'Para efeitos de ferias, sao uteis os dias da semana de segunda-feira a sexta-feira, com excecao de feriad"
+PRT,Lisboa,12,,tras_completar,22.0,habil,"Artigo 238.º n.º 1: 'O periodo anual de ferias tem a duracao minima de 22 dias uteis.' n.º 2: 'Para efeitos de ferias, sao uteis os dias da semana de segunda-feira a sexta-feira, com excecao de feriad"
+PRY,Asunción,0,12,tras_completar,0.0,habil,"Para trabajadores de hasta cinco anos de antiguedad, doce dias habiles corridos (Codigo del Trabajo art. 218, texto dado por la Ley 496/95)"
+PRY,Asunción,12,60,tras_completar,12.0,habil,"Para trabajadores de hasta cinco anos de antiguedad, doce dias habiles corridos (Codigo del Trabajo art. 218, texto dado por la Ley 496/95)"
+PRY,Asunción,60,120,tras_completar,18.0,habil,"Para trabajadores de hasta cinco anos de antiguedad, doce dias habiles corridos (Codigo del Trabajo art. 218, texto dado por la Ley 496/95)"
+PRY,Asunción,120,,tras_completar,30.0,habil,"Para trabajadores de hasta cinco anos de antiguedad, doce dias habiles corridos (Codigo del Trabajo art. 218, texto dado por la Ley 496/95)"
+ROU,Bucarest,0,12,tras_completar,0.0,habil,Durata minima a concediului de odihna anual este de 20 de zile lucratoare (art. 145 alin. 1); sarbatorile legale in care nu se lucreaza... nu sunt incluse in durata concediului de odihna anual (art. 1
+ROU,Bucarest,12,,tras_completar,20.0,habil,Durata minima a concediului de odihna anual este de 20 de zile lucratoare (art. 145 alin. 1); sarbatorile legale in care nu se lucreaza... nu sunt incluse in durata concediului de odihna anual (art. 1
+SLV,San Salvador,0,12,tras_completar,0.0,calendario,un periodo de vacaciones cuya duracion sera de quince dias
+SLV,San Salvador,12,,tras_completar,15.0,calendario,un periodo de vacaciones cuya duracion sera de quince dias
+SVK,Bratislava,0,,tras_completar,4.0,semanas,Zakladna vymera dovolenky je najmenej styri tyzdne
+SWE,Estocolmo,0,12,tras_completar,0.0,habil,"En arbetstagare har ratt till tjugofem semesterdagar varje semesterar (4 §); lordag och sondag raknas inte som semesterdagar... med sondag jamstalls allman helgdag samt midsommarafton, julafton och ny"
+SWE,Estocolmo,12,,tras_completar,25.0,habil,"En arbetstagare har ratt till tjugofem semesterdagar varje semesterar (4 §); lordag och sondag raknas inte som semesterdagar... med sondag jamstalls allman helgdag samt midsommarafton, julafton och ny"
+THA,Bangkok,0,12,tras_completar,0.0,habil,The employee who has worked consecutively for one year shall have the right to the annual holiday for not less than six working days a year (s.30)
+THA,Bangkok,12,,tras_completar,6.0,habil,The employee who has worked consecutively for one year shall have the right to the annual holiday for not less than six working days a year (s.30)
+TUR,Estambul,0,12,tras_completar,0.0,werktage,"Yillik izin sureleri icine rastlayan hafta tatili, ulusal bayram ve genel tatil gunleri izin suresinden sayilmaz"
+TUR,Estambul,12,60,tras_completar,14.0,werktage,"Yillik izin sureleri icine rastlayan hafta tatili, ulusal bayram ve genel tatil gunleri izin suresinden sayilmaz"
+TUR,Estambul,60,180,tras_completar,20.0,werktage,"Yillik izin sureleri icine rastlayan hafta tatili, ulusal bayram ve genel tatil gunleri izin suresinden sayilmaz"
+TUR,Estambul,180,,tras_completar,26.0,werktage,"Yillik izin sureleri icine rastlayan hafta tatili, ulusal bayram ve genel tatil gunleri izin suresinden sayilmaz"
