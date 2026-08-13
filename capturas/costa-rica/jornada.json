@@ -1,0 +1,68 @@
+{
+  "unidad": "CRI",
+  "jurisdiccion_de_referencia": "San José; el régimen de jornada es nacional, no municipal",
+  "fecha_captura_utc": "2026-08-11T06:11:34Z",
+  "trabajador_de_referencia": "sector privado formal, jornada completa, jornada diurna, trabajo no insalubre ni peligroso",
+
+  "fuentes": {
+    "J1": {
+      "cita": "Constitución Política de la República de Costa Rica, artículos 58 y 59",
+      "url": "https://www.imprentanacional.go.cr/editorialdigital/libros/textos%20juridicos/constitucion_politica_digital_edincr.pdf",
+      "nivel_de_fuente": 2,
+      "publicacion": "1949-11-07, texto vigente",
+      "nota": "Edición digital de la Imprenta Nacional. Verificado además por concordancia con la edición del PDBA de Georgetown y con la de la OEA. No se abrió el texto en SINALEVI."
+    },
+    "J2": {
+      "cita": "Ley N° 2, Código de Trabajo, de 27 de agosto de 1943; artículos 136, 147, 148, 149 y 152",
+      "url": "https://pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_articulo.aspx?param1=NRA&nValor1=1&nValor2=8045&nValor3=109068&nValor5=47163",
+      "nivel_de_fuente": 1,
+      "publicacion": "1943-08-27, versión vigente consultada en SINALEVI el 2026-08-11",
+      "nota": "SINALEVI, el Sistema Nacional de Legislación Vigente de la Procuraduría General de la República. Es el texto oficial consolidado del Estado costarricense. La URL redirige a sinalevi.go.cr, que sirve el articulado por consulta dinámica."
+    },
+    "J3": {
+      "cita": "Ley N° 10396 — Modificación del transitorio al artículo 148 del Código de Trabajo, adicionado mediante la Ley 9875 para trasladar los feriados a los lunes durante los años 2020 al 2024",
+      "url": "https://natlex.ilo.org/dyn/natlex2/natlex2/files/download/117233/LEY%2010396%20CRI.pdf",
+      "nivel_de_fuente": 3,
+      "publicacion": "2023",
+      "nota": "Copia depositada en NATLEX de la OIT. No es La Gaceta. Se usa sólo para acreditar el alcance temporal del transitorio, que termina con el año 2024."
+    }
+  },
+
+  "jornada": {
+    "horas_semanales_max": 48,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": 6,
+    "dias_ordinarios_origen": "norma",
+    "literal": "Artículo 58.- La jornada ordinaria de trabajo diurno no podrá exceder de ocho horas diarias y cuarenta y ocho horas a la semana. La jornada ordinaria de trabajo nocturno no podrá exceder de seis horas diarias y treinta y seis a la semana. […] Artículo 59.- Todos los trabajadores tendrán derecho a un día de descanso después de seis días consecutivos de trabajo […] ARTICULO 136.- La jornada ordinaria de trabajo efectivo no podrá ser mayor de ocho horas en el día, de seis en la noche y de cuarenta y ocho horas por semana. Sin embargo, en los trabajos que por su propia condición no sean insalubres o peligrosos, podrá estipularse una jornada ordinaria diurna hasta de diez horas y una jornada mixta hasta de ocho horas, siempre que el trabajo semanal no exceda de las cuarenta y ocho horas.",
+    "traduccion": null,
+    "fuente": "J1",
+    "nota": "Los seis días se sostienen en dos apoyos que no dependen uno del otro. El aritmético: 48 ÷ 8 = 6, con el par de la Constitución. Y el textual, que es el bueno: el artículo 59 constitucional fija el ritmo en «un día de descanso después de seis días consecutivos de trabajo», de modo que el ciclo de siete con seis trabajados está escrito, no deducido. LA SALVEDAD QUE HAY QUE DEJAR VISIBLE: el artículo 136 del Código permite estipular jornada diurna de hasta diez horas mientras la semana no pase de cuarenta y ocho, lo que abre semanas de menos de seis días (48 ÷ 10 = 4,8). Es una derogación expresa y condicionada, que exige estipulación de las partes; el régimen supletorio sigue siendo 8 y 48, y por eso se registra 6. Quien reutilice este dato debe saber que 6 es el reparto por defecto, no un mandato inderogable."
+  },
+
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "uno de cada siete, sin nombrar",
+    "literal": "ARTICULO 152.- Todo trabajador tiene derecho a disfrutar de un día de descanso absoluto (después de cada semana o de cada seis días de trabajo continuo), que sólo será con goce del salario correspondiente si se tratare de personas que prestan sus servicios en establecimientos comerciales o cuando, en los demás casos, así se hubiere estipulado.",
+    "fuente": "J2",
+    "nota": "Ni el artículo 59 constitucional ni el 152 del Código nombran día alguno: hablan de un día después de cada semana o de cada seis días continuos. Por eso «uno de cada siete, sin nombrar» y no «domingo», aunque el domingo sea el uso. Dos precisiones del propio texto. Primera: SINALEVI advierte que la frase entre paréntesis fue interpretada por la Sala Constitucional en resolución 10.842-2001 «en el sentido de que no contiene una alternativa u opción para el patrono, sino que se refiere a dos situaciones de hecho distintas». Segunda: el descanso sólo es REMUNERADO para quienes prestan servicios en establecimientos comerciales o cuando así se hubiere estipulado — el derecho al descanso es general, su pago no."
+  },
+
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": "se pierde",
+    "alcance": null,
+    "literal": "Cuando el 12 de octubre sea martes, miércoles, jueves o viernes, el patrono deberá disponer que ese día se trabaje y el disfrute se traslade al lunes siguiente. […] Sin embargo, en las empresas y entidades cuyo mayor movimiento se produzca durante los sábados y domingos, así como las actividades que, por su índole, no puedan paralizar las labores o interrumpirlas los lunes, el patrono, previa aceptación del trabajador, deberá señalar el día en que se disfrutará el feriado, dentro de un plazo máximo de quince días.",
+    "fuente": "J2",
+    "nota": "No existe regla general para el feriado que cae en el día de descanso semanal. Se revisaron los artículos 147 a 153 del Código y ninguno la contiene: el 147 declara hábiles todos los días salvo feriados y descansos, el 148 enumera los feriados y su pago, el 149 prohíbe ocupar al trabajador en día feriado y el 152 regula el descanso semanal. El literal citado recoge las DOS únicas reglas de traslado que sí existen, y ninguna resuelve el caso general: la primera es específica del 12 de octubre y se activa por el día de la semana, no por coincidencia con el descanso; la segunda alcanza sólo a empresas de mayor movimiento en fin de semana o que no pueden parar los lunes. Fuera de esos dos supuestos, el feriado que cae en el descanso semanal no se traslada ni se compensa."
+  },
+
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "Ley N° 9875 (2020), modificada por la Ley N° 10396 (2023) — transitorio al artículo 148 del Código de Trabajo",
+      "anio": 2020,
+      "que_cambio": "Trasladó a lunes, año por año y por única vez para cada fecha, el disfrute de determinados feriados entre 2020 y 2024, con el fin declarado de fomentar la visitación interna y el turismo. NO es una regla permanente ni una reforma de jornada: es un transitorio con fecha de término. Su último año de aplicación fue 2024, de modo que en 2026 no hay traslado a lunes por esta vía."
+    }
+  ],
+
+  "pendiente": "El proyecto de jornadas excepcionales 4x3 (expediente 21.182, reencauzado en el expediente 24.290) NO es derecho vigente: en febrero de 2026 el Plenario suspendió su discusión. Se deja constancia porque de aprobarse cambiaría el reparto de días, pero un proyecto no se anota como reforma. El texto de la Constitución se tomó de la Imprenta Nacional y de dos ediciones concordantes, no de SINALEVI; conviene cerrarlo ahí para dejar los artículos 58 y 59 en nivel 1 como los del Código."
+}

@@ -1,0 +1,179 @@
+{
+ "_": "Captura de Ecuador. CAPTURA CIEGA: articulos leidos del Codigo del Trabajo consolidado y la reforma verificada contra el Registro Oficial 906-S.",
+ "captura_ciega": true,
+ "unidad": "ECU",
+ "jurisdiccion_de_referencia": "Guayaquil (ciudad mas poblada)",
+ "capturado_por": "captura · lote 2",
+ "fecha_captura_utc": "2026-08-10T18:40:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Código del Trabajo (Codificacion 17), articulos 65, 66, 68, 69, 70, 72, 73, 74, 75 y 76",
+   "nivel_de_fuente": 3,
+   "url": "https://www.ecuadorencifras.gob.ec/LOTAIP/2017/DIJU/diciembre/LA2_OCT_DIJU_CODIGO%20TRABAJO.pdf",
+   "nota": "Texto consolidado publicado por el INEC en su portal de transparencia. Es una consolidacion privada (Lexis) alojada en sitio del Estado: se deja en nivel 3 y no en 2. El literal de los articulos citados se leyo integro y las notas de reforma del propio texto -'Reformado por el Art. 1 de la Ley s/n, R.O. 906-S, 20-XII-2016'- se verificaron contra F2, que si es nivel 1."
+  },
+  "F2": {
+   "cita": "Ley Organica Reformatoria a la Ley Organica del Servicio Publico y al Código del Trabajo — Registro Oficial Suplemento 906 de 20 de diciembre de 2016",
+   "nivel_de_fuente": 1,
+   "url": "https://www.arcotel.gob.ec/wp-content/uploads/2017/03/017_ley-reformatoria-ley-organica-s-p.pdf",
+   "publicacion": "2016-12-20",
+   "nota": "Facsimil del Registro Oficial alojado por ARCOTEL, organismo del Estado. CLAVE PARA EL CORTE: sus considerandos recitan el articulo 65 ANTERIOR a la reforma -'son dias de descanso obligatorio, ademas de los sabados y domingos, el 1 de enero, viernes santo, 1 y 24 de mayo, 10 de agosto, 9 de octubre, 2 y 3 de noviembre y 25 de diciembre'-, o sea NUEVE fechas y sin carnaval. Eso data el delta sin suponerlo."
+  },
+  "F3": {
+   "cita": "Feriado local por la fundacion de Guayaquil, 25 de julio",
+   "nivel_de_fuente": 5,
+   "nota": "HUECO. El segundo inciso del articulo 65 remite a 'las correspondientes leyes especiales' para los feriados de circunscripcion territorial, pero NO se localizo la ley especial que declara el 25 de julio feriado del canton Guayaquil. Lo unico hallado es prensa. Se incluye el feriado porque el encargo manda capturar los subnacionales de la jurisdiccion de referencia, y se deja el nivel en 5 para que la debilidad quede visible."
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO en lo nacional; el subnacional de Guayaquil entra con fuente de nivel 5",
+  "fuente": "F1",
+  "literal": "Art. 65.- Dias de descanso obligatorio.- Ademas de los sabados y domingos, son dias de descanso obligatorio los siguientes: 1 de enero, viernes santo, 1 y 24 de mayo, 10 de agosto, 9 de octubre, 2 y 3 de noviembre, 25 de diciembre y los dias lunes y martes de carnaval. Lo son tambien para las respectivas circunscripciones territoriales y ramas de trabajo, los senalados en las correspondientes leyes especiales.",
+  "nota_traslado": "El mismo articulo 65, reformado en 2016, mueve los feriados: si caen en martes, al lunes anterior; si caen en miercoles o jueves, al viernes de la misma semana; si caen en sabado, al viernes anterior; si caen en domingo, al lunes siguiente. Se exceptuan el 1 de enero, el 25 de diciembre y el martes de carnaval. HALLAZGO DE ESQUEMA: esto NO es 'relativa_a_fecha'. Esa clase apunta a un dia de la semana objetivo unico; aqui el destino DEPENDE del dia en que caiga el ancla y puede ir hacia atras o hacia adelante, con tres destinos distintos y una lista de excepciones. Ninguna clase del catalogo lo expresa. Las fechas se codifican en su ANCLA -que es lo que la ley declara feriado- y el traslado queda aqui declarado; el conteo anual no cambia por el traslado.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Año Nuevo",
+    "clase_de_regla": "fija",
+    "nota": "Exceptuado del traslado."
+   },
+   {
+    "fecha": null,
+    "nombre": "Lunes de Carnaval",
+    "clase_de_regla": "computable",
+    "regla": "pascua-48",
+    "desde": "2016-12-20",
+    "instrumento": "Ley s/n, R.O. 906-S de 2016-12-20",
+    "nota": "ANADIDO DENTRO DE LA VENTANA por la Ley s/n del Registro Oficial 906-S, en vigor desde su publicacion el 20 de diciembre de 2016. No existia al corte del 1 de enero de 2016; el primer carnaval feriado fue el de 2017."
+   },
+   {
+    "fecha": null,
+    "nombre": "Martes de Carnaval",
+    "clase_de_regla": "computable",
+    "regla": "pascua-47",
+    "desde": "2016-12-20",
+    "instrumento": "Ley s/n, R.O. 906-S de 2016-12-20",
+    "nota": "ANADIDO DENTRO DE LA VENTANA por la Ley s/n del Registro Oficial 906-S, en vigor desde su publicacion el 20 de diciembre de 2016. No existia al corte del 1 de enero de 2016; el primer carnaval feriado fue el de 2017."
+   },
+   {
+    "fecha": null,
+    "nombre": "Viernes Santo",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Día del Trabajo",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "05-24",
+    "nombre": "Batalla del Pichincha",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "08-10",
+    "nombre": "Primer Grito de Independencia",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "10-09",
+    "nombre": "Independencia de Guayaquil",
+    "clase_de_regla": "fija",
+    "nota": "Es feriado NACIONAL aunque conmemore a la jurisdiccion de referencia."
+   },
+   {
+    "fecha": "11-02",
+    "nombre": "Día de los Difuntos",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "11-03",
+    "nombre": "Independencia de Cuenca",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Navidad",
+    "clase_de_regla": "fija",
+    "nota": "Exceptuado del traslado."
+   }
+  ],
+  "subnacionales": [
+   {
+    "fecha": "07-25",
+    "nombre": "Fundación de Santiago de Guayaquil",
+    "clase_de_regla": "fija",
+    "nota": "FERIADO LOCAL del canton Guayaquil, que es la jurisdiccion de referencia. Base juridica: segundo inciso del art. 65, que remite a leyes especiales; la ley especial concreta NO se localizo (fuente F3, nivel 5). Se marca y se declara el hueco."
+   }
+  ],
+  "total_nacional_2026": 11,
+  "total_nacional_2016": 9,
+  "total_guayaquil_2026": 12
+ },
+ "vacaciones": {
+  "texto_legal_dias": 15,
+  "tipo_de_dia": "calendario",
+  "literal": "Todo trabajador tendra derecho a gozar anualmente de un periodo ininterrumpido de quince dias de descanso, incluidos los dias no laborables.",
+  "fuente": "F1",
+  "nota_tipo": "El tipo de dia se LEE del literal: 'incluidos los dias no laborables'. Son quince dias calendario, no habiles. La misma frase resuelve el tipo Y la imputacion, que es exactamente lo contrario del caso coreano.",
+  "escala_antiguedad": {
+   "presente": true,
+   "literal": "Los trabajadores que hubieren prestado servicios por mas de cinco anos en la misma empresa o al mismo empleador, tendran derecho a gozar adicionalmente de un dia de vacaciones por cada uno de los anos excedentes o recibiran en dinero la remuneracion correspondiente a los dias excedentes. Los dias de vacaciones adicionales por antiguedad no excederan de quince.",
+   "el_problema": "HALLAZGO. El articulo 70 dice: 'La eleccion entre los dias adicionales por antiguedad o el pago en dinero, correspondera al empleador'. O sea los dias por encima de quince NO SON UN DERECHO AL TIEMPO: son un derecho a tiempo O dinero, a opcion del EMPLEADOR. Cargarlos en la escala como si fueran dias garantizados sobreestimaria el tiempo accesible al trabajador hasta en quince dias.",
+   "decision": "La escala normalizada se deja en un solo tramo de quince dias y el incremento por antiguedad queda documentado aqui. El esquema no tiene manera de decir 'quantum electivo por el empleador entre dias y dinero'."
+  },
+  "acumulacion": "hasta tres anos consecutivos para gozarlas en el cuarto (art. 75)",
+  "irrenunciable": true,
+  "postergacion": "En labores tecnicas o de confianza dificiles de reemplazar, el empleador puede negar la vacacion de un ano y acumularla al siguiente (art. 74).",
+  "estado_verificacion": "verificado_secundaria"
+ },
+ "imputacion": {
+  "resultado": "se_computan_contra",
+  "literal": "un periodo ininterrumpido de quince dias de descanso, incluidos los dias no laborables",
+  "articulo": "Codigo del Trabajo, art. 69",
+  "nota": "VERIFICADO en el literal del propio articulo del quantum, no derivado del tipo de dia. Es el polo de Peru: los quince dias comprenden lo que caiga dentro, asi que sumar feriados y vacaciones para Ecuador es doble conteo. SALVEDAD DECLARADA: el literal dice 'dias no laborables' y no enumera los feriados. El art. 65 los llama 'dias de descanso obligatorio' y el art. 68 prohibe trabajar en ellos, de modo que son no laborables sin duda razonable, pero la subsuncion la hace quien captura y queda dicha."
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "La Ley s/n publicada en el Registro Oficial Suplemento 906 del 20 de diciembre de 2016 reformo el articulo 65: anadio el lunes y el martes de carnaval e introdujo todo el regimen de traslado de feriados. Sus considerandos recitan el texto anterior, de nueve fechas, lo que permite DERIVAR el corte de 2016 sin suponerlo. La ley se publico despues del 1-ene-2016, asi que en el corte de 2016 no habia ni carnaval ni traslados. En vacaciones no se hallo reforma de los articulos 69 y 73 dentro de la ventana."
+ },
+ "delta_2016_2026": {
+  "feriados": "+2 nacionales (lunes y martes de carnaval, desde 2017), mas la introduccion del regimen de traslado, que no cambia el conteo pero si el calendario",
+  "vacaciones": "0 — sin reforma hallada del articulo 69"
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "_": "Rama (b) por la via que el §10 bis admite expresamente: negativo sin indice MAS pantalla 3. El indice de reformas del código ecuatoriano no se obtuvo y se dice.",
+     "buscado_en": "Reproducciones del Código del Trabajo ecuatoriano, Codificacion 17 publicada en el Registro Oficial Suplemento 167 de 16 de diciembre de 2005",
+     "cita": "El art. 69 dice que todo trabajador tiene derecho a gozar anualmente de un periodo ininterrumpido de quince días de descanso, incluidos los no laborables, con un día adicional por cada anio que exceda de cinco al servicio del mismo empleador. Es el texto vigente. NEGATIVO SIN INDICE, y asi se declara: no se hallo reforma del artículo dentro de la ventana, pero tampoco se pudo consultar un indice oficial de modificaciones —los servidores del ministerio y de la funcion judicial no respondieron—. Por eso esta celda se apoya en la pantalla 3.",
+     "nivel_de_fuente": 3,
+     "fecha_busqueda": "2026-08-11",
+     "pantalla_3": {
+       "cita": "Prensa ecuatoriana: la ley vigente da quince días en el sector privado y treinta en el publico, y lo que existe es un PROYECTO para igualarlos subiendo el privado a treinta. La comision de derechos laborales de la Asamblea cerro el informe para primer debate el 3 de abril de 2023 y no se aprobo. La prensa lo describe siempre en condicional y contrasta con «segun la ley vigente… quince días»: si ya fueran treinta, no habria proyecto.",
+       "url": "https://www.ecuavisa.com/amp/noticias/ecuador/las-vacaciones-de-los-trabajadores-ecuatorianos-aumentarian-de-15-a-30-dias-XY4980356"
+     }
+   },
+  "dias": 15,
+  "tipo": "calendario",
+  "base": null,
+  "imputacion": "se_computan_contra",
+  "meses": 12,
+  "literal": "Todo trabajador tendra derecho a gozar anualmente de un periodo ininterrumpido de quince dias de descanso, incluidos los dias no laborables",
+  "escala": [
+   [
+    12,
+    null,
+    15
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "En el contrato se hara constar el periodo en que el trabajador comenzara a gozar de vacaciones. No habiendo contrato escrito o tal senalamiento, el empleador hara conocer al trabajador, con tres meses de anticipacion, el periodo en que le concedera la vacacion."
+  },
+  "nota_escala": "Un solo tramo a proposito: el incremento por antiguedad del art. 69 existe pero el art. 70 deja al EMPLEADOR elegir entre darlo en dias o pagarlo en dinero, asi que no es tiempo garantizado. Ver vacaciones.escala_antiguedad."
+ }
+}

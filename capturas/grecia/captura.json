@@ -1,0 +1,237 @@
+{
+ "_": "CAPTURA CIEGA de Grecia. Leida de facsimiles del ΦΕΚ (Diario Oficial). AVISO DE ACCESO: et.gr y search.et.gr no fueron accesibles desde este entorno (redireccion 301 con fallo de verificacion de certificado, y 404 en el buscador), y kodiko.gr es de pago. Los facsimiles del ΦΕΚ se leyeron espejados en elinyae.gr, organismo tripartito de seguridad y salud laboral. El CONTENIDO es el ejemplar autentico del Diario Oficial —el PDF de 2023 lleva firma digital del Ethniko Typografio—, pero el HOST no es la gaceta. Se declara y no se sube de nivel por eso.",
+ "unidad": "GRC",
+ "jurisdiccion_de_referencia": "Atenas (ciudad mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 1",
+ "fecha_captura_utc": "2026-08-11T00:25:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Π.Δ. 62/2025 «Κωδικας Εργατικου Δικαιου» — Código de Derecho del Trabajo, ΦΕΚ Α΄121 de 11-jul-2025",
+   "nivel_de_fuente": 1,
+   "tipo": "facsimil del ΦΕΚ (contenido de nivel 1) alojado en elinyae.gr (host de nivel 3)",
+   "url": "https://www.elinyae.gr/sites/default/files/2025-07/121%CE%B1_2025.pdf",
+   "publicacion": "2025-07-11",
+   "nota": "Elevada de nivel 3 a 1 en la tercera lectura: se localizo el PDF del ΦΕΚ Α΄121 de 11-jul-2025 y se leyo el art. 221 verbatim, pagina 2948."
+  },
+  "F2": {
+   "cita": "Ν. 4808/2021, αρθρο 60 — norma que fija la lista vigente de días de descanso obligatorio, ΦΕΚ Α΄101 de 19-jun-2021",
+   "nivel_de_fuente": 3,
+   "url": "https://www.elinyae.gr/sites/default/files/2021-06/101a_2021.pdf",
+   "publicacion": "2021-06-19",
+   "nota": "Contenido de nivel 1 en host de nivel 3. ES LA REFORMA DE LA VENTANA."
+  },
+  "F3": {
+   "cita": "Β.Δ. 748/1966, αρθρο 4 — norma antecesora, base de la linea de 2016, ΦΕΚ Α΄179 de 13-sep-1966",
+   "nivel_de_fuente": 3,
+   "url": "https://www.elinyae.gr/sites/default/files/2019-07/a179_66.1132644043101.pdf",
+   "literal": "Αρθρο 4 — Ημερα αργιας. 1. Καθοριζονται ως ημεραι υποχρεωτικης αργιας οι κατωθι: α. η 25η Μαρτιου β. η Δευτερα του Πασχα γ. η εορτη της Κοιμησεως της Θεοτοκου, και δ. η εορτη της Γεννησεως του Χριστου. 2. Καθοριζονται ως ημεραι προαιρετικης αργιας, κατα την κρισιν του εργοδοτου οι κατωθι: Α. η 1η Μαιου και Β. η 28η Οκτωβριου.",
+   "nota": "CUATRO obligatorias y DOS optativas a criterio del empleador. Es la foto de 2016."
+  },
+  "F4": {
+   "cita": "Α.Ν. 539/1945 — ley de vacaciones anuales retribuidas, ΦΕΚ Α΄229 de 6-sep-1945",
+   "nivel_de_fuente": 3,
+   "url": "https://www.elinyae.gr/ethniki-nomothesia/5391945-fek-229a-691945",
+   "nota": "Norma de base de las vacaciones, hoy refundida en los articulos 220 a 226 del Codigo de 2025."
+  }
+ },
+ "feriados": {
+  "estado": "PARCIAL EN LA CARGA. Nueve dias de descanso obligatorio identificados y con literal, pero uno de ellos —el Lunes de Pascua— NO tiene clase representable, porque el esquema solo conoce una Pascua y Grecia usa la otra.",
+  "fuente": "F1",
+  "literal": "Αρθρο 203 — Αργια. 1. Καθοριζονται ως ημερες υποχρεωτικης αργιας, για ολες τις επιχειρησεις, εκμεταλλευσεις και εργασιες γενικα, οι οποιες αργουν κατα τις Κυριακες και τις ημερες αργιας, οι ακολουθες: α) Η 1η Ιανουαριου. β) Η εορτη των Θεοφανιων (6η Ιανουαριου). γ) Η 25η Μαρτιου. δ) Η Δευτερα του Πασχα. ε) Η 1η Μαιου. στ) Η εορτη της Κοιμησεως της Θεοτοκου (15η Αυγουστου). ζ) Η 28η Οκτωβριου. η) Η εορτη της Γεννησεως του Χριστου (25η Δεκεμβριου). θ) Η 26η Δεκεμβριου.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "1η Ιανουαριου — Año Nuevo",
+    "clase_de_regla": "fija",
+    "desde": 2022,
+    "instrumento": "Ν. 4808/2021, αρθρο 60",
+    "nota": "NUEVO EN LA VENTANA. No figuraba entre las argias del Β.Δ. 748/1966. La ley 4808/2021 entro en vigor el 19-jun-2021, con lo que el primer 1 de enero afectado es el de 2022."
+   },
+   {
+    "fecha": "01-06",
+    "nombre": "Θεοφανια — Epifanía",
+    "clase_de_regla": "fija",
+    "desde": 2022,
+    "instrumento": "Ν. 4808/2021, αρθρο 60",
+    "nota": "NUEVO EN LA VENTANA, mismo razonamiento de fecha que el 1 de enero."
+   },
+   {
+    "fecha": "03-25",
+    "nombre": "25η Μαρτιου — Anunciacion e Independencia",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "Δευτερα του Πασχα — Lunes de Pascua ORTODOXO",
+    "clase_de_regla": "computable",
+    "nota": "Resuelto con el ancla `pascua_ortodoxa`, anadida en v2.16. El capturador lo dejo sin clase con buen criterio: escribir `pascua` habria producido una fecha equivocada en silencio, porque la ortodoxa difiere hasta cinco semanas de la occidental.",
+    "regla": "pascua_ortodoxa+1"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "1η Μαιου — Primero de Mayo",
+    "clase_de_regla": "fija",
+    "desde": 2021,
+    "instrumento": "Ν. 4808/2021, αρθρο 60",
+    "nota": "CAMBIO DE REGIMEN DENTRO DE LA VENTANA, no alta de un dia nuevo. Al 1-ene-2016 el 1 de mayo existia pero como αργια ΠΡΟΑΙΡΕΤΙΚΗ, «κατα την κρισιν του εργοδοτου» —a criterio del empleador—, o sea sin mandato nacional de descanso. La ley 4808/2021 lo hizo obligatorio. Se le pone `desde: 2021` para que NO cuente en el corte de 2016, porque en 2016 no era descanso obligatorio y es eso lo que el panel mide. La version optativa anterior se declara aparte."
+   },
+   {
+    "fecha": "08-15",
+    "nombre": "Κοιμηση της Θεοτοκου — Dormicion de la Virgen",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "10-28",
+    "nombre": "28η Οκτωβριου — Día del OXI",
+    "clase_de_regla": "fija",
+    "desde": 2021,
+    "instrumento": "Ν. 4808/2021, αρθρο 60",
+    "nota": "Mismo caso que el 1 de mayo: era optativa a criterio del empleador hasta 2021."
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Γεννηση του Χριστου — Navidad",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "12-26",
+    "nombre": "26η Δεκεμβριου — segundo día de Navidad",
+    "clase_de_regla": "fija",
+    "desde": 2021,
+    "instrumento": "Ν. 4808/2021, αρθρο 60",
+    "nota": "NUEVO EN LA VENTANA. La ley entro en vigor en junio de 2021, asi que el primer 26 de diciembre afectado es el de 2021."
+   }
+  ],
+  "conteo": {
+   "obligatorias_al_corte_2016": 4,
+   "optativas_a_criterio_del_empleador_al_corte_2016": 2,
+   "obligatorias_al_corte_2026": 9,
+   "delta": "+5 obligatorias. Tres altas nuevas (1 de enero, 6 de enero, 26 de diciembre) y dos reclasificaciones de optativa a obligatoria (1 de mayo, 28 de octubre).",
+   "nota": "Grecia mas que dobla sus feriados obligatorios dentro de la ventana. Es el delta mas grande del lote."
+  },
+  "version_anterior_de_los_dos_reclasificados": {
+   "_": "NO va en `lista` porque el cargador escribe categoria «descanso_pagado_obligatorio» de oficio, y meter aqui la version optativa haria que el corte de 2016 contara como obligatorios dos dias que no lo eran. Se declara para que el cambio de regimen no se pierda.",
+   "dias": [
+    "1η Μαιου",
+    "28η Οκτωβριου"
+   ],
+   "vigencia": "hasta 2021",
+   "categoria": "observancia_optativa",
+   "regimen": "sin_mandato_nacional",
+   "literal": "Καθοριζονται ως ημεραι προαιρετικης αργιας, κατα την κρισιν του εργοδοτου οι κατωθι: Α. η 1η Μαιου και Β. η 28η Οκτωβριου. (Β.Δ. 748/1966, αρθρο 4 παρ. 2)"
+  },
+  "megali_paraskevi": {
+   "_": "NO es αργια y por eso no entra en la lista, pero se declara porque es media jornada de cierre por ley y podria confundirse con un feriado.",
+   "literal": "Η απασχοληση των εργαζομενων των καταστηματων καθως και η λειτουργια τους απαγορευεται μεχρι την 13:00 ωρα της Μεγαλης Παρασκευης. (αρθρο 204 παρ. 1)",
+   "traduccion": "Se prohibe el empleo de los trabajadores de los establecimientos comerciales y su apertura hasta las 13:00 del Viernes Santo.",
+   "por_que_no_entra": "Es una prohibicion de apertura acotada a los καταστηματα (comercios) y a media jornada, no un dia de descanso obligatorio general. Ademas caeria en el mismo problema de la Pascua ortodoxa."
+  },
+  "recargo": {
+   "literal": "αρθρο 219 παρ. 2 enumera las mismas nueve fechas como «εξαιρεσιμες εορτες», los dias en que el trabajo devenga el recargo del 75%.",
+   "nota": "Las dos listas del Codigo, la del art. 203 y la del art. 219, coinciden exactamente. Es una comprobacion interna util: el feriado griego no es prohibicion absoluta de trabajar, es descanso con recargo del 75% si se trabaja."
+  },
+  "feriado_local_de_atenas": {
+   "estado": "NO ENCONTRADO",
+   "que_se_busco": "«τοπικες αργιες», «τοπικη αργια», «Αθηνων», «Αθηνα» en el texto integro del ΦΕΚ Α΄121/2025.",
+   "que_si_existe": "Solo la habilitacion generica del art. 203 παρ. 2: el Ministro de Trabajo puede declarar hasta cinco fiestas mas al ano como obligatorias u optativas, previo dictamen del Consejo Superior del Trabajo, y «εφοσον προκειται για τοπικες αργιες, η αρμοδιοτητα ανηκει στους Περιφερειαρχες» —si se trata de fiestas locales, la competencia es de los Gobernadores regionales.",
+   "hueco": "Si existe una decision del Gobernador de Atica que fije un feriado local de Atenas, estaria en un ΦΕΚ suelto que no se pudo consultar porque et.gr fue inaccesible. NO se afirma que no exista: se afirma que no se hallo."
+  }
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "_": "Rama (b) aunque la fuente sea oficial y de nivel 2: es una pagina explicativa del organismo competente, no un indice de modificaciones. La distincion la exige el §10 bis y aqui se respeta.",
+     "buscado_en": "Inspeccion de Trabajo de Grecia, pagina oficial sobre días de vacacion anual ordinaria",
+     "cita": "La inspeccion atribuye el derecho EXPRESAMENTE a la ley de 2004: «Sumfona me to arthro 1 tou N. 3302/2004…», y fija el calculo «basei etisias adeias 20 ergasimon imeron epi penthimerou evdomadiaias ergasias kai 24 ergasimon imeron epi» exaimerou. Veinte días habiles con semana de cinco y veinticuatro con seis, subiendo a 22 y 26 desde el tercer anio. La norma que los fija es de 2004, anterior a la ventana.",
+     "nivel_de_fuente": 2,
+     "fecha_busqueda": "2026-08-12",
+     "pantalla_3": {
+       "cita": "Prensa griega: las cifras siguen en 20/24 y 22/26, y lo que cambia desde el 1 de enero de 2026 es la CONCESION —el fraccionamiento y los plazos de otorgamiento— apoyandose en el artículo 61 de la ley 4808/2021, que es exactamente el instrumento que la busqueda documental habia identificado. Ninguna fuente habla de cambio en el numero de días.",
+       "url": "https://www.parapolitika.gr/ellada/article/1659538/etisia-adeia-ergazomenon-2026-neoi-kanones-kai-megaluteri-euelixia/"
+     }
+   },
+  "dias": 20,
+  "tipo": "habil",
+  "base": 5,
+  "imputacion": "extienden",
+  "meses": 0,
+  "literal": "Το ποσοστο αυτο υπολογιζεται με βαση ετησια αδεια εικοσιτεσσαρων (24) εργασιμων ημερων η αν στην επιχειρηση εφαρμοζεται συστημα πενθημερης εβδομαδιαιας εργασιας, εικοσι (20) εργασιμων ημερων (...) Η αδεια αυτη επαυξανεται κατα μια (1) εργασιμη ημερα για καθε ετος απασχολησης επιπλεον του πρωτου μεχρι τις εικοσι εξι (26) εργασιμες ημερες η μεχρι και τις εικοσι δυο (22) εργασιμες ημερες αν στην επιχειρηση εφαρμοζεται συστημα πενθημερης εβδομαδιαιας εργασιας. (αρθρο 221 παρ. 1)",
+  "escala": [
+   [
+    0,
+    12,
+    20
+   ],
+   [
+    12,
+    24,
+    21
+   ],
+   [
+    24,
+    null,
+    22
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "negociada",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "Η χρονικη περιοδος χορηγησης της αδειας κανονιζεται μεταξυ του εργοδοτη και του εργαζομενου· ο πρωτος ειναι υποχρεωμενος να χορηγησει την αδεια που ζητηθηκε το πολυ εντος διμηνου απο τη διατυπωση της σχετικης αιτησης απο τον δευτερο. Παντως, το ημισυ τουλαχιστον εκεινων που δικαιουνται αδεια καθε ετος σε καθε επιχειρηση πρεπει να ικανοποιουνται μεσα στο χρονικο διαστημα απο την 1η Μαιου μεχρι 30 Σεπτεμβριου. (αρθρο 224 παρ. 1) — El periodo de disfrute se ARREGLA ENTRE el empleador y el trabajador; el primero esta obligado a conceder la vacacion solicitada en un plazo maximo de dos meses desde la solicitud del segundo. En todo caso, al menos la mitad de quienes tienen derecho cada anio en cada empresa debe verla satisfecha entre el 1 de mayo y el 30 de septiembre.",
+   "resolucion_desacuerdo": "trabajador_prevalece",
+   "nota_resolucion": "El literal capturado dice que el empleador queda OBLIGADO a conceder la licencia solicitada dentro de dos meses. PENDIENTE: la segunda codificacion ciega cita ademas una comision tripartita del art. 4 §2 que dirimiria el desacuerdo; no la verifique y por eso no la codifico — importarla sin leerla contaminaria la doble codificacion."
+  },
+  "colocacion_nota": "Iniciativa NEGOCIADA por el literal —«κανονιζεται μεταξυ του εργοδοτη και του εργαζομενου»—, el mismo verbo de acuerdo que en Turquia. Pero Grecia le anade dos cosas que ninguna unidad del piloto tenia. Primera: la solicitud NO ES REQUISITO del derecho, y el propio articulo lo dice — «η αιτηση (...) αποσκοπει μονο στον προσδιορισμο των χρονικων οριων (...) και δεν αποτελει τυπικη προυποθεση για την ασκηση του δικαιωματος του». Segunda, y es la que el esquema no tiene: si hay DESACUERDO, decide un TERCERO. El art. 224 παρ. 2 crea comisiones tripartitas —inspector de trabajo, empleador y representante del personal— que resuelven sobre el numero y el orden de los trabajadores con derecho, la duracion y el periodo de disfrute. El vocabulario de `instrumento` tiene `organo_paritario`, asi que la pieza existe, pero expresarla exigiria una cascada de dos niveles (negociada, y si no hay acuerdo el organo paritario) y el cargador escribe siempre particion de un nivel.",
+  "imputacion_nota": "VERIFICADA CON ARTICULO EXPRESO. El art. 221 παρ. 3 dice: «Δεν περιλαμβανονται στην ετησια αδεια με αποδοχες: α) οι επισημες η κατ' εθιμο εορτασιμες ημερες και β) οι διακοπες εργασιας που οφειλονται σε ασθενεια» — no se incluyen en la vacacion anual retribuida las fiestas oficiales o consuetudinarias, ni las interrupciones por enfermedad. Luego el feriado dentro del periodo no lo consume: lo extiende. Procede del art. 2 παρ. 3 del α.ν. 539/1945 y se ha conservado en las dos recodificaciones. MATIZ QUE VALE LA PENA: el literal es MAS AMPLIO que la lista de nueve del art. 203, porque dice «oficiales O CONSUETUDINARIAS». La regla de imputacion griega cubre fiestas que la lista de feriados no recoge.",
+  "tipo_de_dia_nota": "«εργασιμες ημερες», dias habiles, dicho asi en todos los tramos y NUNCA «ημερολογιακες». No hay ambiguedad de unidad. La ambiguedad esta en OTRO sitio y es de base semanal, no de tipo de dia: la propia norma da DOS numeros segun el regimen de la empresa, veinte dias habiles si se aplica semana de cinco y veinticuatro si es de seis, y lo mismo en el tope, veintidos frente a veintiseis. El art. 221 παρ. 1 α) llega a precisar que en la semana de cinco no se cuenta «η ημερα της εβδομαδας κατα την οποια δεν απασχολουνται οι εργαζομενοι λογω του εφαρμοζομενου συστηματος εργασιας». O sea que el derecho legal griego es un RANGO cuya causa es el regimen de jornada de la empresa. El esquema tiene rango_min, rango_max y causa_del_rango, pero el dominio de la causa admite solo federal, antiguedad y sector: el regimen de jornada no esta.",
+  "pendiente": "Cuatro huecos, y conviene leerlos juntos porque tres son de forma y uno es de fondo. (1) `base: 5` resuelve un rango que la ley deja abierto: veinte o veinticuatro dias habiles segun la empresa aplique semana de cinco o de seis. Se toma cinco por ser el regimen dominante en el sector privado de Atenas, pero es una LECTURA sobre el trabajador de referencia, no sobre la norma, y la causa del rango —regimen de jornada— no cabe en `causa_del_rango`. (2) La escala ano por ano NO ES LITERAL: el art. 221 enuncia tres reglas —base 20/24, mas un dia habil por cada anio de empleo posterior al primero, y tope 22/26— y la tabla 20 a 21 a 22 es su derivacion aritmetica. (3) El derecho griego se devenga por ANIO NATURAL, no por aniversario de servicio, y la escala del esquema esta indexada en meses de servicio: la correspondencia es aproximada, y el tramo [0,12) en cero que el cargador antepone es falso, porque el art. 221 παρ. 1 α) concede prorrateo desde el inicio de la relacion. (4) EL DE FONDO: el tramo alto que todo el mundo cita para Grecia —veinticinco dias en semana de cinco y treinta en semana de seis tras diez anios con el mismo empleador o doce de servicio total— NO ESTA EN LA LEY. Se busco en el texto integro del ΦΕΚ y no aparece: ni «τριαντα (30) εργασιμες» ni «δεκα (10) ετων». Procede del convenio general nacional (ΕΓΣΣΕ), preservado por la clausula del art. 221 παρ. 5, y ese convenio NO se ha verificado. Por eso la escala se corta en 22 y el punto de diez anios de la grilla queda subestimado si el convenio aplica.",
+  "correccion_dias": {
+   "antes": 21,
+   "ahora": 20,
+   "hallado_por": "tercera lectura ciega de desempate, 2026-08-10",
+   "por_que": "Nuestra propia captura ya traia el literal correcto —el art. 221 par. 1 dice 24 dias habiles, o 20 si la empresa aplica semana de cinco— y sin embargo registraba 21. El 21 es la tasa del SEGUNDO anio, no la del primero.\n\nLA AMBIGUEDAD QUE LO EXPLICA, y no es de la ley sino de la pregunta: el derecho griego computa la licencia POR ANIO CALENDARIO, no por aniversario. Asi que «doce meses exactos» tiene dos respuestas correctas segun lo que se pregunte: lo devengado a lo largo de esos doce meses es 20, y la tasa que rige el anio calendario en que cae el aniversario es 21. La circular ministerial oik. 3392/2005 lo ejemplifica: el devengo corre a 20/12 por mes hasta el aniversario y a 21/12 despues.\n\nNuestro constructo define al trabajador de referencia con DOCE MESES EXACTOS de servicio, asi que la cifra que nos corresponde es 20. El 21 no era una mala lectura de la norma: era la respuesta a otra pregunta.",
+   "trampas_declaradas": [
+    "ELINYAE y varias bases alojan el TEXTO ORIGINAL de 1945 del art. 2, que dice otra cosa por completo —12/8/8/6 dias segun categoria, mas uno por semestre— y cuyo periodo de calificacion de doce meses quedo derogado por la ley 3144/2003 y la 3302/2004. Quien caiga ahi produce numeros sin relacion con el derecho vigente.",
+    "Las secundarias en ingles estan mal: una afirma «21 tras un anio, 22 tras diez, 25 tras veinticinco» y se equivoca en las tres.",
+    "El sexto dia excepcional de la ley 5053/2023 NO convierte una empresa de cinco dias en exaimero a efectos de licencia. Lectura estructural, sin guia ministerial expresa que la confirme."
+   ],
+   "sin_reforma_del_quantum": "La tabla de procedencia del propio Codigo remite el art. 221 al art. 2 de la a.n. 539/1945 tal como quedo con la ley 3302/2004: ultimo cambio sustantivo en 2004, anterior a la ventana. Dentro de la ventana cambiaron los plazos de concesion (leyes 4611/2019 y 4808/2021), hubo dos recodificaciones sin cambio sustantivo, y la ley 5316/2026 extendio el AMBITO a directivos sin tocar la cantidad."
+  },
+  "nota_escala": "El primer tramo faltaba y su ausencia hacia que la escala CONTRADIJERA el quantum: la tabla empezaba en el mes doce con 21 dias mientras el campo de cantidad decia 20. Ahora el tramo [0,12) lleva los 20 que fija el art. 221 par. 1 para la semana de cinco, y el de [12,24) los 21 del segundo anio. La frontera es real y esta en la circular oik. 3392/2005: el devengo corre a 20/12 por mes hasta el aniversario y a 21/12 despues.",
+  "nota_meses": "CERO, y es una correccion. Teniamos 12, que el cargador traduce a un tramo «durante los primeros doce meses el derecho es de cero dias». En Grecia eso es falso desde 2003: la ley 3144/2003 y la 3302/2004 DEROGARON el periodo de calificacion, y el art. 221 par. 1 concede la licencia «απο την εναρξη της εργασιας», desde el inicio del trabajo, en proporcion al tiempo trabajado. El error lo destapo una colision de clave al completar la escala, no una revision: el tramo inventado (0,12,0) chocaba con el tramo real (0,12,20)."
+ },
+ "corte_2016": {
+  "estado": "verificado_parcial",
+  "nota": "La reforma existe, esta localizada y es grande: el articulo 60 de la ley 4808/2021, en vigor el 19-jun-2021, sustituyo el regimen del articulo 4 del Β.Δ. 748/1966 —cuatro argias obligatorias y dos optativas a criterio del empleador— por nueve obligatorias y ninguna optativa fija. Tres son altas nuevas (1 de enero, 6 de enero y 26 de diciembre) y dos son reclasificaciones de optativa a obligatoria (1 de mayo y 28 de octubre). Por el lado de vacaciones tambien hubo cambio, pero de colocacion y no de cantidad: el articulo 61 de la misma ley suprimio la obligacion del empleador de conceder la vacacion antes de fin de anio aunque no se pidiera, y anadio el plazo de agotamiento hasta el primer trimestre del anio siguiente. La cantidad, en cambio, sigue procediendo del α.ν. 539/1945 con sus reformas de 1983 y 2004, todas anteriores a la ventana. Es «parcial» y NO «verificado» por una razon concreta y no menor: el articulo 4 παρ. 4 del Β.Δ. 748/1966 ya permitia al Ministro de Trabajo declarar hasta cinco fiestas mas al ano por decision publicada en el ΦΕΚ, y NO se buscaron esas decisiones ministeriales anteriores a 2021. Si alguna de ellas ya hacia obligatorios el 1 de enero, la Epifania o el 26 de diciembre, la linea de base de 2016 seria mayor que cuatro y el delta menor que cinco. La ley 5053/2023 se comprobo y NO toca feriados ni vacaciones: cero apariciones de «αδεια αναψυχης», «539/1945» y «ετησια αδεια» en su texto; su articulo 27 amplia las excepciones al descanho dominical y festivo, que es otra cosa. De la ley 5316/2026 solo se sabe por fuentes de nivel 4 que trata de igualdad retributiva y no de esto."
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "El Lunes de Pascua griego no tiene clase: el dominio de `ancla` solo conoce una Pascua y la griega es la ortodoxa.",
+   "por_que_importa": "Es el unico feriado del lote que produciria una FECHA EQUIVOCADA en silencio si se codificara con la clase disponible. Ademas el conteo cargado de Grecia baja de nueve a ocho.",
+   "como_se_cierra": "Anadir `pascua_ortodoxa` al CHECK de `ancla` en regla_fecha_version y un ancla correspondiente en el derivador. Es el arreglo mas barato de todos los que este lote destapa."
+  },
+  {
+   "id": "H2",
+   "que": "No se pudo acceder a et.gr ni a search.et.gr; todo el material griego viene de facsimiles espejados en un host de nivel 3.",
+   "como_se_cierra": "Descargar los ΦΕΚ desde el Ethniko Typografio y elevar las cuatro fuentes a nivel 1."
+  },
+  {
+   "id": "H3",
+   "que": "No se buscaron las decisiones ministeriales anteriores a 2021 que el art. 4 παρ. 4 del Β.Δ. 748/1966 permitia dictar para anadir hasta cinco fiestas al ano.",
+   "por_que_importa": "Es lo que impide dar por verificada la linea de base de cuatro feriados en 2016.",
+   "como_se_cierra": "Barrido del ΦΕΚ por decisiones del Ministro de Trabajo sobre αργιες entre 1966 y 2021."
+  },
+  {
+   "id": "H4",
+   "que": "El tramo de 25 y 30 dias por antiguedad larga procede del convenio general nacional (ΕΓΣΣΕ) y no de la ley; no se verifico.",
+   "como_se_cierra": "Localizar el texto de la ΕΓΣΣΕ vigente y capturarlo como instrumento aparte, con su propio nivel de fuente."
+  },
+  {
+   "id": "H5",
+   "que": "No se hallo feriado local de Atenas, pero tampoco se pudo descartar: la competencia esta delegada en el Gobernador de Atica y sus decisiones estan en ΦΕΚ sueltos no consultados.",
+   "como_se_cierra": "Buscar decisiones del Περιφερειαρχης Αττικης sobre τοπικες αργιες."
+  }
+ ]
+}

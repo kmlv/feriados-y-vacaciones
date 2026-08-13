@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Si usa este conjunto de datos, cítelo así."
+title: "Feriados públicos y vacaciones anuales de ley: 47 unidades de referencia, dos cortes"
+abstract: >-
+  Conjunto de datos de feriados públicos y vacaciones anuales mínimas exigibles
+  por ley, construido leyendo las normas, para 47 jurisdicciones de referencia en
+  dos cortes temporales. Cada cifra de vacaciones viaja con su unidad de conteo y
+  su base semanal en columnas separadas, y cada hecho con su fuente y el nivel de
+  ésta.
+authors:
+  - family-names: "López Vargas"
+    given-names: "Kristian"
+type: dataset
+license: CC-BY-4.0
+keywords:
+  - feriados públicos
+  - vacaciones anuales
+  - regulación laboral comparada
+  - medición institucional
+version: "v2.27"

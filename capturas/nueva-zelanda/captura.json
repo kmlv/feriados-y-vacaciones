@@ -1,0 +1,339 @@
+{
+ "_": "CAPTURA CIEGA de Nueva Zelanda. Escrita leyendo el articulado del Holidays Act 2003 y el calendario de Matariki, SIN mirar el CBR ni ningun dataset agregado. Nueva Zelanda entra al lote por Matariki: feriado anadido en 2022 cuya fecha se determina por el calendario lunar maori y se fija en una tabla de la propia ley.",
+ "_estado": "PARCIAL — Matariki no tiene clase de regla representable. Ver `huecos`.",
+ "unidad": "NZL",
+ "jurisdiccion_de_referencia": "Auckland (ciudad mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 4",
+ "fecha_captura_utc": "2026-08-10T19:10:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Holidays Act 2003 (Public Act 2003 No 129), reimpreso al 1 de abril de 2016 — ss. 16, 17, 18, 19, 40, 44, 44A, 45, 45A, 46",
+   "nivel_de_fuente": 4,
+   "url": "https://pha.co.nz/system/files/Holidays_Act_2003.pdf",
+   "version_archivada": "Reprinted as at 1 April 2016",
+   "nota": "NIVEL 4 A PROPOSITO, aunque el contenido sea el texto integro con sus notas de reimpresion oficiales. El portal oficial legislation.govt.nz responde con una verificacion anti-bot que NO se intento resolver, y nzlii.org devuelve 403. No se sube el nivel porque el texto parezca autentico: no pude cotejarlo contra el editor oficial. PENDIENTE: obtener el reimpreso desde legislation.govt.nz por otra via y elevar a nivel 2.",
+   "ventaja_inesperada": "Que el reimpreso sea justo al 1 de abril de 2016 lo convierte en la mejor linea base posible para el corte de 2016: es el texto vigente casi exactamente en la fecha del corte."
+  },
+  "F2": {
+   "cita": "Ministry of Business, Innovation & Employment (MBIE) — Public holidays and anniversary dates",
+   "nivel_de_fuente": 2,
+   "url": "https://www.employment.govt.nz/leave-and-holidays/public-holidays/public-holidays-and-anniversary-dates",
+   "literal_relevante": "'The Holidays Act 2003 lists the holidays but does not generally set dates for them.' Confirma que hay diez dias de aniversario provincial, que Matariki se determina bajo el Te Kahui o Matariki Public Holiday Act 2022, y que Waitangi Day y ANZAC Day se trasladan al lunes cuando caen en fin de semana y ese dia no habria sido de trabajo."
+  },
+  "F3": {
+   "cita": "Matariki Dates 2022-2052 — Matariki Advisory Committee, informe del Prof. Rangi Matamua, Final Report V2, 21 May 2021",
+   "nivel_de_fuente": 2,
+   "url": "https://www.mbie.govt.nz/assets/matariki-dates-2022-to-2052-matariki-advisory-group.pdf",
+   "nota": "Alojado por MBIE. Es el documento que produjo la tabla de fechas que la ley de 2022 despues consagro. Leido integro."
+  },
+  "F4": {
+   "cita": "Te Ture mo te Hararei Tumatanui o te Kahui o Matariki 2022 / Te Kahui o Matariki Public Holiday Act 2022",
+   "nivel_de_fuente": 4,
+   "url": "https://www.legislation.govt.nz/act/public/2022/0014/latest/LMS557893.html",
+   "promulgacion": "2022-04-11",
+   "nota": "NO SE PUDO LEER. El portal oficial esta tras verificacion anti-bot. La fecha de sancion real (11 de abril de 2022) y que la ley contiene un anexo con las fechas hasta 2052 vienen de secundarias concordantes. El HECHO de que Matariki es feriado y sus fechas concretas estan en F2 y F3, a nivel 2; lo que esta en nivel 4 es el dispositivo."
+  }
+ },
+ "feriados": {
+  "estado": "PARCIAL — 11 de 12 con clase representable; Matariki no la tiene",
+  "fuente": "F1",
+  "literal": "Holidays Act 2003, s 44(1): 'The following days are public holidays: (a) Christmas Day: (b) Boxing Day: (c) New Year's Day: (d) 2 January: (e) Waitangi Day: (f) Good Friday: (g) Easter Monday: (h) ANZAC Day: (i) the birthday of the reigning Sovereign (observed on the first Monday in June): (j) Labour Day (being the fourth Monday in October): (k) the day of the anniversary of a province or the day locally observed as that day.' s 44(4): 'If 2 or more of the public holidays specified in subsection (1) fall on the same day, the public holidays must, for the purposes of this subpart, be treated as 1 day.'",
+  "advertencia_de_fecha": "La ley NOMBRA los feriados y en su mayoria NO da la fecha; MBIE lo dice expresamente. Christmas Day, Boxing Day, New Year's Day y ANZAC Day se codifican aqui como `fija` con la fecha notoria, y Waitangi Day con la del Waitangi Day Act 1976 y ANZAC Day con la del Anzac Day Act 1966. Es una DECISION de codificacion, no una lectura: podrian codificarse como `remision_normativa`. Se declara para que el principal pueda revocarla.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "New Year's Day",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "01-02",
+    "nombre": "2 January",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "02-06",
+    "nombre": "Waitangi Day",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "La fecha no esta en el Holidays Act: viene del Waitangi Day Act 1976. Ver `advertencia_de_fecha`."
+   },
+   {
+    "fecha": null,
+    "nombre": "Good Friday",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": null,
+    "nombre": "Easter Monday",
+    "clase_de_regla": "computable",
+    "regla": "pascua+1",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "04-25",
+    "nombre": "ANZAC Day",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "La fecha no esta en el Holidays Act: viene del Anzac Day Act 1966."
+   },
+   {
+    "fecha": null,
+    "nombre": "Birthday of the reigning Sovereign (King's Birthday)",
+    "clase_de_regla": "ordinal",
+    "ordinal": 1,
+    "dia_semana": 1,
+    "mes": 6,
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "s 44(1)(i): 'observed on the first Monday in June'. Aqui la ley SI da la regla."
+   },
+   {
+    "fecha": null,
+    "nombre": "Matariki",
+    "clase_de_regla": "remision_normativa",
+    "desde": 2022,
+    "instrumento": "Te Kahui o Matariki Public Holiday Act 2022",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "fecha_2026": "2026-07-10",
+    "nota": "RESUELTO como `remision_normativa`, y la decision merece explicacion porque antes estaba omitido y eso costaba un feriado entero.\n\nEl caso es raro: fecha CIERTA y regla NO REPRESENTABLE a la vez. La ley trae un anexo que enumera una a una las fechas de 2022 a 2052; no hay formula. El metodo que las genero —el 'Tangaroa of Pipiri', el viernes mas cercano al periodo lunar de Tangaroa del mes Pipiri en el maramataka maori— no cabe en la clase `lunar`, que exige un dia lunar numerico y aqui hay un PERIODO de cuatro fases. Y `dependiente_de_proclamacion` tampoco: no hay proclamacion anual.\n\nSe elige `remision_normativa` remitiendo al propio anexo. NO es perfecto —el campo se penso para remitir a OTRO instrumento, y aqui la tabla vive en la misma ley— pero es la representacion honesta de lo que hay: la fecha no se deriva de una regla, se consulta en una tabla que la norma trae. La alternativa era seguir omitiendo el feriado, y un dataset que se come un dia festivo porque su regla resulta incomoda es peor que uno que declara como lo representa.\n\nCORROBORACION INDEPENDIENTE: la segunda codificacion ciega, sin ver esta captura, eligio tambien `remision_normativa` para Matariki. Dos lectores separados llegaron a la misma representacion. Ver notes/07-doble-codificacion.md.",
+    "instrumento_remitido": "Schedule 1, Te Kahui o Matariki Public Holiday Act 2022 — tabla de fechas gregorianas de 2022 a 2052, sin formula en el texto"
+   },
+   {
+    "fecha": null,
+    "nombre": "Labour Day",
+    "clase_de_regla": "ordinal",
+    "ordinal": 4,
+    "dia_semana": 1,
+    "mes": 10,
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "s 44(1)(j): 'being the fourth Monday in October'."
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Christmas Day",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "12-26",
+    "nombre": "Boxing Day",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   }
+  ],
+  "subnacionales": [
+   {
+    "fecha": null,
+    "nombre": "Auckland Anniversary Day",
+    "clase_de_regla": "SIN CLASE APLICABLE",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "Feriado NACIONAL con fecha delegada a la jurisdiccion local. s 44(1)(k): 'the day of the anniversary of a province or the day locally observed as that day'. La ley garantiza que existe un dia de aniversario y no dice cual: MBIE confirma que los dias provinciales siguen 'custom and practice'. Es exactamente el caso de Guatemala y El Salvador, y por eso NO lleva marca de decision abierta: la decision del principal de 2026-08-09 ya lo cubre y mapea a `delegada_a_jurisdiccion_local`. Para Auckland el dia observado es el lunes mas cercano al 29 de enero, pero eso es costumbre, no texto legal."
+   }
+  ],
+  "reglas_de_traslado": [
+   {
+    "nombre": "Mondayisation de Waitangi Day y ANZAC Day",
+    "base_legal": "Holidays Act 2003, s 45A (insertada el 1 de enero de 2014 por la Holidays (Full Recognition of Waitangi Day and ANZAC Day) Amendment Act 2013)",
+    "literal": "s 45A(1): 'if Waitangi Day or ANZAC Day— (a) falls on a Saturday or a Sunday, and the day would otherwise be a working day for the employee, the public holiday must be treated as falling on that day: (b) falls on a Saturday or a Sunday, and the day would not otherwise be a working day for the employee, the public holiday must be treated as falling on the following Monday.' s 45A(2): 'this section does not entitle an employee to more than 1 public holiday for Waitangi Day or more than 1 public holiday for ANZAC Day.'",
+    "nota": "FUERA DE LA VENTANA (2014) pero decisiva para el conteo. Y con una particularidad que ninguna otra unidad del lote tiene: el traslado NO depende del calendario sino de SI ESE DIA HABRIA SIDO DE TRABAJO PARA ESE TRABAJADOR. La fecha observada es una propiedad del trabajador, no del pais."
+   },
+   {
+    "nombre": "Transfer of public holidays over Christmas and New Year",
+    "base_legal": "Holidays Act 2003, s 45",
+    "nota": "Mismo mecanismo para Christmas Day, Boxing Day, New Year's Day y 2 January. No transcrito integro."
+   },
+   {
+    "nombre": "Coincidencia de dos feriados",
+    "base_legal": "Holidays Act 2003, s 44(4)",
+    "literal": "'If 2 or more of the public holidays specified in subsection (1) fall on the same day, the public holidays must, for the purposes of this subpart, be treated as 1 day.'",
+    "nota": "El esquema tiene `ocurrencias.overlap_group`, que parece pensado justo para esto."
+   }
+  ],
+  "tabla_matariki": {
+   "_": "Fechas enumeradas por el Matariki Advisory Committee (F3) y consagradas en el anexo de la ley de 2022. Se guardan enteras porque son EL dato: no hay formula que las derive.",
+   "metodo": "Tangaroa of Pipiri. El feriado cae en el viernes mas cercano al periodo lunar de Tangaroa dentro del mes lunar Pipiri. Siempre es viernes y siempre cae entre finales de junio y mediados de julio.",
+   "fechas": {
+    "2022": "2022-06-24",
+    "2023": "2023-07-14",
+    "2024": "2024-06-28",
+    "2025": "2025-06-20",
+    "2026": "2026-07-10",
+    "2027": "2027-06-25",
+    "2028": "2028-07-14",
+    "2029": "2029-07-06",
+    "2030": "2030-06-21",
+    "2031": "2031-07-11",
+    "2032": "2032-07-02",
+    "2033": "2033-06-24",
+    "2034": "2034-07-07",
+    "2035": "2035-06-29",
+    "2036": "2036-07-18",
+    "2037": "2037-07-10",
+    "2038": "2038-06-25",
+    "2039": "2039-07-15",
+    "2040": "2040-07-06",
+    "2041": "2041-07-19",
+    "2042": "2042-07-11",
+    "2043": "2043-07-03",
+    "2044": "2044-06-24",
+    "2045": "2045-07-07",
+    "2046": "2046-06-29",
+    "2047": "2047-07-19",
+    "2048": "2048-07-03",
+    "2049": "2049-06-25"
+   },
+   "nota_de_completitud": "El informe cubre 2022-2052; la tabla legible en el PDF llegaba hasta 2049. PENDIENTE completar 2050-2052 del anexo de la ley."
+  },
+  "conteo": {
+   "feriados_2026": 12,
+   "feriados_al_1_ene_2016": 11,
+   "nota": "11 en el reimpreso al 1-abr-2016 (los diez nombrados mas el dia de aniversario provincial). Matariki los lleva a 12 desde 2022."
+  }
+ },
+ "vacaciones": {
+  "texto_legal_dias": 4,
+  "tipo_de_dia": "semanas",
+  "literal": "Holidays Act 2003, s 16(1): 'After the end of each completed 12 months of continuous employment, an employee is entitled to not less than 4 weeks' paid annual holidays.'",
+  "fuente": "F1",
+  "periodo_de_calificacion_meses": 12,
+  "base_semanal": null,
+  "base_nota": "NO LA FIJA LA NORMA, y lo dice con todas las letras. s 17(1): 'An employer and employee may agree on how an employee's entitlement to 4 weeks' annual holidays is to be met based on what genuinely constitutes a working week for the employee.' O sea: la semana es la del TRABAJADOR, y si no hay acuerdo la determina un Labour Inspector (s 17(2)). Poner 5 seria inventarse una base que la ley remite expresamente al caso concreto.",
+  "escala_antiguedad": "ninguna — 4 semanas desde los 12 meses, sin progresion",
+  "estado_verificacion": "verificado_reproduccion_no_oficial"
+ },
+ "corte_2016": {
+  "estado": "verificado_parcial",
+  "nota": "VERIFICADO en feriados: Matariki entra en 2022 por una ley localizada y datada, y el reimpreso de F1 al 1 de abril de 2016 acredita directamente la lista del corte de 2016. SUPUESTO en vacaciones: no halle ninguna reforma de las ss. 16, 17, 18 o 40 entre 2016 y 2026, pero no pude consultar el historial de enmiendas en el portal oficial, asi que la ausencia no esta verificada. Por eso `verificado_parcial` y no `verificado`."
+ },
+ "reformas": [
+  {
+   "instrumento": "Te Kahui o Matariki Public Holiday Act 2022",
+   "efecto": "anade Matariki como duodecimo feriado publico",
+   "sancion": "2022-04-11",
+   "primer_efecto": "2022-06-24",
+   "dentro_de_ventana": true,
+   "nivel_de_fuente": 4,
+   "nota": "Es el unico feriado del lote cuya fecha NO es gregoriana en su origen y que, aun asi, viene con las fechas ya fijadas por ley hasta 2052. La combinacion es lo interesante: origen lunar, certeza gregoriana."
+  }
+ ],
+ "linea_base_2016": {
+  "n_feriados": 11,
+  "fuente": "s 44(1) del reimpreso al 1 de abril de 2016 (F1), leido directamente",
+  "aritmetica": "11 al 1-ene-2016 + 1 (Matariki, 2022) = 12 en 2026. CUADRA.",
+  "estado_verificacion": "verificado — a diferencia de casi todas las unidades, aqui la lista de 2016 se LEYO del texto vigente en esa fecha, no se reconstruyo restando reformas."
+ },
+ "delta_2016_2026": {
+  "feriados": "+1 (Matariki, 2022)",
+  "vacaciones": "0 — no halle reforma; ausencia no verificada"
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "Matariki no tiene clase de regla representable y se omitira del cargador.",
+   "por_que_importa": "Es justo el feriado por el que Nueva Zelanda entro al lote, y es el unico delta de la ventana. Omitido, el panel dira que Nueva Zelanda no cambio entre 2016 y 2026.",
+   "como_se_cierra": "Decision del principal sobre como representar un feriado con tabla de fechas enumerada en la ley. Ver H-E7."
+  },
+  {
+   "id": "H2",
+   "que": "La base semanal de las vacaciones va en null porque la s 17(1) remite a lo que 'genuinely constitutes a working week for the employee'.",
+   "por_que_importa": "El esquema exige base no nula para `semanas`, asi que la insercion violaria el CHECK. Ademas, la unidad `semanas` del piloto (Ontario) lleva base 5, y conviene revisar si ese 5 esta leido de la norma o elegido.",
+   "como_se_cierra": "Ver H-E8."
+  },
+  {
+   "id": "H3",
+   "que": "El portal oficial legislation.govt.nz esta tras una verificacion anti-bot que no se intento resolver, y nzlii devuelve 403. Ninguna fuente del texto de la ley llega a nivel 2.",
+   "por_que_importa": "El literal de las ss. 16, 40 y 44 viene de una reproduccion en PDF alojada por un tercero.",
+   "como_se_cierra": "Obtener el reimpreso oficial por otra via —descarga directa del PDF de legislation.govt.nz, o la version impresa— y cotejar."
+  },
+  {
+   "id": "H4",
+   "que": "Faltan las fechas de Matariki de 2050 a 2052.",
+   "como_se_cierra": "Leer el anexo de la ley de 2022 o la ultima pagina del informe del Comite."
+  }
+ ],
+ "hallazgos_de_esquema": [
+  {
+   "id": "H-E7",
+   "titulo": "Un feriado con TABLA DE FECHAS ENUMERADA EN LA LEY no tiene clase",
+   "detalle": "Matariki no es `fija` (cambia cada ano), no es `ordinal`, no es `relativa` (no hay ancla en el dominio), no es `lunar` (la clase exige `mes_lunar` y `dia_lunar` enteros; el maramataka fija un PERIODO de cuatro fases y el feriado es el viernes mas cercano), y no es `dependiente_de_proclamacion` (nadie proclama nada: las fechas estan en el anexo de la ley por treinta anos). Es una cuarta forma: enumeracion legal cerrada.",
+   "sugerencia": "Una clase `tabla_enumerada` cuyas ocurrencias se leen de una tabla en vez de derivarse. El esquema ya tiene `determinaciones_fecha` con `metodo_de_conversion`, que podria ser el sitio: la fecha se determina una vez, con certeza alta, y la ocurrencia la referencia. Pero entonces el feriado necesita una clase de regla que diga 'no derivar, buscar en la tabla', y esa no existe.",
+   "por_que_importa": "Es el caso mas limpio del proyecto de fecha no gregoriana CON certeza total. Si el esquema solo sabe representar reglas derivables o fechas inciertas, se pierde el caso intermedio, que ademas es el que un legislador elige cuando quiere dar seguridad juridica sobre un calendario que no controla."
+  },
+  {
+   "id": "H-E8",
+   "titulo": "`base_semanal_dias` se exige a `semanas` y a `habil`, pero ambas pueden ser relativas al trabajador",
+   "detalle": "El CHECK del esquema dice: base NULA si y solo si el tipo es `calendario`. El comentario que lo acompana razona bien —para calendario la conversion usa `regimen_jornada`, 'que es propiedad del trabajador y no de la norma'—, pero esa misma propiedad la tienen aqui `semanas` (s 17(1) neozelandesa: la semana es la que 'genuinely constitutes a working week for the employee') y `habil` en Japon (労働日 es el dia de trabajo de cada trabajador). El criterio correcto no es el TIPO de unidad sino si la norma FIJA la base o la remite al caso.",
+   "sugerencia": "Sustituir el CHECK por uno sobre un campo explicito, del estilo `base_la_fija_la_norma` booleano, y permitir base nula cuando sea falso. Mientras tanto, revisar si el `base: 5` de Ontario esta leido o elegido."
+  }
+ ],
+ "no_mirado_todavia": [
+  "CBR Labour Regulation Index",
+  "cualquier dataset agregado de dias de vacaciones",
+  "data/derived/semilla/"
+ ],
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "buscado_en": "Sitio oficial de legislacion de Nueva Zelanda, texto vigente del Holidays Act 2003 con sus notas de enmienda apartado por apartado",
+     "cita": "La s. 16(1) da «not less than 4 weeks paid annual holidays» tras doce meses continuos, y su nota dice «Section 16(1): amended, on 1 April 2007» — el paso de tres a cuatro semanas, ANTERIOR a la ventana. Las enmiendas de la ventana a esta seccion existen y son todas al apartado (2)(a), sobre que periodos cuentan como empleo continuo: terminologia de violencia familiar, por las leyes de 2018 con efecto en 2019. El quantum no se toca. Esto resuelve ademas la contradiccion entre las dos fichas neozelandesas: prevalece la que leyo el texto, y ahora con la nota oficial detras.",
+     "nivel_de_fuente": 1,
+     "indice_registra_modificaciones": true,
+     "indice_como_se_comprobo": "Las notas van por APARTADO, con fecha, ley y numero de anio, y el documento las lleva por decenas. Registra la presencia con esa granularidad, asi que se puede distinguir que lo enmendado en ventana es el (2)(a) y no el (1).",
+     "fecha_busqueda": "2026-08-12"
+   },
+  "dias": 4,
+  "tipo": "semanas",
+  "base": null,
+  "imputacion": "extienden",
+  "meses": 12,
+  "literal": "After the end of each completed 12 months of continuous employment, an employee is entitled to not less than 4 weeks' paid annual holidays (Holidays Act 2003, s 16(1))",
+  "escala": [
+   [
+    12,
+    null,
+    4
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "negociada",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "s 18(3): 'When annual holidays are to be taken by the employee is to be agreed between the employer and employee.' s 18(4): 'An employer must not unreasonably withhold consent to an employee's request to take annual holidays.' s 18(2): si el trabajador lo elige, el empleador debe permitirle tomar al menos dos semanas continuas. s 19(1)(a) y (2): si empleador y trabajador no llegan a acuerdo bajo s 18(3), el empleador PUEDE exigir que se tomen, con no menos de catorce dias de preaviso.",
+   "resolucion_desacuerdo": "limite_razonabilidad",
+   "nota_resolucion": "s 18(4): «must not unreasonably withhold consent»."
+  },
+  "colocacion_cascada_no_representable": [
+   {
+    "orden": 1,
+    "iniciativa": "negociada",
+    "condicion": null,
+    "literal": "When annual holidays are to be taken by the employee is to be agreed between the employer and employee (s 18(3)), and an employer must not unreasonably withhold consent to an employee's request (s 18(4))"
+   },
+   {
+    "orden": 2,
+    "iniciativa": "empleador",
+    "condicion": "si_no_hay_acuerdo",
+    "literal": "An employer may require an employee to take annual holidays if the employer and employee are unable to reach agreement under section 18(3) (s 19(1)(a)), giving not less than 14 days' notice (s 19(2))"
+   }
+  ],
+  "imputacion_nota": "VERIFICADA Y CON ARTICULO PROPIO, que en este lote es lo excepcional. s 40(1): 'A public holiday that occurs during an employee's annual holidays must be treated as a public holiday and not as part of the employee's annual holidays.' No hay que deducir nada de la unidad. Y hay un segundo articulo que lo dice desde el otro lado, s 46(2): 'Public holidays are in addition to annual holidays that an employee is entitled to under this Act or otherwise.' Nueva Zelanda y Turquia son los dos casos del proyecto con enunciado positivo y separado; Portugal, Alemania, Noruega y Polonia lo tienen dentro de la definicion de la unidad; Japon, Nicaragua y Paraguay no lo tienen.",
+  "base_origen": "horario_del_trabajador",
+  "base_nota": "s.16(1) de la Holidays Act: «not less than 4 weeks' paid annual holidays», y la semana es «what genuinely constitutes a working week for the employee»."
+ }
+}

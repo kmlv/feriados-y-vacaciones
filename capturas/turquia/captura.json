@@ -1,0 +1,194 @@
+{
+ "_": "Captura de Turquia. CAPTURA NO CIEGA (incidente del extractor).",
+ "captura_ciega": false,
+ "unidad": "TUR",
+ "jurisdiccion_de_referencia": "Estambul (mas poblada)",
+ "fecha_captura_utc": "2026-08-09T23:30:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "4857 sayili Is Kanunu, madde 53 — Ley de Trabajo, artículo 53",
+   "nivel_de_fuente": 2
+  },
+  "F2": {
+   "cita": "Yillik Ucretli Izin Yonetmeligi — Reglamento de vacaciones anuales retribuidas",
+   "nivel_de_fuente": 1,
+   "url": "https://www.mevzuat.gov.tr/File/GeneratePdf?mevzuatNo=5451&mevzuatTur=KurumVeKurulusYonetmeligi&mevzuatTertip=5",
+   "nota": "mevzuat.gov.tr es el portal oficial de legislacion."
+  },
+  "F3": {
+   "cita": "2429 sayili Ulusal Bayram ve Genel Tatiller Hakkinda Kanun",
+   "nivel_de_fuente": 1,
+   "url": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2429.pdf",
+   "nota": "Portal oficial de legislacion. PENDIENTE archivar el PDF y verificar el literal."
+  },
+  "F4": {
+   "cita": "Kanun No. 6752 — declara el 15 de julio Día de la Democracia y la Unidad Nacional; modifica la ley 2429",
+   "nivel_de_fuente": 3,
+   "publicacion": "2016-10-29",
+   "nota": "Nivel 3: secundarias concordantes dan numero de ley (6752), fecha en el Resmi Gazete (2016-10-29) y que modifica la Ley 2429, con primer feriado en 2017. Falta el dispositivo para llegar a 1."
+  }
+ },
+ "vacaciones": {
+  "escala_antiguedad": {
+   "presente": true,
+   "tramos": [
+    {
+     "desde_anios": 1,
+     "hasta_anios": 5,
+     "dias": 14
+    },
+    {
+     "desde_anios": 5,
+     "hasta_anios": 15,
+     "dias": 20
+    },
+    {
+     "desde_anios": 15,
+     "hasta_anios": null,
+     "dias": 26
+    }
+   ],
+   "nota": "Escala por tramos, no incremento anual. Distinta en forma de la mexicana, que es lo que justifica tener tabla de tramos y no dos campos."
+  },
+  "valor_trabajador_de_referencia": 14,
+  "tipo_de_dia": "werktage",
+  "imputacion_feriados_a_vacaciones": "EXTIENDEN",
+  "imputacion_literal": "Yillik izin sureleri icine rastlayan hafta tatili, ulusal bayram ve genel tatil gunleri izin suresinden sayilmaz.",
+  "imputacion_traduccion": "Los dias de descanso semanal, fiestas nacionales y feriados generales que caigan dentro del periodo de vacaciones NO se cuentan como parte de la duracion de las vacaciones.",
+  "imputacion_nota": "EL POLO OPUESTO DE PERU, con literal explicito en ambos. Peru: el descanso COMPRENDE los feriados que caen dentro. Turquia: NO los cuenta, o sea se ANADEN. Mismo campo, dos valores contrarios, ambos verificados. Sumar feriados y vacaciones es correcto en Turquia y es doble conteo en Peru. Sin este campo, la comparacion entre ambos es invalida.",
+  "fraccionamiento": {
+   "permitido": "por acuerdo de las partes",
+   "bloque_minimo_dias": 10,
+   "nota": "Iniciativa por ACUERDO, no unilateral de ninguna parte. Tercer valor distinto de Peru (trabajador solicita, empleador autoriza) y de Mexico (potestad del trabajador)."
+  },
+  "irrenunciable": true,
+  "estado_verificacion": "verificado_secundaria",
+  "tipo_de_dia_resuelto": "RESUELTO, y con una convergencia que no esperaba. El art. 56/5 dice que los descansos semanales, fiestas nacionales y feriados generales que caigan dentro del permiso NO se cuentan. Y la regla de base es que el sabado ES dia de trabajo salvo que el contrato lo haga dia de descanso. O sea: se excluyen domingo y feriados, se incluye sabado. Esa es exactamente la semantica de los WERKTAGE alemanes, sobre semana de seis dias. El valor que se anadio al esquema por Alemania resulta servir para Turquia sin cambiarlo, que es la prueba de que convenia una unidad general en vez de una etiqueta nacional.",
+  "salvedad": "Si el contrato individual o el convenio colectivo hacen del sabado dia de descanso semanal, tampoco se cuenta, y el derecho equivale a 14 dias habiles sobre semana de cinco. Es variacion por instrumento, no por ley, y queda declarada."
+ },
+ "feriados": {
+  "estado": "PARCIAL — las fechas civiles capturadas; las religiosas son lunares y faltan",
+  "fuente": "F3",
+  "civiles": [
+   {
+    "fecha": "01-01",
+    "nombre": "Yilbasi (Año Nuevo)",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "04-23",
+    "nombre": "Ulusal Egemenlik ve Cocuk Bayrami",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Emek ve Dayanisma Gunu",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "05-19",
+    "nombre": "Ataturk'u Anma, Genclik ve Spor Bayrami",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "07-15",
+    "nombre": "Demokrasi ve Milli Birlik Gunu",
+    "clase_de_regla": "fija",
+    "desde": 2017,
+    "instrumento": "Kanun 6752",
+    "nota": "REFORMA DENTRO DE LA VENTANA. Al 1-ene-2016 este feriado NO existia: la ley se publico el 29-oct-2016 y el primer 15 de julio feriado fue el de 2017."
+   },
+   {
+    "fecha": "08-30",
+    "nombre": "Zafer Bayrami",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "10-28",
+    "nombre": "Cumhuriyet Bayrami arifesi",
+    "clase_de_regla": "fija",
+    "fraccion": 0.5,
+    "desde_hora": "13:00",
+    "nota": "MEDIO DIA. La celebracion arranca el 28 a las 13:00 y sigue el 29 completo."
+   },
+   {
+    "fecha": "10-29",
+    "nombre": "Cumhuriyet Bayrami",
+    "clase_de_regla": "fija"
+   }
+  ],
+  "religiosas_pendientes": {
+   "ramazan_bayrami": "3,5 dias, calendario lunar, con medio dia de arife",
+   "kurban_bayrami": "4,5 dias, calendario lunar, con medio dia de arife",
+   "nota": "PENDIENTE. Son multi-dia Y lunares Y con medio dia, o sea ejercitan tres mecanismos a la vez. Es la razon principal por la que Turquia entro al piloto y todavia no esta capturada."
+  },
+  "total_civiles_2026": 7.5
+ },
+ "delta_2016_2026": {
+  "feriados": "+1 (15 de julio, Ley 6752 de 2016)",
+  "vacaciones": "0 — sin reforma hallada del articulo 53"
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "La Ley 6752 de octubre de 2016 anadio el 15 de julio, primer feriado en 2017."
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "pantalla_3": {
+       "cita": "Prensa turca: el artículo sigue en catorce días y lo que hay en la ventana son PROPUESTAS no aprobadas. La mas reciente, presentada en 2025 por la diputada Deniz Demir, pide subir a veinte días de uno a cinco anios, veinticinco hasta los quince y treinta a partir de ahi, con el argumento expreso de igualar al sector privado con los funcionarios. Es un kanun teklifi, una proposicion de ley: si el minimo ya fuera veinte, no habria que pedirlo.",
+       "url": "https://www.sozcu.com.tr/teklif-meclis-e-geldi-yillik-izin-20-gun-mu-olacak-p125073"
+     },
+     "buscado_en": "Repositorio juridico turco, vista de comparacion de versiones del art. 53 de la ley 4857",
+     "cita": "La comparacion registra DOS versiones del artículo y ninguna mas: la original en vigor el 10 de junio de 2003 y la modificada por la ley 6552, en vigor el 11 de septiembre de 2014. Ninguna posterior al 1 de enero de 2016.",
+     "nivel_de_fuente": 3,
+     "fecha_busqueda": "2026-08-11"
+   },
+  "dias": 14,
+  "tipo": "werktage",
+  "base": 6,
+  "imputacion": "extienden",
+  "meses": 12,
+  "literal": "Yillik izin sureleri icine rastlayan hafta tatili, ulusal bayram ve genel tatil gunleri izin suresinden sayilmaz",
+  "escala": [
+   [
+    12,
+    60,
+    14
+   ],
+   [
+    60,
+    180,
+    20
+   ],
+   [
+    180,
+    null,
+    26
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "trabajador",
+   "veto": "discrecional",
+   "silencio": "sin_regla",
+   "instrumento": "ley",
+   "literal": "Yillik Ucretli Izin Yonetmeligi m. 7/1: «Isci [...] yillik ucretli iznini, kullanmak istedigi zamandan en az bir ay once isverene yazili olarak bildirir» —el trabajador comunica por escrito, con al menos un mes de antelacion, cuando quiere tomarla—. Y m. 8/2: «Izin kurulu veya isveren, iscinin istedigi izin kullanma tarihi ile bagli degildir» —la comision o el empleador NO quedan vinculados por la fecha solicitada—, si bien los cuadros se preparan «iscinin talebi ve is durumu dikkate alinarak», considerando la solicitud y la situacion del trabajo.",
+   "correccion": {
+    "hallado_por": "doble codificacion ciega + relectura dirigida, 2026-08-10",
+    "antes": {
+     "iniciativa": "negociada",
+     "veto": null,
+     "silencio": null,
+     "instrumento": "ley",
+     "literal": "izin sureleri taraflarin anlasmasi ile bolunebilir; bir bolumu on gunden az olamaz — el periodo puede dividirse por acuerdo de las partes, con un bloque no inferior a diez dias",
+     "resolucion_desacuerdo": "sin_regla",
+     "nota_resolucion": "PENDIENTE Y DECLARADO: el literal capturado es del articulo de FRACCIONAMIENTO —el periodo puede dividirse por acuerdo, con un bloque no menor a diez dias—, no de la oportunidad. Es el mismo error de capa que la doble codificacion ciega encontro en Peru, Israel, Grecia y Francia. La regla de colocacion turca necesita relectura; hasta entonces no se le asigna un desempate que no hemos leido."
+    },
+    "por_que": "El literal anterior era el art. 56/3 de la Is Kanunu 4857, titulado «Yillik ucretli iznin uygulanmasi», que regula la CONTINUIDAD y el FRACCIONAMIENTO —el empleador no puede partir la vacacion, y las partes pueden dividirla en bloques no menores a diez dias—. No dice nada de fechas. La colocacion no vive en la ley: el art. 60 delega en un reglamento ministerial y el reglamento la regula en sus arts. 7 y 8. Ademas la iniciativa NO era negociada: la pide el trabajador."
+   },
+   "nota_veto": "`discrecional` y no `causal_operativa`: el «Ancak...» del m. 8/2 impone CONSIDERAR la solicitud al elaborar el cuadro, no motivar la negativa. La norma dice expresamente lo contrario de exigir causa — que no queda vinculada por la fecha pedida. Existe un limite general de buena fe (durustluk) de origen jurisprudencial, Yargitay 22. HD, pero no esta en el texto y por eso va como nota y no como casilla: nivel 3.",
+   "nota_comision": "La izin kurulu de los centros con mas de cien trabajadores PROPONE, no dirime: la preside el representante del empleador (m. 15), su cuadro requiere aprobacion del empleador (m. 16/a) y el m. 8/2 la desvincula igual que a el. Por eso la colocacion turca no es `tercero_dirime`. En centros de menos de cien la funcion pasa a un par ad hoc (m. 18), sin cambiar quien decide. Hueco de redaccion declarado: el centro de EXACTAMENTE cien trabajadores no cae en ninguno de los dos articulos.",
+   "nota_cierre_colectivo": "El m. 10 permite al empleador un cierre colectivo (toplu izin) entre principios de abril y finales de octubre. Es POTESTATIVO y no el regimen por defecto, asi que no se codifica como segunda regla: hacerlo afirmaria que rige donde no se ha activado.",
+   "nota_instrumento": "`ley` y no un valor nuevo. El dominio de `instrumento` distingue QUIEN es la fuente de la regla —Estado, convenio colectivo, acuerdo individual, organo paritario, comite de empresa, decision de empresa—, no su RANGO. Un reglamento ministerial sigue siendo el Estado. LIMITE DECLARADO: la regla de colocacion turca vive en el Yillik Ucretli Izin Yonetmeligi, o sea en rango reglamentario por delegacion del art. 60 de la Is Kanunu, y eso la hace mas facil de cambiar que una regla legal. El esquema no tiene campo de rango y no se lo invento aqui."
+  }
+ }
+}

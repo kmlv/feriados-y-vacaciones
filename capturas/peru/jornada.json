@@ -1,0 +1,69 @@
+{
+  "unidad": "PER",
+  "jurisdiccion_de_referencia": "Lima; el régimen de jornada es nacional, no municipal",
+  "fecha_captura_utc": "2026-08-11T06:11:34Z",
+  "trabajador_de_referencia": "sector privado formal, jornada completa, mayor de edad",
+
+  "fuentes": {
+    "J1": {
+      "cita": "Constitución Política del Perú de 1993, artículo 25",
+      "url": "https://www.gob.pe/institucion/congreso-de-la-republica/informes-publicaciones/2447366-constitucion-politica-del-peru",
+      "nivel_de_fuente": 3,
+      "publicacion": "1993-12-31, texto vigente",
+      "nota": "El texto del artículo 25 se verificó por fuentes secundarias concordantes y por su reproducción literal en el artículo 1 del TUO (J2), que es la norma de desarrollo. PENDIENTE cerrar con el texto oficial del Congreso."
+    },
+    "J2": {
+      "cita": "Decreto Supremo N° 007-2002-TR — Texto Único Ordenado de la Ley de Jornada de Trabajo, Horario y Trabajo en Sobretiempo, artículo 1",
+      "url": "https://www.sunafil.gob.pe/portal/noticias/item/6372-decreto-supremo-n-007-2002-tr.html",
+      "nivel_de_fuente": 3,
+      "publicacion": "2002-07-04",
+      "nota": "La ficha de SUNAFIL confirma la norma y su fecha pero enlaza el documento a un repositorio externo; el texto del artículo 1 se verificó por secundarias concordantes. PENDIENTE cerrar con El Peruano."
+    },
+    "J3": {
+      "cita": "Decreto Legislativo N° 713 — Consolidan la legislación sobre descansos remunerados de los trabajadores sujetos al régimen laboral de la actividad privada; artículos 1, 7 y 8",
+      "url": "https://diariooficial.elperuano.pe/Normas/obtenerDocumento?idNorma=110007",
+      "nivel_de_fuente": 1,
+      "publicacion": "1991-11-08, texto consolidado de la serie «Normas Legales Actualizadas» del Diario Oficial El Peruano",
+      "nota": "El pie del artículo 7 registra su modificación por la Ley N° 26331, publicada el 23 de junio de 1994. El mismo documento contiene el Reglamento (D.S. 012-92-TR)."
+    },
+    "J4": {
+      "cita": "Decreto Supremo N° 012-92-TR — Reglamento del Decreto Legislativo N° 713, artículos 6 y 7",
+      "url": "https://diariooficial.elperuano.pe/Normas/obtenerDocumento?idNorma=110007",
+      "nivel_de_fuente": 1,
+      "publicacion": "1992-12-03",
+      "nota": "Contenido en el mismo documento consolidado que J3."
+    }
+  },
+
+  "jornada": {
+    "horas_semanales_max": 48,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": 6,
+    "dias_ordinarios_origen": "norma",
+    "literal": "Artículo 25.- La jornada ordinaria de trabajo es de ocho horas diarias o cuarenta y ocho horas semanales, como máximo. En caso de jornadas acumulativas o atípicas, el promedio de horas trabajadas en el período correspondiente no puede superar dicho máximo. […] Artículo 1.- La jornada ordinaria de trabajo para varones y mujeres mayores de edad es de ocho (8) horas diarias o cuarenta y ocho (48) horas semanales como máximo.",
+    "traduccion": null,
+    "fuente": "J1",
+    "nota": "El par 8 y 48 da 6 días exactos, y el artículo 1 del Decreto Legislativo 713 lo confirma por el otro extremo: si hay al menos veinticuatro horas consecutivas de descanso a la semana, no caben más de seis días trabajados. LA CAUTELA ESTÁ EN LA CONJUNCIÓN. La norma dice «ocho horas diarias O cuarenta y ocho horas semanales», con disyuntiva, no con «y»: son dos techos alternativos, de modo que 6 es el MÁXIMO de días que la norma tolera, no un reparto que imponga. Una semana de cinco días es igualmente lícita mientras no se superen los topes, y el propio artículo 25 admite jornadas acumulativas o atípicas siempre que el promedio del período no exceda el máximo."
+  },
+
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "domingo",
+    "literal": "Artículo 1.- El trabajador tiene derecho como mínimo a 24 horas consecutivas de descanso en cada semana, el que se otorgará preferentemente en día domingo.",
+    "fuente": "J3",
+    "nota": "El domingo está nombrado, pero con «preferentemente»: es orientación, no mandato. El artículo 2 permite al empleador establecer regímenes alternativos cuando los requerimientos de la producción lo hagan indispensable."
+  },
+
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": "se pierde",
+    "alcance": "feriados nacionales del artículo 6 del Decreto Legislativo 713",
+    "literal": "Artículo 7.- Los feriados establecidos en el artículo anterior se celebrarán en la fecha respectiva. Cualquier otro feriado no laborable de ámbito no nacional o gremial, se hará efectivo el día lunes inmediato posterior a la fecha, aun cuando corresponda con el descanso del trabajador.",
+    "fuente": "J3",
+    "nota": "HAY QUE LEER EL ARTÍCULO 7 EN SUS DOS MITADES Y NO CONFUNDIRLAS. La primera manda que los feriados NACIONALES —los que enumera el artículo 6, que son los que interesan al trabajador de referencia— «se celebrarán en la fecha respectiva»: no se mueven. Si uno cae en domingo, que es el día de descanso preferente, no se traslada ni se compensa con otro día; el trabajador mensualizado ya tenía ese día pagado y no gana nada. La segunda mitad sí trae traslado a lunes, pero SÓLO para los feriados no laborables de ámbito no nacional o gremial, y el Reglamento lo desarrolla en sus artículos 6 y 7 hablando expresamente de «feriados trasladables». Por eso existe se registra en false: la regla de traslado existe en el ordenamiento, pero no alcanza al caso por defecto. Codificar Perú como país con traslado, apoyándose en la segunda frase, sobreestimaría su descanso anual."
+  },
+
+  "reformas_en_la_ventana": [],
+
+  "pendiente": "No se detectó reforma de la jornada ordinaria entre 2016 y 2026: el artículo 25 constitucional y el artículo 1 del TUO siguen en ocho horas diarias o cuarenta y ocho semanales. Sí hubo actividad legislativa en la ventana sobre FERIADOS (leyes 31381, 31530, 31788 y 31822, esta última reescribiendo el artículo 6 del D. Leg. 713), pero ninguna tocó la jornada ni la regla de traslado del artículo 7, cuya última modificación sigue siendo la Ley 26331 de 1994. Quedan en nivel 3 el artículo 25 de la Constitución y el artículo 1 del TUO: ambos deben cerrarse contra El Peruano."
+}

@@ -1,0 +1,278 @@
+{
+ "_": "CAPTURA CIEGA de la Republica Dominicana (Santo Domingo). Escrita leyendo el articulado del Codigo de Trabajo (Ley 16-92) y el texto integro de la Ley 139-97, SIN mirar el indice del CBR ni ningun dataset agregado de vacaciones.",
+ "_estado": "COMPLETA en feriados. En vacaciones con DOS hallazgos incomodos declarados: la escala de antiguedad de la RD es de SALARIO, no de dias de descanso (ver `escala_de_pago_no_de_dias`), y no hay articulo de imputacion.",
+ "unidad": "DOM",
+ "jurisdiccion_de_referencia": "Santo Domingo — ciudad mas poblada",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 5",
+ "fecha_captura_utc": "2026-08-10T14:50:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Código de Trabajo de la República Dominicana, Ley 16-92 — arts. 163, 164, 165, 177 a 189",
+   "nivel_de_fuente": 3,
+   "tipo": "compilacion juridica; reproduccion integra con anotaciones de modificaciones",
+   "url": "https://docs.republica-dominicana.justia.com/nacionales/codigos/codigo-de-trabajo.pdf",
+   "literal_relevante": "Art. 165 «Los dias declarados no laborables por la Constitucion o las leyes, son de descanso remunerado para el trabajador, salvo que coincidan con el dia de descanso semanal.» Art. 177 (mod. Ley 97-97) «Los empleadores tienen la obligacion de conceder a todo trabajador un periodo de vacaciones de catorce (14) dias laborables, con disfrute de salario, conforme a la escala siguiente: 1ro. Despues de un trabajo continuo no menor de un ano ni mayor de cinco, catorce dias de salario ordinario. 2do. Despues de un trabajo continuo no menor de cinco anos, dieciocho dias de salario ordinario.» Art. 178 «El trabajador adquiere el derecho a vacaciones cada vez que cumpla un ano de servicio ininterrumpido en una empresa.» Art. 186 «Los empleadores deben fijar y distribuir, durante los primeros quince dias del mes de enero, los periodos de vacaciones de sus trabajadores.» Art. 188 «El empleador puede variar, en caso de necesidad, la distribucion del periodo de vacaciones, pero por ninguna circunstancia, los trabajadores dejaran de disfrutar integramente de las vacaciones dentro de los seis meses de la fecha de adquisicion del derecho.»",
+   "nota": "NIVEL 3 A PROPOSITO. El Ministerio de Trabajo publica el codigo en mt.gob.do y ese seria nivel 2, pero el servidor devolvio HTTP 473 a la peticion y NO LO LEI. Se declara el nivel de lo que efectivamente se leyo. PENDIENTE obtener y archivar la edicion oficial del MT."
+  },
+  "F2": {
+   "cita": "Ley No. 139-97, sobre traslado a los lunes de los días feriados que coincidan con martes, miercoles, jueves o viernes",
+   "nivel_de_fuente": 3,
+   "tipo": "compilacion juridica; texto integro con formula de promulgacion",
+   "url": "https://docs.republica-dominicana.justia.com/nacionales/leyes/ley-139-97.pdf",
+   "promulgacion": "1997-06-19",
+   "gaceta": "Gaceta Oficial No. 9957 del 25 de junio de 1997",
+   "literal_relevante": "Art. 1 «El caracter no laborable de todos los dias feriados del calendario que coincidan con los dias martes, miercoles, jueves o viernes de la semana que se trate, sera efectivo conforme a la siguiente pauta: 1) Martes y miercoles el lunes precedente. 2) Jueves y viernes el lunes siguiente.» Art. 2 excluye: 1 de enero, 21 de enero, 27 de febrero, 16 de agosto cuando coincida con el inicio de un periodo constitucional, 24 de septiembre y 25 de diciembre. Art. 3 «Quedan tambien excluidos del ambito de aplicacion de la presente ley los dias feriados de caracter religioso que se fijan en razon del dia de la semana: jueves Corpus Christi, jueves y viernes santos.» Art. 4 nombra como trasladables el 6 de enero, 26 de enero, 1 de mayo, 16 de agosto y 6 de noviembre.",
+   "nota": "Es la unica norma que ENUMERA feriados que localice. El art. 165 del Codigo de Trabajo remite a «la Constitucion o las leyes» sin listar."
+  },
+  "F3": {
+   "cita": "Ministerio de Trabajo — comunicado oficial de días feriados 2026",
+   "nivel_de_fuente": 4,
+   "url": "https://mt.gob.do/ministerio-de-trabajo-informa-dias-feriados-correspondientes-al-ano-2026/",
+   "nota": "Sigue en nivel 4. El servidor del MT devolvio HTTP 473 y el contenido se conoce por resumenes de prensa y del portal de la Presidencia que lo reproducen de forma concordante: doce feriados en 2026, con Reyes, Trabajo y Constitucion trasladados a lunes. Varias secundarias concordantes NO hacen una fuente oficial."
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO para 2026: doce fechas. Con una discrepancia declarada sobre Jueves Santo; ver hueco H1.",
+  "fuente": "F2",
+  "nota_estructural": "El Codigo de Trabajo NO contiene la lista. Su art. 165 es una REMISION en bloque a la Constitucion y a las leyes. La lista se reconstruyo de la enumeracion que hace la Ley 139-97 en sus arts. 2, 3 y 4, contrastada con el comunicado anual del Ministerio de Trabajo. O sea: cada fecha es `fija` o `computable`, pero el CONJUNTO es una remision normativa, y esa capa no tiene donde vivir en el esquema.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Año Nuevo",
+    "clase_de_regla": "fija",
+    "traslado": "excluido (Ley 139-97 art. 2)"
+   },
+   {
+    "fecha": "01-06",
+    "nombre": "Día de los Santos Reyes",
+    "clase_de_regla": "fija",
+    "traslado": "trasladable a lunes (art. 4)"
+   },
+   {
+    "fecha": "01-21",
+    "nombre": "Nuestra Señora de la Altagracia",
+    "clase_de_regla": "fija",
+    "traslado": "excluido (art. 2)"
+   },
+   {
+    "fecha": "01-26",
+    "nombre": "Día de Duarte",
+    "clase_de_regla": "fija",
+    "traslado": "trasladable a lunes (art. 4)"
+   },
+   {
+    "fecha": "02-27",
+    "nombre": "Día de la Independencia Nacional",
+    "clase_de_regla": "fija",
+    "traslado": "excluido (art. 2)"
+   },
+   {
+    "fecha": null,
+    "nombre": "Viernes Santo",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2",
+    "traslado": "excluido (art. 3)"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Día del Trabajo",
+    "clase_de_regla": "fija",
+    "traslado": "trasladable a lunes (art. 4); parrafo del art. 4: si cae domingo, rige el lunes siguiente"
+   },
+   {
+    "fecha": null,
+    "nombre": "Corpus Christi",
+    "clase_de_regla": "computable",
+    "regla": "pascua+60",
+    "traslado": "excluido (art. 3)",
+    "nota": "Jueves posterior al domingo de la Trinidad = Pascua + 60 dias."
+   },
+   {
+    "fecha": "08-16",
+    "nombre": "Día de la Restauración",
+    "clase_de_regla": "fija",
+    "traslado": "trasladable a lunes (art. 4), salvo cuando coincide con el inicio de un periodo constitucional (art. 2)",
+    "nota": "Su traslado es CONDICIONAL a un ciclo politico de cuatro anos. El esquema no tiene donde poner una condicion de traslado dependiente del calendario electoral."
+   },
+   {
+    "fecha": "09-24",
+    "nombre": "Nuestra Señora de las Mercedes",
+    "clase_de_regla": "fija",
+    "traslado": "excluido (art. 2)"
+   },
+   {
+    "fecha": "11-06",
+    "nombre": "Día de la Constitución",
+    "clase_de_regla": "fija",
+    "traslado": "trasladable a lunes (art. 4)"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Navidad",
+    "clase_de_regla": "fija",
+    "traslado": "excluido (art. 2)"
+   }
+  ],
+  "total_2026": 12,
+  "regla_de_traslado_general": "Ley 139-97 art. 1: martes y miercoles al lunes PRECEDENTE; jueves y viernes al lunes SIGUIENTE. Es una regla de traslado bidireccional —hacia atras y hacia adelante segun el dia— que no se ha visto en ninguna otra unidad del piloto. No esta capturada como campo: el cargador no escribe `regla_de_traslado_aplicable`.",
+  "subnacionales": []
+ },
+ "vacaciones": {
+  "texto_legal_dias": 14,
+  "tipo_de_dia": "habil — LEIDO: art. 177 dice «catorce (14) dias laborables»",
+  "literal": "Los empleadores tienen la obligacion de conceder a todo trabajador un periodo de vacaciones de catorce (14) dias laborables, con disfrute de salario, conforme a la escala siguiente: 1ro. Despues de un trabajo continuo no menor de un ano ni mayor de cinco, catorce dias de salario ordinario. 2do. Despues de un trabajo continuo no menor de cinco anos, dieciocho dias de salario ordinario.",
+  "fuente": "F1",
+  "periodo_de_calificacion_meses": 12,
+  "periodo_de_calificacion_literal": "Art. 178: «El trabajador adquiere el derecho a vacaciones cada vez que cumpla un ano de servicio ininterrumpido en una empresa.» Aqui SI hay periodo de calificacion real de doce meses, a diferencia de las unidades europeas de este lote.",
+  "escala_proporcional_condicionada": {
+   "articulos": "177 y 179-180",
+   "que_dice": "Arts. 179-180: el trabajador de contrato indefinido que SIN CULPA SUYA no pudo prestar servicios ininterrumpidos durante un ano, por la indole de sus labores o cualquier otra circunstancia, tiene vacaciones proporcionales si trabajo mas de cinco meses, en escala de 6 dias (mas de 5 meses) a 12 dias (mas de 11 meses).",
+   "por_que_no_va_en_la_escala": "Es una regla EXCEPCIONAL y condicionada a la ausencia de culpa y a la indole de la labor, no el devengo general. Meterla en `escala_antiguedad` la presentaria como si todo trabajador tuviera 6 dias a los 5 meses, que no es lo que dice el art. 179.",
+   "tramos_literales": [
+    [
+     5,
+     6,
+     6
+    ],
+    [
+     6,
+     7,
+     7
+    ],
+    [
+     7,
+     8,
+     8
+    ],
+    [
+     8,
+     9,
+     9
+    ],
+    [
+     9,
+     10,
+     10
+    ],
+    [
+     10,
+     11,
+     11
+    ],
+    [
+     11,
+     12,
+     12
+    ]
+   ]
+  },
+  "fraccionamiento": "Art. 177 in fine: por acuerdo entre trabajador y empleador, con un bloque minimo de una semana. Prohibido si el trabajador es menor de edad.",
+  "irrenunciable": "Art. 182: durante las vacaciones no puede prestar servicios a ningun empleador; el derecho no puede compensarse ni sustituirse salvo cese.",
+  "estado_verificacion": "verificado_secundaria"
+ },
+ "escala_de_pago_no_de_dias": {
+  "_": "HALLAZGO. LEER EL ART. 177 CON CUIDADO CAMBIA EL NUMERO.",
+  "lectura_literal": "El art. 177 fija UN SOLO periodo —«catorce (14) dias laborables»— y a continuacion una escala de DIAS DE SALARIO ORDINARIO: catorce entre uno y cinco anos, dieciocho a partir de cinco. Gramaticalmente la escala modifica «con disfrute de salario», no la duracion del periodo. O sea: el DESCANSO no progresa con la antiguedad; el PAGO si.",
+  "que_dicen_las_secundarias": "Discrepan entre si, y a veces dentro del mismo texto. Unas dicen «el periodo aumenta a 18 dias laborables despues de cinco anos»; otras dicen expresamente «el disfrute son 14 dias laborables y los dias de pago son la compensacion economica, que varia con la antiguedad: 18 dias de salario aunque el descanso siga siendo de 14».",
+  "que_se_codifico": "14 dias habiles en TODA la escala, que es lo que dice el literal, con la escala de pago registrada aparte. Si se codificaran 18 a los cinco anos se estaria publicando la lectura mas generosa de un texto ambiguo, y ese es exactamente el tipo de eleccion que este proyecto no hace.",
+  "escala_de_pago_en_dias_de_salario_ordinario": [
+   [
+    12,
+    60,
+    14
+   ],
+   [
+    60,
+    null,
+    18
+   ]
+  ],
+  "el_esquema_no_lo_puede_decir": "`escala_antiguedad.quantum` es un solo numero por tramo y `vacaciones_version` no tiene campo de retribucion. Un regimen donde los dias de descanso y los dias de salario divergen es irrepresentable: o se publica 14 y se pierde el escalon retributivo, o se publica 18 y se inventan cuatro dias de descanso.",
+  "estado": "PENDIENTE decidir por el principal. Hasta entonces, 14."
+ },
+ "imputacion": {
+  "valor": "sin_regla_explicita",
+  "por_que": "Busque el articulo y NO EXISTE. Ni el Codigo de Trabajo (arts. 163-165 de descanso y feriados, 177-189 de vacaciones) ni la Ley 139-97 dicen que ocurre cuando un feriado cae dentro del periodo vacacional.",
+  "lo_que_se_puede_derivar_y_no_se_codifica": "Art. 177 cuenta «dias laborables» y art. 165 declara los feriados «no laborables». De ahi se seguiria que un feriado no consume dia de vacaciones, o sea `extienden`. Las secundarias dominicanas lo afirman de forma unanime: «no se computan para fines de vacaciones ni los domingos, ni tampoco los dias feriados», y calculan que 14 dias laborables se extienden a entre 17 y 21 dias calendario.",
+  "por_que_aun_asi_va_sin_regla_explicita": "Porque eso es DERIVAR del tipo de dia, que es precisamente lo que la regla 2 de la especificacion prohibe, y porque El Salvador ya demostro que el vecindario y la coherencia aparente pueden salir al reves. La unanimidad de fuentes secundarias no crea el articulo.",
+  "consecuencia": "El total de la Republica Dominicana es NA. Es un NA distinto del britanico: aqui la respuesta practica es conocida y probablemente `extienden`, pero no esta escrita en ninguna norma que yo pudiera leer."
+ },
+ "corte_2016": {
+  "estado": "verificado_parcial",
+  "nota": "No halle ninguna reforma EN VIGOR de los arts. 165 o 177 dentro de la ventana: las ultimas modificaciones del art. 177 y del art. 184 son la Ley 97-97 y la Ley 25-98, ambas anteriores. Tampoco halle nuevas leyes de feriados. PERO la ventana NO esta limpia: un proyecto de reforma integral de la Ley 16-92 estuvo en tramite avanzado —aprobado en segunda lectura por el Senado en octubre de 2025 y en primera lectura por la Camara de Diputados el 20 de mayo de 2026— y toca expresamente vacaciones. Las fuentes de prensa se CONTRADICEN sobre si llego a promulgarse: unas lo dan por ratificado y en aplicacion en 2026, otras lo situan pendiente de segunda lectura. NO lo resuelvo a ojo. Mientras no se verifique contra la Gaceta Oficial, el corte 2026 de esta unidad esta en duda y por eso el estado no es `verificado`."
+ },
+ "delta_2016_2026": {
+  "feriados": "0 hallado",
+  "vacaciones": "0 hallado en vigor — con la reserva del proyecto de reforma en tramite; ver corte_2016"
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "El art. 3 de la Ley 139-97 nombra «jueves y viernes santos» entre los feriados religiosos excluidos del traslado, pero la lista oficial del Ministerio de Trabajo para 2026 solo trae el Viernes Santo.",
+   "por_que_importa": "O Jueves Santo dejo de ser feriado y la Ley 139-97 quedo desfasada, o la lista del MT es incompleta. Es un feriado entero de diferencia.",
+   "como_se_cierra": "Leer la lista oficial del MT desde su propio servidor y localizar la norma que declara Jueves Santo, si existe.",
+   "decision": "No se incluyo en la lista. Doce fechas, no trece."
+  },
+  {
+   "id": "H2",
+   "que": "La escala del art. 177 es de dias de SALARIO, no de dias de descanso, y el esquema no puede llevar las dos. Ver `escala_de_pago_no_de_dias`.",
+   "como_se_cierra": "Decision del principal, o un campo de retribucion en `escala_antiguedad`."
+  },
+  {
+   "id": "H3",
+   "que": "La semana laboral dominicana es de 5,5 dias y `base_semanal_dias` es un entero.",
+   "detalle": "Art. 163: descanso semanal ininterrumpido de treinta y seis horas que, a falta de convencion, arranca el SABADO A MEDIODIA. Art. 176 habla de «cuarenta y cuatro horas por semana de seis dias». O sea el sabado por la manana es dia laborable y la tarde no. Se codifico base 6, que es lo que dice el art. 176, pero la conversion real de 14 dias laborables a calendario cae entre la que produce 5 y la que produce 6.",
+   "como_se_cierra": "Permitir base semanal fraccionaria, o un campo de horas semanales."
+  },
+  {
+   "id": "H4",
+   "que": "Ninguna fuente de nivel 1 o 2: mt.gob.do devolvio HTTP 473 en las tres rutas intentadas y el Reglamento 258-93 solo esta disponible como PDF escaneado sin capa de texto.",
+   "como_se_cierra": "Obtener el codigo y el reglamento del servidor del Ministerio; hacer OCR del reglamento y buscar en el una regla de imputacion."
+  },
+  {
+   "id": "H5",
+   "que": "La regla de traslado bidireccional de la Ley 139-97 (lunes precedente o siguiente segun el dia) no esta capturada como campo."
+  }
+ ],
+ "no_mirado_todavia": [
+  "CBR Labour Regulation Index",
+  "cualquier dataset agregado de dias de vacaciones",
+  "data/derived/semilla/"
+ ],
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "buscado_en": "Reproducciones del Código de Trabajo dominicano con la nota de modificación del art. 177",
+     "cita": "«Los empleadores tienen la obligacion de conceder a todo trabajador un periodo de vacaciones de catorce días laborables con disfrute de salario», con escala a dieciocho días de salario desde los cinco anios. El artículo lleva su nota: MODIFICADO POR LA LEY 97-97, publicada en la Gaceta Oficial 9955 de 31 de mayo de 1997. Es su última modificación y queda muy fuera de la ventana.",
+     "nivel_de_fuente": 3,
+     "fecha_busqueda": "2026-08-11",
+     "pantalla_3": {
+       "cita": "Prensa dominicana: la reforma integral del código NO se promulgo. A agosto de 2026 sigue en tramite —aprobada en primera lectura por la Camara de Diputados el 20 de mayo de 2026, pendiente de segunda lectura y del Senado—. Dato util aunque no mueva el corte: el proyecto MANTIENE los catorce días para el tramo de uno a tres anios, de modo que ni promulgandose moveria al trabajador de referencia.",
+       "url": "https://acento.com.do/economia/proyecto-de-reforma-laboral-propone-nueva-escala-de-vacaciones-a-los-trabajadores-9407359.html"
+     }
+   },
+  "dias": 14,
+  "tipo": "habil",
+  "base": 6,
+  "imputacion": "sin_regla_explicita",
+  "meses": 12,
+  "literal": "un periodo de vacaciones de catorce (14) dias laborables, con disfrute de salario (art. 177)",
+  "escala": [
+   [
+    12,
+    null,
+    14
+   ]
+  ],
+  "nota_escala": "UN SOLO TRAMO A PROPOSITO. La progresion 14 a 18 del art. 177 es de DIAS DE SALARIO, no de dias de descanso. Ver `escala_de_pago_no_de_dias`. Si el principal decide la otra lectura, la escala pasa a [[12,60,14],[60,null,18]].",
+  "nota_base_semanal": "base 6 sale del art. 176 («semana de seis dias»), no del art. 177. El sabado por la manana es laborable y la tarde no; el entero no lo puede decir. Ver hueco H3.",
+  "colocacion": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "Los empleadores deben fijar y distribuir, durante los primeros quince dias del mes de enero, los periodos de vacaciones de sus trabajadores (art. 186); el empleador puede variar, en caso de necesidad, la distribucion del periodo de vacaciones, pero por ninguna circunstancia los trabajadores dejaran de disfrutar integramente de las vacaciones dentro de los seis meses de la fecha de adquisicion del derecho (art. 188)",
+   "nota": "Iniciativa del empleador SIN NINGUNA CONSULTA al trabajador en el texto, y con potestad de variarla despues. Es mas fuerte que Guatemala o El Salvador, donde el empleador senala la epoca pero no se reserva la variacion unilateral. El unico limite es temporal: seis meses desde que nace el derecho. El fraccionamiento si es por acuerdo (art. 177), lo que crea una segunda capa que no se codifica."
+  }
+ }
+}

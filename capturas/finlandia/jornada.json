@@ -1,0 +1,48 @@
+{
+  "_": "Jornada semanal legal ordinaria. Dias ordinarios NULOS aunque 40/8 de cinco: la aritmetica de dos topes no es una regla sobre dias. Ley nueva en la ventana (872/2019) que no mueve el quantum.",
+  "unidad": "FIN",
+  "jurisdiccion_de_referencia": "Helsinki",
+  "sector_de_referencia": "privado formal, jornada completa, persona adulta, trabajo diurno",
+  "capturado_por": "jornada · lote 4",
+  "fecha_captura_utc": "2026-08-11T05:45:52Z",
+  "fuentes": {
+    "J1": {
+      "cita": "Tyoaikalaki 872/2019, 5 § (Saannollinen tyoaika), 25 § (Vuorokausilepo), 27 § (Viikkolepo), 48 § (Voimaantulo)",
+      "url": "https://opendata.finlex.fi/finlex/avoindata/v1/akn/fi/act/statute/2019/872/fin@",
+      "nivel_de_fuente": 1,
+      "publicacion": "Suomen saadoskokoelma 872/2019, dada el 05-07-2019, publicada el 11-07-2019; en vigor 01-01-2020",
+      "nota": "XML Akoma Ntoso del texto tal como se publico en el Suomen saadoskokoelma, servido por el portal de datos abiertos de Finlex (Oikeusministerio / Oikeusrekisterikeskus). La interfaz web de Finlex no es recuperable sin JavaScript; este endpoint sirve el mismo texto oficial."
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 40,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "5 § Tyoaikalaki 872/2019: «Saannollinen tyoaika on enintaan kahdeksan tuntia vuorokaudessa ja 40 tuntia viikossa. Viikoittainen tyoaika voidaan kuitenkin jarjestaa keskimaarin 40 tunniksi enintaan 52 viikon ajanjakson aikana ylittamatta kahdeksan tunnin saannollista paivittaista tyoaikaa.»",
+    "traduccion": "5 §: «La jornada ordinaria es de ocho horas al dia como maximo y de 40 horas a la semana. No obstante, la jornada semanal puede organizarse como un promedio de 40 horas a lo largo de un periodo de hasta 52 semanas, sin superar la jornada diaria ordinaria de ocho horas.»",
+    "fuente": "J1",
+    "nota": "LOS DIAS VAN NULOS AUNQUE LA DIVISION SEA TENTADORA. Cuarenta partido por ocho da cinco, y cinco es en efecto la distribucion habitual finlandesa; pero eso es una consecuencia aritmetica de dos topes, no una regla sobre dias. La ley no prohibe repartir las 40 horas en seis dias de seis horas y cuarenta minutos, y nada en el texto ordena cinco. La diferencia con Alemania no es de rigor sino de estructura: alli el numero de dias es LO QUE PRODUCE el tope semanal —que la ley no escribe—, y aqui el tope semanal esta escrito y el numero de dias no hace falta para nada. Poner cinco seria rellenar. El descanso semanal del 27 §, que garantiza un solo bloque de 35 horas por cada siete dias, tampoco cierra el numero: es compatible con cinco dias y con seis."
+  },
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "uno de cada siete, expresado en horas y no en dias; el domingo se nombra solo como preferencia («en la medida de lo posible»)",
+    "literal": "27 § Tyoaikalaki 872/2019: «Tyoaika on jarjestettava niin, etta tyontekija saa kerran seitseman paivan aikana vahintaan 35 tunnin pituisen keskeytymattoman lepoajan. Lepoaika on mahdollisuuksien mukaan annettava sunnuntain yhteydessa. Viikkolepo voidaan kuitenkin jarjestaa keskimaarin 35 tunniksi 14 vuorokauden ajanjakson aikana. Lepoajan tulee olla vahintaan 24 yhdenjaksoista tuntia kunkin seitseman paivan jakson aikana.» (traduccion: «El tiempo de trabajo debe organizarse de modo que el trabajador reciba, una vez cada siete dias, un descanso ininterrumpido de al menos 35 horas. El descanso se dara, en la medida de lo posible, en conexion con el domingo. No obstante, el descanso semanal puede organizarse como un promedio de 35 horas durante un periodo de 14 dias. El descanso debe ser de al menos 24 horas ininterrumpidas en cada periodo de siete dias.»)",
+    "fuente": "J1"
+  },
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": null,
+    "alcance": null,
+    "literal": "La Tyoaikalaki 872/2019 no contiene ninguna disposicion sobre feriados que coincidan con el descanso semanal. Su unico tratamiento de los dias festivos esta en las excepciones de jornada, no en una regla de sustitucion. Ancla textual negativa: el 27 § agota el descanso semanal en horas continuas por periodo de siete dias y no menciona los feriados.",
+    "fuente": "J1"
+  },
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "Tyoaikalaki 872/2019, 48 §: «Tama laki tulee voimaan 1 paivana tammikuuta 2020. Talla lailla kumotaan tyoaikalaki (605/1996).»",
+      "anio": 2019,
+      "que_cambio": "Ley de jornada enteramente nueva, en vigor el 01-01-2020, que deroga la de 1996. NO cambia el quantum: las ocho horas diarias y las 40 semanales del 5 §, y las 35 horas de descanso semanal del 27 §, reproducen los topes de la ley derogada. Lo que cambia es la flexibilidad —periodo de nivelacion de hasta 52 semanas, jornada flexible (joustotyoaika) y banco de horas— y el ambito subjetivo. Es una reforma dentro de la ventana que no mueve ninguna de las cifras que este archivo captura, y eso conviene dejarlo escrito para que nadie la cuente como cambio de jornada."
+    }
+  ],
+  "pendiente": "Modificaciones posteriores de la 872/2019 (746/2022, 674/2022 y 944/2024) tocan los 15 §, 18 §, 30 §, 34 § a 36 § y 47 §, ninguno de los capturados aqui; lo verifique por listado de modificaciones y no articulo por articulo sobre el texto consolidado, porque el consolidado de Finlex no es recuperable sin JavaScript. El trato de los feriados que caen en dia de descanso (arkipyha) se rige en Finlandia por convenio colectivo y no lo capture."
+}

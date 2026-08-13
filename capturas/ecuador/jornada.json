@@ -1,0 +1,66 @@
+{
+  "unidad": "ECU",
+  "jurisdiccion_de_referencia": "Guayaquil; el régimen de jornada es nacional (Código del Trabajo), no municipal",
+  "fecha_captura_utc": "2026-08-11T06:11:34Z",
+  "trabajador_de_referencia": "sector privado formal, jornada completa, mayor de edad, jornada diurna",
+
+  "fuentes": {
+    "J1": {
+      "cita": "Código del Trabajo, Codificación 17, Registro Oficial Suplemento 167 de 16 de diciembre de 2005; artículos 47, 50, 51 y 65",
+      "url": "https://www.ces.gob.ec/lotaip/2020/Junio/Literal_a2/C%C3%B3digo%20del%20Trabajo.pdf",
+      "nivel_de_fuente": 2,
+      "publicacion": "2005-12-16, texto consolidado con última modificación de 22 de junio de 2020",
+      "nota": "Copia consolidada (export de Lexis Finder) publicada por el Consejo de Educación Superior en su portal de transparencia. Es portal gubernamental, no gaceta: nivel 2. Su corte es 22-jun-2020, lo que abre el riesgo de no recoger reformas posteriores; ver campo pendiente."
+    },
+    "J2": {
+      "cita": "Ley No. 0, Registro Oficial Suplemento 906 de 20 de diciembre de 2016, artículo 3, que reforma el artículo 65 del Código del Trabajo (traslado de feriados)",
+      "url": "https://www.ces.gob.ec/lotaip/2020/Junio/Literal_a2/C%C3%B3digo%20del%20Trabajo.pdf",
+      "nivel_de_fuente": 3,
+      "publicacion": "2016-12-20",
+      "nota": "Verificada por la nota al pie del propio artículo 65 en J1, no por el dispositivo autónomo. No se abrió el Registro Oficial Suplemento 906. PENDIENTE cerrar con la URL directa."
+    }
+  },
+
+  "jornada": {
+    "horas_semanales_max": 40,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": 5,
+    "dias_ordinarios_origen": "norma",
+    "literal": "Art. 47.- De la jornada máxima.- La jornada máxima de trabajo será de ocho horas diarias, de manera que no exceda de cuarenta horas semanales, salvo disposición de la ley en contrario. […] Art. 50.- Límite de jornada y descanso forzosos.- Las jornadas de trabajo obligatorio no pueden exceder de cinco en la semana, o sea de cuarenta horas hebdomadarias.",
+    "traduccion": null,
+    "fuente": "J1",
+    "nota": "ES EL CASO MÁS LIMPIO DEL LOTE. Ecuador no obliga a deducir los días del cociente entre horas: el artículo 50 los dice con todas las letras, «no pueden exceder de cinco en la semana», y añade la equivalencia «o sea de cuarenta horas hebdomadarias» por si quedara duda. Aquí el 5 no es relleno ni inferencia: está en el texto. El artículo 47 admite excepción por ley, y los artículos 47.1 y 47.2 —agregados en 2016— permiten jornadas reducidas de emergencia y jornadas prolongadas pactadas por escrito, pero son regímenes excepcionales y no desplazan el ordinario."
+  },
+
+  "descanso_semanal": {
+    "dias": 2,
+    "cuales": "sabado,domingo",
+    "literal": "Los días sábados y domingos serán de descanso forzoso y, si en razón de las circunstancias, no pudiere interrumpirse el trabajo en tales días, se designará otro tiempo igual de la semana para el descanso, mediante acuerdo entre empleador y trabajadores. […] Art. 51.- Duración del descanso.- El descanso de que trata el artículo anterior lo gozarán a la vez todos los trabajadores, o por turnos si así lo exigiere la índole de las labores que realicen. Comprenderá un mínimo de cuarenta y ocho horas consecutivas.",
+    "fuente": "J1",
+    "nota": "Dos días nombrados, no uno: sábado y domingo, con mínimo de cuarenta y ocho horas consecutivas. El desplazamiento a otros días sólo procede cuando el trabajo no puede interrumpirse y exige acuerdo, y aun entonces debe conservarse «otro tiempo igual»."
+  },
+
+  "traslado_por_defecto": {
+    "existe": true,
+    "regla": "se traslada: el feriado en martes pasa al lunes anterior; el de miércoles o jueves pasa al viernes de esa misma semana; el de sábado pasa al viernes anterior y el de domingo al lunes posterior",
+    "alcance": "todos los feriados de descanso obligatorio del Código, nacionales y locales, salvo tres excepciones nominadas: 1 de enero, 25 de diciembre y martes de carnaval",
+    "literal": "Cuando los días feriados de descanso obligatorio establecidos en este Código, correspondan al día martes, el descanso se trasladará al día lunes inmediato anterior, y si coinciden con los días miércoles o jueves, el descanso se pasará al día viernes de la misma semana. Igual criterio se aplicará para los días feriados de carácter local. Se exceptúan de esta disposición los días 1 de enero, 25 de diciembre y martes de carnaval. Cuando los días feriados de descanso obligatorio a nivel nacional o local establecidos en este Código, correspondan a los días sábados o domingos, el descanso se trasladará, respectivamente, al anterior día viernes o al posterior día lunes.",
+    "fuente": "J2",
+    "nota": "Ecuador es de las pocas del lote con una regla general y explícita para el feriado que cae en fin de semana, y encaja exactamente con su descanso semanal de sábado y domingo: el feriado no se pierde, se recupera en viernes o en lunes. Conviene notar que el artículo 66 condiciona el pago —la jornada se tiene por realizada «siempre que no coincida con los días de descanso semanal»—, pero como el artículo 65 ya sacó el feriado del fin de semana, la coincidencia no llega a producirse en el caso ordinario."
+  },
+
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "Ley No. 0, artículo 3, Registro Oficial Suplemento 906 de 20 de diciembre de 2016",
+      "anio": 2016,
+      "que_cambio": "Reescribe el artículo 65 del Código del Trabajo: introduce el traslado de los feriados que caen en martes, miércoles o jueves a lunes o viernes, y el de los que caen en sábado o domingo al viernes anterior o al lunes posterior, con excepción del 1 de enero, el 25 de diciembre y el martes de carnaval. No toca la jornada, pero es la norma que fija la regla de traslado por defecto."
+    },
+    {
+      "instrumento": "Ley No. 0, artículo 4, Registro Oficial Suplemento 720 de 28 de marzo de 2016",
+      "anio": 2016,
+      "que_cambio": "Agrega los artículos 47.1 (jornada reducida en casos excepcionales, previo acuerdo) y 47.2 (jornada prolongada pactada por escrito de manera excepcional). No modifica el máximo ordinario de ocho horas diarias y cuarenta semanales del artículo 47, ni el límite de cinco días del artículo 50."
+    }
+  ],
+
+  "pendiente": "El texto consolidado usado tiene corte de 22 de junio de 2020. En la ventana posterior hubo actividad normativa relevante que no se pudo verificar contra fuente primaria: la Ley Orgánica Reformatoria para la defensa y garantía de los derechos de los trabajadores (enero de 2023) y los acuerdos ministeriales MDT-2023-140, MDT-2026-046 y MDT-2026-059 sobre jornadas flexibles y banco de horas. Las fuentes secundarias consultadas coinciden en que el límite ordinario del artículo 47 sigue siendo de ocho horas diarias y cuarenta semanales y en que los acuerdos ministeriales sólo redistribuyen esas cuarenta horas, pero eso es concordancia de secundarias (nivel 3) y no se sube a nivel 1 por acumulación. Debe cerrarse contra una consolidación posterior a 2023 del Código del Trabajo."
+}

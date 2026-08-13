@@ -1,0 +1,58 @@
+{
+ "_": "Jornada semanal legal ordinaria. Nicaragua es el caso limpio de semana de seis: la ley fija ocho horas diarias Y cuarenta y ocho semanales, la division da exactamente seis, y el articulo del descanso semanal lo confirma al hablar de 'cada seis dias de trabajo continuo' y tratar como excepcion la semana de menos de seis dias.",
+ "unidad": "NIC",
+ "jurisdiccion_de_referencia": "Managua",
+ "sector_de_referencia": "privado formal, jornada completa, persona adulta, trabajo diurno",
+ "fecha_captura_utc": "2026-08-11T05:46:47Z",
+ "capturado_por": "jornada · lote 9",
+ "fuentes": {
+  "J1": {
+   "cita": "Ley No. 185, Código del Trabajo, artículo 51",
+   "url": "https://oig.cepal.org/sites/default/files/1996_codtrabajo_nic.pdf",
+   "nivel_de_fuente": 3,
+   "publicacion": "La Gaceta, Diario Oficial, No. 205, 30 de octubre de 1996, pags. 6109-6190. Reproduccion alojada por el Observatorio de Igualdad de Genero de la CEPAL.",
+   "nota": "legislacion.asamblea.gob.ni dio timeout en todos los intentos. El PDF de mitrab.gob.ni (cod_trab_rubr.pdf) se descargo pero su capa de texto solo rinde las primeras paginas y no llega al articulo 51. El literal se leyo integro en la reproduccion de la CEPAL, que declara la referencia exacta de La Gaceta. Nivel 3 porque es reproduccion, no la gaceta."
+  },
+  "J2": {
+   "cita": "Ley No. 185, Código del Trabajo, artículo 64",
+   "url": "https://oig.cepal.org/sites/default/files/1996_codtrabajo_nic.pdf",
+   "nivel_de_fuente": 3
+  },
+  "J3": {
+   "cita": "Ley No. 185, Código del Trabajo, articulos 66, 67 y 68",
+   "url": "https://oig.cepal.org/sites/default/files/1996_codtrabajo_nic.pdf",
+   "nivel_de_fuente": 3
+  }
+ },
+ "jornada": {
+  "horas_semanales_max": 48,
+  "horas_diarias_max": 8,
+  "dias_ordinarios": 6,
+  "dias_ordinarios_origen": "norma",
+  "literal": "Articulo 51. La jornada ordinaria de trabajo efectivo diurno no debe ser mayor de ocho horas diarias ni exceder de un total de cuarenta y ocho horas a la semana. La jornada ordinaria de trabajo efectivo nocturno no debe ser mayor de siete horas diarias ni exceder de un total de cuarenta y dos horas a la semana. La jornada ordinaria de trabajo ordinario mixto no podra ser mayor de siete horas y media diarias ni exceder de un total de cuarenta y cinco horas a la semana.",
+  "traduccion": null,
+  "fuente": "J1",
+  "nota": "Los seis dias se derivan de la norma sin holgura: 48 dividido entre 8 da exactamente 6, y como el septimo dia es de descanso obligatorio no queda margen para otra lectura. El articulo 64 lo cierra al declarar el derecho al descanso 'por cada seis dias de trabajo continuo' y al tratar el caso de una jornada semanal 'inferior a seis dias' como el supuesto que necesita regla especial. Es la contraposicion exacta con Guatemala, que con la misma familia juridica dice 'de cinco a seis segun costumbre'.",
+  "horas_semanales_nocturna": 42,
+  "horas_semanales_mixta": 45
+ },
+ "descanso_semanal": {
+  "dias": 1,
+  "cuales": "domingo, nombrado expresamente, salvo las excepciones legales",
+  "literal": "Articulo 64. Por cada seis dias de trabajo continuo u horas equivalentes, el trabajador tendra derecho a disfrutar de un dia de descanso o septimo dia, por lo menos, con goce de salario integro. El dia de descanso semanal sera el domingo, salvo las excepciones legales. Si la jornada semanal establecida fuere inferior a seis dias, habra continuidad en el trabajo realizado en dos semanas consecutivas y el trabajador disfrutara del dia de descanso cuando sin faltar al trabajo, cumpliere los seis dias de labor en las dos semanas consecutivas.",
+  "traduccion": null,
+  "fuente": "J2",
+  "nota": "El domingo esta nombrado. El sabado NO es descanso legal en Nicaragua: es el sexto dia laborable. Esta es la diferencia estructural mas grande del lote frente a Polonia o Eslovaquia, donde el sabado esta libre por norma."
+ },
+ "traslado_por_defecto": {
+  "existe": true,
+  "regla": "Compensacion, no traslado a fecha fija. Si un feriado nacional coincide con el septimo dia, ese dia sera compensado; y a quien trabaje se le remunera como dia extraordinario.",
+  "alcance": "feriados nacionales obligatorios del articulo 66. No alcanza a los asuetos municipales del articulo 67, que en Managua son el 1 y el 10 de agosto.",
+  "literal": "Articulo 68. Si algun dia feriado nacional coincide con el septimo dia, este sera compensado, y al trabajador que labore se le remunerara como dia extraordinario de trabajo.",
+  "traduccion": null,
+  "fuente": "J3",
+  "nota": "El literal es ambiguo en su pronombre: 'este sera compensado' puede referirse al septimo dia (antecedente inmediato) o al feriado. Bajo cualquiera de las dos lecturas nace una compensacion en descanso cuando feriado y septimo dia se superponen, que es lo que la metrica necesita saber; lo que NO hay es traslado a una fecha determinada como el lunes siguiente. Se deja constancia de la ambiguedad en vez de resolverla por cuenta propia. Nota adicional: con semana de seis dias y descanso en domingo, la coincidencia feriado-descanso solo puede darse en domingo, de modo que en la practica el articulo 68 es la regla del feriado en domingo."
+ },
+ "reformas_en_la_ventana": [],
+ "pendiente": "No encontre reformas a los articulos 51, 64, 66, 67 ni 68 entre 2016 y 2026, pero la afirmacion se apoya en busqueda y no en revision del Digesto Juridico Nicaraguense ni de La Gaceta. Queda pendiente: (a) cotejar los tres literales contra La Gaceta No. 205 de 30.10.1996 o contra el Normaweb de la Asamblea Nacional, para subir de nivel 3; (b) confirmar que los asuetos municipales de Managua del articulo 67 siguen vigentes y si tienen regla propia de colocacion."
+}

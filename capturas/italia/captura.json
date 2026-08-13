@@ -1,0 +1,142 @@
+{
+  "_": "CAPTURA CIEGA de Italia. Leida del PDF oficial de la Presidenza del Consiglio, de Normattiva y de la Gazzetta Ufficiale. Sin mirar ningun dataset agregado de vacaciones.",
+  "unidad": "ITA",
+  "jurisdiccion_de_referencia": "Roma (ciudad mas poblada)",
+  "captura_ciega": true,
+  "capturado_por": "captura · lote 1",
+  "fecha_captura_utc": "2026-08-10T22:25:00Z",
+
+  "fuentes": {
+    "F1": {
+      "cita": "Legge 27 maggio 1949, n. 260 — Disposizioni in materia di ricorrenze festive, art. 2",
+      "nivel_de_fuente": 2,
+      "tipo": "PDF oficial de la Presidenza del Consiglio dei Ministri, Ufficio Cerimoniale",
+      "url": "https://presidenza.governo.it/ufficio_cerimoniale/normativa/legge_19490527_260.pdf",
+      "publicacion": "1949-05-31",
+      "nota": "Publicada en Gazzetta Ufficiale del 31-may-1949, n. 124 (nivel 1, referencia; no se consulto el ejemplar). AVISO METODOLOGICO IMPORTANTE: el art. 2 NUNCA fue reescrito. Los feriados suprimidos en 1977 siguen figurando en su texto literal y las supresiones viven en notas al pie. NO se puede citar el art. 2 como lista vigente."
+    },
+    "F2": {
+      "cita": "Legge 5 marzo 1977, n. 54 — supresion de festividades civiles, art. 1",
+      "nivel_de_fuente": 4,
+      "url": "https://www.tuttocamere.it/files/diritto/1949_260.pdf",
+      "nota": "NIVEL 4 y se queda ahi. El EFECTO de la ley esta corroborado por las notas al pie del PDF de la Presidenza (nivel 2), pero el literal integro de sus articulos solo lo tengo de una compilacion privada. No se sube por acumulacion."
+    },
+    "F3": {
+      "cita": "D.P.R. 28 dicembre 1985, n. 792, art. 1 — reconocimiento de festividades religiosas acordadas con la Santa Sede",
+      "nivel_de_fuente": 2,
+      "tipo": "PDF oficial de la Presidenza del Consiglio dei Ministri, Ufficio Studi",
+      "url": "https://presidenza.governo.it/USRI/ufficio_studi/normativa/DPR.%20792_28.12.1985.pdf",
+      "publicacion": "1985-12-31",
+      "literal_relevante": "Sono festivita religiose, ai sensi e per gli effetti dell'art. 6 dell'accordo firmato a Roma il 18 febbraio 1984 tra la Repubblica italiana e la Santa Sede, ratificato con legge 25 marzo 1985, n. 121: tutte le domeniche; il 1° gennaio, Maria Santissima Madre di Dio; il 6 gennaio, Epifania del Signore; il 15 agosto, Assunzione della Beata Vergine Maria; il 1° novembre, tutti i Santi; l'8 dicembre, Immacolata Concezione della Beata Vergine Maria; il 25 dicembre, Natale del Signore; il 29 giugno, SS. Pietro e Paolo, per il comune di Roma.",
+      "nota": "Gazzetta Ufficiale del 31-dic-1985, n. 306 (nivel 1, referencia). ES LA FUENTE DEL FERIADO SUBNACIONAL DE ROMA."
+    },
+    "F4": {
+      "cita": "D.Lgs. 8 aprile 2003, n. 66, art. 10 — Ferie annuali",
+      "nivel_de_fuente": 2,
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-04-08;66",
+      "publicacion": "2003-04-14",
+      "literal_relevante": "Fermo restando quanto previsto dall'articolo 2109 del codice civile, il prestatore di lavoro ha diritto ad un periodo annuale di ferie retribuite non inferiore a quattro settimane. Tale periodo, salvo quanto previsto dalla contrattazione collettiva o dalla specifica disciplina riferita alle categorie di cui all'articolo 2, comma 2, va goduto per almeno due settimane, consecutive in caso di richiesta del lavoratore, nel corso dell'anno di maturazione e, per le restanti due settimane, nei 18 mesi successivi al termine dell'anno di maturazione.",
+      "nota": "Normattiva indica para el art. 10: «Testo in vigore dal: 1-9-2004». Sin cambios en la ventana 2016-2026."
+    },
+    "F5": {
+      "cita": "Codice civile, art. 2109 — Periodo di riposo",
+      "nivel_de_fuente": 4,
+      "url": "https://www.brocardi.it/codice-civile/libro-quinto/titolo-ii/capo-i/sezione-iii/art2109.html",
+      "nota": "NIVEL 4. Es una pieza central de la colocacion italiana y NO se verifico en Normattiva ni en Gazzetta Ufficiale. PENDIENTE PRIORITARIO de elevacion."
+    },
+    "F6": {
+      "cita": "Legge 1° marzo 2024, n. 27 — Istituzione della Giornata dell'unita nazionale e delle Forze armate",
+      "nivel_de_fuente": 1,
+      "url": "https://www.gazzettaufficiale.it/eli/id/2024/03/16/24G00044/sg",
+      "publicacion": "2024-03-16",
+      "literal_relevante": "1. La Repubblica riconosce il giorno 4 novembre come Giornata dell'Unita nazionale e delle Forze armate. 2. La Giornata dell'Unita nazionale e delle Forze armate non determina gli effetti civili di cui alla legge 27 maggio 1949, n. 260.",
+      "nota": "Literal obtenido de Normattiva (nivel 2) sobre la misma norma; la referencia de Gazzetta Ufficiale es el ejemplar oficial. ES LA UNICA NORMA DE LA VENTANA QUE TOCA LOS FERIADOS, y su comma 2 dice expresamente que NO produce efectos civiles."
+    }
+  },
+
+  "feriados": {
+    "estado": "COMPLETO para la jurisdiccion de referencia, con la advertencia de que la lista vigente NO se lee de un solo articulo: se RECONSTRUYE con L.260/1949 art.2 menos L.54/1977 art.1 mas D.P.R. 792/1985 art.1 mas L.336/2000. Los domingos, que el art. 2 enumera junto con los demas, se excluyen por ser descanso semanal y no feriado.",
+    "fuente": "F1",
+    "literal": "Sono considerati giorni festivi, agli effetti della osservanza del completo orario festivo e del divieto di compiere determinati atti giuridici, oltre al giorno della festa nazionale, i giorni seguenti: tutte le domeniche; il primo giorno dell'anno; il giorno dell'Epifania; il giorno della festa di San Giuseppe; il 25 aprile, anniversario della liberazione; il giorno di lunedi dopo Pasqua; il giorno dell'Ascensione; il giorno del Corpus Domini; il 1 maggio: festa del lavoro; il giorno della festa dei Santi Apostoli Pietro e Paolo; il giorno dell'Assunzione della B. V. Maria; il giorno di Ognissanti; il 4 novembre: giorno dell'unita nazionale; il giorno della festa dell'Immacolata Concezione; il giorno di Natale; il giorno 26 dicembre. (art. 2, TEXTO DE 1949 SIN ACTUALIZAR)",
+    "lista": [
+      {"fecha": "01-01", "nombre": "Capodanno — Maria Santissima Madre di Dio", "clase_de_regla": "fija"},
+      {"fecha": "01-06", "nombre": "Epifania del Signore", "clase_de_regla": "fija",
+       "nota": "Suprimida por L.54/1977 art.1 y REPUESTA por D.P.R. 792/1985 art.1. Vigente en ambos cortes."},
+      {"fecha": null, "nombre": "Lunedi dell'Angelo (lunedi dopo Pasqua)", "clase_de_regla": "computable", "regla": "pascua+1"},
+      {"fecha": "04-25", "nombre": "Anniversario della liberazione", "clase_de_regla": "fija"},
+      {"fecha": "05-01", "nombre": "Festa del lavoro", "clase_de_regla": "fija"},
+      {"fecha": "06-02", "nombre": "Festa nazionale della Repubblica", "clase_de_regla": "fija",
+       "nota": "Suprimida como festivo por L.54/1977 (se celebraba el primer domingo de junio) y restituida al 2 de junio por L. 20 novembre 2000, n. 336, con efecto desde 2001. Vigente en ambos cortes; el cambio es anterior a la ventana."},
+      {"fecha": "08-15", "nombre": "Assunzione della B. V. Maria — Ferragosto", "clase_de_regla": "fija"},
+      {"fecha": "11-01", "nombre": "Ognissanti", "clase_de_regla": "fija"},
+      {"fecha": "12-08", "nombre": "Immacolata Concezione", "clase_de_regla": "fija"},
+      {"fecha": "12-25", "nombre": "Natale del Signore", "clase_de_regla": "fija"},
+      {"fecha": "12-26", "nombre": "Santo Stefano", "clase_de_regla": "fija"}
+    ],
+    "subnacionales": [
+      {"fecha": "06-29", "nombre": "SS. Pietro e Paolo — solo per il comune di Roma", "clase_de_regla": "fija",
+       "subnacional": true,
+       "instrumento": "D.P.R. 28 dicembre 1985, n. 792, art. 1",
+       "literal": "il 29 giugno, SS. Pietro e Paolo, per il comune di Roma",
+       "nota": "APLICA A LA JURISDICCION DE REFERENCIA, por eso entra. Precision que corrige el supuesto habitual: la Legge 260/1949 NO contiene ningun articulo general que declare festivo el dia del patrono de la localidad — se leyeron sus ocho articulos y no existe. El 29 de junio en Roma es festivo por una norma estatal concreta, el D.P.R. 792/1985, encuadrado como festivita religiosa concordataria; la expresion «Santo Patrono» no aparece en el texto normativo y solo esta en notas doctrinales de nivel 4. Diferencia importante con Guatemala y El Salvador, donde la fecha SI la fija la costumbre local y por eso alli la clase es delegada_a_jurisdiccion_local: aqui la fecha la fija el Estado."}
+    ],
+    "suprimidos_y_no_repuestos": {
+      "_": "Se declaran para que la lista de once no parezca arbitraria y para dejar constancia de que la supresion es anterior a la ventana.",
+      "instrumento": "Legge 5 marzo 1977, n. 54, art. 1",
+      "dias": ["San Giuseppe (19 de marzo)", "Ascensione", "Corpus Domini", "4 de noviembre"],
+      "nota": "La L.54/1977 suprimio siete: Epifania, San Giuseppe, Ascensione, Corpus Domini, SS. Pietro e Paolo, 2 giugno y 4 novembre. Epifania y 2 giugno fueron repuestos; SS. Pietro e Paolo solo para Roma; los otros cuatro siguen suprimidos."
+    },
+    "conteo": {"nacionales_2026": 11, "con_subnacional_de_roma": 12, "al_corte_2016": 12, "delta": "0"}
+  },
+
+  "vacaciones_normalizado": {
+
+    "sin_cambio": {
+
+      "_": "Levanta la reserva que la propia ficha declaraba. Decia que no hubo barrido sistematico y que la ausencia de otras reformas era «un negativo probable, no comprobado». La base oficial fecha el articulo, asi que ya no hace falta el barrido.",
+
+      "buscado_en": "Normattiva, base oficial italiana de legislacion consolidada, ficha del art. 10 del D.Lgs. 66/2003 con su fecha de texto en vigor",
+
+      "cita": "El art. 10, «Ferie annuali», da «un periodo annuale di ferie retribuite non inferiore a quattro settimane», y la ficha lo encabeza con «Testo in vigore dal: 1-9-2004». El texto del articulo rige desde septiembre de 2004: doce anios antes del corte antiguo. Cuatro semanas en los dos cortes.",
+
+      "nivel_de_fuente": 1,
+
+      "indice_registra_modificaciones": true,
+
+      "indice_como_se_comprobo": "Normattiva fecha el texto en vigor de cada articulo y delimita con dobles parentesis los pasajes introducidos por normas posteriores. Registra la presencia y la fecha: por eso «en vigor desde 2004» cierra la ventana.",
+
+      "fecha_busqueda": "2026-08-11"
+
+    },
+    "dias": 4,
+    "tipo": "semanas",
+    "base": 5,
+    "imputacion": "sin_regla_explicita",
+    "meses": 12,
+    "literal": "Fermo restando quanto previsto dall'articolo 2109 del codice civile, il prestatore di lavoro ha diritto ad un periodo annuale di ferie retribuite non inferiore a quattro settimane.",
+    "escala": [[12, null, 4]],
+    "colocacion": {
+      "iniciativa": "empleador",
+      "veto": null,
+      "silencio": null,
+      "instrumento": "ley",
+      "literal": "Ha anche diritto (...) ad un periodo annuale di ferie retribuito, possibilmente continuativo, nel tempo che l'imprenditore stabilisce, tenuto conto delle esigenze dell'impresa e degli interessi del prestatore di lavoro (art. 2109 c.c., comma 2). L'imprenditore deve preventivamente comunicare al prestatore di lavoro il periodo stabilito per il godimento delle ferie (comma 3)."
+    },
+    "colocacion_nota": "El empresario fija el periodo (comma 2) y debe comunicarlo previamente (comma 3). La ley NO fija plazo de preaviso: dice «preventivamente», sin cifra — a diferencia del mes irlandes. Hay un unico elemento a iniciativa del trabajador y es de CONTINUIDAD, no de fecha: el art. 10 c.1 del D.Lgs. 66/2003 exige que dos de las cuatro semanas se disfruten en el ano de devengo y «consecutive in caso di richiesta del lavoratore». No se modela como porcion de colocacion porque no desplaza la potestad de fijar CUANDO, solo obliga a no fragmentar.",
+    "imputacion_nota": "NO HAY ARTICULO DE LEY. Se busco en el D.Lgs. 66/2003 art. 10 (los tres commas), en los ocho articulos de la L.260/1949 y en el art. 2109 c.c.: ninguno dice si una festivita dentro de las ferie las extiende o se computa contra ellas. Y como en Irlanda, el codigo SI contiene una regla de no-computo, pero para otra cosa: «Non puo essere computato nelle ferie il periodo di preavviso indicato nell'articolo 2118» (art. 2109 c.c.). Lo mas cercano en rango legal es el art. 2 lett. a) de la Legge 31 marzo 1954, n. 90, que ordena pagar integro el tratamiento del festivo aunque el trabajador este de ferie — pero eso es una regla de RETRIBUCION, no de duracion: no dice que el festivo no consuma dia ni que lo prolongue. La regla operativa italiana es de origen jurisprudencial y de contratacion colectiva. Por §2 del protocolo, sin_regla_explicita.",
+    "tipo_de_dia_nota": "La unidad legal es la SEMANA y asi se conserva, sin convertir. El hallazgo es que el circuito legal italiano NUNCA aterriza en un numero de dias: el art. 2109 c.c. remite la duracion a «la legge, le norme corporative, gli usi o secondo equita»; la ley es el art. 10 del D.Lgs. 66/2003; y el art. 10 dice «quattro settimane» sin definir a cuantos dias equivale la semana. Y no lo remite a la contratacion colectiva: el c.1 remite a la contratacion el FRACCIONAMIENTO y los plazos, y el c.3 el supuesto de horario en media, pero la conversion semana-dias no la remite nadie. Es silencio normativo, no delegacion.",
+    "pendiente": "Tres huecos. (1) `base: 5` NO ES UNA LECTURA sino una convencion de codificacion, y en Italia es mas grave que en Irlanda porque alli al menos la ley remite la semana a la pauta del trabajador y aqui no dice nada en absoluto: cuatro semanas son 20 o 24 dias segun la base, y la norma no resuelve la horquilla. Se pone 5 por coherencia con el precedente de Ontario y porque el esquema no admite base nula cuando el tipo no es calendario. (2) La imputacion queda en sin_regla_explicita. (3) El art. 2109 c.c., que sostiene toda la regla de colocacion, esta en nivel 4 sin verificar en Normattiva; ademas su inciso «dopo un anno d'ininterrotto servizio» fue declarado inconstitucional en 1963 segun fuente de nivel 4, sin numero de sentencia comprobado, lo que afecta al periodo de calificacion."
+  },
+
+  "corte_2016": {
+    "estado": "verificado_parcial",
+    "nota": "Ni los feriados ni las vacaciones cambiaron en la ventana, y por una vez la ausencia esta parcialmente VERIFICADA en vez de supuesta. Vacaciones: Normattiva fecha el art. 10 del D.Lgs. 66/2003 en «Testo in vigore dal: 1-9-2004», o sea ninguna modificacion entre 2016 y 2026. Feriados: la unica norma de la ventana que aparecio es la Legge 1° marzo 2024, n. 27, y su resultado es contraintuitivo y merece decirse — instituye el 4 de noviembre como Giornata dell'Unita nazionale e delle Forze armate PERO su comma 2 dispone expresamente que «non determina gli effetti civili di cui alla legge 27 maggio 1949, n. 260», es decir que NO vuelve a ser festivo. La propuesta prospero como ley y quedo vaciada de efecto laboral. Es «parcial» y no «verificado» porque no se hizo un barrido sistematico de Normattiva ano por ano en busca de modificaciones menores: la ausencia de otras reformas es un negativo probable, no comprobado."
+  },
+
+  "huecos": [
+    {"id": "H1", "que": "El art. 2109 del Codice civile solo esta en nivel 4.", "por_que_importa": "Sostiene la regla de colocacion entera y parte del razonamiento de imputacion.", "como_se_cierra": "Verificarlo en Normattiva y elevarlo a nivel 2."},
+    {"id": "H2", "que": "El literal integro de la Legge 54/1977 y de la Legge 90/1954 solo esta en nivel 4 (compilacion privada).", "como_se_cierra": "Localizar ambos en Gazzetta Ufficiale o Normattiva."},
+    {"id": "H3", "que": "No se hizo barrido sistematico de Normattiva 2016-2026 para descartar modificaciones menores de la lista de festivi.", "como_se_cierra": "Barrido por ano sobre normas que citen la L.260/1949."},
+    {"id": "H4", "que": "La base semanal de las cuatro semanas no esta en ninguna norma.", "por_que_importa": "Es una horquilla del 20% en el valor final de Italia.", "como_se_cierra": "Decision del principal sobre que hacer cuando el tipo es `semanas` y la base no es normativa; hoy el esquema obliga a escribir un numero que la ley no da."}
+  ]
+}

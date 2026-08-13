@@ -1,0 +1,451 @@
+{
+ "_": "CAPTURA CIEGA de Japon. Escrita leyendo el texto de la ley de fiestas nacionales y el art. 39 de la Ley de Normas Laborales en el portal e-Gov del gobierno japones, SIN mirar el CBR ni ningun dataset agregado. Japon entra al lote por el Happy Monday System y por la regla de dia sustituto, pero el hallazgo mayor resulto ser otro: los feriados japoneses NO son un derecho de descanso pagado del trabajador privado.",
+ "_estado": "PARCIAL — dos feriados sin clase representable (los equinoccios) y el tipo de dia de vacaciones sin base semanal legible. Ver `huecos`.",
+ "unidad": "JPN",
+ "jurisdiccion_de_referencia": "Tokio (ciudad mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 4",
+ "fecha_captura_utc": "2026-08-10T18:55:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "国民の祝日に関する法律（昭和二十三年法律第百七十八号） — Ley sobre las Fiestas Nacionales, Ley 178 de 1948",
+   "nivel_de_fuente": 2,
+   "tipo": "e-Gov 法令検索, base de datos legal oficial del Gobierno de Japon",
+   "url": "https://laws.e-gov.go.jp/law/323AC1000000178",
+   "url_api_leida": "https://laws.e-gov.go.jp/api/1/lawdata/323AC1000000178",
+   "nota": "El visor HTML es una aplicacion JavaScript y devuelve solo la cabecera; el articulado se leyo del XML de la API oficial. La gaceta (官報, Kanpo) seria nivel 1 y no se consulto."
+  },
+  "F2": {
+   "cita": "内閣府 — 国民の祝日について (Oficina del Gabinete, pagina oficial sobre las fiestas nacionales)",
+   "nivel_de_fuente": 2,
+   "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+   "nota": "Confirma la tabla de las 16 fiestas con su definicion de fecha, incluida la del 建国記念の日 como dia fijado por 政令."
+  },
+  "F3": {
+   "cita": "労働基準法（昭和二十二年法律第四十九号）第三十九条 — Ley de Normas Laborales, art. 39, vacaciones anuales retribuidas",
+   "nivel_de_fuente": 2,
+   "url": "https://laws.e-gov.go.jp/law/322AC0000000049",
+   "url_api_leida": "https://laws.e-gov.go.jp/api/1/lawdata/322AC0000000049"
+  },
+  "F4": {
+   "cita": "平成26年法律第43号 — ley de 2014 que anadio 山の日 (Día de la Montaña) con efecto desde 2016",
+   "nivel_de_fuente": 4,
+   "publicacion": "2014-05-30",
+   "nota": "Sigue en nivel 4. El numero de ley y la fecha vienen de secundarias concordantes; no localice el dispositivo. No se sube por acumulacion. El HECHO de que el 11 de agosto es feriado esta verificado en F1 y F2 a nivel 2; lo que esta en nivel 4 es la NORMA que lo introdujo y su fecha."
+  },
+  "F5": {
+   "cita": "平成30年法律第57号 — ley de 2018 que traslado 天皇誕生日 al 23 de febrero con efecto desde 2020",
+   "nivel_de_fuente": 4,
+   "publicacion": "2018-06-20",
+   "nota": "Mismo criterio que F4. Que la fecha vigente es el 23 de febrero esta en F1 y F2 (nivel 2); la norma y la fecha del cambio, en nivel 4."
+  },
+  "F6": {
+   "cita": "労働基準法第35条 — descanso semanal; y comentario juridico sobre la ausencia de obligacion de dar libre los 祝日 en el sector privado",
+   "nivel_de_fuente": 4,
+   "url": "https://www.loi.gr.jp/law/syokuba-40/",
+   "nota": "NIVEL 4 Y SE QUEDA AHI. Varias fuentes juridicas japonesas concordantes (despachos y asesorias laborales) afirman que el art. 3 par. 1 de la ley de fiestas no obliga a las empresas privadas a dar libre esos dias, y que basta cumplir el art. 35 de la Ley de Normas Laborales (un dia de descanso por semana o cuatro cada cuatro semanas). Concuerdan entre si pero ninguna es oficial. PENDIENTE: localizar un pronunciamiento del 厚生労働省 que lo diga, o razonar el punto solo sobre el texto de los arts. 35 y 3."
+  }
+ },
+ "feriados": {
+  "estado": "PARCIAL — 14 de 16 con clase representable; los dos equinoccios no lo son",
+  "fuente": "F1",
+  "literal": "第三条第一項: 「国民の祝日」は、休日とする。 第三条第二項: 「国民の祝日」が日曜日に当たるときは、その日後においてその日に最も近い「国民の祝日」でない日を休日とする。 第三条第三項: その前日及び翌日が「国民の祝日」である日（「国民の祝日」でない日に限る。）は、休日とする。",
+  "advertencia_de_regimen": "LEER ANTES DE USAR LA LISTA. El art. 3 par. 1 hace de las 祝日 dias festivos NACIONALES, no un derecho del trabajador. La Ley de Normas Laborales solo exige (art. 35) un dia de descanso por semana, o cuatro cada cuatro semanas. NO hay norma que obligue a la empresa privada a dar libre ni a pagar un 祝日: eso lo fija el reglamento interno o el contrato. Por eso `categoria` y `regimen` van declarados fila por fila y NO son `descanso_pagado_obligatorio`. Ver `hallazgos_de_esquema` H-E3: el cargador los fija por defecto y para Japon eso seria falso.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "元日 (Año Nuevo)",
+    "clase_de_regla": "fija",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": null,
+    "nombre": "成人の日 (Día de la Mayoría de Edad)",
+    "clase_de_regla": "ordinal",
+    "ordinal": 2,
+    "dia_semana": 1,
+    "mes": 1,
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional",
+    "nota": "HAPPY MONDAY. 1月の第2月曜日. Movido del 15 de enero al segundo lunes por la reforma de 1998, con efecto en 2000. Fuera de la ventana, pero es la clase `ordinal` que el encargo pedia identificar."
+   },
+   {
+    "fecha": null,
+    "nombre": "建国記念の日 (Día de la Fundación Nacional)",
+    "clase_de_regla": "remision_normativa",
+    "instrumento_remitido": "建国記念の日となる日を定める政令 (Decreto del Gabinete que fija el dia; el dia asi fijado es el 11 de febrero)",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional",
+    "nota": "La ley NO da la fecha: dice 「政令で定める日」, el dia que fije el Decreto del Gabinete. Es el mismo mecanismo que el feriado electoral mexicano — la fecha existe pero vive en otro cuerpo normativo — con la diferencia de que aqui es constante (11 de febrero). Se codifica como remision para no presentar como texto de la ley algo que la ley no dice."
+   },
+   {
+    "fecha": "12-23",
+    "nombre": "天皇誕生日 (Cumpleaños del Emperador) — versión hasta 2018",
+    "clase_de_regla": "fija",
+    "hasta": 2019,
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional",
+    "nota": "VERSION ANTIGUA, dentro de la ventana. Fue feriado hasta 2018 inclusive. En 2019 NO hubo Cumpleanos del Emperador (abdicacion en mayo de 2019) y desde 2020 la fecha es el 23 de febrero. Se captura como dos versiones del mismo feriado para que el corte de 2016 lo cuente y el de 2026 no."
+   },
+   {
+    "fecha": "02-23",
+    "nombre": "天皇誕生日 (Cumpleaños del Emperador) — versión desde 2020",
+    "clase_de_regla": "fija",
+    "desde": 2020,
+    "instrumento": "平成30年法律第57号",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional",
+    "nota": "REFORMA DENTRO DE LA VENTANA. No cambia el CONTEO (sale una, entra otra) pero si la FECHA. Un panel que solo mire el numero de feriados no lo veria."
+   },
+   {
+    "fecha": null,
+    "nombre": "春分の日 (Equinoccio de Primavera)",
+    "clase_de_regla": "computable",
+    "regla": "equinoccio_marzo+0",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional",
+    "nota": "La ley dice 「春分日」 a secas: la fecha es astronomica y se publica cada febrero en el 暦要項 del 官報 para el ano siguiente. El ancla `equinoccio_marzo` EXISTE en la base de datos, pero el cargador solo sabe traducir `computable` cuando la regla empieza por 'pascua', asi que esta fila se omitira. Ver `hallazgos_de_esquema` H-E4."
+   },
+   {
+    "fecha": "04-29",
+    "nombre": "昭和の日 (Día de Showa)",
+    "clase_de_regla": "fija",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": "05-03",
+    "nombre": "憲法記念日 (Día de la Constitución)",
+    "clase_de_regla": "fija",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": "05-04",
+    "nombre": "みどりの日 (Día del Verdor)",
+    "clase_de_regla": "fija",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": "05-05",
+    "nombre": "こどもの日 (Día del Niño)",
+    "clase_de_regla": "fija",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": null,
+    "nombre": "海の日 (Día del Mar)",
+    "clase_de_regla": "ordinal",
+    "ordinal": 3,
+    "dia_semana": 1,
+    "mes": 7,
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional",
+    "nota": "HAPPY MONDAY. 7月の第3月曜日."
+   },
+   {
+    "fecha": "08-11",
+    "nombre": "山の日 (Día de la Montaña)",
+    "clase_de_regla": "fija",
+    "desde": "2016-01-01",
+    "instrumento": "平成26年法律第43号",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional",
+    "nota": "Feriado nuevo cuyo primer efecto fue el 11 de agosto de 2016. La ley entro en vigor el 1 de enero de 2016, o sea ANTES del corte del 1-ene-2016: cuenta en AMBOS cortes y no produce delta. Se anota igual porque el caso limite importa — un dia mas tarde y habria sido reforma de ventana."
+   },
+   {
+    "fecha": null,
+    "nombre": "敬老の日 (Día del Respeto a los Mayores)",
+    "clase_de_regla": "ordinal",
+    "ordinal": 3,
+    "dia_semana": 1,
+    "mes": 9,
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional",
+    "nota": "HAPPY MONDAY. 9月の第3月曜日."
+   },
+   {
+    "fecha": null,
+    "nombre": "秋分の日 (Equinoccio de Otoño)",
+    "clase_de_regla": "computable",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional",
+    "nota": "Resuelto con el ancla `equinoccio_septiembre`, anadida en v2.16.",
+    "regla": "equinoccio_septiembre+0"
+   },
+   {
+    "fecha": null,
+    "nombre": "スポーツの日 (Día del Deporte)",
+    "clase_de_regla": "ordinal",
+    "ordinal": 2,
+    "dia_semana": 1,
+    "mes": 10,
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional",
+    "nota": "HAPPY MONDAY. 10月の第2月曜日. Se llamaba 体育の日 hasta 2019 y paso a スポーツの日 en 2020: cambio de NOMBRE dentro de la ventana, sin cambio de fecha ni de conteo."
+   },
+   {
+    "fecha": "11-03",
+    "nombre": "文化の日 (Día de la Cultura)",
+    "clase_de_regla": "fija",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": "11-23",
+    "nombre": "勤労感謝の日 (Día de Acción de Gracias por el Trabajo)",
+    "clase_de_regla": "fija",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   }
+  ],
+  "reglas_de_traslado": [
+   {
+    "nombre": "振替休日 (día sustituto)",
+    "base_legal": "国民の祝日に関する法律 第三条第二項",
+    "literal": "「国民の祝日」が日曜日に当たるときは、その日後においてその日に最も近い「国民の祝日」でない日を休日とする。",
+    "traduccion": "Cuando una fiesta nacional cae en domingo, se considera dia festivo el dia posterior mas cercano que no sea a su vez fiesta nacional.",
+    "nota": "ES UNA REGLA DE TRASLADO, NO UN FERIADO APARTE, y por eso no esta en la lista. Notese que no dice 'el lunes siguiente' sino 'el dia posterior mas cercano que no sea fiesta': si el lunes ya es fiesta, salta al martes."
+   },
+   {
+    "nombre": "国民の休日 (día festivo del pueblo)",
+    "base_legal": "国民の祝日に関する法律 第三条第三項",
+    "literal": "その前日及び翌日が「国民の祝日」である日（「国民の祝日」でない日に限る。）は、休日とする。",
+    "traduccion": "El dia cuyo dia anterior y dia siguiente sean ambos fiestas nacionales, y que no sea el mismo fiesta nacional, es dia festivo.",
+    "nota": "ESTE NO ES UN TRASLADO: CREA UN DIA que no existia. Es un feriado cuya condicion de existencia depende de la POSICION RELATIVA de otros dos feriados en el calendario de ese ano concreto. No cabe en ninguna clase de regla de fecha del esquema y tampoco es un traslado. Ver `hallazgos_de_esquema` H-E5."
+   }
+  ],
+  "conteo": {
+   "fiestas_nacionales_2026": 16,
+   "fiestas_nacionales_al_1_ene_2016": 16,
+   "nota": "16 en ambos cortes. El 山の日 ya estaba vigente el 1-ene-2016 y el cambio del Cumpleanos del Emperador sustituye una fecha por otra. El delta de CONTEO es cero y el delta de CONTENIDO no lo es.",
+   "advertencia": "Este conteo NO es un conteo de dias de descanso del trabajador privado. Ver `advertencia_de_regimen`."
+  }
+ },
+ "vacaciones": {
+  "texto_legal_dias": 10,
+  "tipo_de_dia": "労働日 (dias de trabajo)",
+  "literal": "労働基準法第三十九条第一項: 使用者は、その雇入れの日から起算して六箇月間継続勤務し全労働日の八割以上出勤した労働者に対して、継続し、又は分割した十労働日の有給休暇を与えなければならない。",
+  "traduccion": "El empleador debera conceder al trabajador que haya prestado servicio continuado durante seis meses desde su contratacion y haya asistido al menos al ochenta por ciento de los dias de trabajo totales, diez dias de trabajo de permiso retribuido, continuados o fraccionados.",
+  "fuente": "F3",
+  "periodo_de_calificacion_meses": 6,
+  "requisito_asistencia": "80% de los 全労働日 (dias de trabajo totales) del periodo. El trabajador de referencia lo cumple.",
+  "escala_antiguedad": {
+   "presente": true,
+   "base_legal": "労働基準法第三十九条第二項",
+   "tramos_meses": [
+    [
+     6,
+     18,
+     10
+    ],
+    [
+     18,
+     30,
+     11
+    ],
+    [
+     30,
+     42,
+     12
+    ],
+    [
+     42,
+     54,
+     14
+    ],
+    [
+     54,
+     66,
+     16
+    ],
+    [
+     66,
+     78,
+     18
+    ],
+    [
+     78,
+     null,
+     20
+    ]
+   ],
+   "nota": "Progresion por antiguedad desde los 6 meses hasta los 6 anos y medio, donde se topa en 20. El art. 39 par. 2 la expresa como dias que se ANADEN a los 10 iniciales (+1, +2, +4, +6, +8, +10); aqui van ya sumados."
+  },
+  "base_semanal": null,
+  "base_nota": "NO SE PUEDE LEER DE LA NORMA, y por eso va en null. La unidad 労働日 significa 'dia en que el trabajador esta obligado a trabajar segun su contrato': es relativa al horario de CADA trabajador, no a una semana legal. El art. 32 topa la jornada en 40 horas semanales y el art. 35 exige un descanso semanal, lo que admite tanto semanas de cinco dias como de seis. Elegir 5 seria exactamente el error de factor que este proyecto persigue.",
+  "estado_verificacion": "verificado_primaria"
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "Hubo cambios en la ventana y estan localizados: (a) 天皇誕生日 pasa del 23 de diciembre al 23 de febrero, sin feriado en 2019; (b) 体育の日 se renombra スポーツの日 en 2020; (c) 山の日 entro en vigor el 1-ene-2016, justo dentro del corte; (d) EN VACACIONES, la reforma de 2019 anadio el deber del empleador de senalar cinco dias. Las normas (a) y (b) quedan en nivel 4 y el hecho vigente en nivel 2."
+ },
+ "reformas": [
+  {
+   "instrumento": "平成26年法律第43号",
+   "efecto": "anade 山の日 (11 de agosto)",
+   "entrada_en_vigor": "2016-01-01",
+   "dentro_de_ventana": "en el limite — vigente ya el dia del corte de 2016, luego no produce delta entre cortes",
+   "nivel_de_fuente": 4
+  },
+  {
+   "instrumento": "平成30年法律第57号",
+   "efecto": "天皇誕生日 pasa de 12-23 a 02-23; sin feriado en 2019",
+   "primer_efecto": 2020,
+   "dentro_de_ventana": true,
+   "nivel_de_fuente": 4
+  },
+  {
+   "instrumento": "働き方改革関連法 (reforma del trabajo de 2018)",
+   "efecto": "VACACIONES: introduce el deber del empleador de senalar cinco dias del permiso anual para quien tenga derecho a diez o mas (art. 39 par. 7)",
+   "primer_efecto": "2019-04-01",
+   "dentro_de_ventana": true,
+   "nivel_de_fuente": 4,
+   "nota": "PENDIENTE confirmar el numero de ley. El HECHO —que el art. 39 par. 7 existe hoy— esta verificado en F3 a nivel 2; lo que esta en nivel 4 es la fecha en que entro. Es la unica reforma de VACACIONES del lote y el esquema no la puede representar: ver `hallazgos_de_esquema` H-E6."
+  }
+ ],
+ "delta_2016_2026": {
+  "feriados": "0 en conteo; 1 cambio de fecha (Cumpleanos del Emperador) y 1 de nombre (Dia del Deporte)",
+  "vacaciones": "0 en dias; +1 regla de colocacion (los cinco dias que senala el empleador, desde 2019)"
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "秋分の日 (equinoccio de otono) no tiene clase representable: el esquema no tiene ancla para el equinoccio de septiembre.",
+   "por_que_importa": "Es un feriado real que se pierde del conteo. Japon queda con 15 de 16.",
+   "como_se_cierra": "Anadir `equinoccio_septiembre` al dominio de `regla_fecha_version.ancla`. Es una linea del CHECK."
+  },
+  {
+   "id": "H2",
+   "que": "春分の日 (equinoccio de primavera) SI tiene ancla en el esquema pero el cargador no la sabe leer: solo traduce `computable` cuando la regla empieza por 'pascua'.",
+   "por_que_importa": "Distinto de H1: aqui el hueco esta en el traductor, no en el modelo.",
+   "como_se_cierra": "Extender `clase_y_campos()` para aceptar cualquier ancla del dominio, no solo pascua."
+  },
+  {
+   "id": "H3",
+   "que": "La base semanal de las vacaciones va en null porque 労働日 se define contra el horario del trabajador, no contra una semana legal.",
+   "por_que_importa": "El esquema EXIGE base no nula cuando el tipo no es `calendario`. Con null, la insercion viola el CHECK y el cargador levanta excepcion en vez de reportar el hueco.",
+   "como_se_cierra": "Decision del principal: o el esquema admite base nula para unidades relativas al trabajador, o el cargador guarda la condicion y reporta VAC SIN CARGAR como ya hace con el tipo."
+  },
+  {
+   "id": "H4",
+   "que": "Ninguna fuente de nivel 1 (官報). Las leyes modificatorias quedan en nivel 4.",
+   "como_se_cierra": "Localizar los dispositivos en el 官報."
+  },
+  {
+   "id": "H5",
+   "que": "Que los 祝日 no obligan al empleador privado esta sostenido por fuentes de nivel 4 concordantes, no por una oficial.",
+   "por_que_importa": "Es el hecho MAS importante de esta captura: decide si Japon aporta 16 dias de descanso al total o cero.",
+   "como_se_cierra": "Pronunciamiento del 厚生労働省, o razonamiento cerrado sobre los arts. 35 LNL y 3 de la ley de fiestas leidos en el original."
+  }
+ ],
+ "hallazgos_de_esquema": [
+  {
+   "id": "H-E3",
+   "titulo": "El cargador fija `categoria` y `regimen` por defecto, y para Japon eso es falso",
+   "detalle": "`cargar_piloto.py` inserta todos los feriados como categoria 'descanso_pagado_obligatorio' y regimen 'descanso_obligatorio'. En Japon las 祝日 no obligan a la empresa privada a dar libre ni a pagar. La base de datos SI tiene los valores correctos ('observancia_optativa', 'sin_mandato_nacional'), y el contrato de captura de docs/09-spec-captura.md no expone ninguno de los dos campos. Esta captura los declara igualmente fila por fila para que el dato exista cuando el cargador los lea.",
+   "por_que_importa": "Sumar los 16 dias japoneses junto a los 13 obligatorios portugueses compara cosas distintas. Es el mismo error de categoria que la imputacion, pero en el otro modulo."
+  },
+  {
+   "id": "H-E4",
+   "titulo": "`clase_de_regla: computable` solo entiende pascua",
+   "detalle": "El esquema admite anclas 'pascua', 'equinoccio_marzo' y 'ano_nuevo_lunar', pero `clase_y_campos()` devuelve clase vacia salvo que la regla empiece por 'pascua'. Dos de las tres anclas del modelo son inalcanzables desde el formato de captura."
+  },
+  {
+   "id": "H-E5",
+   "titulo": "国民の休日: un feriado cuya existencia depende de la posicion relativa de otros dos",
+   "detalle": "El art. 3 par. 3 convierte en festivo el dia intercalado entre dos fiestas nacionales. No es un traslado (no mueve nada, CREA un dia) y no es una regla de fecha (su fecha depende del calendario de cada ano concreto y de que se cumpla la condicion). Ninguna de las ocho clases de `regla_fecha_version` lo expresa, y `eventos_compensatorios` tampoco: alli el dia compensa una ocurrencia, y este no compensa nada.",
+   "sugerencia": "Seria una clase `condicional_por_adyacencia`, o bien una ocurrencia derivada que se calcula despues de resolver todas las demas del ano."
+  },
+  {
+   "id": "H-E6",
+   "titulo": "Una reforma de VACACIONES dentro de la ventana no se puede representar",
+   "detalle": "El cargador inserta `vacaciones_version` con `vigencia_desde` fijo en '2016-01-01' y mide ambos cortes con los mismos valores. El contrato de captura no tiene campo `desde` para vacaciones — solo para feriados. La reforma japonesa de 2019 (los cinco dias que senala el empleador) existe, esta en el texto vigente y es INVISIBLE al panel de dos cortes. El modulo de feriados sabe fechar sus reformas y el de vacaciones no.",
+   "por_que_importa": "Es asimetrico y silencioso: el panel dara a entender que las vacaciones japonesas no cambiaron entre 2016 y 2026, cuando su regla de colocacion cambio."
+  }
+ ],
+ "no_mirado_todavia": [
+  "CBR Labour Regulation Index",
+  "cualquier dataset agregado de dias de vacaciones",
+  "data/derived/semilla/"
+ ],
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "buscado_en": "Buscador oficial de legislacion del Gobierno de Japon, texto vigente del art. 39 de la Ley de Normas Laborales",
+     "cita": "El art. 39, parrafo 1, obliga a conceder «十労働日» —diez días laborables— de permiso retribuido al trabajador que lleve seis meses continuos y haya asistido al menos al ochenta por ciento de los días laborables, y el parrafo 2 escalona el aumento por anios de servicio. Es el texto vigente y coincide con el corte antiguo en el quantum. Lo que la ventana trajo es la reforma de 2019, que anadio el deber del empleador de senalar cinco de esos días — obligacion de uso, no mas días.",
+     "nivel_de_fuente": 2,
+     "fecha_busqueda": "2026-08-11",
+     "pantalla_3": {
+       "cita": "Prensa juridica japonesa: la reforma de abril de 2019 impuso el deber de que el empleador senale cinco días al anio a quien tenga derecho a diez o mas, con multa de hasta trescientos mil yenes por trabajador. Es obligacion de disfrute y NO cambia el numero de días. Se anuncia ademas para 2026 una reforma que obligaria a informar al trabajador de sus días pendientes: transparencia, tampoco cantidad.",
+       "url": "https://roudou-pro.com/columns/192/"
+     }
+   },
+  "dias": 10,
+  "tipo": "habil",
+  "base": null,
+  "imputacion": "sin_regla_explicita",
+  "meses": 6,
+  "literal": "使用者は、その雇入れの日から起算して六箇月間継続勤務し全労働日の八割以上出勤した労働者に対して、継続し、又は分割した十労働日の有給休暇を与えなければならない (労基法39条1項)",
+  "escala": [
+   [
+    6,
+    18,
+    10
+   ],
+   [
+    18,
+    30,
+    11
+   ],
+   [
+    30,
+    42,
+    12
+   ],
+   [
+    42,
+    54,
+    14
+   ],
+   [
+    54,
+    66,
+    16
+   ],
+   [
+    66,
+    78,
+    18
+   ],
+   [
+    78,
+    null,
+    20
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "alcance": "porcion_definida",
+   "porcion_dias": 5,
+   "literal": "労基法39条7項: 使用者は、…有給休暇の日数が十労働日以上である労働者に係る…有給休暇の日数のうち五日については、基準日から一年以内の期間に、労働者ごとにその時季を定めることにより与えなければならない — de los dias de permiso de quien tenga derecho a diez o mas, CINCO los debe conceder el empleador senalando el momento para cada trabajador dentro del ano."
+  },
+  "colocacion_residual": {
+   "iniciativa": "trabajador",
+   "veto": "causal_operativa",
+   "silencio": "sin_regla",
+   "instrumento": "ley",
+   "alcance": "residual",
+   "literal": "労基法39条5項: 使用者は、前各項の規定による有給休暇を労働者の請求する時季に与えなければならない。ただし、請求された時季に有給休暇を与えることが事業の正常な運営を妨げる場合においては、他の時季にこれを与えることができる — el empleador debe conceder el permiso en el momento que el trabajador pida, salvo que hacerlo entorpezca el funcionamiento normal de la empresa, en cuyo caso puede darlo en otro momento."
+  },
+  "colocacion_nota": "PARTICION, no cascada, y de polaridad contraria a Indonesia. En Indonesia el Estado fija por decreto una porcion del derecho; aqui la fija EL EMPLEADOR, por deber legal, sobre cinco dias, y el resto queda a iniciativa del trabajador con el clasico 時季変更権 —el derecho patronal a cambiar el momento por causa operativa—, que es la misma figura del `causal_operativa` aleman. La porcion de cinco dias nacio en 2019: antes, TODO el derecho estaba en el residual.",
+  "imputacion_nota": "SIN REGLA EXPLICITA, y esta vez no por no haber buscado. El art. 39 no menciona los 祝日 en ninguna parte. Es tentador razonar que, como el permiso se mide en 労働日 y un 祝日 no lo es, los feriados extenderian —igual que en Alemania, Noruega o Portugal—; pero en Japon eso NO se sostiene, porque un 祝日 solo deja de ser 労働日 si el reglamento interno de la empresa lo declara dia de descanso. La cadena que en Europa cierra en la ley, aqui termina en el contrato. Es el caso que mejor ilustra por que la regla 2 del contrato de captura existe: la regularidad 'unidad en dias de trabajo => extienden' se rompe cuando lo que define el dia de trabajo no es la ley.",
+  "base_origen": "horario_del_trabajador",
+  "base_nota": "労基法39条: «十労働日» — dias de trabajo del trabajador, sin definir una semana legal."
+ }
+}

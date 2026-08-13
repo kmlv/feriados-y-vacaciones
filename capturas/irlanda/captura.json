@@ -1,0 +1,215 @@
+{
+ "_": "CAPTURA CIEGA de Irlanda. Leida del Electronic Irish Statute Book y del texto revisado de la Law Reform Commission. Sin mirar ningun dataset agregado de vacaciones.",
+ "unidad": "IRL",
+ "jurisdiccion_de_referencia": "Dublin (ciudad mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 1",
+ "fecha_captura_utc": "2026-08-10T22:10:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Organisation of Working Time Act 1997 (No. 20 of 1997), Second Schedule — Public Holidays",
+   "nivel_de_fuente": 2,
+   "tipo": "Electronic Irish Statute Book, Office of the Attorney General",
+   "url": "https://www.irishstatutebook.ie/eli/1997/act/20/schedule/2/enacted/en/html",
+   "literal_relevante": "1. Each of the following days shall, subject to the subsequent provisions of this Schedule, be a public holiday for the purposes of this Act: (a) Christmas Day, (b) St. Stephen's Day, (c) St. Patrick's Day, (d) Easter Monday, the first Monday in May, the first Monday in June and the first Monday in August, (e) the last Monday in October, (f) the 1st day of January, (g) any other day or days prescribed for the purposes of this paragraph."
+  },
+  "F2": {
+   "cita": "S.I. No. 50/2022 — Organisation of Working Time (Covid-19 Commemoration) Regulations 2022",
+   "nivel_de_fuente": 2,
+   "url": "https://www.irishstatutebook.ie/eli/2022/si/50/made/en/print",
+   "publicacion": "2022-02-07",
+   "literal_relevante": "3. The 18th day of March 2022 is prescribed for the purposes of paragraph 1 of the Second Schedule to the Act of 1997. 4. Subject to Regulation 5, the first Monday in February 2023 and the first Monday in February each year thereafter is prescribed for the purposes of paragraph 1 of the Second Schedule to the Act of 1997. 5. Regulation 4 shall not apply in any year where the 1st day of February falls on a Friday and instead, in each such year, the 1st day of February is prescribed for the purposes of paragraph 1 of the Second Schedule to the Act of 1997.",
+   "nota": "Notice of the making of this Statutory Instrument was published in Iris Oifigiuil of 11th February, 2022 (gaceta, nivel 1, citada por el propio instrumento; no la consulte directamente). El instrumento se dicta al amparo del parrafo 1(g) del Second Schedule: el Schedule NO fue enmendado, asi que St Brigid's Day NO figura en el texto de la ley."
+  },
+  "F3": {
+   "cita": "Organisation of Working Time Act 1997, section 19 — Entitlement to annual leave",
+   "nivel_de_fuente": 2,
+   "url": "https://www.irishstatutebook.ie/eli/1997/act/20/section/19/enacted/en/html"
+  },
+  "F4": {
+   "cita": "Organisation of Working Time Act 1997, section 20 — Times and pay for annual leave",
+   "nivel_de_fuente": 2,
+   "url": "https://www.irishstatutebook.ie/eli/1997/act/20/section/20/enacted/en/html"
+  },
+  "F5": {
+   "cita": "Tabla oficial «Amendments and other effects» del Organisation of Working Time Act 1997",
+   "nivel_de_fuente": 2,
+   "url": "https://www.irishstatutebook.ie/eli/isbc/1997_20.html",
+   "nota": "Es la fuente con la que se comprobo que la s.19 NO tuvo enmiendas en 2016-2026. Registra tambien la prescripcion del S.I. 50/2022 bajo Sch.2 para.1(g). El texto revisado de la LRC esta desactualizado en ese punto concreto."
+  }
+ },
+ "feriados": {
+  "estado": "PARCIAL — las nueve fechas del Second Schedule estan completas y clasificadas; la decima, St Brigid's Day, NO tiene clase representable en el esquema y se deja sin clase a proposito. Ver la nota de clase.",
+  "fuente": "F1",
+  "literal": "1. Each of the following days shall (...) be a public holiday for the purposes of this Act: (a) Christmas Day, (b) St. Stephen's Day, (c) St. Patrick's Day, (d) Easter Monday, the first Monday in May, the first Monday in June and the first Monday in August, (e) the last Monday in October, (f) the 1st day of January, (g) any other day or days prescribed for the purposes of this paragraph.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "1st day of January",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "St Brigid's Day / Imbolc",
+    "desde": 2023,
+    "instrumento": "S.I. No. 50/2022, regs. 4 y 5",
+    "nota": "RESUELTO como regla disyuntiva, con la decision del principal del 2026-08-10 que permite varias reglas de fecha por feriado. Por defecto rige la regla 4 —«the first Monday in February»— y la alternativa condicional rige la regla 5, el 1 de febrero cuando ese dia cae viernes. IMPORTANTE: la formulacion en una sola frase que circula es de la Explanatory Note, que el propio instrumento declara NO vinculante; el literal operativo son las reglas 4 y 5, separadas — y separadas es como se codifican ahora.",
+    "clase_de_regla": "ordinal",
+    "ordinal": 1,
+    "dia_semana": 1,
+    "mes": 2,
+    "reglas_alternativas": [
+     {
+      "clase_de_regla": "fija",
+      "fecha": "02-01",
+      "condicion": {
+       "referencia": "02-01",
+       "dia_semana": 5
+      },
+      "nota": "Regla 5 del S.I. 50/2022: cuando el 1 de febrero cae viernes, el feriado es ese mismo dia y no el primer lunes."
+     }
+    ]
+   },
+   {
+    "fecha": "03-17",
+    "nombre": "St Patrick's Day",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "Easter Monday",
+    "clase_de_regla": "computable",
+    "regla": "pascua+1"
+   },
+   {
+    "fecha": null,
+    "nombre": "First Monday in May",
+    "clase_de_regla": "ordinal",
+    "ordinal": 1,
+    "dia_semana": 1,
+    "mes": 5
+   },
+   {
+    "fecha": null,
+    "nombre": "First Monday in June",
+    "clase_de_regla": "ordinal",
+    "ordinal": 1,
+    "dia_semana": 1,
+    "mes": 6
+   },
+   {
+    "fecha": null,
+    "nombre": "First Monday in August",
+    "clase_de_regla": "ordinal",
+    "ordinal": 1,
+    "dia_semana": 1,
+    "mes": 8
+   },
+   {
+    "fecha": null,
+    "nombre": "Last Monday in October",
+    "clase_de_regla": "ordinal",
+    "ordinal": -1,
+    "dia_semana": 1,
+    "mes": 10
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Christmas Day",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "12-26",
+    "nombre": "St Stephen's Day",
+    "clase_de_regla": "fija"
+   }
+  ],
+  "conteo": {
+   "al_corte_2016": 9,
+   "al_corte_2026": 10,
+   "delta": "+1 (St Brigid's Day, primer efecto en 2023)"
+  },
+  "one_off_fuera_de_los_cortes": {
+   "_": "NO va en `lista` a proposito, y la razon es tecnica y vale la pena decirla: un feriado de una sola vez en 2022 no esta vigente ni al 1-ene-2016 ni al 1-ene-2026, asi que el cargador no le generaria NINGUNA medicion y V7 («hecho sin medicion») lo marcaria como violacion. El hecho existe y queda registrado aqui.",
+   "fecha": "2022-03-18",
+   "instrumento": "S.I. No. 50/2022, reg. 3",
+   "literal": "The 18th day of March 2022 is prescribed for the purposes of paragraph 1 of the Second Schedule to the Act of 1997.",
+   "motivo": "Reconocimiento a los trabajadores esenciales y memoria de los fallecidos por la covid-19.",
+   "dato_curioso_relevante": "El MISMO instrumento creo el feriado unico de 2022 y el feriado permanente de St Brigid. De ahi que una norma titulada «Covid-19 Commemoration» sea la que instituye St Brigid's Day."
+  },
+  "mecanismo_de_sustitucion": {
+   "_": "Rasgo irlandes que no tiene equivalente en el resto del lote y que el esquema no representa.",
+   "literal": "An employer may, for the purpose of fulfilling any relevant obligation imposed on him or her by this Act, treat as a public holiday, in lieu of a public holiday aforesaid, either (a) the Church holiday falling in the same year immediately before the public holiday, or (b) the Church holiday falling in the same year immediately after the public holiday (...) by giving to the employee concerned notice of his or her intention to do so not less than 14 days before (...)",
+   "church_holidays": [
+    "6 de enero (salvo domingo)",
+    "Ascension Thursday",
+    "Corpus Christi",
+    "15 de agosto (salvo domingo)",
+    "1 de noviembre (salvo domingo)",
+    "8 de diciembre (salvo domingo)"
+   ],
+   "por_que_importa": "El EMPLEADOR puede sustituir individualmente un feriado legal por una fiesta religiosa cercana avisando con 14 dias. El conteo total no cambia, pero la FECHA de un feriado deja de ser propiedad de la norma y pasa a serlo del empleador. Ninguna clase de `regla_fecha_version` expresa «fecha sustituible a discrecion del empleador»; `delegada_a_jurisdiccion_local` es otra cosa."
+  },
+  "compensacion_literal": "El derecho no es necesariamente un dia libre: la s.21(1) da al empleador cuatro modalidades, entre ellas «an additional day of annual leave». PENDIENTE transcribir la s.21 completa."
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "buscado_en": "Irish Statute Book: texto promulgado de la seccion 19 del Organisation of Working Time Act 1997 y el Legislation Directory del propio acto, que lista artículo por artículo todo lo que lo afecto",
+     "cita": "La s. 19(1)(a) da «4 working weeks in a leave year in which he or she works at least 1,365 hours». En el indice oficial, la UNICA insercion en la seccion 19 es «S. 19(1A) inserted — 16/2015», la Workplace Relations Act 2015, ANTERIOR a la ventana. Dentro de la ventana el indice registra una sola entrada sobre esta seccion y no es una enmienda: «S. 19 application restricted — S.I. No. 392 of 2022, reg. 3(3)», una restriccion de ambito de aplicacion. El quantum no se toca.",
+     "nivel_de_fuente": 1,
+     "indice_registra_modificaciones": true,
+     "indice_como_se_comprobo": "El directorio distingue por tipo —inserted, applied, application restricted, constr. refs— y por apartado. Registra la presencia con mucho detalle: por eso se ve que lo de 2022 restringe y no enmienda, y que la unica insercion es de 2015.",
+     "fecha_busqueda": "2026-08-11"
+   },
+  "dias": 4,
+  "tipo": "semanas",
+  "base": 5,
+  "imputacion": "sin_regla_explicita",
+  "meses": 12,
+  "literal": "an employee shall be entitled to paid annual leave (in this Act referred to as \"annual leave\") equal to (a) 4 working weeks in a leave year in which he or she works at least 1,365 hours (unless it is a leave year in which he or she changes employment), (b) one-third of a working week for each month in the leave year in which he or she works at least 117 hours, or (c) 8 per cent. of the hours he or she works in a leave year (but subject to a maximum of 4 working weeks): Provided that if more than one of the preceding paragraphs is applicable (...) the annual leave to which the employee shall be entitled shall be equal to whichever of those periods is the greater.",
+  "escala": [
+   [
+    12,
+    null,
+    4
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "The times at which annual leave is granted to an employee shall be determined by his or her employer having regard to work requirements and subject (a) to the employer taking into account (i) the need for the employee to reconcile work and any family responsibilities, (ii) the opportunities for rest and recreation available to the employee, (b) to the employer having consulted the employee or the trade union (if any) of which he or she is a member, not later than 1 month before the day on which the annual leave (...) is due to commence, and (c) to the leave being granted within the leave year to which it relates or, with the consent of the employee, within the 6 months thereafter. (s.20(1))"
+  },
+  "imputacion_nota": "NO HAY ARTICULO, y la evidencia negativa aqui es inusualmente fuerte, asi que conviene decirla entera en vez de limitarse a «no encontrado». Se barrieron las secciones 19, 20, 21 y 22, el Second y el Third Schedule y las treinta apariciones de «public holiday» en el texto revisado completo: ninguna disposicion dice que un public holiday dentro de las annual leave no las consuma. Y hay DOS indicios que apuntan en contra de suponerlo. Primero, la s.19(2) SI contiene una regla de no-imputacion, pero solo para la enfermedad certificada: «A day which would be regarded as a day of annual leave shall, if the employee concerned is ill on that day and furnishes (...) a certificate of a registered medical practitioner (...) not be regarded, for the purposes of this Act, as a day of annual leave.» El legislador irlandes sabia escribir una regla de no-imputacion; la escribio para la enfermedad y no para los feriados. Segundo, la s.19(4) contempla EXPRESAMENTE que el bloque ininterrumpido de dos semanas incluya feriados: «the reference in subsection (3) to an unbroken period of 2 weeks includes a reference to such a period that includes one or more public holidays». O sea que la ley previo la coincidencia y no dijo que extendiera.",
+  "tipo_de_dia_nota": "La unidad legal es «working weeks», que el esquema admite tal cual, de modo que NO se convierte a dias. Lo que la ley no fija es cuantos dias tiene esa semana: la s.19(6) la define POR REFERENCIA AL TRABAJADOR — «References in this section to a working week shall be construed as references to the number of days that the employee concerned usually works in a week» — y la seccion de interpretacion (s.2) no la define en absoluto. La base semanal irlandesa, por tanto, no es propiedad de la NORMA sino del contrato.",
+  "pendiente": "Tres huecos. (1) `base: 5` NO ES UNA LECTURA, es una convencion de codificacion: la ley remite la semana a la pauta real del trabajador (s.19(6)) y no fija numero. Se pone 5 por coherencia con el precedente de Ontario y porque el esquema no admite base nula cuando el tipo no es calendario; cuatro semanas son 20 o 24 dias segun la base, y esa horquilla la norma no la resuelve. (2) La imputacion queda en sin_regla_explicita, con la evidencia negativa detallada arriba. (3) `meses: 12` es la antiguedad del trabajador de referencia, no un periodo de carencia: el derecho se devenga por horas y por meses desde el inicio (s.19(1)(b) y (c)), asi que el tramo [0,12) en cero que el cargador antepone es falso para Irlanda. Los tres puntos de la grilla (1, 5 y 10 anios) si son correctos: cuatro semanas en los tres, sin progresion por antiguedad."
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "SI hubo reforma en la ventana y esta localizada y datada: el S.I. No. 50/2022, dictado el 7-feb-2022 y anunciado en Iris Oifigiuil el 11-feb-2022, prescribio St Brigid's Day con primer efecto el lunes 6 de febrero de 2023. Nueve feriados al corte de 2016, diez al de 2026. Por el lado de vacaciones se comprobo lo contrario con la tabla oficial de enmiendas: la s.19 NO tuvo ninguna enmienda entre 2016 y 2026 — la unica inscrita es la insercion de la s.19(1A) por la Workplace Relations Act 2015, ANTERIOR a la ventana. La Sick Leave Act 2022 y la Work Life Balance Act 2023 no tocan la s.19."
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "St Brigid's Day no tiene clase de regla asignable: es una disyuncion de dos clases del esquema.",
+   "por_que_importa": "El feriado existe con certeza y el cargador lo omite, asi que el conteo cargado de Irlanda sera 9 y no 10.",
+   "como_se_cierra": "Decision del principal: o una clase nueva de regla condicional, o un mecanismo de excepcion por ano sobre una clase base."
+  },
+  {
+   "id": "H2",
+   "que": "No se transcribio la s.21 (public holiday entitlement: dia libre, dia de vacaciones extra, dia de paga o un quinto de la semana, a eleccion del empleador).",
+   "como_se_cierra": "Leer y transcribir la s.21; decidir si `categoria` y `regimen` del feriado irlandes son «descanso_pagado_obligatorio» o algo mas debil, porque el empleador puede cumplir SIN dar el dia."
+  },
+  {
+   "id": "H3",
+   "que": "La tabla del Attorney General registra «S. 20(1)(c) substituted» sin que se identificara el instrumento; el texto de la LRC mantiene la redaccion anterior.",
+   "como_se_cierra": "Localizar el instrumento y comprobar la redaccion vigente de la s.20(1)(c) — afecta al literal de colocacion."
+  },
+  {
+   "id": "H4",
+   "que": "S.I. No. 392 of 2022 reg. 3(3) restringe la aplicacion de la s.19 a cierto sector, no verificado cual; y S.I. No. 11 of 2025 enmienda s.2(1) y s.3(1) sin que se leyera su contenido.",
+   "como_se_cierra": "Leer ambos instrumentos y comprobar que no alcanzan al trabajador de referencia del sector privado."
+  }
+ ]
+}

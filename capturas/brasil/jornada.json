@@ -1,0 +1,74 @@
+{
+  "unidad": "BRA",
+  "jurisdiccion_de_referencia": "São Paulo; el régimen de jornada es federal (Constituição y CLT), no municipal ni estadual",
+  "fecha_captura_utc": "2026-08-11T06:11:34Z",
+  "trabajador_de_referencia": "sector privado formal, jornada completa, mayor de edad, urbano",
+
+  "fuentes": {
+    "J1": {
+      "cita": "Constituição da República Federativa do Brasil de 1988, artículo 7º, incisos XIII y XV",
+      "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "nivel_de_fuente": 1,
+      "publicacion": "1988-10-05",
+      "nota": "Texto compilado oficial de la Presidência da República (Casa Civil, Subchefia para Assuntos Jurídicos)."
+    },
+    "J2": {
+      "cita": "Decreto-Lei nº 5.452, de 1º de maio de 1943 — Consolidação das Leis do Trabalho (CLT), artículos 58 y 67",
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+      "nivel_de_fuente": 1,
+      "publicacion": "1943-05-01, texto compilado vigente",
+      "nota": "Texto compilado oficial de la Presidência da República."
+    },
+    "J3": {
+      "cita": "Lei nº 605, de 5 de janeiro de 1949 — Repouso semanal remunerado e pagamento de salário nos dias feriados civis e religiosos, artículos 1º y 9º",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l0605.htm",
+      "nivel_de_fuente": 1,
+      "publicacion": "1949-01-05, texto compilado vigente",
+      "nota": null
+    }
+  },
+
+  "jornada": {
+    "horas_semanales_max": 44,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "XIII - duração do trabalho normal não superior a oito horas diárias e quarenta e quatro semanais, facultada a compensação de horários e a redução da jornada, mediante acordo ou convenção coletiva de trabalho; […] Art. 58 - A duração normal do trabalho, para os empregados em qualquer atividade privada, não excederá de 8 (oito) horas diárias, desde que não seja fixado expressamente outro limite.",
+    "traduccion": "XIII - duración del trabajo normal no superior a ocho horas diarias y cuarenta y cuatro semanales, facultada la compensación de horarios y la reducción de la jornada, mediante acuerdo o convenio colectivo de trabajo; […] Art. 58 - La duración normal del trabajo, para los empleados en cualquier actividad privada, no excederá de 8 (ocho) horas diarias, siempre que no se fije expresamente otro límite.",
+    "fuente": "J1",
+    "nota": "LOS DÍAS VAN EN null Y HAY DOS RAZONES INDEPENDIENTES. La primera es aritmética: 44 ÷ 8 = 5,5, y medio día no es un día ordinario. El par brasileño no arroja entero, así que la deducción que sí funciona en Costa Rica o en Perú aquí no funciona. La segunda es textual y más fuerte: la propia Constitución faculta expresamente «a compensação de horários» por acuerdo o convenio colectivo, es decir, entrega el reparto a la negociación. Y el artículo 58 de la CLT fija las ocho horas diarias «desde que não seja fixado expressamente outro limite», o sea como supletorio. En la práctica conviven el sábado corto de cuatro horas (seis días) y la semana de lunes a viernes con las cuarenta y cuatro compensadas (cinco días); ambas son lícitas, y ninguna la impone la norma. Anotar 6 sería tan arbitrario como anotar 5."
+  },
+
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "domingo",
+    "literal": "Art. 67 - Será assegurado a todo empregado um descanso semanal de 24 (vinte e quatro) horas consecutivas, o qual, salvo motivo de conveniência pública ou necessidade imperiosa do serviço, deverá coincidir com o domingo, no todo ou em parte. […] XV - repouso semanal remunerado, preferencialmente aos domingos; […] Art. 1º Todo empregado tem direito ao repouso semanal remunerado de vinte e quatro horas consecutivas, preferentemente aos domingos e, nos limites das exigências técnicas das empresas, nos feriados civis e religiosos, de acordo com a tradição local.",
+    "traduccion": "Art. 67 - Se asegurará a todo empleado un descanso semanal de 24 (veinticuatro) horas consecutivas, el cual, salvo motivo de conveniencia pública o necesidad imperiosa del servicio, deberá coincidir con el domingo, en todo o en parte. […] XV - reposo semanal remunerado, preferentemente en domingo; […] Art. 1º Todo empleado tiene derecho al reposo semanal remunerado de veinticuatro horas consecutivas, preferentemente en domingo y, dentro de los límites de las exigencias técnicas de las empresas, en los feriados civiles y religiosos, de acuerdo con la tradición local.",
+    "fuente": "J2",
+    "nota": "El domingo está nombrado en las tres normas, con fuerza distinta: la CLT dice «deverá coincidir» salvo conveniencia pública o necesidad imperiosa del servicio, mientras la Constitución y la Lei 605 dicen «preferencialmente». Se registra domingo porque la CLT es la que manda y usa el deber, no la preferencia."
+  },
+
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": "se pierde",
+    "alcance": null,
+    "literal": "Art. 9º Nas atividades em que não for possível, em virtude das exigências técnicas das empresas, a suspensão do trabalho, nos dias feriados civis e religiosos, a remuneração será paga em dobro, salvo se o empregador determinar outro dia de folga.",
+    "fuente": "J3",
+    "nota": "No hay regla general para el feriado que cae en el descanso semanal: ni la CLT ni la Lei 605 ni la Lei 9.093/1995 lo contemplan, y el feriado que cae en domingo simplemente se absorbe. El literal citado se incluye para prevenir un error de lectura: el «outro dia de folga» del artículo 9º es la alternativa al pago doble para quien TRABAJA el feriado por exigencia técnica de la empresa, no una compensación para quien lo ve caer en su día de descanso. Son supuestos distintos y sólo el primero está regulado."
+  },
+
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "Lei nº 13.467, de 13 de julho de 2017 (Reforma Trabalhista)",
+      "anio": 2017,
+      "que_cambio": "No tocó el techo de ocho horas diarias y cuarenta y cuatro semanales, que es constitucional y por tanto está fuera del alcance de una ley ordinaria. Sí cambió la ORGANIZACIÓN de la jornada: reformuló el artículo 58 §2 sobre el tiempo de desplazamiento, permitió el banco de horas por acuerdo individual escrito (artículo 59 §5) y admitió la jornada 12x36 (artículo 59-A). Se anota porque altera cómo se reparte la semana, no cuánto dura."
+    },
+    {
+      "instrumento": "Medida Provisória nº 905, de 11 de novembro de 2019, revogada pela Medida Provisória nº 955, de 20 de abril de 2020",
+      "anio": 2019,
+      "que_cambio": "Durante su vigencia (12 de noviembre de 2019 a 20 de abril de 2020) reescribió el artículo 67 de la CLT y el artículo 1º de la Lei 605 suprimiendo la referencia al domingo, y revocó el artículo 9º de la Lei 605. Al ser revocada sin conversión en ley, la redacción original quedó restablecida. Se registra porque es un cambio real dentro de la ventana que después revirtió: quien mire sólo el texto vigente no verá el paréntesis."
+    }
+  ],
+
+  "pendiente": null
+}

@@ -1,0 +1,336 @@
+{
+ "_": "CAPTURA CIEGA de Portugal. Escrita leyendo el articulado del Codigo do Trabalho y la ley de reposicion, SIN mirar el CBR ni ningun dataset agregado de dias de vacaciones. Portugal entra al lote por ser el caso de REVERSION: cuatro feriados suspendidos en 2013 y repuestos DENTRO de la ventana, el 2 de abril de 2016.",
+ "_estado": "COMPLETA con dos huecos declarados: el literal se leyo en compilacion (nivel 3) y no en el Diario da Republica, y la regla de colocacion es una CASCADA que el formato de captura no sabe expresar entera.",
+ "unidad": "PRT",
+ "jurisdiccion_de_referencia": "Lisboa (ciudad mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 4",
+ "fecha_captura_utc": "2026-08-10T18:40:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Codigo do Trabalho, aprovado pela Lei n.º 7/2009, de 12 de fevereiro — artigos 234.º, 235.º, 237.º, 238.º e 241.º",
+   "nivel_de_fuente": 3,
+   "tipo": "compilacion juridica consolidada de un organo del Estado (Procuradoria-Geral Distrital de Lisboa)",
+   "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=1047&tabela=leis",
+   "url_oficial_no_extraida": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475",
+   "nota": "El texto se leyo en pgdlisboa, que publica el consolidado con la lista de diplomas modificativos al pie de cada articulo. El visor del Diario da Republica devuelve pagina vacia a la extraccion, asi que NO se leyo la fuente de nivel 1. Se deja en nivel 3 a proposito. PENDIENTE: bajar el PDF del DR y verificar el literal; entonces sube a nivel 1."
+  },
+  "F2": {
+   "cita": "Lei n.º 8/2016, de 1 de abril — decima alteracao ao Codigo do Trabalho, repondo os feriados nacionais de Corpo de Deus, 5 de outubro, 1 de novembro e 1 de dezembro",
+   "nivel_de_fuente": 3,
+   "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=2522&tabela=leis&ficha=1&pagina=1",
+   "url_oficial_no_extraida": "https://diariodarepublica.pt/dr/detalhe/lei/8-2016-74007209",
+   "publicacion": "2016-04-01",
+   "literal_relevante": "Artigo 1.º (Objeto): 'A presente lei procede a alteracao do n.º 1 do artigo 234.º do Codigo do Trabalho, visando a reposicao dos feriados nacionais do Corpo de Deus, da Implantacao da Republica, a 5 de outubro, do Dia de Todos-os-Santos, a 1 de novembro, e da Restauracao da Independencia, a 1 de dezembro.' Artigo 3.º (Entrada em vigor): 'A presente lei entra em vigor no dia seguinte ao da sua publicacao.'",
+   "verificado": "el articulado completo, incluida la clausula de entrada en vigor, se leyo textualmente",
+   "nota": "ESTA ES LA NORMA DE LA REVERSION. Publicada el 1 de abril de 2016, en vigor el 2 de abril de 2016."
+  },
+  "F3": {
+   "cita": "Lei n.º 23/2012, de 25 de junho — terceira alteracao ao Codigo do Trabalho; eliminou os quatro feriados",
+   "nivel_de_fuente": 4,
+   "url": "https://diariodarepublica.pt/dr/detalhe/lei/23-2012-178501",
+   "publicacion": "2012-06-25",
+   "nota": "Sigue en nivel 4. Que suprimio esos cuatro feriados y que el efecto arranco el 1 de enero de 2013 (art. 10.º n.º 1) esta confirmado por secundarias concordantes y por la nota de modificaciones al pie del art. 234.º en F1, pero NO lei el dispositivo. No se sube el nivel por acumulacion. Es ANTERIOR a la ventana; importa solo porque fija la linea base de 2016."
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO",
+  "fuente": "F1",
+  "literal": "Artigo 234.º n.º 1: 'Sao feriados obrigatorios os dias 1 de janeiro, de Sexta-Feira Santa, de Domingo de Pascoa, 25 de abril, 1 de maio, de Corpo de Deus, 10 de junho, 15 de agosto, 5 de outubro, 1 de novembro, 1, 8 e 25 de dezembro.' n.º 2: 'O feriado de Sexta-Feira Santa pode ser observado em outro dia com significado local no periodo da Pascoa.' n.º 3: 'Mediante legislacao especifica, determinados feriados obrigatorios podem ser observados na segunda-feira da semana subsequente.'",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Ano Novo",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": null,
+    "nombre": "Sexta-Feira Santa",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "El art. 234.º n.º 2 permite observarlo en otro dia con significado local dentro del periodo pascual. Es una excepcion de sustitucion, no una fecha distinta."
+   },
+   {
+    "fecha": null,
+    "nombre": "Domingo de Pascoa",
+    "clase_de_regla": "computable",
+    "regla": "pascua+0",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "Feriado obligatorio que cae SIEMPRE en domingo. Cuenta en la lista legal y no anade dia de descanso a quien ya descansa el domingo. El conteo de fechas y el conteo de dias efectivamente ganados divergen aqui."
+   },
+   {
+    "fecha": "04-25",
+    "nombre": "Dia da Liberdade",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Dia do Trabalhador",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": null,
+    "nombre": "Corpo de Deus",
+    "clase_de_regla": "computable",
+    "regla": "pascua+60",
+    "desde": "2016-04-02",
+    "desde_fecha": "2016-04-02",
+    "instrumento": "Lei n.º 8/2016",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "REPUESTO. Suprimido por la Lei 23/2012 con efecto 1-ene-2013 y repuesto por la Lei 8/2016 con efecto 2-abr-2016. En 2016 el Corpo de Deus cayo el 26 de mayo, o sea DESPUES de la entrada en vigor: el primer efecto real es 2016. VER `hallazgos_de_esquema` H-E1: `desde: 2016` hace que el cargador lo cuente tambien en el corte al 1-ene-2016, donde NO estaba vigente.",
+    "nota_desde": "Fecha COMPLETA y no el anio: la Lei 8/2016 repuso los cuatro feriados suspendidos desde 2013 el 2 de abril de 2016, o sea DESPUES del ancla del corte, que es el 1 de enero. Con el grano anual estos cuatro contaban en 2016 y Portugal daba trece donde van nueve — que es exactamente el defecto que §31.2 adjudico y por el que el cargador admite fecha completa. La captura seguia sin usarla."
+   },
+   {
+    "fecha": "06-10",
+    "nombre": "Dia de Portugal, de Camoes e das Comunidades Portuguesas",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "08-15",
+    "nombre": "Assuncao de Nossa Senhora",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "10-05",
+    "nombre": "Implantacao da Republica",
+    "clase_de_regla": "fija",
+    "desde": "2016-04-02",
+    "desde_fecha": "2016-04-02",
+    "instrumento": "Lei n.º 8/2016",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "REPUESTO. Mismo caso que Corpo de Deus. En 2016 el 5 de octubre cayo despues del 2 de abril, luego el primer efecto es 2016.",
+    "nota_desde": "Fecha COMPLETA y no el anio: la Lei 8/2016 repuso los cuatro feriados suspendidos desde 2013 el 2 de abril de 2016, o sea DESPUES del ancla del corte, que es el 1 de enero. Con el grano anual estos cuatro contaban en 2016 y Portugal daba trece donde van nueve — que es exactamente el defecto que §31.2 adjudico y por el que el cargador admite fecha completa. La captura seguia sin usarla."
+   },
+   {
+    "fecha": "11-01",
+    "nombre": "Todos-os-Santos",
+    "clase_de_regla": "fija",
+    "desde": "2016-04-02",
+    "desde_fecha": "2016-04-02",
+    "instrumento": "Lei n.º 8/2016",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "REPUESTO. Primer efecto 2016.",
+    "nota_desde": "Fecha COMPLETA y no el anio: la Lei 8/2016 repuso los cuatro feriados suspendidos desde 2013 el 2 de abril de 2016, o sea DESPUES del ancla del corte, que es el 1 de enero. Con el grano anual estos cuatro contaban en 2016 y Portugal daba trece donde van nueve — que es exactamente el defecto que §31.2 adjudico y por el que el cargador admite fecha completa. La captura seguia sin usarla."
+   },
+   {
+    "fecha": "12-01",
+    "nombre": "Restauracao da Independencia",
+    "clase_de_regla": "fija",
+    "desde": "2016-04-02",
+    "desde_fecha": "2016-04-02",
+    "instrumento": "Lei n.º 8/2016",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "REPUESTO. Primer efecto 2016.",
+    "nota_desde": "Fecha COMPLETA y no el anio: la Lei 8/2016 repuso los cuatro feriados suspendidos desde 2013 el 2 de abril de 2016, o sea DESPUES del ancla del corte, que es el 1 de enero. Con el grano anual estos cuatro contaban en 2016 y Portugal daba trece donde van nueve — que es exactamente el defecto que §31.2 adjudico y por el que el cargador admite fecha completa. La captura seguia sin usarla."
+   },
+   {
+    "fecha": "12-08",
+    "nombre": "Imaculada Conceicao",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Natal",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   }
+  ],
+  "subnacionales_no_obligatorios": {
+   "_": "NO se cargan en la lista principal a proposito: en Portugal el feriado municipal NO es un derecho legal, es opcional y depende de convenio colectivo o de contrato. Meterlo entre los obligatorios sobreestimaria Lisboa.",
+   "literal": "Artigo 235.º n.º 1: 'Alem dos feriados obrigatorios, podem ser observados a titulo de feriado, mediante instrumento de regulamentacao coletiva de trabalho ou contrato de trabalho, a terca-feira de Carnaval e o feriado municipal da localidade.' n.º 2: 'Em substituicao de qualquer feriado referido no numero anterior, pode ser observado outro dia em que acordem empregador e trabalhador.'",
+   "lista": [
+    {
+     "fecha": "06-13",
+     "nombre": "Santo Antonio — feriado municipal de Lisboa",
+     "clase_de_regla": "fija",
+     "categoria": "observancia_optativa",
+     "regimen": "sin_mandato_nacional",
+     "nota": "Facultativo por el art. 235.º: solo es feriado si lo establece el instrumento de regulacion colectiva o el contrato. La ley no lo impone."
+    },
+    {
+     "fecha": null,
+     "nombre": "Terca-feira de Carnaval",
+     "clase_de_regla": "computable",
+     "regla": "pascua-47",
+     "categoria": "observancia_optativa",
+     "regimen": "sin_mandato_nacional",
+     "nota": "Facultativo por el art. 235.º, igual que el municipal. El offset -47 respecto de Pascua se deriva del calendario, no del literal del articulo."
+    }
+   ]
+  },
+  "conteo": {
+   "obligatorios_2026": 13,
+   "obligatorios_al_1_ene_2016": 9,
+   "nota": "13 menos los cuatro repuestos = 9. Es el delta de la reversion."
+  }
+ },
+ "vacaciones": {
+  "texto_legal_dias": 22,
+  "tipo_de_dia": "habil",
+  "literal": "Artigo 238.º n.º 1: 'O periodo anual de ferias tem a duracao minima de 22 dias uteis.'",
+  "definicion_de_la_unidad": "Artigo 238.º n.º 2: 'Para efeitos de ferias, sao uteis os dias da semana de segunda-feira a sexta-feira, com excecao de feriados.'",
+  "base_semanal_leida": 5,
+  "base_nota": "La base de CINCO esta LEIDA, no supuesta: el n.º 2 nombra los dias, 'de segunda-feira a sexta-feira'. Es de las pocas normas del lote que fija la base en el texto en vez de dejarla al horario del trabajador.",
+  "regla_de_sustitucion_de_descansos": "Artigo 238.º n.º 3: 'Caso os dias de descanso do trabalhador coincidam com dias uteis, sao considerados para efeitos do calculo dos dias de ferias, em substituicao daqueles, os sabados e os domingos que nao sejam feriados.'",
+  "fuente": "F1",
+  "periodo_de_calificacion_meses": 12,
+  "vencimiento": "Artigo 237.º n.º 1: 'O trabalhador tem direito, em cada ano civil, a um periodo de ferias retribuidas, que se vence em 1 de janeiro.' El derecho se vence el 1 de enero y se refiere al trabajo del ano anterior.",
+  "irrenunciable": "Artigo 237.º n.º 3: el derecho a vacaciones es irrenunciable y su goce no puede sustituirse por compensacion economica. Salvedad del art. 238.º n.º 5: el trabajador puede renunciar al goce de los dias que excedan de 20 dias uteis manteniendo la retribucion.",
+  "escala_antiguedad": "ninguna — 22 dias uteis sin progresion por antiguedad. La unica variacion es de PRIMER ANO (art. 239), no de escala.",
+  "estado_verificacion": "verificado_compilacion"
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "La Lei 8/2016 esta localizada, datada y su clausula de entrada en vigor leida textualmente. La supresion previa (Lei 23/2012, efecto 1-ene-2013) queda en nivel 4 pero coincide con la nota de modificaciones al pie del art. 234.º. El delta se DERIVA de las dos normas, no se escribe a mano. En vacaciones: el art. 238.º figura modificado UNICAMENTE por la Lei 23/2012, o sea no hubo reforma de vacaciones en la ventana; el art. 241.º, idem."
+ },
+ "reformas": [
+  {
+   "instrumento": "Lei n.º 23/2012, de 25 de junho",
+   "efecto": "SUPRIME cuatro feriados obligatorios: Corpo de Deus, 5 de outubro, 1 de novembro, 1 de dezembro",
+   "primer_efecto": "2013-01-01",
+   "dentro_de_ventana": false,
+   "nivel_de_fuente": 4,
+   "nota": "Anterior a la ventana. Es la que explica por que la linea base de 2016 tiene 9 y no 13."
+  },
+  {
+   "instrumento": "Lei n.º 8/2016, de 1 de abril",
+   "efecto": "REPONE los cuatro feriados suprimidos en 2012",
+   "publicacion": "2016-04-01",
+   "entrada_en_vigor": "2016-04-02",
+   "primer_efecto": "2016",
+   "dentro_de_ventana": true,
+   "nivel_de_fuente": 3,
+   "nota": "REVERSION. Es el caso que el proyecto buscaba: no un anadido nuevo sino la restitucion de un derecho previamente retirado, dentro de la ventana."
+  }
+ ],
+ "linea_base_2016": {
+  "_": "Al 1 de enero de 2016, ANTES de la Lei 8/2016.",
+  "n_feriados_obligatorios": 9,
+  "lista": [
+   "01-01 Ano Novo",
+   "Sexta-Feira Santa",
+   "Domingo de Pascoa",
+   "04-25 Dia da Liberdade",
+   "05-01 Dia do Trabalhador",
+   "06-10 Dia de Portugal",
+   "08-15 Assuncao de Nossa Senhora",
+   "12-08 Imaculada Conceicao",
+   "12-25 Natal"
+  ],
+  "aritmetica": "9 al 1-ene-2016 + 4 repuestos el 2-abr-2016 = 13 en 2026. CUADRA.",
+  "estado_verificacion": "derivado del texto vigente del art. 234.º menos los cuatro que la Lei 8/2016 dice reponer. No hace falta fuente aparte para la lista de 2016: se deduce de las dos normas."
+ },
+ "delta_2016_2026": {
+  "feriados": "+4, todos por REVERSION de una supresion anterior a la ventana",
+  "vacaciones": "0 — el art. 238.º figura modificado unicamente por la Lei 23/2012, fuera de ventana"
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "Ninguna fuente de nivel 1. El visor del Diario da Republica devuelve pagina vacia a la extraccion, asi que tanto el Codigo do Trabalho como la Lei 8/2016 se leyeron en pgdlisboa (nivel 3).",
+   "por_que_importa": "El literal citado es el consolidado de una compilacion, no el texto de la gaceta. Es muy probable que coincida, pero no esta verificado contra el original.",
+   "como_se_cierra": "Bajar los PDF del DR (Lei 8/2016 y el consolidado del CT), archivarlos en data/raw/portugal/, y verificar el literal. Entonces F1 y F2 suben a nivel 1."
+  },
+  {
+   "id": "H2",
+   "que": "La Lei 23/2012 no se leyo; queda en nivel 4.",
+   "por_que_importa": "Es la que fija la linea base de 2016. Su fecha de primer efecto (1-ene-2013) viene de secundarias.",
+   "como_se_cierra": "Leer el art. 10.º n.º 1 de la Lei 23/2012 en el DR."
+  },
+  {
+   "id": "H3",
+   "que": "La regla de colocacion es una CASCADA de dos niveles y el formato de captura solo admite una `iniciativa`.",
+   "por_que_importa": "Cargada solo como `negociada` sobreestima el control compartido: si no hay acuerdo, decide el empleador. Ver `hallazgos_de_esquema` H-E2.",
+   "como_se_cierra": "Anadir al esquema de captura el modo `fallback` que la base de datos YA soporta (`regla_colocacion.modo_aplicacion`, `grupo_fallback`, `es_raiz_fallback`, `condicion_fallback`)."
+  }
+ ],
+ "hallazgos_de_esquema": [
+  {
+   "id": "H-E1",
+   "titulo": "`desde` es de grano ANUAL y la reposicion portuguesa ocurrio a mitad de ano",
+   "detalle": "La Lei 8/2016 entro en vigor el 2 de abril de 2016. Al corte del 1 de enero de 2016 esos cuatro feriados NO estaban vigentes; al del 1 de enero de 2026 si. El cargador materializa `desde` como '%d-01-01' y su comentario dice que 'para cortes al 1-ene-2016 y 1-ene-2026 cualquier fecha dentro del anio da el mismo resultado'. Esa premisa es FALSA aqui, y Portugal es el contraejemplo. Con `desde: 2016` el corte de 2016 contara 13 feriados cuando la respuesta correcta es 9.",
+   "por_que_no_lo_arregle_yo": "El encargo dice expresamente usar `desde` con el ANIO DEL PRIMER EFECTO, que es 2016. Escribir 2017 haria cuadrar el conteo mintiendo sobre el hecho. Se deja el hecho correcto y el conflicto visible.",
+   "como_se_cierra": "`desde` deberia admitir fecha completa (`desde_fecha`, que aqui ya viene poblado con 2016-04-02) y el cargador comparar contra el 1 de enero del corte en vez de contra el anio."
+  },
+  {
+   "id": "H-E2",
+   "titulo": "La colocacion portuguesa es una CASCADA, no una particion",
+   "detalle": "Art. 241.º n.º 1: 'O periodo de ferias e marcado por acordo entre empregador e trabalhador.' n.º 2: 'Na falta de acordo, o empregador marca as ferias...'. Son dos niveles que compiten por fijar EL MISMO derecho en orden, con condicion 'si el anterior no fija'. No es una particion de dias. La base de datos lo soporta (`modo_aplicacion = 'fallback'`), pero `docs/09-spec-captura.md` no expone ese modo: solo `colocacion` + `colocacion_residual`, que el cargador inserta como particion.",
+   "como_se_cierra": "Exponer `modo_aplicacion` y `condicion_fallback` en el contrato de captura."
+  }
+ ],
+ "no_mirado_todavia": [
+  "CBR Labour Regulation Index",
+  "cualquier dataset agregado de dias de vacaciones",
+  "data/derived/semilla/"
+ ],
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "_": "La ficha tenia la mejor formulacion de todo el corpus y le faltaba el nivel: sus fuentes eran 3 y 4. Abierto el diario oficial, sube a nivel 1 y pasa de la rama (b) a la (a).",
+     "buscado_en": "Diario da Republica, version consolidada oficial del Codigo do Trabalho, ficha del art. 238.º con su seccion «Alteracoes ao artigo»",
+     "cita": "«O periodo anual de ferias tem a duracao minima de 22 dias uteis», con los utiles definidos de lunes a viernes salvo feriados. Y el articulo lleva su propia seccion de alteraciones con UNA SOLA ENTRADA: «Alterado pelo/a Artigo 2.º do/a Lei n.º 23/2012 — Diario da Republica n.º 121/2012, Serie I de 2012-06-25, em vigor a partir de 2012-08-01». Una modificacion en toda su historia reciente, de 2012, anterior a la ventana. La ficha decia exactamente esto sin la cita completa; ahora la tiene, con numero de diario y fecha de entrada en vigor.",
+     "nivel_de_fuente": 1,
+     "indice_registra_modificaciones": true,
+     "indice_como_se_comprobo": "El diario oficial adjunta a CADA articulo su seccion de alteraciones con ley, articulo modificador, numero de diario y fecha de vigencia, y el documento lleva ademas un panel general de alteraciones del codigo entero. Registra la presencia con todo detalle.",
+     "fecha_busqueda": "2026-08-12"
+   },
+  "dias": 22,
+  "tipo": "habil",
+  "base": 5,
+  "imputacion": "extienden",
+  "meses": 12,
+  "literal": "Artigo 238.º n.º 1: 'O periodo anual de ferias tem a duracao minima de 22 dias uteis.' n.º 2: 'Para efeitos de ferias, sao uteis os dias da semana de segunda-feira a sexta-feira, com excecao de feriados.'",
+  "escala": [
+   [
+    12,
+    null,
+    22
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "negociada",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "Artigo 241.º n.º 1: 'O periodo de ferias e marcado por acordo entre empregador e trabalhador.' n.º 2: 'Na falta de acordo, o empregador marca as ferias, que nao podem ter inicio em dia de descanso semanal do trabalhador, ouvindo para o efeito a comissao de trabalhadores...'. n.º 3: 'o empregador so pode marcar o periodo de ferias entre 1 de Maio e 31 de Outubro'. n.º 8: interpolacion por acuerdo, con un minimo de 10 dias uteis consecutivos.",
+   "resolucion_desacuerdo": "empleador",
+   "nota_resolucion": "Artigo 241.º n.º 2: «na falta de acordo, o empregador marca as ferias», con el limite de que no pueden empezar fuera de la ventana legal."
+  },
+  "colocacion_cascada_no_representable": [
+   {
+    "orden": 1,
+    "iniciativa": "negociada",
+    "condicion": null,
+    "literal": "O periodo de ferias e marcado por acordo entre empregador e trabalhador (art. 241.º n.º 1)"
+   },
+   {
+    "orden": 2,
+    "iniciativa": "empleador",
+    "condicion": "si_no_hay_acuerdo",
+    "literal": "Na falta de acordo, o empregador marca as ferias (art. 241.º n.º 2), dentro da janela 1 de Maio a 31 de Outubro (n.º 3)"
+   }
+  ],
+  "imputacion_nota": "VERIFICADA, y sale del mismo articulo que define la unidad: el art. 238.º n.º 2 excluye expresamente los feriados de los 'dias uteis'. Un feriado dentro del periodo no consume derecho. Es el mismo mecanismo que Alemania y Noruega — la imputacion vive en la DEFINICION de la unidad — pero con una diferencia que importa: aqui el texto NOMBRA los feriados ('com excecao de feriados'), no se deduce del significado de la palabra. Es lectura, no derivacion.",
+  "pendiente": "Nada del valor. Lo pendiente es de PROCEDENCIA (nivel 3 en vez de 1) y de FORMA (la cascada de colocacion no cabe en el contrato)."
+ }
+}

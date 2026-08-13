@@ -1,0 +1,283 @@
+{
+ "_": "CAPTURA CIEGA de Paises Bajos. Escrita leyendo el XML consolidado oficial del repositorio KOOP/Overheid.nl, SIN mirar el CBR ni ningun dataset agregado. El hallazgo central no estaba previsto en el encargo: EN PAISES BAJOS NO EXISTE DERECHO LEGAL A DESCANSO NI A PAGO EN DIA FESTIVO. El trabajador de referencia, sin convenio, tiene CERO feriados legales.",
+ "_estado": "COMPLETA en lo que la ley dice, y lo que dice es que no hay derecho. La lista de feriados se captura con su regimen real, no como si fueran obligatorios.",
+ "unidad": "NLD",
+ "jurisdiccion_de_referencia": "Amsterdam (ciudad mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 4",
+ "fecha_captura_utc": "2026-08-10T19:25:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Algemene termijnenwet, artikel 3 — enumera los 'algemeen erkende feestdagen'",
+   "nivel_de_fuente": 2,
+   "url": "https://repository.officiele-overheidspublicaties.nl/bwb/BWBR0002448/2010-10-10_0/xml/BWBR0002448_2010-10-10_0.xml",
+   "url_portal": "https://wetten.overheid.nl/BWBR0002448/",
+   "nota": "wetten.overheid.nl devuelve 403 al acceso automatizado; el texto se leyo del repositorio XML del mismo editor oficial (KOOP), que es la manifestacion autoritativa que alimenta al portal. El art. 3 lleva metadato de procedencia Stb.1982-70, inalterado desde el 31 de marzo de 1982."
+  },
+  "F2": {
+   "cita": "Burgerlijk Wetboek Boek 7, artikelen 7:634, 7:635, 7:638, 7:640a, 7:642, 7:645 y 7:717 — vacaciones y colocacion",
+   "nivel_de_fuente": 2,
+   "url": "https://repository.officiele-overheidspublicaties.nl/bwb/BWBR0005290/2026-07-01_0/xml/BWBR0005290_2026-07-01_0.xml",
+   "version_archivada": "expresion consolidada 2026-07-01"
+  },
+  "F3": {
+   "cita": "Burgerlijk Wetboek Boek 7 — expresion consolidada al 1 de enero de 2016, usada como linea base del corte",
+   "nivel_de_fuente": 2,
+   "url": "https://repository.officiele-overheidspublicaties.nl/bwb/BWBR0005290/2016-01-01_0/xml/BWBR0005290_2016-01-01_0.xml"
+  },
+  "F4": {
+   "cita": "Arbeidstijdenwet — verificacion NEGATIVA: la palabra 'feestdag' no aparece ni una vez en toda la ley",
+   "nivel_de_fuente": 2,
+   "url": "https://repository.officiele-overheidspublicaties.nl/bwb/BWBR0007671/2025-07-01_0/xml/BWBR0007671_2025-07-01_0.xml",
+   "nota": "La ley de tiempo de trabajo protege el DOMINGO (art. 5:6, al menos trece domingos libres cada 52 semanas) y no dice nada de los festivos. El contraste es la prueba: el legislador sabia escribir esa regla y no la escribio para los feestdagen."
+  },
+  "F5": {
+   "cita": "Carta del Ministro de Asuntos Sociales y Empleo al Parlamento, 25 de abril de 2025 (Kamerstuk 36600-XV-110), en respuesta a la motie Boomsma sobre convertir el 5 de mayo en feriado nacional",
+   "nivel_de_fuente": 1,
+   "url": "https://zoek.officielebekendmakingen.nl/kst-36600-XV-110.html",
+   "literal_relevante": "Al dan niet werken op feestdagen is niet bij wet geregeld. Afspraken daarover dienen te worden gemaakt in cao-verband of per bedrijf. […] Een eenduidige wettelijke regeling over vrij zijn op (nationale) feestdagen kan niet inspelen op het gewenste maatwerk dat hierbij nodig is.",
+   "traduccion": "Trabajar o no en dias festivos NO esta regulado por ley. Los acuerdos al respecto deben hacerse en el marco del convenio colectivo o por empresa. […] Una regulacion legal uniforme sobre estar libre en dias festivos nacionales no puede atender el ajuste a medida que aqui se necesita.",
+   "nota": "ES LA MEJOR FUENTE DE ESTA CAPTURA. Es el Gobierno, por escrito y ante las Camaras, negando la existencia del derecho, y ademas rechazando expresamente crearlo. Publicacion oficial."
+  },
+  "F6": {
+   "cita": "Besluit van 30 januari 2013, nr. 13.000173 — fija el 27 de abril como Koningsdag (Stcrt. 2013, 4075)",
+   "nivel_de_fuente": 1,
+   "url": "https://zoek.officielebekendmakingen.nl/stcrt-2013-4075.html",
+   "literal_relevante": "Artikel 1: Met ingang van 1 januari 2014 wordt de zevenentwintigste april in het vervolg aangeduid als Koningsdag, behoudens uitzonderingen in verband met zondagen."
+  },
+  "F7": {
+   "cita": "Rijksoverheid.nl — Officiele feestdagen (pagina oficial del Gobierno)",
+   "nivel_de_fuente": 2,
+   "url": "https://www.rijksoverheid.nl/vraag-en-antwoord/arbeidsovereenkomst-en-cao/officiele-feestdagen",
+   "literal_relevante": "Er is geen wet die heeft vastgelegd dat bepaalde feestdagen vrije dagen zijn voor werknemers. Er is dus geen wettelijk recht op een vrije dag op een feestdag.",
+   "traduccion": "No existe ley alguna que haya establecido que determinados dias festivos sean dias libres para los trabajadores. No hay, por tanto, derecho legal a un dia libre en un dia festivo."
+  },
+  "F8": {
+   "cita": "Besluit van 24 september 1990 (StCrt. 1990, 190) — designa el 5 de mayo fiesta nacional",
+   "nivel_de_fuente": 4,
+   "nota": "NO LOCALIZADO. El archivo digital del Staatscourant no llega a 1990 (HTTP 404). La CITA esta autenticada por el propio Ministro en F5, nota 2, pero el texto no se leyo."
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO en la enumeracion, con la advertencia de que NO son derecho de descanso",
+  "fuente": "F1",
+  "literal": "Algemene termijnenwet art. 3 lid 1: 'Algemeen erkende feestdagen in de zin van deze wet zijn: de Nieuwjaarsdag, de Christelijke tweede Paas- en Pinksterdag, de beide Kerstdagen, de Hemelvaartsdag, de dag waarop de verjaardag van de Koning wordt gevierd en de vijfde mei.' lid 2: 'Voor de toepassing van deze wet wordt de Goede Vrijdag met de in het vorige lid genoemde dagen gelijkgesteld.' lid 3: la Corona puede equiparar otros dias, con publicacion en el Staatscourant.",
+  "advertencia_de_regimen": "LEER ANTES DE USAR LA LISTA, PORQUE CAMBIA EL SIGNO DEL DATO. Estos dias son festivos EN EL SENTIDO DE ESA LEY —'in de zin van deze wet'—, que es una ley de COMPUTO DE PLAZOS PROCESALES: prorroga los plazos que vencen en sabado, domingo o festivo. No confiere derecho a no trabajar ni a cobrar. Ninguna ley neerlandesa lo hace: la Arbeidstijdenwet no menciona la palabra 'feestdag' ni una vez, y el Ministro de Asuntos Sociales lo afirma expresamente ante el Parlamento. Para el trabajador de referencia (privado, SIN convenio colectivo) el numero de feriados legales pagados es CERO. Por eso cada fila lleva `categoria: observancia_optativa` y `regimen: sin_mandato_nacional`, y por eso el cargador, que fija ambos por defecto, publicaria un dato falso. Ver `hallazgos_de_esquema` H-E10.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Nieuwjaarsdag",
+    "clase_de_regla": "fija",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": null,
+    "nombre": "Goede Vrijdag",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional",
+    "nota": "No esta ENUMERADO en el lid 1: esta EQUIPARADO por el lid 2. La distincion es del propio texto."
+   },
+   {
+    "fecha": null,
+    "nombre": "Tweede Paasdag",
+    "clase_de_regla": "computable",
+    "regla": "pascua+1",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional",
+    "nota": "La ley nombra SOLO el segundo dia de Pascua. El primero (domingo) no figura, aunque las paginas divulgativas del Gobierno lo listen."
+   },
+   {
+    "fecha": null,
+    "nombre": "Koningsdag",
+    "clase_de_regla": "remision_normativa",
+    "instrumento_remitido": "Besluit van 30 januari 2013, nr. 13.000173 (Stcrt. 2013, 4075)",
+    "fecha_resuelta": "04-27",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional",
+    "nota": "La ley dice 'de dag waarop de verjaardag van de Koning wordt gevierd' — el dia en que se celebra el cumpleanos del Rey — sin dar fecha. La fecha la fija un Real Decreto que YA SE LEYO: 27 de abril. Se codifica como remision porque la delegacion es textual, pero la fecha resuelta se guarda aparte: el esquema PROHIBE mes y dia en la clase remision, asi que esa certeza se pierde al cargar. Ver `hallazgos_de_esquema` H-E9."
+   },
+   {
+    "fecha": "05-05",
+    "nombre": "Bevrijdingsdag (5 de mayo)",
+    "clase_de_regla": "fija",
+    "recurrencia": "recurrente",
+    "periodo_anios": 1,
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional",
+    "nota": "OJO CON LA TRAMPA DEL LUSTRO. En la ley el 5 de mayo figura TODOS LOS ANOS, sin cualificacion quinquenal: `periodo_anios` es 1, no 5. La regla del 'cada cinco anos' es una RECOMENDACION de la Stichting van de Arbeid a las mesas de convenio, de 1959, y no vincula a nadie. Codificarla como feriado quinquenal —que es lo que el campo `periodo_anios` invita a hacer, existiendo por el feriado sexenal mexicano— seria meter derecho convencional en la capa legal. Datos oficiales del propio Ministerio: en 2022 el 27% de los trabajadores lo tenia libre cada ano; en 2024, el 34%."
+   },
+   {
+    "fecha": null,
+    "nombre": "Hemelvaartsdag (Ascensión)",
+    "clase_de_regla": "computable",
+    "regla": "pascua+39",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": null,
+    "nombre": "Tweede Pinksterdag",
+    "clase_de_regla": "computable",
+    "regla": "pascua+50",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional",
+    "nota": "Igual que con Pascua, la ley nombra solo el SEGUNDO dia de Pentecostes."
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Eerste Kerstdag",
+    "clase_de_regla": "fija",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   },
+   {
+    "fecha": "12-26",
+    "nombre": "Tweede Kerstdag",
+    "clase_de_regla": "fija",
+    "categoria": "observancia_optativa",
+    "regimen": "sin_mandato_nacional"
+   }
+  ],
+  "reglas_de_traslado": [
+   {
+    "nombre": "Koningsdag en domingo",
+    "base_legal": "Besluit van 30 januari 2013, art. 1 y su nota de toelichting",
+    "literal": "'behoudens uitzonderingen in verband met zondagen'; la toelichting precisa: 'Indien de viering op deze dag samenvalt met een zondag, wordt hieraan op de voorafgaande dag aandacht geschonken.'",
+    "nota": "TRASLADO HACIA ATRAS. Si el 27 de abril cae en domingo, la celebracion pasa al sabado 26, no al lunes 28. Es el unico traslado retrogrado del lote: Japon, Nueva Zelanda y Paraguay mueven hacia adelante."
+   }
+  ],
+  "subnacionales": {
+   "existen": false,
+   "verificacion": "Busqueda en el registro oficial de normativa local (lokaleregelgeving.overheid.nl, servicio SRU CVDR): cero normas del municipio de Amsterdam tituladas con 'feestdag', sobre 5.226 normas registradas. Ademas, el art. 3 lid 3 de la Algemene termijnenwet reserva a la Corona la facultad de anadir dias, con publicacion en el Staatscourant; ningun municipio la tiene.",
+   "matiz": "Amsterdam SI designa 'lokale feestdagen' —Viernes Santo y Bevrijdingsdag— pero actuando como EMPLEADOR de su propio personal dentro de la CAO Gemeenten (art. 6.6), no como legislador. No alcanza a ningun empleador privado de la ciudad."
+  },
+  "conteo": {
+   "dias_enumerados_2026": 9,
+   "feriados_legales_pagados_2026": 0,
+   "feriados_legales_pagados_2016": 0,
+   "nota": "Los dos numeros son distintos y el segundo es el que compara con el resto del panel. Nueve dias tienen nombre en una ley de plazos procesales; cero dan derecho a descanso pagado."
+  }
+ },
+ "vacaciones": {
+  "texto_legal_dias": 4,
+  "unidad_literal": "vier maal de overeengekomen arbeidsduur per week (cuatro veces la jornada semanal pactada)",
+  "literal": "BW 7:634 lid 1: 'De werknemer verwerft over ieder jaar waarin hij gedurende de volledige overeengekomen arbeidsduur recht op loon heeft gehad, aanspraak op vakantie van ten minste vier maal de overeengekomen arbeidsduur per week of, als de overeengekomen arbeidsduur in uren per jaar is uitgedrukt, van ten minste een overeenkomstige tijd.'",
+  "fuente": "F2",
+  "periodo_de_calificacion_meses": 0,
+  "periodo_nota": "NO HAY CARENCIA. El devengo se ancla en 'haber tenido derecho a salario', no en tiempo de servicio, y el lid 2 prorratea desde el primer dia. Un trabajador de un mes tiene su doceava parte.",
+  "escala_antiguedad": "ninguna — el multiplicador es 4 desde el primer ano hasta el ultimo. Ni el 634 ni ningun otro articulo condiciona el quantum a la antiguedad.",
+  "base_semanal": null,
+  "base_nota": "NO LA FIJA LA NORMA: la norma ES la jornada semanal pactada. El derecho se define como cuatro veces esa jornada, o su equivalente si la jornada esta expresada en horas anuales. Convertirlo a '20 dias' es una operacion del interprete y ademas es erronea para jornada parcial o irregular, que es exactamente lo que el texto esta construido para evitar.",
+  "caducidad": {
+   "verval_6_meses": "BW 7:640a: el derecho AL MINIMO del art. 634 CADUCA seis meses despues del ultimo dia del ano natural en que se adquirio, salvo que el trabajador no haya podido razonablemente tomarlo. Solo modificable a favor del trabajador.",
+   "verjaring_5_anios": "BW 7:642: 'Onverminderd artikel 640a', la accion prescribe a los cinco anos.",
+   "nota": "Son DOS institutos distintos, no uno: caducidad del derecho (de oficio, solo sobre el minimo legal) y prescripcion de la accion (debe oponerse, cinco anos, alcanza a lo convencional). Si el proyecto guarda 'prescripcion' en un solo campo, aqui hay dos con efectos distintos sobre la titularidad."
+  },
+  "imperatividad": "BW 7:645: de los arts. 634 a 643 no se puede apartar en perjuicio del trabajador salvo donde esos mismos articulos lo permitan.",
+  "estado_verificacion": "verificado_primaria"
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "Y verificado de verdad, no supuesto: se compararon las expresiones consolidadas oficiales del BW Boek 7 al 1-ene-2016 y al 1-jul-2026 sobre los arts. 634, 635, 638, 640a, 642 y 645. Los cinco primeros salvo el 635 son IDENTICOS. El unico cambio en la ventana es la letra g del 7:635 lid 1 (Stb. 2021-592, vigor 2-ago-2022), que amplia el DEVENGO durante el permiso parental retribuido y no toca ni el quantum ni la colocacion. La Algemene termijnenwet no registra version nueva desde el 10-oct-2010 y su art. 3 lleva procedencia de 1982. Esta es de las pocas unidades donde la AUSENCIA de reforma esta acreditada por diff y no por no haber encontrado nada."
+ },
+ "reformas": [
+  {
+   "instrumento": "Stb. 2021-592 (transposicion de la Directiva UE de conciliacion)",
+   "efecto": "anade BW 7:635 lid 1 letra g — se sigue devengando vacaciones durante la prestacion de permiso parental retribuido",
+   "entrada_en_vigor": "2022-08-02",
+   "dentro_de_ventana": true,
+   "nivel_de_fuente": 2,
+   "nota": "Amplia el devengo, no el quantum. No mueve el valor del panel."
+  },
+  {
+   "instrumento": "Motie Boomsma (Kamerstuk 36600-XV-23, 3-dic-2024) y respuesta del Gobierno (36600-XV-110, 25-abr-2025)",
+   "efecto": "NINGUNO — intento de convertir el 5 de mayo en feriado nacional con derecho a descanso; el Gobierno rechaza la via legislativa",
+   "dentro_de_ventana": true,
+   "nivel_de_fuente": 1,
+   "nota": "Se registra porque documenta que la ausencia de derecho legal al feriado es una DECISION POLITICA SOSTENIDA y no un descuido. Una reforma que no ocurrio, con constancia oficial de por que."
+  }
+ ],
+ "delta_2016_2026": {
+  "feriados": "0",
+  "vacaciones": "0 en quantum; +1 supuesto de devengo (permiso parental, 2022)"
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "No se leyo el Besluit de 24 de septiembre de 1990 que designa el 5 de mayo fiesta nacional.",
+   "por_que_importa": "Poco: la designacion no confiere derecho de descanso, cosa que el Ministro afirma expresamente. Pero la cita queda en nivel 4.",
+   "como_se_cierra": "Archivo Delpher de la Koninklijke Bibliotheek; el Staatscourant digital no llega a 1990."
+  },
+  {
+   "id": "H2",
+   "que": "La jurisprudencia del TJUE (Max-Planck, Kreuziger) impone al empleador un deber de informacion como condicion de que opere la caducidad del 7:640a. No se verifico.",
+   "como_se_cierra": "Leer las sentencias y comprobar su recepcion en la practica neerlandesa. Solo afecta a la caducidad, no al quantum."
+  }
+ ],
+ "hallazgos_de_esquema": [
+  {
+   "id": "H-E9",
+   "titulo": "`remision_normativa` no puede llevar la fecha aunque la remision ya se haya resuelto",
+   "detalle": "El CHECK del esquema exige que en la clase `remision_normativa` mes y dia sean NULL. Pero hay dos situaciones distintas debajo de esa etiqueta: la remision cuya fecha VARIA (feriado electoral mexicano, que fue el caso que motivo la clase) y la remision cuya fecha es CONSTANTE y ya la hemos leido en el instrumento remitido (Koningsdag = 27 de abril por el Besluit de 2013; 建国記念の日 = 11 de febrero por decreto del Gabinete japones). En la segunda, obligar a mes y dia nulos tira informacion que tenemos.",
+   "sugerencia": "Permitir mes y dia en `remision_normativa` cuando el instrumento remitido se haya leido, o anadir una clase intermedia."
+  },
+  {
+   "id": "H-E10",
+   "titulo": "Dos unidades del lote no tienen feriado legal y el cargador dira que si",
+   "detalle": "Paises Bajos y Japon comparten la misma estructura: hay una lista oficial de dias festivos y NO hay obligacion legal de darlos libres ni pagados al trabajador privado. La base de datos tiene los valores exactos para decirlo —categoria `observancia_optativa`, regimen `sin_mandato_nacional`— pero `docs/09-spec-captura.md` no expone esos campos y `cargar_piloto.py` los fija a 'descanso_pagado_obligatorio' y 'descanso_obligatorio' para todas las filas. Cargados asi, Paises Bajos aportaria 9 dias de descanso obligatorio y la respuesta correcta es cero.",
+   "por_que_importa": "Es el error de mayor magnitud que encontre en el lote. No es un matiz de medio dia ni de base semanal: es la diferencia entre 9 y 0.",
+   "como_se_cierra": "Exponer `categoria` y `regimen` en el contrato de captura y leerlos en el cargador. Esta captura ya los trae escritos fila por fila."
+  },
+  {
+   "id": "H-E11",
+   "titulo": "`periodo_anios` invita a codificar como quinquenal algo que la ley dice anual",
+   "detalle": "El campo existe por el feriado sexenal mexicano y hace facil escribir 5 para Bevrijdingsdag. Seria falso: en la ley el 5 de mayo es anual, y el lustro es una recomendacion bipartita de 1959 que vive en la capa convencional. El esquema no distingue capa legal de capa convencional, asi que nada impide meter la segunda en la primera."
+  }
+ ],
+ "no_mirado_todavia": [
+  "CBR Labour Regulation Index",
+  "cualquier dataset agregado de dias de vacaciones",
+  "data/derived/semilla/"
+ ],
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "_": "Rama (b) por dos obstaculos de acceso, los dos declarados: el repositorio oficial de legislacion devuelve 403 al lector, y el repositorio alternativo interpone un muro de consentimiento que exige ceder datos a cientos de terceros y no se acepto.",
+     "buscado_en": "Portal del Gobierno neerlandes para empresas —informacion oficial sobre días de vacaciones legales— y guias juridicas concordantes",
+     "cita": "El minimo legal es de CUATRO VECES la jornada semanal pactada: veinte días para una semana de cinco. Es el derecho del art. 7:634 del Código Civil y no cambia entre cortes; las fuentes oficiales de 2026 lo repiten sin variacion. Lo que la ficha localizo dentro de la ventana es un supuesto de devengo nuevo por permiso parental, en 2022, que anade causa de acumulacion y no días.",
+     "nivel_de_fuente": 3,
+     "fecha_busqueda": "2026-08-12",
+     "pantalla_3": {
+       "cita": "Prensa y guias neerlandesas: el minimo sigue en cuatro veces la jornada semanal y las fuentes de 2026 dicen expresamente que no cambia este anio. Lo que se discute es CADUCIDAD Y ARRASTRE —los días legales caducan seis meses despues del anio de devengo y los extralegales a los cinco anios—, no la cantidad. No aparece ninguna proposicion de ley para elevar el minimo en la ventana.",
+       "url": "https://ondernemersplein.overheid.nl/personeel/arbeidsvoorwaarden/officiele-feestdagen-en-wettelijke-of-bovenwettelijke-vakantiedagen/"
+     }
+   },
+  "dias": 4,
+  "tipo": "semanas",
+  "base": null,
+  "imputacion": "sin_regla_explicita",
+  "meses": 0,
+  "literal": "aanspraak op vakantie van ten minste vier maal de overeengekomen arbeidsduur per week (BW 7:634 lid 1)",
+  "escala": [
+   [
+    0,
+    null,
+    4
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "trabajador",
+   "veto": "causal_operativa",
+   "silencio": "aprobado",
+   "instrumento": "ley",
+   "literal": "BW 7:638 lid 2: 'Voorzover in de vaststelling van de vakantie niet is voorzien bij schriftelijke overeenkomst dan wel bij of krachtens collectieve arbeidsovereenkomst of regeling door of namens een daartoe bevoegd bestuursorgaan of de wet, stelt de werkgever de tijdstippen van aanvang en einde van de vakantie vast overeenkomstig de wensen van de werknemer tenzij gewichtige redenen zich daartegen verzetten. Indien de werkgever niet binnen twee weken nadat de werknemer zijn wensen schriftelijk heeft kenbaar gemaakt, schriftelijk aan de werknemer gewichtige redenen heeft aangevoerd, is de vakantie vastgesteld overeenkomstig de wensen van de werknemer.'"
+  },
+  "colocacion_nota": "ES LA POSICION MAS FUERTE DEL TRABAJADOR EN TODO EL LOTE, y el unico `silencio: aprobado`. El trabajador manifiesta sus deseos por escrito, el empleador tiene DOS SEMANAS para objetar por escrito por 'gewichtige redenen', y si no objeta las vacaciones quedan fijadas conforme al deseo del trabajador POR MINISTERIO DE LA LEY. Ademas, aun objetando, el lid 3 le garantiza dos semanas seguidas o dos veces una semana si las pide, y el lid 5 obliga a indemnizar el dano si el empleador cambia el periodo ya fijado. Sobre el vocabulario: 'gewichtige redenen' es un umbral MAS ALTO que el 'dringende betriebliche Belange' aleman, y el dominio de `veto_empleador` no sabe graduarlo; se usa `causal_operativa` por ser el valor que menos afirma, y la diferencia real con Alemania queda recogida en `silencio`, que alli es `sin_regla` y aqui `aprobado`.",
+  "colocacion_alcance_nota": "El lid 2 abre con 'Voorzover ... niet is voorzien bij [acuerdo escrito / convenio colectivo / organo administrativo / la ley]': la regla legal opera SOLO sobre lo que esos cuatro instrumentos no hayan fijado ya, y 'voorzover' es de grado, o sea divisible. Es la CASCADA que el comentario del esquema cita como motivo para tener `modo_aplicacion = fallback`. Para el trabajador de referencia —sin convenio y suponiendo contrato sin clausula de fijacion— los cuatro niveles estan vacios y la regla cubre todo el derecho, asi que `alcance: todo_el_derecho` es correcto PARA ESTE TRABAJADOR y no lo seria para la unidad en abstracto.",
+  "imputacion_nota": "SIN REGLA EXPLICITA, y por una razon estructural, no por falta de busqueda: la imputacion es una regla de colision entre dos derechos y aqui solo existe uno. Sin derecho legal al feriado no hay nada que imputar contra las vacaciones. LA PRUEBA DE QUE EL SILENCIO ES DELIBERADO: la palabra 'feestdagen' aparece UNA sola vez en todo el Libro 7 del Codigo Civil, y es en el art. 7:717 lid 3, regimen de la GENTE DE MAR — 'Tot vakantie worden niet gerekend: a. officieel of algemeen erkende feestdagen' (no se computan como vacaciones los dias festivos oficiales o generalmente reconocidos). El legislador escribio la regla de no imputacion, con esas palabras, para los marinos, y no la escribio para el trabajador ordinario. Y en el mismo art. 638, el lid 8 dice que los dias de ENFERMEDAD dentro de las vacaciones no cuentan como vacaciones. Sabe escribir la regla; para los feriados eligio no escribirla.",
+  "base_origen": "horario_del_trabajador",
+  "base_nota": "Art. 7:634 BW: «vier maal de overeengekomen arbeidsduur per week» — cuatro veces la jornada semanal ACORDADA."
+ }
+}

@@ -1,0 +1,163 @@
+{
+  "_": "CAPTURA CIEGA de Francia. Escrita leyendo el Code du travail en Legifrance y en el Code du travail numerique, sin mirar ningun dataset agregado de vacaciones. Lo que el cargador no lee (regimen y categoria por feriado, cascada de colocacion) se conserva igualmente: el crudo es el dato, la base es derivada.",
+  "unidad": "FRA",
+  "jurisdiccion_de_referencia": "Paris (ciudad mas poblada)",
+  "captura_ciega": true,
+  "capturado_por": "captura · lote 1",
+  "fecha_captura_utc": "2026-08-10T21:40:00Z",
+
+  "fuentes": {
+    "F1": {
+      "cita": "Code du travail, Partie legislative, Livre I, Titre III, Chapitre III — Jours feries (articles L3133-1 a L3133-12)",
+      "nivel_de_fuente": 2,
+      "tipo": "codigo consolidado en el servicio publico oficial de difusion del derecho",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006178007/",
+      "nota": "Legifrance publica el JORF (nivel 1) y ademas el texto consolidado de los codigos. Lo consolidado se anota nivel 2 porque no es el ejemplar de la gaceta sino su refundicion oficial."
+    },
+    "F2": {
+      "cita": "Code du travail, article L3133-1 — liste des fetes legales",
+      "nivel_de_fuente": 2,
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020901",
+      "publicacion": "2016-08-10",
+      "literal_relevante": "Les fetes legales ci-apres designees sont des jours feries : 1° Le 1er janvier ; 2° Le lundi de Paques ; 3° Le 1er mai ; 4° Le 8 mai ; 5° L'Ascension ; 6° Le lundi de Pentecote ; 7° Le 14 juillet ; 8° L'Assomption ; 9° La Toussaint ; 10° Le 11 novembre ; 11° Le jour de Noel.",
+      "nota": "La version vigente fue CREADA por la LOI n° 2016-1088 du 8 aout 2016 - art. 8, en vigor desde el 2016-08-10. Es una reforma DENTRO de la ventana. No consegui leer la version anterior a agosto de 2016 en ChronoLegi, asi que no puedo AFIRMAR que la lista de once no cambiara — ver corte_2016."
+    },
+    "F3": {
+      "cita": "Code du travail, article L3141-3 — duree du conge paye",
+      "nivel_de_fuente": 2,
+      "url": "https://code.travail.gouv.fr/code-du-travail/l3141-3",
+      "literal_relevante": "Le salarie a droit a un conge de deux jours et demi ouvrables par mois de travail effectif chez le meme employeur. La duree totale du conge exigible ne peut exceder trente jours ouvrables.",
+      "nota": "Code du travail numerique, portal del Ministere du Travail."
+    },
+    "F4": {
+      "cita": "Code du travail, articles L3141-15 y L3141-16 — fijacion de la periode de prise des conges y de l'ordre des departs",
+      "nivel_de_fuente": 2,
+      "url": "https://code.travail.gouv.fr/code-du-travail/l3141-16"
+    },
+    "F5": {
+      "cita": "LOI n° 2016-1088 du 8 aout 2016 relative au travail, a la modernisation du dialogue social et a la securisation des parcours professionnels, art. 8",
+      "nivel_de_fuente": 1,
+      "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000032983655",
+      "publicacion": "2016-08-09",
+      "nota": "Es la norma que reescribio el capitulo de jours feries y el de conges payes en la triple estructura ordre public / champ de la negociation collective / dispositions suppletives. PENDIENTE leer su articulado completo: solo verifique que es la que crea la version vigente de L3133-1."
+    },
+    "F6": {
+      "cita": "Fiche officielle «Jour ferie pendant les conges d'un salarie : quelles sont les regles ?» — Code du travail numerique / service-public",
+      "nivel_de_fuente": 2,
+      "url": "https://code.travail.gouv.fr/fiche-service-public/jour-ferie-pendant-les-conges-dun-salarie-quelles-sont-les-regles",
+      "nota": "IMPORTANTE: es una ficha explicativa del Gobierno, no una norma. Afirma que el jour ferie habitualmente chome no se descuenta de los conges payes, y NO CITA NINGUN ARTICULO. Ver imputacion."
+    },
+    "F7": {
+      "cita": "Retirada de la propuesta de suprimir dos jours feries en el presupuesto 2026 (anuncio del Primer Ministro, 13-sep-2025)",
+      "nivel_de_fuente": 5,
+      "url": "https://www.elite-irp.fr/suppression-jours-feries/",
+      "nota": "NIVEL 5, prensa y secundarias. Se deja bajo a proposito: no localice ni el texto del PLF 2026 ni un comunicado oficial. Sirve para decir que la supresion NO esta en vigor, no para afirmar nada mas."
+    }
+  },
+
+  "feriados": {
+    "estado": "COMPLETO para la jurisdiccion de referencia. Once fetes legales nacionales. Paris NO tiene feriado local anadido; los dos feriados adicionales (Vendredi saint y 26 de diciembre) son de Alsace-Moselle (L3134-13) y no aplican.",
+    "fuente": "F2",
+    "literal": "Les fetes legales ci-apres designees sont des jours feries : 1° Le 1er janvier ; 2° Le lundi de Paques ; 3° Le 1er mai ; 4° Le 8 mai ; 5° L'Ascension ; 6° Le lundi de Pentecote ; 7° Le 14 juillet ; 8° L'Assomption ; 9° La Toussaint ; 10° Le 11 novembre ; 11° Le jour de Noel.",
+    "regimen_nota": "EL AVISO DEL ENCARGO, CONFIRMADO CON LITERAL. Francia parte sus once feriados en dos regimenes distintos y solo uno obliga al descanso. L3133-4: «Le 1er mai est jour ferie et chome.» Para los otros diez, L3133-3-1 remite a la negociacion colectiva («Un accord d'entreprise ou d'etablissement ou, a defaut, une convention ou un accord de branche definit les jours feries chomes») y L3133-3-2 pone la supletoria («A defaut d'accord, l'employeur fixe les jours feries chomes»). O sea: en los diez restantes el descanso no lo manda la ley, lo fija el convenio y en su defecto el empleador. Lo que si manda la ley para los once es que el chomage no baje el salario, y solo con tres meses de antiguedad (L3133-3).",
+    "lista": [
+      {"fecha": "01-01", "nombre": "1er janvier", "clase_de_regla": "fija",
+       "regimen": "sin_mandato_nacional", "categoria": "observancia_optativa",
+       "nota": "Ferie por L3133-1; su chomage lo fija el acuerdo colectivo y en su defecto el empleador (L3133-3-1 y L3133-3-2)."},
+      {"fecha": null, "nombre": "Lundi de Paques", "clase_de_regla": "computable", "regla": "pascua+1",
+       "regimen": "sin_mandato_nacional", "categoria": "observancia_optativa"},
+      {"fecha": "05-01", "nombre": "1er mai — Fete du Travail", "clase_de_regla": "fija",
+       "regimen": "descanso_obligatorio", "categoria": "descanso_pagado_obligatorio",
+       "literal": "Le 1er mai est jour ferie et chome (L3133-4).",
+       "excepcion_literal": "Dans les etablissements et services qui, en raison de la nature de leur activite, ne peuvent interrompre le travail, les salaries occupes le 1er mai ont droit, en plus du salaire correspondant au travail effectue, a une indemnite egale au montant de ce salaire (L3133-6).",
+       "tasa_recargo_si_trabajado": 1.0,
+       "nota": "UNICO feriado frances con descanso obligatorio por ley. La excepcion de L3133-6 no lo convierte en «descanso salvo requerimiento»: la regla general es la prohibicion, y la excepcion esta acotada a los establecimientos que no pueden interrumpir. Se registra el recargo para que la excepcion no se pierda."},
+      {"fecha": "05-08", "nombre": "8 mai — Victoire 1945", "clase_de_regla": "fija",
+       "regimen": "sin_mandato_nacional", "categoria": "observancia_optativa"},
+      {"fecha": null, "nombre": "Ascension", "clase_de_regla": "computable", "regla": "pascua+39",
+       "regimen": "sin_mandato_nacional", "categoria": "observancia_optativa"},
+      {"fecha": null, "nombre": "Lundi de Pentecote", "clase_de_regla": "computable", "regla": "pascua+50",
+       "regimen": "sin_mandato_nacional", "categoria": "observancia_optativa",
+       "nota": "PENDIENTE precisar la interaccion con la journee de solidarite (L3133-7 y siguientes). Desde 2008 la journee de solidarite no es automaticamente el lundi de Pentecote: la fija el acuerdo colectivo. No lo lei en el articulado; no afirmo nada mas."},
+      {"fecha": "07-14", "nombre": "14 juillet — Fete nationale", "clase_de_regla": "fija",
+       "regimen": "sin_mandato_nacional", "categoria": "observancia_optativa"},
+      {"fecha": "08-15", "nombre": "Assomption", "clase_de_regla": "fija",
+       "regimen": "sin_mandato_nacional", "categoria": "observancia_optativa"},
+      {"fecha": "11-01", "nombre": "Toussaint", "clase_de_regla": "fija",
+       "regimen": "sin_mandato_nacional", "categoria": "observancia_optativa"},
+      {"fecha": "11-11", "nombre": "11 novembre — Armistice 1918", "clase_de_regla": "fija",
+       "regimen": "sin_mandato_nacional", "categoria": "observancia_optativa"},
+      {"fecha": "12-25", "nombre": "Jour de Noel", "clase_de_regla": "fija",
+       "regimen": "sin_mandato_nacional", "categoria": "observancia_optativa"}
+    ],
+    "elegibilidad_nota": "L3133-3 protege el salario solo a partir de tres meses de antiguedad en la empresa. Es una condicion de elegibilidad real y el trabajador de referencia (doce meses) la cumple, pero queda declarada porque el cargador escribe «sin_condicion» de oficio.",
+    "no_aplican_a_paris": {
+      "instrumento": "Code du travail, articles L3134-1 a L3134-16 (droit local d'Alsace-Moselle)",
+      "que": "Vendredi saint y 26 de diciembre son feriados adicionales en Bas-Rhin, Haut-Rhin y Moselle, donde ademas TODOS los jours feries son chomes.",
+      "por_que_se_declara": "Es la unica variacion subnacional francesa relevante, y NO alcanza a Paris. Se anota para que quede claro que la omision es una lectura, no un descuido."
+    }
+  },
+
+  "vacaciones_normalizado": {
+
+    "sin_cambio": {
+
+      "_": "La ficha afirmaba que no se hallo reforma del articulo del quantum dentro de la ventana. Es FALSO y la correccion va aqui: si la hubo, y esta fechada. Lo que no se movio es el derecho.",
+
+      "buscado_en": "Legifrance, ficha del art. L3141-3 del Code du travail con su nota de version, y la seccion de conges payes consultada en su estado a 1 de enero de 2016",
+
+      "cita": "El articulo figura «Modifie par LOI n°2016-1088 du 8 aout 2016 - art. 8 (V)», en vigor el 10 de agosto de 2016: hay reforma DENTRO de la ventana. Pero las dos versiones dicen lo mismo — a 1 de enero de 2016 «deux jours et demi ouvrables par mois de travail effectif chez le meme employeur», maximo «trente jours ouvrables», identico al texto vigente. El quantum no se mueve, de modo que el corte no necesita marca de cambio intraanual.",
+
+      "nivel_de_fuente": 1,
+      "indice_registra_modificaciones": true,
+      "indice_como_se_comprobo": "La ficha del articulo en Legifrance lleva su nota de version —«Modifie par LOI n°2016-1088»— y permite consultar el texto a una fecha dada: el repositorio registra las modificaciones y sus fechas.",
+
+      "fecha_busqueda": "2026-08-11"
+
+    },
+    "dias": 30,
+    "tipo": "werktage",
+    "base": 6,
+    "imputacion": "sin_regla_explicita",
+    "meses": 12,
+    "literal": "Le salarie a droit a un conge de deux jours et demi ouvrables par mois de travail effectif chez le meme employeur. La duree totale du conge exigible ne peut exceder trente jours ouvrables.",
+    "escala": [[12, null, 30]],
+    "colocacion": {
+      "iniciativa": "empleador",
+      "veto": null,
+      "silencio": null,
+      "instrumento": "ley",
+      "literal": "A defaut de stipulation dans la convention ou l'accord conclus en application de l'article L. 3141-15, l'employeur : 1° Definit apres avis, le cas echeant, du comite social et economique : a) La periode de prise des conges ; b) L'ordre des departs (...) 2° Ne peut, sauf en cas de circonstances exceptionnelles, modifier l'ordre et les dates de depart moins d'un mois avant la date de depart prevue. (L3141-16)"
+    },
+    "colocacion_cascada_declarada": {
+      "_": "LO QUE EL CARGADOR APLANA. Francia no tiene UNA regla de colocacion, tiene DOS NIVELES en cascada, y el esquema los admite (modo_aplicacion = 'fallback') pero el cargador escribe siempre 'particion'. Se declara aqui para que el aplanamiento sea visible y reversible.",
+      "nivel_1": {
+        "instrumento": "convenio_colectivo",
+        "iniciativa": "negociada",
+        "literal": "Un accord d'entreprise ou d'etablissement ou, a defaut, une convention ou un accord de branche fixe : 1° La periode de prise des conges ; 2° L'ordre des departs pendant cette periode ; 3° Les delais que doit respecter l'employeur s'il entend modifier l'ordre et les dates de departs. (L3141-15)"
+      },
+      "nivel_2": {
+        "instrumento": "ley",
+        "iniciativa": "empleador",
+        "condicion": "si_el_anterior_no_fija",
+        "literal": "A defaut de stipulation dans la convention ou l'accord conclus en application de l'article L. 3141-15, l'employeur (...) (L3141-16)"
+      },
+      "por_que_la_fila_cargada_es_la_del_nivel_2": "Porque es la que gobierna por defecto y su propio literal empieza por «A defaut de stipulation», o sea la cascada sigue siendo legible dentro del dato cargado en vez de desaparecer."
+    },
+    "imputacion_nota": "ESTE ES EL HALLAZGO DE FRANCIA, y va en contra de lo que todo el mundo da por sabido. En la practica francesa un jour ferie chome dentro de las vacaciones NO se descuenta, y la ficha OFICIAL del Gobierno lo dice — «Le jour ferie n'est pas decompte des conges payes» — pero esa ficha NO CITA NINGUN ARTICULO, y yo no encontre ninguno. El mecanismo real es indirecto: los conges se cuentan en «jours ouvrables», y un jour ferie chome no es jour ouvrable. Solo que el Code du travail NO DEFINE «jour ouvrable» en ningun sitio. Comparese con Alemania, donde la regla vive en la definicion legal de Werktage (BUrlG 3(2)) y por eso alli SI es verificable: Francia llega al mismo resultado practico por una definicion que la ley no da. Por §2 del protocolo la imputacion se verifica y no se deriva, asi que el valor es sin_regla_explicita y el total va a NA. Un hueco visible.",
+    "tipo_de_dia_nota": "La ley NO dice «habiles» ni «calendario»: dice «jours ouvrables», que es una tercera unidad, la de seis dias. Se codifica como werktage con base 6 por la misma razon por la que Turquia lo hizo: el valor existe en el esquema como unidad general y no como etiqueta alemana. AVISO HONESTO: a diferencia de Alemania y Turquia, aqui la equivalencia NO se apoya en un articulo. El Code du travail no define jour ouvrable; que el sabado cuente y el domingo no lo sostienen la doctrina y la practica, o sea fuentes de nivel 4. Lo que la ley SI fija sin ambiguedad es el nombre de la unidad y el tope de treinta.",
+    "pendiente": "Tres huecos declarados. (1) La imputacion queda en sin_regla_explicita: la afirmacion oficial existe pero sin articulo. (2) La equivalencia jours ouvrables = werktage/base 6 se apoya en nivel 4, no en el articulado. (3) `meses: 12` es la antiguedad con la que se alcanzan los treinta dias, NO un periodo de carencia: desde la loi 2016-1088 los conges pueden tomarse «des l'embauche» (L3141-12) y el derecho se DEVENGA a razon de 2,5 jours ouvrables por mes. El tramo [0,12) en cero que el cargador antepone es FALSO para Francia — un trabajador de seis meses tiene quince dias, no cero. Los tres puntos de la grilla (1, 5 y 10 anios) si son correctos: treinta en los tres."
+  },
+
+  "corte_2016": {
+    "estado": "verificado_parcial",
+    "nota": "SI hubo reforma en la ventana y esta localizada: la LOI n° 2016-1088 du 8 aout 2016, art. 8, reescribio el capitulo de jours feries y el de conges payes, y creo la version vigente de L3133-1 (en vigor 2016-08-10). Lo que reescribio fue la ARQUITECTURA — reparto entre ordre public, negociacion colectiva y disposiciones supletorias, y la toma de conges des l'embauche—, no el numero: hoy siguen siendo once fetes legales y treinta jours ouvrables. Es parcial y no verificado porque NO consegui leer en ChronoLegi la version de L3133-1 anterior a agosto de 2016, asi que no puedo afirmar por lectura que la lista de once fuera identica al 1-ene-2016. La propuesta de suprimir el lundi de Paques y el 8 de mayo en el presupuesto 2026 fue retirada en septiembre de 2025 y NO esta en vigor, pero eso solo lo sostienen fuentes de nivel 5."
+  },
+
+  "huecos": [
+    {"id": "H1", "que": "No se leyo la version pre-agosto-2016 de L3133-1.", "como_se_cierra": "ChronoLegi de Legifrance sobre LEGIARTI000033020901, version al 2016-01-01."},
+    {"id": "H2", "que": "No se leyo el articulado completo de la loi 2016-1088 art. 8.", "como_se_cierra": "Leer el texto en el JORF y anotar que cambio exactamente en cada articulo del capitulo."},
+    {"id": "H3", "que": "La retirada de la supresion de dos feriados solo esta en nivel 5.", "como_se_cierra": "Localizar el texto adoptado de la loi de finances 2026 y comprobar que no contiene la medida."},
+    {"id": "H4", "que": "No se capturo la journee de solidarite (L3133-7 y ss.), que resta una jornada al ano y es el reverso exacto de un feriado.", "como_se_cierra": "Leer L3133-7 a L3133-12; decidir con el principal si un dia de trabajo no remunerado impuesto por ley entra en el esquema y por que constructo."}
+  ]
+}

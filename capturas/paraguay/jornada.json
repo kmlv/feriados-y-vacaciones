@@ -1,0 +1,72 @@
+{
+ "_": "JORNADA SEMANAL LEGAL ORDINARIA. Trabajador de referencia: sector privado formal, jornada completa, Asuncion. Lote 5.",
+ "unidad": "PRY",
+ "jurisdiccion_de_referencia": "Asuncion",
+ "capturado_por": "jornada · lote 5",
+ "fecha_captura_utc": "2026-08-11T05:38:11Z",
+ "fuentes": {
+  "J1": {
+   "cita": "Ley N 496/95, que modifica, amplia y deroga articulos de la Ley 213/93, Código del Trabajo - art. 1, texto vigente del art. 194",
+   "url": "https://oig.cepal.org/sites/default/files/1994_ley496_pry.pdf",
+   "nivel_de_fuente": 3,
+   "publicacion": "1995-08-22",
+   "literal_relevante": "Art. 194.- La jornada ordinaria de trabajo efectivo no podra exceder, salvo casos especiales previstos en este Codigo, de ocho horas por dia o cuarenta y ocho horas semanales cuando el trabajo fuere diurno, y de siete horas por dia o 42 horas en la semana cuando el trabajo fuese nocturno.",
+   "nota": "PDF de la Ley 496/95 republicado por el Observatorio de Igualdad de Genero de la CEPAL, leido en texto completo. NIVEL 3 porque el republicador no es el Estado paraguayo: bacn.gov.py devolvio 403. IMPORTA QUE SEA ESTA Y NO LA 213/93: la Ley 496/95 lista el art. 194 entre los que modifica, asi que el texto del codigo de 1993 esta superado. El contenido resulta ser el mismo -48 y 8-, pero eso solo se sabe habiendo leido las dos."
+  },
+  "J2": {
+   "cita": "Ley N 213/93, Código del Trabajo, arts. 213, 215 y 217 - descansos legales. No modificados por la Ley 496/95",
+   "url": "https://oig.cepal.org/sites/default/files/1993_ley213_pry.pdf",
+   "nivel_de_fuente": 3,
+   "nota": "Leido en texto completo. Se verifico contra la lista del art. 1 de la Ley 496/95 que ninguno de estos tres articulos figura entre los modificados, asi que el texto de 1993 sigue siendo el vigente."
+  },
+  "J3": {
+   "cita": "Constitución Nacional de la República del Paraguay (1992), art. 91 - de las jornadas de trabajo y de descanso",
+   "url": "https://www.bacn.gov.py/leyes-paraguayas/9580/constitucion-nacional-",
+   "nivel_de_fuente": 4,
+   "nota": "Se cita porque las 48 horas paraguayas tienen rango CONSTITUCIONAL, no solo legal, y eso condiciona cualquier reforma. No leida en literal: bacn.gov.py devolvio 403 y el contenido viene de un solo resumen."
+  },
+  "J4": {
+   "cita": "Ley N 7544/2025, que determina los feriados nacionales de la República del Paraguay, establece los feriados moviles y faculta al Poder Ejecutivo a instituir otros feriados en situaciones especiales",
+   "url": "https://silpy.congreso.gov.py/web/descarga/resolucion-477881?preview=",
+   "nivel_de_fuente": 2,
+   "publicacion": "2025",
+   "literal_relevante": "Articulo 3.- [Facultase al Poder Ejecutivo a] trasladar anualmente, por Decreto, los Feriados Nacionales mencionados en el articulo 2 [...] a los dias lunes, anterior o siguiente.",
+   "nota": "Leida en el SILpy, sistema de informacion legislativa del Congreso paraguayo. Deroga las leyes 08/90, 715/1995, 1601/2000, 1723/2001 y 4531/2011. Reforma dentro de la ventana."
+  }
+ },
+ "jornada": {
+  "horas_semanales_max": 48,
+  "horas_diarias_max": 8,
+  "dias_ordinarios": 6,
+  "dias_ordinarios_origen": "derivado_de_topes",
+  "literal": "Art. 194.- La jornada ordinaria de trabajo efectivo no podra exceder, salvo casos especiales previstos en este Codigo, de ocho horas por dia o cuarenta y ocho horas semanales cuando el trabajo fuere diurno, y de siete horas por dia o 42 horas en la semana cuando el trabajo fuese nocturno. || Art. 215.- Con el fin exclusivo de permitir a los trabajadores el descanso semanal desde el mediodia del sabado, por acuerdo entre las partes, podran distribuirse las cuarenta y ocho horas semanales de trabajo, ampliando la jornada ordinaria. Esta ampliacion no constituira trabajo extraordinario.",
+  "traduccion": null,
+  "fuente": "J1",
+  "nota": "SEIS DIAS, DERIVADOS DE LOS DOS TOPES: 48 entre 8 da 6. Es el caso que el encargo describe como derivable, y aqui hay ademas una confirmacion textual independiente. El art. 215 solo tiene sentido si la semana base es de seis dias: permite pactar el reparto de las 48 horas ALARGANDO la jornada diaria con el fin exclusivo de liberar la tarde del sabado, y aclara que ese alargamiento no es hora extra. Una ley que necesita autorizar expresamente el 'sabado ingles' esta diciendo que su regla por defecto es trabajar el sabado. || Trabajo nocturno 7 y 42, mixto 7,5 y 45 (art. 196), insalubre 6 y 36 (art. 198): regimenes especiales, no el del trabajador de referencia. || Las 48 horas tienen respaldo constitucional en el art. 91 de la Constitucion de 1992, no solo legal."
+ },
+ "descanso_semanal": {
+  "dias": 1,
+  "cuales": "domingo, declarado como normalidad",
+  "literal": "Art. 213.- Todo trabajador tendra derecho a un dia de descanso semanal que normalmente sera el domingo. Excepcionalmente, puede estipularse un periodo integro de veinticuatro horas consecutivas de descanso, en dia distinto laboral y dentro de la siguiente semana a cambio del descanso dominical, en los casos siguientes: a) trabajos no susceptibles de interrupcion [...]; b) labores de reparacion y limpieza de maquinarias [...]; y c) trabajos que eventualmente sean de evidente y urgente necesidad [...].",
+  "traduccion": null,
+  "fuente": "J2",
+  "nota": "Un solo dia y el domingo nombrado con 'normalmente', que es mas fuerte que 'en la medida de lo posible' pero menos que un mandato: el propio articulo abre tres supuestos tasados de sustitucion, y en esos casos el descanso se corre a otro dia laboral dentro de la semana siguiente. El art. 212 anade el descanso diario minimo de diez horas entre jornadas. El art. 217 declara que los feriados de ley son tambien dias de descanso obligatorio."
+ },
+ "traslado_por_defecto": {
+  "existe": false,
+  "regla": "se pierde",
+  "alcance": null,
+  "literal": null,
+  "fuente": "J4",
+  "nota": "No hay regla general para el feriado que cae en el descanso semanal. La Ley 7544/2025, que es hoy el regimen entero de feriados nacionales, no contiene ninguna disposicion sobre coincidencia con sabado o domingo; se verifico buscandola. El feriado en domingo se solapa con el descanso dominical del art. 213 y se pierde. || CUIDADO CON EL FALSO POSITIVO, QUE AQUI ES GRANDE: Paraguay SI mueve feriados a lunes, y es lo primero que aparece al buscar. Pero el art. 3 de la Ley 7544/2025 es una FACULTAD DISCRECIONAL del Poder Ejecutivo, ejercida por decreto ano a ano, y solo sobre los cuatro 'feriados moviles' que enumera su art. 2. No es automatica, no es general y no se dispara por caer en el descanso semanal. Codificarla como traslado por defecto convertiria una decision anual del Ejecutivo en una regla de derecho."
+ },
+ "reformas_en_la_ventana": [
+  {
+   "instrumento": "Ley N 7544/2025, de feriados nacionales",
+   "anio": 2025,
+   "que_cambio": "Reescribe entero el regimen de feriados: fija la lista, crea la categoria de 'feriados moviles' -cuatro dias que el Ejecutivo puede correr al lunes anterior o siguiente por decreto anual-, y lo faculta a instituir hasta tres feriados adicionales al ano para promover turismo y actividad economica o celebrar ocasiones especiales. Deroga las leyes 08/90, 715/1995, 1601/2000, 1723/2001 y 4531/2011. No toca la jornada."
+  }
+ ],
+ "reformas_en_la_ventana_nota": "La jornada de 48 horas NO cambio entre 2016 y 2026: el art. 194 sigue con la redaccion que le dio la Ley 496/95 y ademas esta anclado en el art. 91 de la Constitucion, lo que exigiria reforma constitucional para bajarlo por debajo de ese techo. La Ley 6531/2020, que aparece al buscar 'jornada' en el repertorio paraguayo, establece horario escalonado y jornada acumulativa voluntaria para ENTIDADES DEL ESTADO, no para el sector privado, y por eso no entra.",
+ "pendiente": "Ningun texto paraguayo se leyo en fuente estatal: bacn.gov.py devolvio 403 en todas las rutas y los codigos se leyeron en republicaciones de la CEPAL (nivel 3). La Ley 7544/2025 si se leyo en el sistema del Congreso (nivel 2), pero solo en resumen articulado, no palabra por palabra en todos sus articulos. El art. 91 de la Constitucion descansa en una sola secundaria (nivel 4) y deberia subirse."
+}

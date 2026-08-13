@@ -1,0 +1,278 @@
+{
+ "_": "Captura de Mexico. CAPTURA NO CIEGA: ver notes/04-incidente-contaminacion-cbr.md. Vi la escala de antiguedad del CBR antes de capturar. La marca viaja con el dato.",
+ "captura_ciega": false,
+ "causa_no_ciega": "extractor de citas defectuoso, incidente 2026-08-09",
+ "unidad": "MEX",
+ "jurisdiccion_de_referencia": "Ciudad de Mexico (mas poblada)",
+ "fecha_captura_utc": "2026-08-09T22:58:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Ley Federal del Trabajo, articulos 74, 76 y 78",
+   "nivel_de_fuente": 2,
+   "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT.pdf",
+   "nota": "Camara de Diputados, texto vigente. PENDIENTE archivar el PDF y verificar el literal."
+  },
+  "F2": {
+   "cita": "DECRETO por el que se reforman los articulos 76 y 78 de la Ley Federal del Trabajo, en materia de vacaciones",
+   "nivel_de_fuente": 1,
+   "url": "https://dof.gob.mx/nota_detalle.php?codigo=5675889&fecha=27/12/2022",
+   "publicacion_dof": "2022-12-27",
+   "vigencia": "2023-01-01"
+  },
+  "F3": {
+   "cita": "DECRETO que reforma la fraccion VII del artículo 74 de la Ley Federal del Trabajo",
+   "nivel_de_fuente": 1,
+   "publicacion_dof": "2024-09-30",
+   "nota": "Diario Oficial de la Federacion, dispositivo localizado. Vigencia al dia siguiente de su publicacion.",
+   "url": "https://dof.gob.mx/nota_detalle.php?codigo=5739950&fecha=30/09/2024"
+  }
+ },
+ "reforma_de_vacaciones": {
+  "instrumento": "Decreto DOF 27-dic-2022",
+  "fecha_publicacion": "2022-12-27",
+  "fecha_vigencia": "2023-01-01",
+  "nota": "PROMULGACION DISTINTA DE VIGENCIA, que es por lo que Mexico entro al piloto. Ejercita eventos_reforma + reforma_versiones a la vez.",
+  "estado_anterior": {
+   "dias": 6,
+   "tipo_de_dia": "laborables"
+  },
+  "estado_nuevo": {
+   "dias": 12,
+   "tipo_de_dia": "laborables"
+  },
+  "delta": "+6 dias en el primer ano. Duplica el minimo."
+ },
+ "vacaciones": {
+  "texto_legal_dias": 12,
+  "tipo_de_dia": "laborables",
+  "literal_art_76": "Las personas trabajadoras que tengan mas de un ano de servicios disfrutaran de un periodo anual de vacaciones pagadas, que en ningun caso podra ser inferior a doce dias laborables, y que aumentara en dos dias laborables, hasta llegar a veinte, por cada ano subsecuente de servicios. A partir del sexto ano, el periodo de vacaciones aumentara en dos dias por cada cinco de servicios.",
+  "periodo_de_calificacion_meses": 12,
+  "escala_antiguedad": {
+   "presente": true,
+   "estructura": "12 al primer ano; +2 por ano hasta 20 (o sea hasta el quinto ano); desde el sexto, +2 por cada 5 anos de servicio",
+   "nota": "DOS REGIMENES DISTINTOS EN LA MISMA ESCALA: incremento anual hasta el tope de 20, y despues incremento quinquenal. El trabajador de referencia (12 meses exactos) toma 12."
+  },
+  "valor_trabajador_de_referencia": 12,
+  "colocacion": {
+   "bloque_minimo_dias": 12,
+   "literal_art_78": "Del total del periodo que le corresponda conforme a lo previsto en el articulo 76 de esta Ley, la persona trabajadora disfrutara de doce dias de vacaciones continuos, por lo menos. Dicho periodo, a potestad de la persona trabajadora podra ser distribuido en la forma y tiempo que asi lo requiera.",
+   "iniciativa": "DEL TRABAJADOR",
+   "nota": "HALLAZGO. docs/07-matriz-mecanismos.md daba 'la iniciativa del trabajador en las reglas de colocacion' como DESCONOCIDO y exigia busqueda dirigida previa. Aparece aqui, con literal explicito: 'a potestad de la persona trabajadora'. Mexico ejercita el mecanismo que ninguna unidad tenia asignado."
+  },
+  "estado_verificacion": "verificado_secundaria"
+ },
+ "feriados": {
+  "estado": "COMPLETO para 2026; la linea base 2016 difiere en la fraccion VII",
+  "fuente": "F1",
+  "literal_fuente": "Articulo 74 LFT, fracciones I a IX",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Año Nuevo",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "Conmemoración del 5 de febrero",
+    "clase_de_regla": "ordinal",
+    "ordinal": 1,
+    "dia_semana": 1,
+    "mes": 2,
+    "nota": "PRIMER LUNES DE FEBRERO. Clase ordinal, que ninguna otra unidad del piloto ejercita."
+   },
+   {
+    "fecha": null,
+    "nombre": "Conmemoración del 21 de marzo",
+    "clase_de_regla": "ordinal",
+    "ordinal": 3,
+    "dia_semana": 1,
+    "mes": 3
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Día del Trabajo",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "09-16",
+    "nombre": "Independencia",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "Conmemoración del 20 de noviembre",
+    "clase_de_regla": "ordinal",
+    "ordinal": 3,
+    "dia_semana": 1,
+    "mes": 11
+   },
+   {
+    "fecha": "12-01",
+    "nombre": "Transmisión del Poder Ejecutivo Federal",
+    "clase_de_regla": "fija",
+    "recurrencia": "recurrente",
+    "periodo_anios": 6,
+    "feriado_id_compartido": "mex-transmision",
+    "desde": 1970,
+    "hasta": 2024,
+    "nota": "Version vigente al corte 2016. La reforma de 2024 la sustituyo.",
+    "ancla_anio": 1970,
+    "literal_ancla": "El ciclo sexenal es el del mandato presidencial. La version del 1 de diciembre ancla en 1970; la del 1 de octubre, en 2024, que es la primera transmision con la fecha nueva."
+   },
+   {
+    "fecha": "10-01",
+    "nombre": "Transmisión del Poder Ejecutivo Federal",
+    "clase_de_regla": "fija",
+    "recurrencia": "recurrente",
+    "periodo_anios": 6,
+    "feriado_id_compartido": "mex-transmision",
+    "desde": 2024,
+    "instrumento": "DOF 2024-09-30",
+    "nota": "MISMO FERIADO, regla nueva. No es un feriado anadido: modelarlo como tal daria un delta falso de +1 en Mexico.",
+    "ancla_anio": 2024,
+    "literal_ancla": "El ciclo sexenal es el del mandato presidencial. La version del 1 de diciembre ancla en 1970; la del 1 de octubre, en 2024, que es la primera transmision con la fecha nueva."
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Navidad",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "Jornada electoral",
+    "clase_de_regla": "remision_normativa",
+    "literal": "El que determinen las leyes federales y locales electorales, en el caso de elecciones ordinarias, para efectuar la jornada electoral",
+    "nota": "La fecha existe pero vive en otro cuerpo normativo. Se cita a que remite; no se inventa la fecha ni se calcula desde la LFT.",
+    "instrumento_remitido": "Leyes federales y locales electorales (jornada electoral ordinaria)"
+   }
+  ],
+  "total_2026": "8 fechas ciertas mas la electoral; el sexenal no cae en 2026",
+  "nota_panel": "En 2016 el sexenal era el 1 de diciembre y tampoco caia. El conteo comparable entre cortes NO cambia por esa fraccion, pero la REGLA si cambio: es una reforma de reglas sin cambio de quantum, que es uno de los tipos de evento que el ledger preve."
+ },
+ "reformas_de_feriados": [
+  {
+   "instrumento": "DOF 2024-09-30",
+   "que_cambio": "fraccion VII del articulo 74: 1 de diciembre -> 1 de octubre",
+   "tipo": "reforma de reglas sin cambio de quantum",
+   "fuente": "F3"
+  }
+ ],
+ "corte_2016": {
+  "estado": "verificado_parcial",
+  "nota": "El conteo no cambia. Lo que cambio es la REGLA del feriado sexenal: de 1 de diciembre a 1 de octubre, DOF 2024."
+ },
+ "vacaciones_normalizado": {
+  "dias": 12,
+  "tipo": "habil",
+  "base": 5,
+  "imputacion": "extienden",
+  "literal": "que en ningun caso podra ser inferior a doce dias laborables",
+  "meses": 12,
+  "escala": [
+   [
+    12,
+    24,
+    12
+   ],
+   [
+    24,
+    36,
+    14
+   ],
+   [
+    36,
+    48,
+    16
+   ],
+   [
+    48,
+    60,
+    18
+   ],
+   [
+    60,
+    72,
+    20
+   ],
+   [
+    72,
+    null,
+    22
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "trabajador",
+   "veto": "ninguno",
+   "literal": "a potestad de la persona trabajadora podra ser distribuido en la forma y tiempo que asi lo requiera",
+   "instrumento": "ley",
+   "silencio": "sin_regla"
+  },
+  "imputacion_nota": "El derecho es en dias LABORABLES. Los descansos semanales y dias de descanso obligatorio que caen dentro del periodo no se cuentan como vacaciones. Misma estructura que Alemania.",
+  "version_anterior": {
+   "dias": 6,
+   "tipo": "habil",
+   "base": 5,
+   "desde": "2016-01-01",
+   "hasta": "2023-01-01",
+   "instrumento": "Ley Federal del Trabajo, art. 76, texto anterior a la reforma de «vacaciones dignas»",
+   "literal": "Art. 76 (texto vigente hasta el 31-dic-2022): «Los trabajadores que tengan mas de un anio de servicios disfrutaran de un periodo anual de vacaciones pagadas, que en ningun caso podra ser inferior a seis dias laborables, y que aumentara en dos dias laborables, hasta llegar a doce, por cada anio subsecuente de servicios.»",
+   "fuente": "F2",
+   "nota": "LA REFORMA ESTA EN LA PROPIA CAPTURA y no se estaba usando: F2 es el decreto del DOF de 27-dic-2022 que reforma los arts. 76 y 78, con vigencia 1-ene-2023. Los doce dias que registrabamos son los de DESPUES; al corte de 2016 regian SEIS. Sin esta version, el panel de vacaciones daba delta cero para Mexico, que es justo el caso que el plan de piloto eligio por ser «la unica reforma verificada del periodo en vacaciones».",
+   "escala": [
+    [
+     12,
+     24,
+     6
+    ],
+    [
+     24,
+     36,
+     8
+    ],
+    [
+     36,
+     48,
+     10
+    ],
+    [
+     48,
+     60,
+     12
+    ],
+    [
+     60,
+     120,
+     14
+    ],
+    [
+     120,
+     180,
+     16
+    ],
+    [
+     180,
+     240,
+     18
+    ],
+    [
+     240,
+     null,
+     20
+    ]
+   ],
+   "nota_escala": "Del texto anterior del art. 76: «no podra ser inferior a seis dias laborables, y que aumentara en dos dias laborables, hasta llegar a doce, por cada anio subsecuente», y su segundo parrafo «despues del cuarto anio, el periodo de vacaciones aumentara en dos dias por cada cinco de servicios».",
+   "nivel_de_fuente": 1,
+   "_nivel": "El nivel faltaba y el cargador concedia `verificado_primaria` al corte antiguo por el mero hecho de existir esta version. Es 1 y esta citado: F2 es el DECRETO del DOF que reforma los arts. 76 y 78, o sea el instrumento que fija a la vez el texto anterior y el cambio. Se escribe para que el estado se GANE y no se conceda."
+  }
+ },
+ "eventos_reforma": [
+  {
+   "_": "El ledger llevaba a Israel y a Eslovaquia y NO a Mexico, que es la reforma con la que el piloto justificó tener ledger. La captura la documenta entera desde el principio —promulgación distinta de vigencia, que es por lo que México entró— y aun así la fila no existía: el dato estaba y nadie lo conectaba, tercera vez hoy.",
+   "tipo": "cambio_de_escala_de_antiguedad",
+   "que": "Vacaciones: el derecho del primer año pasa de 6 a 12 días laborables",
+   "vigencia_desde": "2023-01-01",
+   "permanente_o_temporal": "permanente",
+   "cita": "Decreto publicado en el DOF el 27-dic-2022, en vigor el 1-ene-2023 — reforma de los arts. 76 y 78 de la Ley Federal del Trabajo. La promulgación y la vigencia caen en años distintos, y el corte del proyecto es el 1 de enero: por eso México necesita las dos fechas y no una."
+  }
+ ]
+}

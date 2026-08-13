@@ -1,0 +1,168 @@
+{
+ "_": "CAPTURA CIEGA de Australia. Jurisdiccion de referencia Sidney, Nueva Gales del Sur: los feriados son estatales, el derecho a vacaciones es federal.",
+ "unidad": "AUS",
+ "jurisdiccion_de_referencia": "Sidney - Nueva Gales del Sur (mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 8",
+ "fecha_captura_utc": "2026-08-10T19:45:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Fair Work Act 2009 (Cth), ss. 87, 88 y 89 - National Employment Standards, Division 6 Annual leave",
+   "nivel_de_fuente": 2,
+   "url": "https://www.legislation.gov.au/C2009A00028/latest/text",
+   "nota": "El Federal Register of Legislation es el repositorio oficial y calificaria como nivel 1, pero el extractor devolvio texto deformado -para s.89 devolvio una frase que NO es la de la ley- asi que NO lo cuento como leido. El literal de s.88 y s.89 que se cita abajo se confirmo contra AustLII, que es nivel 3. Se deja nivel 2 y no se sube por acumulacion. PENDIENTE archivar la compilacion vigente al 1-ene-2026."
+  },
+  "F2": {
+   "cita": "Public Holidays Act 2010 (NSW) No 115, s. 4 y Schedule 1",
+   "nivel_de_fuente": 2,
+   "url": "https://legislation.nsw.gov.au/view/html/inforce/current/act-2010-115",
+   "nota": "legislation.nsw.gov.au respondio 403 al extractor y bloqueo tambien la descarga directa. La lista de abajo viene de F3, que es el portal del gobierno de NSW. PENDIENTE archivar el Schedule 1 y verificar el literal de las reglas de dia adicional."
+  },
+  "F3": {
+   "cita": "NSW Government - public holidays (portal oficial del estado)",
+   "nivel_de_fuente": 2,
+   "url": "https://www.nsw.gov.au/about-nsw/public-holidays"
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO para los feriados estandar de NGS. El Bank Holiday queda fuera y se explica.",
+  "fuente": "F2",
+  "literal": "Public Holidays Act 2010 (NSW) s. 4: los dias del Schedule 1 son 'standard public holidays' para todo el Estado.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "New Year's Day",
+    "clase_de_regla": "fija",
+    "regla_de_traslado": "si cae sabado o domingo hay dia adicional el lunes siguiente"
+   },
+   {
+    "fecha": "01-26",
+    "nombre": "Australia Day",
+    "clase_de_regla": "fija",
+    "regla_de_traslado": "si cae sabado o domingo NO hay feriado ese dia; el lunes siguiente lo es en su lugar"
+   },
+   {
+    "fecha": null,
+    "nombre": "Good Friday",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2"
+   },
+   {
+    "fecha": null,
+    "nombre": "Easter Saturday",
+    "clase_de_regla": "computable",
+    "regla": "pascua-1"
+   },
+   {
+    "fecha": null,
+    "nombre": "Easter Sunday",
+    "clase_de_regla": "computable",
+    "regla": "pascua+0"
+   },
+   {
+    "fecha": null,
+    "nombre": "Easter Monday",
+    "clase_de_regla": "computable",
+    "regla": "pascua+1"
+   },
+   {
+    "fecha": "04-25",
+    "nombre": "Anzac Day",
+    "clase_de_regla": "fija",
+    "regla_de_traslado": "si cae en fin de semana hay dia adicional; en 2026 cayo sabado y el adicional fue el lunes 27 de abril"
+   },
+   {
+    "fecha": null,
+    "nombre": "King's Birthday",
+    "clase_de_regla": "ordinal",
+    "ordinal": 2,
+    "dia_semana": 1,
+    "mes": 6,
+    "nota": "Segundo lunes de junio. Se llamaba Queen's Birthday hasta 2023; el cambio es de nombre, no de fecha ni de regla."
+   },
+   {
+    "fecha": null,
+    "nombre": "Labour Day",
+    "clase_de_regla": "ordinal",
+    "ordinal": 1,
+    "dia_semana": 1,
+    "mes": 10
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Christmas Day",
+    "clase_de_regla": "fija",
+    "regla_de_traslado": "si cae sabado, dia adicional el lunes siguiente; si cae domingo, el martes siguiente"
+   },
+   {
+    "fecha": "12-26",
+    "nombre": "Boxing Day",
+    "clase_de_regla": "fija",
+    "regla_de_traslado": "si cae en fin de semana hay dia adicional; en 2026 cayo sabado y el adicional fue el lunes 28 de diciembre"
+   }
+  ],
+  "subnacionales": [],
+  "nota_subnacionales": "No hay feriado municipal de Sidney distinto de los estatales. Los feriados australianos son estatales, y NGS ya es el nivel subnacional: la lista de arriba ES la de la jurisdiccion de referencia, no la federal. Australia no tiene una lista nacional de feriados.",
+  "fuera_de_lista": {
+   "bank_holiday": {
+    "fecha": "primer lunes de agosto",
+    "por_que": "El portal de NGS dice expresamente que NO es un feriado declarado: alcanza a la banca minorista por legislacion aparte. Cargarlo como descanso pagado obligatorio universal seria falso.",
+    "clase_que_tendria": "ordinal 1, dia_semana 1, mes 8"
+   }
+  },
+  "nota_traslado": "Los 'additional days' de NGS no son feriados nuevos: son la sustitucion cuando el nominal cae en fin de semana. El esquema tiene `regla_de_traslado_aplicable` y el contrato de captura no lo expone, asi que los seis dias con regla propia entran indistinguibles de los que no la tienen."
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "_": "Rama (a) por comparacion de consolidados fechados, que es el metodo de Polonia. Y con la comprobacion que evita el falso positivo: el volumen de texto del registro NO trae tabla de enmiendas, asi que la ausencia del artículo en ella no habria significado nada. Por eso se comparo versión contra versión en vez de buscar una nota.",
+     "buscado_en": "Registro Federal de Legislacion de Australia, dos compilaciones fechadas del Fair Work Act 2009 enfrentadas: C2016C00050, vigente del 1 de enero al 4 de marzo de 2016, y C2026C00355, de 7 de julio de 2026",
+     "cita": "El quantum es el mismo en los dos cortes: «(a) 4 weeks of paid annual leave», con cinco semanas para el trabajo por turnos. Lo que SI cambio dentro de la ventana es la base de devengo: en 2016 el artículo decia «For each year of service with his or her employer» y hoy dice «For each year of service with an employer (other than periods of employment as a casual employee of the employer)». Se excluyeron los periodos de empleo eventual del computo. Cuatro semanas antes y ahora; el instrumento que introdujo la exclusion no quedo identificado y va al ledger sin nombre.",
+     "nivel_de_fuente": 1,
+     "indice_registra_modificaciones": true,
+     "indice_como_se_comprobo": "El registro publica el texto a fecha dada y lo etiqueta con su numero de compilacion y su periodo de vigencia. Registra la presencia: las dos versiones difieren y se ve en que.",
+     "fecha_busqueda": "2026-08-11"
+   },
+  "dias": 4,
+  "tipo": "semanas",
+  "base": 5,
+  "imputacion": "extienden",
+  "meses": 0,
+  "literal": "Fair Work Act 2009 s. 87(1): por cada ano de servicio el trabajador tiene derecho a 4 semanas de licencia anual pagada, o 5 semanas si califica como shiftworker bajo s. 87(3). s. 87(2): el derecho se devenga progresivamente durante el ano de servicio segun las horas ordinarias de trabajo, y se acumula de ano en ano.",
+  "escala": [
+   [
+    0,
+    null,
+    4
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "negociada",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "s. 88(1) 'Paid annual leave may be taken for a period agreed between an employee and his or her employer.' s. 88(2) 'The employer must not unreasonably refuse to agree to a request by the employee to take paid annual leave.'",
+   "resolucion_desacuerdo": "limite_razonabilidad",
+   "nota_resolucion": "s. 88(2): el empleador «must not unreasonably refuse». Puede negarse, pero debe haber motivo."
+  },
+  "imputacion_nota": "ARTICULO EXPLICITO Y APARTE, que es lo raro. s. 89(1): 'If the period during which an employee takes paid annual leave includes a day or part-day that is a public holiday in the place where the employee is based for work purposes, the employee is taken not to be on paid annual leave on that public holiday.' No hace falta derivarlo del tipo de dia: la ley lo dice. Nota adicional que el esquema no guarda: s.89 habla de 'day or part-day', o sea contempla medio feriado dentro del permiso.",
+  "nota_base": "`base` = 5 NO ES UN DATO DE LA NORMA. La s. 87(2) define el devengo por HORAS ordinarias, no por dias: la 'semana' australiana es la semana ordinaria del trabajador, sea de cinco dias o de otra forma. El esquema exige `base_semanal_dias` no nulo en cuanto el tipo no es calendario, asi que hay que poner un numero donde la ley no pone ninguno. Se pone 5 por el trabajador de referencia a tiempo completo y se declara.",
+  "nota_meses": "`meses` = 0 y es literal: Australia NO tiene periodo de calificacion. El derecho se devenga desde el primer dia y se puede tomar por acuerdo a medida que se devenga. Ver hueco H2: con este valor el cargador rompe.",
+  "veto_no_representable": "s. 88(2) impone un estandar de RAZONABILIDAD sobre la negativa del empleador. El esquema solo admite `veto_empleador` cuando la iniciativa es 'trabajador', y su catalogo -ninguno, causal_operativa, causal_tasada_umbral_alto, discrecional- no tiene un valor de razonabilidad. La s. 88(1) dice 'agreed', que es 'negociada'; la s. 88(2) es un piso sobre la negativa que se pierde. Codificarlo como trabajador+causal_operativa seria estrechar el estandar a causas operativas, que no es lo que dice; como trabajador+discrecional seria borrarlo."
+ },
+ "corte_2016": {
+  "estado": "supuesto_sin_cambio",
+  "nota": "No halle reforma de las ss. 87-89 de la Fair Work Act ni del set de feriados estandar de NGS entre 2016 y 2026. Lo unico que aparecio fue el renombre de Queen's a King's Birthday en 2023 y el dia unico de duelo nacional del 22-sep-2022, ninguno de los dos cambia el conteo. NO ES 'verificado': no corri la lista completa de leyes modificatorias de ninguna de las dos normas."
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "Ni el Federal Register of Legislation ni legislation.nsw.gov.au se dejaron extraer. El literal de ss. 88 y 89 se confirmo contra AustLII, nivel 3, y el Schedule 1 de NGS contra el portal del estado, nivel 2.",
+   "como_se_cierra": "Archivar la compilacion de la Fair Work Act vigente al 1-ene-2026 y el Schedule 1 del Public Holidays Act 2010."
+  },
+  {
+   "id": "H2",
+   "que": "COMPROBADO Y SIN CONSECUENCIA, se deja anotado porque el riesgo es real y ya estaba cerrado. `meses` = 0 es un valor legitimo y el cargador lo maneja: omite el tramo inicial de cero en vez de emitir un tramo degenerado [0,0,0). La unidad carga y las validaciones dan cero.",
+   "nota": "El guardia depende de que 0 sea falso en Python (`if v.get('meses')`), lo que da el resultado correcto por la razon accidental. Si algun dia se distinguiera 'sin periodo de calificacion' de 'periodo no capturado', el guardia dejaria de servir."
+  }
+ ]
+}

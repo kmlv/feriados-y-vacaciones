@@ -1,0 +1,56 @@
+{
+  "_": "JORNADA SEMANAL LEGAL ORDINARIA de Nueva Zelanda. Trabajador de referencia: sector privado formal, jornada completa, Auckland. Caso raro: la ley SI nombra los cinco dias, pero como deber de esfuerzo y no como regla.",
+  "unidad": "NZL",
+  "jurisdiccion_de_referencia": "Auckland",
+  "capturado_por": "jornada · lote 1",
+  "fecha_captura_utc": "2026-08-11T05:55:37Z",
+
+  "fuentes": {
+    "J1": {
+      "cita": "Minimum Wage Act 1983, s. 11B ('40-hour 5-day week')",
+      "url": "https://www.legislation.govt.nz/act/public/1983/0115/latest/DLM74110.html",
+      "nivel_de_fuente": 1,
+      "publicacion": "1983-12-16",
+      "nota": "legislation.govt.nz es la publicacion oficial de la Parliamentary Counsel Office. Version consultada: 'as at 20 December 2023'. La s. 11B fue sustituida el 2 de octubre de 2000 por la s. 240 de la Employment Relations Act 2000."
+    },
+    "J2": {
+      "cita": "Holidays Act 2003, ss. 44, 45 y 45A",
+      "url": "https://www.legislation.govt.nz/act/public/2003/0129/latest/DLM236887.html",
+      "nivel_de_fuente": 1,
+      "nota": "Mismo repositorio oficial. La s. 45A fue introducida el 1 de enero de 2014 por la s. 5 de la Holidays (Full Recognition of Waitangi Day and ANZAC Day) Amendment Act 2013."
+    }
+  },
+
+  "jornada": {
+    "horas_semanales_max": 40,
+    "horas_diarias_max": null,
+    "dias_ordinarios": 5,
+    "dias_ordinarios_origen": "norma",
+    "literal": "s. 11B Minimum Wage Act 1983, '40-hour 5-day week': '(1) Subject to subsections (2) and (3), every employment agreement under the Employment Relations Act 2000 must fix at not more than 40 the maximum number of hours (exclusive of overtime) to be worked in any week by any worker bound by that employment agreement. (2) The maximum number of hours (exclusive of overtime) fixed by an employment agreement to be worked by any worker in any week may be fixed at a number greater than 40 if the parties to the agreement agree. (3) Where the maximum number of hours (exclusive of overtime) fixed by an employment agreement to be worked by any worker in any week is not more than 40, the parties to the agreement must endeavour to fix the daily working hours so that those hours are worked on not more than 5 days of the week.'",
+    "traduccion": "s. 11B, 'Semana de 40 horas y 5 dias': '(1) Con sujecion a los apartados (2) y (3), todo acuerdo de empleo bajo la Employment Relations Act 2000 debe fijar en no mas de 40 el numero maximo de horas (excluidas las extraordinarias) a trabajar en cualquier semana por el trabajador vinculado por ese acuerdo. (2) Ese numero maximo podra fijarse en una cifra superior a 40 si las partes del acuerdo lo convienen. (3) Cuando ese numero maximo no sea superior a 40, las partes del acuerdo deben procurar fijar las horas diarias de modo que se trabajen en no mas de 5 dias de la semana.'",
+    "fuente": "J1",
+    "nota": "HAY QUE LEER LOS TRES APARTADOS JUNTOS O EL DATO ENGANA. El apartado (1) parece un tope de 40 horas; el (2) lo desactiva permitiendo pactar mas, sin techo alguno. Nueva Zelanda no tiene, en su ley general, un limite maximo de horas semanales: tiene un valor por defecto contractual. Y el (3) es aun mas suave: cuando las horas no pasan de 40, las partes 'must endeavour', deben PROCURAR, repartirlas en no mas de cinco dias. Es un deber de esfuerzo, no una prohibicion. — Registro dias_ordinarios = 5 con origen 'norma' porque el numero esta escrito en la ley y hasta en el epigrafe del articulo; poner null lo borraria. Pero quien use este dato debe saber que es un cinco condicionado, que decae si se pactan mas de 40 horas y que ni siquiera entonces obliga, solo compromete a intentarlo. — Horas diarias: la ley no fija ninguna."
+  },
+
+  "descanso_semanal": {
+    "dias": null,
+    "cuales": null,
+    "literal": null,
+    "fuente": null,
+    "nota": "NO HAY. Es el hueco mas grande del lote y es un hallazgo, no una omision de la captura: la ley general neozelandesa no garantiza ningun dia de descanso semanal al trabajador adulto. La Employment Relations Act 2000 regula descansos en su Parte 6D, pero son pausas DENTRO de la jornada —rest breaks pagadas y meal breaks no pagadas, dimensionadas por horas trabajadas—, no dias libres. Lo unico que se aproxima es el efecto reflejo de la s. 11B(3): si la semana es de 40 horas y se procura repartirlas en cinco dias, sobran dos. Pero eso es una consecuencia de como se ordena el trabajo, no un derecho al descanso. La consecuencia practica para la metrica es fuerte: en Nueva Zelanda los dias de descanso semanal no son un dato legal sino contractual."
+  },
+
+  "traslado_por_defecto": {
+    "existe": true,
+    "regla": "se traslada al lunes o martes siguiente, pero SOLO si ese dia no habria sido dia de trabajo del empleado",
+    "alcance": "solo los que indica la norma: Navidad, Boxing Day, Ano Nuevo y 2 de enero (s. 45); Waitangi Day y ANZAC Day (s. 45A)",
+    "literal": "s. 45(1) Holidays Act 2003: 'For the purposes of this subpart, if any of the public holidays listed in section 44(1)(a) to (d)— (a) falls on a Saturday and the day would otherwise be a working day for the employee, the public holiday must be treated as falling on that day: (b) falls on a Saturday and the day would not otherwise be a working day for the employee, the public holiday must be treated as falling on the following Monday: (c) falls on a Sunday and the day would otherwise be a working day for the employee, the public holiday must be treated as falling on that day: (d) falls on a Sunday and the day would not otherwise be a working day for the employee, the public holiday must be treated as falling on the following Tuesday.' — s. 45(2): 'To avoid doubt, this section does not entitle an employee to more than 4 public holidays for the days listed in section 44(1)(a) to (d).'",
+    "traduccion": "s. 45(1): 'A los efectos de esta subparte, si alguno de los festivos enumerados en la s. 44(1)(a) a (d)— (a) cae en sabado y ese dia habria sido de todos modos un dia de trabajo del empleado, el festivo se considera caido en ese dia; (b) cae en sabado y ese dia no habria sido un dia de trabajo del empleado, el festivo se considera caido el lunes siguiente; (c) cae en domingo y ese dia habria sido de todos modos un dia de trabajo del empleado, el festivo se considera caido en ese dia; (d) cae en domingo y ese dia no habria sido un dia de trabajo del empleado, el festivo se considera caido el martes siguiente.'",
+    "fuente": "J2",
+    "nota": "ES EL MECANISMO MAS FINO DEL LOTE Y NO ES UN TRASLADO DE CALENDARIO, ES UN TRASLADO POR PERSONA. La condicion no es el dia de la semana sino si ese dia habria sido 'a working day for the employee': el mismo 25 de diciembre en sabado se queda en sabado para quien trabaja los sabados y se corre al lunes para quien no. La misma fecha ocupa distinto lugar segun el contrato de cada uno. Notese tambien el desplazamiento a MARTES en el caso (d), pensado para no amontonar Navidad y Boxing Day en el mismo lunes. La s. 45A hace lo propio con Waitangi Day y ANZAC Day pero solo hacia el lunes. Los otros cinco festivos neozelandeses estan definidos como lunes o como viernes, asi que nunca necesitan traslado. Y el apartado (2) pone el tope: en ningun caso mas de cuatro festivos por ese grupo de dias."
+  },
+
+  "reformas_en_la_ventana": [],
+
+  "pendiente": "Tres. (1) La ausencia de descanso semanal legal es una negativa: la verifique en el texto de la Minimum Wage Act y en la estructura de la Parte 6D de la Employment Relations Act, pero una negativa nunca queda cerrada del todo. (2) La version consultada de la Minimum Wage Act es 'as at 20 December 2023'; no verifique enmiendas posteriores. (3) La Holidays Act 2003 lleva anos en revision con un proyecto de reemplazo anunciado; no consta aprobado y no lo rastree."
+}

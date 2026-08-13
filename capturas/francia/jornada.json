@@ -1,0 +1,78 @@
+{
+  "_": "JORNADA SEMANAL LEGAL ORDINARIA. Trabajador de referencia: sector privado formal, jornada completa, Paris. Lote 5. CUIDADO: las 35 horas NO son un maximo.",
+  "unidad": "FRA",
+  "jurisdiccion_de_referencia": "Paris",
+  "capturado_por": "jornada-5",
+  "fecha_captura_utc": "2026-08-11T05:38:11Z",
+  "fuentes": {
+    "J1": {
+      "cita": "Code du travail, art. L3121-27 - duree legale de travail effectif",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020376",
+      "nivel_de_fuente": 2,
+      "publicacion": "version en vigor desde el 10-08-2016",
+      "instrumento_de_origen": "LOI n 2016-1088 du 8 aout 2016, art. 8",
+      "literal_relevante": "La duree legale de travail effectif des salaries a temps complet est fixee a trente-cinq heures par semaine.",
+      "nota": "Leido en Legifrance, que es el servicio publico oficial de difusion del derecho. Da tambien la version y el instrumento que la creo."
+    },
+    "J2": {
+      "cita": "Code du travail, arts. L3121-18 (duree maximale quotidienne) y L3121-20 (duree maximale hebdomadaire)",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033020414",
+      "nivel_de_fuente": 2,
+      "nota": "Los dos articulos son de la misma seccion 'Durees maximales de travail' y de la misma ley de 2016. El literal del L3121-20 se leyo; el del L3121-18 se leyo en su formulacion completa con las dos excepciones."
+    },
+    "J3": {
+      "cita": "Code du travail, arts. L3132-1, L3132-2 y L3132-3 - repos hebdomadaire",
+      "url": "https://code.travail.gouv.fr/code-du-travail/l3132-3",
+      "nivel_de_fuente": 2,
+      "nota": "Code du travail numerique, portal del Ministere du Travail. Los tres literales se leyeron; el L3132-2 se corroboro ademas contra su ficha en Legifrance."
+    },
+    "J4": {
+      "cita": "Code du travail, arts. L3133-1 (lista de los once jours feries), L3133-3-1 y L3133-3-2 (que feriados son chomes), L3133-4 (1 de mayo)",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006178007/",
+      "nivel_de_fuente": 2,
+      "nota": "Se consulto la estructura del capitulo de jours feries para verificar POR AUSENCIA que no existe articulo alguno sobre feriado coincidente con el descanso semanal."
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 48,
+    "horas_semanales_max_nota": "48 en una semana aislada (L3121-20) y 44 de promedio sobre doce semanas consecutivas (L3121-22). Las 35 horas NO van aqui: no son un maximo.",
+    "horas_diarias_max": 10,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "duree_legale_hebdomadaire": 35,
+    "literal": "L3121-27. La duree legale de travail effectif des salaries a temps complet est fixee a trente-cinq heures par semaine. || L3121-18. La duree quotidienne de travail effectif par salarie ne peut exceder dix heures, sauf : 1 En cas de derogation accordee par l'inspecteur du travail dans des conditions determinees par decret ; 2 En cas d'urgence, dans des conditions determinees par decret. || L3121-20. Au cours d'une meme semaine, la duree maximale hebdomadaire de travail effectif est de quarante-huit heures. || L3132-1. Il est interdit de faire travailler un meme salarie plus de six jours par semaine.",
+    "traduccion": "L3121-27. La duracion legal de trabajo efectivo de los asalariados a tiempo completo queda fijada en treinta y cinco horas por semana. || L3121-18. La duracion diaria de trabajo efectivo por asalariado no puede exceder de diez horas, salvo: 1 en caso de excepcion concedida por el inspector de trabajo en las condiciones que determine el reglamento; 2 en caso de urgencia, en las condiciones que determine el reglamento. || L3121-20. En una misma semana, la duracion maxima semanal de trabajo efectivo es de cuarenta y ocho horas. || L3132-1. Esta prohibido hacer trabajar a un mismo asalariado mas de seis dias por semana.",
+    "fuente": "J1",
+    "nota": "LAS 35 HORAS SON UN UMBRAL, NO UN TECHO, Y CAPTURARLAS COMO MAXIMO SERIA EL ERROR CLASICO SOBRE FRANCIA. El L3121-27 fija la 'duree legale': el punto a partir del cual la hora trabajada es hora extraordinaria y se paga con recargo (L3121-28). Trabajar 39 horas en Francia es perfectamente legal; lo que no es legal es no pagar las cuatro de mas como extras. El techo real es doble: 48 horas en una semana y 44 de media en doce semanas. || LOS DIAS VAN EN NULL Y ES CORRECTO. La ley francesa fija horas y prohibe pasar de seis dias, pero no dice en cuantos dias se reparten las 35. Un mismo asalariado a 35 horas puede estar en cinco dias de siete, en cuatro y medio, o en seis. Poner cinco seria rellenar."
+  },
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "domingo",
+    "literal": "L3132-2. Le repos hebdomadaire a une duree minimale de vingt-quatre heures consecutives auxquelles s'ajoutent les heures consecutives de repos quotidien prevu au chapitre Ier. || L3132-3. Dans l'interet des salaries, le repos hebdomadaire est donne le dimanche.",
+    "traduccion": "L3132-2. El descanso semanal tiene una duracion minima de veinticuatro horas consecutivas a las que se anaden las horas consecutivas de descanso diario previstas en el capitulo I. || L3132-3. En interes de los asalariados, el descanso semanal se da el domingo.",
+    "fuente": "J3",
+    "nota": "Un solo dia y el domingo esta NOMBRADO, en indicativo y sin 'en la medida de lo posible': es el principio del descanso dominical. 24 horas mas las 11 del descanso diario dan 35 horas continuas. El capitulo trae un catalogo largo de excepciones -derogaciones permanentes por sector, dominicales del alcalde, zonas turisticas y comerciales internacionales- que amplio la propia ley de 2016; son excepciones, no la regla del trabajador de referencia."
+  },
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": "se pierde",
+    "alcance": null,
+    "literal": null,
+    "fuente": "J4",
+    "nota": "No hay ninguna regla general en el Code du travail para el feriado que cae en domingo o en el dia de descanso: el capitulo de jours feries simplemente no contempla el supuesto. El feriado se pierde sin traslado, sin dia compensatorio y sin pago adicional. || Y hay un matiz que agrava el hueco: en Francia el feriado ni siquiera es, por defecto, dia no trabajado. Solo el 1 de mayo es chome por ley (L3133-4). De los otros diez del L3133-1, cuales son chomes lo decide el acuerdo de empresa o de rama (L3133-3-1) y, a falta de acuerdo, el empleador (L3133-3-2). Un feriado que ni siquiera esta garantizado como dia libre dificilmente puede tener regla de traslado."
+  },
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "LOI n 2016-1088 du 8 aout 2016 relative au travail, a la modernisation du dialogue social et a la securisation des parcours professionnels (loi Travail / El Khomri)",
+      "anio": 2016,
+      "vigencia_desde": "2016-08-10",
+      "que_cambio": "NO cambio las 35 horas, y eso es lo que hay que anotar. Lo que hizo fue reescribir y renumerar todo el titulo de duracion del trabajo en tres capas -ordre public, champ de la negociation collective, dispositions suppletives-, de donde salen los numeros actuales L3121-27, L3121-18 y L3121-20 (el L3121-27 lleva version de 10-08-2016 por el art. 8 de esta ley). En materia de feriados creo los L3133-3-1 y L3133-3-2, que trasladan al acuerdo colectivo, y en su defecto al empleador, la decision de cuales de los once feriados son chomes; antes esa determinacion era mas rigida. El efecto de fondo de la ley es que el acuerdo de empresa pasa a primar sobre el de rama en materia de duracion del trabajo."
+    },
+    {
+      "instrumento": "Ordonnance n 2017-1385 du 22 septembre 2017 relative au renforcement de la negociation collective",
+      "anio": 2017,
+      "que_cambio": "Consolida la primacia del acuerdo de empresa sobre el de rama fuera de las materias reservadas. No toca las 35 horas ni los maximos. Se anota porque desplaza aun mas la determinacion efectiva de la jornada del estatuto al convenio."
+    }
+  ],
+  "pendiente": "Los literales de L3121-22 (44 horas de promedio en doce semanas), L3133-1, L3133-3-1, L3133-3-2 y L3133-4 no se leyeron palabra por palabra; se verifico su existencia y contenido en la estructura del codigo y en resumenes de Legifrance. La 'journee de solidarite' del L3133-7 -un dia de trabajo adicional no remunerado al ano, en principio el lunes de Pentecostes- se identifico pero no se capturo: afecta al conteo de descanso anual efectivo y merece decision del principal sobre si entra en el constructo."
+}

@@ -1,0 +1,248 @@
+{
+ "_": "CAPTURA CIEGA de Argentina. Escrita leyendo el dispositivo oficial y el portal legislativo, SIN mirar el indice del CBR ni ningun dataset agregado de dias de vacaciones.",
+ "unidad": "ARG",
+ "jurisdiccion_de_referencia": "Buenos Aires - Ciudad Autonoma (mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 8",
+ "fecha_captura_utc": "2026-08-10T19:40:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Ley 27.399 - Ley de establecimiento de feriados y fines de semanas largos",
+   "nivel_de_fuente": 2,
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/280000-284999/281835/norma.htm",
+   "publicacion": "2017-10-18",
+   "nota": "InfoLEG, portal legislativo del Ministerio de Justicia. El aviso de gaceta esta en https://www.boletinoficial.gob.ar/detalleAviso/primera/172415/20171018 y NO se leyo: por eso nivel 2 y no 1. PENDIENTE archivar el aviso del Boletin Oficial y verificar el literal del art. 1 contra el."
+  },
+  "F2": {
+   "cita": "Ley 20.744 (t.o. 1976) - Regimen de Contrato de Trabajo, arts. 150 a 157",
+   "nivel_de_fuente": 2,
+   "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/25000-29999/25552/texact.htm",
+   "nota": "Texto actualizado de InfoLEG. El extractor devolvio los articulos en parafrasis y no en literal completo; los fragmentos entrecomillados de abajo son los que si vinieron textuales. PENDIENTE archivar el texto actualizado y verificar el literal de los arts. 150 y 154."
+  },
+  "F3": {
+   "cita": "Decreto de Necesidad y Urgencia 70/2023, art. 79 - sustituye el art. 154 LCT",
+   "nivel_de_fuente": 4,
+   "publicacion": "2023-12-21",
+   "nota": "NO localice el dispositivo. Lo relevante no es solo la reforma sino que su Titulo IV (Trabajo) fue SUSPENDIDO por medida cautelar de la Camara Nacional de Apelaciones del Trabajo el 2024-01-03, y no pude confirmar su estado al 1-ene-2026. Ver hueco H1."
+  },
+  "F4": {
+   "cita": "Ley 27.802 - Ley de Modernizacion Laboral",
+   "nivel_de_fuente": 1,
+   "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/339128/20260306",
+   "publicacion": "2026-03-06",
+   "nota": "POSTERIOR AL CORTE 2026 (1-ene-2026). Reescribe el art. 154 LCT con el mismo contenido que el DNU 70/2023 le habia dado -30 dias de aviso, fraccionamiento en tramos de 7 dias-. No mueve el corte, pero cierra la duda hacia adelante y por eso se registra."
+  },
+  "F5": {
+   "cita": "Resolucion 164/2025 de la Jefatura de Gabinete de Ministros - días no laborables con fines turisticos 2026",
+   "nivel_de_fuente": 4,
+   "publicacion": "2025-12-26",
+   "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/336753/20251226",
+   "nota": "No lei el dispositivo. Dictada por delegacion del Decreto 614/2025 sobre el art. 7 de la Ley 27.399."
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO para los feriados nacionales del art. 1 de la Ley 27.399. Los dias NO LABORABLES quedan fuera de `lista` a proposito: ver `no_laborables`.",
+  "fuente": "F1",
+  "literal": "Art. 1: 'Establecense como dias feriados nacionales y dias no laborables en todo el territorio de la Republica...' El articulo distingue FERIADOS NACIONALES INAMOVIBLES, FERIADOS NACIONALES TRASLADABLES y DIAS NO LABORABLES.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Año Nuevo",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "Lunes de Carnaval",
+    "clase_de_regla": "computable",
+    "regla": "pascua-48"
+   },
+   {
+    "fecha": null,
+    "nombre": "Martes de Carnaval",
+    "clase_de_regla": "computable",
+    "regla": "pascua-47"
+   },
+   {
+    "fecha": "03-24",
+    "nombre": "Día Nacional de la Memoria por la Verdad y la Justicia",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": null,
+    "nombre": "Viernes Santo",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2"
+   },
+   {
+    "fecha": "04-02",
+    "nombre": "Día del Veterano y de los Caídos en la Guerra de Malvinas",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Día del Trabajador",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "05-25",
+    "nombre": "Día de la Revolución de Mayo",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "06-20",
+    "nombre": "Paso a la Inmortalidad del General Manuel Belgrano",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "07-09",
+    "nombre": "Día de la Independencia",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "12-08",
+    "nombre": "Inmaculada Concepción de María",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Navidad",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "06-17",
+    "nombre": "Paso a la Inmortalidad del General Martín Miguel de Güemes",
+    "clase_de_regla": "fija",
+    "desde": 2018,
+    "instrumento": "Ley 27.399",
+    "regla_de_traslado": "trasladable: martes o miercoles al lunes anterior; jueves o viernes al lunes siguiente",
+    "nota": "PENDIENTE confirmar el `desde`. Una secundaria de nivel 4/5 dice que el 17 de junio no era feriado nacional antes de la Ley 27.399 y que el primero fue el de 2018. Si esa afirmacion cae, el conteo del corte 2016 sube en uno."
+   },
+   {
+    "fecha": "08-17",
+    "nombre": "Paso a la Inmortalidad del General José de San Martín",
+    "clase_de_regla": "fija",
+    "regla_de_traslado": "trasladable: martes o miercoles al lunes anterior; jueves o viernes al lunes siguiente"
+   },
+   {
+    "fecha": "10-12",
+    "nombre": "Día del Respeto a la Diversidad Cultural",
+    "clase_de_regla": "fija",
+    "regla_de_traslado": "trasladable: martes o miercoles al lunes anterior; jueves o viernes al lunes siguiente"
+   },
+   {
+    "fecha": "11-20",
+    "nombre": "Día de la Soberanía Nacional",
+    "clase_de_regla": "fija",
+    "regla_de_traslado": "trasladable: martes o miercoles al lunes anterior; jueves o viernes al lunes siguiente"
+   }
+  ],
+  "nota_traslado": "EL CAMPO `regla_de_traslado` NO LO LEE EL CARGADOR. El esquema tiene `regla_fecha_version.regla_de_traslado_aplicable` y el contrato de captura no expone el campo, asi que la distincion entre los doce inamovibles y los cuatro trasladables se pierde al cargar. La fecha nominal es la misma; la observada no.",
+  "subnacionales": [],
+  "nota_subnacionales": "NO se hallo ningun feriado propio de la Ciudad Autonoma de Buenos Aires aplicable al sector privado. Los asuetos bonaerenses son de la Provincia y no alcanzan a CABA. PENDIENTE verificar contra el Boletin Oficial de la Ciudad; se deja la lista vacia y no se infiere ausencia."
+ },
+ "no_laborables": {
+  "_": "NO van en `lista`. El cargador ya LEE `categoria` y `regimen` de la captura, asi que el regimen de dia no laborable -el empleador decide si se trabaja y se paga como jornada comun- si seria escribible con categoria 'observancia_optativa' y regimen 'sin_mandato_de_pago'. Lo que sigue sin ser escribible es `elegibilidad` y `cobertura`, que el cargador fija en 'sin_condicion' y 'todo_el_pais'. Los dos bloques religiosos dependen justamente de la confesion del trabajador, y por eso quedan fuera. Los turisticos quedan fuera por nivel de fuente y por ser de gestion anual, no por el esquema.",
+  "religiosos_judios": {
+   "fuente": "F1",
+   "literal": "Art. 2: 'Establecense como dias no laborables para todos los habitantes de la Nacion Argentina que profesen la religion judia...' Ano Nuevo judio (Rosh Hashana, dos dias), Dia del Perdon (Iom Kipur, un dia), Pascua judia (Pesaj, primeros dos y ultimos dos dias).",
+   "por_que_no_encaja": "ELEGIBILIDAD CONDICIONAL POR CONFESION. El esquema tiene la columna `elegibilidad`; el cargador la fija en 'sin_condicion' sin leerla de la captura."
+  },
+  "religiosos_islamicos": {
+   "fuente": "F1",
+   "literal": "Art. 3: dias no laborables para quienes profesen la religion islamica: Ano Nuevo musulman (Hegira), dia posterior a la culminacion del ayuno (Id Al-Fitr) y dia de la Fiesta del Sacrificio (Id Al-Adha).",
+   "por_que_no_encaja": "Misma elegibilidad condicional, y ademas calendario lunar."
+  },
+  "turisticos_2026": {
+   "fuente": "F5",
+   "fechas": [
+    "2026-03-23",
+    "2026-07-10",
+    "2026-12-07"
+   ],
+   "literal_de_habilitacion": "Ley 27.399 art. 7: el Poder Ejecutivo puede fijar hasta tres dias feriados o no laborables por ano para promover la actividad turistica, que deben coincidir con lunes o viernes.",
+   "por_que_no_encaja": "SON DIAS NO LABORABLES, NO FERIADOS: en un dia no laborable el empleador decide si se trabaja y, si se trabaja, se paga como jornada comun. El esquema tiene 'sin_mandato_de_pago' y 'observancia_optativa' para esto, pero el cargador escribe 'descanso_pagado_obligatorio' fijo. Ademas se fijan por resolucion anual, o sea son one_off por gestion."
+  }
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "buscado_en": "InfoLEG, sistema oficial argentino de informacion legislativa, texto actualizado de la Ley de Contrato de Trabajo con sus notas de sustitucion por artículo",
+     "cita": "El art. 150 da «catorce (14) días corridos cuando la antiguedad en el empleo no exceda de cinco (5) anios», con escala a 21, 28 y 35. Y NO LLEVA NOTA DE MODIFICACION. Las notas existen y abundan: el art. 154, que es el de colocacion, lleva «(Artículo sustituido por art. 41 de la Ley N 27.802 B.O. 6/3/2026)», y el texto esta sembrado de sustituciones de esa misma ley. La ficha decia que el 150 no se toco y que lo que cambio fue el 154: confirmado en la fuente. Nota de corte: la Ley 27.802 es de marzo de 2026, POSTERIOR al corte, y se registra sin aplicarse.",
+     "nivel_de_fuente": 1,
+     "indice_registra_modificaciones": true,
+     "indice_como_se_comprobo": "Se recorrio el documento buscando el patron de nota: aparece decenas de veces con artículo, ley, boletin y fecha de vigencia. Registra la presencia con detalle, asi que su ausencia en el art. 150 es evidencia.",
+     "fecha_busqueda": "2026-08-12"
+   },
+  "dias": 14,
+  "tipo": "calendario",
+  "base": null,
+  "imputacion": "sin_regla_explicita",
+  "meses": 6,
+  "literal": "Art. 150 LCT: 'El trabajador gozara de un periodo minimo y continuado de descanso anual remunerado' de catorce (14) dias corridos cuando la antiguedad en el empleo no exceda de cinco (5) anos; veintiun (21) dias corridos entre cinco y diez; veintiocho (28) entre diez y veinte; treinta y cinco (35) pasados los veinte.",
+  "escala": [
+   [
+    6,
+    60,
+    14
+   ],
+   [
+    60,
+    120,
+    21
+   ],
+   [
+    120,
+    240,
+    28
+   ],
+   [
+    240,
+    null,
+    35
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "Art. 154 LCT: 'El empleador debera conceder el goce de vacaciones de cada ano dentro del periodo comprendido entre el 1 de octubre y el 30 de abril del ano siguiente', notificando por escrito la fecha de iniciacion. Art. 151: la licencia 'comenzara en dia lunes o el siguiente habil'."
+  },
+  "imputacion_nota": "NO HAY ARTICULO. Busque uno que dijera si un feriado dentro del periodo vacacional lo extiende o se computa contra el, y no existe: la LCT solo dice 'dias corridos' (art. 150) y que la licencia empieza en lunes (art. 151). Toda la doctrina argentina concuerda en que los feriados quedan comprendidos, pero eso es una DERIVACION del tipo de dia, que es justo lo que la regla 2 del contrato prohibe. Argentina es el caso limpio de doctrina unanime sin literal: si se codificara 'se_computan_contra' se estaria escribiendo la regularidad, no la norma.",
+  "nota_meses": "`meses` = 6 es una NORMALIZACION, no un literal. El art. 151 exige 'haber prestado servicios durante la mitad, como minimo, de los dias habiles comprendidos en el ano calendario o aniversario respectivo'. Eso es media anualidad de habiles, no seis meses de servicio. Y por debajo de ese umbral el derecho NO es cero: el art. 153 da un dia de descanso por cada veinte de trabajo efectivo, asi que el tramo [0, 6, 0] que el cargador antepone afirma un cero que la ley no dice.",
+  "colocacion_fallback_no_representable": {
+   "instrumento": "ley",
+   "iniciativa": "trabajador",
+   "condicion": "si_el_anterior_no_fija",
+   "literal": "Art. 157 LCT (Omision del otorgamiento): si vencido el plazo para comunicar la fecha de comienzo el empleador no lo hubiere hecho, el trabajador podra hacer uso del derecho previa notificacion fehaciente, de modo que las vacaciones concluyan antes del 31 de mayo.",
+   "por_que_no_va_en_colocacion_residual": "Es una CASCADA, no una particion: el art. 157 no gobierna una porcion distinta de dias sino el MISMO derecho cuando el nivel anterior no lo fijo. El esquema si lo modela (`modo_aplicacion='fallback'`, `grupo_fallback`, `es_raiz_fallback`, `condicion_fallback`), pero ni docs/09-spec-captura.md ni el cargador exponen esos campos: el cargador escribe 'particion' fijo. Cargarlo como `colocacion_residual` produciria ademas una violacion de V24, porque el nivel raiz tiene alcance total."
+  },
+  "pendiente": "Cual de las dos redacciones del art. 154 regia al 1-ene-2026: ver hueco H1."
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "No se pudo determinar que redaccion del art. 154 LCT regia al corte 2026. El DNU 70/2023 lo sustituyo el 21-dic-2023, pero su Titulo IV fue suspendido por medida cautelar de la CNAT el 3-ene-2024 mientras la CSJN resolvia. La Ley 27.802 lo reescribio el 6-mar-2026, DESPUES del corte.",
+   "por_que_importa": "Cambian el preaviso -45 dias en la version original, 30 en la nueva- y la existencia misma del fraccionamiento. No cambia ni el quantum ni la iniciativa, que son 'empleador' en las dos, asi que la fila de colocacion carga igual; lo que queda sin cerrar es el literal.",
+   "como_se_cierra": "Leer el estado de la causa CGT c/ PEN al 1-ene-2026 y archivar el texto vigente a esa fecha.",
+   "no_representable": "Una norma promulgada y judicialmente suspendida no tiene casillero en el esquema: `vigencia_desde` la da por vigente o no existe. Falta un estado intermedio, o una `causa` de medicion que lo diga."
+  },
+  {
+   "id": "H2",
+   "que": "El literal de los arts. 150, 151 y 154 vino en parafrasis del extractor sobre InfoLEG, no en transcripcion.",
+   "como_se_cierra": "Descargar y archivar el texto actualizado de InfoLEG y verificar palabra por palabra."
+  },
+  {
+   "id": "H3",
+   "que": "El `desde` del feriado del 17 de junio (Guemes) descansa en una secundaria de nivel 4/5.",
+   "como_se_cierra": "Comparar el art. 1 de la Ley 27.399 con el regimen anterior (Decreto 1584/2010 y sus modificatorias) y datar la incorporacion."
+  }
+ ],
+ "delta_2016_2026": {
+  "feriados": "+1 sujeto a H3 (17 de junio, Ley 27.399). El resto del art. 1 reproduce el regimen anterior.",
+  "vacaciones": "0 en quantum. El art. 150 no se toco. Lo que cambio dos veces en la ventana fue el art. 154, la regla de colocacion."
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "Hay reformas datadas dentro de la ventana: Ley 27.399 (18-oct-2017) reemplazo el regimen de feriados; DNU 70/2023 (21-dic-2023) y Ley 27.802 (6-mar-2026) reescribieron el art. 154 LCT. La ultima es posterior al corte 2026 y se registra pero no se aplica."
+ }
+}

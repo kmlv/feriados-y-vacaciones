@@ -1,0 +1,55 @@
+{
+  "_": "Jornada semanal legal ordinaria. Dias ordinarios NULOS pese a la doble tentacion (8x5=40 y el descanso «complementario»): el complementario solo existe si lo instituye convenio o contrato. Sin regla de traslado; solo una habilitacion que exige ley especifica.",
+  "unidad": "PRT",
+  "jurisdiccion_de_referencia": "Lisboa",
+  "sector_de_referencia": "privado formal, jornada completa, persona adulta, trabajo diurno",
+  "capturado_por": "jornada · lote 4",
+  "fecha_captura_utc": "2026-08-11T05:45:52Z",
+  "fuentes": {
+    "J1": {
+      "cita": "Codigo do Trabalho, aprovado pela Lei n.º 7/2009, de 12 de fevereiro: artigo 203.º (Limites maximos do periodo normal de trabalho), artigo 232.º (Descanso semanal), artigo 234.º (Feriados obrigatorios), artigo 236.º (Regime dos feriados)",
+      "url": "https://files.dre.pt/1s/2009/02/03000/0092601029.pdf",
+      "nivel_de_fuente": 1,
+      "publicacion": "Diario da Republica, 1.ª serie, n.º 30, de 12-02-2009, pp. 926-1029 (facsimil)",
+      "nota": null
+    },
+    "J2": {
+      "cita": "Codigo do Trabalho — texto consolidado con las alteraciones hasta la Lei n.º 13/2023 y la Declaracao de Retificacao n.º 13/2023, publicado por la Autoridade para as Condicoes do Trabalho",
+      "url": "https://portal.act.gov.pt/AnexosPDF/Legisla%C3%A7%C3%A3o%20nacional/C%C3%B3digo%20do%20trabalho.pdf",
+      "nivel_de_fuente": 2,
+      "publicacion": "ACT, documento actualizado a 28-04-2023 (portada indica actualizacion a 11-10-2024)",
+      "nota": "Se usa para verificar que los arts. 203.º y 232.º NO fueron alterados en la ventana y para tomar la redaccion vigente del art. 234.º, que si lo fue (Lei n.º 8/2016)."
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 40,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "Artigo 203.º, n.º 1, CT: «O periodo normal de trabalho nao pode exceder oito horas por dia e quarenta horas por semana.» — n.º 4: «Os limites maximos do periodo normal de trabalho podem ser reduzidos por instrumento de regulamentacao coletiva de trabalho, nao podendo dai resultar diminuicao da retribuicao dos trabalhadores.»",
+    "traduccion": "Art. 203.1: «El periodo normal de trabajo no puede exceder de ocho horas por dia y cuarenta horas por semana.» — 203.4: «Los limites maximos del periodo normal de trabajo pueden reducirse por instrumento de regulacion colectiva de trabajo, sin que de ello pueda resultar disminucion de la retribucion de los trabajadores.»",
+    "fuente": "J1,J2",
+    "nota": "LOS DIAS VAN NULOS Y LA TENTACION AQUI ES DOBLE. Ocho por cinco da cuarenta, y ademas el art. 232.º habla de un descanso semanal OBLIGATORIO mas uno COMPLEMENTARIO, lo que suena a sabado y domingo. Pero ninguna de las dos cosas fija dias: el complementario solo existe «por instrumento de regulacion colectiva de trabajo o contrato de trabajo» (232.º n.º 3), es decir que la ley por si sola garantiza UN dia y admite sin problema una semana de seis dias de seis horas y cuarenta minutos. El cinco portugues es del convenio, no del Codigo."
+  },
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "domingo por defecto — el art. 232.º n.º 2 solo permite que el obligatorio deje de ser domingo en supuestos tasados; un segundo dia (el complementario) existe solo si lo instituye convenio o contrato",
+    "literal": "Artigo 232.º CT: «1 - O trabalhador tem direito a, pelo menos, um dia de descanso por semana. 2 - O dia de descanso semanal obrigatorio pode deixar de ser o domingo, alem de noutros casos previstos em legislacao especial, quando o trabalhador presta atividade: [cinco supuestos] 3 - Por instrumento de regulamentacao coletiva de trabalho ou contrato de trabalho, pode ser instituido um periodo de descanso semanal complementar, continuo ou descontinuo, em todas ou algumas semanas do ano.» — Artigo 233.º n.º 1: «Devem ser gozados em continuidade o descanso semanal obrigatorio e um periodo de onze horas correspondente ao descanso diario estabelecido no artigo 214.º»",
+    "fuente": "J1,J2"
+  },
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": null,
+    "alcance": null,
+    "literal": "El Codigo no traslada ni compensa el feriado que cae en descanso semanal. Lo mas cercano es una HABILITACION que no opera sola: Artigo 234.º, n.º 3, CT: «Mediante legislacao especifica, determinados feriados obrigatorios podem ser observados na segunda-feira da semana subsequente.» (traduccion: «Mediante legislacion especifica, determinados feriados obligatorios pueden observarse el lunes de la semana siguiente.») Y el art. 236.º n.º 2 cierra la puerta a que el convenio o el contrato inventen otros: «O instrumento de regulamentacao coletiva de trabalho ou o contrato de trabalho nao pode estabelecer feriados diferentes dos indicados nos artigos anteriores.»",
+    "fuente": "J1,J2"
+  },
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "Lei n.º 8/2016, de 1 de abril — nueva redaccion del artigo 234.º n.º 1 del Codigo do Trabalho",
+      "anio": 2016,
+      "que_cambio": "NO toca la jornada. Repone los cuatro feriados obligatorios que la Lei n.º 23/2012 habia eliminado con efectos desde 2013 (Corpo de Deus, 5 de octubre, 1 de noviembre y 1 de diciembre). Se anota porque es la reforma que da la redaccion vigente del articulo del que sale la habilitacion de traslado del n.º 3, y porque cae de lleno en la ventana."
+    }
+  ],
+  "pendiente": "Verifique que los arts. 203.º y 232.º llegan sin alteracion sustantiva hasta la Lei n.º 13/2023 comparando el facsimil de 2009 con el consolidado de la ACT —las diferencias son ortograficas (acuerdo ortografico)—, pero no recorri una por una las veintitantas leyes modificativas. El sector publico portugues tiene jornada propia y quedo fuera por definicion del trabajador de referencia."
+}

@@ -1,0 +1,72 @@
+{
+ "_": "JORNADA SEMANAL LEGAL ORDINARIA de Corea del Sur. Trabajador de referencia: sector privado formal, jornada completa, Seul. Unidad con reforma de jornada dentro de la ventana (2018).",
+ "unidad": "KOR",
+ "jurisdiccion_de_referencia": "Seul",
+ "capturado_por": "jornada · lote 1",
+ "fecha_captura_utc": "2026-08-11T05:55:37Z",
+ "fuentes": {
+  "J1": {
+   "cita": "근로기준법 (Ley de Normas Laborales), arts. 50, 53 y 55. Versión [시행 2025. 10. 23.] [법률 제20520호, 2024. 10. 22., 일부개정]",
+   "url": "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900552087",
+   "nivel_de_fuente": 2,
+   "nota": "국가법령정보센터, el centro nacional de informacion juridica del 법제처 (Ministerio de Legislacion Gubernamental). Es el portal oficial de consolidacion, no el boletin 관보: por eso nivel 2. La cabecera de la pagina declara la version y el numero de ley, que se transcriben arriba."
+  },
+  "J2": {
+   "cita": "근로기준법 시행령 (Decreto de aplicacion), art. 30. Versión [시행 2025. 10. 23.] [대통령령 제35436호, 2025. 4. 8., 일부개정]",
+   "url": "https://www.law.go.kr/LSW/lumLsLinkPop.do?lspttninfSeq=172595&chrClsCd=010202",
+   "nivel_de_fuente": 2,
+   "nota": "Mismo portal oficial."
+  },
+  "J3": {
+   "cita": "관공서의 공휴일에 관한 규정 (Reglamento sobre días festivos de las oficinas publicas), art. 3 (대체공휴일). Versión [시행 2026. 5. 11.] [대통령령 제36290호, 2026. 4. 30., 일부개정]",
+   "url": "https://www.law.go.kr/LSW/lumLsLinkPop.do?lspttninfSeq=172595&chrClsCd=010202",
+   "nivel_de_fuente": 2,
+   "nota": "Mismo portal oficial. El art. 3 esta reformado por ultima vez el 30 de abril de 2026, con vigencia desde el 11 de mayo de 2026, o sea DENTRO de la ventana de captura y despues del corte del proyecto."
+  }
+ },
+ "jornada": {
+  "horas_semanales_max": 40,
+  "horas_diarias_max": 8,
+  "dias_ordinarios": 5,
+  "dias_ordinarios_origen": "norma",
+  "literal": "제50조(근로시간) ① 1주 간의 근로시간은 휴게시간을 제외하고 40시간을 초과할 수 없다. ② 1일의 근로시간은 휴게시간을 제외하고 8시간을 초과할 수 없다. ③ 제1항 및 제2항에 따라 근로시간을 산정하는 경우 작업을 위하여 근로자가 사용자의 지휘ㆍ감독 아래에 있는 대기시간 등은 근로시간으로 본다. — 제53조(연장 근로의 제한) ① 당사자 간에 합의하면 1주 간에 12시간을 한도로 제50조의 근로시간을 연장할 수 있다.",
+  "traduccion": "Art. 50 (Tiempo de trabajo). (1) El tiempo de trabajo de una semana no podra exceder de 40 horas, excluidos los descansos. (2) El tiempo de trabajo de un dia no podra exceder de 8 horas, excluidos los descansos. (3) Al computar el tiempo de trabajo conforme a los apartados 1 y 2, el tiempo de espera y similares en que el trabajador esta bajo la direccion y supervision del empleador se considera tiempo de trabajo. — Art. 53 (Limite del trabajo extraordinario). (1) Si media acuerdo entre las partes, el tiempo de trabajo del art. 50 puede prolongarse hasta un limite de 12 horas por semana.",
+  "fuente": "J1",
+  "nota": "Los cinco dias son derivacion, no cita: 40 semanales sobre un tope de 8 diarias exigen cinco dias para agotar la semana, igual que 48 sobre 8 dan seis. La LSA no escribe la palabra 'cinco'. Y hay que ser honesto con el margen: como el art. 55 solo garantiza UN dia de descanso semanal, una semana de seis dias a seis horas y cuarenta seria tambien legal; los cinco dias son el reparto que la propia norma hace natural y el que el mercado coreano usa. El sabado coreano no es un dia de descanso legal sino un 무급휴무일, dia no trabajado y no pagado que nace de la semana de 40 horas. — SEPARAR DOS TOPES QUE SE CONFUNDEN SIEMPRE: 40 es la jornada ORDINARIA; con acuerdo de partes se pueden anadir 12 horas extraordinarias (art. 53.1), y de ahi el famoso techo de 52. Este archivo registra la ordinaria."
+ },
+ "descanso_semanal": {
+  "dias": 1,
+  "cuales": "uno de cada siete, sin nombrar",
+  "literal": "제55조(휴일) ① 사용자는 근로자에게 1주에 평균 1회 이상의 유급휴일을 보장하여야 한다. <개정 2018.3.20> ② 사용자는 근로자에게 대통령령으로 정하는 휴일을 유급으로 보장하여야 한다. 다만, 근로자대표와 서면으로 합의한 경우 특정한 근로일로 대체할 수 있다. <신설 2018.3.20> — 근로기준법 시행령 제30조 ② 법 제55조제2항 본문에서 '대통령령으로 정하는 휴일'이란 「관공서의 공휴일에 관한 규정」 제2조 각 호(제1호는 제외한다)에 따른 공휴일 및 같은 영 제3조에 따른 대체공휴일을 말한다.",
+  "traduccion": "Art. 55 (Dias festivos). (1) El empleador debera garantizar al trabajador al menos un dia festivo retribuido por semana en promedio. (2) El empleador debera garantizar como retribuidos los dias festivos que determine el Decreto Presidencial; no obstante, mediando acuerdo escrito con el representante de los trabajadores podran sustituirse por un dia laborable determinado. — Decreto de aplicacion, art. 30(2): 'los dias festivos que determine el Decreto Presidencial' del art. 55(2) son los festivos del art. 2 del Reglamento sobre dias festivos de las oficinas publicas, con exclusion de su numero 1, y los festivos sustitutivos de su art. 3.",
+  "fuente": "J1",
+  "nota": "Un dia por semana, en PROMEDIO, y sin nombrar cual: la ley dice '1주에 평균 1회 이상', al menos una vez por semana de media. En la practica es el domingo (주휴일). El segundo apartado es el que importa para este proyecto y es nuevo de 2018: convirtio los festivos oficiales —que hasta entonces solo obligaban a la administracion— en festivos RETRIBUIDOS tambien para el empleador privado. El decreto de aplicacion excluye expresamente el numero 1 del art. 2, que es el domingo, para no duplicar el descanso semanal. Y admite que se sustituyan por otro dia laborable con acuerdo escrito del representante de los trabajadores."
+ },
+ "traslado_por_defecto": {
+  "existe": true,
+  "regla": "se traslada al primer dia no festivo siguiente",
+  "alcance": "solo los que indica la norma",
+  "literal": "관공서의 공휴일에 관한 규정 제3조(대체공휴일) ① 제2조제2호부터 제10호까지의 공휴일이 다음 각 호의 어느 하나에 해당하는 경우에는 그 공휴일 다음의 첫 번째 비공휴일(제2조 각 호의 공휴일이 아닌 날을 말한다. 이하 같다)을 대체공휴일로 한다. <개정 2023. 5. 4., 2026. 4. 30.> 1. 제2조제2호, 제5호부터 제7호까지 또는 제10호의 공휴일이 토요일이나 일요일과 겹치는 경우 2. 제2조제4호 또는 제9호의 공휴일이 일요일과 겹치는 경우 3. 제2조제2호, 제4호부터 제7호까지, 제9호 또는 제10호의 공휴일이 토요일ㆍ일요일이 아닌 날에 같은 조 제2호부터 제10호까지의 규정에 따른 다른 공휴일과 겹치는 경우 ③ 제1항 및 제2항에 따른 대체공휴일이 토요일인 경우에는 그 다음의 첫 번째 비공휴일을 대체공휴일로 한다.",
+  "traduccion": "Art. 3 (Festivo sustitutivo). (1) Cuando alguno de los festivos de los numeros 2 a 10 del art. 2 se encuentre en alguno de los casos siguientes, el primer dia no festivo posterior a ese festivo sera festivo sustitutivo: 1. cuando el festivo de los numeros 2, 5 a 7 o 10 coincida con sabado o domingo; 2. cuando el festivo de los numeros 4 o 9 coincida con domingo; 3. cuando el festivo de los numeros 2, 4 a 7, 9 o 10 caiga en dia distinto de sabado o domingo y coincida con otro festivo. (3) Si el festivo sustitutivo cae en sabado, sera festivo sustitutivo el primer dia no festivo siguiente.",
+  "fuente": "J3",
+  "nota": "Es de los sistemas de traslado mas completos del lote, y llega al trabajador privado por la cadena que arma el bloque anterior: el festivo sustitutivo del art. 3 esta expresamente incluido en la remision del art. 30(2) del decreto de aplicacion, con lo que es festivo retribuido en el sector privado igual que el original. El alcance es por lista y no uniforme: unos festivos se trasladan si caen en SABADO O DOMINGO y otros solo si caen en DOMINGO. Y el mecanismo se retroalimenta: el apartado 3 vuelve a mover el sustitutivo si el sustitutivo cae en sabado."
+ },
+ "reformas_en_la_ventana": [
+  {
+   "instrumento": "법률 제15513호, de 20 de marzo de 2018",
+   "anio": 2018,
+   "que_cambio": "La reforma de jornada mas citada de la decada, y no cambio el numero 40. Lo que hizo fue definir '1주' como siete dias incluidos los festivos, cerrando la interpretacion administrativa que dejaba fuera sabado y domingo del computo y permitia llegar a 68 horas. Con la nueva definicion el techo total pasa a 52: 40 ordinarias mas 12 extraordinarias del art. 53(1). Se aplico por tramos segun el tamano de la empresa. La misma ley anadio el art. 53(3) y (6) —hasta 8 horas adicionales por acuerdo escrito en empresas de menos de 30 trabajadores, con vigencia hasta el 31 de diciembre de 2022— y el art. 55(2)."
+  },
+  {
+   "instrumento": "법률 제15513호, art. 55(2), con aplicacion escalonada",
+   "anio": 2018,
+   "que_cambio": "Convirtio los festivos oficiales en festivos retribuidos para el empleador privado, por tramos: desde el 1 de enero de 2020 para empresas de 300 o mas trabajadores y el sector publico, desde el 1 de enero de 2021 para las de 30 a 299, y desde el 1 de enero de 2022 para las de 5 a 29. Es el cambio que hace que los feriados coreanos cuenten como descanso pagado del trabajador privado."
+  },
+  {
+   "instrumento": "관공서의 공휴일에 관한 규정, 전문개정 de 4 de agosto de 2021 y reformas de 4 de mayo de 2023 y 30 de abril de 2026",
+   "anio": 2021,
+   "que_cambio": "Reescribio y luego amplio sucesivamente el regimen de festivos sustitutivos. La reforma de 30 de abril de 2026, vigente desde el 11 de mayo de 2026, sumo el numero 5 del art. 2 a los festivos que se trasladan cuando caen en sabado o domingo."
+  }
+ ],
+ "pendiente": "Dos. (1) No capture el literal del art. 2(1)7 de la LSA, que es donde vive la definicion de '1주' introducida en 2018; la reforma queda anclada por las marcas <개정 2018.3.20> y <신설 2018.3.20> que si estan transcritas en los arts. 53 y 55, pero el literal de la definicion falta. (2) No transcribi el art. 2 del Reglamento de festivos, con lo que la correspondencia entre los numeros que cita el art. 3 y los feriados concretos no queda verificada en este archivo; para el traslado importa saber que festivo es cada numero."
+}

@@ -1,0 +1,294 @@
+{
+ "_": "CAPTURA CIEGA de Noruega. Escrita leyendo el texto consolidado de lovdata, SIN mirar el CBR ni ningun dataset agregado. Noruega aporta un `werktage` mas —25 virkedager sobre semana de seis— y una asimetria textual que vale como prueba: el legislador SI escribio regla de imputacion para los dias libres no festivos y deliberadamente NO la escribio para los festivos, porque la definicion ya los resolvia.",
+ "_estado": "COMPLETA. Un unico hueco de forma: el unico incremento del derecho noruego es por EDAD y la escala del esquema es de antiguedad.",
+ "unidad": "NOR",
+ "jurisdiccion_de_referencia": "Oslo (ciudad mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 4",
+ "fecha_captura_utc": "2026-08-10T19:45:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Lov om helligdager og helligdagsfred (LOV-1995-02-24-12), § 2 — lista de helligdager",
+   "nivel_de_fuente": 2,
+   "url": "https://lovdata.no/dokument/NL/lov/1995-02-24-12",
+   "version_archivada": "Sist endret: LOV-2021-05-07-34 fra 01.06.2021"
+  },
+  "F2": {
+   "cita": "Lov om 1 og 17 mai som hogtidsdagar (LOV-1947-04-26-1), §§ 1, 2 y 3",
+   "nivel_de_fuente": 2,
+   "url": "https://lovdata.no/dokument/NL/lov/1947-04-26-1",
+   "version_archivada": "Sist endret: LOV-2018-12-20-98 fra 01.01.2019"
+  },
+  "F3": {
+   "cita": "Ferieloven (LOV-1988-04-29-21), §§ 4, 5, 6, 7 y 10",
+   "nivel_de_fuente": 2,
+   "url": "https://lovdata.no/dokument/NL/lov/1988-04-29-21/KAPITTEL_2",
+   "version_archivada": "Sist endret: LOV-2023-03-17-3 fra 01.01.2024"
+  },
+  "F4": {
+   "cita": "Norsk Lovtidend (gaceta oficial) — leyes modificatorias de la ventana: LOV-2023-03-17-3, LOV-2018-12-20-98, LOV-2021-05-07-34",
+   "nivel_de_fuente": 1,
+   "url": "https://lovdata.no/dokument/LTI/lov/2023-03-17-3",
+   "nota": "Se usaron para acotar que reformas caen dentro de la ventana y que articulos tocan."
+  },
+  "F5": {
+   "cita": "Statens personalhandbok 16.4.5 — 'Lovbestemte helge- og hoytidsdager'",
+   "nivel_de_fuente": 3,
+   "url": "https://lovdata.no/dokument/SPH/sph/KAPITTEL_15-4-5",
+   "literal_relevante": "Lovbestemte helge- og hoytidsdager regnes ikke som feriedager og kommer i tillegg til den lov- og avtalebestemte ferie.",
+   "nota": "AVISO DE FIABILIDAD: el literal viene del indice de busqueda de lovdata; el cuerpo de la pagina no se renderizo en los intentos de extraccion. Coherente con la ley y con Arbeidstilsynet, pero no verificado a pantalla completa. Es CONFIRMACION, no fundamento: el fundamento es el § 5 nr. 1 de F3."
+  },
+  "F6": {
+   "cita": "Arbeidstilsynet — preguntas frecuentes sobre vacaciones",
+   "nivel_de_fuente": 3,
+   "url": "https://www.arbeidstilsynet.no/nyheter/ofte-stilte-sporsmal-om-ferie/",
+   "literal_relevante": "Vyrkedagar er mandag til og med laurdag, uavhengig av om du faktisk jobbar pa laurdagar. Sondagar og heilagdagar blir ikkje rekna som vyrkedagar.",
+   "nota": "Glosa de la agencia estatal. Se usa para confirmar la base de SEIS dias, que la ley no dice con la palabra 'seis' sino por exclusion."
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO",
+  "fuente": "F1",
+  "literal": "LOV-1995-02-24-12 § 2: 'Folgende dager er helligdag: a. vanlige sondager, b. nyttarsdag (1. januar), c. skjaertorsdag (siste torsdag for forste paskedag), d. langfredag (siste fredag for forste paskedag), e. forste paskedag (forste sondag etter forste fullmane som inntreffer pa eller etter 21. mars), f. annen paskedag (forste mandag etter forste paskedag), g. Kristi Himmelfartsdag (sjette torsdag etter forste paskedag), h. forste pinsedag (sjuende sondag etter forste paskedag), i. annen pinsedag (forste mandag etter forste pinsedag), j. forste juledag (25. desember), k. annen juledag (26. desember).' — LOV-1947-04-26-1 § 1: '1. og 17. mai er hogtidsdagar og skal vere jamstelt med sondagar.'",
+  "nota_de_estructura": "Hacen falta DOS leyes. La de 1995 no incluye el 1 ni el 17 de mayo; esos los declara la de 1947, y con una formula distinta —'hogtidsdagar', dias solemnes equiparados a los domingos—. Es relevante para la imputacion: la definicion de virkedag del ferieloven excluye 'helge- ELLER hoytidsdager', dos palabras, una por cada ley. Sin la de 1947, el 1 y el 17 de mayo serian virkedager imputables.",
+  "nota_de_computus": "La propia ley DEFINE la Pascua en la letra e —primer domingo tras la primera luna llena en o despues del 21 de marzo— en vez de remitirla a fuente externa. Los offsets +39, +49 y +50 se derivan aritmeticamente de las formulaciones ordinales del texto ('sexto jueves', 'septimo domingo'); la ley no escribe numeros de dias.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Nyttarsdag",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": null,
+    "nombre": "Skjaertorsdag (Jueves Santo)",
+    "clase_de_regla": "computable",
+    "regla": "pascua-3",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": null,
+    "nombre": "Langfredag (Viernes Santo)",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": null,
+    "nombre": "Forste paskedag (Domingo de Pascua)",
+    "clase_de_regla": "computable",
+    "regla": "pascua+0",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "Cae siempre en domingo. Suma a la lista legal y no anade descanso a quien ya libra el domingo."
+   },
+   {
+    "fecha": null,
+    "nombre": "Annen paskedag (Lunes de Pascua)",
+    "clase_de_regla": "computable",
+    "regla": "pascua+1",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Offentlig hogtidsdag (1 de mayo)",
+    "clase_de_regla": "fija",
+    "instrumento": "LOV-1947-04-26-1",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "El § 3 de la ley de 1947 es el que lo hace PAGADO: salario integro para quien lleve al menos treinta dias empleado, y recargo minimo del 50% para quien deba trabajarlo."
+   },
+   {
+    "fecha": "05-17",
+    "nombre": "Grunnlovsdagen (17 de mayo)",
+    "clase_de_regla": "fija",
+    "instrumento": "LOV-1947-04-26-1",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": null,
+    "nombre": "Kristi himmelfartsdag (Ascensión)",
+    "clase_de_regla": "computable",
+    "regla": "pascua+39",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": null,
+    "nombre": "Forste pinsedag (Domingo de Pentecostés)",
+    "clase_de_regla": "computable",
+    "regla": "pascua+49",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "Cae siempre en domingo."
+   },
+   {
+    "fecha": null,
+    "nombre": "Annen pinsedag (Lunes de Pentecostés)",
+    "clase_de_regla": "computable",
+    "regla": "pascua+50",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Forste juledag (Navidad)",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "12-26",
+    "nombre": "Annen juledag (San Esteban)",
+    "clase_de_regla": "fija",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   }
+  ],
+  "no_son_feriados": "El 24 de diciembre (julaften) y el 31 de diciembre (nyttarsaften) NO figuran en ninguna de las dos leyes. Se dan libres o a medio dia por convenio o practica, no por ley. Es el contraste exacto con Polonia, que en 2024 metio la Nochebuena en la ley.",
+  "subnacionales": {
+   "existen": false,
+   "verificacion": "La helligdagsfredloven tiene siete articulos y ninguno delega en kommune ni en statsforvalter la facultad de declarar helligdager: la lista del § 2 es cerrada y nacional. El § 5 si da competencia al statsforvalter, pero sobre dispensas de apertura de comercios, no sobre declarar dias. Oslo tiene dias libres de origen convencional para su personal municipal, que no aplican al trabajador de referencia."
+  },
+  "conteo": {
+   "feriados_2026": 12,
+   "feriados_al_1_ene_2016": 12,
+   "nota": "Sin cambios. Dos de los doce caen siempre en domingo."
+  }
+ },
+ "vacaciones": {
+  "texto_legal_dias": 25,
+  "tipo_de_dia": "virkedager",
+  "literal": "Ferieloven § 5 nr. 1: 'Arbeidsgiver plikter a sorge for at arbeidstaker gis feriefritid pa 25 virkedager hvert ferieaar. […] Som virkedager regnes alle dager som ikke er sondager eller lovbestemte helge- eller hoytidsdager. Virkedager i ferien som etter arbeidstidsordningen likevel ville vaert fridager for vedkommende arbeidstaker, regnes som feriefritid og gar til fradrag i dagtallet etter forste punktum.'",
+  "traduccion": "El empleador debe procurar que al trabajador se le concedan vacaciones de 25 virkedager cada ano de vacaciones. […] Se consideran virkedager todos los dias que no sean domingos ni dias festivos o solemnes establecidos por ley. Los virkedager dentro de las vacaciones que, conforme a la ordenacion del tiempo de trabajo, habrian sido de todos modos dias libres para ese trabajador, se computan como vacaciones y se descuentan del numero de dias.",
+  "fuente": "F3",
+  "base_semanal": 6,
+  "base_nota": "SEIS, y esta LEIDA por exclusion, no supuesta: la definicion excluye solo domingos y festivos legales, luego el SABADO ES virkedag. Y la cuarta frase lo cierra sin margen: un sabado que seria libre por la ordenacion de jornada se descuenta igual. Arbeidstilsynet lo glosa expresamente como lunes a sabado. Es la misma semantica que los Werktage alemanes, con lo que el valor `werktage` del esquema sirve sin tocarlo — tercera unidad que lo reutiliza tras Alemania y Turquia.",
+  "periodo_de_calificacion_meses": 0,
+  "periodo_nota": "NO HAY CARENCIA PARA LOS DIAS. El § 5 nr. 5 lo dice: 'Arbeidstaker kan kreve a fa feriefritid etter bestemmelsene ovenfor uavhengig av opptjeningen av feriepenger' — el trabajador puede exigir las vacaciones con independencia del devengo de su retribucion. El opptjeningsar gobierna solo el DINERO (§ 4: el ano de vacaciones sigue el ano civil; el de devengo es el civil anterior). Lo mas parecido a una carencia es el § 5 nr. 3: quien se incorpora hasta el 30 de septiembre tiene derecho completo; despues de esa fecha, a 6 virkedager. El trabajador de referencia, con un ano, tiene los 25 completos.",
+  "incremento_por_edad": {
+   "presente": true,
+   "literal": "Ferieloven § 5 nr. 2: 'Arbeidstaker som fyller 60 ar i lopet av ferieaaret, skal gis ekstraferie pa 6 virkedager.'",
+   "umbral": "cumplir 60 anos DURANTE el ano de vacaciones (no tenerlos ya)",
+   "dias_extra": 6,
+   "nota": "NO ES ANTIGUEDAD, ES EDAD, y no cabe en `escala_antiguedad`, cuyas fronteras son meses de servicio. Ver `hallazgos_de_esquema` H-E14."
+  },
+  "retribucion_no_es_duracion": "Feriepenger legal: 10,2% de la base (§ 10 nr. 2), 12,5% para mayores de 60 con derecho a las vacaciones extra (§ 10 nr. 3). El 12% que suele citarse NO esta en la ley: es la tasa convencional que acompana a las cinco semanas de convenio. Se anota aparte para que nadie lo confunda con dias.",
+  "legal_vs_convencional": "La QUINTA SEMANA (30 virkedager) es de convenio colectivo, mayoritario pero no universal, y NO esta en la ley. Dato revelador: el § 15 de la propia ferieloven contiene porcentajes escalonados previstos para el caso de que el Rey amplie las vacaciones — el legislador previo la ampliacion y no la ejecuto; llego por convenio. Para el trabajador de referencia, sin convenio, el valor es 25 virkedager y 10,2%.",
+  "estado_verificacion": "verificado_primaria"
+ },
+ "corte_2016": {
+  "estado": "supuesto_sin_cambio",
+  "nota": "Y se pone `supuesto_sin_cambio` a proposito aunque el rastreo fue bueno. Las tres reformas halladas en la ventana no tocan nada del valor: LOV-2018-12-20-98 (vigor 2019) modifica los §§ 9, 10 y 11 de la ferieloven —servicio militar y feriepenger— y el § 3 de la ley de 1947; LOV-2023-03-17-3 (vigor 2024) reformula el § 2 de la ferieloven ampliando el concepto de trabajador, no la duracion; LOV-2021-05-07-34 (vigor 2021) sustituye 'fylkesmannen' por 'statsforvalteren' en el § 5 de la helligdagsloven, sin tocar el § 2. Los §§ 5, 6 y 7 de la ferieloven y el § 2 de la ley de feriados estan inalterados. PERO lovdata no expone un historial de modificaciones consultable de forma completa: la conclusion se apoya en el campo 'Sist endret' mas el rastreo de las leyes identificadas, que es fuerte para 2021-2026 y debil para 2016-2018. Ausencia no verificada es supuesto, no verificado."
+ },
+ "reformas": [
+  {
+   "instrumento": "LOV-2018-12-20-98",
+   "efecto": "ferieloven §§ 9, 10 y 11 (servicio militar, base de feriepenger, responsable solidario); ley de 1947 § 3 tredje ledd",
+   "entrada_en_vigor": "2019-01-01",
+   "dentro_de_ventana": true,
+   "afecta_al_valor": false
+  },
+  {
+   "instrumento": "LOV-2023-03-17-3",
+   "efecto": "ferieloven § 2: 'Enhver som utforer arbeid for og underordnet en annen (arbeidstaker), har rett til ferie etter denne lov' — amplia el ambito SUBJETIVO",
+   "entrada_en_vigor": "2024-01-01",
+   "dentro_de_ventana": true,
+   "afecta_al_valor": false,
+   "nota": "Interesante para el proyecto aunque no mueva el numero: cambia QUIEN tiene el derecho, no CUANTO. El esquema mide cuanto."
+  },
+  {
+   "instrumento": "FOR-2021-11-26-3291",
+   "efecto": "extiende la ferieloven a Svalbard por reglamento, sin modificar el texto",
+   "entrada_en_vigor": "2022-01-01",
+   "dentro_de_ventana": true,
+   "afecta_al_valor": false,
+   "nota": "Cambio de ambito TERRITORIAL sin cambio de texto. Irrelevante para Oslo; se anota porque es un tipo de reforma que el panel no veria."
+  }
+ ],
+ "delta_2016_2026": {
+  "feriados": "0",
+  "vacaciones": "0 en dias; ampliacion del ambito subjetivo en 2024"
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "El incremento de 6 virkedager por cumplir 60 anos no cabe en `escala_antiguedad`.",
+   "por_que_importa": "Es la unica progresion del derecho noruego, y se pierde entera.",
+   "como_se_cierra": "Ver H-E14."
+  },
+  {
+   "id": "H2",
+   "que": "Con `periodo_de_calificacion_meses = 0` el cargador emite un tramo degenerado (0, 0, 0) que viola el CHECK `hasta_meses > desde_meses` de `escala_antiguedad`.",
+   "por_que_importa": "El valor 0 es LEGITIMO en el esquema (el CHECK dice `>= 0`) y correcto para Noruega, y aun asi rompe la carga. Es un bug del cargador, no del modelo. Ver H-E15."
+  },
+  {
+   "id": "H3",
+   "que": "No hay fuente de nivel 1 para el TEXTO de las leyes; lovdata es nivel 2. El nivel 1 (Norsk Lovtidend) solo se uso para las leyes modificatorias.",
+   "como_se_cierra": "Suficiente para el proyecto: lovdata es el portal oficial y publica el consolidado. Se deja anotado."
+  },
+  {
+   "id": "H4",
+   "que": "El cuerpo del Statens personalhandbok 16.4.5 no se renderizo; su literal viene del indice de busqueda.",
+   "por_que_importa": "Poco: es confirmacion, no fundamento. El fundamento de la imputacion es el § 5 nr. 1, leido integro."
+  }
+ ],
+ "hallazgos_de_esquema": [
+  {
+   "id": "H-E14",
+   "titulo": "Una progresion por EDAD no cabe en `escala_antiguedad`",
+   "detalle": "La tabla `escala_antiguedad` tiene `desde_meses` y `hasta_meses` de SERVICIO, y `base_antiguedad` con tres valores que son todos formas de contar servicio. El unico incremento del derecho noruego lo dispara cumplir 60 anos durante el ano de vacaciones — una propiedad de la PERSONA, no de la relacion laboral. No hay donde ponerlo, y omitirlo hace que Noruega parezca no tener progresion cuando si la tiene.",
+   "sugerencia": "Un discriminante `dimension` en la escala con valores 'antiguedad' y 'edad', o una tabla hermana. El caso no es raro: varios paises nordicos y algunos convenios europeos escalan por edad."
+  },
+  {
+   "id": "H-E15",
+   "titulo": "`periodo_de_calificacion_meses = 0` rompe la carga",
+   "detalle": "El cargador antepone siempre el tramo `(0, meses, 0)` con el razonamiento —correcto— de que antes del periodo de calificacion el derecho es cero. Con meses = 0 ese tramo es (0, 0, 0) y viola el CHECK `hasta_meses > desde_meses`. Noruega y Paises Bajos tienen ambas periodo cero: en Noruega el derecho a los DIAS es independiente del devengo, y en Paises Bajos el devengo prorratea desde el primer dia.",
+   "como_se_cierra": "Omitir el tramo cero cuando `meses == 0`. Es una condicion de una linea."
+  }
+ ],
+ "no_mirado_todavia": [
+  "CBR Labour Regulation Index",
+  "cualquier dataset agregado de dias de vacaciones",
+  "data/derived/semilla/"
+ ],
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "_": "La ficha declaraba «ampliacion del ambito subjetivo en 2024» sin instrumento. Ya lo tiene, y ademas separa lo que se movio de lo que no.",
+     "buscado_en": "Lovdata, texto de la ferieloven con su registro de modificaciones por artículo",
+     "cita": "El artículo del quantum —25 virkedager— figura modificado por última vez por LOV-2008-12-05-82, en vigor el 1 de enero de 2009, ANTERIOR a la ventana. Lo que si cambio dentro es el artículo de ambito de aplicacion, por LOV-2023-03-17-3, en vigor el 1 de enero de 2024: mas gente cubierta, los mismos días.",
+     "nivel_de_fuente": 1,
+     "indice_registra_modificaciones": true,
+     "indice_como_se_comprobo": "Lovdata da la última modificación ARTICULO POR ARTICULO, y aqui se ve funcionando: el del quantum marca 2008 y el de ambito marca 2023. Si no registrara, los dos dirian lo mismo.",
+     "fecha_busqueda": "2026-08-11"
+   },
+  "dias": 25,
+  "tipo": "werktage",
+  "base": 6,
+  "imputacion": "extienden",
+  "meses": 0,
+  "literal": "Arbeidsgiver plikter a sorge for at arbeidstaker gis feriefritid pa 25 virkedager hvert ferieaar. Som virkedager regnes alle dager som ikke er sondager eller lovbestemte helge- eller hoytidsdager (ferieloven § 5 nr. 1)",
+  "escala": [
+   [
+    0,
+    null,
+    25
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "Ferieloven § 6 nr. 1: 'Arbeidsgiver skal i god tid for ferien drofte fastsetting av feriefritid og oppsetting av ferielister med den enkelte arbeidstaker eller vedkommendes tillitsvalgte. Oppnas ikke enighet, fastsetter arbeidsgiver tiden for ferien innenfor de grenser som folger av §§ 7-9.' § 7 nr. 1: 'Arbeidstaker kan kreve at hovedferie som omfatter 18 virkedager gis i hovedferieperioden 1 juni - 30 september.' § 7 nr. 2: 'Arbeidstaker kan kreve at restferien (7 virkedager) gis samlet innenfor feriearet.' § 6 nr. 2: el trabajador puede exigir ser informado a mas tardar dos meses antes."
+  },
+  "colocacion_nota": "El empleador DECIDE, pero acotado. El § 6 nr. 1 le impone DROFTE —discutir, que no es negociar: no exige acuerdo— y le da la potestad residual si no hay acuerdo, pero solo 'innenfor de grenser som folger av §§ 7-9'. Y en esos limites el trabajador tiene tres derechos que la ley formula con 'kan kreve', puede EXIGIR: dieciocho virkedager dentro del 1 de junio-30 de septiembre, los siete restantes en bloque dentro del ano, y ser informado con dos meses de antelacion. No es el `empleador` puro de Guatemala u Ontario ni el `trabajador` con veto de Alemania: es empleador con derechos exigibles del trabajador embebidos en los limites. El vocabulario de `iniciativa` no lo distingue. Matiz de literalidad: la palabra 'sammenhengende' (continuas) NO esta en el § 7 nr. 1 —si esta 'samlet' en el nr. 2 para la restferie—, asi que la continuidad de la hovedferie es interpretacion administrativa, no texto.",
+  "imputacion_nota": "EXTIENDEN, y sale de la DEFINICION, no de un articulo aparte. Se reviso el Kap. II entero (§§ 4-9) y no existe precepto sobre feriados dentro de vacaciones. El efecto sale de una sola frase, el § 5 nr. 1 tercera: un helligdag no es virkedag, luego no hay unidad de computo que descontar. Formalmente no es una extension que la ley conceda: es una IMPOSIBILIDAD DE IMPUTACION. Y hay una prueba textual de que la lectura es correcta, por contraste: la CUARTA frase del mismo § 5 nr. 1 hace lo opuesto para los dias libres NO festivos —el sabado de quien trabaja cinco dias si es virkedag y la ley ordena expresamente descontarlo—. O sea, el legislador SI escribio una regla explicita de imputacion para un caso y NO la escribio para el otro, porque para el otro la definicion ya bastaba. La asimetria entre la tercera y la cuarta frase es el argumento.",
+  "pendiente": "Nada del valor. Dos huecos de forma: el incremento por edad de los mayores de 60 no cabe en la escala, y el periodo de calificacion cero rompe el tramo que el cargador antepone."
+ }
+}

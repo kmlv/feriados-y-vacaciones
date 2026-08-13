@@ -1,0 +1,183 @@
+{
+  "_": "CAPTURA CIEGA de Suiza (Zurich). Escrita leyendo el Art. 20a de la Arbeitsgesetz por la guia y el FAQ de la SECO, el § 1 del Ruhetags- und Ladenoeffnungsgesetz del canton de Zurich en la coleccion legal cantonal, y los Art. 329a y 329c del Obligationenrecht, SIN mirar el indice del CBR ni ningun dataset agregado de vacaciones.",
+  "_estado": "COMPLETA en feriados. Vacaciones con imputacion `sin_regla_explicita`: el Obligationenrecht no dice nada, y la respuesta que dan las fuentes oficiales no esta en ningun articulo.",
+  "unidad": "CHE",
+  "jurisdiccion_de_referencia": "Zurich — ciudad mas poblada",
+  "captura_ciega": true,
+  "capturado_por": "captura · lote 5",
+  "fecha_captura_utc": "2026-08-10T15:05:00Z",
+
+  "advertencia_de_encuadre": "MISMO CASO QUE ALEMANIA, Y MAS EXTREMO. A nivel federal solo el 1 de agosto esta garantizado. Los demas los pone el canton, con un tope de OCHO. Zurich usa los ocho exactos, o sea esta EN EL TOPE LEGAL: no puede haber mas feriados en Zurich sin cambiar la ley federal. Un «nucleo comun suizo» surgiria de coincidencia entre cantones, no de garantia nacional, y no se construye aqui.",
+
+  "fuentes": {
+    "F1": {
+      "cita": "Bundesgesetz ueber die Arbeit in Industrie, Gewerbe und Handel (Arbeitsgesetz, ArG), SR 822.11 — Art. 20a Abs. 1",
+      "nivel_de_fuente": 2,
+      "tipo": "SECO, Secretaria de Estado de Economia — FAQ oficial de derecho laboral privado",
+      "url": "https://www.seco.admin.ch/seco/de/home/Arbeit/Personenfreizugigkeit_Arbeitsbeziehungen/Arbeitsrecht/FAQ_zum_privaten_Arbeitsrecht/freizeit-und-feiertage.html",
+      "literal_relevante": "«Der 1. August (Bundesfeiertag) ist der einzige eidgenoessische Feiertag.» «Nach Art. 20a des Arbeitsgesetzes duerfen die Kantone hoechstens acht weitere Feiertage den Sonntagen gleichstellen.» El Art. 20a Abs. 1 ArG: el dia federal se equipara a los domingos y los cantones pueden equiparar a lo sumo ocho feriados mas por ano, pudiendo fijarlos distinto por partes del canton.",
+      "nota": "El texto del articulo se leyo a traves de la guia y el FAQ de la SECO, que es la autoridad federal de aplicacion. PENDIENTE archivar el dispositivo desde Fedlex: la pagina de Fedlex exige JavaScript y devolvio solo el aviso."
+    },
+    "F2": {
+      "cita": "Ruhetags- und Ladenoeffnungsgesetz del canton de Zurich (RLG), LS 822.4, de 26 de junio de 2000 — § 1",
+      "nivel_de_fuente": 2,
+      "tipo": "coleccion legal oficial del canton de Zurich (zhlex)",
+      "url": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-os/erlass-822_4-56-351.html",
+      "publicacion": "2000-12-01",
+      "literal_relevante": "§ 1 «Oeffentliche Ruhetage sind: a) Sonntage, b) Neujahrstag, Karfreitag, Ostermontag, 1. Mai, Auffahrtstag, Pfingstmontag, 1. August, Weihnachtstag und Stephanstag (26. Dezember). Hohe Feiertage sind: Karfreitag, Ostersonntag, Pfingstsonntag, Eidgenoessischer Bettag und Weihnachtstag. Die in Absatz 1 lit. b genannten oeffentlichen Ruhetage werden im Sinne des Arbeitsgesetzes den Sonntagen gleichgestellt.»",
+      "nota": "El PDF leido lleva la marca de tirada «1.1.01 - 31», o sea la version inicial de 2000. PENDIENTE confirmar contra la version consolidada vigente que el § 1 no ha cambiado; ver hueco H3."
+    },
+    "F3": {
+      "cita": "Kanton Zuerich — pagina oficial de Feiertage de la administracion cantonal",
+      "nivel_de_fuente": 2,
+      "url": "https://www.zh.ch/de/wirtschaft-arbeit/arbeitsbedingungen/arbeitsssicherheit-gesundheitsschutz/arbeits-ruhezeiten/feiertage.html",
+      "literal_relevante": "Los nueve feriados legales: «Neujahrstag, Karfreitag, Ostermontag, Tag der Arbeit, Auffahrt, Pfingstmontag, Bundesfeiertag, Weihnachtstag, Stephanstag», por «Art. 20a Abs. 1 Arbeitsgesetz und § 1 Ruhetags- und Ladenoeffnungsgesetz des Kantons Zuerich». Sobre Sechselaeuten y Knabenschiessen: el derecho a medio dia libre pagado «besteht nur bei entsprechender Vereinbarung».",
+      "nota": "Confirma que el § 1 del RLG sigue dando los mismos nueve dias en 2026, y que las fiestas locales de la ciudad de Zurich NO son feriados legales."
+    },
+    "F4": {
+      "cita": "Obligationenrecht (OR), SR 220 — Art. 329a y Art. 329c",
+      "nivel_de_fuente": 4,
+      "url": "https://www.swissrights.ch/gesetze/Artikel-329a-OR-0000-DE.php",
+      "literal_relevante": "Art. 329a Abs. 1 «Der Arbeitgeber hat dem Arbeitnehmer jedes Dienstjahr wenigstens vier Wochen, dem Arbeitnehmer bis zum vollendeten 20. Altersjahr wenigstens fuenf Wochen Ferien zu gewaehren.» Abs. 3 «Fuer ein unvollstaendiges Dienstjahr sind Ferien entsprechend der Dauer des Arbeitsverhaeltnisses im betreffenden Dienstjahr zu gewaehren.» Art. 329c Abs. 1 «Die Ferien sind in der Regel im Verlauf des betreffenden Dienstjahres zu gewaehren; wenigstens zwei Ferienwochen muessen zusammenhaengen.» Abs. 2 «Der Arbeitgeber bestimmt den Zeitpunkt der Ferien und nimmt dabei auf die Wuensche des Arbeitnehmers soweit Ruecksicht, als dies mit den Interessen des Betriebes oder Haushaltes vereinbar ist.»",
+      "nota": "NIVEL 4 A PROPOSITO. El literal se leyo de un sitio juridico privado porque Fedlex requiere JavaScript y el volcado HTML por partes no alcanza el titulo decimo. La SUSTANCIA esta confirmada de forma independiente por el FAQ de la SECO (F5), que es nivel 2, pero el LITERAL no. No se sube el nivel por acumulacion."
+    },
+    "F5": {
+      "cita": "SECO — FAQ zum privaten Arbeitsrecht, Ferien",
+      "nivel_de_fuente": 2,
+      "url": "https://www.seco.admin.ch/seco/de/home/Arbeit/Personenfreizugigkeit_Arbeitsbeziehungen/Arbeitsrecht/FAQ_zum_privaten_Arbeitsrecht/ferien.html",
+      "literal_relevante": "«bis zum vollendeten 20. Altersjahr 5 Wochen pro Dienstjahr», «fuer alle anderen Arbeitnehmer 4 Wochen pro Dienstjahr», «Zustaendig fuer die Festsetzung des Ferienzeitpunkts ist der Arbeitgeber», con el limite de «soweit dies mit den Interessen des Betriebs vereinbar ist».",
+      "nota": "Comprobacion HECHA Y NEGATIVA: esta pagina oficial NO aborda si un feriado dentro del periodo de vacaciones cuenta como dia de vacaciones. La pagina hermana de Feiertage solo dice, del caso inverso, «Umgekehrt gibt es auch kein Recht auf Nachbezug von Feiertagen, die auf einen arbeitsfreien Tag fallen»."
+    }
+  },
+
+  "feriados": {
+    "estado": "COMPLETO para Zurich 2026: nueve dias, uno federal y ocho cantonales.",
+    "estructura": "Se separan a proposito. `lista` trae SOLO el dia garantizado por el derecho federal; `subnacionales` trae los ocho que pone el canton de Zurich. Es el mismo tratamiento que Alemania y por el mismo motivo: no hay calendario nacional que capturar.",
+    "fuente": "F1",
+    "lista": [
+      {
+        "fecha": "08-01",
+        "nombre": "Bundesfeiertag (1. August)",
+        "clase_de_regla": "fija",
+        "nota": "UNICO feriado garantizado en toda Suiza. Art. 20a Abs. 1 ArG lo equipara a los domingos; la Constitucion federal lo declara dia nacional pagado. Todos los demas son cantonales."
+      }
+    ],
+    "subnacionales": [
+      {"fecha": "01-01", "nombre": "Neujahrstag", "clase_de_regla": "fija", "jurisdiccion": "Kanton Zuerich, RLG § 1 Abs. 1 lit. b"},
+      {"fecha": null, "nombre": "Karfreitag", "clase_de_regla": "computable", "regla": "pascua-2", "jurisdiccion": "Kanton Zuerich, RLG § 1 Abs. 1 lit. b"},
+      {"fecha": null, "nombre": "Ostermontag", "clase_de_regla": "computable", "regla": "pascua+1", "jurisdiccion": "Kanton Zuerich, RLG § 1 Abs. 1 lit. b"},
+      {"fecha": "05-01", "nombre": "Tag der Arbeit (1. Mai)", "clase_de_regla": "fija", "jurisdiccion": "Kanton Zuerich, RLG § 1 Abs. 1 lit. b", "nota": "NO es feriado en todos los cantones suizos. Es un ejemplo directo de por que no existe calendario nacional."},
+      {"fecha": null, "nombre": "Auffahrtstag", "clase_de_regla": "computable", "regla": "pascua+39", "jurisdiccion": "Kanton Zuerich, RLG § 1 Abs. 1 lit. b"},
+      {"fecha": null, "nombre": "Pfingstmontag", "clase_de_regla": "computable", "regla": "pascua+50", "jurisdiccion": "Kanton Zuerich, RLG § 1 Abs. 1 lit. b"},
+      {"fecha": "12-25", "nombre": "Weihnachtstag", "clase_de_regla": "fija", "jurisdiccion": "Kanton Zuerich, RLG § 1 Abs. 1 lit. b"},
+      {"fecha": "12-26", "nombre": "Stephanstag", "clase_de_regla": "fija", "jurisdiccion": "Kanton Zuerich, RLG § 1 Abs. 1 lit. b"}
+    ],
+    "total_2026": 9,
+    "en_el_tope_legal": "Ocho cantonales es EXACTAMENTE el maximo que permite el Art. 20a Abs. 1 ArG. Zurich esta topado. Para el analisis de reforma esto importa: un cero de delta en Zurich puede ser censura en el tope y no ausencia de presion, que es el mismo fenomeno que el esquema documenta para las variables externas.",
+    "no_son_feriados_legales": {
+      "dias": ["Berchtoldstag (2 de enero)", "Sechselaeuten (medio dia, abril, ciudad de Zurich)", "Knabenschiessen (medio dia, septiembre, ciudad de Zurich)", "Eidgenoessischer Bettag"],
+      "por_que": "Berchtoldstag no figura en el § 1 del RLG y por tanto NO es feriado cantonal en Zurich, aunque si lo sea en otros cantones y aunque muchas empresas lo den. Sechselaeuten y Knabenschiessen son medios dias de la ciudad: la pagina oficial del canton dice que el derecho a medio dia libre pagado existe «nur bei entsprechender Vereinbarung», o sea solo por acuerdo. El Bettag y los domingos de Pascua y Pentecostes figuran en el § 1 como «hohe Feiertage» a efectos de policia de descanso, NO como Ruhetage equiparados al domingo de la lit. b.",
+      "por_que_importa": "Las listas de calendario de nivel 6 suelen incluir Berchtoldstag en Zurich. No esta en la ley."
+    },
+    "regla_de_traslado": "NINGUNA en el RLG. No hay sustitucion cuando un Ruhetag cae en domingo."
+  },
+
+  "vacaciones": {
+    "texto_legal_dias": 4,
+    "tipo_de_dia": "semanas — LEIDO: el Art. 329a dice «vier Wochen», semanas, nunca dias",
+    "literal": "Der Arbeitgeber hat dem Arbeitnehmer jedes Dienstjahr wenigstens vier Wochen, dem Arbeitnehmer bis zum vollendeten 20. Altersjahr wenigstens fuenf Wochen Ferien zu gewaehren.",
+    "fuente": "F4",
+    "periodo_de_calificacion": "Ninguno. El Art. 329a Abs. 3 manda conceder vacaciones prorrateadas por el Dienstjahr incompleto.",
+    "escala_antiguedad": "ninguna POR ANTIGUEDAD. La progresion suiza es por EDAD y va al reves: cinco semanas hasta cumplir 20 anos, cuatro despues. No es una escala de antiguedad y no cabe en `escala_antiguedad`, que se indexa por meses de servicio.",
+    "bloque_minimo": "Art. 329c Abs. 1: al menos dos semanas de vacaciones deben ir seguidas.",
+    "colocacion_literal": "Art. 329c Abs. 2: el empleador determina el momento de las vacaciones y atiende los deseos del trabajador en la medida compatible con los intereses de la empresa o del hogar.",
+    "estado_verificacion": "verificado_secundaria"
+  },
+
+  "imputacion": {
+    "valor": "sin_regla_explicita",
+    "por_que": "Busque el articulo y no lo hay. El Obligationenrecht regula las vacaciones en los Art. 329a a 329d y NINGUNO dice que ocurre cuando un feriado cae dentro del periodo de vacaciones. La Arbeitsgesetz regula los feriados como dias equiparados al domingo a efectos de prohibicion de trabajo, no como derecho retributivo frente a las vacaciones. Comprobe expresamente el FAQ de la SECO sobre Ferien: no aborda la cuestion.",
+    "lo_que_dicen_las_fuentes_no_normativas": "Portales oficiales y doctrina suiza coinciden en que un feriado que cae dentro de las vacaciones NO se cuenta como dia de vacaciones. Es la respuesta practica, pero no esta en ningun articulo y la SECO no la enuncia.",
+    "el_problema_es_ademas_de_unidad": "Suiza concede SEMANAS. Si el derecho se ejerce en semanas, una semana con feriado sigue siendo una semana y la pregunta no se plantea; solo aparece cuando el empleador lleva un saldo en dias. O sea que la ausencia de articulo no es un descuido: es que el texto legal esta escrito en una unidad en la que la imputacion no se formula.",
+    "consecuencia": "El total suizo es NA. Y conviene decir por que: no porque falte informacion, sino porque la pregunta no esta bien planteada contra un derecho medido en semanas."
+  },
+
+  "corte_2016": {
+    "estado": "supuesto_sin_cambio",
+    "nota": "No halle ninguna reforma en la ventana del Art. 329a OR, del Art. 20a ArG ni del § 1 del RLG de Zurich, PERO NO LO VERIFIQUE: la version del RLG que pude leer entera es la de 2000 y la pagina de Fedlex no entrego el historial de modificaciones del OR. La pagina oficial del canton confirma que en 2026 los nueve dias son los mismos, lo que hace muy probable la ausencia de cambio en feriados, pero eso no es haber leido la cadena de novelas. Por la regla 4, ausencia no verificada no es ausencia verificada."
+  },
+
+  "delta_2016_2026": {"feriados": "0 supuesto", "vacaciones": "0 supuesto"},
+
+  "huecos": [
+    {
+      "id": "H1",
+      "que": "No hay articulo de imputacion. Codificado `sin_regla_explicita`.",
+      "como_se_cierra": "No hay norma que leer. Se cerraria con jurisprudencia del Bundesgericht o con una decision del principal sobre como tratar derechos expresados en semanas, donde la imputacion no se formula."
+    },
+    {
+      "id": "H2",
+      "que": "La progresion suiza es POR EDAD (cinco semanas hasta los 20, cuatro despues) y `escala_antiguedad` se indexa por meses de servicio. Es una escala decreciente por edad y el esquema no la puede llevar.",
+      "por_que_importa": "Es la primera escala del piloto que no depende de la antiguedad. Y va hacia abajo, no hacia arriba, lo que rompe el supuesto implicito de que las escalas son crecientes.",
+      "como_se_cierra": "Decision del principal. El trabajador de referencia es mayor de 20, asi que el valor publicado (4) es el correcto, pero el hecho de que exista una escala queda invisible."
+    },
+    {
+      "id": "H3",
+      "que": "La version del RLG de Zurich que se leyo entera es la de 2000 (marca de tirada «1.1.01 - 31»); la consolidada vigente no se pudo extraer.",
+      "como_se_cierra": "Descargar el PDF consolidado desde zhlex y comparar el § 1."
+    },
+    {
+      "id": "H4",
+      "que": "El literal del OR esta en nivel 4: Fedlex exige JavaScript y el volcado HTML por partes no llega al Art. 329.",
+      "como_se_cierra": "Obtener el PDF oficial del OR desde Fedlex y verificar los Art. 329a-329d."
+    },
+    {
+      "id": "H5",
+      "que": "El tope de ocho feriados cantonales del Art. 20a ArG no tiene donde declararse. Un cero de delta en Zurich puede ser censura en el tope.",
+      "como_se_cierra": "Campo de cota superior legal en la unidad, analogo al `censurado_en_tope` que el esquema ya tiene para las mediciones externas."
+    }
+  ],
+
+  "no_mirado_todavia": ["CBR Labour Regulation Index", "cualquier dataset agregado de dias de vacaciones", "data/derived/semilla/"],
+
+  "vacaciones_normalizado": {
+
+    "sin_cambio": {
+
+      "buscado_en": "Reproduccion del texto del art. 329a del Código de las Obligaciones con su nota de versión oficial",
+
+      "cita": "Cuatro semanas por anio de servicio, cinco hasta los veinte anios de edad. El artículo lleva su propia nota de versión: redaccion segun la ley de 16 de diciembre de 1983, EN VIGOR DESDE EL 1 DE JULIO DE 1984. Cuarenta anos antes de la ventana.",
+
+      "nivel_de_fuente": 3,
+
+      "fecha_busqueda": "2026-08-11",
+
+      "pantalla_3": {
+
+        "cita": "Prensa suiza: el minimo sigue en cuatro semanas y los intentos de subirlo FRACASARON dentro de la ventana. La iniciativa parlamentaria 22.447, que pedia cinco semanas para todos, fue rechazada por el Consejo Nacional por 121 votos contra 68 en marzo de 2023. Es evidencia mas fuerte que el silencio: hubo intento publico, documentado, y no prospero.",
+
+        "url": "https://www.arbeitgeber.ch/arbeitsmarkt/ausweitung-der-ferienansprueche-im-parlament-erneut-erfolglos/"
+
+      }
+
+    },
+    "dias": 4,
+    "tipo": "semanas",
+    "base": 5,
+    "imputacion": "sin_regla_explicita",
+    "meses": 12,
+    "literal": "Der Arbeitgeber hat dem Arbeitnehmer jedes Dienstjahr wenigstens vier Wochen... Ferien zu gewaehren (Art. 329a Abs. 1 OR)",
+    "escala": [[12, null, 4]],
+    "nota_escala": "Un solo tramo. La unica progresion del regimen suizo es por EDAD y decreciente (cinco semanas hasta los 20), y no cabe en una escala indexada por meses de servicio. Ver hueco H2.",
+    "nota_periodo_de_calificacion": "`meses: 12` corresponde a que las cuatro semanas se predican de cada Dienstjahr completo. Suiza NO tiene periodo de calificacion: el Art. 329a Abs. 3 manda prorratear el Dienstjahr incompleto. El tramo cero que antepone el cargador dice algo que la norma contradice expresamente.",
+    "nota_base_semanal": "base 5 es la semana del trabajador de referencia. La ley no fija numero de dias por semana; concede semanas, que es justo lo que hace que el campo `base` sea una convencion nuestra y no un dato legal.",
+    "colocacion": {
+      "iniciativa": "empleador",
+      "veto": null,
+      "silencio": null,
+      "instrumento": "ley",
+      "literal": "Der Arbeitgeber bestimmt den Zeitpunkt der Ferien und nimmt dabei auf die Wuensche des Arbeitnehmers soweit Ruecksicht, als dies mit den Interessen des Betriebes oder Haushaltes vereinbar ist (Art. 329c Abs. 2 OR); die Ferien sind in der Regel im Verlauf des betreffenden Dienstjahres zu gewaehren, wenigstens zwei Ferienwochen muessen zusammenhaengen (Art. 329c Abs. 1)",
+      "nota": "Iniciativa del empleador con deber de CONSIDERACION de los deseos del trabajador, no de negociacion ni de causa para negarse. Notese el reverso frente a Alemania: el aleman parte del deseo del trabajador y el empleador necesita causa operativa urgente para desatenderlo; el suizo parte de la decision del empleador y los deseos del trabajador entran solo si son compatibles con la empresa. Casi las mismas palabras, la carga de la justificacion invertida."
+    }
+  }
+}

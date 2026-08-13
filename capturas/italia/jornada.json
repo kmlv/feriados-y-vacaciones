@@ -1,0 +1,49 @@
+{
+  "_": "Jornada semanal legal ordinaria. Caso limpio de hueco: el D.Lgs. 66/2003 fija 40 horas semanales y delega el resto en el CCNL. Sin maximo diario y sin dias. La festividad en domingo se COMPENSA EN DINERO, no se traslada.",
+  "unidad": "ITA",
+  "jurisdiccion_de_referencia": "Roma",
+  "sector_de_referencia": "privado formal, jornada completa, persona adulta, trabajo diurno",
+  "capturado_por": "jornada · lote 4",
+  "fecha_captura_utc": "2026-08-11T05:45:52Z",
+  "fuentes": {
+    "J1": {
+      "cita": "Decreto legislativo 8 aprile 2003, n. 66, art. 3 (Orario normale di lavoro), art. 4 (Durata massima dell'orario di lavoro), art. 7 (Riposo giornaliero), art. 9 (Riposi settimanali)",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-04-08;66",
+      "nivel_de_fuente": 1,
+      "publicacion": "GU Serie Generale n. 87 del 14-04-2003, Suppl. Ordinario n. 61; consultado en vista multivigenza",
+      "nota": "Normattiva es la banca dati oficial del Estado italiano (Presidenza del Consiglio, Camera, Senato, Istituto Poligrafico e Zecca dello Stato)."
+    },
+    "J2": {
+      "cita": "Legge 27 maggio 1949, n. 260, art. 5 (en la redaccion vigente), sobre retribucion de las festividades",
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1949-05-27;260",
+      "nivel_de_fuente": 1,
+      "publicacion": "GU del 31-05-1949; codice redazionale 049U0260",
+      "nota": "Es la norma que resuelve la coincidencia de festividad con domingo, y la resuelve en dinero."
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 40,
+    "horas_diarias_max": null,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "Art. 3 D.Lgs. 66/2003: «1. L'orario normale di lavoro e fissato in 40 ore settimanali. 2. I contratti collettivi di lavoro possono stabilire, ai fini contrattuali, una durata minore e riferire l'orario normale alla durata media delle prestazioni lavorative in un periodo non superiore all'anno.» — Art. 4, comma 2: «La durata media dell'orario di lavoro non puo in ogni caso superare, per ogni periodo di sette giorni, le quarantotto ore, comprese le ore di lavoro straordinario.» — Art. 7: «Ferma restando la durata normale dell'orario settimanale, il lavoratore ha diritto a undici ore di riposo consecutivo ogni ventiquattro ore.»",
+    "traduccion": "Art. 3: «1. El horario normal de trabajo se fija en 40 horas semanales. 2. Los convenios colectivos pueden establecer, a efectos contractuales, una duracion menor y referir el horario normal a la duracion media de las prestaciones en un periodo no superior al ano.» — Art. 4.2: «La duracion media del horario de trabajo no puede en ningun caso superar, por cada periodo de siete dias, las cuarenta y ocho horas, incluidas las horas extraordinarias.» — Art. 7: «Sin perjuicio de la duracion normal del horario semanal, el trabajador tiene derecho a once horas de descanso consecutivo cada veinticuatro horas.»",
+    "fuente": "J1",
+    "nota": "DOS CIFRAS QUE MIDEN COSAS DISTINTAS: 40 es el horario NORMAL (art. 3) y 48 es el techo medio INCLUIDA la hora extraordinaria (art. 4.2, promediable a cuatro meses). Codifico 40 porque es la jornada ordinaria, que es lo que este campo pide. NO HAY MAXIMO DIARIO en el decreto: la jornada diaria queda acotada por rebote a trece horas via las once de descanso del art. 7. Y LOS DIAS VAN NULOS SIN NINGUNA DUDA: el art. 3 fija horas semanales y punto, y su comma 2 delega expresamente en el convenio colectivo la posibilidad de una duracion menor y el promedio anual. Italia es el ejemplo limpio del hueco que este archivo viene a marcar: la distribucion semanal es materia de CCNL, y quien ponga cinco estara copiando la costumbre, no la ley."
+  },
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "domingo por regla («di regola in coincidenza con la domenica»), pero desplazable y promediable en catorce dias",
+    "literal": "Art. 9, comma 1, D.Lgs. 66/2003: «Il lavoratore ha diritto ogni sette giorni a un periodo di riposo di almeno ventiquattro ore consecutive, di regola in coincidenza con la domenica, da cumulare con le ore di riposo giornaliero di cui all'articolo 7. Il suddetto periodo di riposo consecutivo e calcolato come media in un periodo non superiore a quattordici giorni.» (traduccion: «El trabajador tiene derecho cada siete dias a un periodo de descanso de al menos veinticuatro horas consecutivas, por regla coincidente con el domingo, acumulable con las horas de descanso diario del art. 7. Dicho periodo se calcula como promedio en un periodo no superior a catorce dias.»)",
+    "fuente": "J1"
+  },
+  "traslado_por_defecto": {
+    "existe": true,
+    "regla": "compensacion_monetaria",
+    "alcance": "Las festividades civiles que el propio art. 5 enumera —2 de junio (fiesta nacional), 25 de abril (aniversario de la liberacion), 1 de mayo (fiesta del trabajo) y 4 de noviembre (unidad nacional)—. NO alcanza por su letra a las festividades religiosas infrasemanales, cuyo tratamiento descansa en el art. 2 de la misma ley y en la negociacion colectiva.",
+    "literal": "Art. 5, L. 260/1949: «...Qualora la festivita ricorra nel giorno di domenica, spettera ai lavoratori stessi, oltre la normale retribuzione globale di fatto giornaliera, compreso ogni elemento accessorio, anche una ulteriore retribuzione corrispondente all'aliquota giornaliera.» (traduccion: «Si la festividad recae en domingo, correspondera a esos trabajadores, ademas de la retribucion global de hecho diaria normal con todo elemento accesorio, una retribucion ULTERIOR equivalente a la cuota diaria.»)",
+    "fuente": "J2"
+  },
+  "reformas_en_la_ventana": [],
+  "pendiente": "El alcance subjetivo del art. 5 de la L. 260/1949 es enredado —distingue retribuidos por horas y retribuidos en medida fija, y la clausula del domingo esta en el parrafo de los segundos— y no resolvi con fuente propia si la retribucion adicional por festividad dominical alcanza a TODAS las festividades o solo a las cuatro civiles que el articulo enumera. Deje el alcance descrito por la letra y no por la practica. Tampoco capture los CCNL, que en Italia son quienes fijan la jornada efectiva y su reparto."
+}

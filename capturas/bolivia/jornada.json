@@ -1,0 +1,66 @@
+{
+ "_": "JORNADA SEMANAL LEGAL ORDINARIA de Bolivia. Trabajador de referencia: sector privado formal, jornada completa, Santa Cruz de la Sierra.",
+ "unidad": "BOL",
+ "jurisdiccion_de_referencia": "Santa Cruz de la Sierra",
+ "capturado_por": "jornada · lote 1",
+ "fecha_captura_utc": "2026-08-11T05:55:37Z",
+ "fuentes": {
+  "J1": {
+   "cita": "Ley General del Trabajo de 8 de diciembre de 1942, arts. 41, 42, 46, 47, 48",
+   "url": "https://www.oas.org/dil/Migrants/Bolivia/Ley%20general%20del%20trabajo%20del%208%20de%20diciembre%20de%201942.pdf",
+   "nivel_de_fuente": 3,
+   "publicacion": "1942-12-08",
+   "nota": "NIVEL 3 Y NO 1 A PROPOSITO. La Gaceta Oficial de Bolivia (gacetaoficialdebolivia.gob.bo) y el SILEP no respondieron desde este entorno: uno rechazo la conexion y el otro no resolvio. Se uso el repositorio documental de la OEA, que reproduce el texto con las concordancias reglamentarias. Se descarto LexiVox para el literal porque su transcripcion del art. 46 esta corrupta (le falta la definicion de trabajo nocturno y encadena mal la frase siguiente); el texto de la OEA si es coherente. PENDIENTE cotejar contra Gaceta Oficial."
+  },
+  "J2": {
+   "cita": "Decreto Supremo N 2750 de 1 de mayo de 2016, arts. 1 a 3; modificado por el DS N 5019 de 13 de septiembre de 2023, art. 2, y por el DS N 5483 de 29 de octubre de 2025, artículo unico",
+   "url": "https://www.lexivox.org/norms/BO-DS-N2750.xhtml",
+   "nivel_de_fuente": 3,
+   "publicacion": "2016-05-01",
+   "nota": "Los tres decretos se leyeron en LexiVox porque la Gaceta Oficial no era alcanzable. Los textos de los tres son internamente consistentes: el DS 5483 cita el articulo que modifica con la redaccion que el DS 5019 le habia dado, lo que da un control cruzado entre documentos. Aun asi es nivel 3. URLs: DS 5019 https://www.lexivox.org/norms/BO-DS-N5019.xhtml ; DS 5483 https://www.lexivox.org/norms/BO-DS-N5483.xhtml"
+  }
+ },
+ "jornada": {
+  "horas_semanales_max": 48,
+  "horas_diarias_max": 8,
+  "dias_ordinarios": 6,
+  "dias_ordinarios_origen": "norma",
+  "literal": "Art. 46 LGT: 'La jornada efectiva de trabajo no excedera de 8 horas por dia y de 48 por semana. La jornada de trabajo nocturno no excedera de 7 horas entendiendose por trabajo nocturno el que se practica entre horas veinte y seis de la manana. Se exceptua de esta disposicion el trabajo de las empresas periodisticas, que estan sometidas a reglamentacion especial. La jornada de mujeres no excedera de 40 horas semanales diurnas.'",
+  "traduccion": null,
+  "fuente": "J1",
+  "nota": "Los seis dias salen de la aritmetica de la propia norma: 48 semanales sobre un tope de 8 diarias exigen seis dias, y el art. 41 deja fuera unicamente el domingo. Es el caso claro que el proyecto describe: aqui la ley SI fija ambos numeros. DOS ADVERTENCIAS. Primera: el mismo art. 46 fija 40 horas semanales para las mujeres, con lo que la jornada legal boliviana depende del sexo del trabajador y la respuesta 48/6 vale para el trabajador varon de referencia; para una trabajadora el tope es 40. Segunda: el art. 48 permite prolongar mas alla de 8 y 48 en trabajo por equipos si el promedio de tres semanas no excede el maximo, y el art. 46 exceptua direccion, vigilancia y confianza (que en cambio no pueden pasar de 12 horas diarias)."
+ },
+ "descanso_semanal": {
+  "dias": 1,
+  "cuales": "domingo",
+  "literal": "Art. 41 LGT: 'Son dias habiles para el trabajo los del ano, con excepcion de los feriados, considerandose tales todos los domingos, los feriados civiles y los que asi fueren declarados ocasionalmente, por leyes y decretos especiales.' — Art. 42 LGT: 'Durante los dias feriados no podran efectuarse trabajos de ninguna clase, aunque estos sean de ensenanza profesional o beneficencia. Tratandose de centros alejados de las capitales, los feriados ocasionales podran ser compensados con otro dia de descanso.'",
+  "fuente": "J1",
+  "nota": "La LGT no usa la expresion 'descanso semanal': llega al mismo resultado por otra via, declarando inhabil el domingo junto con los feriados. Por eso en Bolivia domingo y feriado son la misma categoria juridica, y eso es justamente lo que hace necesaria la regla de traslado del bloque siguiente."
+ },
+ "traslado_por_defecto": {
+  "existe": true,
+  "regla": "se traslada al lunes siguiente",
+  "alcance": "solo los que indica la norma: todos los feriados nacionales y por efemerides departamentales que caigan en domingo, salvo Carnaval (lunes y martes), Viernes Santo y Corpus Christi",
+  "literal": "Art. 3 del DS 2750, en la redaccion vigente que le dio el DS 5483: 'ARTICULO 3.- (TRASLADO DE FERIADOS NACIONALES Y FERIADOS POR EFEMERIDES DEPARTAMENTALES). Se considera feriado con suspension de actividades publicas y privadas, los dias lunes posteriores a los feriados nacionales y feriados por efemerides departamentales que correspondan a dia domingo, con excepcion de los feriados senalados en los incisos c), d) y f) del Articulo precedente.'",
+  "fuente": "J2",
+  "nota": "El traslado alcanza expresamente a las actividades PRIVADAS, no solo a la administracion, y eso es lo que lo vuelve relevante para el trabajador de referencia. Las excepciones son inocuas en la practica: los incisos c), d) y f) del art. 2 son Carnaval, Viernes Santo y Corpus Christi, fiestas moviles que por construccion nunca caen en domingo. El texto original de 2016 excluia ademas el inciso i), el 2 de noviembre (Todos los Difuntos); el DS 5483 de 2025 lo saco de la lista de excepciones, con lo que desde entonces ese feriado tambien se traslada."
+ },
+ "reformas_en_la_ventana": [
+  {
+   "instrumento": "Decreto Supremo N 2750",
+   "anio": 2016,
+   "que_cambio": "Creo la regla general de traslado al lunes de los feriados nacionales que caen en domingo, con suspension de actividades publicas y privadas. Antes de 2016 no habia regla general y el feriado dominical se perdia."
+  },
+  {
+   "instrumento": "Decreto Supremo N 5019",
+   "anio": 2023,
+   "que_cambio": "Extendio el traslado a los feriados por efemerides departamentales (relevante para Santa Cruz, cuya efemeride es el 24 de septiembre) y reformulo el objeto del DS 2750."
+  },
+  {
+   "instrumento": "Decreto Supremo N 5483",
+   "anio": 2025,
+   "que_cambio": "Saco al 2 de noviembre (Todos los Difuntos) de la lista de excepciones, de modo que ese feriado pasa a trasladarse al lunes cuando cae en domingo."
+  }
+ ],
+ "pendiente": "Ni la Gaceta Oficial ni el SILEP fueron alcanzables desde este entorno, asi que ninguna de las dos fuentes es nivel 1 ni 2 y todos los literales quedan pendientes de cotejo contra el dispositivo oficial. Tampoco verifique el Decreto Reglamentario de la LGT de 23 de agosto de 1943 (arts. 29 a 32 y 35 a 36), que el texto de la OEA cita como concordante y podria precisar el regimen de descanso; ni los arts. 70 y 71 del DS 21060, citados en la misma concordancia sobre jornada."
+}

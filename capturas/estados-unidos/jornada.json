@@ -1,0 +1,71 @@
+{
+  "unidad": "USA",
+  "jurisdiccion_de_referencia": "Nueva York (ciudad); rigen la ley federal y la del Estado de Nueva York",
+  "fecha_captura_utc": "2026-08-11T06:11:34Z",
+  "trabajador_de_referencia": "sector privado formal, jornada completa, empleado no exento a efectos de la FLSA",
+
+  "fuentes": {
+    "J1": {
+      "cita": "Fair Labor Standards Act of 1938, 29 U.S.C. § 207(a)(1) — Maximum hours",
+      "url": "https://www.law.cornell.edu/uscode/text/29/207",
+      "nivel_de_fuente": 2,
+      "publicacion": "1938, texto vigente",
+      "nota": "El servidor oficial uscode.house.gov no respondió durante la captura; se usó la edición del Legal Information Institute de Cornell, que reproduce el U.S. Code. El texto citado es el clásico y no ha cambiado. PENDIENTE: cerrar contra uscode.house.gov o govinfo."
+    },
+    "J2": {
+      "cita": "New York Consolidated Laws, Labor Law § 161 — One day rest in seven",
+      "url": "https://www.nysenate.gov/legislation/laws/LAB/161",
+      "nivel_de_fuente": 2,
+      "publicacion": "revisión vigente desde 2020-04-17",
+      "nota": "NYS Open Legislation, portal oficial del Senado del Estado de Nueva York."
+    },
+    "J3": {
+      "cita": "New York Consolidated Laws, Labor Law § 160 — Hours to constitute a day's work",
+      "url": "https://www.nysenate.gov/legislation/laws/LAB/160",
+      "nivel_de_fuente": 2,
+      "publicacion": "texto vigente",
+      "nota": null
+    },
+    "J4": {
+      "cita": "New York Consolidated Laws, General Construction Law § 24 — Public holidays; half-holidays",
+      "url": "https://www.nysenate.gov/legislation/laws/GCN/24",
+      "nivel_de_fuente": 2,
+      "publicacion": "texto vigente",
+      "nota": "Define los días feriados a efectos legales y públicos del Estado. No impone obligación alguna a los empleadores privados."
+    }
+  },
+
+  "jornada": {
+    "horas_semanales_max": null,
+    "horas_diarias_max": null,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "umbral_horas_extra_semanal": 40,
+    "literal": "no employer shall employ any of his employees who in any workweek is engaged in commerce or in the production of goods for commerce […] for a workweek longer than forty hours unless such employee receives compensation for his employment in excess of the hours above specified at a rate not less than one and one-half times the regular rate at which he is employed.",
+    "traduccion": "ningún empleador ocupará a un empleado […] por una semana laboral superior a cuarenta horas, salvo que ese empleado reciba, por el tiempo que exceda de las horas indicadas, una compensación no inferior a una vez y media la tarifa ordinaria a la que está empleado.",
+    "fuente": "J1",
+    "nota": "AQUÍ EL DATO ES LA AUSENCIA. Estados Unidos NO tiene jornada máxima federal. Las cuarenta horas de la FLSA no son un tope: son el UMBRAL a partir del cual la hora se encarece un cincuenta por ciento. La norma no prohíbe trabajar más; sólo lo cobra más caro. Por eso horas_semanales_max va en null y las 40 se guardan aparte, en umbral_horas_extra_semanal, que es lo que realmente son. Confundir ambas cosas —y es el error frecuente— convertiría a Estados Unidos en un país de semana de cuarenta horas por ley, que no lo es. Tampoco hay máximo diario federal. Nueva York tampoco impone tope: su Labor Law § 160(3) dice que para los demás empleados «eight hours» constituyen «a legal day's work», pero el propio párrafo aclara que ello «shall not prevent an agreement for overwork at an increased compensation» — es una regla supletoria de contrato, no un límite. Sin tope semanal ni diario y sin reparto legal, los días ordinarios no se siguen de ninguna norma."
+  },
+
+  "descanso_semanal": {
+    "dias": null,
+    "cuales": null,
+    "literal": "§ 161. One day rest in seven. 1. Every employer operating a factory, mercantile establishment, hotel, restaurant, or freight or passenger elevator in any building or place shall, except as herein otherwise provided, allow every person employed in such establishment or in the care, custody or operation of any such elevator, at least twenty-four consecutive hours of rest in any calendar week.",
+    "traduccion": "Todo empleador que opere una fábrica, un establecimiento mercantil, un hotel, un restaurante o un ascensor de carga o de pasajeros en cualquier edificio o lugar deberá, salvo lo dispuesto en contrario aquí, conceder a toda persona empleada en dicho establecimiento —o en el cuidado, custodia u operación de dicho ascensor— al menos veinticuatro horas consecutivas de descanso en cualquier semana calendario.",
+    "fuente": "J2",
+    "nota": "SE REGISTRA null, NO 1, Y LA RAZÓN IMPORTA. No existe descanso semanal obligatorio en la ley federal: la FLSA no lo contempla. La regla neoyorquina existe pero es SECTORIAL, no general: alcanza fábricas, establecimientos mercantiles, hoteles, restaurantes y ascensores, más categorías nominadas (vigilantes, ingenieros y fogoneros de edificios; conserjes y encargados; trabajadoras del hogar; jornaleros agrícolas). El empleado de oficina del sector privado —el caso más común del trabajador de referencia en Nueva York— NO está cubierto. Poner 1 daría por garantizado a todo el país un descanso que depende del ramo en que se trabaje. Si el trabajador de referencia se acotara al comercio minorista o a la hostelería, la respuesta sería 1 día por semana calendario, sin día nombrado."
+  },
+
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": "se pierde",
+    "alcance": null,
+    "literal": null,
+    "fuente": "J4",
+    "nota": "No puede haber traslado porque no hay derecho que trasladar: ni la ley federal ni la de Nueva York obligan al empleador privado a dar feriados pagados. Sin feriado legal obligatorio, la pregunta por lo que ocurre cuando cae en el descanso semanal no llega a plantearse. Hay dos reglas cercanas que NO aplican al caso y conviene dejar dichas para que nadie las importe por error. Primera: 5 U.S.C. § 6103(b) sí manda un día «in lieu of» cuando el feriado cae en día no laborable, pero rige sólo para empleados federales. Segunda: la General Construction Law § 24 de Nueva York define los feriados a efectos legales y dispone que «if any of such days except Flag day is Sunday, the next day thereafter» es el feriado — pero eso fija el calendario oficial del Estado, no una obligación del empleador privado. Cualquier feriado pagado en el sector privado nace del contrato o de la política de la empresa, y su traslado también."
+  },
+
+  "reformas_en_la_ventana": [],
+
+  "pendiente": "No se detectó reforma entre 2016 y 2026 en el umbral de las 40 horas de la FLSA ni en el alcance del § 161 de la Labor Law neoyorquina, pero no se hizo una comparación exhaustiva de versiones: el § 161 muestra revisiones en 2014, 2015, 2019 y 2020 (la de 2020 amplía el descanso a jornaleros agrícolas), y no se verificó si alguna de ellas tocó el listado de sectores cubiertos. El texto de 29 U.S.C. § 207 se tomó de Cornell y no del U.S. Code oficial."
+}

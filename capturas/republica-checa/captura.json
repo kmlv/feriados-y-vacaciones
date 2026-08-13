@@ -1,0 +1,163 @@
+{
+  "_": "CAPTURA CIEGA de la Republica Checa (Praga). Escrita leyendo el zakon 245/2000 Sb. reproducido por el manual oficial del MPSV y el zakonik prace 262/2006 Sb., SIN mirar el indice del CBR ni ningun dataset agregado de vacaciones.",
+  "_estado": "COMPLETA en feriados y en vacaciones. Imputacion VERIFICADA con literal explicito (§ 219 odst. 2).",
+  "unidad": "CZE",
+  "jurisdiccion_de_referencia": "Praga — ciudad mas poblada",
+  "captura_ciega": true,
+  "capturado_por": "captura · lote 5",
+  "fecha_captura_utc": "2026-08-10T14:45:00Z",
+
+  "fuentes": {
+    "F1": {
+      "cita": "Zakon c. 245/2000 Sb., o statnich svatcich, o ostatnich svatcich, o vyznamnych dnech a o dnech pracovniho klidu — § 1 y § 2",
+      "nivel_de_fuente": 2,
+      "tipo": "portal del Ministerio de Trabajo y Asuntos Sociales (MPSV), «Prirucka pro personalni agendu a odmenovani zamestnancu»",
+      "url": "https://ppropo.mpsv.cz/zakon_245_2000",
+      "literal_relevante": "§ 1 «Dny 1. leden - Den obnovy samostatneho ceskeho statu, 8. kveten - Den vitezstvi, 5. cervenec - Den slovanskych verozvestu Cyrila a Metodeje, 6. cervenec - Den upaleni mistra Jana Husa, 28. zari - Den ceske statnosti, 28. rijen - Den vzniku samostatneho ceskoslovenskeho statu a 17. listopad - Den boje za svobodu a demokracii a Mezinarodni den studentstva se prohlasuji za statni svatky Ceske republiky». § 2 «Ostatnimi svatky jsou 1. leden - Novy rok, Velky patek, Velikonocni pondeli, 1. kveten - Svatek prace, 24. prosinec - Stedry den, 25. prosinec - 1. svatek vanocni a 26. prosinec - 2. svatek vanocni»",
+      "nota": "El portal oficial e-sbirka.gov.cz devolvio pagina sin texto y zakonyprolidi.cz bloqueo la peticion. El texto se leyo del manual del MPSV, que es gobierno pero no gaceta. PENDIENTE archivar el dispositivo de la Sbirka."
+    },
+    "F2": {
+      "cita": "Zakon c. 262/2006 Sb., zakonik prace — §§ 212, 213, 217, 218, 219 (parte novena, Dovolena)",
+      "nivel_de_fuente": 3,
+      "tipo": "compilacion juridica (pracomat.cz, mesec.cz) sobre el texto vigente",
+      "url": "https://www.pracomat.cz/poradna/zakonik-prace/142-zakonik-prace-cast-9-hlava-4-dil-2.html",
+      "literal_relevante": "§ 213 odst. 1 «Vymera dovolene cini nejmene 4 tydny v kalendarnim roce». § 212 odst. 1: derecho a la dovolena por ano natural para quien trabajo 52 semanas en el ano en la jornada semanal establecida; parte proporcional a partir de 4 semanas trabajadas. § 217 odst. 1 «Dobu cerpani dovolene urcuje zamestnavatel»; al hacerlo debe atender razones operativas y los intereses legitimos del trabajador; si la fracciona, al menos una parte de 2 semanas continuas salvo pacto; aviso con 14 dias de antelacion. § 218 odst. 3: si el empleador no ha determinado el disfrute hasta el 30 de junio del ano siguiente, el TRABAJADOR puede determinarlo el mismo, avisando con 14 dias. § 219 odst. 2 «Pripadne-li v dobe zamestnancovy dovolene svatek na den, ktery je jinak jeho obvyklym pracovnim dnem, nezapocitava se mu do dovolene».",
+      "nota": "PENDIENTE elevar a nivel 1-2: ni e-sbirka ni el PDF del MPSV se pudieron extraer. El literal de § 219 odst. 2 se confirmo ademas por busqueda de frase exacta, que devolvio coincidencias multiples e independientes."
+    },
+    "F3": {
+      "cita": "Zakon c. 285/2020 Sb., novela del zakonik prace — calculo de la dovolena en horas desde el 1-1-2021",
+      "nivel_de_fuente": 4,
+      "url": "https://www.epravo.cz/top/clanky/nova-pravni-uprava-dovolene-ucinna-k-112021-pomerna-cast-dovolene-za-kalendarni-rok-cast-2-111414.html",
+      "nota": "Sigue en nivel 4. Reforma DENTRO de la ventana: desde el 1-ene-2021 la dovolena se computa en horas (jornada semanal x numero de semanas), no en dias. La VYMERA sigue siendo 4 semanas. No localice el dispositivo en la Sbirka. No se sube por acumulacion."
+    },
+    "F4": {
+      "cita": "Zakon c. 359/2015 Sb., novela del zakon 245/2000 Sb. — anade Velky patek como ostatni svatek",
+      "nivel_de_fuente": 5,
+      "url": "https://cs.wikipedia.org/wiki/Velk%C3%BD_p%C3%A1tek",
+      "nota": "Nivel 5, prensa/enciclopedia. Las secundarias discrepan sobre la fecha de entrada en vigor: unas dicen el dia de publicacion (21 o 23-dic-2015) y otras el 1-ene-2016. Para el corte da igual —el primer Viernes Santo feriado fue el 25-mar-2016, o sea DESPUES del corte 1-ene-2016 pero con la norma ya vigente a esa fecha— pero la fecha exacta queda PENDIENTE."
+    }
+  },
+
+  "feriados": {
+    "estado": "COMPLETO para 2026: trece fechas distintas.",
+    "fuente": "F1",
+    "nota_estructural": "La ley separa `statni svatky` (§ 1, siete) de `ostatni svatky` (§ 2, siete), pero AMBAS categorias son dny pracovniho klidu con el mismo efecto laboral. El 1 de enero esta declarado DOS VECES —§ 1 como Den obnovy samostatneho ceskeho statu y § 2 como Novy rok— y es un solo dia libre. 7 + 7 = 14 declaraciones sobre 13 fechas. Contar declaraciones en vez de fechas da un feriado de mas; es el error que esta nota existe para impedir.",
+    "lista": [
+      {"fecha": "01-01", "nombre": "Novy rok / Den obnovy samostatneho ceskeho statu", "clase_de_regla": "fija", "nota": "Declarado en § 1 y en § 2 a la vez. Una sola fecha."},
+      {"fecha": null, "nombre": "Velky patek", "clase_de_regla": "computable", "regla": "pascua-2", "nota": "Anadido por el zakon 359/2015 Sb.; ya vigente al corte 1-ene-2016, primer disfrute el 25-mar-2016. Sin `desde` porque existe en ambos cortes."},
+      {"fecha": null, "nombre": "Velikonocni pondeli", "clase_de_regla": "computable", "regla": "pascua+1"},
+      {"fecha": "05-01", "nombre": "Svatek prace", "clase_de_regla": "fija"},
+      {"fecha": "05-08", "nombre": "Den vitezstvi", "clase_de_regla": "fija"},
+      {"fecha": "07-05", "nombre": "Den slovanskych verozvestu Cyrila a Metodeje", "clase_de_regla": "fija"},
+      {"fecha": "07-06", "nombre": "Den upaleni mistra Jana Husa", "clase_de_regla": "fija"},
+      {"fecha": "09-28", "nombre": "Den ceske statnosti", "clase_de_regla": "fija"},
+      {"fecha": "10-28", "nombre": "Den vzniku samostatneho ceskoslovenskeho statu", "clase_de_regla": "fija"},
+      {"fecha": "11-17", "nombre": "Den boje za svobodu a demokracii a Mezinarodni den studentstva", "clase_de_regla": "fija"},
+      {"fecha": "12-24", "nombre": "Stedry den", "clase_de_regla": "fija"},
+      {"fecha": "12-25", "nombre": "1. svatek vanocni", "clase_de_regla": "fija"},
+      {"fecha": "12-26", "nombre": "2. svatek vanocni", "clase_de_regla": "fija"}
+    ],
+    "total_2026": 13,
+    "regla_de_traslado": "NINGUNA. La ley no traslada los svatky que caen en fin de semana. Verificado por ausencia en § 1 a § 3.",
+    "subnacionales": []
+  },
+
+  "vacaciones": {
+    "texto_legal_dias": 4,
+    "tipo_de_dia": "semanas — LEIDO: § 213 odst. 1 dice «4 tydny», semanas, no dias",
+    "literal": "Vymera dovolene cini nejmene 4 tydny v kalendarnim roce",
+    "fuente": "F2",
+    "unidad_de_computo": "Desde el 1-ene-2021 el derecho se computa en HORAS: jornada semanal establecida multiplicada por el numero de semanas de la vymera. Con jornada de 40 horas, 4 semanas = 160 horas. La titularidad legal sigue expresada en SEMANAS; las horas son el modo de contar el consumo.",
+    "periodo_de_calificacion": "No hay periodo de calificacion en el sentido de derecho cero. § 212: con 52 semanas trabajadas en el ano natural corresponde la dovolena entera; con al menos 4 semanas, la parte proporcional.",
+    "escala_antiguedad": "ninguna — 4 semanas sin progresion. Cinco semanas para el personal de los empleadores del § 109 odst. 3 (sector publico y financiado con presupuesto), que NO es el trabajador de referencia del sector privado.",
+    "estado_verificacion": "verificado_secundaria"
+  },
+
+  "imputacion": {
+    "valor": "extienden",
+    "articulo": "§ 219 odst. 2 zakoniku prace",
+    "literal": "Pripadne-li v dobe zamestnancovy dovolene svatek na den, ktery je jinak jeho obvyklym pracovnim dnem, nezapocitava se mu do dovolene.",
+    "traduccion": "Si durante las vacaciones del trabajador cae un feriado en un dia que de otro modo seria su dia habitual de trabajo, NO se le computa a las vacaciones.",
+    "verificado": "SI, con articulo y literal. No es derivado del tipo de dia.",
+    "condicion_del_articulo": "La regla lleva una excepcion: no se aplica si el trabajador hubiera tenido que trabajar ese feriado en turno conforme al § 91 odst. 4 Y el disfrute de vacaciones ese dia se fijo A PETICION SUYA. Es una excepcion condicionada que el campo binario `imputacion` no puede llevar.",
+    "nota": "Repara la simetria con Turquia: mismo valor, distinto mecanismo. Turquia excluye descanso semanal Y feriados; Chequia excluye el feriado solo cuando cae en dia que HABRIA SIDO de trabajo para ese trabajador concreto, o sea la regla depende del horario individual, no del calendario."
+  },
+
+  "corte_2016": {
+    "estado": "verificado_parcial",
+    "nota": "Las dos reformas relevantes de la ventana estan LOCALIZADAS y datadas, pero sus dispositivos no se leyeron de la Sbirka. (1) FERIADOS: el zakon 359/2015 Sb. anadio Velky patek con efecto ya al corte 1-ene-2016, asi que el delta entre cortes es CERO y las trece fechas valen para ambos; la fecha exacta de vigencia sigue en nivel 5. El zakon 170/2024 Sb. modifico el § 4 —vyznamne dny, que NO son dias libres— y por tanto no toca la lista. (2) VACACIONES: el zakon 285/2020 Sb. cambio desde el 1-ene-2021 la UNIDAD DE COMPUTO de dias a horas sin mover la vymera de 4 semanas: es reforma de reglas sin cambio de quantum, y una unidad que solo mire el numero la veria como sin cambio cuando si hubo reforma."
+  },
+
+  "delta_2016_2026": {
+    "feriados": "0 — trece fechas en ambos cortes",
+    "vacaciones": "0 en quantum; reforma del metodo de computo en 2021"
+  },
+
+  "huecos": [
+    {
+      "id": "H1",
+      "que": "Ninguna fuente de nivel 1: e-sbirka.gov.cz devolvio la pagina sin texto y zakonyprolidi.cz respondio 403. El zakon 245/2000 se leyo del manual del MPSV (nivel 2) y el zakonik prace de compilaciones (nivel 3).",
+      "como_se_cierra": "Descargar y archivar los dispositivos de la Sbirka zakonu."
+    },
+    {
+      "id": "H2",
+      "que": "La excepcion del § 219 odst. 2 (turno del § 91 odst. 4 mas peticion del trabajador) no cabe en el campo `imputacion`, que es de tres valores sin condicion.",
+      "por_que_importa": "Chequia es la primera unidad del proyecto donde la imputacion es CONDICIONAL. El binario extienden/se_computan_contra no distingue una regla incondicional de una con excepcion.",
+      "como_se_cierra": "Decision del principal: o un campo de condicion junto a la imputacion, o dejar constancia de que el valor es el de la regla general."
+    },
+    {
+      "id": "H3",
+      "que": "La cascada del § 217 + § 218 odst. 3 no se representa: el empleador determina, pero si no lo ha hecho al 30 de junio del ano siguiente, la iniciativa PASA al trabajador.",
+      "por_que_importa": "Es exactamente el `modo_aplicacion = fallback` que el esquema tiene y el cargador no escribe. Codificado solo el nivel primario.",
+      "como_se_cierra": "Que el cargador acepte reglas de colocacion en cascada."
+    },
+    {
+      "id": "H4",
+      "que": "No se capturo el regimen de jornada ni la regla de trabajo en svatek (§ 91, § 115), ni la dodatkova dovolena del § 215."
+    }
+  ],
+
+  "no_mirado_todavia": ["CBR Labour Regulation Index", "cualquier dataset agregado de dias de vacaciones", "data/derived/semilla/"],
+
+  "vacaciones_normalizado": {
+
+    "sin_cambio": {
+
+      "_": "Rama (b) y no (a) por una razon concreta: el repositorio limita las versiones historicas a suscriptores, asi que no se pudo hacer la comparacion de consolidados fechados que si se hizo en Polonia, Australia y Dinamarca.",
+
+      "buscado_en": "Repositorio checo de legislacion, texto vigente del Código de Trabajo 262/2006, § 212",
+
+      "cita": "El § 212, «Vymera dovolene», dice en su apartado 1: «Vymera dovolene cini nejmene 4 tydny v kalendarnim roce» —al menos cuatro semanas—, con cinco para el sector publico y ocho para docentes. Cuatro semanas es el minimo del trabajador de referencia y coincide con el corte antiguo. La reforma de la ventana, el zakon 285/2020 en vigor el 1-ene-2021, cambio la UNIDAD DE COMPUTO de días a horas sin mover la vymera.",
+
+      "nivel_de_fuente": 3,
+
+      "fecha_busqueda": "2026-08-11",
+
+      "pantalla_3": {
+
+        "cita": "Prensa juridica checa sobre la reforma de 2021: describe el cambio de computo de días a horas y dice EXPRESAMENTE que «Nedoslo tedy k zakonnemu zvyseni minimalni dovolene» — no hubo aumento legal de la vacacion minima. Los trabajadores del sector empresarial conservan las cuatro semanas; lo que cambia es que el derecho se lleva en horas, ciento sesenta con jornada de cuarenta.",
+
+        "url": "https://www.epravo.cz/top/clanky/nova-pravni-uprava-dovolene-ucinna-k-112021-dovolena-za-kalendarni-rok-cast-1-111413.html"
+
+      }
+
+    },
+    "dias": 4,
+    "tipo": "semanas",
+    "base": 5,
+    "imputacion": "extienden",
+    "meses": 12,
+    "literal": "Vymera dovolene cini nejmene 4 tydny v kalendarnim roce (§ 213 odst. 1); pripadne-li v dobe dovolene svatek na den, ktery je jinak jeho obvyklym pracovnim dnem, nezapocitava se do dovolene (§ 219 odst. 2)",
+    "escala": [[12, null, 4]],
+    "nota_periodo_de_calificacion": "`meses: 12` corresponde a que la dovolena ENTERA exige 52 semanas trabajadas en el ano (§ 212 odst. 1). Lo que el tramo cero del cargador dice mal es que por debajo de eso el derecho sea nulo: desde 4 semanas trabajadas hay parte proporcional. El esquema no distingue periodo de calificacion de devengo prorrateado.",
+    "nota_base_semanal": "base 5 es la semana del trabajador de referencia; la ley no fija numero de dias, fija jornada semanal (40 horas, § 79) y el reparto lo hace el turno.",
+    "colocacion": {
+      "iniciativa": "empleador",
+      "veto": null,
+      "silencio": null,
+      "instrumento": "ley",
+      "literal": "Dobu cerpani dovolene urcuje zamestnavatel (§ 217 odst. 1), atendiendo a razones operativas y a los intereses legitimos del trabajador; si la fracciona, una parte ha de ser de al menos 2 semanas continuas salvo pacto; aviso con al menos 14 dias. § 218 odst. 3: si el empleador no ha determinado el disfrute hasta el 30 de junio del ano siguiente, el trabajador puede determinarlo el mismo avisando con 14 dias.",
+      "nota": "Se codifica el nivel primario. El desplazamiento de la iniciativa al trabajador tras el 30 de junio del ano siguiente es una CASCADA y queda solo en el literal; ver hueco H3."
+    }
+  }
+}

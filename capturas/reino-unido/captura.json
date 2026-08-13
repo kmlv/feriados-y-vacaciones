@@ -1,0 +1,233 @@
+{
+  "_": "CAPTURA CIEGA del Reino Unido (Inglaterra y Gales, jurisdiccion de referencia Londres). Escrita leyendo la legislacion en legislation.gov.uk y la guia oficial de gov.uk, SIN mirar el indice del CBR ni ningun dataset agregado de vacaciones.",
+  "_estado": "COMPLETA en feriados; vacaciones con UN HUECO CENTRAL declarado: la imputacion feriado/vacaciones NO esta en la norma. Ver `huecos` H1.",
+  "unidad": "GBR",
+  "jurisdiccion_de_referencia": "Londres (Inglaterra y Gales) — ciudad mas poblada",
+  "captura_ciega": true,
+  "capturado_por": "captura · lote 5",
+  "fecha_captura_utc": "2026-08-10T14:40:00Z",
+
+  "advertencia_de_encuadre": "EL REINO UNIDO NO ENCAJA EN EL MOLDE. Un bank holiday no es un derecho a descanso pagado: es un dia en que los bancos no estan obligados a pagar ni a actuar (s.1(4) de la ley de 1971). Ningun texto obliga al empleador privado a dar libre ni a pagar el bank holiday. Y las 5,6 semanas de vacaciones PUEDEN incluirlos, a eleccion del empleador. Sumar feriados + vacaciones aqui es doble conteo probable; restarlos es tambien un supuesto. La norma no resuelve: lo resuelve el contrato.",
+
+  "fuentes": {
+    "F1": {
+      "cita": "Banking and Financial Dealings Act 1971, c.80 — section 1 y Schedule 1",
+      "nivel_de_fuente": 2,
+      "tipo": "portal legislativo gubernamental (legislation.gov.uk, King's Printer)",
+      "url": "https://www.legislation.gov.uk/ukpga/1971/80",
+      "literal_relevante": "s.1(1) «Subject to subsection (2) below, the days specified in Schedule 1 to this Act shall be bank holidays in England and Wales, in Scotland and in Northern Ireland as indicated in the Schedule.» s.1(3) «Her Majesty may from time to time by proclamation appoint a special day to be, either throughout the United Kingdom or in any place or locality in the United Kingdom, a bank holiday under this Act.» s.1(4) «No person shall be compellable to make any payment or to do any act on a bank holiday under this Act which he would not be compellable to make or do on Christmas Day or Good Friday.»",
+      "schedule_1_inglaterra_y_gales_literal": "«Easter Monday. / The last Monday in May. / The last Monday in August. / 26th December, if it be not a Sunday. / 27th December in a year in which 25th or 26th December is a Sunday.»",
+      "nota": "SOLO CINCO dias de los ocho estan en el Schedule para Inglaterra y Gales. Es el hallazgo estructural de esta unidad."
+    },
+    "F2": {
+      "cita": "The Working Time Regulations 1998, SI 1998/1833 — regs 13, 13A, 15, 15A",
+      "nivel_de_fuente": 2,
+      "url": "https://www.legislation.gov.uk/uksi/1998/1833",
+      "literal_relevante": "reg 13(1) «a worker is entitled to four weeks' annual leave in each leave year». reg 13A(2) anade 1,6 semanas. reg 13A(3): el agregado de reg 13 y reg 13A esta topado en 28 dias. reg 15(1) «a worker may take leave... on such days as he may elect by giving notice to his employer», sujeto a reg 15(2). reg 15(2) el empleador «may require the worker to take or not take such leave on particular days, by giving notice». reg 15(5) «Any right or obligation under paragraphs (1) to (4) may be varied or excluded by a relevant agreement.»",
+      "nota": "VERIFICADO: reg 13 y reg 13A NO MENCIONAN los bank holidays en ningun punto. La palabra no aparece."
+    },
+    "F3": {
+      "cita": "gov.uk — «Holiday entitlement» (guia oficial del gobierno del Reino Unido)",
+      "nivel_de_fuente": 2,
+      "url": "https://www.gov.uk/holiday-entitlement-rights",
+      "literal_relevante": "«Almost all people classed as workers are legally entitled to 5.6 weeks' paid holiday a year». «Statutory paid holiday entitlement is limited to 28 days.» «Bank or public holidays do not have to be given as paid leave. An employer can choose to include bank holidays as part of a worker's statutory annual leave.»",
+      "nota": "Es GUIA, no norma. Se cita por lo que dice, no como si fuera el articulo: el articulo no existe."
+    },
+    "F4": {
+      "cita": "The Employment Rights (Amendment, Revocation and Transitional Provision) Regulations 2023, SI 2023/1426",
+      "nivel_de_fuente": 2,
+      "url": "https://www.legislation.gov.uk/uksi/2023/1426",
+      "publicacion": "2024-01-01",
+      "nota": "Reforma DENTRO de la ventana, en vigor 1-ene-2024. Anade reg 13A(A1) y (7A) y crea el regimen de reg 15B para trabajadores de horario irregular y de ano parcial. NO mueve el quantum de 5,6 semanas. `publicacion` se registra como la fecha de entrada en vigor porque es la que importa al corte; PENDIENTE separar ambas fechas."
+    },
+    "F5": {
+      "cita": "Proclamaciones reales bajo s.1(3) de la ley de 1971 — Privy Council / The Gazette",
+      "nivel_de_fuente": 4,
+      "url": "https://privycouncil.independent.gov.uk/",
+      "nota": "Sigue en nivel 4. Confirmado por varias secundarias y por un documento del Privy Council que cada ano se proclaman el 1 de enero y el primer lunes de mayo como bank holidays en Inglaterra, Gales e Irlanda del Norte. NO localice y archive la proclamacion aplicable a 2026. No se sube el nivel por acumulacion."
+    }
+  },
+
+  "feriados": {
+    "estado": "COMPLETO para Inglaterra y Gales 2026: ocho dias. Pero ver `base_juridica_heterogenea`: los ocho NO salen del mismo instrumento.",
+    "fuente": "F1",
+    "jurisdiccion": "Inglaterra y Gales (Londres)",
+    "base_juridica_heterogenea": {
+      "_": "TRES ORIGENES DISTINTOS, y el esquema los guarda todos como si fueran lo mismo.",
+      "schedule_1_de_la_ley": ["Easter Monday", "Spring bank holiday", "Summer bank holiday", "Boxing Day"],
+      "common_law_no_estatutarios": ["Good Friday", "Christmas Day"],
+      "proclamacion_real_anual_s_1_3": ["New Year's Day", "Early May bank holiday"],
+      "por_que_importa": "Un feriado de common law no tiene fecha en ninguna norma y no se puede derogar por enmienda del Schedule; uno de proclamacion anual puede, en principio, no proclamarse. Codificar los ocho como `fija`/`ordinal` con la misma fuente esconde esa diferencia de estabilidad."
+    },
+    "lista": [
+      {
+        "fecha": "01-01",
+        "nombre": "New Year's Day",
+        "clase_de_regla": "fija",
+        "nota": "NO esta en el Schedule 1 para Inglaterra y Gales. Se proclama cada ano bajo s.1(3). Si cae en sabado o domingo se proclama el lunes siguiente como sustituto; la regla de traslado no esta capturada como campo."
+      },
+      {
+        "fecha": null,
+        "nombre": "Good Friday",
+        "clase_de_regla": "computable",
+        "regla": "pascua-2",
+        "nota": "Feriado de COMMON LAW en Inglaterra y Gales: no figura en el Schedule 1, que si lo lista para Escocia. Su existencia no depende de la ley de 1971."
+      },
+      {
+        "fecha": null,
+        "nombre": "Easter Monday",
+        "clase_de_regla": "computable",
+        "regla": "pascua+1",
+        "nota": "Schedule 1, Inglaterra y Gales."
+      },
+      {
+        "fecha": null,
+        "nombre": "Early May bank holiday",
+        "clase_de_regla": "ordinal",
+        "ordinal": 1,
+        "dia_semana": 1,
+        "mes": 5,
+        "nota": "NO esta en el Schedule 1 para Inglaterra y Gales (si para Escocia). Se proclama cada ano bajo s.1(3)."
+      },
+      {
+        "fecha": null,
+        "nombre": "Spring bank holiday",
+        "clase_de_regla": "ordinal",
+        "ordinal": -1,
+        "dia_semana": 1,
+        "mes": 5,
+        "nota": "Schedule 1: «The last Monday in May»."
+      },
+      {
+        "fecha": null,
+        "nombre": "Summer bank holiday",
+        "clase_de_regla": "ordinal",
+        "ordinal": -1,
+        "dia_semana": 1,
+        "mes": 8,
+        "nota": "Schedule 1: «The last Monday in August». En Escocia es el PRIMER lunes de agosto: la divergencia interna del Reino Unido es real y por eso la jurisdiccion de referencia esta declarada."
+      },
+      {
+        "fecha": "12-25",
+        "nombre": "Christmas Day",
+        "clase_de_regla": "fija",
+        "nota": "Feriado de COMMON LAW en Inglaterra y Gales; el Schedule 1 solo lo lista para Escocia. s.1(4) lo usa como VARA DE MEDIR de lo que es un bank holiday, lo que confirma que no lo es por esta ley."
+      },
+      {
+        "fecha": "12-26",
+        "nombre": "Boxing Day",
+        "clase_de_regla": "fija",
+        "nota": "Schedule 1: «26th December, if it be not a Sunday», con el 27 de diciembre en su lugar cuando el 25 o el 26 caen en domingo. La condicionalidad no cabe en `clase_de_regla: fija` y queda solo en esta nota."
+      }
+    ],
+    "total_2026": 8,
+    "uno_off_dentro_de_la_ventana_no_cargados": [
+      {"fecha": "2022-06-02", "nombre": "Platinum Jubilee bank holiday", "instrumento": "proclamacion real s.1(3)"},
+      {"fecha": "2022-09-19", "nombre": "State Funeral of Queen Elizabeth II", "instrumento": "proclamacion real s.1(3)"},
+      {"fecha": "2023-05-08", "nombre": "Coronation of King Charles III", "instrumento": "proclamacion real s.1(3)"}
+    ],
+    "por_que_los_uno_off_no_van_en_la_lista": "Ninguno cae en un ano de corte (2016 ni 2026). Cargarlos crearia un `feriado_version` sin ninguna medicion y V7 lo marcaria con razon. Se conservan aqui como procedencia del hecho de que la ventana tuvo tres dias extra y ninguno permanente."
+  },
+
+  "vacaciones": {
+    "texto_legal": "4 semanas (reg 13) + 1,6 semanas (reg 13A) = 5,6 semanas, con tope agregado de 28 dias (reg 13A(3))",
+    "tipo_de_dia": "semanas — LEIDO, no inferido: la norma dice «weeks», nunca dias",
+    "por_que_semanas_y_no_dias": "reg 13(1) concede «four weeks' annual leave». Los 28 dias son el TOPE del agregado, no la unidad. Un trabajador de cuatro dias por semana tiene 5,6 semanas = 22,4 dias, no 28. Guardar «28 dias» seria presentar nuestra conversion como texto legal.",
+    "periodo_de_calificacion": "NINGUNO. El derecho existe desde el primer dia del vinculo; reg 15A solo limita CUANTO se puede TOMAR durante el primer ano de vacaciones, a razon de 1/12 al inicio de cada mes.",
+    "escala_antiguedad": "ninguna — 5,6 semanas sin progresion por antiguedad en toda la escala",
+    "colocacion_literal": "reg 15(1): el trabajador elige los dias notificando al empleador. reg 15(2): el empleador puede exigirle que TOME o que NO TOME el permiso en dias determinados, notificandoselo. reg 15(4): el contra-aviso del empleador debe darse con tantos dias de antelacion como dias de permiso. reg 15(5): todo ello puede modificarse o excluirse por acuerdo.",
+    "estado_verificacion": "verificado_primaria"
+  },
+
+  "imputacion": {
+    "valor": "sin_regla_explicita",
+    "por_que": "ES EL PUNTO CENTRAL DE ESTA UNIDAD Y HAY QUE DECIRLO SIN ADORNO. Lei reg 13, reg 13A y reg 15 completas: NINGUNA menciona bank holidays. Y la ley de 1971 no crea derecho alguno a descanso pagado para el trabajador privado. O sea que no existe articulo que diga si un bank holiday dentro del periodo vacacional lo extiende o se computa contra el, porque el bank holiday no es un derecho separado del que se pueda predicar ninguna de las dos cosas.",
+    "lo_que_si_dice_la_guia_oficial": "gov.uk (F3): «Bank or public holidays do not have to be given as paid leave. An employer can choose to include bank holidays as part of a worker's statutory annual leave.» Es una FACULTAD del empleador, no una regla de imputacion.",
+    "mecanismo_real": "El empleador que quiere contar los bank holidays contra las 5,6 semanas lo hace por reg 15(2): exige que el permiso se tome en esos dias. No es una regla sobre feriados; es la regla general de colocacion aplicada a unas fechas concretas.",
+    "consecuencia_para_el_total": "El total del Reino Unido es NA y debe serlo. Si el contrato incluye los ocho bank holidays en las 5,6 semanas, el total es 28 dias. Si los da aparte, es 36. El texto legal admite ambos y no elige. Cualquier numero unico que se publique para el Reino Unido es una eleccion del codificador disfrazada de dato.",
+    "no_es_lo_mismo_que_turquia_ni_que_peru": "Peru dice explicitamente que los 30 dias COMPRENDEN los feriados; Turquia dice explicitamente que NO se cuentan. El Reino Unido no dice nada, y ese silencio es un tercer estado, no un punto intermedio."
+  },
+
+  "corte_2016": {
+    "estado": "verificado",
+    "nota": "Ventana 2016-2026 revisada. FERIADOS: ningun cambio permanente al Schedule 1 ni a la lista de Inglaterra y Gales; tres bank holidays de una sola vez (2-jun-2022, 19-sep-2022, 8-may-2023), ninguno en ano de corte. VACACIONES: dos reformas localizadas y datadas — SI 2023/1426 en vigor el 1-ene-2024 (pago de vacaciones, prorrateo de horario irregular, regimen de reg 15B) y la Employment Rights Act 2025 con obligacion de registro documental desde el 6-abr-2026. NINGUNA de las dos mueve las 5,6 semanas, que estan asi desde el 1-abr-2009. El corte se DERIVA de haber localizado las reformas, no de no haber buscado."
+  },
+
+  "delta_2016_2026": {
+    "feriados": "0 permanentes (+3 de una sola vez, fuera de ambos cortes)",
+    "vacaciones": "0 en quantum; reforma de reglas sin cambio de quantum en 2024 y 2026"
+  },
+
+  "huecos": [
+    {
+      "id": "H1",
+      "que": "No existe articulo de imputacion. Codificado `sin_regla_explicita`.",
+      "por_que_importa": "Manda el total del Reino Unido a NA, que es el resultado correcto y no un fallo de la captura.",
+      "como_se_cierra": "No se cierra leyendo mas norma: no la hay. Se cerraria con una decision del principal sobre como reportar unidades donde el reparto lo fija el contrato, o midiendo la practica contractual, que es otra variable."
+    },
+    {
+      "id": "H2",
+      "que": "El cargador estampa `categoria = descanso_pagado_obligatorio` y `regimen = descanso_obligatorio` a todo feriado. Para el Reino Unido ambas son FALSAS.",
+      "por_que_importa": "El esquema tiene exactamente los valores correctos y no se usan: `categoria = feriado_bancario` y `regimen = sin_mandato_nacional`. La base va a afirmar de los ocho bank holidays britanicos que son descanso pagado obligatorio, que es justo lo que s.1(4) niega.",
+      "como_se_cierra": "El cargador debe leer categoria y regimen de la captura en vez de fijarlos. No lo edito: `scripts/cargar_piloto.py` esta reclamado por claude."
+    },
+    {
+      "id": "H3",
+      "que": "La base juridica heterogenea (Schedule / common law / proclamacion anual) no tiene campo donde vivir.",
+      "como_se_cierra": "Campo de instrumento por feriado, o una clase de regla que distinga el feriado consuetudinario del estatutario."
+    },
+    {
+      "id": "H4",
+      "que": "Las reglas de sustitucion —26 de diciembre «if it be not a Sunday», 27 de diciembre en su lugar, lunes sustituto del 1 de enero y de Navidad en fin de semana— no estan capturadas.",
+      "como_se_cierra": "`regla_de_traslado_aplicable` existe en el esquema y el cargador no la escribe."
+    },
+    {
+      "id": "H5",
+      "que": "La proclamacion real de 2026 no esta localizada ni archivada (F5 en nivel 4)."
+    }
+  ],
+
+  "no_mirado_todavia": [
+    "CBR Labour Regulation Index",
+    "cualquier dataset agregado de dias de vacaciones",
+    "data/derived/semilla/"
+  ],
+
+  "vacaciones_normalizado": {
+
+    "sin_cambio": {
+
+      "buscado_en": "Registro oficial de legislacion del Reino Unido, fichas de los reglamentos 13 y 13A del Working Time Regulations 1998 con su seccion «Textual Amendments» y su lista de versiones fechadas",
+
+      "cita": "Las 5,6 semanas salen de dos piezas y las dos son ANTERIORES a la ventana: el reglamento 13(1), que da cuatro semanas, fue SUSTITUIDO el 25-10-2001 por el S.I. 2001/3256; y el 13A, que anade 1,6 semanas, fue INSERTADO el 1-10-2007 por el S.I. 2007/2079. Dentro de la ventana el registro sólo lista dos cambios del reglamento 13 —26-03-2020 y 1-01-2024— y en el 13A uno, el de 2024: son el arrastre por pandemia y las reglas de horario irregular del S.I. 2023/1426, que insertan apartados nuevos y no tocan la cantidad.",
+
+      "nivel_de_fuente": 1,
+
+      "indice_registra_modificaciones": true,
+
+      "indice_como_se_comprobo": "Cada reglamento lleva su lista de enmiendas con instrumento, apartado y fecha, y una linea de versiones fechadas. Registra la presencia con detalle de apartado: por eso se ve que lo tocado en la ventana es 13(A1) y 13A(A1), no 13(1).",
+
+      "fecha_busqueda": "2026-08-11"
+
+    },
+    "dias": 5.6,
+    "tipo": "semanas",
+    "base": 5,
+    "imputacion": "sin_regla_explicita",
+    "meses": 12,
+    "literal": "reg 13(1) four weeks' annual leave in each leave year + reg 13A(2) 1.6 weeks additional leave; reg 13A(3) aggregate capped at 28 days",
+    "escala": [[12, null, 5.6]],
+    "nota_periodo_de_calificacion": "`meses: 12` ES UN ARTEFACTO DEL CARGADOR, NO UN HECHO. El Reino Unido NO tiene periodo de calificacion: el derecho nace con el vinculo y reg 15A solo racionaliza cuanto se puede tomar en el primer ano, 1/12 por mes. El cargador antepone siempre un tramo [0, meses) con quantum cero y con `meses: 0` colisiona la clave UNIQUE de `escala_antiguedad`. Se declara 12 porque es la antiguedad a la que corresponde el derecho completo y porque los puntos medidos son 12, 60 y 120 meses; lo que queda mal dicho es el tramo por debajo del ano, que no es cero sino prorrateado.",
+    "nota_base_semanal": "base 5 es la semana del trabajador de referencia. El tope de 28 dias de reg 13A(3) hace que un trabajador de seis dias por semana NO llegue a 33,6 dias: el derecho en semanas y el tope en dias interactuan, y esa interaccion no cabe en el par (dias, tipo, base).",
+    "colocacion": {
+      "iniciativa": "trabajador",
+      "veto": "discrecional",
+      "silencio": "aprobado",
+      "instrumento": "ley",
+      "literal": "reg 15(1) a worker may take leave on such days as he may elect by giving notice to his employer; reg 15(2) the employer may require the worker to take or not take leave on particular days by giving counter-notice; reg 15(4) counter-notice at least as many days in advance as the days of leave; reg 15(5) any right or obligation under (1)-(4) may be varied or excluded by a relevant agreement",
+      "nota": "APLANAMIENTO DECLARADO. reg 15 contiene DOS poderes, no uno: el trabajador elige (15(1)) y el empleador puede vetar sin causa (15(2)), pero el mismo 15(2) le da ademas el poder AUTONOMO de EXIGIR que el permiso se tome en dias determinados — que no es un veto, es iniciativa concurrente. Y reg 15(5) permite desplazar todo el mecanismo por acuerdo. Se codifica el eje trabajador+veto discrecional+silencio aprobado porque es el que gobierna por defecto; los otros dos quedan en este literal. El esquema tiene `modo_aplicacion = fallback` para cascadas, pero el cargador escribe siempre `particion`.",
+      "veto_por_que_discrecional": "reg 15(2) no exige causa alguna al empleador. No es `causal_operativa` como Alemania.",
+      "silencio_por_que_aprobado": "Si el empleador no notifica el contra-aviso dentro del plazo de reg 15(4), el aviso del trabajador se mantiene y el permiso se toma."
+    }
+  }
+}

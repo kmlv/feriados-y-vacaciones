@@ -1,0 +1,269 @@
+{
+ "_": "CAPTURA CIEGA de Chile. Tres de sus feriados no tienen clase en el esquema: uno esta anclado al SOLSTICIO y dos son de EXISTENCIA CONDICIONAL. Los tres se omiten a proposito.",
+ "unidad": "CHL",
+ "jurisdiccion_de_referencia": "Santiago - Region Metropolitana (mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 8",
+ "fecha_captura_utc": "2026-08-10T20:15:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Ley 21.357 - Declara feriado el día del solsticio de invierno de cada año, Día Nacional de los Pueblos Indígenas",
+   "nivel_de_fuente": 2,
+   "url": "https://faolex.fao.org/docs/pdf/chi204676.pdf",
+   "version_archivada": "documento generado por la Biblioteca del Congreso Nacional el 22-ago-2021, firmado digitalmente, codigo N1161743S344200",
+   "publicacion": "2021-06-19",
+   "promulgacion": "2021-06-17",
+   "nota": "Leido en literal completo. Es el unico texto legal chileno que pude leer palabra por palabra: leychile.cl devolvio 'Service limit has been reached' y el navegador de la BCN no se deja extraer.",
+   "literal_relevante": "'Articulo unico.- Declarase feriado legal el dia del solsticio de invierno de cada ano en el hemisferio sur, Dia Nacional de los Pueblos Indigenas. Articulo transitorio.- Excepcionalmente, para el ano 2021, el feriado legal a que se refiere el articulo unico de la presente ley correspondera al dia 21 de junio de dicho ano.'"
+  },
+  "F2": {
+   "cita": "Código del Trabajo, arts. 67, 68, 69 y 70 - Del feriado anual",
+   "nivel_de_fuente": 4,
+   "nota": "leychile.cl no respondio. Los literales de abajo se obtuvieron de compilaciones juridicas chilenas concordantes entre si. PENDIENTE leer el texto refundido en la BCN y subir a nivel 2."
+  },
+  "F3": {
+   "cita": "Direccion del Trabajo - consulta sobre el computo de los días habiles del feriado; cita el Dictamen 2028/133 de 07-05-1998 y el ORD. 4780 de 21-09-2016",
+   "nivel_de_fuente": 2,
+   "url": "https://www.dt.gob.cl/portal/1628/w3-article-60177.html",
+   "literal_relevante": "'Para los efectos de contabilizar los quince dias, estos se cuentan de Lunes a Viernes, pues el dia sabado se considerara siempre inhabil.'",
+   "nota": "IMPORTANTE POR LO QUE NO DICE: la respuesta oficial resuelve el sabado y NO se pronuncia sobre los festivos que caen dentro del feriado."
+  },
+  "F4": {
+   "cita": "Ley 20.983 - declara feriados el lunes 2 de enero y el viernes 17 de septiembre en los anos en que ocurran",
+   "nivel_de_fuente": 4,
+   "url": "https://www.bcn.cl/leychile/Navegar?idNorma=1098384",
+   "nota": "No leida en literal. Reforma dentro de la ventana."
+  },
+  "F5": {
+   "cita": "Ley 2.977 de 1915 y sus modificatorias - fija los días feriados; Ley 19.973 (feriados irrenunciables); Ley 20.148 (16 de julio); Ley 19.638 (31 de octubre); Ley 19.668 (traslado a lunes)",
+   "nivel_de_fuente": 6,
+   "url": "https://www.feriadoschilenos.cl/",
+   "nota": "NIVEL 6, LIBRERIA DE CALENDARIO, ADMISIBLE SOLO PARA DESCUBRIMIENTO. Sus CITAS legales se usaron para nombrar los instrumentos; sus valores no se dan por verificados. La tabla que devolvio contiene al menos un error visible -atribuye el Dia Nacional de los Pueblos Indigenas a la Ley 20.657, que es la ley de pesca, cuando el instrumento correcto es la Ley 21.357 verificada en F1-, y eso es la mejor prueba de que la lista de abajo necesita el cotejo de H1."
+  }
+ },
+ "feriados": {
+  "estado": "PARCIAL - la lista completa esta pero descansa en nivel 6 salvo un feriado; y tres de sus entradas se OMITEN por falta de clase en el esquema. Ver H1 y H2.",
+  "fuente": "F5",
+  "literal": "PENDIENTE. No se leyo el texto refundido de la Ley 2.977 ni el de sus modificatorias.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Año Nuevo",
+    "clase_de_regla": "fija",
+    "irrenunciable": true
+   },
+   {
+    "fecha": null,
+    "nombre": "Viernes Santo",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2"
+   },
+   {
+    "fecha": null,
+    "nombre": "Sábado Santo",
+    "clase_de_regla": "computable",
+    "regla": "pascua-1"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Día Nacional del Trabajo",
+    "clase_de_regla": "fija",
+    "irrenunciable": true
+   },
+   {
+    "fecha": "05-21",
+    "nombre": "Día de las Glorias Navales",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "06-29",
+    "nombre": "San Pedro y San Pablo",
+    "clase_de_regla": "fija",
+    "regla_de_traslado": "Ley 19.668 - PENDIENTE verificar el literal del traslado a lunes"
+   },
+   {
+    "fecha": "07-16",
+    "nombre": "Virgen del Carmen",
+    "clase_de_regla": "fija",
+    "instrumento": "Ley 20.148"
+   },
+   {
+    "fecha": "08-15",
+    "nombre": "Asunción de la Virgen",
+    "clase_de_regla": "fija"
+   },
+   {
+    "fecha": "09-18",
+    "nombre": "Independencia Nacional",
+    "clase_de_regla": "fija",
+    "irrenunciable": true
+   },
+   {
+    "fecha": "09-19",
+    "nombre": "Día de las Glorias del Ejército",
+    "clase_de_regla": "fija",
+    "irrenunciable": true
+   },
+   {
+    "fecha": "10-12",
+    "nombre": "Encuentro de Dos Mundos",
+    "clase_de_regla": "fija",
+    "regla_de_traslado": "Ley 19.668 - PENDIENTE verificar el literal"
+   },
+   {
+    "fecha": "10-31",
+    "nombre": "Día de las Iglesias Evangélicas y Protestantes",
+    "clase_de_regla": "fija",
+    "regla_de_traslado": "PENDIENTE verificar: si cae martes se traslada al viernes anterior y si cae miercoles al viernes de la misma semana"
+   },
+   {
+    "fecha": "11-01",
+    "nombre": "Día de Todos los Santos",
+    "clase_de_regla": "fija",
+    "regla_de_traslado": "Ley 19.668 - PENDIENTE verificar el literal"
+   },
+   {
+    "fecha": "12-08",
+    "nombre": "Inmaculada Concepción",
+    "clase_de_regla": "fija",
+    "regla_de_traslado": "Ley 19.668 - PENDIENTE verificar el literal"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Natividad del Señor",
+    "clase_de_regla": "fija",
+    "irrenunciable": true
+   },
+   {
+    "fecha": null,
+    "nombre": "Día Nacional de los Pueblos Indígenas",
+    "clase_de_regla": "computable",
+    "desde": 2021,
+    "instrumento": "Ley 21.357",
+    "fuente": "F1",
+    "regla_propuesta": "ancla 'solsticio_junio', offset 0",
+    "nota": "RESUELTO. El literal dice «el dia del solsticio de invierno de cada anio en el hemisferio sur»: determinista y computable con efemerides. El ancla `solsticio_junio` se anadio al catalogo por decision del principal del 2026-08-10, junto a `solsticio_diciembre`. Fijarlo al 21 de junio habria sido escribir el anio tipico y equivocarse los otros.",
+    "regla": "solsticio_junio+0"
+   },
+   {
+    "fecha": "01-02",
+    "nombre": "Feriado del 2 de enero cuando recae en lunes",
+    "clase_de_regla": "fija",
+    "desde": "2017-01-01",
+    "instrumento": "Ley 20.983, articulo unico, D.O. 30-12-2016",
+    "fuente": "F4",
+    "nota": "Existencia condicional. «Al recaer el 1 de enero en dia domingo, el lunes 2 siguiente sera feriado». La condicion que teniamos era correcta; lo que faltaba era la VIGENCIA: la Ley 20.983 se publico el 30-12-2016, asi que la primera ocurrencia posible es enero de 2017 y el corte 2016 no la puede tener ni cumpliendose la condicion. Verificado contra el texto consolidado de BCN/LeyChile.",
+    "condicion": {
+     "referencia": "propia",
+     "dia_semana": 1
+    }
+   },
+   {
+    "fecha": "09-17",
+    "nombre": "Feriado del 17 de septiembre cuando recae en viernes",
+    "clase_de_regla": "fija",
+    "desde": 2017,
+    "instrumento": "Ley 20.983 (viernes 17) y art. 35 ter del Codigo del Trabajo, incorporado por la Ley 20.215 (lunes 17)",
+    "fuente": "F4",
+    "nota": "CORREGIDO: nuestra condicion era LA MITAD de la regla. Hay dos bases legales disjuntas que hacen feriado el 17 de septiembre. La Ley 20.983 lo declara cuando el 18 y el 19 caen sabado y domingo, o sea cuando el 17 cae VIERNES. Y el art. 35 ter del Codigo del Trabajo lo declara cuando el 18 y el 19 caen martes y miercoles, o sea cuando el 17 cae LUNES. Teniamos solo la primera. Se codifican como dos reglas condicionales sin regla por defecto.\n\nY la nota anterior AFIRMABA que la condicion se cumplia en 2026. Es falsa: el 17 de septiembre de 2026 cae jueves y el 18 viernes, asi que no se activa ninguna de las dos ramas. En 2016 el 18 y el 19 cayeron domingo y lunes, tampoco.",
+    "condicion": {
+     "referencia": "propia",
+     "dia_semana": 5
+    },
+    "reglas_alternativas": [
+     {
+      "clase_de_regla": "fija",
+      "fecha": "09-17",
+      "condicion": {
+       "referencia": "propia",
+       "dia_semana": 1
+      },
+      "nota": "Art. 35 ter CdT: «en cada anio calendario que los dias 18 y 19 de septiembre sean martes y miercoles, sera feriado el dia lunes 17»."
+     }
+    ]
+   },
+   {
+    "fecha": "09-20",
+    "nombre": "Feriado del 20 de septiembre cuando recae en viernes",
+    "clase_de_regla": "fija",
+    "condicion": {
+     "referencia": "propia",
+     "dia_semana": 5
+    },
+    "desde": "2007-09-14",
+    "instrumento": "Art. 35 ter del Codigo del Trabajo, incorporado por la Ley 20.215",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "FALTABA ENTERO. El art. 35 ter tiene dos ramas y solo teniamos rastro de una: «en cada anio calendario que los dias 18 y 19 de septiembre sean martes y miercoles, o miercoles y jueves, sera feriado el dia lunes 17 o el dia viernes 20, segun el caso». La segunda rama —18 miercoles y 19 jueves, o sea el 20 cayendo VIERNES— crea un feriado que nunca habiamos registrado. Lo encontro una lectura dirigida de la norma tras detectar que nuestra condicion del 17 no cuadraba con el calendario de 2026. No se cumple ni en 2016 ni en 2026."
+   }
+  ],
+  "subnacionales": [],
+  "nota_subnacionales": "No se hallo feriado regional propio de la Region Metropolitana. Chile si tiene feriados regionales -por ejemplo el 7 de junio en Arica y Parinacota, Ley 20.663-, pero ninguno aplica a Santiago. Se deja la lista vacia y se declara."
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "_": "Rama (b) y no (a) porque la Biblioteca del Congreso interpone verificacion anti-robot y no entrega el articulado al lector: se pudo leer la cabecera de la norma pero no el texto del artículo ni su historial de versiones.",
+     "buscado_en": "Repositorios juridicos chilenos con el texto del art. 67 del Código del Trabajo, y cabecera de la norma en la Biblioteca del Congreso Nacional",
+     "cita": "El art. 67 da «un feriado anual de quince días habiles» a los trabajadores con mas de un anio de servicio, con veinte para las regiones australes y la provincia de Palena — distincion territorial anterior a la ventana. La ficha ya habia localizado y descartado la Ley 21.561 de 2023, que redujo la jornada semanal a cuarenta horas sin tocar el feriado anual. La cabecera de la norma en la Biblioteca del Congreso da como última modificación del Código entero la Ley 21.828 de julio de 2026, posterior al corte.",
+     "nivel_de_fuente": 3,
+     "fecha_busqueda": "2026-08-12",
+     "pantalla_3": {
+       "cita": "Prensa chilena: el feriado sigue en quince días habiles y lo que existe es un PROYECTO para llevarlo a veinte en todo el pais, que la prensa presenta en condicional y cuantifica en unos siete millones de beneficiarios. Hay ademas un boletin de 2024 sobre el feriado de regiones extremas. Proyectos, no leyes.",
+       "url": "https://obtienearchivo.bcn.cl/obtienearchivo?id=repositorio/10221/37197/1/BCNMinutaSeleccionPL_FeriadoProgresivo.pdf"
+     }
+   },
+  "dias": 15,
+  "tipo": "habil",
+  "base": 5,
+  "imputacion": "sin_regla_explicita",
+  "meses": 12,
+  "literal": "Codigo del Trabajo art. 67: 'Los trabajadores con mas de un ano de servicio tendran derecho a un feriado anual de quince dias habiles, con remuneracion integra que se otorgara de acuerdo con las formalidades que establezca el reglamento... El feriado se concedera de preferencia en primavera o verano, considerandose las necesidades del servicio.' Art. 69: 'Para los efectos del feriado, el dia sabado se considerara siempre inhabil.'",
+  "escala": [
+   [
+    12,
+    null,
+    15
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "Art. 67 in fine: 'El feriado se concedera de preferencia en primavera o verano, considerandose las necesidades del servicio.' Art. 70: 'El feriado debera ser continuo, pero el exceso sobre diez dias habiles podra fraccionarse de comun acuerdo.'"
+  },
+  "imputacion_nota": "NO HAY ARTICULO, y el silencio es informativo. El art. 69 se ocupa EXPRESAMENTE del sabado -'se considerara siempre inhabil'- y no dice nada de los festivos. O sea el legislador chileno legislo la mitad dificil de la cuestion y dejo la facil implicita. La respuesta oficial de la Direccion del Trabajo que se leyo repite el sabado y tampoco menciona los festivos. Derivar 'extienden' desde 'habil' seria exactamente la derivacion que la regla 2 prohibe, y el precedente de El Salvador -donde el resultado fue el contrario del esperado por su vecindario- es la razon de no hacerlo.",
+  "nota_base": "base = 5 SI ES LEGAL, y conviene subrayarlo porque es el caso inverso a Alemania y Turquia. Alli el sabado ES dia de trabajo salvo pacto, y por eso 'werktage' sobre semana de seis. Aqui el art. 69 lo declara inhabil POR LEY para efectos del feriado, asi que quince dias habiles chilenos son tres semanas corridas de calendario. Chile y Turquia tienen el mismo numero -15 y 14- y una diferencia estructural de una semana entera.",
+  "feriado_progresivo_no_representable": {
+   "literal": "Art. 68: 'Todo trabajador con 10 anos de trabajo para uno o mas empleadores, continuos o no, tendra derecho a un dia adicional de feriado por cada 3 nuevos anos trabajados, siendo este exceso susceptible de negociacion individual o colectiva.' Con el limite de que solo pueden hacerse valer hasta diez anos de trabajo prestados a empleadores anteriores.",
+   "por_que_no_va_en_escala": "Tres razones y cada una sola ya bastaria. Primera: corre sobre OTRA BASE DE ANTIGUEDAD -trabajo para uno o mas empleadores, continuos o no-, que en el esquema es 'experiencia_laboral_total' con `regla_de_reconocimiento`, mientras el cargador escribe 'servicio_continuo_empleador_actual' fijo para todas las unidades. Segunda: es una PROGRESION ARITMETICA SIN TOPE, un dia mas cada tres anos indefinidamente, y `escala_antiguedad` exige tramos finitos con exactamente uno abierto (V5), asi que representarla obliga a truncarla y el tramo abierto afirmaria un valor final que la ley no fija. Tercera: el exceso es NEGOCIABLE, o sea no es un minimo legal como el resto de la escala. La escala cargada, [[12, null, 15]], es el derecho del art. 67 y es correcta hasta los diez anos; a partir de ahi subestima.",
+   "valor_en_la_grilla": "A 120 meses -uno de los puntos que prueba V6- el derecho real ya es de 16 dias habiles, no de 15."
+  }
+ },
+ "delta_2016_2026": {
+  "feriados": "+1 permanente (Dia Nacional de los Pueblos Indigenas, Ley 21.357, primer efecto 2021) y +2 condicionales (Ley 20.983, 2017), que aparecen o no segun el ano. Ninguno de los tres se cargo, por falta de clase.",
+  "vacaciones": "0. No halle reforma de los arts. 67 a 70 del Codigo del Trabajo en la ventana. La Ley 21.561 de 2023 redujo la jornada semanal a 40 horas, lo que cambia el regimen de jornada pero no el numero de dias habiles de feriado."
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "Hay dos leyes datadas dentro de la ventana: la Ley 20.983 de 2017 y la Ley 21.357 publicada el 19-jun-2021, esta ultima verificada en su literal. El corte 2016 se deriva de ellas."
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "La lista de feriados descansa en una libreria de calendario, nivel 6. leychile.cl devolvio 'Service limit has been reached' en todos los intentos y el navegador de la BCN es una aplicacion JavaScript que no se deja extraer.",
+   "por_que_importa": "La propia fuente de nivel 6 se equivoco en una cita comprobable -atribuyo la Ley 21.357 a la Ley 20.657-, lo que confirma que sus valores no son utilizables sin cotejo. Con nivel minimo 6 el cargador marcaria todas las mediciones como 'supuesto'.",
+   "como_se_cierra": "Reintentar leychile.cl fuera del limite de servicio y leer el texto refundido de la Ley 2.977 con sus modificatorias, mas las Leyes 19.668, 19.973, 20.148, 19.638 y 20.983."
+  },
+  {
+   "id": "H2",
+   "que": "Tres feriados quedan omitidos por falta de clase: el del solsticio y los dos condicionales de la Ley 20.983.",
+   "como_se_cierra": "Anadir 'solsticio_junio' -y por simetria 'solsticio_diciembre' y 'equinoccio_septiembre'- al catalogo de anclas, y decidir como se representa un feriado de existencia condicional por ano."
+  },
+  {
+   "id": "H3",
+   "que": "Las reglas de traslado a lunes (Ley 19.668) y la del 31 de octubre no se verificaron en literal, solo se registraron como pendientes junto a cada fecha.",
+   "como_se_cierra": "Leer la Ley 19.668 y la que fija el traslado del Dia de las Iglesias Evangelicas."
+  }
+ ]
+}

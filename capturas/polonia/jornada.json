@@ -1,0 +1,67 @@
+{
+  "_": "Jornada semanal legal ordinaria. Polonia es el mejor caso del lote: la propia norma escribe los dias -'przecietnie piecidniowym tygodniu pracy'- en la misma frase que las horas, y ademas tiene una regla explicita que obliga a compensar el feriado que cae en sabado.",
+  "unidad": "POL",
+  "jurisdiccion_de_referencia": "Varsovia",
+  "sector_de_referencia": "privado formal, jornada completa, persona adulta, sistema basico de tiempo de trabajo",
+  "fecha_captura_utc": "2026-08-11T05:46:47Z",
+  "capturado_por": "jornada · lote 9",
+  "fuentes": {
+    "J1": {
+      "cita": "Ustawa z dnia 26 czerwca 1974 r. - Kodeks pracy, art. 129 §1",
+      "url": "https://api.sejm.gov.pl/eli/acts/DU/1974/141/text/U/D19740141Lj.pdf",
+      "nivel_de_fuente": 2,
+      "publicacion": "Dz.U. 1974 nr 24 poz. 141. Tekst ujednolicony de la Kancelaria Sejmu, con marca de fecha 2026-07-28, servido por el API ELI del Sejm.",
+      "nota": "El texto ujednolicony es consolidacion de la Cancilleria del Sejm, no publicacion autentica; por eso nivel 2. Literal polaco leido integro el 2026-08-11. Advertencia: el fichero text.html del mismo API entrega el texto ORIGINAL de 1974, que todavia dice 46 horas semanales; no confundirlo con el consolidado."
+    },
+    "J2": {
+      "cita": "Kodeks pracy, art. 133 §1 i §3 (okresy odpoczynku)",
+      "url": "https://api.sejm.gov.pl/eli/acts/DU/1974/141/text/U/D19740141Lj.pdf",
+      "nivel_de_fuente": 2
+    },
+    "J3": {
+      "cita": "Kodeks pracy, art. 130 §2 (obnizenie wymiaru czasu pracy przez swieto)",
+      "url": "https://api.sejm.gov.pl/eli/acts/DU/1974/141/text/U/D19740141Lj.pdf",
+      "nivel_de_fuente": 2
+    },
+    "J4": {
+      "cita": "Kodeks pracy, art. 131 §1 y art. 151(9) §1",
+      "url": "https://api.sejm.gov.pl/eli/acts/DU/1974/141/text/U/D19740141Lj.pdf",
+      "nivel_de_fuente": 2
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 40,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": 5,
+    "dias_ordinarios_origen": "norma",
+    "literal": "Art. 129. §1. Czas pracy nie moze przekraczac 8 godzin na dobe i przecietnie 40 godzin w przecietnie pieciodniowym tygodniu pracy w przyjetym okresie rozliczeniowym nieprzekraczajacym 4 miesiecy, z zastrzezeniem art. 135-138, 143 i 144.",
+    "literal_grafia_original": "Art. 129. § 1. Czas pracy nie może przekraczać 8 godzin na dobę i przeciętnie 40 godzin w przeciętnie pięciodniowym tygodniu pracy w przyjętym okresie rozliczeniowym nieprzekraczającym 4 miesięcy, z zastrzeżeniem art. 135–138, 143 i 144.",
+    "traduccion": "Art. 129. §1. El tiempo de trabajo no puede exceder de 8 horas al dia ni, en promedio, de 40 horas en una semana laboral de cinco dias en promedio, dentro del periodo de liquidacion adoptado, que no exceda de 4 meses, con salvedad de los articulos 135-138, 143 y 144.",
+    "fuente": "J1",
+    "nota": "Los cinco dias los escribe la ley en la misma frase que las horas, y sin el 'por regla general' que relativiza el caso checo. La cualificacion polaca es distinta y mas suave de lo que parece: 'przecietnie' -en promedio- se refiere al periodo de liquidacion, de modo que una semana concreta puede tener seis dias si otra tiene cuatro, pero el promedio de cinco es obligatorio. Es una base semanal declarada por la norma, no derivada de dividir. El art. 131 §1 anade el techo europeo: 48 horas semanales de promedio incluidas las extras.",
+    "techo_con_horas_extra_promedio": 48
+  },
+  "descanso_semanal": {
+    "dias": 1,
+    "horas_minimas": 35,
+    "cuales": "el domingo, nombrado: el descanso de 35 horas debe caer en domingo, entendido como 24 horas continuas desde las 6:00, salvo otra hora fijada por el empleador",
+    "literal": "Art. 133. §1. Pracownikowi przysluguje w kazdym tygodniu prawo do co najmniej 35 godzin nieprzerwanego odpoczynku, obejmujacego co najmniej 11 godzin nieprzerwanego odpoczynku dobowego. [...] §3. Odpoczynek, o ktorym mowa w §1 i 2, powinien przypadac w niedziele. Niedziela obejmuje 24 kolejne godziny, poczynajac od godziny 6:00 w tym dniu, chyba ze u danego pracodawcy zostala ustalona inna godzina.",
+    "literal_grafia_original": "Art. 133. § 1. Pracownikowi przysługuje w każdym tygodniu prawo do co najmniej 35 godzin nieprzerwanego odpoczynku, obejmującego co najmniej 11 godzin nieprzerwanego odpoczynku dobowego. […] § 3. Odpoczynek, o którym mowa w § 1 i 2, powinien przypadać w niedzielę. Niedziela obejmuje 24 kolejne godziny, poczynając od godziny 6.00 w tym dniu, chyba że u danego pracodawcy została ustalona inna godzina.",
+    "traduccion": "Art. 133. §1. La persona trabajadora tiene derecho cada semana a al menos 35 horas de descanso ininterrumpido, que comprenden al menos 11 horas de descanso diario ininterrumpido. §3. El descanso al que se refieren los §1 y §2 debe caer en domingo. El domingo comprende 24 horas consecutivas a partir de las 6:00 de ese dia, salvo que en el empleador se haya fijado otra hora.",
+    "fuente": "J2",
+    "nota": "Hay que distinguir dos cosas que suelen fundirse. El SABADO libre en Polonia no sale del art. 133 sino del art. 129: es el 'dia libre por la semana de cinco dias en promedio'. El art. 133 solo garantiza 35 horas y las ancla en domingo. Esa separacion es la que hace funcionar la regla de compensacion del art. 130 §2.",
+    "dia_libre_adicional_por_semana_de_cinco_dias": true
+  },
+  "traslado_por_defecto": {
+    "existe": true,
+    "regla": "Reduccion de la cuota de horas, que en la practica obliga a dar otro dia libre. Cada feriado que caiga en un dia DISTINTO del domingo reduce en 8 horas la cuota de tiempo de trabajo del periodo de liquidacion. Como el sabado no es domingo, un feriado en sabado reduce la cuota y el empleador debe devolver un dia libre. Un feriado en domingo no reduce nada.",
+    "alcance": "todos los feriados del regimen general de dias libres de trabajo.",
+    "literal": "Art. 130. §2. Kazde swieto wystepujace w okresie rozliczeniowym i przypadajace w innym dniu niz niedziela obniza wymiar czasu pracy o 8 godzin.",
+    "literal_grafia_original": "Art. 130. § 2. Każde święto występujące w okresie rozliczeniowym i przypadające w innym dniu niż niedziela obniża wymiar czasu pracy o 8 godzin.",
+    "traduccion": "Art. 130. §2. Cada feriado que se presente en el periodo de liquidacion y que caiga en un dia distinto del domingo reduce la cuota de tiempo de trabajo en 8 horas.",
+    "fuente": "J3",
+    "nota": "El mecanismo no es un traslado a fecha fija: es aritmetico sobre la cuota del periodo, y el empleador elige cuando devolver el dia. El estado actual del articulo procede de la sentencia del Tribunal Constitucional de 2 de octubre de 2012, asunto K 27/11 (Dz. U. poz. 1110), que hizo perder vigencia al §2(1) el 8 de octubre de 2012; el texto consolidado lo marca como 'utracil moc'. Es anterior a la ventana pero explica por que Polonia tiene esta regla y sus vecinos no."
+  },
+  "reformas_en_la_ventana": [],
+  "pendiente": "No hubo reforma de los articulos 129, 130 ni 133 entre 2016 y 2026: el consolidado a 2026-07-28 los conserva y sus notas al pie remiten a cambios anteriores a la ventana. Dos avisos que no cambian el dato pero rodean su lectura: el piloto de jornada reducida del Ministerio de Familia, Trabajo y Politica Social -fase de prueba del 01.01.2026 al 31.12.2026, unos 90 empleadores- es un programa financiado, NO una modificacion del Kodeks pracy; y el API del Sejm marca changeDate 2026-08-04 para la ley, cambio que no verifique cual es y que no aparece en los articulos capturados."
+}

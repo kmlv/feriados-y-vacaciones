@@ -1,0 +1,114 @@
+{
+ "_": "JORNADA SEMANAL LEGAL ORDINARIA. Trabajador de referencia: sector privado formal, jornada completa, Santiago. Lote 5. CASO GRADUAL: el numero que rige depende de la fecha dentro de 2026.",
+ "unidad": "CHL",
+ "jurisdiccion_de_referencia": "Santiago - Region Metropolitana",
+ "capturado_por": "jornada · lote 5",
+ "fecha_captura_utc": "2026-08-11T05:38:11Z",
+ "fuentes": {
+  "J1": {
+   "cita": "Direccion del Trabajo - Dictamen general sobre la Ley N 21.561, que modifica el Código del Trabajo con el objeto de reducir la jornada laboral. Incluye la tabla de gradualidad y el texto de los articulos modificados",
+   "url": "https://www.dt.gob.cl/portal/1626/articles-107884_recurso_63.pdf",
+   "nivel_de_fuente": 2,
+   "publicacion": "Ley publicada en el Diario Oficial el 26-04-2023",
+   "literal_relevante": "Progresividad de la implementacion: La reduccion de la jornada de trabajo se producira de manera gradual a partir del dia 26.04.2024 y continuara hasta el 26.04.2028, llegando en esa fecha a las 40 horas. VIGENCIA / JORNADA ORDINARIA SEMANAL: 26.04.2024 = 44; 26.04.2026 = 42; 26.04.2028 = 40.",
+   "nota": "Documento propio de la DT, leido completo en PDF. Es la fuente que fija las tres fechas y los tres numeros, y ademas reproduce el texto permanente del art. 22 inc. 1."
+  },
+  "J2": {
+   "cita": "Direccion del Trabajo - '?Como se implementa la reduccion de la jornada de 45 a 40 horas?', respuesta oficial de consulta",
+   "url": "https://www.dt.gob.cl/portal/1628/w3-article-125909.html",
+   "nivel_de_fuente": 2,
+   "literal_relevante": "1er ano: 44 horas al 26 de abril de 2024. 3er ano: 42 horas al 26 de abril de 2026. 5to ano: 40 horas al 26 de abril de 2028.",
+   "nota": "Segunda fuente oficial independiente que confirma el escalonado. Coincide con J1."
+  },
+  "J3": {
+   "cita": "Código del Trabajo, art. 28 - distribucion semanal del maximo y tope diario",
+   "url": "https://leyes-cl.com/codigo_del_trabajo/28.htm",
+   "nivel_de_fuente": 4,
+   "nota": "NIVEL 4, una sola secundaria para el literal. leychile.cl volvio a fallar (la pagina no cargo), como ya le habia pasado a la captura de feriados de esta misma unidad. El CONTENIDO esta corroborado por J1, que declara por su cuenta que la distribucion actual es de 5 o 6 dias y que desde el 26-04-2028 pasa a 4 a 6; pero el literal en si descansa en una sola fuente."
+  },
+  "J4": {
+   "cita": "Código del Trabajo, art. 35 - descanso dominical y en días festivos. Direccion del Trabajo, ficha 'Descanso Semanal'",
+   "url": "https://www.dt.gob.cl/portal/1626/w3-article-99109.html",
+   "nivel_de_fuente": 2,
+   "literal_relevante": "por regla general, los dias domingo y aquellos que la ley declara festivos son de descanso",
+   "nota": "IMPORTANTE POR LO QUE NO DICE: la ficha oficial de la DT sobre descanso semanal no contempla NINGUN supuesto de traslado ni de compensacion cuando un festivo cae en domingo. La compensacion del art. 38 existe solo para quienes ESTAN exceptuados del descanso dominical y efectivamente trabajaron ese dia."
+  },
+  "J5": {
+   "cita": "Ley 19.668 - traslada al lunes los feriados de 29 de junio, 12 de octubre y Corpus Christi cuando caen entre martes y viernes",
+   "url": "https://chile.justia.com/nacionales/leyes/ley-n-19-668/gdoc",
+   "nivel_de_fuente": 4,
+   "publicacion": "2000-03-10",
+   "nota": "Se cita solo para DESCARTARLA como regla de traslado por descanso semanal: opera sobre dias entre semana, no sobre el fin de semana. La version consultada esta declarada como vigente hasta 2007, o sea que hay modificatorias posteriores sin leer. No se usa para ningun valor de este archivo."
+  }
+ },
+ "jornada": {
+  "horas_semanales_max": 42,
+  "horas_semanales_max_nota": "42 desde el 26-04-2026. Antes de esa fecha, dentro del mismo ano 2026, regian 44. El texto PERMANENTE del art. 22 inc. 1 dice cuarenta, pero el art. primero transitorio de la Ley 21.561 lo hace exigible por etapas.",
+  "horas_diarias_max": 10,
+  "dias_ordinarios": null,
+  "dias_ordinarios_origen": "rango_legal",
+  "literal": "Art. 22 inc. 1. La duracion de la jornada ordinaria de trabajo no excedera de cuarenta horas semanales y su distribucion se podra efectuar en cada semana calendario o sobre la base de promedios semanales en lapsos de hasta cuatro semanas. || Art. 28. El maximo semanal establecido en el inciso primero del articulo 22 no podra distribuirse en mas de seis ni en menos de cinco dias. En ningun caso la jornada ordinaria podra exceder de diez horas por dia, sin perjuicio de lo dispuesto en el inciso septimo del articulo 38.",
+  "traduccion": null,
+  "fuente": "J1",
+  "nota": "AQUI VA EL NULL Y ES DELIBERADO. Chile no deja los dias al contrato -eso seria 'no declarado'- pero tampoco fija UN numero: fija un RANGO, no mas de seis ni menos de cinco. Ni 5 ni 6 es 'el' dia ordinario legal; la eleccion dentro del rango la hace la distribucion pactada. Poner 5 o poner 6 seria inventar el dato. Desde el 26-04-2028 el rango se abre a 4-6 dias, que es la puerta legal a la semana de cuatro dias. Tope diario de 10 horas, no de 8: Chile fija horas semanales y tope diario altos, no una jornada diaria estandar. El art. 22 bis permite promediar en ciclos de hasta cuatro semanas, con techo de 45 horas en una semana individual."
+ },
+ "horas_semanales_por_etapa": [
+  {
+   "desde": "1968-01-01",
+   "hasta": "2024-04-25",
+   "horas": 45,
+   "nota": "45 horas es lo que regia en 2016, ano de corte del proyecto. Fijado por la Ley 19.759 de 2001, con vigencia desde 2005."
+  },
+  {
+   "desde": "2024-04-26",
+   "hasta": "2026-04-25",
+   "horas": 44
+  },
+  {
+   "desde": "2026-04-26",
+   "hasta": "2028-04-25",
+   "horas": 42
+  },
+  {
+   "desde": "2028-04-26",
+   "hasta": null,
+   "horas": 40
+  }
+ ],
+ "descanso_semanal": {
+  "dias": 1,
+  "cuales": "domingo",
+  "literal": "Art. 35. Los dias domingo y aquellos que la ley declare festivos seran de descanso, salvo respecto de las actividades autorizadas por ley para trabajarse en esos dias.",
+  "traduccion": null,
+  "fuente": "J4",
+  "nota": "La ley nombra el domingo expresamente y pone los festivos en el mismo saco. El art. 38 exceptua sectores enteros -comercio, transporte, espectaculos, turno continuo- y a esos les da un dia compensatorio por cada domingo y por cada festivo trabajado; eso es un regimen de excepcion, no el del trabajador de referencia."
+ },
+ "traslado_por_defecto": {
+  "existe": false,
+  "regla": "se pierde",
+  "alcance": null,
+  "literal": null,
+  "fuente": "J4",
+  "nota": "NO HAY REGLA GENERAL. Un festivo que cae en domingo simplemente se solapa con el descanso dominical del art. 35 y no genera ni traslado ni dia compensatorio ni pago: el trabajador descansa el domingo como cualquier otro. La ficha oficial de descanso semanal de la DT no contempla el supuesto. || CUIDADO CON EL FALSO POSITIVO: Chile SI tiene traslados de feriado (Ley 19.668 mueve al lunes el 29 de junio, el 12 de octubre y Corpus Christi; el art. 35 ter crea el 17 o el 20 de septiembre segun el dia de la semana), pero todos operan sobre feriados que caen ENTRE SEMANA y su proposito es armar fin de semana largo. Ninguno se activa por caer en el dia de descanso semanal, que es la pregunta de este campo."
+ },
+ "reformas_en_la_ventana": [
+  {
+   "instrumento": "Ley N 21.561, publicada en el Diario Oficial el 26-04-2023",
+   "anio": 2023,
+   "que_cambio": "Reduce la jornada ordinaria semanal de 45 a 40 horas, con entrada GRADUAL por etapas fijadas en su articulo primero transitorio: 44 horas desde el 26-04-2024, 42 desde el 26-04-2026, 40 desde el 26-04-2028. La rebaja se incorpora de pleno derecho a contratos individuales, instrumentos colectivos y reglamentos internos (art. segundo transitorio) y no puede implicar rebaja de remuneraciones (art. primero transitorio N 2 inc. 3)."
+  },
+  {
+   "instrumento": "Ley N 21.561, art. 28 del Codigo del Trabajo, efecto diferido al quinto ano",
+   "anio": 2023,
+   "vigencia_desde": "2028-04-26",
+   "que_cambio": "Cambia el rango de distribucion semanal de 'no mas de seis ni menos de cinco dias' a 'no menos de cuatro ni mas de seis dias'. Es el cambio que habilita la semana de cuatro dias. Todavia NO rige en 2026."
+  },
+  {
+   "instrumento": "Ley N 21.561, derogacion del art. 375 del Codigo del Trabajo",
+   "anio": 2023,
+   "vigencia_desde": "2024-04-26",
+   "que_cambio": "Deroga los pactos de adaptabilidad sobre condiciones especiales de trabajo y los sustituye por el nuevo regimen de promedios semanales del art. 22 bis."
+  }
+ ],
+ "pendiente": "El literal de los arts. 22, 28 y 35 no se leyo en leychile.cl -la pagina no cargo, mismo fallo que en la captura de feriados de esta unidad-. El art. 22 inc. 1 se leyo reproducido en el dictamen de la DT (nivel 2); el art. 28, en una sola secundaria (nivel 4). Falta ademas leer el texto vigente de la Ley 19.668 con sus modificatorias posteriores a 2007, aunque no afecta a ningun valor de este archivo. Los Dictamenes 252/20 y 253/21 de 16-04-2026 de la DT, sobre como adecuar la jornada diaria al pasar de 44 a 42 sin acuerdo, se identificaron pero no se leyeron."
+}

@@ -1,0 +1,75 @@
+{
+  "_": "JORNADA SEMANAL LEGAL ORDINARIA de Indonesia. Trabajador de referencia: sector privado formal, jornada completa, Yakarta. UNIDAD CON DOS REGIMENES: la ley declara expresamente dos configuraciones de semana, de cinco y de seis dias, y no elige entre ellas.",
+  "unidad": "IDN",
+  "jurisdiccion_de_referencia": "Yakarta (DKI Jakarta)",
+  "capturado_por": "jornada · lote 1",
+  "fecha_captura_utc": "2026-08-11T05:55:37Z",
+
+  "fuentes": {
+    "J1": {
+      "cita": "Undang-Undang Nomor 13 Tahun 2003 tentang Ketenagakerjaan, Pasal 77 y Pasal 79 (texto original de 2003)",
+      "url": "https://peraturan.bpk.go.id/Download/31128/UU%20Nomor%2013%20Tahun%202003.pdf",
+      "nivel_de_fuente": 2,
+      "publicacion": "2003-03-25",
+      "nota": "Repositorio JDIH de la Badan Pemeriksa Keuangan, organismo del Estado. Fuente de publicacion: LN.2003/NO.39, TLN NO.4279."
+    },
+    "J2": {
+      "cita": "Undang-Undang Nomor 6 Tahun 2023 (penetapan del Perppu 2/2022 Cipta Kerja), Pasal 81 angka 23 (nueva redaccion del Pasal 77) y angka 25 (nueva redaccion del Pasal 79)",
+      "url": "https://peraturan.bpk.go.id/Download/302681/UU%20Nomor%206%20Tahun%202023.pdf",
+      "nivel_de_fuente": 2,
+      "publicacion": "2023-03-31",
+      "nota": "Salinan oficial de 1127 paginas. Fuente de publicacion: LN.2023/NO.41, TLN NO.6856."
+    },
+    "J3": {
+      "cita": "Putusan Mahkamah Konstitusi Nomor 168/PUU-XXI/2023, de 31 de octubre de 2024",
+      "url": "https://www.mkri.id/public/content/persidangan/sinopsis/ikhtisar_3724_2192_pdf%20Ikhtisar%20Putusan%20%20168_2023.pdf",
+      "nivel_de_fuente": 2,
+      "publicacion": "2024-10-31",
+      "nota": "Ikhtisar oficial publicado por el propio Tribunal Constitucional. Trae el amar putusan literal y las consideraciones. No se leyo la salinan completa de la sentencia."
+    }
+  },
+
+  "jornada": {
+    "horas_semanales_max": 40,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "Pasal 77 ayat (2), en la redaccion del Pasal 81 angka 23 de la UU 6/2023: 'Waktu kerja sebagaimana dimaksud pada ayat (1) meliputi: a. 7 (tujuh) jam 1 (satu) hari dan 40 (empat puluh) jam 1 (satu) minggu untuk 6 (enam) hari kerja dalam 1 (satu) minggu; atau b. 8 (delapan) jam 1 (satu) hari dan 40 (empat puluh) jam 1 (satu) minggu untuk 5 (lima) hari kerja dalam 1 (satu) minggu.' — Pasal 77 ayat (4): 'Pelaksanaan jam kerja bagi Pekerja/Buruh di Perusahaan diatur dalam Perjanjian Kerja, Peraturan Perusahaan, atau Perjanjian Kerja Bersama.'",
+    "traduccion": "Pasal 77(2): 'El tiempo de trabajo al que se refiere el apartado (1) comprende: a. 7 horas al dia y 40 horas a la semana para 6 dias de trabajo en 1 semana; o b. 8 horas al dia y 40 horas a la semana para 5 dias de trabajo en 1 semana.' — Pasal 77(4): 'La aplicacion del horario de trabajo de los trabajadores en la empresa se regula en el contrato de trabajo, el reglamento de empresa o el convenio colectivo.'",
+    "fuente": "J2",
+    "nota": "DIAS ORDINARIOS ES null Y AQUI CONVIENE PRECISAR POR QUE, porque no es el caso corriente. No es que la ley calle: la ley NOMBRA los dos numeros, cinco y seis, y construye dos regimenes completos alrededor de cada uno, con su tope diario propio. Lo que no hace es elegir. El ayat (4), anadido por la reforma de 2023, remata el punto entregando la aplicacion del horario al contrato, al reglamento de empresa o al convenio. De la norma no se sigue un valor unico, y por eso el campo va vacio aunque la norma sea de las mas explicitas del lote. — HORAS DIARIAS: se anota 8, que es el maximo diario que la ley permite; en el regimen de seis dias el tope propio es 7. Las 40 semanales son las mismas en ambos, o sea que aqui la eleccion de regimen no cambia cuanto se trabaja, cambia en cuantos trozos."
+  },
+
+  "descanso_semanal": {
+    "dias": null,
+    "cuales": "un dia por cada seis trabajados, o dos por cada cinco; la norma no nombra el dia",
+    "literal": "Pasal 79 ayat (2) huruf b, en la redaccion del Pasal 81 angka 25 de la UU 6/2023: 'istirahat mingguan 1 (satu) hari untuk 6 (enam) hari kerja dalam 1 (satu) minggu.' — Amar putusan de la MK 168/PUU-XXI/2023, punto 7: la norma es inconstitucional y sin fuerza obligatoria 'sepanjang tidak dimaknai mencakup frasa, \"atau 2 (dua) hari untuk 5 (lima) hari kerja dalam 1 (satu) minggu\"'.",
+    "traduccion": "Pasal 79(2)(b): 'descanso semanal de 1 dia por 6 dias de trabajo en 1 semana.' — Amar putusan: '...en tanto no se interprete que comprende la frase \"o 2 dias por 5 dias de trabajo en 1 semana\"'.",
+    "fuente": "J3",
+    "nota": "AQUI HAY UNA IDA Y VUELTA QUE SE PIERDE SI SOLO SE LEE LA LEY VIGENTE. El texto de 2003 daba las dos alternativas: un dia por seis trabajados o dos por cinco. La Cipta Kerja borro la segunda en 2023 y dejo solo la de un dia, con lo que el trabajador de semana de cinco dias se quedaba sin cobertura expresa. El Tribunal Constitucional lo corrigio el 31 de octubre de 2024 declarandolo inconstitucional salvo que se lea incluyendo la frase suprimida. O sea que la redaccion vigente en la ley y la regla vigente en derecho NO COINCIDEN: hay que leer el articulo con el anadido que ordena la sentencia. Por eso el campo dias va null: la garantia es uno o dos segun el regimen, y como el regimen no esta determinado, el numero tampoco. El dia concreto no se nombra en ningun caso; el viernes tiene proteccion propia por el rezo, que es otra institucion."
+  },
+
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": null,
+    "alcance": null,
+    "literal": null,
+    "fuente": null,
+    "nota": "No encontre en la UU 13/2003 ni en sus reformas ninguna regla general que traslade o compense el feriado caido en el descanso semanal. Los hari libur nasional se fijan cada ano por decreto conjunto de tres ministerios (SKB), junto con los dias de cuti bersama; la cuti bersama funciona como puente pero se descuenta de las vacaciones anuales, con lo que no es compensacion de un feriado perdido sino anticipo de vacaciones. Ese SKB no se leyo, y por eso la negativa se declara sobre la ley y no sobre el conjunto del ordenamiento."
+  },
+
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "UU Nomor 11 Tahun 2020 (Cipta Kerja), luego Perppu 2/2022 y finalmente UU Nomor 6 Tahun 2023",
+      "anio": 2023,
+      "que_cambio": "Reescribio el Pasal 77 sin tocar las 40 horas ni los dos regimenes de 5 y 6 dias, pero anadio el ayat (4) que remite la aplicacion del horario al contrato, al reglamento de empresa o al convenio. En el Pasal 79 suprimio la alternativa de dos dias de descanso para la semana de cinco, dejando solo 'un dia por cada seis'. En el Pasal 78 amplio el limite de horas extraordinarias de 3 diarias y 14 semanales a 4 diarias y 18 semanales."
+    },
+    {
+      "instrumento": "Putusan MK 168/PUU-XXI/2023",
+      "anio": 2024,
+      "que_cambio": "Restituyo la alternativa de dos dias de descanso semanal para quien trabaja cinco dias, declarando el Pasal 79 ayat (2) huruf b inconstitucional salvo que se interprete incluyendo esa frase. El Tribunal razona que suprimirla generaba discriminacion contra el trabajador de semana de cinco dias."
+    }
+  ],
+
+  "pendiente": "Dos frentes abiertos. (1) El decreto conjunto anual (SKB tres ministerios) que fija hari libur nasional y cuti bersama para 2026 no se leyo; es donde estaria, si existiera, cualquier regla de puente o traslado. (2) Y algo mayor: por la Putusan MK 167/PUU-XXIV/2026, de 17 de junio de 2026, si el bloque laboral no se separa de la Ley de Cipta Kerja antes del 31 de octubre de 2026 vuelve a regir la UU 13/2003 con las sentencias del Tribunal. Es decir que el marco de esta captura puede cambiar dentro del mismo ano; esa sentencia la conozco por busqueda secundaria y no verifique su texto."
+}

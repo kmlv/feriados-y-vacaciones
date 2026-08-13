@@ -1,0 +1,49 @@
+{
+ "_": "Jornada semanal legal ordinaria. HORAS SEMANALES NULAS Y NO ES OMISION: la Arbeidstijdenwet no tiene jornada ordinaria, solo techos (12/60/55/48) con extras incluidas. Ademas no existe derecho legal a feriado pagado: es materia de CAO.",
+ "unidad": "NLD",
+ "jurisdiccion_de_referencia": "Amsterdam",
+ "sector_de_referencia": "privado formal, jornada completa, persona adulta, trabajo diurno",
+ "capturado_por": "jornada · lote 4",
+ "fecha_captura_utc": "2026-08-11T05:45:52Z",
+ "fuentes": {
+  "J1": {
+   "cita": "Arbeidstijdenwet, artikel 5:5 (wekelijkse onafgebroken rusttijd), artikel 5:6 (arbeid op zondag) y artikel 5:7 (arbeidstijd), en la redaccion dada por la Wet van 30 november 2006 tot wijziging van de Arbeidstijdenwet",
+   "url": "https://zoek.officielebekendmakingen.nl/stb-2006-632.html",
+   "nivel_de_fuente": 1,
+   "publicacion": "Staatsblad 2006, 632; entrada en vigor 01-04-2007 (Stb. 2007, 89)",
+   "nota": "wetten.overheid.nl —el texto consolidado— responde 403 a toda peticion automatizada, asi que fui al Staatsblad, que es la publicacion oficial que fija esta redaccion."
+  },
+  "J2": {
+   "cita": "Rijksoverheid, «Wanneer zijn de officiele feestdagen in Nederland?» — no existe derecho legal a día libre ni a pago en feriado; se rige por CAO o contrato",
+   "url": "https://www.rijksoverheid.nl/onderwerpen/arbeidsovereenkomst-en-cao/vraag-en-antwoord/officiele-feestdagen",
+   "nivel_de_fuente": 2,
+   "publicacion": "portal del Gobierno neerlandes, consultado 2026-08-11",
+   "nota": "Se cita para acreditar una AUSENCIA de norma, que es lo que este archivo necesita afirmar en el campo de traslado."
+  }
+ },
+ "jornada": {
+  "horas_semanales_max": null,
+  "horas_diarias_max": 12,
+  "dias_ordinarios": null,
+  "dias_ordinarios_origen": "no_declarado",
+  "literal": "Artikel 5:7, lid 2, Arbeidstijdenwet: «De werkgever organiseert de arbeid zodanig, dat de werknemer van 18 jaar of ouder ten hoogste arbeid verricht gedurende: a. 12 uren per dienst; b. 60 uren per week, en c. gemiddeld 48 uren per week in elke periode van 16 aaneengesloten weken.» — lid 3: «De werkgever organiseert de arbeid zodanig, dat de werknemer van 18 jaar of ouder ten hoogste arbeid verricht gedurende gemiddeld 55 uren per week in elke periode van 4 aaneengesloten weken.»",
+  "traduccion": "Art. 5:7.2: «El empleador organiza el trabajo de modo que el trabajador de 18 anos o mas trabaje como maximo: a) 12 horas por turno; b) 60 horas por semana, y c) un promedio de 48 horas por semana en cada periodo de 16 semanas consecutivas.» — 5:7.3: «...un promedio de 55 horas por semana en cada periodo de 4 semanas consecutivas.»",
+  "fuente": "J1",
+  "nota": "LAS HORAS SEMANALES VAN NULAS Y NO ES QUE FALTE EL DATO: es que la ley neerlandesa NO TIENE jornada ordinaria. La Arbeidstijdenwet solo fija techos —12 por turno, 60 por semana, 55 de media a cuatro semanas y 48 de media a dieciseis—, y los tres ultimos incluyen las horas extraordinarias. La semana normal del trabajador neerlandes, que suele estar entre 36 y 40 horas, la fija el CAO o el contrato, no la ley. Poner 60 en la casilla de jornada ordinaria pondria a los Paises Bajos como el pais de jornada mas larga de esta tanda cuando en realidad es de los de jornada mas corta: el numero es real y la lectura seria falsa. Las 12 horas diarias que si codifico son, con el mismo cuidado, un techo POR TURNO con extras incluidas, no un dia ordinario. Y los dias van nulos por la misma razon estructural."
+ },
+ "descanso_semanal": {
+  "dias": 1,
+  "cuales": "domingo por defecto, pero la garantia dura son 13 domingos libres por cada 52 semanas; el descanso semanal esta expresado en horas, no en dias",
+  "literal": "Artikel 5:5, lid 2, ATW: «De werkgever organiseert de arbeid zodanig, dat de werknemer van 18 jaar of ouder een onafgebroken rusttijd heeft van ten minste: a. 36 uren in elke aaneengesloten periode van 7 maal 24 uren, of b. 72 uren in elke aaneengesloten periode van 14 maal 24 uren, welke rusttijd kan worden gesplitst in onafgebroken rustperioden van elk ten minste 32 uren.» — Artikel 5:6, lid 1: «De werkgever organiseert de arbeid zodanig, dat de werknemer op zondag geen arbeid verricht, behalve voor zover dat uit de aard van de arbeid voortvloeit en het tegendeel is bedongen.» — lid 3: «De werkgever organiseert de arbeid zodanig, dat de werknemer op ten minste 13 zondagen in elke periode van 52 aaneengesloten weken geen arbeid verricht.» (traduccion: «...un descanso ininterrumpido de al menos 36 horas en cada periodo de 7x24 horas, o 72 horas en cada periodo de 14x24, divisibles en bloques de al menos 32 horas»; «el trabajador no trabaja en domingo, salvo que se derive de la naturaleza del trabajo y se haya pactado lo contrario»; «el trabajador no trabaja al menos 13 domingos en cada periodo de 52 semanas consecutivas.»)",
+  "fuente": "J1"
+ },
+ "traslado_por_defecto": {
+  "existe": false,
+  "regla": null,
+  "alcance": null,
+  "literal": "No puede haberla: en los Paises Bajos NO EXISTE derecho legal a dia libre ni a retribucion por feriado en el sector privado. Los «algemeen erkende feestdagen» aparecen en la Algemene termijnenwet a los solos efectos del computo de plazos legales, no como dias libres del trabajador; que un feriado sea libre y pagado depende del CAO o del contrato. Si no hay feriado legal, no hay regla legal de traslado.",
+  "fuente": "J2"
+ },
+ "reformas_en_la_ventana": [],
+ "pendiente": "Dos huecos declarados. (1) Cito la redaccion del Staatsblad 2006, 632 (en vigor 01-04-2007) porque el consolidado oficial de wetten.overheid.nl bloquea el acceso automatizado; comprobe por fuentes concordantes que las cifras 12/60/48 y 36/72 siguen siendo las vigentes, pero NO recorri articulo por articulo las modificaciones posteriores de la Arbeidstijdenwet. (2) No capture el literal del art. 3 de la Algemene termijnenwet, que es donde se enumeran los feriados reconocidos a efectos de plazos; la afirmacion de que esa ley no crea dias libres laborales se apoya en el portal del Gobierno (J2), nivel 2."
+}

@@ -1,0 +1,380 @@
+{
+ "_": "Captura de Corea del Sur. CAPTURA CIEGA: leida del Centro Nacional de Informacion Juridica (law.go.kr) por su API DRF, sin mirar ningun dataset agregado.",
+ "captura_ciega": true,
+ "unidad": "KOR",
+ "jurisdiccion_de_referencia": "Seul (ciudad mas poblada)",
+ "capturado_por": "captura · lote 2",
+ "fecha_captura_utc": "2026-08-10T18:40:00Z",
+ "advertencia_de_corte": "OJO CON EL CORTE. El calendario coreano CAMBIO en mayo de 2026, DESPUES del corte del 1-ene-2026: la Ley 21338 (10-feb-2026, vigente 11-may-2026) y la Ley 21543 (9-abr-2026, vigente 1-may-2026) anadieron el Dia de la Constitucion (17 de julio) y el Dia del Trabajo a la lista de dias festivos de los organos publicos. Esta captura describe el estado AL 1 DE ENERO DE 2026, no el de hoy. Es un caso donde consultar el texto vigente sin fijarse en la fecha de vigencia habria contaminado el corte.",
+ "fuentes": {
+  "F1": {
+   "cita": "근로기준법 (Ley de Normas Laborales), articulos 55, 60, 61 y 62",
+   "nivel_de_fuente": 1,
+   "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=265959&type=XML",
+   "publicacion": "2024-10-22",
+   "nota": "국가법령정보센터, el sistema oficial de legislacion del Ministerio de Legislacion. Texto integro leido por la API DRF."
+  },
+  "F2": {
+   "cita": "공휴일에 관한 법률 (Ley de días festivos), Ley 18291 de 2021-07-07, vigente desde 2022-01-01; articulos 2, 3 y 4",
+   "nivel_de_fuente": 1,
+   "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=283311&type=XML",
+   "publicacion": "2021-07-07",
+   "nota": "REFORMA DENTRO DE LA VENTANA: hasta 2021 no habia LEY que enumerara los dias festivos; solo un decreto presidencial para organos publicos. Al 1-ene-2026 el articulo 2 numeral 1 decia 'de los dias nacionales, el 1 de marzo, la Liberacion, la Fundacion Nacional y el Hangeul' — el Dia de la Constitucion entro despues, el 11-may-2026."
+  },
+  "F3": {
+   "cita": "관공서의 공휴일에 관한 규정 (Reglamento de días festivos de los organos publicos), Decreto Presidencial; articulos 2, 3 y 4",
+   "nivel_de_fuente": 1,
+   "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=285779&type=XML",
+   "nota": "Se leyo la version vigente (Decreto 36290, de 2026-04-30) Y su texto de reforma, que permite reconstruir con exactitud la version anterior, que es la que estaba en vigor al 1-ene-2026. PENDIENTE: la API no sirve versiones historicas por MST, asi que la version del corte esta RECONSTRUIDA a partir del articulado de la reforma, no leida directamente."
+  },
+  "F4": {
+   "cita": "근로기준법 시행령 (Decreto de aplicacion de la Ley de Normas Laborales), artículo 30(2)",
+   "nivel_de_fuente": 1,
+   "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=270551&type=XML",
+   "nota": "Es la bisagra: define que los 'dias festivos que fije el decreto' del art. 55(2) de la Ley son los del art. 2 del reglamento de organos publicos EXCEPTO el numeral 1 (los domingos), mas los dias sustitutos del art. 3."
+  },
+  "F5": {
+   "cita": "노동절 제정에 관한 법률 (Ley del Día del Trabajo), Ley 21134 de 2025-11-11, reforma total de la 근로자의 날 제정에 관한 법률",
+   "nivel_de_fuente": 1,
+   "url": "https://www.law.go.kr/DRF/lawService.do?OC=test&target=law&MST=279809&type=XML",
+   "publicacion": "2025-11-11",
+   "nota": "Texto integro: '5월 1일을 노동절로 하고, 이 날을 「근로기준법」에 따른 유급휴일로 한다' — el 1 de mayo es Dia del Trabajo y dia festivo RETRIBUIDO conforme a la Ley de Normas Laborales. Es la UNICA fuente de dia festivo retribuido del sector privado que existia ya en 2016; entonces se llamaba 'dia del trabajador' y el cambio de nombre es de nov-2025, dentro de la ventana pero sin efecto sobre el quantum."
+  }
+ },
+ "feriados": {
+  "estado": "PARCIAL en la carga, COMPLETO en el dato: seis fechas lunisolares y una dependiente de proclamacion estan capturadas con la clase que les corresponde en el esquema, pero el cargador no traduce esas clases todavia",
+  "fuente": "F2",
+  "jurisdiccion": "nacional; Seul no anade feriados propios",
+  "arquitectura": "El trabajador privado coreano NO recibe los feriados por una ley de feriados sino por REMISION: el art. 55(2) de la Ley de Normas Laborales obliga al empleador a garantizar como retribuidos 'los dias festivos que fije el decreto presidencial', y el art. 30(2) del decreto de aplicacion remite al reglamento de dias festivos de los organos publicos quitando los domingos. Encima, el 1 de mayo llega por una ley distinta. Son tres instrumentos encadenados para una sola lista.",
+  "cobertura": "Solo centros de trabajo de 5 o mas personas: el art. 11 de la Ley de Normas Laborales excluye a los de menos de 5. Un trabajador de microempresa en Seul NO tiene ninguno de estos dias garantizado por ley, salvo el 1 de mayo.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "1 de enero (신정)",
+    "clase_de_regla": "fija",
+    "desde": "2022-01-01",
+    "instrumento": "근로기준법 art. 55(2), Ley 15513 de 2018"
+   },
+   {
+    "fecha": "03-01",
+    "nombre": "삼일절 (Movimiento del 1 de marzo)",
+    "clase_de_regla": "fija",
+    "desde": "2022-01-01",
+    "instrumento": "근로기준법 art. 55(2), Ley 15513 de 2018"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "노동절 (Día del Trabajo)",
+    "clase_de_regla": "fija",
+    "nota": "UNICO feriado retribuido del sector privado que ya existia en 2016, por la Ley del Dia del Trabajador. No viene del art. 55(2) ni del reglamento de organos publicos: al 1-ene-2026 el 1 de mayo NO era dia festivo de organo publico. Se incorporo al reglamento el 1-may-2026, fuera del corte."
+   },
+   {
+    "fecha": "05-05",
+    "nombre": "어린이날 (Día del Niño)",
+    "clase_de_regla": "fija",
+    "desde": "2022-01-01",
+    "instrumento": "근로기준법 art. 55(2), Ley 15513 de 2018"
+   },
+   {
+    "fecha": "06-06",
+    "nombre": "현충일 (Día de los Caídos)",
+    "clase_de_regla": "fija",
+    "desde": "2022-01-01",
+    "instrumento": "근로기준법 art. 55(2), Ley 15513 de 2018"
+   },
+   {
+    "fecha": "08-15",
+    "nombre": "광복절 (Liberación Nacional)",
+    "clase_de_regla": "fija",
+    "desde": "2022-01-01",
+    "instrumento": "근로기준법 art. 55(2), Ley 15513 de 2018"
+   },
+   {
+    "fecha": "10-03",
+    "nombre": "개천절 (Fundación Nacional)",
+    "clase_de_regla": "fija",
+    "desde": "2022-01-01",
+    "instrumento": "근로기준법 art. 55(2), Ley 15513 de 2018"
+   },
+   {
+    "fecha": "10-09",
+    "nombre": "한글날 (Día del Hangeul)",
+    "clase_de_regla": "fija",
+    "desde": "2022-01-01",
+    "instrumento": "근로기준법 art. 55(2), Ley 15513 de 2018"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "기독탄신일 (Navidad)",
+    "clase_de_regla": "fija",
+    "desde": "2022-01-01",
+    "instrumento": "근로기준법 art. 55(2), Ley 15513 de 2018"
+   },
+   {
+    "fecha": null,
+    "nombre": "설날 전날 (víspera del Año Nuevo lunar)",
+    "desde": "2022-01-01",
+    "nota": "RESUELTO. El decreto dice «음력 12월 말일», el ULTIMO dia del mes 12 lunar, que es el 29 o el 30 segun el anio. El campo `dia_lunar_desde_fin` se anadio por decision del principal del 2026-08-10: cuenta desde el fin del mes, y 1 es el ultimo dia. Se descarto el centinela -1 en `dia_lunar` porque un numero que significa otra cosa que un numero es un truco que nadie recuerda dos meses despues.",
+    "clase_de_regla": "lunar",
+    "calendario_lunar": "lunisolar_coreano",
+    "mes_lunar": 12,
+    "dia_lunar_desde_fin": 1
+   },
+   {
+    "fecha": null,
+    "nombre": "설날 (Año Nuevo lunar)",
+    "clase_de_regla": "lunar",
+    "desde": "2022-01-01",
+    "calendario_lunar": "lunisolar_coreano",
+    "mes_lunar": 1,
+    "dia_lunar": 1,
+    "nota": "Fecha LUNISOLAR. El esquema SI la admite -clase `lunar` con calendario_lunar, mes_lunar y dia_lunar-; quien no la mapea es cargar_piloto.py, que solo traduce fija, ordinal, computable, relativa_a_fecha y remision_normativa. Por eso la fila se omite en la carga aunque el dato este completo."
+   },
+   {
+    "fecha": null,
+    "nombre": "설날 다음 날 (día siguiente al Año Nuevo lunar)",
+    "clase_de_regla": "lunar",
+    "desde": "2022-01-01",
+    "calendario_lunar": "lunisolar_coreano",
+    "mes_lunar": 1,
+    "dia_lunar": 2,
+    "nota": "Fecha LUNISOLAR. El esquema SI la admite -clase `lunar` con calendario_lunar, mes_lunar y dia_lunar-; quien no la mapea es cargar_piloto.py, que solo traduce fija, ordinal, computable, relativa_a_fecha y remision_normativa. Por eso la fila se omite en la carga aunque el dato este completo."
+   },
+   {
+    "fecha": null,
+    "nombre": "부처님 오신 날 (Nacimiento de Buda)",
+    "clase_de_regla": "lunar",
+    "desde": "2022-01-01",
+    "calendario_lunar": "lunisolar_coreano",
+    "mes_lunar": 4,
+    "dia_lunar": 8,
+    "nota": "Fecha LUNISOLAR. El esquema SI la admite -clase `lunar` con calendario_lunar, mes_lunar y dia_lunar-; quien no la mapea es cargar_piloto.py, que solo traduce fija, ordinal, computable, relativa_a_fecha y remision_normativa. Por eso la fila se omite en la carga aunque el dato este completo."
+   },
+   {
+    "fecha": null,
+    "nombre": "추석 전날 (víspera de Chuseok)",
+    "clase_de_regla": "lunar",
+    "desde": "2022-01-01",
+    "calendario_lunar": "lunisolar_coreano",
+    "mes_lunar": 8,
+    "dia_lunar": 14,
+    "nota": "Fecha LUNISOLAR. El esquema SI la admite -clase `lunar` con calendario_lunar, mes_lunar y dia_lunar-; quien no la mapea es cargar_piloto.py, que solo traduce fija, ordinal, computable, relativa_a_fecha y remision_normativa. Por eso la fila se omite en la carga aunque el dato este completo."
+   },
+   {
+    "fecha": null,
+    "nombre": "추석 (Chuseok)",
+    "clase_de_regla": "lunar",
+    "desde": "2022-01-01",
+    "calendario_lunar": "lunisolar_coreano",
+    "mes_lunar": 8,
+    "dia_lunar": 15,
+    "nota": "Fecha LUNISOLAR. El esquema SI la admite -clase `lunar` con calendario_lunar, mes_lunar y dia_lunar-; quien no la mapea es cargar_piloto.py, que solo traduce fija, ordinal, computable, relativa_a_fecha y remision_normativa. Por eso la fila se omite en la carga aunque el dato este completo."
+   },
+   {
+    "fecha": null,
+    "nombre": "추석 다음 날 (día siguiente a Chuseok)",
+    "clase_de_regla": "lunar",
+    "desde": "2022-01-01",
+    "calendario_lunar": "lunisolar_coreano",
+    "mes_lunar": 8,
+    "dia_lunar": 16,
+    "nota": "Fecha LUNISOLAR. El esquema SI la admite -clase `lunar` con calendario_lunar, mes_lunar y dia_lunar-; quien no la mapea es cargar_piloto.py, que solo traduce fija, ordinal, computable, relativa_a_fecha y remision_normativa. Por eso la fila se omite en la carga aunque el dato este completo."
+   },
+   {
+    "fecha": null,
+    "nombre": "Día de elección por vencimiento de mandato",
+    "clase_de_regla": "remision_normativa",
+    "desde": "2022-01-01",
+    "instrumento_remitido": "공직선거법 제34조 (Ley de Elecciones de Cargos Publicos, art. 34)",
+    "nota": "No hay fecha: la fija otra ley. Mismo mecanismo que el feriado electoral mexicano del piloto."
+   },
+   {
+    "fecha": null,
+    "nombre": "임시공휴일 (día festivo temporal designado por el Gobierno)",
+    "clase_de_regla": "dependiente_de_proclamacion",
+    "desde": "2022-01-01",
+    "nota": "El numeral 11 del art. 2 del reglamento habilita al Gobierno a designar dias festivos ocasionales previa deliberacion del Consejo de Ministros (art. 4). El esquema tiene la clase `dependiente_de_proclamacion` para esto; el cargador no la mapea, asi que la fila se omite."
+   }
+  ],
+  "dias_sustitutos": {
+   "regla": "art. 3 del reglamento: si un dia festivo cae en sabado o domingo -o coincide con otro dia festivo- el primer dia no festivo siguiente es dia sustituto; si dos sustitutos coinciden, se corre otro dia; si el sustituto cae en sabado, se corre al siguiente no festivo.",
+   "alcance_al_1_ene_2026": "Se aplica a los dias nacionales, al Nacimiento de Buda, al Dia del Nino y a Navidad cuando caen en sabado o domingo; y al Ano Nuevo lunar y a Chuseok solo cuando caen en domingo.",
+   "hallazgo": "HALLAZGO DE ESQUEMA. El dia sustituto NO es un feriado con regla de fecha: es un dia GENERADO por colision entre un feriado y el calendario. Anade entre 0 y 4 dias segun el ano y no cabe en 'lista'. Corea puede tener 16 o 20 dias de descanso segun donde caiga el ano, sin que cambie una sola norma.",
+   "desde": 2022
+  },
+  "total_nominal_2026": "16 fechas recurrentes + dia(s) electoral(es) + sustitutos + temporales",
+  "total_cargable_2026": 10,
+  "total_2016": 1,
+  "nota_2016": "Al 1-ene-2016 el trabajador del sector privado coreano tenia UN dia festivo retribuido por ley: el 1 de mayo. Todo lo demas era materia de reglamento interno o convenio. No es que hubiera pocos feriados: es que no eran un derecho legal del privado.",
+  "hallazgo_clases": "CORRECCION IMPORTANTE respecto de lo que parecia a primera vista: el hueco NO es del esquema. regla_fecha_version admite `lunar` con calendario_lunar, mes_lunar y dia_lunar, y admite `dependiente_de_proclamacion`. Lo que falta es el mapeo en cargar_piloto.py. Corea deja siete filas fuera de la base por un traductor incompleto, no por un modelo incompleto. La unica que si es hueco de esquema es la vispera del Ano Nuevo lunar: 'ultimo dia del mes 12 lunar' no es un dia_lunar fijo."
+ },
+ "vacaciones": {
+  "texto_legal_dias": 15,
+  "tipo_de_dia": null,
+  "literal": "사용자는 1년간 80퍼센트 이상 출근한 근로자에게 15일의 유급휴가를 주어야 한다.",
+  "traduccion": "El empleador debe conceder quince dias de permiso retribuido al trabajador que haya asistido al menos el 80% durante un ano.",
+  "por_que_null": "LA NORMA NO DICE si los quince dias son habiles o calendario. Dice '15일' y nada mas. Se leyeron los articulos 55, 60, 61, 62 y 63 de la Ley y el articulo 30 del decreto de aplicacion, y ninguno lo resuelve. El art. 62 -el empleador puede, por acuerdo escrito con el representante de los trabajadores, sustituir dias de permiso anual haciendo descansar en '근로일' (dias laborables) determinados- APUNTA a dias laborables, pero es una norma de sustitucion, no una definicion del quantum. Turquia es el precedente de que hace falta un articulo que lo diga; Corea no lo tiene. Se deja null y la unidad no carga vacaciones. Quince habiles y quince calendario difieren un 40% y esa eleccion no la hace quien codifica.",
+  "escala_antiguedad": {
+   "presente": true,
+   "literal": "3년 이상 계속하여 근로한 근로자에게는 최초 1년을 초과하는 계속 근로 연수 매 2년에 대하여 1일을 가산한 유급휴가를 주어야 한다. 이 경우 가산휴가를 포함한 총 휴가 일수는 25일을 한도로 한다.",
+   "traduccion": "Desde tres anos de servicio continuo, un dia adicional por cada dos anos de servicio que excedan el primero; el total, con los dias adicionales, no puede pasar de 25.",
+   "tramos_meses": [
+    [
+     12,
+     36,
+     15
+    ],
+    [
+     36,
+     60,
+     16
+    ],
+    [
+     60,
+     84,
+     17
+    ],
+    [
+     84,
+     108,
+     18
+    ],
+    [
+     108,
+     132,
+     19
+    ],
+    [
+     132,
+     156,
+     20
+    ],
+    [
+     156,
+     180,
+     21
+    ],
+    [
+     180,
+     204,
+     22
+    ],
+    [
+     204,
+     228,
+     23
+    ],
+    [
+     228,
+     252,
+     24
+    ],
+    [
+     252,
+     null,
+     25
+    ]
+   ],
+   "nota": "El tope de 25 se alcanza a los 21 anos de servicio."
+  },
+  "primer_ano": "El trabajador con menos de un ano recibe un dia por cada mes de asistencia perfecta (art. 60(2)).",
+  "caducidad": "El permiso caduca si no se ejerce dentro del ano (art. 60(7)), salvo culpa del empleador; el art. 61 regula el procedimiento de fomento de uso que libera al empleador de compensar lo no disfrutado.",
+  "estado_verificacion": "verificado_primaria"
+ },
+ "imputacion": {
+  "resultado": "sin_regla_explicita",
+  "que_se_busco": "Un articulo que diga si un dia festivo caido dentro del permiso anual lo extiende o se computa contra el. Se leyeron los arts. 55 a 63 de la Ley de Normas Laborales y el art. 30 del decreto de aplicacion.",
+  "resultado_detallado": "No aparece. Es coherente con que tampoco se diga el tipo de dia: las dos preguntas son la misma pregunta en Corea y la ley no contesta ninguna."
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "LA REFORMA MAS GRANDE DE ESTE LOTE. La Ley 15513 de 2018-03-20 anadio el apartado 2 al art. 55 de la Ley de Normas Laborales y convirtio los dias festivos de los organos publicos en dias festivos RETRIBUIDOS del sector privado, por etapas segun tamano: 300+ trabajadores desde 2020-01-01, 30-299 desde 2021-01-01, 5-29 desde 2022-01-01. Ademas, la Ley 18291 de 2021 creo por primera vez una LEY de dias festivos (antes solo habia decreto para organos publicos) y el reglamento amplio los dias sustitutos en 2021 y 2023. Todos los feriados de la lista llevan desde=2022, que es cuando la garantia alcanzo a todos los centros cubiertos; quien quiera el corte por tamano de empresa tiene las tres fechas en esta nota."
+ },
+ "delta_2016_2026": {
+  "feriados": "+15 nominales (de 1 a 16) para el trabajador privado de un centro de 5 o mas personas. No es un cambio de calendario: es una extension de cobertura.",
+  "vacaciones": "0 — el art. 60 no fue reformado en el quantum dentro de la ventana"
+ },
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "_": "Rama (a): comparacion de versiones fechada, del centro oficial de informacion legislativa. Escrita despues de abrir la fuente, no antes.",
+     "buscado_en": "Centro Nacional de Informacion Legislativa de Corea, vista de comparacion de texto anterior y posterior de la ley 15108 sobre la Ley de Normas Laborales",
+     "cita": "El quantum del art. 60 sigue en quince días. Lo que la ley 15108, promulgada el 28 de noviembre de 2017 y vigente el 29 de mayo de 2018, hizo fue SUPRIMIR el apartado 3, que mandaba que los quince días del primer año incluyeran los del apartado 2 y que los ya usados se descontaran. RESERVA: bajo el regimen anterior un trabajador que hubiera usado días en el primer año llegaba a los doce meses con menos de quince efectivos. El texto legal decia quince en los dos cortes; el derecho efectivo dependia de una conducta previa.",
+     "nivel_de_fuente": 1,
+     "indice_registra_modificaciones": true,
+     "indice_como_se_comprobo": "La vista oficial enfrenta texto anterior y posterior y fecha la vigencia: registra la presencia del cambio, no su ausencia.",
+     "fecha_busqueda": "2026-08-11"
+   },
+  "dias": 15,
+  "tipo": "habil",
+  "base": 5,
+  "imputacion": "sin_regla_explicita",
+  "meses": 12,
+  "literal": "사용자는 1년간 80퍼센트 이상 출근한 근로자에게 15일의 유급휴가를 주어야 한다",
+  "escala": [
+   [
+    12,
+    36,
+    15
+   ],
+   [
+    36,
+    60,
+    16
+   ],
+   [
+    60,
+    84,
+    17
+   ],
+   [
+    84,
+    108,
+    18
+   ],
+   [
+    108,
+    132,
+    19
+   ],
+   [
+    132,
+    156,
+    20
+   ],
+   [
+    156,
+    180,
+    21
+   ],
+   [
+    180,
+    204,
+    22
+   ],
+   [
+    204,
+    228,
+    23
+   ],
+   [
+    228,
+    252,
+    24
+   ],
+   [
+    252,
+    null,
+    25
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "trabajador",
+   "veto": "causal_operativa",
+   "silencio": "sin_regla",
+   "instrumento": "ley",
+   "literal": "사용자는 ... 휴가를 근로자가 청구한 시기에 주어야 하고 ... 다만, 근로자가 청구한 시기에 휴가를 주는 것이 사업 운영에 막대한 지장이 있는 경우에는 그 시기를 변경할 수 있다 — el empleador debe conceder el permiso en el momento que pida el trabajador; solo si concederlo entonces causa un perjuicio grave a la marcha de la empresa puede cambiar la fecha."
+  },
+  "base_origen": "norma",
+  "tipo_nota": "RESUELTO por interpretacion asentada, no por el literal. El art. 60 dice «15일» a secas. El computo del derecho se hace sobre 소정근로일 —dias de trabajo pactados—, que excluyen expresamente descanso semanal y feriados. Fuente secundaria concordante; el articulo no lo dice y por eso el estado no sube a verificado_primaria."
+ }
+}

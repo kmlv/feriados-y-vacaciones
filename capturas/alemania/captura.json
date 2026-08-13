@@ -1,0 +1,141 @@
+{
+  "_": "Captura de Alemania. CAPTURA NO CIEGA: ver notes/04-incidente-contaminacion-cbr.md.",
+  "captura_ciega": false,
+  "unidad": "DEU",
+  "jurisdiccion_de_referencia": "Berlin (mas poblada)",
+  "fecha_captura_utc": "2026-08-09T22:58:00Z",
+  "fuentes": {
+    "F1": {
+      "cita": "Bundesurlaubsgesetz (BUrlG), § 3 Dauer des Urlaubs",
+      "nivel_de_fuente": 1,
+      "url": "https://www.gesetze-im-internet.de/burlg/__3.html",
+      "nota": "gesetze-im-internet.de es el servicio oficial del Ministerio Federal de Justicia."
+    },
+    "F2": {
+      "cita": "Gesetz ueber die Sonn- und Feiertage (Feiertagsgesetz Berlin, FTG), § 1; el Frauentag se incorpora por Artikel 2 des Gesetzes vom 30. Januar 2019 (GVBl. S. 22)",
+      "nivel_de_fuente": 2,
+      "nota": "Senatsverwaltung fuer Inneres. La modificatoria lleva cita de gaceta -GVBl. S. 22-, que es lo que databa la reforma de 2019. PENDIENTE archivar el texto consolidado del FTG.",
+      "url": "https://www.berlin.de/sen/inneres/buerger-und-staat/verfassungs-und-verwaltungsrecht/artikel.1435639.php"
+    }
+  },
+  "vacaciones": {
+    "texto_legal_dias": 24,
+    "tipo_de_dia": "WERKTAGE — NO ES NINGUNO DE LOS DOS VALORES DEL ESQUEMA",
+    "literal": "Der Urlaub betraegt jaehrlich mindestens 24 Werktage.",
+    "definicion_werktage": "Als Werktage gelten alle Kalendertage, die nicht Sonn- oder gesetzliche Feiertage sind.",
+    "nota_critica": "HALLAZGO DE ESQUEMA, y del tipo que el proyecto existe para atrapar. Werktage NO son dias calendario y NO son dias habiles en nuestro sentido: incluyen el SABADO y excluyen domingos y feriados. La ley se construye sobre semana de seis dias. Codificar 24 como 'habiles' sobreestima en 20%: en semana de cinco dias el derecho equivalente son 20 dias habiles, que son las mismas cuatro semanas.",
+    "equivalente_semana_5_dias": 20,
+    "equivalente_semanas": 4,
+    "escala_antiguedad": "ninguna en el minimo legal federal",
+    "estado_verificacion": "verificado_primaria"
+  },
+  "feriados": {
+    "estado": "COMPLETO para Berlin 2026",
+    "jurisdiccion": "Berlin (jurisdiccion de referencia)",
+    "fuente": "F2",
+    "nucleo_comun_16_laender": [
+      {
+        "fecha": "01-01",
+        "nombre": "Neujahr",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": null,
+        "nombre": "Karfreitag",
+        "clase_de_regla": "computable",
+        "regla": "pascua-2"
+      },
+      {
+        "fecha": null,
+        "nombre": "Ostermontag",
+        "clase_de_regla": "computable",
+        "regla": "pascua+1"
+      },
+      {
+        "fecha": "05-01",
+        "nombre": "Tag der Arbeit",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": null,
+        "nombre": "Christi Himmelfahrt",
+        "clase_de_regla": "computable",
+        "regla": "pascua+39"
+      },
+      {
+        "fecha": null,
+        "nombre": "Pfingstmontag",
+        "clase_de_regla": "computable",
+        "regla": "pascua+50"
+      },
+      {
+        "fecha": "10-03",
+        "nombre": "Tag der Deutschen Einheit",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": "12-25",
+        "nombre": "1. Weihnachtstag",
+        "clase_de_regla": "fija"
+      },
+      {
+        "fecha": "12-26",
+        "nombre": "2. Weihnachtstag",
+        "clase_de_regla": "fija"
+      }
+    ],
+    "propios_de_berlin": [
+      {
+        "fecha": "03-08",
+        "nombre": "Internationaler Frauentag",
+        "clase_de_regla": "fija",
+        "desde": 2019,
+        "nota": "REFORMA DENTRO DE LA VENTANA, y subnacional. Berlin fue el primer Land en declararlo, en 2019. La jurisdiccion de referencia pasa de 9 a 10 feriados entre nuestros dos cortes."
+      }
+    ],
+    "total_berlin_2026": 10,
+    "total_berlin_2016": 9,
+    "nota_estructura": "El nucleo de nueve NO es una garantia nacional: es lo que COINCIDE entre los 16 Laender. No hay ley federal de feriados. base_juridica_nucleo = coincidencia.",
+    "pendiente": "Verificar el nucleo Land por Land en vez de por lista agregada, que es lo que el protocolo exige para poder afirmar coincidencia."
+  },
+  "delta_2016_2026": {
+    "feriados": "+1 en Berlin (Frauentag, 2019)",
+    "vacaciones": "0 — sin reforma hallada del BUrlG"
+  },
+  "corte_2016": {
+    "estado": "verificado",
+    "nota": "Berlin anadio el Frauentag en 2019; el nucleo de nueve es anterior."
+  },
+  "vacaciones_normalizado": {
+    "sin_cambio": {
+      "buscado_en": "Portal federal aleman de legislacion, ficha de la ley federal de vacaciones con su linea de estado, y texto del § 3",
+      "cita": "El § 3 dice «Der Urlaub betragt jahrlich mindestens 24 Werktage», con los Werktage definidos como todos los días que no son domingo ni festivo legal. Y la ley lleva su linea de estado: «Zuletzt geandert durch Art. 3 Abs. 3 G v. 20.4.2013». ULTIMA MODIFICACION DE LA LEY ENTERA en abril de 2013, anterior a la ventana — de modo que el artículo del quantum queda cubierto por partida doble: no se modifico porque no se modifico nada.",
+      "nivel_de_fuente": 1,
+      "indice_registra_modificaciones": true,
+      "indice_como_se_comprobo": "La linea de estado nombra el artículo, el apartado, la ley modificatoria y su publicacion en el boletin federal. Registra la presencia con esa precision; su silencio posterior a 2013 es por tanto significativo.",
+      "fecha_busqueda": "2026-08-11"
+    },
+    "dias": 24,
+    "tipo": "werktage",
+    "base": 6,
+    "imputacion": "extienden",
+    "literal": "Der Urlaub betraegt jaehrlich mindestens 24 Werktage",
+    "meses": 12,
+    "escala": [
+      [
+        12,
+        null,
+        24
+      ]
+    ],
+    "colocacion": {
+      "iniciativa": "trabajador",
+      "veto": "causal_operativa",
+      "silencio": "sin_regla",
+      "instrumento": "ley",
+      "literal": "Bei der zeitlichen Festlegung des Urlaubs sind die Urlaubswuensche des Arbeitnehmers zu beruecksichtigen, es sei denn, dass ihrer Beruecksichtigung dringende betriebliche Belange oder Urlaubswuensche anderer Arbeitnehmer, die unter sozialen Gesichtspunkten den Vorrang verdienen, entgegenstehen (BUrlG 7 Abs. 1)",
+      "fuente_nota": "BUrlG 7. El bloque minimo es de 12 Werktage consecutivos cuando el derecho excede 12."
+    },
+    "imputacion_nota": "BUrlG 3(2) define Werktage como todos los dias del calendario que NO sean domingo ni feriado legal. Un feriado dentro del permiso no es Werktag, luego no consume derecho. La regla de imputacion no esta en un articulo aparte: esta en la definicion de la unidad."
+  }
+}

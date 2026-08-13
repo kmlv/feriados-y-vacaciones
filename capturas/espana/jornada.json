@@ -1,0 +1,77 @@
+{
+ "_": "Jornada semanal legal ordinaria. Espana es el caso puro de ley que fija horas y remite la distribucion al convenio: el propio articulo 34.1 empieza diciendo que la duracion es la pactada.",
+ "unidad": "ESP",
+ "jurisdiccion_de_referencia": "Madrid",
+ "sector_de_referencia": "privado formal, jornada completa, persona adulta",
+ "fecha_captura_utc": "2026-08-11T05:46:47Z",
+ "capturado_por": "jornada · lote 9",
+ "fuentes": {
+  "J1": {
+   "cita": "Real Decreto Legislativo 2/2015, texto refundido de la Ley del Estatuto de los Trabajadores, artículo 34 (Jornada), apartados 1 y 3",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+   "nivel_de_fuente": 2,
+   "publicacion": "BOE-A-2015-11430; ELI https://www.boe.es/eli/es/rdlg/2015/10/23/2/con ; texto consolidado, ultima actualizacion publicada el 04/12/2025",
+   "nota": "El BOE es la gaceta oficial, pero el texto consolidado que se lee en act.php no tiene valor juridico declarado; por eso nivel 2 y no 1. Literal leido integro el 2026-08-11."
+  },
+  "J2": {
+   "cita": "Estatuto de los Trabajadores, artículo 37.1 (Descanso semanal)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+   "nivel_de_fuente": 2
+  },
+  "J3": {
+   "cita": "Estatuto de los Trabajadores, artículo 37.2 (Fiestas laborales y traslado)",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+   "nivel_de_fuente": 2
+  },
+  "J4": {
+   "cita": "Estatuto de los Trabajadores, artículo 34.9 (Registro de jornada), introducido por el Real Decreto-ley 8/2019, de 8 de marzo",
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+   "nivel_de_fuente": 2
+  }
+ },
+ "jornada": {
+  "horas_semanales_max": 40,
+  "horas_diarias_max": 9,
+  "dias_ordinarios": null,
+  "dias_ordinarios_origen": "no_declarado",
+  "literal": "34.1 La duracion de la jornada de trabajo sera la pactada en los convenios colectivos o contratos de trabajo. La duracion maxima de la jornada ordinaria de trabajo sera de cuarenta horas semanales de trabajo efectivo de promedio en computo anual. || 34.3 [...] El numero de horas ordinarias de trabajo efectivo no podra ser superior a nueve diarias, salvo que por convenio colectivo o, en su defecto, acuerdo entre la empresa y los representantes de los trabajadores, se establezca otra distribucion del tiempo de trabajo diario, respetando en todo caso el descanso entre jornadas.",
+  "traduccion": null,
+  "fuente": "J1",
+  "nota": "La ley no fija dias por semana y ademas lo dice ella misma: la primera frase del 34.1 entrega la duracion al convenio o al contrato, y el maximo de 40 es un PROMEDIO en computo anual, no una semana concreta. Las nueve horas diarias tampoco son firmes: el 34.3 las cede a otra distribucion pactada. Con 40 y 9 la aritmetica solo da un piso de 4,44 dias. El descanso semanal de dia y medio pone el techo en cinco dias y medio. Entre ese piso y ese techo la ley no elige, y por eso el valor es null.",
+  "distribucion_irregular": "el 34.2 permite distribuir irregularmente el 10 por ciento de la jornada a lo largo del anio incluso sin pacto"
+ },
+ "descanso_semanal": {
+  "dias": 1.5,
+  "cuales": "domingo completo mas, como regla general, la tarde del sabado o la manana del lunes; acumulable por periodos de hasta catorce dias",
+  "literal": "37.1 Los trabajadores tendran derecho a un descanso minimo semanal, acumulable por periodos de hasta catorce dias, de dia y medio ininterrumpido que, como regla general, comprendera la tarde del sabado o, en su caso, la manana del lunes y el dia completo del domingo.",
+  "traduccion": null,
+  "fuente": "J2",
+  "nota": "El domingo esta nombrado y es entero; la media jornada adicional es alternativa entre sabado tarde y lunes manana. El sabado por la manana no esta protegido por esta norma."
+ },
+ "traslado_por_defecto": {
+  "existe": true,
+  "regla": "Las fiestas laborales de ambito nacional que coincidan en DOMINGO se trasladan al lunes inmediatamente posterior. Ademas, el Gobierno puede trasladar a los lunes las fiestas de ambito nacional que caigan entre semana, y las comunidades autonomas pueden usar esa misma facultad.",
+  "alcance": "fiestas de ambito nacional. Para las autonomicas y las locales no hay regla legal general de traslado, y para NINGUNA fiesta hay regla cuando cae en sabado.",
+  "literal": "37.2 [...] Respetando las expresadas en el parrafo anterior, el Gobierno podra trasladar a los lunes todas las fiestas de ambito nacional que tengan lugar entre semana, siendo, en todo caso, objeto de traslado al lunes inmediatamente posterior el descanso laboral correspondiente a las fiestas que coincidan con domingo.",
+  "traduccion": null,
+  "fuente": "J3",
+  "nota": "Esta es la distincion que importa para la metrica: el gatillo es el DOMINGO, no el fin de semana. Una fiesta en sabado se pierde sin compensacion legal. Y el mecanismo es hibrido: el traslado al lunes de la fiesta en domingo es imperativo ('en todo caso'), mientras que el traslado de las fiestas entre semana es potestad del Gobierno."
+ },
+ "reformas_en_la_ventana": [
+  {
+   "instrumento": "Real Decreto-ley 8/2019, de 8 de marzo, articulo 10; en vigor el 12 de mayo de 2019",
+   "anio": 2019,
+   "que_cambio": "anade el articulo 34.9: registro diario obligatorio de la jornada con hora concreta de inicio y fin, conservado cuatro anios. No cambia la duracion, pero cambia la observabilidad de la jornada, que es lo que hasta entonces hacia inverificable el maximo de 40."
+  }
+ ],
+ "reformas_intentadas_no_vigentes": [
+  {
+   "instrumento": "Proyecto de ley de reduccion de la jornada maxima legal a 37,5 horas semanales, aprobado por el Consejo de Ministros el 06.05.2025",
+   "anio": 2025,
+   "que_paso": "rechazado en el Congreso de los Diputados el 10.09.2025. NO esta en vigor. El maximo del articulo 34.1 sigue siendo 40 en el texto consolidado del BOE a 04/12/2025, que es la ultima actualizacion publicada al momento de esta captura.",
+   "nivel_de_fuente": 3,
+   "nota": "El rechazo parlamentario se tomo de fuentes secundarias concordantes, no del Diario de Sesiones."
+  }
+ ],
+ "pendiente": "Confirmar contra el Diario de Sesiones del Congreso la fecha y el resultado exacto de la votacion de septiembre de 2025, y vigilar si se reabre en 2026. Tambien queda sin resolver, igual que en Austria, si la metrica quiere el techo legal o el convenio sectorial modal de Madrid."
+}

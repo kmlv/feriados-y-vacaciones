@@ -1,0 +1,405 @@
+{
+ "_": "CAPTURA CIEGA de Israel. Leida de la Pkudat Sidrei HaShilton VeHaMishpat 1948, la Ley del Dia de la Independencia 1949 y la Ley de Vacaciones Anuales 1951. Sin mirar ningun dataset agregado de vacaciones.",
+ "unidad": "ISR",
+ "jurisdiccion_de_referencia": "Jerusalen (ciudad mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 1",
+ "fecha_captura_utc": "2026-08-10T22:45:00Z",
+ "respuesta_al_aviso_del_encargo": "PREGUNTA: «si el decreto o la ley fija fechas gregorianas cada anio, dilo, porque cambia si la clase es fija o dependiente de proclamacion». RESPUESTA: NO. Israel NO se parece a Indonesia. No hay decreto anual que fije fechas gregorianas: la ley nombra las festividades por su fecha en el CALENDARIO HEBREO y esa fecha es permanente y determinista — 1 y 2 de Tishrei, 10 de Tishrei, 15 y 22 de Tishrei, 15 y 21 de Nisan, 6 de Sivan. La conversion al gregoriano es un calculo, no una proclamacion. Por tanto la clase NO es `dependiente_de_proclamacion`: es `lunar` sobre calendario hebreo, con la unica excepcion del Dia de la Independencia, que si lleva una regla de desplazamiento y por eso no cabe en ninguna clase.",
+ "fuentes": {
+  "F1": {
+   "cita": "פקודת סדרי השלטון והמשפט, תש\"ח-1948, סעיף 18א — Pkudat Sidrei HaShilton VeHaMishpat (Ordenanza de Ordenamiento del Gobierno y la Justicia), art. 18a",
+   "nivel_de_fuente": 3,
+   "tipo": "compilacion juridica israeli (Nevo)",
+   "url": "https://www.nevo.co.il/law_html/law00/73184.htm",
+   "literal_traducido": "El Shabbat y las festividades de Israel — los dos dias de Rosh Hashana, Yom Kipur, el primero y el octavo dia de Sukot, el primero y el septimo dia de Pesaj, y Shavuot — son los dias de descanso fijos del Estado de Israel. Los no judios tienen derecho a observar como dias de descanso su Sabbat y sus festividades; estas se determinaran para cada comunidad por decision del Gobierno que se publicara en la gaceta oficial.",
+   "nota": "NIVEL 3 y se queda ahi: Nevo es una compilacion privada, no la gaceta. PENDIENTE localizar el texto en Reshumot y elevar a nivel 1."
+  },
+  "F2": {
+   "cita": "חוק יום העצמאות, תש\"ט-1949 — Ley del Día de la Independencia 1949",
+   "nivel_de_fuente": 3,
+   "url": "https://www.nevo.co.il/law_html/law01/170_001.htm",
+   "publicacion": "1949-04-12",
+   "literal": "הכנסת מכריזה בזה על יום ה' באייר כעל 'יום העצמאות' שיוחג מדי שנה בשנה כחג המדינה (...) יום העצמאות יהיה יום שבתון (...) אם יום ה' באייר יחול בשבת, יוחג יום העצמאות ביום ג' באייר של אותה שנה; אם יום ה' באייר יחול בששי בשבוע, יוחג יום העצמאות ביום ד' באייר של אותה שנה",
+   "literal_traducido": "La Kneset declara el 5 de Iyar «Dia de la Independencia», que se celebrara cada anio como fiesta del Estado. El Dia de la Independencia sera dia de descanso. Si el 5 de Iyar cae en Shabbat, el Dia de la Independencia se celebrara el 3 de Iyar de ese anio; si el 5 de Iyar cae en viernes, se celebrara el 4 de Iyar; si el 5 de Iyar cae en lunes, se celebrara el 6 de Iyar."
+  },
+  "F3": {
+   "cita": "חוק חופשה שנתית, תשי\"א-1951 — Ley de Vacaciones Anuales 1951",
+   "nivel_de_fuente": 3,
+   "url": "https://www.nevo.co.il/law_html/law00/71906.htm",
+   "literal_seccion_3": "אורך החופשה לכל שנת עבודה אצל מעסיק אחד או במקום עבודה אחד הוא: (1) בעד כל אחת מ-5 השנים הראשונות – 16 יום; (3) בעד השנה השישית – 18 יום; (4) בעד השנה השביעית – 21 יום; (5) בעד השנה השמינית ואילך – יום נוסף לכל שנת עבודה עד לחופשה של 28 יום",
+   "literal_regla_de_la_unidad": "בימי החופשה לא ייכלל אלא מנוחה שבועית אחת לכל שבעה ימי חופשה",
+   "literal_seccion_5": "ואלה הימים שלא יובאו במנין ימי החופשה: (1) הימים בהם שירת העובד שירות מילואים... (2) ימי חג שאין עובדים בהם... (4) הימים שבהם אין העובד מסוגל לעבוד מחמת תאונה או מחלה",
+   "literal_seccion_6a": "החופשה תינתן בחודש האחרון של שנת העבודה שבעדה היא ניתנת, או במשך שנת העבודה שלאחריה",
+   "literal_seccion_9a": "תאריך תחילת החופשה ייקבע לפחות ארבעה עשר יום מראש"
+  },
+  "F4": {
+   "cita": "חוק חופשה שנתית (תיקון מס' 15), התשע\"ו-2016 — Enmienda n.º 15 a la Ley de Vacaciones Anuales",
+   "nivel_de_fuente": 4,
+   "publicacion": "2016-03-08",
+   "url": "https://www.chamber.org.il/serviceslobby/legal/1856/63031/",
+   "nota": "NIVEL 4 y NO se sube. Aprobada en segunda y tercera lectura el 8-feb-2016; eleva el derecho de los primeros anios de 14 a 15 dias desde el 1-jul-2016 y a 16 desde el 1-ene-2017. Las referencias de Sefer HaChukim que localice (8-mar-2016, p. 574, y 22-jul-2016, p. 1093) vienen de una fuente terciaria y NO las verifique contra Reshumot. PENDIENTE elevar a nivel 1: es la reforma que define el corte 2016 de esta unidad."
+  },
+  "F5": {
+   "cita": "Base normativa del PAGO de los días de fiesta: צו הרחבה (orden de extension) del acuerdo colectivo general marco, dictada al amparo de la Ley de Acuerdos Colectivos; y חוק שעות עבודה ומנוחה, תשי\"א-1951, סעיף 17 (150% por trabajo en día de descanso)",
+   "nivel_de_fuente": 4,
+   "url": "https://www.kolzchut.org.il/he/%D7%93%D7%9E%D7%99_%D7%97%D7%92%D7%99%D7%9D",
+   "nota": "NIVEL 4. Se registra porque cambia la naturaleza del derecho: la ORDENANZA de 1948 hace de los dias de fiesta dias de descanso, pero el DERECHO A COBRARLOS no nace de una ley sino de una orden de extension de un acuerdo colectivo. PENDIENTE localizar la orden de extension concreta y su fecha."
+  }
+ },
+ "feriados": {
+  "estado": "PARCIAL EN LA CARGA, COMPLETO EN LA LECTURA. Las nueve fechas estan identificadas y datadas en el calendario hebreo, pero NINGUNA es cargable: el cargador escribe `sistema_calendarico = 'gregoriano'` de oficio y no traduce la clase `lunar`. Se dejan escritas con su clase real para que el hueco sea del cargador y no del dato.",
+  "sistema_calendarico": "hebreo",
+  "convencion_de_meses": "Numeracion biblica con Nisan = 1: Nisan 1, Iyar 2, Sivan 3, Tamuz 4, Av 5, Elul 6, Tishrei 7, Jeshvan 8, Kislev 9, Tevet 10, Shevat 11, Adar 12, Adar II 13. Se declara porque el calendario hebreo tiene DOS numeraciones en uso (la civil empieza en Tishrei) y `mes_lunar` no dice cual usa.",
+  "fuente": "F1",
+  "literal_traducido": "El Shabbat y las festividades de Israel — los dos dias de Rosh Hashana, Yom Kipur, el primero y el octavo dia de Sukot, el primero y el septimo dia de Pesaj, y Shavuot — son los dias de descanso fijos del Estado de Israel.",
+  "lista": [
+   {
+    "fecha": null,
+    "nombre": "Rosh Hashana, día 1",
+    "clase_de_regla": "lunar",
+    "calendario_lunar": "hebreo",
+    "mes_lunar": 7,
+    "dia_lunar": 1,
+    "sistema_calendarico": "hebreo"
+   },
+   {
+    "fecha": null,
+    "nombre": "Rosh Hashana, día 2",
+    "clase_de_regla": "lunar",
+    "calendario_lunar": "hebreo",
+    "mes_lunar": 7,
+    "dia_lunar": 2,
+    "sistema_calendarico": "hebreo"
+   },
+   {
+    "fecha": null,
+    "nombre": "Yom Kipur",
+    "clase_de_regla": "lunar",
+    "calendario_lunar": "hebreo",
+    "mes_lunar": 7,
+    "dia_lunar": 10,
+    "sistema_calendarico": "hebreo"
+   },
+   {
+    "fecha": null,
+    "nombre": "Sukot, primer día",
+    "clase_de_regla": "lunar",
+    "calendario_lunar": "hebreo",
+    "mes_lunar": 7,
+    "dia_lunar": 15,
+    "sistema_calendarico": "hebreo"
+   },
+   {
+    "fecha": null,
+    "nombre": "Sheminí Atzeret / Simjat Tora (octavo día de Sukot)",
+    "clase_de_regla": "lunar",
+    "calendario_lunar": "hebreo",
+    "mes_lunar": 7,
+    "dia_lunar": 22,
+    "sistema_calendarico": "hebreo"
+   },
+   {
+    "fecha": null,
+    "nombre": "Pesaj, primer día",
+    "clase_de_regla": "lunar",
+    "calendario_lunar": "hebreo",
+    "mes_lunar": 1,
+    "dia_lunar": 15,
+    "sistema_calendarico": "hebreo"
+   },
+   {
+    "fecha": null,
+    "nombre": "Pesaj, séptimo día",
+    "clase_de_regla": "lunar",
+    "calendario_lunar": "hebreo",
+    "mes_lunar": 1,
+    "dia_lunar": 21,
+    "sistema_calendarico": "hebreo"
+   },
+   {
+    "fecha": null,
+    "nombre": "Shavuot",
+    "clase_de_regla": "lunar",
+    "calendario_lunar": "hebreo",
+    "mes_lunar": 3,
+    "dia_lunar": 6,
+    "sistema_calendarico": "hebreo"
+   },
+   {
+    "fecha": null,
+    "nombre": "Yom HaAtzmaut — Día de la Independencia",
+    "instrumento": "חוק יום העצמאות, תש\"ט-1949",
+    "sistema_calendarico": "hebreo",
+    "nota": "RESUELTO. La fecha base es el 5 de Iyar y tres condiciones sobre el dia de la semana la desplazan. Se codifica como cuatro reglas: la base sin condicion y tres alternativas. La condicion usa `regla_por_defecto` y no `propia` porque se examina el dia de la semana del 5 de Iyar, no el del resultado — preguntar por el resultado seria otra cosa y daria mal. Mismo mecanismo que Santa Brigida, sobre otro calendario.",
+    "clase_de_regla": "lunar",
+    "calendario_lunar": "hebreo",
+    "mes_lunar": 2,
+    "dia_lunar": 5,
+    "reglas_alternativas": [
+     {
+      "clase_de_regla": "lunar",
+      "calendario_lunar": "hebreo",
+      "mes_lunar": 2,
+      "dia_lunar": 3,
+      "condicion": {
+       "referencia": "regla_por_defecto",
+       "dia_semana": 6
+      },
+      "nota": "Si el 5 de Iyar cae en Shabbat, se adelanta al 3."
+     },
+     {
+      "clase_de_regla": "lunar",
+      "calendario_lunar": "hebreo",
+      "mes_lunar": 2,
+      "dia_lunar": 4,
+      "condicion": {
+       "referencia": "regla_por_defecto",
+       "dia_semana": 5
+      },
+      "nota": "Si cae en viernes, se adelanta al 4."
+     },
+     {
+      "clase_de_regla": "lunar",
+      "calendario_lunar": "hebreo",
+      "mes_lunar": 2,
+      "dia_lunar": 6,
+      "condicion": {
+       "referencia": "regla_por_defecto",
+       "dia_semana": 1
+      },
+      "nota": "Si cae en lunes, se retrasa al 6."
+     }
+    ]
+   }
+  ],
+  "clase_no_cargable_nota": "LAS OCHO FECHAS `lunar` TAMPOCO CARGAN, y el motivo no es el dato sino el cargador: `clase_y_campos()` no traduce la clase `lunar` (devuelve cadena vacia y omite la fila), y la insercion escribe `sistema_calendarico = 'gregoriano'` literal para todas las unidades. El esquema SI admite ambas cosas — la columna es TEXT NOT NULL sin CHECK, y la clase `lunar` existe con sus columnas calendario_lunar, mes_lunar y dia_lunar. O sea: Israel carga cero feriados no por falta de captura sino porque el puente entre el crudo y la base todavia no cruza el calendario hebreo. Indonesia fue el precedente con cinco sistemas calendaricos; aqui el sistema es uno solo y aun asi no pasa.",
+  "regimen_nota": "La Ordenanza de 1948 hace de estos dias DIAS DE DESCANSO, y a ellos se aplica el regimen de la Ley de Horas de Trabajo y Descanso — o sea prohibicion de emplear sin permiso, y 150% si se trabaja. Pero el DERECHO A COBRAR el dia de fiesta (דמי חגים) NO nace de una ley: nace de una orden de extension de un acuerdo colectivo general. Se anota porque es una unidad donde la fuente del pago y la fuente del descanso son instrumentos de rango distinto.",
+  "elegibilidad_nota": "RASGO QUE EL ESQUEMA NO REPRESENTA. El art. 18a de la Ordenanza da a los NO JUDIOS el derecho a observar como dias de descanso su propio Sabbat y sus propias festividades, determinadas por comunidad mediante decision del Gobierno publicada en la gaceta. O sea que el conjunto de feriados aplicable depende de la comunidad religiosa del trabajador. El cargador escribe `elegibilidad = 'sin_condicion'` y `cobertura = 'todo_el_pais'` de oficio, con lo que esa condicion desaparece. El conteo (nueve dias) no cambia; el CONJUNTO si.",
+  "no_capturado": [
+   "Yom HaZikaron (4 de Iyar) y Yom HaShoah (27 de Nisan): no verifique si son dias de descanso retribuido o solo dias de conmemoracion con horario reducido.",
+   "Tisha BeAv y Purim: no verifique su estatuto laboral.",
+   "Jol HaMoed (dias intermedios de Pesaj y Sukot): no son yamim tovim pero muchos convenios los tratan aparte."
+  ]
+ },
+ "vacaciones_normalizado": {
+  "dias": 16,
+  "tipo": "calendario",
+  "base": null,
+  "imputacion": "extienden",
+  "meses": 12,
+  "literal": "אורך החופשה לכל שנת עבודה אצל מעסיק אחד או במקום עבודה אחד הוא: בעד כל אחת מ-5 השנים הראשונות – 16 יום",
+  "escala": [
+   [
+    12,
+    60,
+    16
+   ],
+   [
+    60,
+    72,
+    18
+   ],
+   [
+    72,
+    84,
+    21
+   ],
+   [
+    84,
+    96,
+    22
+   ],
+   [
+    96,
+    108,
+    23
+   ],
+   [
+    108,
+    120,
+    24
+   ],
+   [
+    120,
+    132,
+    25
+   ],
+   [
+    132,
+    144,
+    26
+   ],
+   [
+    144,
+    156,
+    27
+   ],
+   [
+    156,
+    null,
+    28
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "החופשה תינתן בחודש האחרון של שנת העבודה שבעדה היא ניתנת, או במשך שנת העבודה שלאחריה (סעיף 6(א)); תאריך תחילת החופשה ייקבע לפחות ארבעה עשר יום מראש (סעיף 9(א)) — la vacacion se dara en el ultimo mes del anio de trabajo por el que corresponde, o durante el anio de trabajo siguiente; la fecha de inicio se fijara con al menos catorce dias de antelacion.",
+   "nota": "AVISO: la ley NO NOMBRA a quien decide. Fija la ventana temporal (art. 6(a)), exige preaviso de catorce dias (art. 9(a)) y exige acuerdo de ambas partes para FRACCIONAR (art. 8), pero en ningun articulo dice «el empleador determinara». Se codifica `empleador` porque es quien queda con la potestad residual una vez que la ley no se la da al trabajador salvo en la porcion de dos dias, y porque el preaviso presupone que la fija una parte y la comunica. Es una LECTURA, no un literal."
+  },
+  "colocacion_porcion_del_trabajador": {
+   "_": "NO se pone en `colocacion` porque el cargador solo escribe particiones con el tipo de dia de la version, y aqui el tipo es nulo. Se declara para que no se pierda.",
+   "alcance": "porcion_definida",
+   "porcion_dias": 2,
+   "iniciativa": "trabajador",
+   "veto": "ninguno",
+   "silencio": "sin_regla",
+   "instrumento": "ley",
+   "literal": "El art. 6(b) permite al trabajador tomar hasta dos dias de su eleccion dentro del anio de devengo avisando con treinta dias de antelacion.",
+   "nota": "PENDIENTE verificar el literal hebreo del art. 6(b); lo tengo en parafrasis, no transcrito."
+  },
+  "imputacion_nota": "VERIFICADA CON ARTICULO, y es el polo turco, no el peruano. El art. 5 enumera los dias que NO entran en el computo de los dias de vacaciones, y el segundo de la lista es «ימי חג שאין עובדים בהם» — dias de fiesta en los que no se trabaja. O sea que una festividad dentro del periodo vacacional no consume derecho: lo EXTIENDE. La misma lista excluye tambien el servicio de reserva militar y los dias de incapacidad por accidente o enfermedad, lo que confirma que el articulo es exactamente una regla de no-imputacion y no una casualidad de redaccion.",
+  "tipo_de_dia_nota": "AQUI ESTA EL HALLAZGO PRINCIPAL DE ISRAEL, y es que el dominio de `tipo_de_dia` no lo alcanza. El art. 3 fija dieciseis DIAS, y a continuacion pone una regla que no tiene equivalente en ninguna unidad capturada hasta ahora: «בימי החופשה לא ייכלל אלא מנוחה שבועית אחת לכל שבעה ימי חופשה» — en los dias de vacaciones no se incluira mas que UN descanso semanal POR CADA SIETE dias de vacaciones. Compareselo con las cuatro opciones del dominio. No es `calendario`, porque los descansos semanales que excedan de uno por cada siete NO cuentan. No es `habil`, porque un descanso semanal por cada siete SI cuenta. No es `werktage`, que es lo contrario: los Werktage alemanes excluyen TODOS los domingos y el israeli incluye uno de cada siete. Y no es `semanas`. Es una quinta unidad: dias corridos con el descanso semanal RACIONADO y los festivos excluidos. Poner cualquiera de los cuatro valores seria afirmar algo falso, asi que el valor es nulo y el numero legal (dieciseis) se conserva sin unidad. Un hueco visible.",
+  "pendiente": "El tipo de dia es NULO porque la unidad legal israeli no cabe en el dominio {calendario, habil, werktage, semanas}: son dieciseis dias que incluyen como maximo un descanso semanal por cada siete y excluyen los festivos. No se elige uno de los cuatro. Cierre: decision del principal sobre anadir un quinto valor, o sobre modelar la inclusion del descanso semanal como un atributo aparte de la unidad (una tasa de racionamiento) en vez de como una etiqueta.",
+  "nota_tipo": "CALENDARIO, por decision del principal del 2026-08-10, y el razonamiento importa porque durante dias esta unidad estuvo sin cargar por parecer irreducible.\n\nLa ley concede dieciseis dias que INCLUYEN como maximo un descanso semanal por cada siete y EXCLUYEN los festivos. Leido de frente, eso no es una quinta unidad: incluir el descanso semanal es precisamente lo que significa contar en calendario —un descanso por semana es lo que un tramo de calendario contiene de suyo—, y excluir los festivos es exactamente lo que ya dice el campo de imputacion con el valor `extienden`, que esta captura ya traia.\n\nO sea que el constructo israeli estaba descompuesto en dos campos que el esquema ya tenia, y lo que faltaba era verlo. El «maximo uno por cada siete» es una aclaracion de lo que el conteo calendario hace por su cuenta, no una desviacion que exija etiqueta propia.\n\nSE DESCARTO el quinto valor de `tipo_de_dia`: una etiqueta que usa un solo pais no se puede convertir a nada, y este proyecto existe para que las unidades sean DESCOMPONIBLES y no rotulos. Con `calendario` + `extienden`, Israel queda comparable con Peru y Brasil y cualquiera puede recalcular.",
+  "version_anterior": {
+   "_": "Titularidad vigente el 1 de enero de 2016. Verificada a NIVEL 1 contra el texto de Reshumot, no por acumulacion de secundarias: la captura original la sostenia en nivel 4 y lo decia.",
+   "desde": "2016-01-01",
+   "hasta": "2016-12-31",
+   "dias": 14,
+   "tipo": "calendario",
+   "imputacion": "extienden",
+   "literal": "בעד כל אחת מ־4 השנים הראשונות – 14 יום — por cada uno de los 4 primeros anios, 14 dias. Art. 3(a)(1) en la redaccion dada por חוק חופשה שנתית (תיקון מס' 2), תשכ\"ה-1965, ס\"ח 461 עמ' 214, 22-jul-1965.",
+   "escala": [
+    [
+     12,
+     48,
+     14
+    ],
+    [
+     48,
+     60,
+     16
+    ],
+    [
+     60,
+     72,
+     18
+    ],
+    [
+     72,
+     84,
+     21
+    ],
+    [
+     84,
+     96,
+     22
+    ],
+    [
+     96,
+     108,
+     23
+    ],
+    [
+     108,
+     120,
+     24
+    ],
+    [
+     120,
+     132,
+     25
+    ],
+    [
+     132,
+     144,
+     26
+    ],
+    [
+     144,
+     156,
+     27
+    ],
+    [
+     156,
+     null,
+     28
+    ]
+   ],
+   "nivel_de_fuente": 1,
+   "fuente": "חוק חופשה שנתית (תיקון מס' 15 והוראת שעה), התשע\"ו-2016 — ס\"ח 2531, 16-feb-2016, עמ' 574. PDF oficial: https://fs.knesset.gov.il/20/law/20_lsr_321785.pdf",
+   "estructura_del_cambio": "NO son dos escalones de reforma. Es UNA reforma permanente de 14 a 16 con efecto el 1-ene-2017, mas una הוראת שעה —disposicion temporal— que entre el 1-jul-2016 y el 31-dic-2016 manda LEER 15 donde la ley dice 14. El 15 nunca fue derecho permanente. Y el puente solo sustituye el numero: la fusion del primer tramo de 4 a 5 anios, con derogacion del parrafo (2), solo ocurre el 1-ene-2017. Al corte del proyecto —1 de enero— rige 14 sin puente: la enmienda ni siquiera estaba publicada.",
+   "conversion_atestiguada": "Rara y vale registrarla: la exposicion de motivos oficial (הצעות חוק הכנסת 613, 4-ene-2016, עמ' 32) hace la conversion ella misma para semana de cinco dias: 14 → 10, 15 → 11, 16 → 12 dias habiles. Es nivel 1 y no derivacion nuestra. Para los tramos superiores NO hay conversion atestiguada.",
+   "_puente_no_materializado": "Del 1-jul al 31-dic-2016 rige la lectura de 15 por disposicion temporal. NO se carga como tercera version: no toca ninguno de los dos cortes y materializarla daria una version sin medicion. Queda escrita aqui."
+  },
+  "nota_enmienda_17": "תיקון מס' 17, התשפ\"ו-2026 — ס\"ח 3554, 20-jul-2026, עמ' 820. NO afecta al corte de 2026: es posterior al 1 de enero y solo anade un dia elegible al Anexo, sin tocar cantidades. Se registra para que una relectura futura no la confunda con un cambio de titularidad."
+ },
+ "vacaciones_al_corte_2016": {
+  "_": "CAMPO QUE LA ESPECIFICACION NO TIENE, y por eso se anade a mano. Israel es la unica unidad de este lote cuya TITULARIDAD DE VACACIONES cambio dentro de la ventana, y ni `vacaciones_normalizado` ni el cargador admiten dos valores por corte: el cargador escribe vigencia_desde = 2016-01-01 fija y emite la MISMA medicion para 2016 y para 2026. Si Israel llegara a cargar, su corte de 2016 saldria con dieciseis dias, que es falso.",
+  "dias_al_1_de_enero_de_2016": 14,
+  "dias_al_1_de_enero_de_2026": 16,
+  "instrumento_del_cambio": "Enmienda n.º 15 a la Ley de Vacaciones Anuales (2016)",
+  "trayectoria": "14 dias al 1-ene-2016 (derecho permanente). Del 1-jul al 31-dic-2016 una disposicion temporal manda leer 15. Desde el 1-ene-2017, 16 permanentes.",
+  "nivel_de_fuente": 1,
+  "nota": "El valor de 14 al corte de 2016 se sostiene en fuente de nivel 4, igual que la propia enmienda. NO se eleva por acumulacion. El esquema SI puede representar esto —`vacaciones_version` esta versionada con vigencia_desde y su UNIQUE incluye la vigencia— asi que el limite esta en la especificacion de captura y en el cargador, no en la base.",
+  "_verificacion": "Elevado de nivel 4 a nivel 1 el 2026-08-11 contra los PDF de Reshumot. Se conserva el campo porque documenta el limite de la especificacion que lo obligo; la carga la hace ahora `vacaciones_normalizado.version_anterior`."
+ },
+ "corte_2016": {
+  "estado": "verificado_parcial",
+  "nota": "SI hubo reforma en la ventana, en VACACIONES y no en feriados: la Enmienda n.º 15 a la Ley de Vacaciones Anuales, aprobada en febrero de 2016, subio el derecho de los primeros anios de 14 a 15 dias el 1-jul-2016 y a 16 el 1-ene-2017. Es «parcial» y no «verificado» por dos motivos declarados: primero, la enmienda solo la sostienen fuentes de nivel 4 y no la verifique en Reshumot; segundo, no busque reformas de la Ordenanza de 1948 ni de la Ley del Dia de la Independencia dentro de la ventana, asi que por el lado de FERIADOS el estado real es supuesto_sin_cambio y no verificado."
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "Las tres normas principales estan en nivel 3 (Nevo) y la enmienda de 2016 en nivel 4. Ninguna se leyo en Reshumot.",
+   "por_que_importa": "Israel es la unidad de este lote con la reforma mas relevante dentro de la ventana y su evidencia es la mas debil.",
+   "como_se_cierra": "Localizar en Reshumot / Sefer HaChukim la Ordenanza 1948 art. 18a, la Ley de Vacaciones Anuales y la enmienda n.º 15, y elevar a nivel 1."
+  },
+  {
+   "id": "H2",
+   "que": "El tipo de dia de las vacaciones no cabe en el dominio del esquema.",
+   "como_se_cierra": "Decision del principal. Ver `tipo_de_dia_nota`."
+  },
+  {
+   "id": "H3",
+   "que": "El Dia de la Independencia no tiene clase de regla asignable: es lunar con tres desplazamientos condicionales.",
+   "como_se_cierra": "Decision del principal, la misma que pide St Brigid's Day en Irlanda."
+  },
+  {
+   "id": "H4",
+   "que": "Las ocho fechas hebreas son correctas y aun asi cargan cero, porque el cargador fija `gregoriano` y no traduce la clase `lunar`.",
+   "por_que_importa": "El conteo de feriados de Israel en la base sera 0 de 9. Es un hueco del puente, no del dato.",
+   "como_se_cierra": "Que `clase_y_campos()` traduzca `lunar` y que `sistema_calendarico` se lea de la captura. NO lo toco: el guion esta reclamado por claude."
+  },
+  {
+   "id": "H5",
+   "que": "No se verifico el estatuto laboral de Yom HaZikaron, Yom HaShoah, Purim y Tisha BeAv, ni el de Jol HaMoed.",
+   "como_se_cierra": "Segunda pasada sobre la Ordenanza y sobre ordenes de extension."
+  },
+  {
+   "id": "H6",
+   "que": "El literal hebreo del art. 6(b) (porcion de dos dias a eleccion del trabajador) esta en parafrasis, no transcrito.",
+   "como_se_cierra": "Transcribirlo del texto de la ley."
+  }
+ ],
+ "eventos_reforma": [
+  {
+   "tipo": "cambio_de_escala_de_antiguedad",
+   "que": "Vacaciones: 14 a 16 dias y fusion del primer tramo de 4 a 5 anios",
+   "vigencia_desde": "2017-01-01",
+   "permanente_o_temporal": "permanente",
+   "cita": "חוק חופשה שנתית (תיקון מס' 15 והוראת שעה), התשע\"ו-2016 — ס\"ח 2531"
+  },
+  {
+   "_": "No toca ningun corte, y por eso se registra: es la prueba de que el campo distingue lo temporal de lo permanente aunque no cambie ninguna cifra.",
+   "tipo": "cambio_de_escala_de_antiguedad",
+   "que": "Vacaciones: disposicion temporal que manda leer 15 donde la ley dice 14",
+   "vigencia_desde": "2016-07-01",
+   "permanente_o_temporal": "temporal",
+   "cita": "הוראת שעה, art. 2(b) de la misma enmienda — rige hasta el 31-dic-2016"
+  }
+ ]
+}

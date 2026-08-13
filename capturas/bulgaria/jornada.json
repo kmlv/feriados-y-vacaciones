@@ -1,0 +1,73 @@
+{
+  "_": "JORNADA SEMANAL LEGAL ORDINARIA. Trabajador de referencia: sector privado formal, jornada completa, Sofia. Lote 5.",
+  "unidad": "BGR",
+  "jurisdiccion_de_referencia": "Sofia",
+  "capturado_por": "jornada · lote 5",
+  "fecha_captura_utc": "2026-08-11T05:38:11Z",
+  "fuentes": {
+    "J1": {
+      "cita": "Ministerstvo na truda i sotsialnata politika - pagina oficial 'Rabotno vreme', que expone el regimen del Kodeks na truda chl. 136",
+      "url": "https://www.mlsp.government.bg/rabotno-vreme",
+      "nivel_de_fuente": 2,
+      "publicacion": "sin fecha visible; consultada 2026-08-11",
+      "literal_relevante": "Нормалната продължителност на работното време, установена с Кодекса на труда е 5-дневна работна седмица с нормална продължителност на работния ден до 8 часа и на работната седмица до 40 часа.",
+      "nota": "Es la formulacion del ministerio, no el literal estatutario. El literal del articulo va en J2. Sirve para fijar el NIVEL 2 de los tres valores: cinco dias, ocho horas, cuarenta horas."
+    },
+    "J2": {
+      "cita": "Kodeks na truda, chl. 136, al. 1 y al. 3 - literal estatutario",
+      "url": "https://lex.bg/laws/ldoc/1594373121",
+      "nivel_de_fuente": 3,
+      "nota": "NIVEL 3 y no 1: lex.bg devolvio 403 Forbidden y justice.government.bg fallo la verificacion de certificado; el literal se reconstruyo de fuentes juridicas bulgaras concordantes entre si (clubtrznormativi.bg, ehr.bg, vipdir.eu, postedworkers.gli.government.bg) y concuerda con la formulacion ministerial de J1. PENDIENTE leer el texto refundido en lex.bg o en Darzhaven vestnik y subir a nivel 1."
+    },
+    "J3": {
+      "cita": "Kodeks na truda, chl. 153, al. 1 - sedmichna pochivka",
+      "url": "https://lex.bg/laws/ldoc/1594373121",
+      "nivel_de_fuente": 3,
+      "nota": "Misma limitacion de acceso que J2. Confirmado ademas en la pagina de la Glavna inspektsiya po truda para trabajadores desplazados."
+    },
+    "J4": {
+      "cita": "Kodeks na truda, chl. 154, al. 2 - traslado de los feriados oficiales que caen en sabado o domingo. Nueva disposicion: DV br. 105 de 2016, en vigor desde el 01-01-2017",
+      "url": "https://290caselaw.com/norms/kt-154-2/",
+      "nivel_de_fuente": 3,
+      "publicacion": "2016-12-30",
+      "vigencia_desde": "2017-01-01",
+      "nota": "Literal leido en una base de jurisprudencia bulgara y reproducido de forma identica por trudipravo.bg y por resumenes del ZID na KT publicado en DV br. 105/2016. La fecha de entrada en vigor -01-01-2017, no 30-12-2016- esta declarada por dos fuentes concordantes."
+    }
+  },
+  "jornada": {
+    "horas_semanales_max": 40,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": 5,
+    "dias_ordinarios_origen": "declarado_en_la_ley",
+    "literal": "Чл. 136. (1) Работната седмица е петдневна с нормална продължителност на седмичното работно време до 40 часа. […] (3) Нормалната продължителност на работното време през деня е до 8 часа.",
+    "traduccion": "Art. 136. (1) La semana de trabajo es de cinco dias, con una duracion normal del tiempo semanal de trabajo de hasta 40 horas. […] (3) La duracion normal del tiempo de trabajo durante el dia es de hasta 8 horas.",
+    "fuente": "J2",
+    "nota": "Bulgaria es de los casos limpios: la ley NO deja la distribucion al contrato, dice literalmente que la semana ES de cinco dias -'petdnevna'-. Los tres numeros salen del mismo articulo y no hay derivacion aritmetica de por medio. El chl. 136a permite extender la jornada diaria hasta 10 horas en algunos dias compensando en otros, sin tocar el promedio semanal; eso es una excepcion regulada, no la jornada ordinaria."
+  },
+  "descanso_semanal": {
+    "dias": 2,
+    "cuales": "dos dias consecutivos, uno de ellos en principio domingo",
+    "literal": "Чл. 153. (1) При петдневна работна седмица работникът или служителят има право на седмична почивка в размер на два последователни дни, от които единият по принцип е неделя. В тези случаи на работника или служителя се осигурява най-малко 48 часа непрекъсната седмична почивка.",
+    "traduccion": "Art. 153. (1) En la semana de trabajo de cinco dias el trabajador o empleado tiene derecho a un descanso semanal de dos dias consecutivos, de los cuales uno es en principio el domingo. En estos casos se le garantiza al menos 48 horas de descanso semanal ininterrumpido.",
+    "fuente": "J3",
+    "nota": "La ley nombra el domingo pero solo como principio -'po printsip'- y no nombra el segundo dia. Combinado con la semana de cinco dias del chl. 136, el par es sabado y domingo en la practica, pero el texto no lo dice asi. Bajo calculo sumado del tiempo de trabajo el descanso baja a 36 horas (al. 2) y excepcionalmente a 24 (al. 3)."
+  },
+  "traslado_por_defecto": {
+    "existe": true,
+    "regla": "se traslada al siguiente dia laborable, o a los dos siguientes si el feriado abarca sabado y domingo",
+    "alcance": "todos los feriados oficiales del chl. 154 al. 1, con la excepcion expresa de los feriados de Pascua",
+    "literal": "Чл. 154. (2) Когато официалните празници по ал. 1, с изключение на Великденските празници, съвпадат със събота и/или неделя, първият или първите два работни дни след тях са неприсъствени.",
+    "traduccion": "Art. 154. (2) Cuando los feriados oficiales del apartado 1, con excepcion de los feriados de Pascua, coincidan con sabado y/o domingo, el primero o los dos primeros dias laborables siguientes son no laborables.",
+    "fuente": "J4",
+    "nota": "Regla general y automatica: no depende de decreto anual ni de decision del empleador. Excluye la Pascua porque esos feriados ya estan definidos por referencia a un domingo. Es una de las reglas de traslado mas amplias del lote."
+  },
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "Zakon za izmenenie i dopalnenie na Kodeksa na truda, DV br. 105 de 30-12-2016",
+      "anio": 2016,
+      "vigencia_desde": "2017-01-01",
+      "que_cambio": "Introdujo el chl. 154 al. 2: los feriados oficiales que caen en sabado o domingo pasan a recuperarse en el o los dias laborables siguientes. Antes de esta reforma el feriado en fin de semana se perdia y la practica era 'razmestvane' -reacomodo de dias con sabados trabajados- por decreto del Consejo de Ministros. La reforma esta DENTRO de la ventana y cambia el valor de traslado_por_defecto: en 2016 habria sido 'no existe', en 2026 es 'existe'."
+    }
+  ],
+  "pendiente": "El literal de chl. 136, 153 y 154 no se leyo en gaceta oficial ni en el texto refundido: lex.bg respondio 403 y justice.government.bg fallo el certificado TLS. Los tres literales descansan en fuentes bulgaras concordantes (nivel 3) y en la formulacion del ministerio (nivel 2), que coinciden en los numeros. Falta tambien verificar si el ZID de 2016 introdujo otros cambios de jornada ademas del chl. 154 al. 2."
+}

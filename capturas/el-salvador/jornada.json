@@ -1,0 +1,62 @@
+{
+  "unidad": "SLV",
+  "jurisdiccion_de_referencia": "San Salvador; el régimen de jornada es nacional, no municipal",
+  "fecha_captura_utc": "2026-08-11T06:11:34Z",
+  "trabajador_de_referencia": "sector privado formal, jornada completa, jornada diurna, trabajo no peligroso ni insalubre",
+
+  "fuentes": {
+    "J1": {
+      "cita": "Constitución de la República de El Salvador, artículo 38, ordinales 6º y 7º",
+      "url": "https://www.jurisprudencia.gob.sv/",
+      "nivel_de_fuente": 3,
+      "publicacion": "1983-12-15, texto vigente",
+      "nota": "No se logró abrir una copia primaria de la Constitución durante la captura; el contenido de los ordinales 6º y 7º del artículo 38 se verificó por fuentes secundarias concordantes y por su reflejo literal en el artículo 161 del Código de Trabajo (J2), que es nivel 1. PENDIENTE cerrar con el texto oficial de la Asamblea Legislativa."
+    },
+    "J2": {
+      "cita": "Decreto N° 15 — Código de Trabajo de la República de El Salvador; artículos 161, 165, 171, 172, 173, 190, 192 y 194",
+      "url": "https://www.asamblea.gob.sv/sites/default/files/documents/decretos/7C8AAACD-37E0-418F-B378-D1435C79B361.pdf",
+      "nivel_de_fuente": 1,
+      "publicacion": "1972-06-23, texto consolidado publicado por la Asamblea Legislativa",
+      "nota": "Publicación del propio órgano legislativo, con las notas de reforma numeradas en el texto."
+    },
+    "J3": {
+      "cita": "Corte Suprema de Justicia, «Código de Trabajo de El Salvador — Jornada de trabajo y de la semana laboral» y «— Descanso semanal»",
+      "url": "https://www.csj.gob.sv/wp-content/uploads/2021/06/8-Co%CC%81digo-de-Trabajo-de-El-Salvador-Jornada-de-trabajo-y-de-la-semana-laboral.pdf",
+      "nivel_de_fuente": 2,
+      "publicacion": "2021-05-17",
+      "nota": "Usado sólo como corroboración. ADVERTENCIA: el resumen introductorio de este documento afirma que «la duración semanal del trabajo será hasta un máximo de cuarenta horas», lo que CONTRADICE el artículo 161 que el mismo documento transcribe («cuarenta y cuatro horas»). Se sigue el articulado, no el resumen. Queda anotado como ejemplo de por qué un portal gubernamental no basta cuando el articulado está disponible."
+    }
+  },
+
+  "jornada": {
+    "horas_semanales_max": 44,
+    "horas_diarias_max": 8,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "Art. 161.- Las horas de trabajo son diurnas y nocturnas. Las diurnas están comprendidas entre las seis horas y las diecinueve horas de un mismo día; y las nocturnas, entre las diecinueve horas de un día y las seis horas del día siguiente. La jornada ordinaria de trabajo efectivo diurno, salvo las excepciones legales, no excederá de ocho horas diarias, ni la nocturna de siete. La jornada de trabajo que comprenda más de cuatro horas nocturnas, será considerada nocturna para el efecto de su duración. La semana laboral diurna no excederá de cuarenta y cuatro horas ni la nocturna de treinta y nueve.",
+    "traduccion": null,
+    "fuente": "J2",
+    "nota": "MISMO CASO QUE BRASIL: 44 ÷ 8 = 5,5, y de un cociente que no es entero no sale un número de días. La norma fija dos techos —ocho al día, cuarenta y cuatro a la semana— y calla sobre el reparto. Quien reparte es el patrono: el artículo 165 dice que «el patrono fijará originariamente el horario de trabajo» y que las modificaciones posteriores requieren acuerdo con los trabajadores, con el Director General de Trabajo dirimiendo el desacuerdo. El uso más extendido es lunes a viernes de ocho horas más sábado de cuatro, que da seis días, pero eso es costumbre y no norma; también es lícita la semana de cinco días y media. Anotar 6 sería convertir una práctica en un mandato legal. Estos límites están además en el artículo 38 ordinal 6º de la Constitución, lo que los hace más difíciles de mover que si vivieran sólo en la ley secundaria."
+  },
+
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "domingo",
+    "literal": "Art. 171.- Todo trabajador tiene derecho a un día de descanso remunerado por cada semana laboral. […] Art. 173.- El día de descanso semanal es el domingo. Sin embargo, los patronos de empresas de trabajo continuo, o que presten un servicio público, o de aquéllas que por la índole de sus actividades laboran normalmente en día domingo, tienen la facultad de señalar a sus trabajadores el día de descanso que les corresponda en la semana. Fuera de estos casos, cuando las necesidades de la empresa lo requieran, el patrono, para señalar a sus trabajadores un día de descanso distinto del domingo, deberá solicitar autorización al Director General de Trabajo.",
+    "fuente": "J2",
+    "nota": "El domingo está nombrado en forma categórica —«es el domingo», no «preferentemente»— y sólo se desplaza en los supuestos tasados del propio artículo o con autorización administrativa expresa. Es de las formulaciones más firmes del lote."
+  },
+
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": "se pierde",
+    "alcance": "todos los días de asueto",
+    "literal": "Art. 194.- Si coincidiere un día de asueto con el día de descanso semanal, el trabajador tendrá derecho únicamente a su salario básico; pero si trabajare en dicho día, tendrá derecho a la remuneración especial que establece el Art. 192 y al correspondiente descanso compensatorio remunerado.",
+    "fuente": "J2",
+    "nota": "ES EL CASO MÁS EXPLÍCITO DEL LOTE, Y RESUELVE EN CONTRA DEL TRABAJADOR. Aquí no hay que inferir la ausencia de regla desde el silencio: la ley previó la coincidencia y decidió que no genera nada. El asueto que cae en el día de descanso semanal no se traslada, no se compensa con otro día y no da pago adicional — «únicamente a su salario básico», que es el que ya le correspondía por descansar. El día compensatorio del inciso final sólo aparece si el trabajador efectivamente TRABAJA esa fecha. Para la métrica de descanso pagado esto significa que El Salvador pierde de verdad los asuetos que caen en domingo."
+  },
+
+  "reformas_en_la_ventana": [],
+
+  "pendiente": "No se detectó reforma de la jornada entre 2016 y 2026, lo que es coherente con que los límites de ocho horas diarias y cuarenta y cuatro semanales estén en el artículo 38 ordinal 6º de la Constitución y requieran reforma constitucional. Hubo propuestas de diputados para permitir jornadas diarias de hasta doce horas sin alterar el total semanal, pero no prosperaron. Quedan dos huecos: (a) el texto constitucional se apoya en secundarias concordantes, no en fuente primaria; (b) no se verificó artículo por artículo si algún decreto legislativo posterior a 2016 tocó los artículos 161, 173 o 194 del Código de Trabajo — la copia usada es la consolidación de la Asamblea Legislativa, pero no se contrastó su fecha de corte."
+}

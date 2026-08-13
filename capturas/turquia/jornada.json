@@ -1,0 +1,64 @@
+{
+  "_": "JORNADA SEMANAL LEGAL ORDINARIA de Turquia. Trabajador de referencia: sector privado formal, jornada completa, Estambul. Caso de manual del hueco que este proyecto busca: la ley fija las horas y se niega expresamente a fijar los dias.",
+  "unidad": "TUR",
+  "jurisdiccion_de_referencia": "Estambul",
+  "capturado_por": "jornada · lote 1",
+  "fecha_captura_utc": "2026-08-11T05:55:37Z",
+
+  "fuentes": {
+    "J1": {
+      "cita": "Is Kanunu No. 4857 (Ley de Trabajo), Madde 46 y Madde 63. Kabul tarihi 22.5.2003, publicada en el Resmi Gazete de 10.6.2003, sayi 25134",
+      "url": "https://www5.tbmm.gov.tr/tutanaklar/KANUNLAR_KARARLAR/kanuntbmmc087/kanuntbmmc087/kanuntbmmc08704857.pdf",
+      "nivel_de_fuente": 2,
+      "publicacion": "2003-06-10",
+      "nota": "PDF oficial de la Gran Asamblea Nacional de Turquia con el texto de la ley tal como fue aprobada, incluida la referencia de publicacion en el Resmi Gazete. ES EL TEXTO ORIGINAL DE 2003, NO UNA CONSOLIDACION: no refleja eventuales enmiendas posteriores. mevzuat.gov.tr y resmigazete.gov.tr no fueron alcanzables desde este entorno (tiempo agotado por curl, cadena de certificado no verificable por fetch), y por eso no hay ni nivel 1 ni texto consolidado. El PDF es un escaneo con OCR: en los literales de abajo se corrigieron erratas de reconocimiento evidentes, todas de un solo caracter y todas listadas en la nota de jornada."
+    },
+    "J2": {
+      "cita": "Ulusal Bayram ve Genel Tatiller Hakkinda Kanun No. 2429, Madde 2 y Madde 3. Kabul tarihi 17/3/1981, Resmi Gazete 19/3/1981 sayi 17284",
+      "url": "https://pdb.itu.edu.tr/docs/librariesprovider175/default-document-library/ulusal-bayram-ve-genel-tatiller-hakk%C4%B1nda-kanun45bd394bceeb6433bf21ff0000f8c30d.pdf?sfvrsn=0",
+      "nivel_de_fuente": 3,
+      "publicacion": "1981-03-19",
+      "nota": "Es el texto CONSOLIDADO oficial (formato Duestur, con cabecera de Kanun Numarasi / Kabul Tarihi / Resmi Gazete y notas de modificacion al pie), pero alojado en el sitio de la Universidad Tecnica de Estambul y no en el portal legislativo del Estado, que no respondia. Nivel 3 por el alojamiento, no por el contenido. El documento refleja la modificacion de la Ley 6752 de 25/10/2016."
+    }
+  },
+
+  "jornada": {
+    "horas_semanales_max": 45,
+    "horas_diarias_max": 11,
+    "dias_ordinarios": null,
+    "dias_ordinarios_origen": "no_declarado",
+    "literal": "MADDE 63: 'Genel bakimdan calisma suresi haftada en cok kirkbes saattir. Aksi kararlastirilmamissa bu sure, isyerlerinde haftanin calisilan gunlerine esit olcude bolunerek uygulanir. Taraflarin anlasmasi ile haftalik normal calisma suresi, isyerlerinde haftanin calisilan gunlerine, gunde onbir saati asmamak kosulu ile farkli sekilde dagitilabilir. Bu halde, iki aylik sure icinde iscinin haftalik ortalama calisma suresi, normal haftalik calisma suresini asamaz. Denklestirme suresi toplu is sozlesmeleri ile dort aya kadar artirilabilir.'",
+    "traduccion": "Art. 63: 'Con caracter general la duracion del trabajo es de cuarenta y cinco horas a la semana como maximo. Salvo que se acuerde otra cosa, esa duracion se aplica dividiendola en partes iguales entre los dias trabajados de la semana en los centros de trabajo. Por acuerdo de las partes, la duracion normal semanal puede distribuirse de manera diferente entre los dias trabajados de la semana, a condicion de no exceder de once horas al dia. En tal caso, la duracion media semanal del trabajador dentro de un periodo de dos meses no podra exceder de la duracion normal semanal. El periodo de compensacion puede ampliarse hasta cuatro meses por convenio colectivo.'",
+    "fuente": "J1",
+    "nota": "ESTE ES EL EJEMPLO LIMPIO DEL PROBLEMA. La ley turca dice cuarenta y cinco horas y despues, en la misma frase siguiente, dice que se reparten 'haftanin calisilan gunlerine', entre LOS DIAS TRABAJADOS DE LA SEMANA, sin decir cuantos son. Nombra la variable y no le da valor. De 45 no se sigue ningun numero de dias: 45 partido en seis dan siete horas y media diarias, en cinco dan nueve, y ambas cosas son legales. Poner cinco o seis aqui seria inventarlo. El unico tope diario que existe, once horas, solo aparece como condicion del reparto DESIGUAL pactado, no como jornada diaria ordinaria; se registra porque es el unico numero diario de la norma. — CORRECCIONES DE OCR aplicadas al literal, todas de un caracter: 'uygulamr' a 'uygulanir'. Ninguna afecta al sentido ni a las cifras."
+  },
+
+  "descanso_semanal": {
+    "dias": 1,
+    "cuales": "uno de cada siete, sin nombrar (para el trabajador sujeto a la Ley de Trabajo)",
+    "literal": "MADDE 46, Is Kanunu 4857: 'Bu Kanun kapsamina giren isyerlerinde, iscilere tatil gununden once 63 uncu maddeye gore belirlenen is gunlerinde calismis olmalari kosulu ile yedi gunluk bir zaman dilimi icinde kesintisiz en az yirmidort saat dinlenme (hafta tatili) verilir. Calisilmayan hafta tatili gunu icin isveren tarafindan bir is karsiligi olmaksizin o gunun ucreti tam olarak odenir.' — MADDE 3, Kanun 2429: 'A) Hafta tatili Pazar gunudur. Bu tatil 35 saatten az olmamak uzere Cumartesi gunu en gec saat 13.00'ten itibaren baslar. B) 394 sayili Hafta Tatili Kanunu, 657 sayili Devlet Memurlari Kanunu, 926 sayili Turk Silahli Kuvvetleri Personel Kanunu, 1475 sayili Is Kanunu ve diger kanunlardaki hafta tatili ile ilgili hukumler saklidir.'",
+    "traduccion": "Art. 46 de la Ley de Trabajo: 'En los centros de trabajo comprendidos en esta Ley se concede a los trabajadores, siempre que hayan trabajado en los dias laborables determinados conforme al articulo 63 antes del dia de descanso, un descanso ininterrumpido de al menos veinticuatro horas dentro de un periodo de siete dias (descanso semanal). Por el dia de descanso semanal no trabajado el empleador paga integramente el salario de ese dia sin contraprestacion de trabajo.' — Art. 3 de la Ley 2429: 'A) El descanso semanal es el domingo. Ese descanso, no inferior a 35 horas, comienza el sabado a las 13.00 horas a mas tardar. B) Quedan a salvo las disposiciones sobre descanso semanal de la Ley 394 del Descanso Semanal, de la Ley 657 de Funcionarios del Estado, de la Ley 926 de Personal de las Fuerzas Armadas Turcas, de la Ley 1475 de Trabajo y de las demas leyes.'",
+    "fuente": "J1",
+    "nota": "HAY DOS NORMAS Y DICEN COSAS DISTINTAS, asi que hay que elegir con criterio. La Ley 2429 nombra el domingo y llega a 35 horas desde el sabado a las 13.00, lo que serian dia y medio. Pero su propio apartado B deja a salvo las disposiciones de descanso semanal de la Ley de Trabajo, que es la que rige al trabajador de referencia; y esa —el art. 46— garantiza solo 24 horas ininterrumpidas en un periodo de siete dias, sin nombrar el dia. Por eso se registra 1 y 'sin nombrar': es lo que la norma aplicable al asalariado privado garantiza. Que en la practica el domingo sea el dia de descanso en Turquia es cierto, pero viene de la costumbre y de la Ley 2429 aplicada por remision, no del derecho al descanso que la ley laboral concede. Notese ademas la condicion del art. 46: el descanso pagado exige haber trabajado los dias laborables previos."
+  },
+
+  "traslado_por_defecto": {
+    "existe": false,
+    "regla": null,
+    "alcance": null,
+    "literal": "MADDE 2, Kanun 2429, parrafo final del articulo: 'Bu Kanunda belirtilen Ulusal Bayram ve genel tatil gunleri; Cuma gunu aksami sona erdiginde muteakip Cumartesi gununun tamami tatil yapilir.'",
+    "traduccion": "Art. 2, parrafo final: 'Cuando los dias de Fiesta Nacional y de fiesta general senalados en esta Ley terminen el viernes por la tarde, se hace fiesta todo el sabado siguiente.'",
+    "fuente": "J2",
+    "nota": "No existe regla que traslade ni compense el feriado que cae en el descanso semanal. La Ley 2429 no contiene nada parecido a una 'mondayizacion': el feriado se conmemora en su fecha y si cae en domingo SE PIERDE. Lo unico que se le parece va en la direccion contraria: el parrafo transcrito extiende la fiesta a todo el sabado cuando la fiesta termina el viernes por la tarde, o sea que alarga el fin de semana en vez de rescatar un dia perdido. Ademas ese parrafo aparece a continuacion del apartado D del art. 2, que se refiere al cierre de oficinas y organismos oficiales, de modo que su alcance sobre el sector privado no es evidente y no lo di por sentado."
+  },
+
+  "reformas_en_la_ventana": [
+    {
+      "instrumento": "Kanun No. 6752, de 25/10/2016, art. 2",
+      "anio": 2016,
+      "que_cambio": "No toco la jornada. Modifico el art. 2 de la Ley 2429 para anadir el 15 de julio (Demokrasi ve Milli Birlik Gunu) a los dias de fiesta general, junto al 1 de enero y al 1 de mayo. Se anota porque cambia el numero de feriados de la ventana, no las horas."
+    }
+  ],
+
+  "pendiente": "Tres, y la primera condiciona a las otras dos. (1) mevzuat.gov.tr no fue alcanzable, asi que el art. 63 se leyo en el texto ORIGINAL de 2003 y no en el consolidado: no puedo descartar enmiendas posteriores. Las que conozco de oidas afectan al trabajo subterraneo en mineria y no a la regla general de 45 horas, pero eso no esta verificado aqui. (2) Por lo mismo, no verifique si el art. 46 fue enmendado despues de 2003. (3) No lei la Ley 394 (Hafta Tatili Kanunu), que la Ley 2429 deja expresamente a salvo y que podria matizar la conclusion sobre el domingo."
+}

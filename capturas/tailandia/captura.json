@@ -1,0 +1,161 @@
+{
+ "_": "CAPTURA CIEGA de Tailandia (Bangkok). Escrita leyendo las secciones 28, 29, 30, 56 y 64 de la Labour Protection Act B.E. 2541 (1998) en la traduccion oficial de la Office of the Council of State, SIN mirar el indice del CBR ni ningun dataset agregado de vacaciones.",
+ "_estado": "PARCIAL A PROPOSITO. Tailandia NO TIENE CALENDARIO DE FERIADOS. Su ley fija un MINIMO DE TRECE DIAS que designa el EMPLEADOR de un conjunto de referencia abierto. Doce de esos trece no tienen fecha y no se cargan. Ver `feriados.el_hallazgo`.",
+ "unidad": "THA",
+ "jurisdiccion_de_referencia": "Bangkok — ciudad mas poblada",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 5",
+ "fecha_captura_utc": "2026-08-10T15:10:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Labour Protection Act, B.E. 2541 (1998) — sections 28, 29, 30, 56, 64",
+   "nivel_de_fuente": 3,
+   "tipo": "traduccion oficial al ingles de la Office of the Council of State (krisdika.go.th), leida en una copia espejo",
+   "url": "https://www.vertic.org/media/National%20Legislation/Thailand/TH_Labor_Protection_Act.pdf",
+   "literal_relevante": "s.28 «The employer shall provide the weekly holiday to the employee for not less than one day per week. The interval period between each weekly holiday shall no longer than six days.» s.29 «The employee shall notify the traditional holiday to the employee in advance. Such holiday shall not less than thirteen days, including the National Labor Day as determined by the Minister. The employer shall provide the traditional holiday with regards to the annual public holiday, religious holiday and local custom of each locality. In the case where any traditional holiday is the same day of the weekly holiday, the employee shall have a day off in replace of such traditional holiday on the next working day.» s.30 «The employee who has worked consecutively for one year shall have the right to the annual holiday for not less than six working days a year. The annual holiday shall be provided in advance by the employer or upon the agreement between the employer and the employee. ... In the case where the employee who has worked for less than one year, the employer may provide the annual holiday to such employee upon pro rata basis.» s.56: el empleador paga salario por el descanso semanal, el feriado tradicional y el descanso anual.",
+   "nota": "NIVEL 3 A PROPOSITO, por dos motivos que conviene separar. (1) Es una TRADUCCION, y el propio documento advierte que «Reference to Thai legislation in any jurisdiction shall be made to the Thai version only». (2) Es el texto de 1998 SIN LAS OCHO NOVELAS posteriores. PENDIENTE leer el texto tailandes consolidado en la Ratchakitcha."
+  },
+  "F2": {
+   "cita": "Novelas de la Labour Protection Act: No. 6 B.E. 2560 (2017), No. 7 B.E. 2562 (2019), No. 8 B.E. 2566 (2023)",
+   "nivel_de_fuente": 4,
+   "url": "https://ilawasia.com/blogs/labour-protection-act-thailand",
+   "nota": "Sigue en nivel 4. Varias secundarias describen la s.29 con «minimo de trece dias incluido el Dia Nacional del Trabajo» y la s.30 con «no menos de seis dias laborables» en terminos identicos a los de 1998, lo que sugiere que ninguna de las tres novelas las toco. NO LO VERIFIQUE contra los dispositivos. Concordancia de secundarias no es verificacion."
+  },
+  "F3": {
+   "cita": "Resoluciones del Consejo de Ministros sobre vanyut ratchakan (feriados oficiales) y lista de feriados de instituciones financieras del Banco de Tailandia, 2026",
+   "nivel_de_fuente": 5,
+   "url": "https://www.bangkokpost.com/thailand/general/3132730/thailand-declares-5day-new-year-holiday-to-boost-tourism-economy",
+   "nota": "Prensa. Se cita SOLO para documentar que el conjunto de referencia se fija cada ano por acuerdo del gabinete y puede cambiar dentro del ano —en el ciclo 2025-2026 el gabinete aprobo un dia extra de Ano Nuevo y despues rechazo anadir dos festivos mas—, no para derivar de el ningun feriado del sector privado."
+  }
+ },
+ "feriados": {
+  "estado": "PARCIAL — la ley NO fija fechas. Fija un MINIMO DE TRECE dias que designa el empleador. Solo uno de los trece esta nombrado en el texto legal; los otros doce no tienen fecha y quedan sin cargar.",
+  "fuente": "F1",
+  "el_hallazgo": {
+   "_": "ES EL AVISO QUE VENIA EN EL ENCARGO Y SE CONFIRMA: NO ES UN CALENDARIO, ES UNA CUOTA.",
+   "que_dice_la_norma": "s.29 impone al empleador anunciar por adelantado no menos de TRECE dias tradicionales al ano, incluido el Dia Nacional del Trabajo que determina el Ministro, y designarlos «with regards to the annual public holiday, religious holiday and local custom of each locality» — atendiendo al feriado publico anual, al religioso y a la costumbre local de cada lugar.",
+   "por_que_no_es_una_lista_cerrada": "El conjunto de referencia tiene tres componentes y ninguno es una lista cerrada de fechas en la propia ley: los feriados oficiales los fija el gabinete cada ano por resolucion y los mueve dentro del ano; los religiosos son de calendario LUNAR budista y su fecha gregoriana varia; y la costumbre local varia por localidad. Ademas el empleador ELIGE dentro de ese conjunto, con lo que dos empleadores del mismo distrito pueden tener trece dias distintos y ambos cumplir la ley.",
+   "por_que_no_es_lo_mismo_que_un_calendario_fijo": "Una unidad con calendario fijo produce las mismas fechas para todo trabajador. Tailandia produce el mismo NUMERO y fechas potencialmente distintas. Guardar aqui la lista de vanyut ratchakan de 2026 seria presentar el calendario del FUNCIONARIADO como si fuera el derecho del trabajador del sector privado, que es otra cosa y otra fuente.",
+   "lo_unico_que_la_ley_nombra": "El Dia Nacional del Trabajo, y ni siquiera con fecha: «as determined by the Minister». Por eso es el unico que se carga, y como remision normativa."
+  },
+  "lista": [
+   {
+    "fecha": null,
+    "nombre": "National Labour Day (Wan Raeng Ngan Haeng Chat)",
+    "clase_de_regla": "remision_normativa",
+    "instrumento_remitido": "Determinacion del Ministro de Trabajo bajo la s.29 parrafo 1 de la Labour Protection Act B.E. 2541; en la practica el 1 de mayo",
+    "nota": "Unico dia que la ley nombra. Su FECHA no esta en la ley: vive en la determinacion ministerial. Es el mismo mecanismo que el feriado electoral mexicano, cuya fecha vive en la ley electoral."
+   },
+   {
+    "fecha": null,
+    "nombre": "Doce (12) días tradicionales restantes de la cuota de trece — fechas designadas por el empleador",
+    "dias_que_representa": 12,
+    "nota": "RESUELTO. La ley nombra UN feriado y deja doce dias a designacion del empleador dentro de un conjunto tradicional. No es `delegada_a_jurisdiccion_local` —no la fija la jurisdiccion sino el empleador— ni `remision_normativa`, porque no hay una norma unica a la que remitir. La clase nueva registra la CANTIDAD y el CONJUNTO, sin fechas. Omitirlo dejaba el conteo tailandes en 1 contra los 13 del antecedente, que era la mayor discrepancia de una sola unidad del dataset.",
+    "clase_de_regla": "cuota_designada_por_empleador",
+    "conjunto_de_referencia": "Dias tradicionales, religiosos y locales de observancia reconocida; el empleador designa doce de ese conjunto tras consultar la practica del establecimiento (Labour Protection Act B.E. 2541, s. 29)"
+   }
+  ],
+  "total_minimo_legal_2026": 13,
+  "cargados": 1,
+  "sin_fecha": 12,
+  "regla_de_sustitucion": "s.29 parrafo 3: si un dia tradicional coincide con el descanso semanal, el trabajador tiene el dia libre de sustitucion EL SIGUIENTE DIA LABORABLE. Es una regla de traslado obligatoria y hacia adelante; el cargador no escribe `regla_de_traslado_aplicable` y por tanto se pierde.",
+  "excepcion_por_naturaleza_del_trabajo": "s.29 parrafo 4: si por la naturaleza o condiciones del trabajo, segun reglamento ministerial, el empleador no puede dar libre el dia tradicional, pactara un dia sustituto o PAGARA holiday pay en su lugar. O sea que la cuota admite conversion en dinero, que es una cobertura condicional que el esquema no lleva.",
+  "subnacionales": []
+ },
+ "vacaciones": {
+  "texto_legal_dias": 6,
+  "tipo_de_dia": "habil — LEIDO: la s.30 dice «six working days»",
+  "literal": "The employee who has worked consecutively for one year shall have the right to the annual holiday for not less than six working days a year.",
+  "fuente": "F1",
+  "periodo_de_calificacion_meses": 12,
+  "periodo_de_calificacion_literal": "«who has worked consecutively for one year». Aqui SI hay periodo de calificacion real; por debajo del ano el empleador PUEDE (no debe) conceder prorrateo.",
+  "escala_antiguedad": "ninguna en la ley. La s.30 parrafo 2 dice que el empleador PUEDE conceder mas de seis dias en los anos siguientes, que es una facultad, no una escala.",
+  "acumulacion": "s.30 parrafo 3: empleador y trabajador pueden pactar por adelantado acumular y trasladar al ano siguiente el descanso anual no disfrutado.",
+  "sancion_por_incumplimiento": "s.64: si el empleador no concede los descansos de las ss. 28, 29 o 30, o concede menos, paga holiday pay y holiday overtime pay como si hubiera exigido trabajar en dia de descanso. O sea que el derecho se puede monetizar por incumplimiento.",
+  "estado_verificacion": "verificado_secundaria"
+ },
+ "imputacion": {
+  "valor": "sin_regla_explicita",
+  "por_que": "Lei las secciones 28, 29, 30, 56 y 64 completas. NINGUNA dice que ocurre cuando un dia tradicional cae dentro del periodo de descanso anual. La unica regla de colision que la ley contempla es la del dia tradicional con el DESCANSO SEMANAL (s.29 parrafo 3), y de ahi no se puede extender nada al descanso anual sin inventar.",
+  "por_que_es_dificil_incluso_de_plantear": "En Tailandia las fechas de los trece dias las pone EL EMPLEADOR, y las del descanso anual tambien (s.30). O sea que el mismo sujeto controla las dos, y la colision es en buena medida una decision suya y no un accidente de calendario. Es una situacion estructuralmente distinta de la de Peru o Turquia, donde el calendario de feriados es ajeno a ambas partes.",
+  "consecuencia": "El total tailandes es NA, y ademas seria NA por partida doble: el minuendo de feriados tampoco tiene fechas."
+ },
+ "corte_2016": {
+  "estado": "supuesto_sin_cambio",
+  "nota": "No halle indicio de que las ss. 29 o 30 hayan cambiado en la ventana, pero NO LO VERIFIQUE. La Labour Protection Act tuvo al menos tres novelas dentro de la ventana —No. 6 B.E. 2560 (2017), No. 7 B.E. 2562 (2019) y No. 8 B.E. 2566 (2023)— y el texto que pude leer entero es el de 1998, sin consolidar. Varias secundarias describen ambas secciones con las mismas cifras (trece y seis) despues de 2019, lo que hace probable la ausencia de cambio, pero eso es concordancia de secundarias y no lectura del dispositivo. Por la regla 4, esto es `supuesto_sin_cambio` y no `verificado`."
+ },
+ "delta_2016_2026": {
+  "feriados": "no determinable — la ley da una cuota, no fechas",
+  "vacaciones": "0 supuesto"
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "Doce de los trece dias tradicionales no tienen fecha en ninguna norma: los designa el empleador de un conjunto de referencia abierto. No hay clase de regla que lo exprese y quedan sin cargar.",
+   "por_que_importa": "En la base Tailandia va a aparecer con UN feriado cuando el minimo legal son TRECE. La cifra de la base subestima la unidad en doce dias y solo el mensaje del cargador («1 feriado sin clase resoluble») y esta captura lo dicen.",
+   "como_se_cierra": "Decision del principal. Hacen falta o (a) una clase de regla nueva del tipo «cuota designada por el empleador», o (b) un campo de CANTIDAD de feriados independiente de la lista de fechas, o (c) la decision de reportar Tailandia como cantidad sin calendario. La opcion (b) probablemente sirva tambien a otras unidades del grupo congelado."
+  },
+  {
+   "id": "H2",
+   "que": "`base_semanal_dias` para Tailandia se fijo en 6 y NO sale de la s.30.",
+   "detalle": "La s.30 dice «working days» sin decir cuantos hay por semana. El 6 sale de la s.28, que exige un descanso semanal de al menos UN dia por semana, o sea que la semana legal de referencia es de seis dias laborables. Es la misma logica con que Turquia quedo en base 6 (el sabado es laborable salvo pacto), pero conviene decir que el numero viene de otro articulo y no del que concede el derecho.",
+   "por_que_importa": "Entre base 5 y base 6, seis dias habiles son 8,4 o 7 dias calendario. El 20% de diferencia esta en el campo, no en la norma.",
+   "como_se_cierra": "Leer la practica de jornada del sector privado tailandes, o declarar la base como convencion."
+  },
+  {
+   "id": "H3",
+   "que": "La regla de sustitucion de la s.29 parrafo 3 (dia libre el siguiente dia laborable cuando el tradicional cae en descanso semanal) no se captura como campo.",
+   "por_que_importa": "Es una regla de traslado OBLIGATORIA. En unidades con traslado obligatorio el numero de dias efectivamente disfrutados no baja aunque el feriado caiga en fin de semana, y eso cambia la comparacion con unidades sin traslado como Rumania o Suecia."
+  },
+  {
+   "id": "H4",
+   "que": "El texto leido es la traduccion oficial de 1998 sin las ocho novelas. Ninguna fuente de nivel 1 o 2.",
+   "como_se_cierra": "Obtener el texto tailandes consolidado y los dispositivos de las novelas No. 6, 7 y 8 desde la Ratchakitcha."
+  },
+  {
+   "id": "H5",
+   "que": "El calendario lunar budista, que era una de las razones por las que Tailandia entro al lote, NO se ejercita: como la ley no fija fechas, no hay ningun feriado lunar que codificar. El mecanismo `lunar` del esquema sigue sin probarse por esta unidad."
+  }
+ ],
+ "no_mirado_todavia": [
+  "CBR Labour Regulation Index",
+  "cualquier dataset agregado de dias de vacaciones",
+  "data/derived/semilla/"
+ ],
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "pantalla_3": {
+       "cita": "Prensa juridica tailandesa: el artículo 30 sigue en seis días, Y HAY UN PROCESO LEGISLATIVO VIVO que podria moverlo. El 24 de septiembre de 2025 la Camara de Representantes aprobo EN PRINCIPIO dos proyectos de reforma de la ley laboral y nombro comision especial; uno de ellos elevaria el derecho a diez días tras ciento veinte días de servicio. Aprobado en principio no es aprobado: al corte de 2026 rigen los seis. QUEDA EN VIGILANCIA.",
+       "url": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2025/work-hours-leave-equality-thailand-labour-protection-act-drafts-move-forward"
+     },
+     "_": "Unidad que no declaraba nada y tenia una reforma de noviembre de 2025 sin capturar. Se leyo su articulado entero, no un resumen.",
+     "buscado_en": "Texto de la Labour Protection Act (no. 9) B.E. 2568 reproducido del Boletin Oficial —vol. 142, seccion 74 Kor, 7 de noviembre de 2025— leido artículo por artículo, mas la referencia a la (no. 7) B.E. 2562",
+     "cita": "TRES reformas de la ley en la ventana, no dos como escribi primero: la n.o 7 B.E. 2562 (2019), la n.o 8 B.E. 2566 (2023) sobre trabajo a distancia, y la n.o 9 B.E. 2568, publicada en el Boletin Oficial el 7 de noviembre de 2025. NINGUNA toca el artículo 30. De la de 2025 se leyo el articulado entero: modifica los articulos 4/1 (nuevo), 41, 41/1 (nuevo), 57/1, 57/2, 59 y 115/1 —maternidad, permiso para asistir al conyuge e inspeccion— y el artículo 30 no aparece. Lo que si hace, y va al ledger, es extender el derecho a contratistas personas fisicas de la administracion y empresas publicas por el nuevo artículo 4/1. La n.o 8 la encontro la pantalla 3, no la 2.",
+     "nivel_de_fuente": 3,
+     "fecha_busqueda": "2026-08-11"
+   },
+  "dias": 6,
+  "tipo": "habil",
+  "base": 6,
+  "imputacion": "sin_regla_explicita",
+  "meses": 12,
+  "literal": "The employee who has worked consecutively for one year shall have the right to the annual holiday for not less than six working days a year (s.30)",
+  "escala": [
+   [
+    12,
+    null,
+    6
+   ]
+  ],
+  "nota_base_semanal": "base 6 sale de la s.28 (descanso semanal de al menos un dia por semana), no de la s.30, que solo dice «working days». Ver hueco H2.",
+  "nota_periodo_de_calificacion": "Aqui `meses: 12` SI es un hecho, no un artefacto: la s.30 exige un ano de trabajo consecutivo y por debajo de ese ano el prorrateo es facultativo para el empleador («may provide»). Tailandia y la Republica Dominicana son las dos unidades de este lote con periodo de calificacion real.",
+  "colocacion": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "The annual holiday shall be provided in advance by the employer or upon the agreement between the employer and the employee (s.30 par. 1); the employer and employee may conclude in advance that the annual holiday may be cumulated and the unused annual holiday of each year may be cumulated for the following year (s.30 par. 3)",
+   "nota": "La s.30 ofrece DOS VIAS ALTERNATIVAS en la misma frase —«by the employer OR upon the agreement»— y no dice cual manda ni que pasa si no hay acuerdo. No es una cascada con desempate como la sueca ni un acuerdo puro como el turco: son dos caminos en paralelo. Se codifica `empleador` porque es el primero nombrado y el unico que opera sin concurso del trabajador, pero la alternativa negociada esta en el literal y el campo no la puede llevar."
+  }
+ }
+}

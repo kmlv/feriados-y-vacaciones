@@ -1,0 +1,174 @@
+{
+  "_": "CAPTURA CIEGA de Suecia (Estocolmo). Escrita leyendo la Semesterlag (1977:480) y la Lag (1989:253) om allmanna helgdagar en el registro de Svensk forfattningssamling del Riksdag, SIN mirar el indice del CBR ni ningun dataset agregado de vacaciones.",
+  "_estado": "COMPLETA. Imputacion VERIFICADA con literal explicito (3 a § semesterlagen). Un hallazgo declarado: la ley sueca separa el DERECHO A AUSENTARSE del DERECHO A COBRARLO, y el esquema solo tiene un numero.",
+  "unidad": "SWE",
+  "jurisdiccion_de_referencia": "Estocolmo — ciudad mas poblada",
+  "captura_ciega": true,
+  "capturado_por": "captura · lote 5",
+  "fecha_captura_utc": "2026-08-10T15:00:00Z",
+
+  "fuentes": {
+    "F1": {
+      "cita": "Semesterlag (1977:480) — 3 a §, 4 §, 7 §, 10 §, 11 §, 12 §",
+      "nivel_de_fuente": 2,
+      "tipo": "registro de Svensk forfattningssamling del Riksdag, texto consolidado",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/semesterlag-1977480_sfs-1977-480/",
+      "literal_relevante": "4 § «En arbetstagare har ratt till tjugofem semesterdagar varje semesterar.» 3 a § «Lordag och sondag raknas inte som semesterdagar annat an i fall som avses i 9 § tredje stycket. Med sondag jamstalls allman helgdag samt midsommarafton, julafton och nyarsafton.» 11 § «Om det inte gar att komma overens om hur semesterledighet ska forlaggas, bestammer arbetsgivaren om forlaggningen, om inte nagot annat har avtalats.» 12 § «Om inte annat har avtalats, ska semesterledigheten forlaggas sa, att arbetstagaren far en ledighetsperiod av minst fyra veckor under juni-augusti.»",
+      "version_consolidada": "Andrad: t.o.m. SFS 2014:424",
+      "nota": "La marca de consolidacion del propio registro dice que la ultima modificacion es de 2014, o sea ANTERIOR a la ventana. Es evidencia POSITIVA de ausencia de reforma, no ausencia de busqueda."
+    },
+    "F2": {
+      "cita": "Lag (1989:253) om allmanna helgdagar — 1 § y 2 §",
+      "nivel_de_fuente": 2,
+      "tipo": "registro de Svensk forfattningssamling del Riksdag",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1989253-om-allmanna-helgdagar_sfs-1989-253/",
+      "literal_relevante": "1 § «Med allman helgdag avses i lag eller annan forfattning sondagar, darib1and paskdagen och pingstdagen, nyarsdagen, trettondedag jul, forsta maj, juldagen och annandag jul, aven nar de inte infaller pa en sondag, langfredagen, annandag pask, Kristi himmelsfardsdag, nationaldagen, midsommardagen och alla helgons dag.» 2 § fija las fechas: nyarsdagen el 1 de enero, trettondedag jul el 6 de enero, nationaldagen el 6 de junio, midsommardagen el sabado entre el 20 y el 26 de junio, alla helgons dag el sabado entre el 31 de octubre y el 6 de noviembre, juldagen y annandag jul el 25 y 26 de diciembre.",
+      "ultima_modificacion": "SFS 2004:1320",
+      "publicacion": "2004-12-16",
+      "nota": "La ultima modificacion es de 2004 —la que hizo del 6 de junio dia festivo a cambio del lunes de Pentecostes—, tambien anterior a la ventana."
+    }
+  },
+
+  "feriados": {
+    "estado": "COMPLETO para 2026: once dias. Ver `por_que_no_trece` antes de comparar el numero con otras fuentes.",
+    "fuente": "F2",
+    "por_que_no_trece": "El 1 § dice «sondagar, DARIBLAND paskdagen och pingstdagen» — domingos, ENTRE ELLOS el domingo de Pascua y el de Pentecostes. O sea que la ley no los declara feriados aparte: los nombra como ejemplos de domingo. Contarlos como dos feriados adicionales infla el calendario sueco en dos dias que por construccion caen siempre en domingo. Once es la cuenta de dias que la ley declara y que pueden caer en dia laborable.",
+    "lista": [
+      {"fecha": "01-01", "nombre": "Nyarsdagen", "clase_de_regla": "fija"},
+      {"fecha": "01-06", "nombre": "Trettondedag jul", "clase_de_regla": "fija"},
+      {"fecha": null, "nombre": "Langfredagen", "clase_de_regla": "computable", "regla": "pascua-2"},
+      {"fecha": null, "nombre": "Annandag pask", "clase_de_regla": "computable", "regla": "pascua+1"},
+      {"fecha": "05-01", "nombre": "Forsta maj", "clase_de_regla": "fija"},
+      {"fecha": null, "nombre": "Kristi himmelsfardsdag", "clase_de_regla": "computable", "regla": "pascua+39"},
+      {"fecha": "06-06", "nombre": "Nationaldagen", "clase_de_regla": "fija"},
+      {
+        "fecha": null,
+        "nombre": "Midsommardagen",
+        "clase_de_regla": "relativa_a_fecha",
+        "mes": 6,
+        "dia": 19,
+        "dia_semana": 6,
+        "offset_dias": 1,
+        "nota": "La ley dice «el sabado que cae entre el 20 y el 26 de junio». Se codifica como «el sabado siguiente al 19 de junio», que es la misma fecha en todos los anos y si cabe en la clase: si el 19 es sabado, el siguiente es el 26, que esta en la ventana; si el 20 es sabado, el siguiente al 19 es el 20. Se usa la formulacion estricta porque el precedente de Ontario (Victoria Day, «the Monday preceding May 25») fijo que el offset es estricto y no «en o despues de»."
+      },
+      {
+        "fecha": null,
+        "nombre": "Alla helgons dag",
+        "clase_de_regla": "relativa_a_fecha",
+        "mes": 10,
+        "dia": 30,
+        "dia_semana": 6,
+        "offset_dias": 1,
+        "nota": "«El sabado que cae entre el 31 de octubre y el 6 de noviembre», reescrito como «el sabado siguiente al 30 de octubre» por el mismo motivo que Midsommardagen. Ojo: el ancla es de OCTUBRE y la fecha resultante puede caer en NOVIEMBRE; la clase lo admite y conviene decirlo."
+      },
+      {"fecha": "12-25", "nombre": "Juldagen", "clase_de_regla": "fija"},
+      {"fecha": "12-26", "nombre": "Annandag jul", "clase_de_regla": "fija"}
+    ],
+    "total_2026": 11,
+    "no_son_helgdagar_pero_cuentan_para_vacaciones": {
+      "dias": ["Midsommarafton (viernes anterior a Midsommardagen)", "Julafton (24 de diciembre)", "Nyarsafton (31 de diciembre)"],
+      "que_son": "NO son allmanna helgdagar: el 1 § de la ley de 1989 no los incluye. Pero el 3 a § de la semesterlagen los EQUIPARA A DOMINGO a efectos de vacaciones, con lo que tampoco consumen dia de vacaciones. En la practica y por convenio colectivo son dias libres casi generales.",
+      "por_que_no_van_en_la_lista": "Porque la unidad de medida del proyecto es el feriado declarado por la norma de feriados, y estos tres no lo son. Meterlos daria catorce y mezclaria dos conceptos.",
+      "por_que_importan_igual": "Interactuan con las vacaciones exactamente igual que un feriado. Una unidad que solo lea la lista de feriados subestima el efecto sueco; una que los sume, sobreestima el calendario. El esquema no tiene un lugar para «dia que no es feriado pero se comporta como tal frente a las vacaciones»."
+    },
+    "regla_de_traslado": "NINGUNA. Suecia no traslada. El 1 § dice de nyarsdagen, trettondedag jul, forsta maj, juldagen y annandag jul que lo son «aven nar de inte infaller pa en sondag» — tambien cuando no caen en domingo—, que es la formula inversa: son helgdag caiga donde caiga, sin sustituto.",
+    "subnacionales": []
+  },
+
+  "vacaciones": {
+    "texto_legal_dias": 25,
+    "tipo_de_dia": "habil — LEIDO: no por deduccion sino porque el 3 a § define expresamente que NO es semesterdag",
+    "literal": "En arbetstagare har ratt till tjugofem semesterdagar varje semesterar.",
+    "fuente": "F1",
+    "base_semanal": "5. El 3 a § dice «Lordag och sondag raknas inte som semesterdagar» — sabado y domingo NO se cuentan como dias de vacaciones. La base de cinco sale del texto, no de un supuesto.",
+    "primer_ano": "4 §: si el vinculo empieza despues del 31 de agosto del semesterar, el derecho es de solo CINCO semesterdagar ese ano.",
+    "escala_antiguedad": "ninguna — 25 dias desde el primer semesterar, sin progresion.",
+    "colocacion_literal": "10 §: el empleador negocia con la organizacion sindical del trabajador. 11 §: si no se logra acuerdo sobre la colocacion, DECIDE EL EMPLEADOR, salvo pacto en contrario, y debe avisar con al menos dos meses. 12 §: salvo pacto, la ausencia se coloca de modo que el trabajador tenga un periodo continuo de al menos CUATRO SEMANAS entre junio y agosto.",
+    "estado_verificacion": "verificado_primaria"
+  },
+
+  "derecho_a_ausentarse_distinto_del_derecho_a_cobrar": {
+    "_": "HALLAZGO. Suecia parte en dos lo que el esquema trata como una sola cosa.",
+    "que_dice_la_ley": "El 4 § concede 25 semesterdagar CADA semesterar y anade: «Under semesterledighet ska arbetstagaren ha semesterlon, om sadan har tjanats in enligt 7 §» — durante la ausencia el trabajador tendra retribucion de vacaciones SI la ha devengado conforme al 7 §. El 7 § computa los dias PAGADOS a partir del tiempo de empleo durante el ano de devengo (intjanandear), que es el anterior al semesterar.",
+    "consecuencia": "Un trabajador puede tener derecho a 25 dias de AUSENCIA y a menos de 25 dias PAGADOS. En el primer ano de empleo lo normal es tener los 25 de ausencia y muy pocos o ninguno pagado.",
+    "por_que_el_esquema_no_lo_puede_decir": "`vacaciones_version.texto_legal_dias` es un solo numero y no hay campo que separe ausencia de retribucion. Se codifican 25 porque es lo que dice el 4 §, pero para un trabajador de referencia de doce meses exactos con el mismo empleador el numero PAGADO puede ser menor segun donde caiga el semesterar. La Republica Dominicana trae el mismo problema por el otro lado: alli divergen los dias de descanso y los dias de SALARIO dentro de la escala.",
+    "estado": "PENDIENTE decidir por el principal."
+  },
+
+  "imputacion": {
+    "valor": "extienden",
+    "articulo": "3 a § semesterlagen",
+    "literal": "Lordag och sondag raknas inte som semesterdagar annat an i fall som avses i 9 § tredje stycket. Med sondag jamstalls allman helgdag samt midsommarafton, julafton och nyarsafton.",
+    "traduccion": "Sabado y domingo no se cuentan como dias de vacaciones salvo en el caso del 9 § parrafo tercero. Se equipara a domingo el feriado general, asi como la visperas de San Juan, de Navidad y de Ano Nuevo.",
+    "verificado": "SI, con articulo y literal. No es derivado del tipo de dia: el articulo DEFINE que no es semesterdag, y lo hace nombrando los feriados uno por uno.",
+    "nota": "Mecanismo distinto del checo y del rumano aunque el valor coincida. Chequia excluye el feriado que cae en dia que habria sido de trabajo PARA ESE TRABAJADOR; Rumania dice que los feriados no estan incluidos en la duracion; Suecia lo resuelve por DEFINICION de la unidad de cuenta, equiparando el feriado al domingo. Tres redacciones, un valor, y solo la sueca arrastra ademas tres visperas que no son feriados."
+  },
+
+  "corte_2016": {
+    "estado": "verificado",
+    "nota": "Ninguna reforma en la ventana, y se verifica POSITIVAMENTE: el registro consolidado del Riksdag declara para la Semesterlag «Andrad: t.o.m. SFS 2014:424» y para la Lag om allmanna helgdagar una ultima modificacion de SFS 2004:1320. Ambas anteriores al 1-ene-2016. No es `supuesto_sin_cambio` porque el propio texto oficial afirma cual fue la ultima modificacion, en vez de que yo no haya encontrado ninguna."
+  },
+
+  "delta_2016_2026": {"feriados": "0", "vacaciones": "0"},
+
+  "huecos": [
+    {
+      "id": "H1",
+      "que": "Los 25 dias son de AUSENCIA; los dias PAGADOS se devengan aparte en el intjanandear (7 §). El esquema tiene un solo numero.",
+      "por_que_importa": "El valor comparable entre paises suele ser el de vacaciones PAGADAS. Suecia publica 25 y la cifra es correcta para ausencia y potencialmente alta para retribucion en el primer semesterar.",
+      "como_se_cierra": "Decision del principal: un campo que separe ausencia de retribucion, o declarar que el proyecto mide ausencia."
+    },
+    {
+      "id": "H2",
+      "que": "Midsommarafton, julafton y nyarsafton no son allmanna helgdagar pero se comportan como feriados frente a las vacaciones (3 a §).",
+      "como_se_cierra": "O un campo de «dia asimilado a feriado a efectos de vacaciones», o dejar constancia. De momento, constancia."
+    },
+    {
+      "id": "H3",
+      "que": "La cascada de colocacion (10 § negociacion sindical, 11 § el empleador decide si no hay acuerdo, 12 § cuatro semanas continuas en junio-agosto salvo pacto) se aplana en una sola regla de iniciativa del empleador.",
+      "por_que_importa": "El 12 § es un mandato de colocacion DE LA LEY —no del empleador ni del trabajador— sobre cuatro de las cinco semanas, o sea muy cerca de `calendario_fijo_legal` sobre una porcion, dispositivo por pacto. Codificar `empleador` sobre todo el derecho pierde ese limite legal, que es lo mas caracteristico del regimen sueco.",
+      "como_se_cierra": "Que el cargador admita reglas por porcion y en cascada."
+    },
+    {
+      "id": "H4",
+      "que": "No se capturo el 9 § (la excepcion que hace contar sabados y domingos), ni el regimen de semesterlon, ni el trato del primer semesterar iniciado despues del 31 de agosto (5 dias)."
+    }
+  ],
+
+  "no_mirado_todavia": ["CBR Labour Regulation Index", "cualquier dataset agregado de dias de vacaciones", "data/derived/semilla/"],
+
+  "vacaciones_normalizado": {
+
+    "sin_cambio": {
+
+      "pantalla_3": {
+        "cita": "Prensa y documentacion parlamentaria sueca: el derecho sigue en veinticinco días y la última reforma sustantiva de la ley es la simplificacion de 2009, en vigor en 2010. No aparece ninguna iniciativa ni cambio del numero de días entre 2016 y 2026.",
+        "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/semesterlag-1977480_sfs-1977-480/"
+      },
+      "buscado_en": "Repositorio de legislacion sueca con el registro de modificaciones (andringar) de la semesterlag 1977:480, artículo por artículo",
+
+      "cita": "El artículo del quantum —«tjugofem semesterdagar varje semesterar»— figura modificado por última vez por SFS 2009:1439, en vigor el 1 de abril de 2010. La ley entera no registra modificación posterior a SFS 2014:424. Las dos fechas son anteriores a la ventana.",
+
+      "nivel_de_fuente": 3,
+
+      "fecha_busqueda": "2026-08-11"
+
+    },
+    "dias": 25,
+    "tipo": "habil",
+    "base": 5,
+    "imputacion": "extienden",
+    "meses": 12,
+    "literal": "En arbetstagare har ratt till tjugofem semesterdagar varje semesterar (4 §); lordag och sondag raknas inte som semesterdagar... med sondag jamstalls allman helgdag samt midsommarafton, julafton och nyarsafton (3 a §)",
+    "escala": [[12, null, 25]],
+    "nota_periodo_de_calificacion": "`meses: 12` es artefacto. Suecia NO tiene periodo de calificacion para la AUSENCIA: los 25 dias corresponden a cada semesterar desde el primero, con la sola excepcion del vinculo iniciado despues del 31 de agosto, que da 5. Lo que si necesita un ano completo es la RETRIBUCION, que se devenga en el intjanandear; ver hueco H1. El tramo cero que el cargador antepone confunde ambos.",
+    "colocacion": {
+      "iniciativa": "empleador",
+      "veto": null,
+      "silencio": null,
+      "instrumento": "ley",
+      "literal": "Om det inte gar att komma overens om hur semesterledighet ska forlaggas, bestammer arbetsgivaren om forlaggningen, om inte nagot annat har avtalats (11 §); om inte annat har avtalats, ska semesterledigheten forlaggas sa, att arbetstagaren far en ledighetsperiod av minst fyra veckor under juni-augusti (12 §); forhandling med arbetstagarens organisation (10 §)",
+      "nota": "NO es `negociada` aunque la ley empiece por negociar. El 11 § pone un desempate explicito: si no hay acuerdo, decide el empleador. Turquia es `negociada` porque su norma no da desempate. La diferencia entre «se acuerda» y «se acuerda y si no, decide uno» es la que separa los dos valores, y aqui el residuo de poder es del empleador. Lo que el codigo pierde es el 12 §, que coloca por LEY cuatro semanas en el verano salvo pacto."
+    }
+  }
+}

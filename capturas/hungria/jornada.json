@@ -1,0 +1,81 @@
+{
+ "_": "JORNADA SEMANAL LEGAL ORDINARIA. Trabajador de referencia: sector privado formal, jornada completa, Budapest. Lote 5.",
+ "unidad": "HUN",
+ "jurisdiccion_de_referencia": "Budapest",
+ "capturado_por": "jornada · lote 5",
+ "fecha_captura_utc": "2026-08-11T05:38:11Z",
+ "fuentes": {
+  "J1": {
+   "cita": "2012. evi I. torveny a munka torvenykonyverol (Mt.), 92. par. (1), 97. par. (2), 99. par. (2)",
+   "url": "https://mkogy.jogtar.hu/jogszabaly?docid=a1200001.TV&pagenum=2",
+   "nivel_de_fuente": 2,
+   "publicacion": "2012",
+   "nota": "Base de datos de leyes del Orszaggyules (Parlamento hungaro). Los literales de 92.(1) y 97.(2) se leyeron tambien en net.jogtar.hu con redaccion identica, lo que da dos lecturas independientes del mismo texto."
+  },
+  "J2": {
+   "cita": "2012. evi I. torveny (Mt.), 105. par. (1)-(4) y 106. par. (1)-(2) - heti pihenonap y heti pihenoido",
+   "url": "https://mkogy.jogtar.hu/jogszabaly?docid=a1200001.TV&pagenum=2",
+   "nivel_de_fuente": 2,
+   "nota": "Los apartados (3) y (4) del 105. par. y el (2) del 106. par. son los que meten el domingo en la ecuacion y no se ven si uno lee solo el (1)."
+  },
+  "J3": {
+   "cita": "2012. evi I. torveny (Mt.), 102. par. (5) - habilitacion al ministro para reordenar los días de trabajo con motivo de los munkaszuneti napok",
+   "url": "https://net.jogtar.hu/jogszabaly?docid=a1200001.tv",
+   "nivel_de_fuente": 3,
+   "nota": "Leido en net.jogtar.hu (Wolters Kluwer), no en el sitio del Parlamento. Es la base legal del mecanismo hungaro de puentes con sabados trabajados, que NO es una regla de traslado de feriado."
+  },
+  "J4": {
+   "cita": "2018. evi CXVI. torveny, que modifica el Mt. - conocida como 'tuloratorveny'",
+   "url": "https://njt.hu/jogszabaly/2018-116-00-00",
+   "nivel_de_fuente": 3,
+   "publicacion": "2018-12",
+   "vigencia_desde": "2019-01-01",
+   "nota": "Identificada en el Nemzeti Jogszabalytar (repositorio oficial) pero no leida en literal; el contenido -400 horas anuales de extraordinaria y munkaidokeret de hasta 36 meses- viene de fuentes hungaras concordantes, incluida una nota sindical detallada."
+  }
+ },
+ "jornada": {
+  "horas_semanales_max": 40,
+  "horas_semanales_max_nota": "40 no aparece como cifra literal en el Mt.: sale de 8 horas diarias (92. par. 1) repartidas en los cinco dias que el 97. par. (2) declara como jornada general. El techo de una semana concreta en reparto desigual es 48 (99. par. 2 b), que promedia de vuelta a 40 dentro del munkaidokeret.",
+  "horas_diarias_max": 8,
+  "horas_diarias_max_nota": "8 es la jornada diaria completa. El techo de una jornada concreta programada es 12 (99. par. 2 a).",
+  "dias_ordinarios": 5,
+  "dias_ordinarios_origen": "declarado_en_la_ley",
+  "literal": "92. § (1) A teljes napi munkaido napi nyolc ora (altalanos teljes napi munkaido). || 97. § (2) A munkaltato a munkaidot heti ot napra, hetfotol pentekig osztja be (altalanos munkarend). || 99. § (2) A munkavallalo beosztas szerinti a) napi munkaideje legfeljebb tizenket ora, b) heti munkaideje legfeljebb negyvennyolc ora lehet.",
+  "traduccion": "92. § (1) El tiempo de trabajo diario completo es de ocho horas diarias (tiempo de trabajo diario completo general). || 97. § (2) El empleador distribuye el tiempo de trabajo en cinco dias por semana, de lunes a viernes (regimen de trabajo general). || 99. § (2) El tiempo de trabajo del trabajador segun su cuadrante podra ser a) de doce horas diarias como maximo, b) de cuarenta y ocho horas semanales como maximo.",
+  "traduccion_nota": "El 99. par. (2) fija el techo del CUADRANTE, no la jornada ordinaria; en reparto desigual (egyenlotlen munkaido-beosztas) esas 48 horas se compensan dentro del periodo de referencia hasta promediar las 40.",
+  "fuente": "J1",
+  "nota": "Hungria es el otro caso limpio del lote junto con Bulgaria: el 97. par. (2) NOMBRA los cinco dias y ademas los identifica, de lunes a viernes, como 'altalanos munkarend'. No hay derivacion aritmetica. La estructura es distinta a la de casi todos los demas: la ley fija la jornada DIARIA (8) y el REPARTO (5 dias), y de ahi salen las 40 semanales, en vez de fijar las 40 y callar el reparto."
+ },
+ "descanso_semanal": {
+  "dias": 2,
+  "cuales": "dos dias; al menos uno al mes ha de ser domingo. Bajo el regimen general de lunes a viernes son sabado y domingo",
+  "literal": "105. § (1) Hetenkent ket pihenonapot (heti pihenonap) kell beosztani. A heti pihenonapok egyenlotlenul is beoszthatok. || 105. § (4) A munkavallalo szamara [...] havonta legalabb egy heti pihenonapot vasarnapra kell beosztani. || 106. § (1) A munkavallalot - a heti pihenonapok helyett - hetenkent legalabb negyvennyolc orat kitevo, megszakitas nelkuli heti pihenoido illeti meg.",
+  "traduccion": "105. § (1) Deben asignarse dos dias de descanso por semana (dia de descanso semanal). Los dias de descanso semanal pueden asignarse tambien de forma desigual. || 105. § (4) Al trabajador [...] debe asignarsele al menos un dia de descanso semanal en domingo cada mes. || 106. § (1) Al trabajador le corresponde -en lugar de los dias de descanso semanal- un tiempo de descanso semanal ininterrumpido de al menos cuarenta y ocho horas por semana.",
+  "fuente": "J2",
+  "nota": "DOS dias, que es lo excepcional: solo Bulgaria y Hungria dan dos en este lote. Pero el domingo esta protegido de forma debil: el 105. par. (4) solo exige UNO al mes en domingo, no todos. Y en reparto desigual el 105. par. (3) permite encadenar hasta seis dias de trabajo antes de meter el dia de descanso. El 106. par. es la via alternativa: 48 horas continuas en vez de dos dias, con domingo al menos una vez al mes (106. par. 2). Bajo el regimen general de lunes a viernes del 97. par. (2), los dos dias son sabado y domingo, pero el texto no los nombra."
+ },
+ "traslado_por_defecto": {
+  "existe": false,
+  "regla": "se pierde",
+  "alcance": null,
+  "literal": "102. § (5) Felhatalmazast kap a foglalkoztataspolitikaert felelos miniszter, hogy - legkesobb a targyevet megelozo ev oktober 31-ig - az altalanos munkarendben foglalkoztatott munkavallalok munkaido-beosztasanak a munkaszuneti napok miatti valtoztatasat evenkent rendeletben szabalyozza.",
+  "traduccion": "102. § (5) Se faculta al ministro responsable de politica de empleo para regular anualmente por decreto, a mas tardar el 31 de octubre del ano anterior al de referencia, la modificacion del cuadrante de los trabajadores empleados en regimen general con motivo de los dias festivos.",
+  "fuente": "J3",
+  "nota": "EL LITERAL CITADO ES LA PRUEBA DE QUE NO HAY TRASLADO, NO DE QUE LO HAYA. Hungria no tiene norma que mueva un munkaszuneti nap caido en sabado o domingo: ese feriado se pierde. Lo que tiene es el mecanismo inverso y famoso -los 'athelyezett munkanapok'-: cuando un feriado cae en martes o jueves, el decreto ministerial anual declara puente el lunes o el viernes y lo hace TRABAJAR en un sabado. Eso no anade descanso, lo reordena, y solo se activa por caer entre semana. Codificarlo como traslado inflaria el descanso hungaro con dias que en realidad se devuelven."
+ },
+ "reformas_en_la_ventana": [
+  {
+   "instrumento": "2018. evi CXVI. torveny, modificacion del Mt.",
+   "anio": 2018,
+   "vigencia_desde": "2019-01-01",
+   "que_cambio": "Sube el tope anual de trabajo extraordinario de 250 a 400 horas -250 ordenables mas 150 de 'onkent vallalt tulmunka' por acuerdo escrito, revocable por el trabajador al cierre del ano calendario- y extiende el munkaidokeret hasta 36 meses por convenio colectivo. NO toca la jornada ordinaria de 8 horas ni el regimen general de cinco dias. Importa aqui porque un periodo de referencia de 36 meses permite que la semana efectiva se desvie de las 40 horas durante mucho tiempo sin infringir la ley."
+  },
+  {
+   "instrumento": "Modificacion del Mt. que anade el Viernes Santo (nagypentek) al catalogo de munkaszuneti napok",
+   "anio": 2016,
+   "vigencia_desde": "2017-01-01",
+   "que_cambio": "Feriado nuevo. No es jornada, se anota para el modulo de feriados de esta unidad."
+  }
+ ],
+ "pendiente": "El literal del 102. par. (5) se leyo en net.jogtar.hu (nivel 3) y no en el repositorio del Parlamento. La 2018. evi CXVI. torveny se identifico en njt.hu pero no se leyo en literal. No se verifico si hay modificaciones del Mt. posteriores a 2023 que toquen los 92., 97., 105. o 106. par."
+}

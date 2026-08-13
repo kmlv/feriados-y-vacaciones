@@ -1,0 +1,148 @@
+{
+  "_": "CAPTURA CIEGA de Brasil. La CLT se leyo en literal del Planalto. Los feriados de la jurisdiccion de referencia -Sao Paulo- son los que quedan flojos.",
+  "unidad": "BRA",
+  "jurisdiccion_de_referencia": "Sao Paulo (mas poblada)",
+  "captura_ciega": true,
+  "capturado_por": "captura · lote 8",
+  "fecha_captura_utc": "2026-08-10T20:05:00Z",
+
+  "fuentes": {
+    "F1": {
+      "cita": "Decreto-Lei 5.452 de 1943 - Consolidacao das Leis do Trabalho, arts. 129, 130, 134, 135 y 136",
+      "nivel_de_fuente": 2,
+      "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+      "nota": "Planalto, portal oficial de la Presidencia con el texto compilado. Leido en literal, con las marcas de redaccion vigente. PENDIENTE archivar la version."
+    },
+    "F2": {
+      "cita": "Lei 662 de 1949, con la redaccion de la Lei 10.607 de 2002 - feriados nacionais",
+      "nivel_de_fuente": 4,
+      "url": "http://www.planalto.gov.br/ccivil_03/leis/l0662.htm",
+      "nota": "No se leyo el literal: el extractor no llego a esta norma. Las siete fechas de abajo vienen de secundarias concordantes. PENDIENTE leer el art. 1 en el Planalto y subir a nivel 2."
+    },
+    "F3": {
+      "cita": "Lei 6.802 de 1980 - declara feriado nacional o dia 12 de outubro, Nossa Senhora Aparecida",
+      "nivel_de_fuente": 4,
+      "nota": "Idem: citada por secundarias, no leida."
+    },
+    "F4": {
+      "cita": "Lei 14.759 de 21 de dezembro de 2023 - institui o feriado nacional de 20 de novembro, Dia Nacional de Zumbi e da Consciencia Negra",
+      "nivel_de_fuente": 2,
+      "url": "https://normas.leg.br/?urn=urn%3Alex%3Abr%3Afederal%3Alei%3A2023-12-21%3B14759",
+      "publicacion": "2023-12-21",
+      "nota": "REFORMA DENTRO DE LA VENTANA. Confirmada por el Senado y por la Camara de Diputados, ambos portales oficiales. El literal no se transcribio."
+    },
+    "F5": {
+      "cita": "Lei 9.093 de 1995 - dispoe sobre feriados civis e religiosos",
+      "nivel_de_fuente": 4,
+      "nota": "Es la norma que habilita los feriados subnacionales: la data magna del Estado fijada por ley estadual, y hasta cuatro feriados religiosos declarados por ley municipal segun la tradicion local, incluida la Sexta-Feira da Paixao. No leida en literal."
+    },
+    "F6": {
+      "cita": "Lei 13.467 de 2017 - Reforma Trabalhista: nueva redaccion del art. 134 CLT",
+      "nivel_de_fuente": 2,
+      "nota": "REFORMA DENTRO DE LA VENTANA. Se leyo en el propio texto compilado de la CLT (F1), donde figura como '(Redacao dada pela Lei n° 13.467, de 2017)' sobre el §1 y como '(Incluido pela Lei n° 13.467, de 2017)' sobre el §3."
+    },
+    "F7": {
+      "cita": "Lei estadual paulista 9.497/1997 (data magna do Estado, 9 de julho) y ley municipal de Sao Paulo (aniversario da cidade, 25 de janeiro)",
+      "nivel_de_fuente": 5,
+      "nota": "Ninguna de las dos se localizo. Ver H2."
+    }
+  },
+
+  "feriados": {
+    "estado": "PARCIAL - los nacionales estan; los de Sao Paulo estan en nivel 5 y uno de ellos afecta al delta de la ventana. Ver H2.",
+    "fuente": "F2",
+    "literal": "Lei 662/1949 con la redaccion de la Lei 10.607/2002: sao feriados nacionais os dias 1° de janeiro, 21 de abril, 1° de maio, 7 de setembro, 2 de novembro, 15 de novembro e 25 de dezembro. A ellos se suman el 12 de outubro (Lei 6.802/1980) y el 20 de novembro (Lei 14.759/2023).",
+    "lista": [
+      {"fecha": "01-01", "nombre": "Confraternizacao Universal", "clase_de_regla": "fija"},
+      {"fecha": "04-21", "nombre": "Tiradentes", "clase_de_regla": "fija"},
+      {"fecha": "05-01", "nombre": "Dia do Trabalho", "clase_de_regla": "fija"},
+      {"fecha": "09-07", "nombre": "Independencia do Brasil", "clase_de_regla": "fija"},
+      {"fecha": "10-12", "nombre": "Nossa Senhora Aparecida", "clase_de_regla": "fija", "instrumento": "Lei 6.802/1980"},
+      {"fecha": "11-02", "nombre": "Finados", "clase_de_regla": "fija"},
+      {"fecha": "11-15", "nombre": "Proclamacao da Republica", "clase_de_regla": "fija"},
+      {"fecha": "11-20", "nombre": "Dia Nacional de Zumbi e da Consciencia Negra", "clase_de_regla": "fija",
+       "desde": 2024, "instrumento": "Lei 14.759/2023",
+       "nota": "Ley publicada el 21-dic-2023; el primer 20 de noviembre feriado NACIONAL fue el de 2024. OJO con el delta: ver H2, porque en la jurisdiccion de referencia puede no ser un feriado nuevo sino uno que sube de nivel."},
+      {"fecha": "12-25", "nombre": "Natal", "clase_de_regla": "fija"}
+    ],
+    "subnacionales": [
+      {"fecha": null, "nombre": "Sexta-Feira da Paixao", "clase_de_regla": "computable", "regla": "pascua-2",
+       "nota": "Feriado religioso del art. 1 II de la Lei 9.093/1995, que lo cuenta dentro del maximo de cuatro declarables por ley municipal. En la practica se observa en todo el pais. No localice la ley municipal paulistana. Nivel 5."},
+      {"fecha": "07-09", "nombre": "Revolucao Constitucionalista de 1932 - data magna do Estado de Sao Paulo", "clase_de_regla": "fija",
+       "nota": "Data magna estadual habilitada por el art. 1 I de la Lei 9.093/1995 y fijada por ley estadual paulista. No localice la ley. Nivel 5."},
+      {"fecha": "01-25", "nombre": "Aniversario da cidade de Sao Paulo", "clase_de_regla": "fija",
+       "nota": "Feriado municipal. No localice la ley. Nivel 5."}
+    ],
+    "no_incluidos": {
+      "carnaval": "Segunda y tercera-feira de Carnaval NO son feriado nacional en Brasil: son ponto facultativo federal. En Sao Paulo tampoco constan como feriado municipal. Se dejan fuera y se declara, porque es una de las omisiones que mas facilmente parecerian un error.",
+      "corpus_christi": "Tambien ponto facultativo federal. Puede ser feriado municipal donde una ley lo declare dentro del cupo de cuatro religiosos; no lo verifique para Sao Paulo."
+    }
+  },
+
+  "vacaciones_normalizado": {
+
+    "sin_cambio": {
+
+      "buscado_en": "Planalto, sitio oficial de legislacion del Gobierno de Brasil, texto de la Consolidacion de las Leyes del Trabajo con sus notas de redaccion por dispositivo",
+
+      "cita": "El art. 130 fija «30 (trinta) dias corridos, quando nao houver faltado ao servico mais de 5 (cinco) vezes», con la escala descendente por faltas. TODAS sus notas son del Decreto-lei 1.535, de 13 de abril de 1977 —«Redacao dada» en el encabezado e «Incluido» en cada inciso—, muy anterior a la ventana. Y las notas de la ventana existen en el documento: «(Redacao dada pela Lei n 13.467, de 2017)» aparece repetidamente, pero en otros articulos. Es exactamente lo que decia la ficha: la reforma de 2017 toco el fraccionamiento, no el quantum.",
+
+      "nivel_de_fuente": 1,
+
+      "indice_registra_modificaciones": true,
+
+      "indice_como_se_comprobo": "El documento anota dispositivo por dispositivo quien le dio su redaccion y en que anio, y se encontraron notas de 1945, 1977, 2011 y 2017. Registra la presencia con esa granularidad, asi que que las del art. 130 sean todas de 1977 es evidencia.",
+
+      "fecha_busqueda": "2026-08-12"
+
+    },
+    "dias": 30,
+    "tipo": "calendario",
+    "base": null,
+    "imputacion": "sin_regla_explicita",
+    "meses": 12,
+    "literal": "CLT art. 130: 'Apos cada periodo de 12 (doze) meses de vigencia do contrato de trabalho, o empregado tera direito a ferias, na seguinte proporcao: I - 30 (trinta) dias corridos, quando nao houver faltado ao servico mais de 5 (cinco) vezes'.",
+    "escala": [[12, null, 30]],
+    "colocacion": {
+      "iniciativa": "empleador",
+      "veto": null,
+      "silencio": null,
+      "instrumento": "ley",
+      "literal": "CLT art. 134 caput: 'As ferias serao concedidas por ato do empregador, em um so periodo, nos 12 (doze) meses subsequentes a data em que o empregado tiver adquirido o direito.' Art. 136: 'A epoca da concessao das ferias sera a que melhor consulte os interesses do empregador.' Art. 134 §1 (Lei 13.467/2017): 'Desde que haja concordancia do empregado, as ferias poderao ser usufruidas em ate tres periodos, sendo que um deles nao podera ser inferior a quatorze dias corridos e os demais nao poderao ser inferiores a cinco dias corridos, cada um.'"
+    },
+    "imputacion_nota": "NO HAY ARTICULO DE IMPUTACION, y el caso vale por lo que si hay al lado. La CLT dice 'dias corridos' (art. 130) y el art. 134 §3, anadido por la Lei 13.467/2017, dice: 'E vedado o inicio das ferias no periodo de dois dias que antecede feriado ou dia de repouso semanal remunerado.' O sea el legislador brasileno SI se ocupo del feriado en relacion con las vacaciones, y lo unico que regulo fue el ARRANQUE. Comparese con El Salvador, cuyo art. 178 tiene las DOS clausulas: los asuetos comprendidos no prolongan las vacaciones, Y las vacaciones no pueden iniciarse en esos dias. Brasil escribio la segunda mitad de la regla salvadorena y no la primera. Derivar la primera de 'dias corridos' seria exactamente lo que la regla 2 prohibe.",
+    "escala_por_faltas_no_representable": {
+      "literal": "CLT art. 130: 'I - 30 dias corridos, quando nao houver faltado ao servico mais de 5 vezes; II - 24 dias corridos, quando houver tido de 6 a 14 faltas; III - 18 dias corridos, quando houver tido de 15 a 23 faltas; IV - 12 dias corridos, quando houver tido de 24 a 32 faltas.'",
+      "por_que_no_cabe": "El esquema modela la variacion del quantum por ANTIGUEDAD -`escala_antiguedad`, con tramos en meses de servicio-. Brasil no varia por antiguedad en absoluto: los 30 dias son iguales el primer ano y el vigesimo. Lo que varia es por AUSENCIAS del trabajador dentro del periodo adquisitivo, que es otra dimension entera y ademas es una propiedad del trabajador, no de la norma. La escala cargada, [[12, null, 30]], es correcta para el trabajador de referencia y muda sobre los otros tres tramos."
+    }
+  },
+
+  "delta_2016_2026": {
+    "feriados": "+1 nacional (20 de novembro, Lei 14.759/2023, primer efecto 2024), SUJETO A H2: si el 20 de noviembre ya era feriado municipal en Sao Paulo antes de 2024, para la jurisdiccion de referencia el delta es 0 y lo que cambio fue el nivel normativo, no el numero de dias libres.",
+    "vacaciones": "0 en quantum. La Lei 13.467/2017 cambio la regla de fraccionamiento -de dos periodos excepcionales a tres con acuerdo del trabajador- y anadio la prohibicion de iniciar en visperas de feriado."
+  },
+
+  "corte_2016": {
+    "estado": "verificado",
+    "nota": "Dos reformas datadas dentro de la ventana: Lei 13.467/2017 sobre el art. 134 CLT y Lei 14.759/2023 sobre los feriados nacionales. El corte 2016 se deriva de ellas."
+  },
+
+  "huecos": [
+    {
+      "id": "H1",
+      "que": "Las leyes de feriados nacionales -662/1949 con la redaccion de la 10.607/2002, 6.802/1980, 9.093/1995 y 14.759/2023- no se leyeron en literal. Solo la CLT se leyo del Planalto.",
+      "como_se_cierra": "Descargar los cuatro textos del Planalto y transcribir sus articulos primeros."
+    },
+    {
+      "id": "H2",
+      "que": "No se determino si el 20 de noviembre ya era feriado en el municipio de Sao Paulo antes de la Lei 14.759/2023. Varias secundarias dicen que la fecha ya era feriado en seis estados y en torno a 1.200 municipios.",
+      "por_que_importa": "El protocolo mide la jurisdiccion de referencia, no el pais en abstracto. Si Sao Paulo ya lo tenia, el panel de dos cortes registrara para Sao Paulo un feriado ganado que Sao Paulo no gano. Es el mismo tipo de error que el feriado sexenal mexicano: un delta que no es una reforma para quien se esta midiendo.",
+      "como_se_cierra": "Localizar la ley municipal paulistana sobre el 20 de novembro y datarla."
+    },
+    {
+      "id": "H3",
+      "que": "Los tres feriados subnacionales de Sao Paulo estan en nivel 5, sin norma localizada.",
+      "como_se_cierra": "Localizar la ley estadual de la data magna y las leyes municipales del cupo religioso y del aniversario de la ciudad."
+    }
+  ]
+}

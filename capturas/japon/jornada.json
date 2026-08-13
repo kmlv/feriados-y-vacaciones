@@ -1,0 +1,81 @@
+{
+ "_": "JORNADA SEMANAL LEGAL ORDINARIA. Trabajador de referencia: sector privado formal, jornada completa, Tokio. Lote 5. La jornada ordinaria y el tope de horas extra son cosas distintas y aqui van separadas.",
+ "unidad": "JPN",
+ "jurisdiccion_de_referencia": "Tokio",
+ "capturado_por": "jornada · lote 5",
+ "fecha_captura_utc": "2026-08-11T05:38:11Z",
+ "fuentes": {
+  "J1": {
+   "cita": "労働基準法 (Ley de Normas Laborales), Ley n. 49 de 1947, arts. 32 y 35. Versión con la última modificación de la Ley n. 71 de 2018",
+   "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3567",
+   "nivel_de_fuente": 2,
+   "publicacion": "1947, ultima modificacion citada: Ley n. 71 de 2018",
+   "nota": "Portal de traducciones oficiales del Ministerio de Justicia, que publica el japones original junto a la traduccion. El original japones es el que se cita como literal; la traduccion oficial lleva la advertencia habitual de que solo el japones tiene valor. e-gov (laws.e-gov.go.jp) no devolvio el articulado."
+  },
+  "J2": {
+   "cita": "労働基準法, art. 36 apartado 3 - 限度時間, topes de horas extraordinarias",
+   "url": "https://www.japaneselawtranslation.go.jp/en/laws/view/3567",
+   "nivel_de_fuente": 2,
+   "nota": "Se captura para SEPARARLO de la jornada ordinaria, no para mezclarlo con ella."
+  },
+  "J3": {
+   "cita": "国民の祝日に関する法律 (Ley sobre los Días Festivos Nacionales), art. 3",
+   "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+   "nivel_de_fuente": 2,
+   "literal_relevante": "「国民の祝日」が日曜日に当たるときは、その日後においてその日に最も近い「国民の祝日」でない日を休日とする。",
+   "nota": "Pagina del Naikakufu (Gabinete), que reproduce el articulado. Es la base del 振替休日 (furikae kyujitsu)."
+  },
+  "J4": {
+   "cita": "労働基準法 art. 40 y 労働基準法施行規則 art. 25-2 - 特例措置対象事業場, jornada de 44 horas para centros de menos de 10 trabajadores en comercio, cine y teatro, sanidad y hosteleria",
+   "url": "https://jsite.mhlw.go.jp/tokushima-roudoukyoku/hourei_seido_tetsuzuki/roudoukijun_keiyaku/hourei_seido/tokurei01.html",
+   "nivel_de_fuente": 2,
+   "nota": "Delegacion regional del Ministerio de Salud, Trabajo y Bienestar. Se captura porque acota el alcance del 40: hay una franja del sector privado a la que la ley le permite 44."
+  }
+ },
+ "jornada": {
+  "horas_semanales_max": 40,
+  "horas_semanales_max_nota": "40 es la regla general del art. 32(1). Excepcion vigente en 2026: 44 horas para los 特例措置対象事業場 -centros con menos de 10 trabajadores habituales en comercio, cine y teatro, sanidad y hosteleria y ocio- por el art. 40 de la ley y el art. 25-2 del reglamento. No es un regimen sectorial exotico: cubre buena parte del pequeno comercio y la restauracion.",
+  "horas_diarias_max": 8,
+  "dias_ordinarios": 5,
+  "dias_ordinarios_origen": "derivado_de_topes",
+  "literal": "第三十二条 使用者は、労働者に、休憩時間を除き一週間について四十時間を超えて、労働させてはならない。 ② 使用者は、一週間の各日については、労働者に、休憩時間を除き一日について八時間を超えて、労働させてはならない。",
+  "traduccion": "Art. 32. El empleador no hara trabajar al trabajador mas de cuarenta horas por semana, excluidos los tiempos de descanso. (2) El empleador no hara trabajar al trabajador, en cada uno de los dias de la semana, mas de ocho horas al dia, excluidos los tiempos de descanso.",
+  "fuente": "J1",
+  "nota": "LOS CINCO DIAS SON DERIVADOS Y CONVIENE DECIR DE QUE. Salen de dividir el tope semanal entre el diario: 40 entre 8 da 5. Es la misma operacion que en Tailandia y Paraguay da 6. Pero es un TECHO DE DIAS COMPLETOS, no un reparto mandatado: la ley japonesa no dice en cuantos dias se trabaja, y una semana de seis dias de menos de siete horas cumple los dos topes sin problema. El art. 35 solo exige un dia libre, no dos. Se codifica 5 con este origen declarado. || Y ESTO NO ES EL TOPE DE HORAS EXTRA. El art. 32 es la jornada ordinaria; todo lo que pasa de ahi va por el acuerdo 36 (三六協定) y tiene sus propios limites, que van en el bloque aparte."
+ },
+ "topes_horas_extraordinarias": {
+  "_": "Bloque separado a proposito: no es jornada ordinaria.",
+  "mensual": 45,
+  "anual": 360,
+  "literal": "第三十六条 ③ 前項の限度時間は、一箇月について四十五時間及び一年について三百六十時間（第三十二条の四第一項第二号の対象期間として三箇月を超える期間を定めて同条の規定により労働させる場合にあつては、一箇月について四十二時間及び一年について三百二十時間）とする。",
+  "traduccion": "Art. 36 (3). El limite de horas del apartado anterior sera de cuarenta y cinco horas al mes y trescientas sesenta horas al ano (o de cuarenta y dos al mes y trescientas veinte al ano cuando se haga trabajar conforme al art. 32-4 fijando un periodo de referencia superior a tres meses).",
+  "fuente": "J2",
+  "nota": "Estos topes son la reforma de 2018-2019 y son VINCULANTES con sancion penal; antes eran una directriz administrativa sin fuerza. En circunstancias especiales pactadas se admite superarlos con techos duros: 720 horas al ano, menos de 100 en cualquier mes contando el trabajo en dia libre, y promedio de 80 en cualquier ventana de dos a seis meses."
+ },
+ "descanso_semanal": {
+  "dias": 1,
+  "cuales": "uno de cada siete, sin nombrar",
+  "literal": "第三十五条 使用者は、労働者に対して、毎週少くとも一回の休日を与えなければならない。 ② 前項の規定は、四週間を通じ四日以上の休日を与える使用者については適用しない。",
+  "traduccion": "Art. 35. El empleador debera conceder al trabajador al menos un dia de descanso cada semana. (2) La disposicion del apartado anterior no se aplica al empleador que conceda cuatro o mas dias de descanso a lo largo de cuatro semanas.",
+  "fuente": "J1",
+  "nota": "El domingo NO esta nombrado en ninguna parte de la Ley de Normas Laborales, y eso importa para la regla de traslado. El apartado (2) permite ademas prescindir de la periodicidad semanal: basta con cuatro dias en cuatro semanas, de modo que caben rachas largas sin descanso. El segundo dia libre del fin de semana japones -週休二日制- es practica de empresa y reglamento interno, no ley."
+ },
+ "traslado_por_defecto": {
+  "existe": true,
+  "regla": "se traslada al dia siguiente mas proximo que no sea festivo nacional",
+  "alcance": "todos los festivos nacionales, pero solo cuando caen en DOMINGO",
+  "literal": "第三条 「国民の祝日」は、休日とする。 ② 「国民の祝日」が日曜日に当たるときは、その日後においてその日に最も近い「国民の祝日」でない日を休日とする。 ③ その前日及び翌日が「国民の祝日」である日（「国民の祝日」でない日に限る。）は、休日とする。",
+  "traduccion": "Art. 3. Los 'dias festivos nacionales' son dias de descanso. (2) Cuando un 'dia festivo nacional' caiga en domingo, sera dia de descanso el dia posterior mas proximo que no sea 'dia festivo nacional'. (3) El dia cuyo dia anterior y dia siguiente sean 'dias festivos nacionales' (limitado a los que no sean dia festivo nacional) sera dia de descanso.",
+  "fuente": "J3",
+  "nota": "SI HAY REGLA, PERO CON DOS ACOTACIONES QUE CAMBIAN SU VALOR. Primera: se dispara por caer en DOMINGO, no por caer en el dia de descanso del trabajador. Como la Ley de Normas Laborales no nombra el domingo, un trabajador cuyo 休日 sea el miercoles no obtiene nada si el festivo cae ahi. Segunda: la ley de festivos regula el calendario publico, no obliga al empleador privado a dar libre el festivo; que un 祝日 sea dia no trabajado depende del reglamento interno o del contrato. El apartado (3) es un mecanismo distinto -el 国民の休日, dia puente entre dos festivos- y anade descanso en vez de trasladarlo."
+ },
+ "reformas_en_la_ventana": [
+  {
+   "instrumento": "働き方改革を推進するための関係法律の整備に関する法律 (Ley de reforma del estilo de trabajo), Ley n. 71 de 2018",
+   "anio": 2018,
+   "vigencia_desde": "2019-04-01 grandes empresas; 2020-04-01 pymes",
+   "que_cambio": "Convierte en tope legal vinculante, con sancion, los limites de horas extra del art. 36: 45 al mes y 360 al ano en regla general; en circunstancias especiales, 720 al ano, menos de 100 en un mes contando trabajo en dia libre y promedio de 80 en dos a seis meses. Introduce ademas la obligacion de que el empleador haga tomar efectivamente cinco dias de vacaciones anuales al ano. NO TOCA EL ART. 32: la jornada ordinaria sigue en 40 horas semanales y 8 diarias, como desde la reforma de 1987 completada en 1997."
+  }
+ ],
+ "pendiente": "El literal japones se leyo en el portal de traducciones del Ministerio de Justicia y no en e-gov, que no devolvio el articulado; la version alli publicada declara como ultima modificacion la Ley n. 71 de 2018, asi que no se descarta que existan modificaciones posteriores no reflejadas. || SENALADO Y NO CODIFICADO: en 2025-2026 el 労働基準関係法制研究会 del Ministerio de Salud, Trabajo y Bienestar propuso SUPRIMIR la excepcion de 44 horas y unificar todo en 40, junto con un tope de dias consecutivos de trabajo y el intervalo minimo entre jornadas. Multiples fuentes describen la reforma como 見送り -aplazada- y no consta ley aprobada. Por eso la excepcion de 44 horas se captura como VIGENTE en 2026 y la propuesta no entra en reformas_en_la_ventana. Conviene revisarlo antes de cerrar el dataset."
+}

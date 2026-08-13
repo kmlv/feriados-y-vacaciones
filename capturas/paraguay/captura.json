@@ -1,0 +1,375 @@
+{
+ "_": "CAPTURA CIEGA de Paraguay. Escrita leyendo el articulado en el portal de la Biblioteca y Archivo Central del Congreso Nacional (BACN), SIN mirar el CBR ni ningun dataset agregado. Paraguay resulto tener una REFORMA COMPLETA del regimen de feriados dentro de la ventana —Ley 7544/2025, de septiembre de 2025— y un rasgo que ninguna otra unidad del lote tiene: su numero anual de feriados NO es determinable desde la ley.",
+ "_estado": "PARCIAL — el tipo de dia dice 'habiles' pero la base semanal no se puede leer, y la regla de imputacion no existe. Ver `huecos`.",
+ "unidad": "PRY",
+ "jurisdiccion_de_referencia": "Asuncion (ciudad mas poblada)",
+ "captura_ciega": true,
+ "capturado_por": "captura · lote 4",
+ "fecha_captura_utc": "2026-08-10T19:55:00Z",
+ "fuentes": {
+  "F1": {
+   "cita": "Ley 7544/2025 — Que determina los feriados nacionales de la República del Paraguay, se establecen los feriados moviles y se faculta al Poder Ejecutivo a instituir otros feriados en situaciones especiales",
+   "nivel_de_fuente": 2,
+   "url": "https://www.bacn.gov.py/leyes-paraguayas/12908/ley-n-7544-2025-que-determina-los-feriados-nacionales-de-la-rep-blica-del-paraguay-se-establecen-los-feriados-m-viles-y-se-faculta-al-poder-ejecutivo-a-instituir-otros-feriados-en-situaciones-especiales",
+   "promulgacion": "2025-09-03",
+   "publicacion": "2025-09-03",
+   "nota": "NORMA VIGENTE. Derogo en bloque las Leyes 8/90, 715/95, 1601/2000, 1723/2001 y 4531/2011, unificando marco y traslado en un solo texto."
+  },
+  "F2": {
+   "cita": "Ley 213/93, Código del Trabajo — arts. 217, 218, 222, 223, 224, 225, 226, 234",
+   "nivel_de_fuente": 2,
+   "url": "https://www.bacn.gov.py/leyes-paraguayas/2608/ley-n-213-establece-el-codigo-del-trabajo"
+  },
+  "F3": {
+   "cita": "Ley 496/95 — modifica, amplia y deroga articulos de la Ley 213/93; su art. 1 sustituye el art. 218 (vacaciones)",
+   "nivel_de_fuente": 2,
+   "url": "https://www.bacn.gov.py/leyes-paraguayas/2514/modifica-amplia-y-deroga-articulos-de-la-ley-21393-codigo-del-trabajo",
+   "promulgacion": "1995-08-22",
+   "nota": "IMPORTANTE PARA NO EQUIVOCARSE DE TEXTO. El art. 218 ORIGINAL de 1993 decia 'doce dias corridos', sin 'habiles'. La palabra 'habiles' la inserto esta ley de 1995. Ambos textos siguen publicados en BACN en paginas distintas: quien cite 'dias corridos' esta leyendo el derogado."
+  },
+  "F4": {
+   "cita": "Ley 8/90 — Por la cual se determinan los feriados de la República (DEROGADA por la Ley 7544/2025)",
+   "nivel_de_fuente": 2,
+   "url": "https://www.bacn.gov.py/leyes-paraguayas/2358/por-la-cual-se-determinan-los-feriados-de-la-republica",
+   "nota": "Fija la linea base de 2016. No incluia el 20 de junio."
+  },
+  "F5": {
+   "cita": "Ley 1723/2001 — autoriza al Poder Ejecutivo a trasladar los feriados nacionales al día lunes (DEROGADA)",
+   "nivel_de_fuente": 2,
+   "url": "http://www.bacn.gov.py/leyes-paraguayas/634/ley-n-1723-autoriza-al-poder-ejecutivo-a-trasladar-los-feriados-nacionales-al-dia-lunes",
+   "promulgacion": "2001-06-29",
+   "nota": "Regimen de traslado vigente en el corte de 2016. Su art. 2 exceptuaba del traslado el 1 de enero, 15 de mayo, 8 de diciembre, 25 de diciembre, y Jueves y Viernes Santos. Su art. 3 exigia fijar el calendario anual con seis meses de antelacion, exigencia que la ley de 2025 elimino."
+  },
+  "F6": {
+   "cita": "Resolucion MTESS N.º 1290/2024 — Reglamento de otorgamiento de vacaciones",
+   "nivel_de_fuente": 3,
+   "url": "https://irunvillamayor.com.py/wp-content/uploads/2025/04/Resolucion-MTESS-N%C2%B0-1290_24-REGLAMENTO-OTORGAMIENTO-DE-VACACIONES.pdf",
+   "publicacion_parcial": "2024-12 — mes conocido, dia no establecido; por eso no se declara `publicacion`, que exige fecha completa",
+   "nota": "PDF firmado digitalmente por la Ministra, alojado en host privado. Es norma INFRALEGAL: primer reglamento formal de vacaciones del sector privado. Regula fraccionamiento, acumulacion, interrupcion y formalidades; NO altera la escala de dias."
+  },
+  "F7": {
+   "cita": "Decreto N.º 6215/2026 — traslada el feriado del 20 de junio de 2026 al lunes 22",
+   "nivel_de_fuente": 5,
+   "url": "https://grupovierci.brightspotcdn.com/39/cd/808fd5cf4b2a91e60a5b066dcbd0/decreto-6215-traslado-feriado-20-al-22-de-junio.pdf",
+   "publicacion": "2026-06-09",
+   "nota": "Documento oficial escaneado, alojado en CDN de prensa. El NIVEL VA POR EL HOST, no por el documento: nivel 5. Ejemplo concreto de que el traslado no es automatico sino que exige decreto expreso ano por ano."
+  },
+  "F8": {
+   "cita": "Gaceta Oficial del Paraguay",
+   "nivel_de_fuente": 1,
+   "url": "https://www.gacetaoficial.gov.py/",
+   "nota": "NO SE OBTUVO NINGUNA CITA DE NIVEL 1. El buscador de la Gaceta devuelve resultados vacios para 'Ley 7544' y no parece indexar contenido anterior a fechas recientes. BACN registra la publicacion del 3 de septiembre de 2025 sin numero de gaceta. PENDIENTE localizar la gaceta."
+  }
+ },
+ "feriados": {
+  "estado": "COMPLETO en la lista legal, e INDETERMINABLE en el conteo anual — ver `advertencia_de_conteo`",
+  "fuente": "F1",
+  "literal": "Ley 7544/2025 art. 1: 'Determinase como dias Feriados Nacionales de la Republica del Paraguay de cada ano, ademas de los dias domingos, los siguientes: 1 de enero, Ano Nuevo. 1 de marzo, Dia de los Heroes de la Patria. Jueves y Viernes, Semana Santa. 1 de mayo, Dia de los Trabajadores. 14 y 15 de mayo, Dia de la Independencia Nacional. 12 de junio, Dia de la Paz del Chaco. 20 de junio, Dia de la Jura de la Constitucion Nacional. 15 de agosto, Dia de la Fundacion de Asuncion y eventualmente, Dia de Transmision del Mando Presidencial. 29 de setiembre, Dia de la Batalla de Boqueron. 8 de diciembre, Dia de la Virgen de Caacupe. 25 de diciembre, Dia de la Navidad.'",
+  "advertencia_de_conteo": "EL NUMERO ANUAL DE FERIADOS DE PARAGUAY NO SE PUEDE DERIVAR DE LA LEY, y es la unica unidad del lote de la que esto es cierto. El art. 4 faculta al Ejecutivo a fijar por decreto HASTA TRES DIAS ADICIONALES cada ano 'con el fin de promover la actividad turistica y economica o celebrar ocasiones especiales', con los mismos efectos que los demas feriados nacionales. Se agotan cada ano y no se incorporan al art. 1. En 2025 se uso una vez; en 2026, al menos una (Decreto 6280/2026, martes 30 de junio, por el triunfo de la seleccion). Cualquier conteo que salga de la lista legal es un PISO, no el valor.",
+  "lista": [
+   {
+    "fecha": "01-01",
+    "nombre": "Año Nuevo",
+    "clase_de_regla": "fija",
+    "trasladable": false,
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "03-01",
+    "nombre": "Día de los Héroes de la Patria",
+    "clase_de_regla": "fija",
+    "trasladable": true,
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "TRASLADABLE por el art. 2. El traslado no es automatico: exige decreto expreso y puede ir al lunes ANTERIOR o al SIGUIENTE."
+   },
+   {
+    "fecha": null,
+    "nombre": "Jueves Santo",
+    "clase_de_regla": "computable",
+    "regla": "pascua-3",
+    "trasladable": false,
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": null,
+    "nombre": "Viernes Santo",
+    "clase_de_regla": "computable",
+    "regla": "pascua-2",
+    "trasladable": false,
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "05-01",
+    "nombre": "Día de los Trabajadores",
+    "clase_de_regla": "fija",
+    "trasladable": false,
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "05-14",
+    "nombre": "Día de la Independencia Nacional (primer día)",
+    "clase_de_regla": "fija",
+    "trasladable": false,
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "Son DOS dias distintos, 14 y 15, no uno de dos jornadas."
+   },
+   {
+    "fecha": "05-15",
+    "nombre": "Día de la Independencia Nacional (segundo día)",
+    "clase_de_regla": "fija",
+    "trasladable": false,
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "06-12",
+    "nombre": "Día de la Paz del Chaco",
+    "clase_de_regla": "fija",
+    "trasladable": true,
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "06-20",
+    "nombre": "Día de la Jura de la Constitución Nacional",
+    "clase_de_regla": "fija",
+    "trasladable": true,
+    "desde": "2025-09-03",
+    "instrumento": "Ley 7544/2025",
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "UNICO FERIADO NUEVO DE LA VENTANA. La ley se promulgo el 3 de septiembre de 2025, o sea despues del 20 de junio de ese ano: el primer efecto fue 2026, y ese ano se traslado al lunes 22 por el Decreto 6215/2026."
+   },
+   {
+    "fecha": "08-15",
+    "nombre": "Día de la Fundación de Asunción",
+    "clase_de_regla": "fija",
+    "trasladable": false,
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio",
+    "nota": "ES NACIONAL, NO LOCAL, pese al nombre: figura en el art. 1, que rige para toda la Republica. No esta en la lista del art. 2, luego es inamovible. La ley anade 'y eventualmente, Dia de Transmision del Mando Presidencial', que ocurre cada cinco anos y NO cambia el caracter de feriado del dia."
+   },
+   {
+    "fecha": "09-29",
+    "nombre": "Día de la Batalla de Boquerón",
+    "clase_de_regla": "fija",
+    "trasladable": true,
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "12-08",
+    "nombre": "Día de la Virgen de Caacupé",
+    "clase_de_regla": "fija",
+    "trasladable": false,
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   },
+   {
+    "fecha": "12-25",
+    "nombre": "Día de la Navidad",
+    "clase_de_regla": "fija",
+    "trasladable": false,
+    "categoria": "descanso_pagado_obligatorio",
+    "regimen": "descanso_obligatorio"
+   }
+  ],
+  "subnacionales": {
+   "existen": false,
+   "verificacion": "No se hallo ordenanza municipal ni norma que cree un feriado exclusivo de Asuncion. El 15 de agosto, pese a llamarse Dia de la Fundacion de Asuncion, es nacional."
+  },
+  "reglas_de_traslado": [
+   {
+    "nombre": "Traslado facultativo a lunes",
+    "base_legal": "Ley 7544/2025, arts. 2 y 3",
+    "literal": "Art. 2: 'Establecer como Feriados Moviles, que podran ser trasladados por el Poder Ejecutivo, los siguientes: 1 de marzo […] 12 de junio […] 20 de junio […] 29 de setiembre […]. Los demas feriados mencionados en el articulo 1 de la presente ley no seran moviles, por lo que permaneceran en sus respectivas fechas cada ano.' Art. 3: 'Autorizase al Poder Ejecutivo a trasladar anualmente, por Decreto, los Feriados Nacionales mencionados en el articulo 2 de la presente ley, a los dias lunes, anterior o siguiente al feriado que se traslada.'",
+    "nota": "DOS RASGOS QUE NINGUN OTRO TRASLADO DEL LOTE TIENE. Primero, es FACULTATIVO: no ocurre solo, hace falta decreto expreso feriado por feriado y ano por ano. Segundo, la direccion es AMBIVALENTE: al lunes anterior O al siguiente, a eleccion del Ejecutivo. No es una funcion del calendario, es una decision."
+   },
+   {
+    "nombre": "Feriados adicionales discrecionales",
+    "base_legal": "Ley 7544/2025, art. 4",
+    "literal": "'Facultase al Poder Ejecutivo a fijar cada ano, por Decreto, hasta un maximo de tres dias adicionales de Feriados Nacionales, distintos a los mencionados en el articulo 1 de la presente ley, con el fin de promover la actividad turistica y economica o celebrar ocasiones especiales. Los dias que se fijen como feriados por aplicacion de esta disposicion, tendran los mismos efectos que los demas Feriados Nacionales.'",
+    "nota": "NO es un traslado: son feriados NUEVOS, one-off, hasta tres por ano, a discrecion del Ejecutivo. Facultad que no existia antes de 2025."
+   }
+  ],
+  "conteo": {
+   "feriados_de_lista_2026": 13,
+   "feriados_de_lista_al_1_ene_2016": 12,
+   "adicionales_discrecionales_por_ano": "0 a 3, no determinable ex ante",
+   "nota": "13 en la lista de 2026 contra 12 en 2016 (la Ley 8/90 no tenia el 20 de junio). Mas hasta tres discrecionales que la ley de 2016 no permitia y la de 2025 si."
+  }
+ },
+ "vacaciones": {
+  "texto_legal_dias": 12,
+  "tipo_de_dia": "habiles corridos",
+  "literal": "Art. 218 (texto vigente, dado por el art. 1 de la Ley 496/95): 'Todo trabajador tiene derecho a un periodo de vacaciones remuneradas despues de cada ano de trabajo continuo al servicio del mismo empleador, cuya duracion minima sera: a) Para trabajadores de hasta cinco anos de antiguedad, doce dias habiles corridos; b) Para trabajadores con mas de cinco anos y hasta diez anos de antiguedad dieciocho dias habiles corridos; y, c) Para trabajadores con mas de diez anos de antiguedad, treinta dias habiles corridos. Las vacaciones comenzaran en dia lunes o el siguiente dia habil si aquel fuese feriado.'",
+  "tipo_de_dia_nota": "La expresion literal es 'dias habiles corridos', que parece contradictoria y se copia tal cual sin interpretar: 'habiles' indica el tipo de dia y 'corridos' que el bloque es consecutivo, o sea que no se suspende el conteo. Es tipo `habil`, pero la palabra no viene sola.",
+  "fuente": "F3",
+  "periodo_de_calificacion_meses": 12,
+  "periodo_literal": "'despues de cada ano de trabajo continuo al servicio del mismo empleador'. Confirmado por el art. 2 del Reglamento MTESS 1290/2024.",
+  "base_semanal": null,
+  "base_nota": "NO SE PUEDE LEER. El Codigo dice 'habiles' y en ninguna parte define que dia es habil a estos efectos. Paraguay tiene jornada semanal maxima de cuarenta y ocho horas y descanso dominical, lo que apunta a una semana de seis dias, pero eso es una inferencia MIA a partir de otro capitulo del Codigo, no una lectura del regimen de vacaciones. Doce habiles sobre base seis y doce sobre base cinco son periodos de calendario distintos, y esa eleccion no la hace quien codifica.",
+  "escala_antiguedad": {
+   "presente": true,
+   "tramos_literales": [
+    {
+     "frontera": "hasta cinco anos de antiguedad",
+     "dias": 12
+    },
+    {
+     "frontera": "mas de cinco anos y hasta diez anos",
+     "dias": 18
+    },
+    {
+     "frontera": "mas de diez anos de antiguedad",
+     "dias": 30
+    }
+   ],
+   "nota": "Es un minimo: la ley dice 'duracion minima sera'."
+  },
+  "fraccionamiento": "NO esta en el Codigo. Lo introdujo el Reglamento MTESS 1290/2024 art. 9: 'Unicamente a pedido del trabajador las vacaciones podran ser fraccionadas en periodos no inferiores a seis dias habiles corridos', en dos partes para quien tenga doce dias y hasta tres para quien tenga dieciocho o treinta. Es norma infralegal.",
+  "sancion_por_retraso": "Art. 223: 'Cuando las vacaciones sean otorgadas despues del plazo de goce, el empleador pagara al trabajador el doble de la respectiva remuneracion, sin perjuicio del descanso.'",
+  "estado_verificacion": "verificado_primaria"
+ },
+ "corte_2016": {
+  "estado": "verificado",
+  "nota": "En feriados, verificado: la Ley 7544/2025 esta localizada y datada, su clausula derogatoria enumera las cinco normas anteriores, y la lista de la Ley 8/90 se leyo directamente para la linea base. En vacaciones: no halle ninguna ley entre 2016 y agosto de 2026 que modificara el art. 218; el texto vigente sigue siendo el de 1995. Esa ausencia no esta verificada contra un indice de reformas, pero el unico cambio del periodo es infralegal (Resolucion MTESS 1290/2024) y no toca los dias."
+ },
+ "reformas": [
+  {
+   "instrumento": "Ley 7544/2025",
+   "efecto": "reforma completa del regimen de feriados: anade el 20 de junio; deroga las Leyes 8/90, 715/95, 1601/2000, 1723/2001 y 4531/2011; crea la facultad de hasta tres feriados adicionales por ano; redefine el conjunto trasladable como lista cerrada de cuatro; elimina la exigencia de fijar el calendario con seis meses de antelacion",
+   "promulgacion": "2025-09-03",
+   "primer_efecto": 2026,
+   "dentro_de_ventana": true,
+   "nivel_de_fuente": 2,
+   "nota": "No es un anadido: es una sustitucion de regimen. Un panel que solo mire el conteo veria +1 y se perderia el cambio de arquitectura, que es mayor."
+  },
+  {
+   "instrumento": "Resolucion MTESS N.º 1290/2024",
+   "efecto": "primer reglamento formal de otorgamiento de vacaciones del sector privado: fraccionamiento, acumulacion, interrupcion, formalidades",
+   "publicacion": "2024-12",
+   "dentro_de_ventana": true,
+   "nivel_de_fuente": 3,
+   "afecta_al_valor": false,
+   "nota": "INFRALEGAL. No cambia la escala de dias. Se registra porque cambia la regla de COLOCACION —introduce un fraccionamiento a pedido del trabajador que la ley no preveia—, y eso el panel tampoco lo puede fechar."
+  }
+ ],
+ "linea_base_2016": {
+  "n_feriados": 12,
+  "fuente": "Ley 8/90 (F4), leida directamente",
+  "lista": [
+   "01-01 Ano Nuevo",
+   "03-01 Dia de los Heroes",
+   "Jueves Santo",
+   "Viernes Santo",
+   "05-01 Dia de los Trabajadores",
+   "05-14 Independencia (por Ley 4531/2011)",
+   "05-15 Independencia",
+   "06-12 Paz del Chaco",
+   "08-15 Fundacion de Asuncion",
+   "09-29 Batalla de Boqueron",
+   "12-08 Virgen de Caacupe",
+   "12-25 Navidad"
+  ],
+  "aritmetica": "12 en 2016 + 1 (20 de junio, Ley 7544/2025) = 13 en 2026. CUADRA.",
+  "estado_verificacion": "verificado en la lista; el 14 de mayo se restablecio por la Ley 4531/2011, anterior a la ventana, y por tanto ya estaba en 2016."
+ },
+ "delta_2016_2026": {
+  "feriados": "+1 en la lista legal, mas una facultad nueva de hasta +3 discrecionales por ano",
+  "vacaciones": "0 en dias; cambio infralegal en la regla de fraccionamiento (2024)"
+ },
+ "huecos": [
+  {
+   "id": "H1",
+   "que": "La base semanal de los 'dias habiles' no se puede leer del regimen de vacaciones.",
+   "por_que_importa": "Doce habiles sobre semana de seis y sobre semana de cinco son periodos de calendario distintos. Con base nula el esquema no admite la fila.",
+   "como_se_cierra": "Localizar una definicion de 'dia habil' en el Codigo, en el Reglamento MTESS 1290/2024 o en jurisprudencia laboral. Si solo lo resuelve la practica, decirlo como se hizo con El Salvador."
+  },
+  {
+   "id": "H2",
+   "que": "No existe articulo de imputacion. Verificado por barrido sobre el texto completo de la Ley 213/93, la Ley 496/95 y el Reglamento MTESS 1290/2024.",
+   "por_que_importa": "Con `sin_regla_explicita` el total va a NA, que es lo correcto.",
+   "como_se_cierra": "Solo una norma nueva o una resolucion del MTESS."
+  },
+  {
+   "id": "H3",
+   "que": "Ninguna cita de nivel 1: el buscador de la Gaceta Oficial no devuelve la Ley 7544/2025.",
+   "como_se_cierra": "Localizar el numero de gaceta y el facsimil."
+  },
+  {
+   "id": "H4",
+   "que": "El conteo anual real depende de decretos que no se capturaron enteros: solo se localizo el traslado del 20 de junio de 2026 y un feriado adicional de 2026.",
+   "por_que_importa": "El valor del panel para Paraguay es un piso, no el numero.",
+   "como_se_cierra": "Capturar los decretos anuales de traslado y de feriados adicionales de cada ano de corte. Ver H-E16."
+  }
+ ],
+ "hallazgos_de_esquema": [
+  {
+   "id": "H-E16",
+   "titulo": "Un pais cuyo numero de feriados NO es derivable de la ley",
+   "detalle": "El art. 4 de la Ley 7544/2025 permite al Ejecutivo crear hasta tres feriados nacionales por ano, distintos de los de la lista y con los mismos efectos. El esquema modela feriados como versiones con regla de fecha y ocurrencias derivadas; para Paraguay eso da un PISO, no el valor. Los adicionales se podrian meter como `recurrencia: one_off` con la fecha del decreto, pero entonces hay que capturar los decretos de cada ano de corte, y el contrato de captura no lo pide.",
+   "sugerencia": "Un campo a nivel de unidad del tipo `conteo_completo_derivable_de_la_ley` (booleano) que marque estos casos, para que un analisis no trate el piso como el valor."
+  },
+  {
+   "id": "H-E17",
+   "titulo": "El traslado facultativo y bidireccional no es una regla, es una decision",
+   "detalle": "`regla_fecha_version.regla_de_traslado_aplicable` existe, pero los traslados de Nueva Zelanda, Japon o Polonia son funciones deterministas del calendario. El paraguayo no lo es: exige decreto expreso, feriado por feriado y ano por ano, y puede ir al lunes anterior O al siguiente. Dos anos con el mismo calendario pueden dar resultados distintos. Para el corte de 2026 la fecha observada del 20 de junio (lunes 22) sale de un decreto, no de una regla — y eso es `determinaciones_fecha` con metodo 'proclamacion_contemporanea', no una regla de traslado."
+  }
+ ],
+ "no_mirado_todavia": [
+  "CBR Labour Regulation Index",
+  "cualquier dataset agregado de dias de vacaciones",
+  "data/derived/semilla/"
+ ],
+ "vacaciones_normalizado": {
+   "sin_cambio": {
+     "buscado_en": "Biblioteca y Archivo Central del Congreso Nacional de Paraguay, texto de la Ley 496 que modifica, amplia y deroga articulos de la Ley 213/93",
+     "cita": "La ley enumera los articulos que reescribe —una lista larga en la que aparece el 218— y REPRODUCE su nuevo texto: «Art. 218.- Todo trabajador tiene derecho a un periodo de vacaciones remuneradas despues de cada año de trabajo continuo al servicio del mismo empleador, cuya duracion minima sera: a) Para trabajadores de hasta cinco anos de antiguedad, doce días habiles corridos». Ese es el texto vigente hoy, y la ley que lo fija es de 1995: la ficha decia «el texto vigente sigue siendo el de 1995» sin nombrarla, y aqui esta nombrada y leida.",
+     "nivel_de_fuente": 2,
+     "indice_registra_modificaciones": true,
+     "indice_como_se_comprobo": "La ley modificatoria enumera uno por uno los articulos que toca y transcribe su redaccion resultante: registra la presencia del cambio con su texto al lado.",
+     "fecha_busqueda": "2026-08-11"
+   },
+  "dias": 12,
+  "tipo": "habil",
+  "base": null,
+  "imputacion": "sin_regla_explicita",
+  "meses": 12,
+  "literal": "Para trabajadores de hasta cinco anos de antiguedad, doce dias habiles corridos (Codigo del Trabajo art. 218, texto dado por la Ley 496/95)",
+  "escala": [
+   [
+    12,
+    60,
+    12
+   ],
+   [
+    60,
+    120,
+    18
+   ],
+   [
+    120,
+    null,
+    30
+   ]
+  ],
+  "colocacion": {
+   "iniciativa": "empleador",
+   "veto": null,
+   "silencio": null,
+   "instrumento": "ley",
+   "literal": "Art. 222: 'La epoca de las vacaciones debe ser senalada por el empleador, a mas tardar dentro de los seis meses siguientes a la fecha en que se tiene derecho a vacaciones y ellas deben ser concedidas oficiosamente o a peticion del trabajador, sin perjudicar el servicio y la efectividad del descanso, para lo cual podra establecer turnos, si no prefiriese cerrar el establecimiento. El empleador dara a conocer por escrito al trabajador, con quince dias de anticipacion, la fecha en que se le concederan las vacaciones.'"
+  },
+  "colocacion_nota": "El empleador SENALA la epoca, con tope de seis meses desde que se causa el derecho y preaviso escrito de quince dias. El trabajador puede pedirlas —'a peticion del trabajador'— pero no tiene la palabra final. No hay concesion tacita ante el silencio: la sancion es economica, el doble de la remuneracion (art. 223). Precedente de Guatemala, Ontario y El Salvador. Nota: el fraccionamiento SI es de iniciativa exclusiva del trabajador, pero lo introdujo un reglamento de 2024, no la ley, y decide la forma, no la fecha.",
+  "imputacion_nota": "SIN REGLA EXPLICITA, verificado y no supuesto. Se barrio el texto integro de la Ley 213/93 buscando 'feriado': aparece en el art. 146 (trabajo a domicilio), el 154 (domesticos), el 217 ('Seran tambien dias de descanso obligatorio los feriados establecidos por la Ley'), el ultimo parrafo del 218 y el 234 (recargo del 100% por trabajar en feriado). Ninguno trata el feriado dentro del periodo vacacional. En el Reglamento MTESS 1290/2024 la palabra 'feriado' aparece UNA sola vez y es en los considerandos. La unica norma que conecta ambos conceptos es el ultimo parrafo del art. 218 —'Las vacaciones comenzaran en dia lunes o el siguiente dia habil si aquel fuese feriado'— y regula EL DIA DE INICIO, no la imputacion de los feriados intercalados. Varias fuentes secundarias afirman que los feriados no se descuentan, y todas lo derivan de la palabra 'habiles', que es justo la inferencia que la regla 2 del contrato prohibe tratar como prueba.",
+  "base_origen": "horario_del_trabajador",
+  "base_nota": "El Codigo dice «habiles» sin definir la semana ni remitirla a otra norma."
+ }
+}
